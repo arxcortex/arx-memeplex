@@ -7830,17 +7830,15 @@
   "name": "Shinto",
   "root": false,
   "root_axis": null,
-  "year": 712,
-  "year_approx": false,
+  "year": -300,
+  "year_approx": true,
   "origin_src": "https://grokipedia.com/page/Shinto",
-  "origin_note": "Older oral traditions were codified in texts like the Kojiki (712 CE)",
-  "place": "Nara",
-  "lat": 34.68,
-  "lon": 135.8,
+  "origin_note": "Dated to Yayoi-period (c. 300 BCE–300 CE) ritual artifacts such as bronze bells; roots go back to the Jōmon period. The Kojiki (712 CE) recorded the older oral tradition; it is a witness, not the start",
+  "place": "Japan",
+  "lat": null,
+  "lon": null,
   "thinkers": [],
-  "parents": [
-   "buddhas_dharma"
-  ],
+  "parents": [],
   "plain": "The \"way of the kami\": worship of spirits in nature and ancestors, centered on purity and harmony.",
   "summary": "Japanese worship of the kami, codified in the Kojiki (712) and long blended with Buddhism.",
   "ratings": {
@@ -7866,22 +7864,22 @@
    "hierarchy": 3
   },
   "rationale": {
-   "platonism": "No real link to platonism.",
-   "aristotelianism": "No real link to aristotelianism.",
-   "stoicism": "No real link to stoicism.",
-   "christianity": "No real link to christianity.",
-   "gnosticism": "No real link to gnosticism.",
-   "hermeticism": "No real link to hermeticism.",
-   "enlightenment_liberalism": "No real link to enlightenment_liberalism.",
-   "marxism": "No real link to marxism.",
-   "darwinism": "No real link to darwinism.",
-   "nietzsche": "No real link to nietzsche.",
-   "critical_theory": "No real link to critical_theory.",
+   "platonism": "No real link to Platonism.",
+   "aristotelianism": "No real link to Aristotelianism.",
+   "stoicism": "No real link to Stoicism.",
+   "christianity": "No real link to Christianity.",
+   "gnosticism": "No real link to Gnosticism.",
+   "hermeticism": "No real link to Hermeticism.",
+   "enlightenment_liberalism": "No real link to Enlightenment liberalism.",
+   "marxism": "No real link to Marxism.",
+   "darwinism": "No real link to Darwinism.",
+   "nietzsche": "No real link to Nietzsche.",
+   "critical_theory": "No real link to Critical theory.",
    "confucianism": "Set itself apart from Confucian duty ethics.",
-   "daoism": "No real link to daoism.",
-   "buddhism": "Integrated with Buddhism in the Nara period and after; Buddhism is the parent here as an influence.",
-   "vedanta": "No real link to vedanta.",
-   "islamic_philosophy": "No real link to islamic_philosophy.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "Blended with Buddhism from the Nara period on (shinbutsu-shūgō), though it is older and not descended from it.",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "No real link to Islamic philosophy.",
    "humor": "Not expressed through jokes or play.",
    "irony": "Not carried in an ironic tone.",
    "abstraction": "Kami live in natural places and things.",
@@ -7895,14 +7893,7 @@
   "domain": [
    "religion"
   ],
-  "edge_notes": {
-   "buddhas_dharma": {
-    "status": "contested",
-    "type": "syncretic influence",
-    "src": "https://grokipedia.com/page/Shinbutsu-shūgō",
-    "note": "Scholars debate whether Buddhism shaped Shinto or the two only coexisted (shinbutsu-shūgō)."
-   }
-  }
+  "parent_note": "No parent on the map. Shinto emerged before Buddhism reached Japan in the sixth century; Buddhism later blended with it (shinbutsu-shūgō) but is not its source."
  },
  {
   "id": "kokugaku",

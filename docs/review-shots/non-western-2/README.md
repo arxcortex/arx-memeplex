@@ -30,3 +30,10 @@ Tests (`t_nw2.py`, which serves the page from ../youtube-link with this branch's
 - 0 console or page errors.
 
 Note: adding ideas changes future Memele daily answers, because the answer is picked by index into the id-sorted list.
+
+## Audit fix: Shinto recording-date error (second commit)
+
+The audit rule says a tradition known through a later text is dated to its practice, and the recorders' tradition is not its parent. Shinto broke both parts. It was dated by the Kojiki (712) and had Buddhism as its parent. Grokipedia's Shinto page says it "emerged prior to the sixth-century introduction of Buddhism" and traces its roots to "Yayoi-period (c. 300 BCE–300 CE) artifacts".
+- Changes: year 712 → c. -300 (approximate); place Nara → Japan (no coordinates); the buddhas_dharma parent and its edge note are removed; a parent_note explains why; the Kojiki is kept in origin_note as the witness. The Buddhism score stays +2, with the reason "blended with" (agreement, not descent). The lowercase zero reasons now use proper axis names.
+- Kokugaku keeps Shinto as its parent. Tests were rerun: views.check 0, tours 0 bad edges, 0 errors.
+- Not changed: the Old Norse religion year (1270). The audit suggests about 800, but the source gives no exact year, so that call is left to the owner.
