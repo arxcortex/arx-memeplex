@@ -128,7 +128,7 @@
    "humor": "Not expressed through jokes or play.",
    "irony": "Makes its case directly, without ironic distance.",
    "critical_theory": "Comes before Critical theory existed, so it cannot descend from it.",
-   "hierarchy": "Aristotle sees a natural order of rank, from rulers over ruled to his defence of natural slavery.",
+   "hierarchy": "Aristotle sees a natural order of rank, from rulers over ruled to his defense of natural slavery.",
    "abstraction": "Forms are real, but they exist only inside physical things, so mind and matter are both needed.",
    "confucianism": "No real link to Confucianism.",
    "daoism": "Comes before Daoism existed, so it cannot descend from it.",
@@ -1633,7 +1633,7 @@
    "enlightenment_liberalism",
    "darwinian_selection"
   ],
-  "plain": "Neoliberals like Hayek and Friedman argued that free markets organise an economy better than government planning.",
+  "plain": "Neoliberals like Hayek and Friedman argued that free markets organize an economy better than government planning.",
   "summary": "Neoliberals favor markets, price signals and limits on state economic planning.",
   "ratings": {
    "platonism": 0,
@@ -10957,7 +10957,7 @@
    "islam"
   ],
   "plain": "Kalam is Islamic theology that uses reasoned argument to explain and defend belief in God, His justice and His oneness.",
-  "summary": "Muslim theologians use reasoned debate to defend God's oneness and justice; Mu'tazilites and Ash'arites are its main schools. Islamic theology.",
+  "summary": "Muslim theologians use reasoned debate to defend God's oneness and justice; Mu'tazilites and Ash'arites are its main schools.",
   "ratings": {
    "platonism": 0,
    "aristotelianism": 0,
@@ -11274,7 +11274,7 @@
   "year": 1921,
   "place": "London",
   "origin_src": "https://grokipedia.com/page/Margaret_Murray",
-  "origin_note": "Margaret Murray's The Witch-Cult in Western Europe, Oxford University Press, 1921 (batch1 fn 19). Place: London, where Murray worked; her 1917 Folklore article first set out the thesis",
+  "origin_note": "Margaret Murray's The Witch-Cult in Western Europe, Oxford University Press, 1921. Place: London, where Murray worked; her 1917 Folklore article first set out the thesis",
   "thinkers": [
    "Margaret Murray"
   ],
@@ -11342,7 +11342,7 @@
     {
      "place": "Britain",
      "src": "https://grokipedia.com/page/Margaret_Murray",
-     "note": "The page records its hold on British folklorists before 1970s archival work discredited it.",
+     "note": "It held sway among British folklorists before 1970s archival work discredited it.",
      "period": "1921–1960s"
     }
    ]
@@ -11369,7 +11369,7 @@
   "year": 1888,
   "place": "London",
   "origin_src": "https://grokipedia.com/page/Hermetic_Order_of_the_Golden_Dawn",
-  "origin_note": "Isis-Urania Temple of the Hermetic Order of the Golden Dawn chartered in London, 1 March 1888 (batch1 fn 20); founders Westcott, Woodman and Mathers",
+  "origin_note": "Isis-Urania Temple of the Hermetic Order of the Golden Dawn chartered in London, 1 March 1888; founders Westcott, Woodman and Mathers",
   "thinkers": [
    "William Wynn Westcott",
    "Samuel Liddell MacGregor Mathers",
@@ -11449,13 +11449,13 @@
     {
      "place": "Britain",
      "src": "https://grokipedia.com/page/Hermetic_Order_of_the_Golden_Dawn",
-     "note": "The page says the Order peaked in the 1890s with temples across Britain.",
+     "note": "The Order peaked in the 1890s with temples across Britain.",
      "period": "1890s"
     },
     {
      "place": "United States",
      "src": "https://grokipedia.com/page/Hermetic_Order_of_the_Golden_Dawn",
-     "note": "The page names US temples, such as Thme No. 8 in Boston, 1895.",
+     "note": "It had US temples, such as Thme No. 8 in Boston, 1895.",
      "period": "1890s"
     },
     {
@@ -11485,7 +11485,7 @@
   "year": 1812,
   "place": "Princeton, New Jersey",
   "origin_src": "https://grokipedia.com/page/Princeton_theology",
-  "origin_note": "Princeton Theological Seminary founded by the Presbyterian General Assembly on 13 June 1812 (batch1 fn 22)",
+  "origin_note": "Princeton Theological Seminary founded by the Presbyterian General Assembly on 13 June 1812",
   "thinkers": [
    "Archibald Alexander",
    "Charles Hodge",
@@ -11597,7 +11597,7 @@
   "year": 1831,
   "place": "Powerscourt, County Wicklow",
   "origin_src": "https://grokipedia.com/page/Dispensationalism",
-  "origin_note": "John Nelson Darby systematized it around the 1830s among the Plymouth Brethren; Powerscourt Conference 1831–33 (batch1 fn 23). Year set to 1831, the first Powerscourt meeting",
+  "origin_note": "John Nelson Darby systematized it around the 1830s among the Plymouth Brethren; Powerscourt Conference 1831–33. Year set to 1831, the first Powerscourt meeting",
   "thinkers": [
    "John Nelson Darby",
    "Dwight L. Moody",
@@ -11701,7 +11701,7 @@
   "year": 1874,
   "place": "Indianapolis",
   "origin_src": "https://grokipedia.com/page/Greenback_Party",
-  "origin_note": "Greenback Party founded at a convention in Indianapolis, 22–26 November 1874 (batch1 fn 21)",
+  "origin_note": "Greenback Party founded at a convention in Indianapolis, 22–26 November 1874",
   "thinkers": [
    "James B. Weaver",
    "Peter Cooper",
