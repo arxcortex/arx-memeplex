@@ -845,7 +845,8 @@
   ],
   "parents": [
    "cartesian_dualism",
-   "renaissance_humanism"
+   "renaissance_humanism",
+   "absolute_sovereignty"
   ],
   "plain": "Thinkers like Hobbes and Locke argued that governments get their right to rule from an agreement among the people they govern.",
   "summary": "Contract theorists ground political authority in the agreement of free individuals.",
@@ -896,11 +897,20 @@
   "stories": [],
   "sources": [
    "https://grokipedia.com/page/Social_contract",
-   "https://grokipedia.com/page/Leviathan_(Hobbes_book)"
+   "https://grokipedia.com/page/Leviathan_(Hobbes_book)",
+   "https://grokipedia.com/page/Jean_Bodin"
   ],
   "domain": [
    "politics"
-  ]
+  ],
+  "edge_notes": {
+   "absolute_sovereignty": {
+    "status": "documented",
+    "type": "influence",
+    "src": "https://grokipedia.com/page/Jean_Bodin",
+    "note": "Bodin's undivided sovereignty influenced later absolutists such as Hobbes."
+   }
+  }
  },
  {
   "id": "enlightenment_liberalism",
@@ -5684,7 +5694,8 @@
    "Jacques-Bénigne Bossuet"
   ],
   "parents": [
-   "christianity"
+   "christianity",
+   "absolute_sovereignty"
   ],
   "plain": "The divine right of kings says a monarch gets the right to rule straight from God, not from the people or the Pope. So subjects owe the king obedience, and rebelling against him counts as a sin.",
   "summary": "Kings receive their power directly from God and answer to God alone, so rebellion against them is a sin.",
@@ -5739,7 +5750,15 @@
   "domain": [
    "politics",
    "religion"
-  ]
+  ],
+  "edge_notes": {
+   "absolute_sovereignty": {
+    "status": "documented",
+    "type": "influence",
+    "src": "https://grokipedia.com/page/Divine_right_of_kings",
+    "note": "Bodin's Six Books (1576) synthesized absolutist theory, with sovereignty indivisible and ultimately God-derived, and influenced royal claims."
+   }
+  }
  },
  {
   "id": "catholic_social_teaching",
@@ -7811,17 +7830,15 @@
   "name": "Shinto",
   "root": false,
   "root_axis": null,
-  "year": 712,
-  "year_approx": false,
+  "year": -300,
+  "year_approx": true,
   "origin_src": "https://grokipedia.com/page/Shinto",
-  "origin_note": "Older oral traditions were codified in texts like the Kojiki (712 CE)",
-  "place": "Nara",
-  "lat": 34.68,
-  "lon": 135.8,
+  "origin_note": "Dated to Yayoi-period (c. 300 BCE–300 CE) ritual artifacts such as bronze bells; roots go back to the Jōmon period. The Kojiki (712 CE) recorded the older oral tradition; it is a witness, not the start",
+  "place": "Japan",
+  "lat": null,
+  "lon": null,
   "thinkers": [],
-  "parents": [
-   "buddhas_dharma"
-  ],
+  "parents": [],
   "plain": "The \"way of the kami\": worship of spirits in nature and ancestors, centered on purity and harmony.",
   "summary": "Japanese worship of the kami, codified in the Kojiki (712) and long blended with Buddhism.",
   "ratings": {
@@ -7847,22 +7864,22 @@
    "hierarchy": 3
   },
   "rationale": {
-   "platonism": "No real link to platonism.",
-   "aristotelianism": "No real link to aristotelianism.",
-   "stoicism": "No real link to stoicism.",
-   "christianity": "No real link to christianity.",
-   "gnosticism": "No real link to gnosticism.",
-   "hermeticism": "No real link to hermeticism.",
-   "enlightenment_liberalism": "No real link to enlightenment_liberalism.",
-   "marxism": "No real link to marxism.",
-   "darwinism": "No real link to darwinism.",
-   "nietzsche": "No real link to nietzsche.",
-   "critical_theory": "No real link to critical_theory.",
+   "platonism": "No real link to Platonism.",
+   "aristotelianism": "No real link to Aristotelianism.",
+   "stoicism": "No real link to Stoicism.",
+   "christianity": "No real link to Christianity.",
+   "gnosticism": "No real link to Gnosticism.",
+   "hermeticism": "No real link to Hermeticism.",
+   "enlightenment_liberalism": "No real link to Enlightenment liberalism.",
+   "marxism": "No real link to Marxism.",
+   "darwinism": "No real link to Darwinism.",
+   "nietzsche": "No real link to Nietzsche.",
+   "critical_theory": "No real link to Critical theory.",
    "confucianism": "Set itself apart from Confucian duty ethics.",
-   "daoism": "No real link to daoism.",
-   "buddhism": "Integrated with Buddhism in the Nara period and after; Buddhism is the parent here as an influence.",
-   "vedanta": "No real link to vedanta.",
-   "islamic_philosophy": "No real link to islamic_philosophy.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "Blended with Buddhism from the Nara period on (shinbutsu-shūgō), though it is older and not descended from it.",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "No real link to Islamic philosophy.",
    "humor": "Not expressed through jokes or play.",
    "irony": "Not carried in an ironic tone.",
    "abstraction": "Kami live in natural places and things.",
@@ -7876,14 +7893,7 @@
   "domain": [
    "religion"
   ],
-  "edge_notes": {
-   "buddhas_dharma": {
-    "status": "contested",
-    "type": "syncretic influence",
-    "src": "https://grokipedia.com/page/Shinbutsu-shūgō",
-    "note": "Scholars debate whether Buddhism shaped Shinto or the two only coexisted (shinbutsu-shūgō)."
-   }
-  }
+  "parent_note": "No parent on the map. Shinto emerged before Buddhism reached Japan in the sixth century; Buddhism later blended with it (shinbutsu-shūgō) but is not its source."
  },
  {
   "id": "kokugaku",
@@ -11900,5 +11910,641 @@
    ]
   },
   "parent_note": "No existing id has a documented handoff into the Greenback Party. Fetched sources trace it to post–Civil War deflation and the 1873 Coinage Act, and to the Grange (not a node). Leave parents empty; optional future parent: a Jacksonian/anti-bank node if added."
+ },
+ {
+  "id": "jainism",
+  "name": "Jainism",
+  "root": false,
+  "year": -557,
+  "year_approx": true,
+  "place": "Bihar, India",
+  "lat": null,
+  "lon": null,
+  "origin_src": "https://grokipedia.com/page/Mahavira",
+  "origin_note": "Mahavira (c. 599–527 BCE) reaches omniscience (kevala jnana) c. 557 BCE in the Svetambara dating and preaches across the Ganges valley; Jains trace earlier Tirthankaras such as Parshvanatha",
+  "thinkers": [
+   "Mahavira",
+   "Parshvanatha"
+  ],
+  "parents": [],
+  "plain": "An Indian religion of strict non-violence. Every living thing has a soul, karma is fine matter that sticks to it, and only harmlessness, self-denial and giving up possessions free it.",
+  "summary": "Mahavira's Indian path of total non-violence, many-sided truth and ascetic self-discipline, with no creator god.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 0,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 1,
+   "vedanta": -2,
+   "islamic_philosophy": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 2,
+   "hierarchy": 0
+  },
+  "rationale": {
+   "platonism": "No real link to Platonism.",
+   "aristotelianism": "No real link to Aristotelianism.",
+   "stoicism": "No real link to Stoicism.",
+   "christianity": "No real link to Christianity.",
+   "gnosticism": "No real link to Gnosticism.",
+   "hermeticism": "No real link to Hermeticism.",
+   "enlightenment_liberalism": "No real link to Enlightenment liberalism.",
+   "marxism": "No real link to Marxism.",
+   "darwinism": "No real link to Darwinism.",
+   "nietzsche": "No real link to Nietzsche.",
+   "critical_theory": "No real link to Critical theory.",
+   "confucianism": "No real link to Confucianism.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "Grew from the same sramana world of wandering ascetics as early Buddhism, with a similar path of renunciation.",
+   "vedanta": "Shares karma and rebirth with Hindu thought but rejects the authority of the Vedas and any creator god.",
+   "islamic_philosophy": "No real link to Islamic philosophy.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Aims to free an eternal soul from karmic matter, though it treats matter as fully real.",
+   "hierarchy": "Monks and nuns guide lay followers, but it sets out no ranked social or political order."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Jainism",
+   "https://grokipedia.com/page/Mahavira"
+  ],
+  "domain": [
+   "religion",
+   "philosophy"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Maharashtra, India",
+     "src": "https://grokipedia.com/page/Jainism",
+     "note": "The 2011 census counts about 1.4 million Jains here, the largest state community."
+    },
+    {
+     "place": "Rajasthan, India",
+     "src": "https://grokipedia.com/page/Jainism",
+     "note": "The 2011 census counts about 622,000 Jains here."
+    },
+    {
+     "place": "Gujarat, India",
+     "src": "https://grokipedia.com/page/Jainism",
+     "note": "The 2011 census counts about 577,000 Jains here, in strong merchant networks."
+    }
+   ]
+  },
+  "parent_note": "No parent on the map. Jainism arose among the sramana movements of ancient India, which are not a node."
+ },
+ {
+  "id": "yogacara",
+  "name": "Yogacara",
+  "root": false,
+  "year": 350,
+  "year_approx": true,
+  "place": "Purushapura (Peshawar)",
+  "lat": 34.01,
+  "lon": 71.58,
+  "origin_src": "https://grokipedia.com/page/Yogachara",
+  "origin_note": "Systematized in India in the 4th–5th centuries CE by the half-brothers Asanga, born in Purushapura (Peshawar) in Gandhara, and Vasubandhu",
+  "thinkers": [
+   "Asanga",
+   "Vasubandhu"
+  ],
+  "parents": [
+   "buddhas_dharma"
+  ],
+  "plain": "A Mahayana Buddhist school, also called Mind-Only, that says the world we see is made by the mind. Meditation reveals this, and seeing through it ends the craving behind suffering.",
+  "summary": "Mahayana 'Mind-Only' school of Asanga and Vasubandhu: experience is consciousness, analyzed in eight layers; shaped Tibet and East Asia.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 0,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 5,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 5,
+   "hierarchy": 0
+  },
+  "rationale": {
+   "platonism": "No real link to Platonism.",
+   "aristotelianism": "No real link to Aristotelianism.",
+   "stoicism": "No real link to Stoicism.",
+   "christianity": "No real link to Christianity.",
+   "gnosticism": "No real link to Gnosticism.",
+   "hermeticism": "No real link to Hermeticism.",
+   "enlightenment_liberalism": "Comes before Enlightenment liberalism existed; no link.",
+   "marxism": "Comes before Marxism existed; no link.",
+   "darwinism": "Comes before Darwinism existed; no link.",
+   "nietzsche": "Comes before Nietzsche existed; no link.",
+   "critical_theory": "Comes before Critical theory existed; no link.",
+   "confucianism": "No real link to Confucianism.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "One of the two main schools of Mahayana Buddhist philosophy, beside Madhyamaka.",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "Comes before Islamic philosophy existed; no link.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Holds that all phenomena are manifestations of consciousness.",
+   "hierarchy": "A philosophy of mind and meditation that says little about social rank."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Yogachara",
+   "https://grokipedia.com/page/Asanga",
+   "https://grokipedia.com/page/Vasubandhu"
+  ],
+  "domain": [
+   "religion",
+   "philosophy"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Nalanda, India",
+     "src": "https://grokipedia.com/page/Yogachara",
+     "note": "Flourished in Indian monastic universities like Nalanda until it declined in the twelfth century.",
+     "period": "until the 12th century CE"
+    },
+    {
+     "place": "China",
+     "src": "https://grokipedia.com/page/Yogachara",
+     "note": "Lived on in China as the Faxiang school."
+    },
+    {
+     "place": "Japan",
+     "src": "https://grokipedia.com/page/Yogachara",
+     "note": "Lived on in Japan as the Hosso school."
+    },
+    {
+     "place": "Tibet",
+     "src": "https://grokipedia.com/page/Yogachara",
+     "note": "Reached Tibet in the 8th century through Shantarakshita, blended with Madhyamaka.",
+     "period": "from the 8th century CE"
+    }
+   ]
+  },
+  "aliases": [
+   "Mind-Only",
+   "Cittamatra",
+   "Vijnanavada"
+  ]
+ },
+ {
+  "id": "illuminationism",
+  "name": "Illuminationism",
+  "root": false,
+  "year": 1186,
+  "year_approx": true,
+  "place": "Aleppo",
+  "lat": 36.2,
+  "lon": 37.16,
+  "origin_src": "https://grokipedia.com/page/Illuminationism",
+  "origin_note": "Suhrawardi (c. 1154–1191) begins to set out the system in Aleppo around 1186 and completes Hikmat al-ishraq (The Philosophy of Illumination) that year; he is executed there in 1191",
+  "thinkers": [
+   "Suhrawardi",
+   "Shams al-Din al-Shahrazuri",
+   "Mir Damad"
+  ],
+  "parents": [
+   "avicennism",
+   "neoplatonism",
+   "sufism"
+  ],
+  "plain": "Suhrawardi's Islamic philosophy of light. All reality is light pouring down from God, the Light of Lights, and the surest knowledge comes from direct inner vision, not logic alone.",
+  "summary": "Suhrawardi's synthesis of Avicenna, Neoplatonism and Sufism: being as degrees of light, known by direct intuition.",
+  "ratings": {
+   "platonism": 3,
+   "aristotelianism": -1,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 2,
+   "enlightenment_liberalism": 0,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 4,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 5,
+   "hierarchy": 3
+  },
+  "rationale": {
+   "platonism": "Takes Neoplatonic emanation as its frame and names Plato among its ancient sages.",
+   "aristotelianism": "Criticizes Aristotle's syllogistic logic and form-matter theory as unable to grasp immaterial truth.",
+   "stoicism": "No real link to Stoicism.",
+   "christianity": "No real link to Christianity.",
+   "gnosticism": "No real link to Gnosticism.",
+   "hermeticism": "Names Hermes Trismegistus among the ancient sages whose wisdom it claims to revive.",
+   "enlightenment_liberalism": "Comes before Enlightenment liberalism existed; no link.",
+   "marxism": "Comes before Marxism existed; no link.",
+   "darwinism": "Comes before Darwinism existed; no link.",
+   "nietzsche": "Comes before Nietzsche existed; no link.",
+   "critical_theory": "Comes before Critical theory existed; no link.",
+   "confucianism": "No real link to Confucianism.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "No real link to Buddhism.",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "A major school of Islamic philosophy, built in argument with Avicenna.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Treats all reality as light and prizes direct visionary knowledge.",
+   "hierarchy": "Ranks all beings on a scale of lights, from pure light down to darkness."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Illuminationism",
+   "https://grokipedia.com/page/Transcendent_theosophy"
+  ],
+  "domain": [
+   "philosophy",
+   "religion"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Isfahan",
+     "src": "https://grokipedia.com/page/Illuminationism",
+     "note": "Revived in the School of Isfahan under Mir Damad, with Safavid patronage.",
+     "period": "Safavid era"
+    }
+   ]
+  },
+  "aliases": [
+   "Ishraq",
+   "Philosophy of Illumination",
+   "Hikmat al-ishraq"
+  ],
+  "edge_notes": {
+   "avicennism": {
+    "status": "documented",
+    "type": "influence",
+    "src": "https://grokipedia.com/page/Illuminationism",
+    "note": "Suhrawardi trained in Avicenna's Peripatetic philosophy in Isfahan and built his system partly as a critique of it."
+   },
+   "neoplatonism": {
+    "status": "documented",
+    "type": "influence",
+    "src": "https://grokipedia.com/page/Illuminationism",
+    "note": "Suhrawardi adapted Neoplatonic emanation and graded levels of reality into his ontology of light."
+   },
+   "sufism": {
+    "status": "documented",
+    "type": "influence",
+    "src": "https://grokipedia.com/page/Illuminationism",
+    "note": "Suhrawardi studied under the Sufi master Majd al-Din Jili and fused Sufi mysticism into the system."
+   }
+  }
+ },
+ {
+  "id": "transcendent_theosophy",
+  "name": "Transcendent theosophy",
+  "root": false,
+  "year": 1628,
+  "year_approx": true,
+  "place": "Kahak, near Qom",
+  "lat": null,
+  "lon": null,
+  "origin_src": "https://grokipedia.com/page/Transcendent_theosophy",
+  "origin_note": "Mulla Sadra (c. 1571–1640), born in Shiraz and trained in Isfahan, begins developing his system in seclusion at Kahak near Qom; his Asfar (Four Intellectual Journeys) is completed around 1628",
+  "thinkers": [
+   "Mulla Sadra",
+   "Mulla Hadi Sabzavari",
+   "Muhammad Husayn Tabatabai"
+  ],
+  "parents": [
+   "avicennism",
+   "illuminationism",
+   "sufism"
+  ],
+  "plain": "Mulla Sadra's Persian philosophy. Existence itself is the real thing, not the kinds of things, and everything is always changing at its core as it rises toward God.",
+  "summary": "Mulla Sadra's synthesis of Avicenna, Illuminationism and Sufism: existence is primary and graded, and all beings move in their very substance.",
+  "ratings": {
+   "platonism": 2,
+   "aristotelianism": 1,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 0,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 4,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 4,
+   "hierarchy": 2
+  },
+  "rationale": {
+   "platonism": "Keeps the Neoplatonic picture of all reality flowing from one divine source.",
+   "aristotelianism": "Builds on Avicenna's Aristotelian philosophy but rejects its fixed substances with 'substantial motion'.",
+   "stoicism": "No real link to Stoicism.",
+   "christianity": "No real link to Christianity.",
+   "gnosticism": "No real link to Gnosticism.",
+   "hermeticism": "No real link to Hermeticism.",
+   "enlightenment_liberalism": "A contemporary of early modern Europe with no link to its liberal ideas.",
+   "marxism": "No real link to Marxism.",
+   "darwinism": "No real link to Darwinism.",
+   "nietzsche": "No real link to Nietzsche.",
+   "critical_theory": "No real link to Critical theory.",
+   "confucianism": "No real link to Confucianism.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "No real link to Buddhism.",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "Often called a culmination of Islamic philosophy, uniting reason, mysticism and revelation.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Makes existence the basic reality, graded from God, the Necessary Being, downward.",
+   "hierarchy": "Ranks beings by how intensely they exist, though as one continuous scale."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Transcendent_theosophy",
+   "https://grokipedia.com/page/Mulla_Sadra"
+  ],
+  "domain": [
+   "philosophy",
+   "religion"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Iran",
+     "src": "https://grokipedia.com/page/Transcendent_theosophy",
+     "note": "Became the dominant metaphysics in Shia seminaries of Iran; shaped Tabatabai in the 20th century."
+    },
+    {
+     "place": "South Asia",
+     "src": "https://grokipedia.com/page/Transcendent_theosophy",
+     "note": "Became the preferred framework for metaphysics in Shia seminaries across South Asia by the early 19th century."
+    },
+    {
+     "place": "Iraq",
+     "src": "https://grokipedia.com/page/Transcendent_theosophy",
+     "note": "Named among the lands where it shaped thinkers for over three centuries."
+    }
+   ]
+  },
+  "aliases": [
+   "al-Hikma al-muta'aliya",
+   "Sadrian philosophy",
+   "Transcendent wisdom"
+  ],
+  "edge_notes": {
+   "avicennism": {
+    "status": "documented",
+    "type": "influence",
+    "src": "https://grokipedia.com/page/Transcendent_theosophy",
+    "note": "Mulla Sadra absorbed Avicenna's Peripatetic philosophy in Isfahan."
+   },
+   "illuminationism": {
+    "status": "documented",
+    "type": "influence",
+    "src": "https://grokipedia.com/page/Transcendent_theosophy",
+    "note": "Mulla Sadra integrated Suhrawardi's Illuminationism into his synthesis."
+   },
+   "sufism": {
+    "status": "documented",
+    "type": "influence",
+    "src": "https://grokipedia.com/page/Transcendent_theosophy",
+    "note": "Mulla Sadra drew on the Sufi metaphysics of Ibn Arabi."
+   }
+  }
+ },
+ {
+  "id": "samkhya",
+  "name": "Samkhya",
+  "root": false,
+  "year": 350,
+  "year_approx": true,
+  "place": "India",
+  "lat": null,
+  "lon": null,
+  "origin_src": "https://grokipedia.com/page/Samkhya",
+  "origin_note": "Traced to the legendary sage Kapila and found in the Mahabharata (Epic period, c. 400 BCE onward); systematized in Ishvarakrishna's Samkhya-karika around the 4th century CE, the date used here",
+  "thinkers": [
+   "Kapila",
+   "Ishvarakrishna",
+   "Vijnanabhiksu"
+  ],
+  "parents": [
+   "upanishadic_brahman"
+  ],
+  "plain": "An ancient Hindu school that splits reality in two: pure consciousness (purusha) and active matter (prakriti). Suffering comes from mixing them up; knowing they are separate frees you.",
+  "summary": "One of the six orthodox Hindu schools: a dualism of consciousness and matter, with no creator god; gave Yoga its metaphysics.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 0,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 2,
+   "islamic_philosophy": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 1,
+   "hierarchy": 0
+  },
+  "rationale": {
+   "platonism": "No real link to Platonism.",
+   "aristotelianism": "No real link to Aristotelianism.",
+   "stoicism": "No real link to Stoicism.",
+   "christianity": "No real link to Christianity.",
+   "gnosticism": "No real link to Gnosticism.",
+   "hermeticism": "No real link to Hermeticism.",
+   "enlightenment_liberalism": "Comes before Enlightenment liberalism existed; no link.",
+   "marxism": "Comes before Marxism existed; no link.",
+   "darwinism": "Its unfolding of matter is sometimes compared to evolution, but there is no historical link.",
+   "nietzsche": "Comes before Nietzsche existed; no link.",
+   "critical_theory": "Comes before Critical theory existed; no link.",
+   "confucianism": "No real link to Confucianism.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "Shares enumerated lists and the denial of a creator with early Buddhism, but there is no debt either way.",
+   "vedanta": "Builds on Upanishadic ideas of the self, but splits spirit and matter instead of uniting them in Brahman.",
+   "islamic_philosophy": "Comes before Islamic philosophy existed; no link.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Holds that consciousness is eternal and distinct, but treats matter as equally real.",
+   "hierarchy": "A theory of mind and matter that says little about social rank."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Samkhya",
+   "https://grokipedia.com/page/Kapila"
+  ],
+  "domain": [
+   "philosophy",
+   "religion"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Bengal and Bihar",
+     "src": "https://grokipedia.com/page/Samkhya",
+     "note": "Revived in Bengal and Bihar circles, where Vijnanabhiksu and others tied it to Vedanta and Yoga.",
+     "period": "16th–18th centuries"
+    }
+   ]
+  },
+  "edge_notes": {
+   "upanishadic_brahman": {
+    "status": "documented",
+    "type": "influence",
+    "src": "https://grokipedia.com/page/Samkhya",
+    "note": "Its spirit-matter split grows out of Upanishadic distinctions between the self and the material world."
+   }
+  }
+ },
+ {
+  "id": "absolute_sovereignty",
+  "name": "Absolute sovereignty",
+  "root": false,
+  "year": 1576,
+  "year_approx": false,
+  "place": "France",
+  "lat": null,
+  "lon": null,
+  "origin_src": "https://grokipedia.com/page/Jean_Bodin",
+  "origin_note": "Jean Bodin defines sovereignty as the absolute, perpetual and indivisible power of a commonwealth in Les Six livres de la République (1576), written amid the French Wars of Religion",
+  "thinkers": [
+   "Jean Bodin"
+  ],
+  "parents": [
+   "aristotelian_teleology"
+  ],
+  "plain": "The idea that every state needs one supreme power, above all other laws and bodies, that cannot be split or shared. Only God and natural law stand above it.",
+  "summary": "Jean Bodin's 1576 theory that sovereignty is the absolute, perpetual, indivisible power of a state, bound only by divine and natural law.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 1,
+   "stoicism": 0,
+   "christianity": 2,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": -1,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 0,
+   "hierarchy": 4
+  },
+  "rationale": {
+   "platonism": "No real link to Platonism.",
+   "aristotelianism": "Borrows Aristotle's classes of state but builds a new concept of sovereignty on them.",
+   "stoicism": "No real link to Stoicism.",
+   "christianity": "Binds even the absolute sovereign by divine law, and treats sovereignty as ultimately from God.",
+   "gnosticism": "No real link to Gnosticism.",
+   "hermeticism": "No real link to Hermeticism.",
+   "enlightenment_liberalism": "Its undivided sovereign clashes with later liberal ideas of divided and limited power.",
+   "marxism": "No real link to Marxism.",
+   "darwinism": "No real link to Darwinism.",
+   "nietzsche": "No real link to Nietzsche.",
+   "critical_theory": "No real link to Critical theory.",
+   "confucianism": "No real link to Confucianism.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "No real link to Buddhism.",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "No real link to Islamic philosophy.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "A legal theory of the state, not a claim about what reality is made of.",
+   "hierarchy": "Puts one undivided supreme power over all estates, assemblies and subjects."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Jean_Bodin",
+   "https://grokipedia.com/page/Sovereignty",
+   "https://grokipedia.com/page/Divine_right_of_kings"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "France",
+     "src": "https://grokipedia.com/page/Jean_Bodin",
+     "note": "Gave the monarchy theoretical support through the end of the Wars of Religion in 1598.",
+     "period": "French Wars of Religion"
+    },
+    {
+     "place": "England",
+     "src": "https://grokipedia.com/page/Jean_Bodin",
+     "note": "Shaped English absolutist doctrine in the late 16th and 17th centuries.",
+     "period": "late 16th–17th centuries"
+    },
+    {
+     "place": "Holy Roman Empire",
+     "src": "https://grokipedia.com/page/Jean_Bodin",
+     "note": "Set the terms of German constitutional debates over the Empire's hybrid structure."
+    }
+   ]
+  },
+  "aliases": [
+   "Bodin's sovereignty",
+   "Six Books of the Commonwealth"
+  ],
+  "edge_notes": {
+   "aristotelian_teleology": {
+    "status": "documented",
+    "type": "influence",
+    "src": "https://grokipedia.com/page/Jean_Bodin",
+    "note": "Bodin drew on Aristotle's classifications of states and Roman law while building a new concept of sovereignty."
+   }
+  }
  }
 ]
