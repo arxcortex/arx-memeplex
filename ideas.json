@@ -3557,9 +3557,10 @@
    "A. C. Dixon"
   ],
   "parents": [
-   "methodism",
    "protestantism",
-   "scottish_common_sense_realism"
+   "scottish_common_sense_realism",
+   "princeton_theology",
+   "dispensationalism"
   ],
   "plain": "An American Protestant movement that defended core beliefs such as the Bible being free of error and Christ's miracles against liberal theology.",
   "summary": "American Protestants who defended core beliefs, like an error-free Bible and Christ's miracles, against liberal theology.",
@@ -4227,13 +4228,13 @@
   "id": "theravada",
   "name": "Theravada",
   "root": false,
-  "year": -50,
+  "year": -250,
   "year_approx": true,
   "place": "Sri Lanka",
   "lat": 7.87,
   "lon": 80.77,
   "origin_src": "https://grokipedia.com/page/Theravada",
-  "origin_note": "Its scriptures are written down in Sri Lanka in the 1st century BCE",
+  "origin_note": "Mahinda's mission brings it to Sri Lanka c. 250 BCE; its scriptures were written down there in the 1st century BCE.",
   "thinkers": [
    "Buddhaghosa"
   ],
@@ -5609,7 +5610,7 @@
    "Ignatius Donnelly"
   ],
   "parents": [
-   "social_contract"
+   "agrarian_greenbackism"
   ],
   "plain": "Populism splits society into two camps: the pure, ordinary people and a corrupt elite. Populists claim to speak for the people's single will and can attach to left-wing or right-wing programs.",
   "summary": "Populism pits the pure people against a corrupt elite and claims to speak for the people's single will.",
@@ -8214,8 +8215,8 @@
    "Gerald Gardner"
   ],
   "parents": [
-   "hermetic_correspondence",
-   "romanticism"
+   "murray_witch_cult",
+   "ceremonial_magic"
   ],
   "plain": "A modern nature religion of witchcraft with a goddess and a horned god, built by Gerald Gardner from occult and folk sources.",
   "summary": "Gardner's modern pagan witchcraft religion (1954).",
@@ -11253,5 +11254,540 @@
     "note": "Enlightenment natural history; whether the Enlightenment as such is responsible is debated."
    }
   }
+ },
+ {
+  "root": false,
+  "root_axis": null,
+  "year_approx": false,
+  "lat": 51.51,
+  "lon": -0.13,
+  "stories": [],
+  "domain": [
+   "religion"
+  ],
+  "id": "murray_witch_cult",
+  "name": "Murray witch-cult hypothesis",
+  "aliases": [
+   "witch-cult hypothesis",
+   "Murrayite thesis"
+  ],
+  "year": 1921,
+  "place": "London",
+  "origin_src": "https://grokipedia.com/page/Margaret_Murray",
+  "origin_note": "Margaret Murray's The Witch-Cult in Western Europe, Oxford University Press, 1921 (batch1 fn 19). Place: London, where Murray worked; her 1917 Folklore article first set out the thesis",
+  "thinkers": [
+   "Margaret Murray"
+  ],
+  "parents": [],
+  "plain": "Murray argued that the people tried as witches in early modern Europe belonged to a surviving pagan fertility religion that worshipped a horned god.",
+  "summary": "Murray recast the witch trials as evidence of an organized pagan cult. Scholars discredited the thesis, but Gardner built Wicca on it.",
+  "edge_notes": {},
+  "sources": [
+   "https://grokipedia.com/page/Margaret_Murray",
+   "https://grokipedia.com/page/Witch-cult_hypothesis"
+  ],
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": -2,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 0,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -1,
+   "hierarchy": 1
+  },
+  "rationale": {
+   "platonism": "No real link to Platonism.",
+   "aristotelianism": "No real link to Aristotelianism.",
+   "stoicism": "No real link to Stoicism.",
+   "christianity": "Reads the witch trials as Christian persecution of an older pagan faith (Grokipedia, Witch-cult hypothesis).",
+   "gnosticism": "No real link to Gnosticism.",
+   "hermeticism": "No real link to Hermeticism.",
+   "enlightenment_liberalism": "No real link to Enlightenment liberalism.",
+   "marxism": "No real link to Marxism.",
+   "darwinism": "No real link to Darwinism.",
+   "nietzsche": "No real link to Nietzsche.",
+   "critical_theory": "No real link to Critical theory.",
+   "confucianism": "No real link to Confucianism.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "No real link to Buddhism.",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "No real link to Islamic philosophy (falsafa).",
+   "humor": "Scholarly in register.",
+   "irony": "Meant literally.",
+   "abstraction": "Argues from trial records and folklore, not theory.",
+   "hierarchy": "Pictures witches in structured, hierarchical covens (Grokipedia, Margaret Murray, on her 1917 article)."
+  },
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "England",
+     "src": "https://grokipedia.com/page/Witch-cult_hypothesis",
+     "note": "Murray drew her cases from English trials, among others; the thesis shaped British folklore study until discredited.",
+     "period": "1921–1960s"
+    },
+    {
+     "place": "Britain",
+     "src": "https://grokipedia.com/page/Margaret_Murray",
+     "note": "The page records its hold on British folklorists before 1970s archival work discredited it.",
+     "period": "1921–1960s"
+    }
+   ]
+  },
+  "parent_note": "No parent on the map. Murray drew on trial records and anthropology (Frazer is not a node)."
+ },
+ {
+  "root": false,
+  "root_axis": null,
+  "year_approx": false,
+  "lat": 51.51,
+  "lon": -0.13,
+  "stories": [],
+  "domain": [
+   "religion"
+  ],
+  "id": "ceremonial_magic",
+  "name": "Ceremonial magic (Golden Dawn)",
+  "aliases": [
+   "Golden Dawn",
+   "Hermetic Order of the Golden Dawn",
+   "Western ceremonial magic"
+  ],
+  "year": 1888,
+  "place": "London",
+  "origin_src": "https://grokipedia.com/page/Hermetic_Order_of_the_Golden_Dawn",
+  "origin_note": "Isis-Urania Temple of the Hermetic Order of the Golden Dawn chartered in London, 1 March 1888 (batch1 fn 20); founders Westcott, Woodman and Mathers",
+  "thinkers": [
+   "William Wynn Westcott",
+   "Samuel Liddell MacGregor Mathers",
+   "Aleister Crowley",
+   "Éliphas Lévi"
+  ],
+  "parents": [
+   "hermetic_correspondence"
+  ],
+  "plain": "Ceremonial magicians use graded initiations and elaborate rituals to contact spiritual forces and transform the practitioner.",
+  "summary": "The Golden Dawn fused Hermeticism, Kabbalah and ritual into a graded magical order whose rites Crowley and Gardner later reworked.",
+  "edge_notes": {
+   "hermetic_correspondence": {
+    "status": "direct",
+    "type": "revival",
+    "src": "https://grokipedia.com/page/Hermetic_Order_of_the_Golden_Dawn",
+    "note": "The Order took the Hermetic name and synthesized Hermetic and Kabbalistic correspondences into its grade rituals."
+   }
+  },
+  "sources": [
+   "https://grokipedia.com/page/Hermetic_Order_of_the_Golden_Dawn",
+   "https://grokipedia.com/page/Ceremonial_magic"
+  ],
+  "ratings": {
+   "platonism": 2,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 1,
+   "gnosticism": 1,
+   "hermeticism": 5,
+   "enlightenment_liberalism": 0,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 3,
+   "hierarchy": 4
+  },
+  "rationale": {
+   "platonism": "Grokipedia's Ceremonial magic page cites Neoplatonist elements.",
+   "aristotelianism": "No real link to Aristotelianism.",
+   "stoicism": "No real link to Stoicism.",
+   "christianity": "Uses Christian and Kabbalistic symbols without orthodox belief; judgment.",
+   "gnosticism": "Seeks inner illumination by secret knowledge; loose, judgment.",
+   "hermeticism": "The Order named itself Hermetic; Grokipedia's Ceremonial magic page traces the practice through Neoplatonism and Hermeticism.",
+   "enlightenment_liberalism": "No real link to Enlightenment liberalism.",
+   "marxism": "No real link to Marxism.",
+   "darwinism": "No real link to Darwinism.",
+   "nietzsche": "No real link to Nietzsche.",
+   "critical_theory": "No real link to Critical theory.",
+   "confucianism": "No real link to Confucianism.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "No real link to Buddhism.",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "No real link to Islamic philosophy (falsafa).",
+   "humor": "Solemn ritual.",
+   "irony": "Practiced sincerely.",
+   "abstraction": "Built on symbolic correspondences rather than observation; judgment.",
+   "hierarchy": "A strict ladder of grades from Neophyte to adept (Grokipedia, Golden Dawn)."
+  },
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "London",
+     "src": "https://grokipedia.com/page/Hermetic_Order_of_the_Golden_Dawn",
+     "note": "Founded in London in 1888; the Isis-Urania temple was the Order's center.",
+     "period": "1888–1900s"
+    },
+    {
+     "place": "Britain",
+     "src": "https://grokipedia.com/page/Hermetic_Order_of_the_Golden_Dawn",
+     "note": "The page says the Order peaked in the 1890s with temples across Britain.",
+     "period": "1890s"
+    },
+    {
+     "place": "United States",
+     "src": "https://grokipedia.com/page/Hermetic_Order_of_the_Golden_Dawn",
+     "note": "The page names US temples, such as Thme No. 8 in Boston, 1895.",
+     "period": "1890s"
+    },
+    {
+     "place": "Paris",
+     "src": "https://grokipedia.com/page/Hermetic_Order_of_the_Golden_Dawn",
+     "note": "Mathers ran the Ahathoor Temple in Paris from 1893.",
+     "period": "1893–1900s"
+    }
+   ]
+  }
+ },
+ {
+  "root": false,
+  "root_axis": null,
+  "year_approx": false,
+  "lat": 40.35,
+  "lon": -74.66,
+  "stories": [],
+  "domain": [
+   "religion"
+  ],
+  "id": "princeton_theology",
+  "name": "Princeton theology",
+  "aliases": [
+   "Old Princeton"
+  ],
+  "year": 1812,
+  "place": "Princeton, New Jersey",
+  "origin_src": "https://grokipedia.com/page/Princeton_theology",
+  "origin_note": "Princeton Theological Seminary founded by the Presbyterian General Assembly on 13 June 1812 (batch1 fn 22)",
+  "thinkers": [
+   "Archibald Alexander",
+   "Charles Hodge",
+   "A. A. Hodge",
+   "B. B. Warfield",
+   "J. Gresham Machen"
+  ],
+  "parents": [
+   "protestantism",
+   "scottish_common_sense_realism"
+  ],
+  "plain": "Princeton theologians defended Reformed orthodoxy and the verbal inerrancy of the Bible, using Scottish Common Sense philosophy as their method.",
+  "summary": "From 1812 to 1929, Princeton Seminary armed conservative Presbyterians with inerrancy and Common Sense apologetics, feeding fundamentalism.",
+  "edge_notes": {
+   "protestantism": {
+    "status": "direct",
+    "type": "descent",
+    "src": "https://grokipedia.com/page/Princeton_theology",
+    "note": "Founded by the Presbyterian General Assembly to defend Reformed confessional orthodoxy."
+   },
+   "scottish_common_sense_realism": {
+    "status": "direct",
+    "type": "method",
+    "src": "https://grokipedia.com/page/Princeton_theology",
+    "note": "Its apologetic method, Common Sense Realism, drew from Thomas Reid's Scottish philosophy."
+   }
+  },
+  "sources": [
+   "https://grokipedia.com/page/Princeton_theology",
+   "https://grokipedia.com/page/Charles_Hodge"
+  ],
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 1,
+   "stoicism": 0,
+   "christianity": 5,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 1,
+   "marxism": 0,
+   "darwinism": -3,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 1,
+   "hierarchy": 2
+  },
+  "rationale": {
+   "platonism": "No real link to Platonism.",
+   "aristotelianism": "Reformed scholastic method owes something to Aristotelian logic; judgment.",
+   "stoicism": "No real link to Stoicism.",
+   "christianity": "Reformed Presbyterian theology (Grokipedia).",
+   "gnosticism": "No real link to Gnosticism.",
+   "hermeticism": "No real link to Hermeticism.",
+   "enlightenment_liberalism": "Uses Reid's Scottish Enlightenment epistemology while rejecting theological liberalism (Grokipedia).",
+   "marxism": "No real link to Marxism.",
+   "darwinism": "Grokipedia has a section on its opposition to Darwinism and higher criticism.",
+   "nietzsche": "No real link to Nietzsche.",
+   "critical_theory": "No real link to Critical theory.",
+   "confucianism": "No real link to Confucianism.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "No real link to Buddhism.",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "No real link to Islamic philosophy (falsafa).",
+   "humor": "Scholarly in register.",
+   "irony": "Sincere doctrinal defense.",
+   "abstraction": "Systematic, doctrinal theology, with a Common Sense trust in plain facts; judgment.",
+   "hierarchy": "Defends confessional and church authority; judgment."
+  },
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Princeton, New Jersey",
+     "src": "https://grokipedia.com/page/Princeton_theology",
+     "note": "Centered on Princeton Theological Seminary from 1812 until the 1929 reorganization.",
+     "period": "1812–1929"
+    },
+    {
+     "place": "Philadelphia",
+     "src": "https://grokipedia.com/page/Princeton_theology",
+     "note": "Its faculty heirs founded Westminster Seminary in Philadelphia in 1929 to carry it on.",
+     "period": "1929–"
+    }
+   ]
+  }
+ },
+ {
+  "root": false,
+  "root_axis": null,
+  "year_approx": false,
+  "lat": 53.19,
+  "lon": -6.19,
+  "stories": [],
+  "domain": [
+   "religion"
+  ],
+  "id": "dispensationalism",
+  "name": "Dispensationalism",
+  "aliases": [
+   "dispensational premillennialism"
+  ],
+  "year": 1831,
+  "place": "Powerscourt, County Wicklow",
+  "origin_src": "https://grokipedia.com/page/Dispensationalism",
+  "origin_note": "John Nelson Darby systematized it around the 1830s among the Plymouth Brethren; Powerscourt Conference 1831–33 (batch1 fn 23). Year set to 1831, the first Powerscourt meeting",
+  "thinkers": [
+   "John Nelson Darby",
+   "Dwight L. Moody",
+   "Cyrus Scofield",
+   "Charles Ryrie",
+   "John F. Walvoord"
+  ],
+  "parents": [
+   "protestantism"
+  ],
+  "plain": "Dispensationalists read the Bible as a series of distinct eras and keep God's promises to Israel separate from those to the Church, often expecting a rapture before the tribulation.",
+  "summary": "Darby's 1830s scheme of biblical eras spread through Moody and the 1909 Scofield Bible to become a pillar of American fundamentalism.",
+  "edge_notes": {
+   "protestantism": {
+    "status": "direct",
+    "type": "descent",
+    "src": "https://grokipedia.com/page/Dispensationalism",
+    "note": "Darby, an Anglo-Irish Plymouth Brethren leader, built it against post-Reformation covenant theology."
+   }
+  },
+  "sources": [
+   "https://grokipedia.com/page/Dispensationalism"
+  ],
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 5,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": -1,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 2,
+   "hierarchy": 1
+  },
+  "rationale": {
+   "platonism": "No real link to Platonism.",
+   "aristotelianism": "No real link to Aristotelianism.",
+   "stoicism": "No real link to Stoicism.",
+   "christianity": "Protestant evangelical theology (Grokipedia).",
+   "gnosticism": "No real link to Gnosticism.",
+   "hermeticism": "No real link to Hermeticism.",
+   "enlightenment_liberalism": "Grokipedia ties its rise to reaction against higher criticism; judgment.",
+   "marxism": "No real link to Marxism.",
+   "darwinism": "No real link to Darwinism.",
+   "nietzsche": "No real link to Nietzsche.",
+   "critical_theory": "No real link to Critical theory.",
+   "confucianism": "No real link to Confucianism.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "No real link to Buddhism.",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "No real link to Islamic philosophy (falsafa).",
+   "humor": "Sincere prophetic reading.",
+   "irony": "Literal hermeneutic.",
+   "abstraction": "Builds a schema of eras over Scripture; judgment.",
+   "hierarchy": "Ranks God's programs and eras, not social orders; weak, judgment."
+  },
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "United States",
+     "src": "https://grokipedia.com/page/Dispensationalism",
+     "note": "Gained wide influence in America through Moody and the 1909 Scofield Reference Bible."
+    },
+    {
+     "place": "Dallas",
+     "src": "https://grokipedia.com/page/Dispensationalism",
+     "note": "Dallas Theological Seminary is its main institutional home (Ryrie, Walvoord)."
+    }
+   ]
+  }
+ },
+ {
+  "root": false,
+  "root_axis": null,
+  "year_approx": false,
+  "lat": 39.77,
+  "lon": -86.16,
+  "stories": [],
+  "domain": [
+   "politics"
+  ],
+  "id": "agrarian_greenbackism",
+  "name": "Agrarian greenbackism",
+  "aliases": [
+   "Greenbackism",
+   "Greenback Party",
+   "greenback-labor movement"
+  ],
+  "year": 1874,
+  "place": "Indianapolis",
+  "origin_src": "https://grokipedia.com/page/Greenback_Party",
+  "origin_note": "Greenback Party founded at a convention in Indianapolis, 22–26 November 1874 (batch1 fn 21)",
+  "thinkers": [
+   "James B. Weaver",
+   "Peter Cooper",
+   "Benjamin F. Butler"
+  ],
+  "parents": [],
+  "plain": "Greenbackers wanted the government to issue more paper money, not backed by gold, so that farmers and workers could pay off debts in cheaper dollars.",
+  "summary": "Indebted Midwestern farmers and workers demanded fiat paper money against deflation, then carried that program into the People's Party.",
+  "edge_notes": {},
+  "sources": [
+   "https://grokipedia.com/page/Greenback_Party",
+   "https://grokipedia.com/page/People%27s_Party_(United_States)"
+  ],
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 0,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -2,
+   "hierarchy": -3
+  },
+  "rationale": {
+   "platonism": "No real link to Platonism.",
+   "aristotelianism": "No real link to Aristotelianism.",
+   "stoicism": "No real link to Stoicism.",
+   "christianity": "Economic program; no religious content in sources.",
+   "gnosticism": "No real link to Gnosticism.",
+   "hermeticism": "No real link to Hermeticism.",
+   "enlightenment_liberalism": "Accepts electoral democracy but attacks gold-standard finance; no documented textual debt. Judgment.",
+   "marxism": "Contemporary with Marx; sources show no link.",
+   "darwinism": "No real link to Darwinism.",
+   "nietzsche": "No real link to Nietzsche.",
+   "critical_theory": "Comes before this tradition existed, so it cannot descend from it.",
+   "confucianism": "No real link to Confucianism.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "No real link to Buddhism.",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "No real link to Islamic philosophy (falsafa).",
+   "humor": "Not expressed through jokes.",
+   "irony": "Sincere reform politics.",
+   "abstraction": "Argued from commodity prices and debt burdens (Grokipedia).",
+   "hierarchy": "Champions 'productive classes' against creditors and financiers (Grokipedia)."
+  },
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Midwestern United States",
+     "src": "https://grokipedia.com/page/Greenback_Party",
+     "note": "Core support came from indebted farmers in Midwestern states.",
+     "period": "1874–1889"
+    },
+    {
+     "place": "Iowa",
+     "src": "https://grokipedia.com/page/Greenback_Party",
+     "note": "Named as a core state; leader James B. Weaver was from Iowa.",
+     "period": "1874–1889"
+    },
+    {
+     "place": "Illinois",
+     "src": "https://grokipedia.com/page/Greenback_Party",
+     "note": "Named as a core state of indebted farmers.",
+     "period": "1874–1889"
+    },
+    {
+     "place": "Texas",
+     "src": "https://grokipedia.com/page/Greenback_Party",
+     "note": "Greenbackers won congressional seats in Texas.",
+     "period": "1870s–1880s"
+    }
+   ]
+  },
+  "parent_note": "No existing id has a documented handoff into the Greenback Party. Fetched sources trace it to post–Civil War deflation and the 1873 Coinage Act, and to the Grange (not a node). Leave parents empty; optional future parent: a Jacksonian/anti-bank node if added."
  }
 ]
