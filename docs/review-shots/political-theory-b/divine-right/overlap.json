@@ -1,0 +1,82 @@
+{
+ "1-default": {
+  "labels": 28,
+  "overlaps": 0,
+  "pairs": [],
+  "closeDots": 2,
+  "offscreen": [],
+  "ySpanPx": 744
+ },
+ "2-top": {
+  "labels": 14,
+  "overlaps": 0,
+  "pairs": [],
+  "closeDots": 15,
+  "offscreen": [],
+  "ySpanPx": 259
+ },
+ "3-roots-only": {
+  "labels": 15,
+  "overlaps": 0,
+  "pairs": [],
+  "closeDots": 0,
+  "offscreen": [],
+  "ySpanPx": 603
+ },
+ "4-branch-liberalism": {
+  "labels": 13,
+  "overlaps": 0,
+  "pairs": [],
+  "closeDots": 0,
+  "offscreen": [],
+  "ySpanPx": 562
+ },
+ "5-zoom-modern-politics": {
+  "labels": 7,
+  "overlaps": 0,
+  "pairs": [],
+  "closeDots": 0,
+  "offscreen": [
+   "stoic_logos",
+   "epicureanism",
+   "gnostic_dualism",
+   "renaissance_humanism",
+   "cartesian_dualism",
+   "social_contract",
+   "romanticism",
+   "marxism",
+   "darwinian_selection",
+   "existentialism",
+   "postmodernism",
+   "effective_altruism",
+   "accelerationism",
+   "post_irony",
+   "meme_theory",
+   "internet_meme_culture",
+   "christianity",
+   "protestantism",
+   "anabaptism",
+   "pentecostalism",
+   "liberal_protestantism",
+   "daoist_way",
+   "buddhas_dharma",
+   "upanishadic_brahman",
+   "theravada",
+   "madhyamaka",
+   "zen",
+   "advaita_vedanta",
+   "libertarianism",
+   "nationalism",
+   "liberation_theology"
+  ],
+  "ySpanPx": 104389
+ },
+ "6-mobile": {
+  "labels": 15,
+  "overlaps": 0,
+  "pairs": [],
+  "closeDots": 9,
+  "offscreen": [],
+  "ySpanPx": 415
+ }
+}

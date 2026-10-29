@@ -1,0 +1,163 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://arxcortex.github.io/arx-memeplex/schema/idea.schema.json",
+  "title": "Memeplex idea list",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "id",
+      "name",
+      "root",
+      "root_axis",
+      "year",
+      "year_approx",
+      "origin_src",
+      "origin_note",
+      "place",
+      "lat",
+      "lon",
+      "thinkers",
+      "parents",
+      "plain",
+      "summary",
+      "ratings",
+      "rationale",
+      "stories",
+      "sources",
+      "domain"
+    ],
+    "additionalProperties": false,
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^[a-z0-9_]+$"
+      },
+      "name": {
+        "type": "string",
+        "maxLength": 90
+      },
+      "root": {
+        "type": "boolean"
+      },
+      "root_axis": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "year": {
+        "type": "integer",
+        "description": "Negative = BC"
+      },
+      "year_approx": {
+        "type": "boolean"
+      },
+      "origin_src": {
+        "type": "string",
+        "pattern": "^https://"
+      },
+      "origin_note": {
+        "type": "string"
+      },
+      "place": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "lat": {
+        "type": [
+          "number",
+          "null"
+        ],
+        "minimum": -90,
+        "maximum": 90
+      },
+      "lon": {
+        "type": [
+          "number",
+          "null"
+        ],
+        "minimum": -180,
+        "maximum": 180
+      },
+      "thinkers": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "parents": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "plain": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 200
+      },
+      "summary": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 200
+      },
+      "ratings": {
+        "type": "object",
+        "additionalProperties": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": -5,
+          "maximum": 5
+        }
+      },
+      "rationale": {
+        "type": "object",
+        "additionalProperties": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 160
+        }
+      },
+      "stories": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "sources": {
+        "type": "array",
+        "minItems": 1,
+        "items": {
+          "type": "string",
+          "pattern": "^https://"
+        }
+      },
+      "domain": {
+        "type": "array",
+        "minItems": 1,
+        "maxItems": 3,
+        "uniqueItems": true,
+        "items": {
+          "enum": [
+            "politics",
+            "philosophy",
+            "religion",
+            "culture"
+          ]
+        },
+        "description": "Primary domain first: politics (political theory), philosophy, religion, culture (internet/subculture). Used by the page's domain filter."
+      },
+      "related_currents": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

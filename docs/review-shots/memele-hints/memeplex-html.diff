@@ -1,0 +1,145 @@
+--- /tmp/mm-before.html	2026-10-28 21:48:21.660926645 -1000
++++ site-v3/memeplex.html	2026-10-28 21:51:53.544118536 -1000
+@@ -87,7 +87,12 @@
+ .arx-game-cell.n{justify-content:flex-start;font-family:var(--serif);font-size:15px;letter-spacing:0;text-align:left}
+ .arx-game-cell.hit{background:var(--arx-game-hit);color:#160c04}.arx-game-cell.near{background:var(--arx-game-near);color:#160c04}.arx-game-cell.mid{background:var(--arx-game-mid)}
+ .arx-game .hdr{display:grid;grid-template-columns:1fr 70px 82px 34px;gap:6px;font-family:var(--mono);font-size:8.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-dim);margin-top:12px}
+-.arx-game-clue{font-family:var(--serif);font-size:15px;color:var(--ink);margin:3px 0}.arx-game-clue b{font-family:var(--mono);font-size:9px;letter-spacing:.16em;text-transform:uppercase;color:var(--amber);font-weight:500;margin-right:6px}
++.arx-game-clue{font-family:var(--serif);font-size:15px;color:var(--ink);margin:3px 0}.mm-br{margin-top:10px;font-family:var(--mono);font-size:11px;color:var(--mute,#a99)}.mm-br summary{cursor:pointer;letter-spacing:.08em}.mm-f{display:flex;gap:6px;margin:8px 0}.mm-f select{flex:1;min-width:0;background:#0d0c10;color:var(--ink);border:1px solid var(--rule);border-radius:6px;padding:6px;font:inherit}
++.mm-list{max-height:180px;overflow:auto;display:flex;flex-wrap:wrap;gap:4px}.mm-list button{font-family:var(--serif);font-size:13px;color:var(--ink);background:rgba(255,255,255,.04);border:1px solid var(--rule);border-radius:6px;padding:3px 8px;cursor:pointer}
++.mm-in{display:flex;gap:8px}.mm-in input{flex:1;min-width:0}.mm-hint{flex:none;font-family:var(--mono);font-size:11px;letter-spacing:.08em;color:var(--amber);background:rgba(255,180,90,.08);border:1px solid rgba(255,180,90,.45);border-radius:8px;padding:0 12px;min-height:40px;cursor:pointer}.mm-hint:disabled{opacity:.4;cursor:default}
++.mm-h{font-family:var(--mono);font-size:9px;letter-spacing:.1em;color:var(--amber);border:1px solid rgba(255,180,90,.4);border-radius:10px;padding:1px 6px;margin-left:8px;vertical-align:2px}.mm-msg{font-family:var(--mono);font-size:11px;color:var(--amber);min-height:14px;margin:6px 0 0}
++.mm-flash{font:inherit;font-size:13px;color:var(--ink);background:none;border:1px dashed rgba(255,180,90,.5);border-radius:6px;padding:2px 8px;cursor:pointer}#memele.flashing{opacity:0;pointer-events:none;transition:opacity .3s}
++.arx-game-clue b{font-family:var(--mono);font-size:9px;letter-spacing:.16em;text-transform:uppercase;color:var(--amber);font-weight:500;margin-right:6px}
+ .arx-game-share{margin-top:14px;padding:12px;border:1px solid var(--rule);border-radius:10px;text-align:center}
+ .arx-game-share .grid{font-size:20px;line-height:1.25;white-space:pre}
+ .arx-game .acts{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin-top:10px}
+@@ -1312,37 +1317,108 @@
+   const save = st => { try { localStorage.setItem(KEY, JSON.stringify(st)); } catch (e) {} };
+   const era = y => y < 0 ? `${Math.ceil(-y / 100)}th century BC` : `${Math.floor(y / 100) + 1}th century AD`;
+   const DOM = { politics: 'Political theory', philosophy: 'Philosophy', religion: 'Religion', culture: 'Internet & culture' };
+-  const clues = d => [['Category', (d.domain || []).map(k => DOM[k] || k).join(', ')], ['Era', era(d.year)], ['Key thinkers', (d.thinkers || []).join(', ') || 'none named'], ['Came from', (d.parents || []).filter(k => byId[k]).map(k => byId[k].name).join(', ') || 'no earlier idea mapped'], ['Place', d.place || 'not recorded']];
++  /* Clue-driven: each clue is a question of one type. Day opens with one seeded type; each miss or Hint adds the next, never repeating a type. */
++  const nm = id => byId[id].name; const and = a => a.length > 1 ? a.slice(0, -1).join(', ') + ' and ' + a[a.length - 1] : a[0];
++  const leaks = (t, d) => { const n = norm(d.name); return norm(t).split(' ').some(w => w.length >= 4 && n.includes(w)); };
++  const CLUE_TYPES = {
++    lineage: d => { const p = (d.parents || []).filter(k => byId[k]).map(nm).filter(t => !leaks(t, d)).slice(0, 2); return p.length ? ['Lineage', `Which idea descends from ${and(p)}?`] : null; },
++    thinkers: d => { const t = (d.thinkers || []).filter(t => !leaks(t, d)).slice(0, 2); return t.length ? ['Thinkers', `Which idea's key thinkers include ${and(t)}?`] : null; },
++    timeframe: d => { const a = Math.floor(d.year / 100) * 100, f = y => y < 0 ? `${-y} BC` : `AD ${y}`; return ['Timeframe', `Which idea emerged between ${f(a)} and ${f(a + 100)}?`]; },
++    children: d => { const c = (d.children || []).filter(k => byId[k]).map(nm).filter(t => !leaks(t, d)).slice(0, 2); return c.length ? ['Children', `Which idea gave rise to ${and(c)}?`] : null; },
++    place: d => d.place && !leaks(d.place, d) ? ['Place', `Which idea took shape in ${d.place}?`] : null,
++    category: d => ['Category', `Which ${(d.domain || []).map(k => DOM[k] || k).join(' / ').toLowerCase()} idea is it?`],
++    letter: d => ['First letter', `Which idea's name starts with “${d.name.trim()[0].toUpperCase()}”?`],
++    flash: () => ['Map flash', 'map'] };
++  const OPENERS = ['lineage', 'thinkers', 'timeframe', 'children'], MIDDLE = ['place', 'category'];
++  const shuffle = (a, seed) => a.map((x, i) => [hash(seed + ':' + i + x), x]).sort((p, q) => p[0] - q[0]).map(p => p[1]);
++  const clues = d => { const ok = t => CLUE_TYPES[t](d), opens = shuffle(OPENERS, 'memele-open:' + K).filter(ok);
++    const order = [...opens.slice(0, 1), ...shuffle([...opens.slice(1), ...MIDDLE].filter(ok), 'memele-rest:' + K), 'letter', 'flash'];
++    return order.map(t => [t, ...CLUE_TYPES[t](d)]); };
++  let NCLUE = 7;
++  const ERAS = [['Ancient (before 500)', -1e5, 500], ['Medieval (500–1500)', 500, 1500], ['Early modern (1500–1800)', 1500, 1800], ['Modern (1800–1945)', 1800, 1945], ['Contemporary (1945 on)', 1945, 1e5]];
++  /* forgiving matching: case, accents, punctuation, a leading "the", aliases (id, bracketed names, -ism stems), small typos */
++  const norm = t => String(t).normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim().replace(/^the /, '');
++  const cmp = t => norm(t).replace(/ /g, '');
++  const EXTRA = { marxism: ['marx', 'marxist'], stoic_logos: ['stoics', 'stoicism', 'stoa'], heathenry: ['asatru', 'asatruar'], neoplatonism: ['plotinus'], platonic_forms: ['plato', 'platonism'] };
++  const aliasesOf = d => { const out = new Map(), add = (t, w) => { const c = cmp(t); if (c.length >= 2 && !(out.get(c) <= w)) out.set(c, w); };
++    add(d.name, 0); add(d.id.replace(/_/g, ' '), 0); add(d.name.replace(/\(.*?\)/g, ''), 0);
++    (d.name.match(/\(([^)]*)\)/g) || []).forEach(b => add(b.slice(1, -1), 0)); (EXTRA[d.id] || []).forEach(t => add(t, 0));
++    [...out.keys()].forEach(c => { if (/ism$/.test(c) && c.length > 6) { add(c.slice(0, -3), 0.2); add(c.slice(0, -3) + 'ist', 0.2); add(c.slice(0, -3) + 'ists', 0.2); } });
++    norm(d.name.replace(/\(.*?\)/g, '')).split(' ').forEach(w => w.length >= 5 && add(w, 0.4));
++    return out; };
++  const lev = (a, b) => { if (Math.abs(a.length - b.length) > 3) return 9; let p = [...Array(b.length + 1).keys()], pp = p;
++    for (let i = 1; i <= a.length; i++) { const c = [i]; for (let j = 1; j <= b.length; j++) { c[j] = Math.min(p[j] + 1, c[j - 1] + 1, p[j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1)); if (i > 1 && j > 1 && a[i - 1] === b[j - 2] && a[i - 2] === b[j - 1]) c[j] = Math.min(c[j], pp[j - 2] + 1); } pp = p; p = c; } return p[b.length]; };
++  let ALI = null;
++  const score = (q, d) => { ALI = ALI || new Map(ideas.map(x => [x.id, aliasesOf(x)])); let best = 9;
++    for (const [a, w] of ALI.get(d.id)) { let s = 9;
++      if (a === q) s = w; else if (q.length >= 3 && a.startsWith(q)) s = 0.5 + w; else if (q.length >= 4) { const e = lev(q, a), tol = q.length >= 9 ? 2 : 1; if (e <= tol) s = 0.6 + e * 0.3 + w; else if (q.length >= 4 && a.includes(q)) s = 1.4 + w; }
++      if (s < best) best = s; } return best; };
++  const search = (raw, skip = []) => { const q = cmp(raw); if (!q) return []; return ideas.filter(d => !skip.includes(d.id)).map(d => ({ d, s: score(q, d) })).filter(r => r.s < 9).sort((a, b) => a.s - b.s || a.d.name.localeCompare(b.d.name)); };
++  const resolve = (raw, skip = []) => { const r = search(raw, skip); if (!r.length) return { none: true };
++    if (r.length === 1 || r[0].s + 0.15 < r[1].s) return { id: r[0].d.id }; return { ask: r.filter(x => x.s <= r[0].s + 0.5).slice(0, 6).map(x => x.d.id) }; };
+   const el = document.createElement('div'); el.className = 'arx-game'; el.id = 'memele'; el.setAttribute('role', 'dialog'); el.setAttribute('aria-modal', 'true'); el.setAttribute('aria-label', 'Memele');
+   document.body.appendChild(el);
+   let K, ans, st;
+   const rowData = g => { const d = byId[g], s = steps(g, ans.id); return { d, s, t: tone(s), yrs: Math.abs(d.year - ans.year), arrow: g === ans.id ? '' : ans.year > d.year ? '↑' : '↓' }; };
+-  const emoji = day => day.guesses.map(g => { const r = rowData(g); return EMO[r.t] + (r.arrow === '↑' ? '⬆️' : r.arrow === '↓' ? '⬇️' : ''); }).join('\n');
+-  const shareText = day => `Memele #${dayNo(K)} ${day.won ? day.guesses.length : 'X'}/${MAX}\n${emoji(day)}\narxcortex.io/memeplex`;
++  const hintsBefore = (day, i) => (day.hints || []).filter(h => h === i).length;
++  const emoji = day => day.guesses.map((g, i) => { const r = rowData(g); return '💡'.repeat(hintsBefore(day, i)) + EMO[r.t] + (r.arrow === '↑' ? '⬆️' : r.arrow === '↓' ? '⬇️' : ''); }).join('\n');
++  const revealed = day => day.done ? NCLUE : Math.min(NCLUE, 1 + day.guesses.filter(g => g !== ans.id).length + (day.hints || []).length);
++  const misses = day => day.guesses.filter(g => g !== ans.id).length;
++  const clueHtml = (k, v, i, day) => {
++    const tag = (day.hintIdx || []).includes(i) ? '<span class="mm-h" title="Revealed with a hint">💡 hint</span>' : '';
++    return v === 'map' ? `<p class="arx-game-clue"><b>${k}</b>${tag}<button type="button" class="mm-flash" data-a="flash">Flash its area on the map</button></p>` : `<p class="arx-game-clue"><b>${k}</b>${esc(v)}${tag}</p>`; };
++  const shareText = day => `Memele #${dayNo(K)} ${day.won ? day.guesses.length : 'X'}/${MAX}${(day.hints || []).length ? ` · 💡${day.hints.length}` : ''}\n${emoji(day)}\narxcortex.io/memeplex`;
+   function render() {
+-    const day = st.days[K] || (st.days[K] = { guesses: [], done: false, won: false }), shown = Math.min(day.guesses.length, 5) + (day.done ? 5 : 0);
++    const day = st.days[K] || (st.days[K] = { guesses: [], done: false, won: false }); NCLUE = clues(ans).length; const shown = revealed(day);
+     el.innerHTML = `<div class="box"><button class="x" aria-label="Close">×</button><h2>Memele</h2><div class="sub">#${dayNo(K)} · ${K} · streak ${st.streak || 0} · best ${st.best || 0}</div>
+-      ${day.done ? '' : `<input type="text" placeholder="Guess an idea (${MAX - day.guesses.length} left)" aria-label="Guess an idea" autocomplete="off"><div class="ac" role="listbox"></div>`}
+-      ${day.guesses.length ? `<div class="hdr"><span>Guess</span><span>Steps</span><span>Years</span><span></span></div>` : `<p class="how">Guess today's idea in ${MAX} tries. Each guess shows how many lineage steps it is from the answer, how many years apart, and whether the answer is newer (↑) or older (↓). A new clue appears after each miss.</p>`}
++      ${day.done ? '' : `<div class="mm-in"><input type="text" placeholder="Guess an idea (${MAX - day.guesses.length} left)" aria-label="Guess an idea" autocomplete="off"><button type="button" class="mm-hint" data-a="hint"${shown >= NCLUE ? ' disabled' : ''} title="Reveal the next clue">💡 Hint${(day.hints || []).length ? ` (${day.hints.length})` : ''}</button></div><div class="mm-msg" aria-live="polite"></div><div class="ac" role="listbox"></div>
++      <details class="mm-br"${st.br ? ' open' : ''}><summary>Browse ideas · <span class="mm-left"></span></summary><div class="mm-f"><select data-f="dom" aria-label="Category"><option value="">Any category</option>${Object.entries(DOM).map(([k, v]) => `<option value="${k}"${st.fd === k ? ' selected' : ''}>${v}</option>`).join('')}</select><select data-f="era" aria-label="Era"><option value="">Any era</option>${ERAS.map((e, i) => `<option value="${i}"${String(st.fe) === String(i) ? ' selected' : ''}>${e[0]}</option>`).join('')}</select></div><div class="mm-list"></div></details>`}
++      ${day.guesses.length ? `<div class="hdr"><span>Guess</span><span>Steps</span><span>Years</span><span></span></div>` : `<p class="how">Read the clue and guess today's idea in ${MAX} tries. Each guess shows how many lineage steps it is from the answer, how many years apart, and whether the answer is newer (↑) or older (↓). Each miss reveals a different kind of clue, or tap 💡 Hint for one any time (hints show in your result).</p>`}
+       ${day.guesses.map(g => { const r = rowData(g); return `<div class="arx-game-row"><div class="arx-game-cell n ${r.t}">${esc(r.d.name)}</div><div class="arx-game-cell ${r.t}">${r.s === null ? '—' : r.s}</div><div class="arx-game-cell">${r.yrs}</div><div class="arx-game-cell">${r.arrow || '✓'}</div></div>`; }).join('')}
+-      <div style="margin-top:10px">${clues(ans).slice(0, Math.min(shown, 5)).map(([k, v]) => `<p class="arx-game-clue"><b>${k}</b>${esc(v)}</p>`).join('')}</div>
+-      ${day.done ? `<div class="arx-game-share"><div class="sub" style="margin:0 0 6px">${day.won ? `Solved in ${day.guesses.length}/${MAX}` : `The answer was ${esc(ans.name)}`}</div><div class="grid" aria-label="Result grid">${emoji(day)}</div>
++      <div style="margin-top:10px">${clues(ans).slice(0, shown).map(([t, k, v], i) => clueHtml(k, v, i, day)).join('')}</div>
++      ${day.done ? `<div class="arx-game-share"><div class="sub" style="margin:0 0 6px">${day.won ? `Solved in ${day.guesses.length}/${MAX}` : `The answer was ${esc(ans.name)}`}${(day.hints || []).length ? ` · ${day.hints.length} hint${day.hints.length > 1 ? 's' : ''} 💡` : ''}</div><div class="grid" aria-label="Result grid">${emoji(day)}</div>
+         <div class="acts"><button data-a="copy">Copy result</button><button data-a="card">Share card</button><button data-a="see">See it on the map</button></div><p class="how">New Memele tomorrow.</p></div>` : ''}</div>`;
+     el.querySelector('.x').onclick = close;
+     const inp = el.querySelector('input'), ac = el.querySelector('.ac');
+     if (inp) { let sel = -1, list = [];
+-      const draw = () => { const q = inp.value.trim().toLowerCase(); list = !q ? [] : ideas.filter(d => !day.guesses.includes(d.id) && d.name.toLowerCase().includes(q)).slice(0, 8); sel = list.length ? 0 : -1;
++      const draw = () => { const q = inp.value.trim().toLowerCase(); list = !q ? [] : search(q, day.guesses).slice(0, 8).map(r => r.d); sel = list.length ? 0 : -1; ac.dataset.nav = ''; const m = el.querySelector('.mm-msg'); if (m) m.textContent = '';
+         ac.innerHTML = list.map((d, i) => `<button type="button" role="option" data-id="${d.id}" class="${i === sel ? 'sel' : ''}">${esc(d.name)}</button>`).join('');
+         ac.querySelectorAll('button').forEach(b => b.onclick = () => guess(b.dataset.id)); };
+       inp.addEventListener('input', draw);
+       inp.addEventListener('keydown', e => { if (e.key === 'ArrowDown' || e.key === 'ArrowUp') { e.preventDefault(); if (!list.length) return; sel = (sel + (e.key === 'ArrowDown' ? 1 : -1) + list.length) % list.length; ac.querySelectorAll('button').forEach((b, i) => b.classList.toggle('sel', i === sel)); }
+-        else if (e.key === 'Enter' && sel >= 0) guess(list[sel].id); e.stopPropagation(); });
++        else if (e.key === 'Enter') { if (sel >= 0 && list.length && ac.dataset.nav === '1') guess(list[sel].id); else submit(inp.value); } if (e.key.startsWith('Arrow')) ac.dataset.nav = '1'; e.stopPropagation(); });
+       setTimeout(() => inp.focus(), 30); }
++    const br = el.querySelector('.mm-br');
++    if (br) { const drawBr = () => { const fd = br.querySelector('[data-f=dom]').value, fe = br.querySelector('[data-f=era]').value; st.fd = fd; st.fe = fe;
++        const e = fe === '' ? null : ERAS[+fe], L = ideas.filter(d => !day.guesses.includes(d.id) && (!fd || (d.domain || []).includes(fd)) && (!e || (d.year >= e[1] && d.year < e[2]))).sort((x, y) => x.name.localeCompare(y.name));
++        br.querySelector('.mm-left').textContent = `${L.length} idea${L.length === 1 ? '' : 's'} left`;
++        br.querySelector('.mm-list').innerHTML = L.map(d => `<button type="button" data-id="${d.id}">${esc(d.name)}</button>`).join('');
++        br.querySelectorAll('.mm-list button').forEach(b => b.onclick = () => guess(b.dataset.id)); };
++      br.querySelectorAll('select').forEach(x => x.onchange = () => { drawBr(); save(st); }); br.ontoggle = () => { st.br = br.open; save(st); }; drawBr(); }
+     const a = n => el.querySelector(`[data-a=${n}]`);
++    if (a('hint')) a('hint').onclick = hint;
++    if (a('flash')) a('flash').onclick = flash;
+     if (a('copy')) { a('copy').onclick = () => { const t = shareText(day); (navigator.clipboard && window.isSecureContext ? navigator.clipboard.writeText(t) : Promise.reject()).catch(() => { const ta = document.createElement('textarea'); ta.value = t; document.body.appendChild(ta); ta.select(); try { document.execCommand('copy'); } catch (e) {} ta.remove(); }); a('copy').textContent = 'Copied'; };
+       a('card').onclick = async () => { close(); ArxShareCard.open(await ArxGameCard.result({ game: 'Memele', number: dayNo(K), dateLabel: K, solved: day.won, tries: day.guesses.length, max: MAX,
+-        rows: day.guesses.map(g => { const r = rowData(g); return { tone: r.t, arrow: r.arrow }; }), lines: [`Streak ${st.streak || 0} · best ${st.best || 0}`, 'Guess the idea from its lineage, era and thinkers.'], url: 'arxcortex.io/memeplex' }), `memele-${dayNo(K)}.png`); };
++        rows: day.guesses.map(g => { const r = rowData(g); return { tone: r.t, arrow: r.arrow }; }), lines: [`Streak ${st.streak || 0} · best ${st.best || 0}${(day.hints || []).length ? ` · 💡 ${day.hints.length} hint${day.hints.length > 1 ? 's' : ''}` : ''}`, 'Guess the idea from its lineage, era and thinkers.'], url: 'arxcortex.io/memeplex' }), `memele-${dayNo(K)}.png`); };
+       a('see').onclick = () => { close(); focusIdea(ans.id); }; } }
++  function submit(raw) { const day = st.days[K], m = el.querySelector('.mm-msg'), ac = el.querySelector('.ac'); if (!raw.trim()) return;
++    const r = resolve(raw, day.guesses);
++    if (r.id) return guess(r.id);
++    if (r.none) { m.textContent = `No idea matches “${raw.trim()}”. Not counted as a guess.`; return; }
++    m.textContent = 'Did you mean:'; ac.dataset.nav = '';
++    ac.innerHTML = r.ask.map((id, i) => `<button type="button" role="option" data-id="${id}" class="${i ? '' : 'sel'}">${esc(byId[id].name)}</button>`).join('');
++    ac.querySelectorAll('button').forEach(b => b.onclick = () => guess(b.dataset.id)); }
++  function hint() { const day = st.days[K]; if (day.done) return; const n = revealed(day); if (n >= NCLUE) return;
++    day.hints = day.hints || []; day.hintIdx = day.hintIdx || []; day.hints.push(day.guesses.length); day.hintIdx.push(n); save(st); render();
++    if (n === NCLUE - 1) flash(); }
++  /* blurred flash of the answer's neighbourhood: no label, no panel, camera returns afterwards */
++  function flash() { const stage = document.getElementById('stage'), back = { t: controls.target.clone(), p: camera.position.clone(), ar: controls.autoRotate };
++    el.classList.add('flashing'); lblLayer.style.visibility = 'hidden'; stage.style.transition = 'filter .4s'; stage.style.filter = 'blur(7px) saturate(1.3)';
++    camTl && camTl.kill(); controls.autoRotate = false; const dir = camera.position.clone().sub(controls.target).normalize(), dest = ans.pos.clone().add(dir.multiplyScalar(60));
++    camTl = gsap.timeline({ defaults: { duration: reduce ? 0 : 1.2, ease: 'power2.inOut' } }).to(controls.target, { x: ans.pos.x, y: ans.pos.y, z: ans.pos.z }, 0).to(camera.position, { x: dest.x, y: dest.y, z: dest.z }, 0)
++      .to({}, { duration: reduce ? 0.5 : 1.6 }).add(() => { stage.style.filter = ''; lblLayer.style.visibility = ''; el.classList.remove('flashing'); })
++      .to(controls.target, { x: back.t.x, y: back.t.y, z: back.t.z }, '>').to(camera.position, { x: back.p.x, y: back.p.y, z: back.p.z }, '<').add(() => { controls.autoRotate = back.ar; }); }
+   function guess(id) { const day = st.days[K]; if (day.done || day.guesses.includes(id) || !byId[id]) return; day.guesses.push(id);
+     if (id === ans.id) { day.done = day.won = true; const prev = st.lastWin, y = new Date(Date.parse(K + 'T12:00:00') - 864e5), yk = `${y.getFullYear()}-${String(y.getMonth() + 1).padStart(2, '0')}-${String(y.getDate()).padStart(2, '0')}`;
+       st.streak = prev === yk ? (st.streak || 0) + 1 : 1; st.best = Math.max(st.best || 0, st.streak); st.lastWin = K; }
+@@ -1352,7 +1428,7 @@
+   function close() { el.classList.remove('open'); }
+   el.addEventListener('click', e => { if (e.target === el) close(); });
+   addEventListener('keydown', e => { if (e.key === 'Escape' && el.classList.contains('open')) close(); });
+-  return { open, close, guess, answerFor, steps, today, shareText: () => shareText(st.days[K]) };
++  return { open, close, guess, submit, hint, resolve, search: (q, skip) => search(q, skip).map(r => r.d.id), clueTypes: () => clues(ans).map(c => c[0]), get day() { return st && st.days[K]; }, answerFor, steps, today, shareText: () => shareText(st.days[K]) };
+ })();
+ 
+ /* ---------- Phone mode: narrow or touch screens get a non-interactive backdrop + search, random, games, tours ---------- */

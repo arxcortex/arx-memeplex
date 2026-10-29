@@ -1,0 +1,332 @@
+--- /tmp/fixpr/memeplex.html	2026-10-28 20:37:36.912821587 -1000
++++ docs/review-shots/panels-start-closed/memeplex.html	2026-10-28 21:25:05.553330839 -1000
+@@ -40,6 +40,9 @@
+ #panel .when{font-family:var(--mono);font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-dim);margin-top:8px}
+ #panel .sum{font-size:18px;line-height:1.4;margin-top:14px}
+ #panel .chips button,#panel .chips span{display:inline-block;margin:0 6px 6px 0;background:transparent;border:1px solid var(--rule);color:var(--ink);font-family:var(--serif);font-size:15px;padding:3px 8px}
++#panel .chips a.tlink{display:inline-block;margin:0 6px 6px 0;border:1px solid var(--rule);color:var(--ink);font-family:var(--serif);font-size:15px;padding:3px 8px;text-decoration:underline;text-decoration-color:var(--rule);text-underline-offset:3px;cursor:pointer}
++#panel .chips a.tlink:hover{color:var(--amber);border-color:var(--amber);text-decoration-color:var(--amber)}
++#panel .chips a.tlink:focus-visible{outline:2px solid var(--amber);outline-offset:2px}
+ #panel .chips button{cursor:pointer;color:var(--amber-bright)}
+ #panel .chips button:hover{border-color:var(--amber)}
+ #panel a{color:var(--amber-bright);font-size:15px}
+@@ -63,6 +66,29 @@
+ #cmpbar{position:absolute;left:50%;top:84px;transform:translateX(-50%);z-index:25;font-family:var(--mono);font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--bg);background:var(--amber);padding:7px 12px;visibility:hidden;cursor:pointer}
+ .axl{position:absolute;left:0;top:0;z-index:4;pointer-events:none;font-family:var(--mono);font-size:8.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--amber);opacity:.55;white-space:nowrap}
+ .axl.era{color:var(--ink-faint);opacity:1}
++#legend .why-mp{margin-top:8px;border-top:1px solid var(--rule);padding-top:6px}#legend .why-mp summary{cursor:pointer;font-family:var(--mono);font-size:9px;letter-spacing:.16em;text-transform:uppercase;color:var(--amber)}#legend .why-mp p{margin:6px 0 0;font-size:13px;line-height:1.4}#legend .why-mp a{color:var(--amber-bright)}#legend{pointer-events:auto}
++#panel .back{all:unset;cursor:pointer;font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--amber-bright);margin-bottom:10px;display:inline-block}
++#panel .back:focus-visible,#tourbar button:focus-visible,#tourmenu button:focus-visible{outline:2px solid var(--amber);outline-offset:2px}
++#panel .kinlv{margin:4px 0 8px}#panel .kd{display:block;font-family:var(--mono);font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-dim);margin-bottom:4px}
++#tourmenu{position:fixed;z-index:60;top:64px;left:50%;transform:translateX(-50%);min-width:260px;max-width:92vw;padding:10px;border-radius:12px;display:none}
++#tourmenu.open{display:block}#tourmenu .ph{font-family:var(--mono);font-size:9px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-dim);margin:2px 4px 8px}
++#tourmenu button{all:unset;cursor:pointer;display:block;width:100%;box-sizing:border-box;padding:8px 10px;border-radius:8px;font-family:var(--serif);font-size:16px;color:var(--ink)}
++#tourmenu button small{display:block;font-family:var(--mono);font-size:9px;letter-spacing:.1em;color:var(--ink-dim);text-transform:uppercase}
++#tourmenu button:hover{background:rgba(184,115,51,.16);color:var(--amber-bright)}
++#tourbar{position:fixed;z-index:60;left:50%;bottom:22px;transform:translateX(-50%);width:min(640px,92vw);padding:12px 14px;border-radius:12px;display:none;pointer-events:auto}
++#tourbar.open{display:block}#tourbar .tn{font-family:var(--mono);font-size:9px;letter-spacing:.18em;text-transform:uppercase;color:var(--amber)}
++#tourbar .tc{font-family:var(--serif);font-size:17px;line-height:1.35;color:var(--ink);margin:6px 0 10px}
++#tourbar .tr{display:flex;gap:8px;justify-content:flex-end}#tourbar button{all:unset;cursor:pointer;font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;padding:6px 10px;border:1px solid var(--rule);border-radius:7px;color:var(--amber-bright)}
++#tourbar button:disabled{opacity:.35;cursor:default}
++body.panel-open #tourbar{left:calc((100vw - 380px)/2)}
++@media (max-width:760px){#tourbar{bottom:10px}#tourbar .tc{font-size:15px}body.panel-open #tourbar{left:50%}}
++#toast{position:fixed;z-index:70;left:50%;top:70px;transform:translateX(-50%);padding:8px 14px;border-radius:8px;font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--amber-bright);opacity:0;pointer-events:none}
++.axl.chart{opacity:1;background:transparent;box-shadow:none;-webkit-backdrop-filter:none;backdrop-filter:none;padding:1px 3px}
++.axl.chart.tick{color:var(--amber);opacity:.8;font-size:9px;letter-spacing:.08em}
++.axl.chart.yr{color:var(--amber-bright,var(--amber));opacity:.85}
++.axl.chart.title{font-weight:700;font-size:11px;letter-spacing:.24em;color:var(--amber-bright,var(--amber));opacity:1}
++.axl.chart.pole{font-size:9px;letter-spacing:.14em;color:var(--ink);opacity:.8}
++@media (max-width:760px){.axl.chart.title{font-size:10px;letter-spacing:.16em}.axl.chart.pole{font-size:7.5px;letter-spacing:.03em}.axl.chart.tick{font-size:8px}}
+ .lbl,.axl{padding:3px 8px;border-radius:999px;background:rgba(6,6,8,.82);box-shadow:0 0 10px 4px rgba(6,6,8,.72);transition:opacity .3s}
+ @supports ((backdrop-filter:blur(4px)) or (-webkit-backdrop-filter:blur(4px))){.lbl,.axl{background:rgba(6,6,8,.6);-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px)}}
+ .lbl{color:var(--ink)!important}
+@@ -215,7 +241,7 @@
+       <button id="symbtn" type="button" title="What each 3D symbol means, and where it comes from">About the symbols</button>
+       <button id="filtbtn" type="button" aria-expanded="false" aria-controls="filt" title="Isolate root traditions">Filter <span class="n"></span></button>
+       <div id="filt" role="region" aria-label="Filter by root tradition">
+-        <div class="bh" style="border:0;padding:0;margin-top:0">Domain</div><div class="chips dm"><button class="dchip" type="button" data-dom="" aria-pressed="true">All</button><button class="dchip" type="button" data-dom="politics" aria-pressed="false">Political theory</button><button class="dchip" type="button" data-dom="philosophy" aria-pressed="false">Philosophy</button><button class="dchip" type="button" data-dom="religion" aria-pressed="false">Religion</button><button class="dchip" type="button" data-dom="culture" aria-pressed="false">Internet &amp; culture</button></div>
++        <div class="bh" style="border:0;padding:0;margin-top:0">Domain</div><div class="chips dm"><button class="dchip" type="button" data-dom="" aria-pressed="true">All</button><button class="dchip" type="button" data-dom="politics" aria-pressed="false">Political theory</button><button class="dchip" type="button" data-dom="philosophy" aria-pressed="false">Philosophy</button><button class="dchip" type="button" data-dom="religion" aria-pressed="false">Religion</button><button class="dchip" type="button" data-dom="culture" aria-pressed="false">Internet &amp; culture</button><button class="dchip" type="button" data-dom="abrahamic" aria-pressed="false" title="Ideas rooted in the Abrahamic faiths: scored 4 or 5 (core) on the Christianity or Islamic philosophy axis, plus Sufism and Ash'arism">Abrahamic</button></div>
+         <div class="bh">Traditions</div><div class="row"><button class="tg" type="button" aria-pressed="false">Roots only</button><button class="clr" type="button">Clear</button><button class="clr done" type="button">Done</button></div>
+         <div class="chips"></div>
+         <div class="bh">Branches</div><div class="chips br"></div>
+@@ -307,7 +333,10 @@
+   if (!r.ok) throw new Error(name + ' ' + r.status);
+   return r.json();
+ }
+-const [axes, ideas] = await Promise.all([load('axes.json'), load('ideas.json')]);
++const [axes, ideas, thinkerLinks] = await Promise.all([load('axes.json'), load('ideas.json'),
++  /* optional: thinker -> Grokipedia URL; a missing or bad file just leaves chips plain */
++  load('thinkers.json').then(o => (o && typeof o === 'object' && !Array.isArray(o)) ? o : {}).catch(() => ({}))]);
++const thinkerUrl = t => { const u = thinkerLinks[t]; return (typeof u === 'string' && /^https:\/\/(grokipedia\.com\/page|en\.wikipedia\.org\/wiki)\//.test(u)) ? u : null; };
+ const byId = Object.fromEntries(ideas.map(d => [d.id, d]));
+ ideas.forEach(d => d.children = ideas.filter(c => (c.parents || []).includes(d.id)).map(c => c.id));
+ 
+@@ -483,7 +512,11 @@
+ const families = {}; roots.forEach((r, i) => { r.rootColor = new THREE.Color(ROOT_PALETTE[i % ROOT_PALETTE.length]);
+   families[r.id] = new Set([r.id, ...lineage(r.id).dn]); });
+ const filt = { rootsOnly: false, sel: new Set(), dom: '' };
+-const domOK = d => !filt.dom || (d.domain || []).includes(filt.dom);
++/* Abrahamic: not a domain or axis, a derived group. Rule: the idea scores 4+ ("comes straight from it") on the Christianity
++   or Islamic philosophy axis. No Judaism node or axis exists yet, so nothing is added for it. */
++const ABRAHAMIC_IDS = ['sufism', 'asharism']; // Islamic ideas that score 0 on the Islamic philosophy (falsafa) axis, added by id
++const ABRAHAMIC = d => Math.max(sc(d, 'christianity'), sc(d, 'islamic_philosophy')) >= 4 || ABRAHAMIC_IDS.includes(d.id);
++const domOK = d => !filt.dom || (filt.dom === 'abrahamic' ? ABRAHAMIC(d) : (d.domain || []).includes(filt.dom));
+ const treeOn = () => filt.rootsOnly || filt.sel.size > 0;
+ const filterOn = () => treeOn() || !!filt.dom;
+ const inFilter = d => domOK(d) && (!treeOn() || (filt.rootsOnly && d.root) || [...filt.sel].some(r => families[r].has(d.id)));
+@@ -533,13 +566,15 @@
+   const a = axes.find(x => x.id === ax);
+   legend.innerHTML = a ? `Colored by ${a.label}<div class="bar"></div>${a.group === 'stance' ? (a.id === 'abstraction' ? 'material (−5) · neutral or mixed (0) · abstract (+5)' : 'opposes (−5) · neutral or mixed (0) · favors (+5)') : 'against (−5) · no link (0) · grows from it (+5)'}<div class="desc">${a.plain || a.description}${a.group === 'register' ? ' Root ideas stay grey: tone scores are not shown for them.' : ''}</div>`
+     : `Family tree view<div class="desc">Each star is an idea. Higher means newer. Lines link an idea to the ideas it came from. Right is more abstract, left more material; front favors hierarchy, back opposes it. Click a star, or press <b>?</b> for help.</div>`;
++  legend.insertAdjacentHTML('beforeend', WHY_MEMEPLEX);
+ }
++const WHY_MEMEPLEX = `<details class="why-mp"><summary>Why “Memeplex”?</summary><p>Richard Dawkins coined the word <i>meme</i>, an idea that spreads by imitation, in <i>The Selfish Gene</i> (1976). A <i>memeplex</i>, short for “co-adapted meme complex”, is a cluster of ideas that spread together; Susan Blackmore set it out in <i>The Meme Machine</i> (1999). This map traces those clusters through history, and the name is also a nod to internet memes.</p><p class="src"><a href="https://grokipedia.com/page/Meme" target="_blank" rel="noopener">Grokipedia: Meme</a> · <a href="https://grokipedia.com/page/Memeplex" target="_blank" rel="noopener">Grokipedia: Memeplex</a></p></details>`;
+ sel.addEventListener('change', () => applyLens(sel.value));
+ applyLens('');
+ 
+ /* ---------- Panel ---------- */
+ const panel = document.getElementById('panel');
+-const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
++const esc = s => String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+ const fmtYear = (y, ap) => (ap ? 'c. ' : '') + (y < 0 ? `${-y} BC` : `AD ${y}`);
+ let current = null;
+ /* Register axes (humor, irony, critical theory) are stored for every idea but never shown for root ideas. */
+@@ -583,6 +618,22 @@
+     .to(controls.target, { x: c.x, y: c.y - (isMobile() ? r * 0.6 : 0), z: c.z }, 0).to(camera.position, { x: dest.x, y: dest.y - (isMobile() ? r * 0.6 : 0), z: dest.z }, 0);
+   highlight(id);
+ }
++function kinLevels(d, key) { // BFS by steps away: key 'parents' = ancestors, 'children' = descendants
++  const seen = new Set([d.id]), levels = []; let front = [d];
++  while (front.length) { const next = []; front.forEach(x => (x[key] || []).forEach(k => { if (byId[k] && !seen.has(k)) { seen.add(k); next.push(byId[k]); } }));
++    if (next.length) levels.push(next.sort((a, b) => a.year - b.year)); front = next; }
++  return levels; }
++function renderKin(d) {
++  const sec = (title, lv, word) => `<div class="k">${title}</div>` + (lv.length ? lv.map((l, i) => `<div class="kinlv"><span class="kd">${i + 1} ${word}${i ? 's' : ''} away</span><div class="chips">${l.map(x => `<button data-go="${x.id}" title="${esc(fmtYear(x.year, x.year_approx))}">${esc(x.name)}</button>`).join('')}</div></div>`).join('') : '<p class="muted">None mapped</p>');
++  const A = kinLevels(d, 'parents'), D = kinLevels(d, 'children'), n = l => l.reduce((s, x) => s + x.length, 0);
++  panel.innerHTML = `<button class="close" aria-label="Close">×</button><button class="back" type="button">← Back to ${esc(d.name)}</button>
++   <div class="tools"><button data-act="card" title="Make a 9:16 image for social media">Share card</button></div><h2>${esc(d.name)}</h2><div class="when">${n(A)} ancestors · ${n(D)} descendants</div>
++   ${sec('Ancestors', A, 'step')}${sec('Descendants', D, 'step')}`;
++  panel.querySelector('.close').onclick = closePanel;
++  panel.querySelector('.back').onclick = () => renderPanel(d);
++  panel.querySelector('[data-act=card]').onclick = () => shareIdea(d.id);
++  panel.querySelectorAll('[data-go]').forEach(b => b.onclick = () => focusIdea(b.dataset.go));
++  panel.scrollTop = 0; }
+ function renderPanel(d) {
+   const chip = id => byId[id] ? `<button data-go="${id}">${esc(byId[id].name)}</button>` : '';
+   const vis = shownAxes(d), trad = vis.filter(a => a.group === 'tradition'), st = vis.filter(isStance), reg = vis.filter(isReg), r0 = d.ratings || {};
+@@ -593,8 +644,8 @@
+    ${d.root ? `<span class="badge" title="The idea that starts one of the sixteen traditions used for scoring">Root idea of ${esc(axes.find(a => a.id === d.root_axis).label)}</span>` : ''}
+    <p class="plain">${esc(d.plain || d.summary)}</p>
+    ${d.plain && d.summary ? `<p class="detail">${esc(d.summary)}</p>` : ''}
+-   <div class="tools"><button data-act="compare">Compare</button><button data-act="lineage">Trace lineage</button><button data-act="card" title="Make a 9:16 image for social media">Share card</button></div>
+-   <div class="k">Key thinkers</div><div class="chips">${d.thinkers.map(t => `<span>${esc(t)}</span>`).join('')}</div>
++   <div class="tools"><button data-act="compare">Compare</button><button data-act="lineage">Trace lineage</button><button data-act="kin" title="Every ancestor and descendant, grouped by steps away">Ancestors &amp; descendants</button><button data-act="card" title="Make a 9:16 image for social media">Share card</button></div>
++   <div class="k">Key thinkers</div><div class="chips">${d.thinkers.map(t => { const u = thinkerUrl(t); return u ? `<a class="tlink" href="${esc(u)}" target="_blank" rel="noopener" title="${esc(t)} (opens in a new tab)">${esc(t)}</a>` : `<span>${esc(t)}</span>`; }).join('')}</div>
+    <div class="k">Came from (parents)</div><div class="chips">${d.parents.map(chip).join('') || '<span class="muted">No earlier idea mapped</span>'}</div>
+    <div class="k">Led to (children)</div><div class="chips">${d.children.map(chip).join('') || '<span class="muted">None mapped yet</span>'}</div>
+    <div class="k">Scores</div>
+@@ -610,8 +661,10 @@
+   panel.querySelector('.close').onclick = closePanel;
+   panel.querySelector('[data-act=compare]').onclick = () => startCompare(d.id);
+   panel.querySelector('[data-act=lineage]').onclick = () => traceLineage(d.id);
++  panel.querySelector('[data-act=kin]').onclick = () => renderKin(d);
+   panel.querySelector('[data-act=card]').onclick = () => shareIdea(d.id);
+   panel.querySelectorAll('[data-go]').forEach(b => b.onclick = () => focusIdea(b.dataset.go));
++  panel.querySelectorAll('a.tlink').forEach(l => ['click', 'pointerdown', 'pointerup'].forEach(ev => l.addEventListener(ev, e => e.stopPropagation())));
+ }
+ /* ---------- Share card (9:16 PNG, see assets/sharecard.js) ---------- */
+ const stanceEnds = a => a.id === 'abstraction' ? ['−5 MATERIAL', '+5 ABSTRACT'] : ['−5 OPPOSES', '+5 FAVORS'];
+@@ -678,6 +731,13 @@
+   highlight(id); openPanel(d);
+ }
+ 
++/* ---------- Random idea: within the current filter, skipping the last few picks ---------- */
++const recentPicks = [];
++window.__randomIdea = () => { const pool = ideas.filter(d => !filterOn() || inFilter(d)); if (!pool.length) return null;
++  const keep = Math.min(5, pool.length - 1), fresh = pool.filter(d => !recentPicks.slice(-keep).includes(d.id) && d.id !== current);
++  const list = fresh.length ? fresh : pool, d = list[Math.floor(Math.random() * list.length)];
++  recentPicks.push(d.id); if (recentPicks.length > 8) recentPicks.shift(); focusIdea(d.id); return d.id; };
++
+ /* ---------- Search ---------- */
+ const search = document.getElementById('search'), results = document.getElementById('results');
+ search.addEventListener('input', () => {
+@@ -746,7 +806,7 @@
+     if (center) { o.sx = sx; o.sy = sy; o.dist = dist; const w = o.w || 60; placed.push([sx - w / 2 - LOD.pad, sy - 1, sx + w / 2 + LOD.pad, sy + LOD.h]); show(o); return; }
+     let t = d.root ? 4 : d.children.length >= 2 ? 3 : d.children.length ? 2 : 1;
+     if (F) t += 1; if (o.lin) t += 2;
+-    const must = d.id === current || d.id === hovered;
++    const must = d.id === current || d.id === hovered || (d.root && window.__views && window.__views.cur === 'tree'); // tree view: every root tradition named at the base
+     if (!must && ((t === 2 && dist > LOD.mid) || (t <= 1 && dist > LOD.near))) { el.style.display = 'none'; hidZoom++; return; }
+     o.sx = sx; o.sy = sy; o.dist = dist; o.t = must ? 99 : t; cand.push(o); });
+   cand.sort((a, b) => b.t - a.t || a.dist - b.dist);
+@@ -921,16 +981,18 @@
+   if (['x', 'y', 'z', 'a'].some(k => S[k] !== 1)) go(true); else sync();
+ })();
+ /* ---------- STRETCH end ---------- */
+-/* ---------- UI-CHROME start: compact toolbar; every panel collapsible; state in localStorage 'memeplex-ui'; minimal by default ---------- */
++/* ---------- UI-CHROME start: compact toolbar; every panel collapsible; panels start closed on every load ---------- */
+ (function () {
+   const KEY = 'memeplex-ui', $ = id => document.getElementById(id);
+-  let st = {}; try { st = JSON.parse(localStorage.getItem(KEY) || '{}'); } catch (e) {}
+-  const save = () => { try { localStorage.setItem(KEY, JSON.stringify(st)); } catch (e) {} };
++  const st = {}; try { localStorage.removeItem(KEY); } catch (e) {} // panels always start closed; open/closed state is not remembered
++  const save = () => {};
+   const ctr = document.querySelector('.controls'), ico = p => `<svg viewBox="0 0 24 24" aria-hidden="true">${p}</svg>`;
+   const I = { search: ico('<circle cx="11" cy="11" r="6"/><path d="M16 16l5 5"/>'), color: ico('<circle cx="12" cy="12" r="8"/><path d="M12 4a8 8 0 0 1 0 16z" fill="currentColor"/>'),
+     filter: ico('<path d="M4 6h16M7 12h10M10 18h4"/>'), stretch: ico('<path d="M4 12h16M4 12l3-3M4 12l3 3M20 12l-3-3M20 12l-3 3M12 4v4M12 16v4"/>'),
+     legend: ico('<rect x="4" y="5" width="16" height="14" rx="2"/><path d="M8 10h8M8 14h5"/>'), help: ico('<circle cx="12" cy="12" r="8"/><path d="M10 10a2 2 0 1 1 3 1.7c-.7.4-1 1-1 1.8M12 16.5v.5"/>'),
+-    sym: ico('<path d="M12 3l2.5 6.5L21 12l-6.5 2.5L12 21l-2.5-6.5L3 12l6.5-2.5z"/>'), reset: ico('<path d="M5 12a7 7 0 1 0 2-5M5 4v4h4"/>') };
++    sym: ico('<path d="M12 3l2.5 6.5L21 12l-6.5 2.5L12 21l-2.5-6.5L3 12l6.5-2.5z"/>'), reset: ico('<path d="M5 12a7 7 0 1 0 2-5M5 4v4h4"/>'),
++    tours: ico('<path d="M4 19l5-14 5 10 3-5 3 9z"/>'), link: ico('<path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/>'),
++    dice: ico('<rect x="4" y="4" width="16" height="16" rx="3"/><circle cx="9" cy="9" r="1.1" fill="currentColor"/><circle cx="15" cy="15" r="1.1" fill="currentColor"/><circle cx="15" cy="9" r="1.1" fill="currentColor"/><circle cx="9" cy="15" r="1.1" fill="currentColor"/>') };
+   const tb = document.createElement('div'); tb.id = 'tb'; tb.className = 'gl'; tb.setAttribute('role', 'toolbar'); tb.setAttribute('aria-label', 'Map tools');
+   const tbp = document.createElement('div'); tbp.id = 'tbp'; ctr.prepend(tb, tbp);
+   // search + color panels from the existing inputs
+@@ -942,9 +1004,11 @@
+   const bS = b('search', 'Search', 'Search ideas and thinkers (/)'), bC = b('color', 'Color', 'Color the stars by one tradition'),
+     bF = b('filter', 'Filter', 'Filter by domain, tradition or branch', $('filtbtn')), bT = b('stretch', 'Stretch', 'Stretch or squeeze the map', $('strbtn')),
+     bL = b('legend', 'Key', 'Show or hide the map key'), bH = b('help', 'Help', 'How to read this map (?)', $('helpbtn')),
+-    bY = b('sym', 'Symbols', 'About the 3D symbols', $('symbtn')), bR = b('reset', 'Reset', 'Back to the full map (R)', $('resetbtn'));
++    bY = b('sym', 'Symbols', 'About the 3D symbols', $('symbtn')), bR = b('reset', 'Reset', 'Back to the full map (R)', $('resetbtn')), bD = b('dice', 'Random', 'Random idea'), bTo = b('tours', 'Tours', 'Guided tours'), bLk = b('link', 'Link', 'Copy link to this view');
++  bTo.setAttribute('aria-expanded', 'false'); bTo.onclick = () => window.__tours.menu(); bLk.onclick = () => window.__copyLink(bLk);
++  bD.onclick = () => window.__randomIdea();
+   const sep = () => { const s = document.createElement('span'); s.className = 'sep'; return s; };
+-  [bS, bC, bF, bT, bL, sep(), bH, bY, bR].forEach(e => tb.appendChild(e));
++  [bS, bC, bF, bT, bL, bD, bTo, bLk, sep(), bH, bY, bR].forEach(e => tb.appendChild(e));
+   [pS, pC, $('filt'), $('strbox')].forEach(e => tbp.appendChild(e)); $('filt').classList.add('gl'); $('strbox').classList.add('gl');
+   [...ctr.childNodes].forEach(n => n !== tb && n !== tbp && n.remove());
+   const legend = $('legend'); legend.classList.add('gl');
+@@ -1033,7 +1097,17 @@
+   const STEM = V(...ANCHORS.brainStem), side = d => sc(d, 'abstraction') > 0 || (sc(d, 'abstraction') === 0 && (d.domain || [])[0] === 'religion') ? 1 : -1;
+   const AS = {
+     brain: assign(ANCHORS.brain, p => p.distanceTo(STEM), p => Math.atan2(p.z, p.x), d => (side(d) > 0 ? 0 : PI) + (d._u - 0.5) * PI * 0.9 * side(d)),
+-    tree: assign(ANCHORS.tree, p => p.y, p => Math.atan2(p.z, p.x), d => FAM[d._fam].c * TAU + (d._s - 0.5) * 0.6) };
++    // tree: drop duplicate anchors (the L-system tail repeats the trunk base) so no two ideas share a point
++    tree: assign([...new Map(ANCHORS.tree.map(q => [q.join(','), q])).values()], p => p.y, p => Math.atan2(p.z, p.x), d => FAM[d._fam].c * TAU + (d._s - 0.5) * 0.6) };
++  { // tree roots: a ring of distinct points around the trunk base, each at its family's angle, below every other idea.
++    // Only roots whose whole ancestry is other roots can sit there; a root descended from a later non-root idea (e.g. Marxism
++    // from the Hegelian dialectic) keeps its time-ordered spot higher up so parents still come before children.
++    const isBase = d => d.root && (d.parents || []).every(k => !byId[k] || isBase(byId[k]));
++    const tier = d => Math.max(0, ...(d.parents || []).filter(k => byId[k]).map(k => tier(byId[k]) + 1));
++    const ring = ideas.filter(isBase), maxT = Math.max(...ring.map(tier));
++    const tys = ideas.filter(d => !isBase(d)).map(d => AS.tree[d.id][1]), base = Math.min(...tys) - 9 - maxT * 7;
++    ring.sort((a, b) => FAM[a._fam].c - FAM[b._fam].c).forEach((d, i) => { const t = tier(d), th = FAM[d._fam].c * TAU + t * 0.35, y = base + t * 7 + (i % 3) * 2.2, r = 16 + t * 3; // stagger heights so labels don't collide
++      AS.tree[d.id] = [V(Math.cos(th) * r, y, Math.sin(th) * r), y]; }); }
+   Object.keys(AS).forEach(k => L[k] = d => AS[k][d.id]);
+   L.flat = d => [V(d.basePos.x, d.basePos.y, 0), d.basePos.y]; // 2D: abstraction across, time up
+   L.flatH = d => [V(d.basePos.z, d.basePos.y, 0), d.basePos.y]; // 2D: hierarchy across, time up
+@@ -1048,6 +1122,8 @@
+   // camera framing per view
+   const CAMDIR = { default: null, helix: V(0.9, 0.55, 0.75), beatific: V(0, 1.1, 0.75), tree: V(0, 0.2, 1), galaxy: V(0, 1.3, 0.6), sphere: V(0, 0.25, 1), brain: V(0.75, 0.3, 0.9), flat: V(0, 0, 1), flatH: V(0, 0, 1) };
+   const frame = k => { if (k === 'default') return [homeCam.clone(), V(0, 0, 0)];
++    if (/^flat/.test(k)) { const [x0, x1, y0, y1] = CH.box, c = V((x0 + x1) / 2, (y0 + y1) / 2, 0), fov = THREE.MathUtils.degToRad(camera.fov);
++      const dist = Math.max((y1 - y0) / 2 / Math.tan(fov / 2), (x1 - x0) / 2 / (Math.tan(fov / 2) * camera.aspect)) * 1.06; return [c.clone().add(V(0, 0, dist)), c]; }
+     const pts = Object.values(POS[k]), c = new T.Box3().setFromPoints(pts).getCenter(V(0, 0, 0)), r = Math.max(...pts.map(p => p.distanceTo(c)));
+     const fov = THREE.MathUtils.degToRad(25) * Math.min(1, camera.aspect), dist = (r / Math.sin(fov) * 0.92 + 6) * (k === 'helix' ? 1.12 : 1);
+     return [c.clone().add(CAMDIR[k].clone().normalize().multiplyScalar(dist)), c]; };
+@@ -1071,6 +1147,36 @@
+   const ph = lines.map(l => hash(l.userData.a + l.userData.b));
+   let cur = 'default', tl = null, rot0 = controls.autoRotateSpeed;
+   const spine = window.__spineLine, axisLbl = labels.filter(o => !o.d);
++
++  /* ---------- Flat-view chart: axes, ticks, gridlines, plotted-paper backdrop and captions (flat + flatH only) ---------- */
++  const CH = (() => { const g = new T.Group(), mats = [], ys = Object.values(POS.flat).map(p => p.y);
++    const X0 = -5 * STEP - 6, X1 = 5 * STEP + 6, Y0 = Math.min(...ys) - 6, Y1 = Math.max(...ys) + 5, Z = -0.6;
++    const mat = (color, op) => { const m = new T.LineBasicMaterial({ color, transparent: true, opacity: 0, depthWrite: false }); m.userData.op = op; mats.push(m); return m; };
++    const seg = (pts, m) => g.add(new T.LineSegments(new T.BufferGeometry().setFromPoints(pts), m));
++    const bg = new T.MeshBasicMaterial({ color: 0x1c1006, transparent: true, opacity: 0, depthWrite: false }); bg.userData.op = 0.45; mats.push(bg);
++    const plane = new T.Mesh(new T.PlaneGeometry(X1 - X0, Y1 - Y0), bg); plane.position.set((X0 + X1) / 2, (Y0 + Y1) / 2, Z - 0.2); plane.renderOrder = -2; g.add(plane);
++    const fine = [], grid = [], axes = [], ticks = [];
++    for (let x = X0; x <= X1 + 1e-6; x += STEP / 2) fine.push(V(x, Y0, Z), V(x, Y1, Z)); // plotted paper
++    for (let y = Y0; y <= Y1 + 1e-6; y += STEP / 2) fine.push(V(X0, y, Z), V(X1, y, Z));
++    const ERA = [-400, 0, 500, 1250, 1600, 1800, 1850, 1900, 1950, 2000].filter(y => y >= yMin && y <= yMax);
++    for (let v = -5; v <= 5; v++) { const x = v * STEP; grid.push(V(x, Y0, Z), V(x, Y1, Z)); ticks.push(V(x, Y0, Z), V(x, Y0 - 1.4, Z)); }
++    ERA.forEach(y => { const yy = yPos(y) - CENTER.y; grid.push(V(X0, yy, Z), V(X1, yy, Z)); ticks.push(V(X0, yy, Z), V(X0 - 1.4, yy, Z)); });
++    axes.push(V(X0, Y0, Z), V(X1 + 3, Y0, Z), V(X0, Y0, Z), V(X0, Y1 + 3, Z)); // x and y axes, with arrowheads
++    axes.push(V(X1 + 3, Y0, Z), V(X1 + 1.6, Y0 + 0.9, Z), V(X1 + 3, Y0, Z), V(X1 + 1.6, Y0 - 0.9, Z), V(X0, Y1 + 3, Z), V(X0 - 0.9, Y1 + 1.6, Z), V(X0, Y1 + 3, Z), V(X0 + 0.9, Y1 + 1.6, Z));
++    axes.push(V(X0 - 3, Y0, Z), V(X0, Y0, Z)); // little lead-in so the corner reads
++    seg(fine, mat(0x3a2410, 0.18)); seg(grid, mat(0x6a3e18, 0.38)); seg([V(0, Y0, Z), V(0, Y1, Z)], mat(0xb87333, 0.45)); seg(ticks, mat(0xe0a050, 0.9)); seg(axes, mat(0xe8a855, 0.95));
++    g.visible = false; scene.add(g);
++    const L2 = [], add = (txt, pos, cls, show) => { const el = document.createElement('div'); el.className = 'axl chart ' + cls; el.textContent = txt; lblLayer.appendChild(el);
++      const o = { pos, el, center: true, off: true, chart: show, w: el.offsetWidth }; labels.push(o); L2.push(o); return o; };
++    for (let v = -5; v <= 5; v++) add((v > 0 ? '+' : v < 0 ? '\u2212' : '') + Math.abs(v), V(v * STEP, Y0 - 3.4, Z), 'tick' + (v % 5 ? ' minor' : ''), 'both');
++    ERA.forEach(y => add(y < 0 ? -y + ' BC' : y === 0 ? 'AD 1' : String(y), V(X0 - 6.5, yPos(y) - CENTER.y - 0.6, Z), 'tick yr', 'both'));
++    add('Time \u2191', V(X0, Y1 + 5.5, Z), 'title', 'both');
++    add('Abstraction \u2192', V(0, Y0 - 12, Z), 'title', 'flat'); add('Hierarchy \u2192', V(0, Y0 - 12, Z), 'title', 'flatH');
++    const P = Object.fromEntries(POLES);
++    [['flat', 'More material', 'More abstract / ideal'], ['flatH', 'Opposes hierarchy', 'Favors hierarchy']].forEach(([k, lo, hi]) => {
++      add('\u2190 ' + lo, V(X0 + 7, Y0 - 7.5, Z), 'pole', k); add(hi + ' \u2192', V(X1 - 9, Y0 - 7.5, Z), 'pole', k); });
++    return { g, mats, L2, box: [X0 - 9, X1 + 4, Y0 - 17, Y1 + 7] }; })();
++  window.__chart = CH;
+   function decor(k, dur) { const on = fx && (k === 'beatific' || k === 'galaxy' || k === 'brain');
+     gsap.to(glow.material, { opacity: on ? (k === 'brain' ? 0.25 : 0.7) : 0, duration: dur });
+     gsap.to(halo.material, { opacity: fx && k === 'beatific' ? 0.5 : 0, duration: dur });
+@@ -1078,7 +1184,10 @@
+     gsap.to(pulses.material, { opacity: fx && k === 'brain' ? 0.9 : 0, duration: dur });
+     glow.position.set(0, k === 'brain' ? -4 : 0, 0); halo.position.copy(glow.position);
+     controls.autoRotateSpeed = k === 'galaxy' ? 0.9 : k === 'sphere' ? 0.6 : /^flat/.test(k) ? 0 : rot0; controls.enableRotate = !/^flat/.test(k);
+-    if (spine) spine.visible = k === 'default'; axisLbl.forEach(o => o.off = k !== 'default'); }
++    if (spine) spine.visible = k === 'default'; axisLbl.forEach(o => o.off = k !== 'default');
++    const fl = /^flat/.test(k), mob = isMobile(); if (fl) CH.g.visible = true;
++    CH.mats.forEach(m => gsap.to(m, { opacity: fl ? m.userData.op : 0, duration: dur, overwrite: 'auto', onComplete: () => { if (!/^flat/.test(cur)) CH.g.visible = false; } }));
++    CH.L2.forEach(o => { o.off = !(o.chart === 'both' ? fl : o.chart === k) || (mob && o.el.classList.contains('minor')); if (!o.off) o.w = o.el.offsetWidth || o.w; }); }
+   function set(k, o = {}) { if (!NAMES[k]) return; const instant = o.instant || reduce, dur = instant ? 0 : (o.dur || 2);
+     const from = Object.fromEntries(ideas.map(d => [d.id, d.pos.clone()])), to = target(k), lift0 = lift, lift1 = k === 'default' ? 1 : 0;
+     const [c1, t1] = frame(k), c0 = camera.position.clone(), t0 = controls.target.clone();
+@@ -1119,6 +1228,56 @@
+     gsap.delayedCall(1.6, () => set('default', { dur: 2.4 })); }
+ })();
+ /* ---------- VIEWS end ---------- */
++/* ---------- Shareable links: view, filter and open idea live in the URL hash ---------- */
++(() => {
++  const state = () => { const p = new URLSearchParams(), v = window.__views ? __views.cur : 'default';
++    if (v && v !== 'default') p.set('v', v); if (filt.dom) p.set('dom', filt.dom); if (filt.rootsOnly) p.set('roots', '1');
++    if (filt.sel.size) p.set('sel', [...filt.sel].join(',')); if (current && byId[current]) p.set('i', current); return p.toString(); };
++  let last = null; const write = () => { const s = state(); if (s === last) return; last = s; history.replaceState(null, '', location.pathname + location.search + (s ? '#' + s : '')); };
++  const h = new URLSearchParams(location.hash.slice(1)); window.__linkRestore = Object.fromEntries(h);
++  if (h.has('dom') || h.has('roots') || h.has('sel')) { const doms = [...document.querySelectorAll('#filt .dchip')].map(c => c.dataset.dom);
++    if (doms.includes(h.get('dom'))) filt.dom = h.get('dom'); filt.rootsOnly = h.get('roots') === '1';
++    (h.get('sel') || '').split(',').forEach(r => { if (families[r]) filt.sel.add(r); }); applyFilter(); }
++  const later = () => { const v = h.get('v'); if (v && window.__views && __views.names[v] && v !== 'default') __views.set(v);
++    const i = h.get('i'); if (i && byId[i]) setTimeout(() => focusIdea(i), v ? 2300 : 0); last = null; setInterval(write, 400); };
++  if (location.hash.length > 1) setTimeout(later, reduce ? 100 : 4300); else setInterval(write, 400);
++  const toast = document.createElement('div'); toast.id = 'toast'; toast.className = 'gl'; document.body.appendChild(toast);
++  window.__copyLink = btn => { write(); const url = location.href, ok = () => { toast.textContent = 'Link copied'; gsap.fromTo(toast, { opacity: 0 }, { opacity: 1, duration: 0.2, yoyo: true, repeat: 1, repeatDelay: 1.2 }); };
++    const fb = () => { const t = document.createElement('textarea'); t.value = url; document.body.appendChild(t); t.select(); try { document.execCommand('copy'); } catch (e) {} t.remove(); ok(); };
++    if (navigator.clipboard && window.isSecureContext) navigator.clipboard.writeText(url).then(ok, fb); else fb(); return url; };
++  window.__linkState = state;
++})();
++
++/* ---------- Guided tours: each step flies to an idea, opens its panel and shows its one-line summary from the data ---------- */
++(() => {
++  const TOURS = [
++    { id: 'plato-marx', name: 'From Plato to Marx', steps: ['platonic_forms', 'aristotelian_teleology', 'neoplatonism', 'augustinian_grace', 'cartesian_dualism', 'hegelian_dialectic', 'marxism'] },
++    { id: 'abrahamic', name: 'The Abrahamic thread', steps: ['christianity', 'apostolic_christianity', 'augustinian_grace', 'falsafa', 'thomism', 'protestantism', 'catholic_social_teaching', 'liberation_theology'] },
++    { id: 'east-west', name: 'East meets West', steps: ['confucian_ethics', 'buddhas_dharma', 'church_of_the_east', 'jingjiao', 'zen', 'jesuit_accommodation', 'traditionalism'] },
++    { id: 'internet-right', name: 'Road to the internet right', steps: ['enlightenment_liberalism', 'libertarianism', 'old_right', 'paleoconservatism', 'cypherpunks', 'chan_culture', 'neoreaction', 'effective_accelerationism'] },
++    { id: 'old-gods', name: 'Old gods, new paths', steps: ['hermetic_correspondence', 'vajrayana', 'shinto', 'yungdrung_bon', 'old_norse_religion', 'romanticism', 'wicca'] } ]
++    .map(t => ({ ...t, steps: t.steps.filter(k => byId[k]) })).filter(t => t.steps.length >= 4);
++  const menu = document.createElement('div'); menu.id = 'tourmenu'; menu.className = 'gl'; menu.setAttribute('role', 'menu');
++  menu.innerHTML = '<div class="ph">Guided tours</div>' + TOURS.map(t => `<button type="button" role="menuitem" data-t="${t.id}">${esc(t.name)}<small>${t.steps.length} stops · ${esc(t.steps.map(k => byId[k].name.split(' (')[0]).slice(0, 3).join(' → '))} …</small></button>`).join('');
++  const bar = document.createElement('div'); bar.id = 'tourbar'; bar.className = 'gl'; bar.setAttribute('role', 'region'); bar.setAttribute('aria-label', 'Guided tour'); bar.setAttribute('aria-live', 'polite');
++  document.body.append(menu, bar);
++  let T = null, i = 0; const btn = () => document.querySelector('#tb button[data-k=tours]');
++  const show = () => { const d = byId[T.steps[i]];
++    bar.innerHTML = `<div class="tn">${esc(T.name)} · ${i + 1} / ${T.steps.length} · ${esc(fmtYear(d.year, d.year_approx))}</div><div class="tc"><b>${esc(d.name)}</b>: ${esc(d.summary || d.plain)}</div>
++      <div class="tr"><button type="button" data-a="card" title="Make a 9:16 image of this stop">Share card</button><button type="button" data-a="exit">Exit</button><button type="button" data-a="prev"${i ? '' : ' disabled'}>← Back</button><button type="button" data-a="next">${i < T.steps.length - 1 ? 'Next →' : 'Finish'}</button></div>`;
++    bar.querySelector('[data-a=exit]').onclick = stop; bar.querySelector('[data-a=card]').onclick = () => shareIdea(d.id); bar.querySelector('[data-a=prev]').onclick = () => { if (i) { i--; show(); } };
++    bar.querySelector('[data-a=next]').onclick = () => { if (i < T.steps.length - 1) { i++; show(); } else stop(); };
++    focusIdea(d.id); gsap.fromTo(bar.querySelector('.tc'), { autoAlpha: 0, y: 6 }, { autoAlpha: 1, y: 0, duration: reduce ? 0 : 0.4 }); };
++  const start = id => { T = TOURS.find(t => t.id === id); if (!T) return; i = 0; close(); bar.classList.add('open'); show(); };
++  const stop = () => { T = null; bar.classList.remove('open'); };
++  const close = () => { menu.classList.remove('open'); btn() && btn().setAttribute('aria-expanded', 'false'); };
++  menu.querySelectorAll('button[data-t]').forEach(b => b.onclick = () => start(b.dataset.t));
++  addEventListener('keydown', e => { if (!T) return; if (e.key === 'ArrowRight') bar.querySelector('[data-a=next]').click(); else if (e.key === 'ArrowLeft') bar.querySelector('[data-a=prev]').click(); });
++  addEventListener('pointerdown', e => { if (menu.classList.contains('open') && !menu.contains(e.target) && !(btn() && btn().contains(e.target))) close(); });
++  window.__tours = { list: TOURS.map(t => ({ id: t.id, name: t.name, steps: t.steps })), start, stop, get step() { return T ? [T.id, i] : null },
++    menu: () => { const o = !menu.classList.contains('open'); menu.classList.toggle('open', o); btn() && btn().setAttribute('aria-expanded', String(o)); } };
++})();
++
+ /* no text selection while dragging the map */
+ (() => { const app = document.getElementById('stage'); const end = () => document.body.classList.remove('dragging');
+   app.addEventListener('pointerdown', () => { document.body.classList.add('dragging'); const sel = getSelection(); sel && sel.removeAllRanges(); });

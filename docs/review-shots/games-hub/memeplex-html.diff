@@ -1,0 +1,229 @@
+--- /tmp/mp-before.html	2026-10-28 22:15:37.079923409 -1000
++++ /workspace/memeplex-build/site-v3/memeplex.html	2026-10-28 22:18:16.234374373 -1000
+@@ -93,6 +93,13 @@
+ .mm-h{font-family:var(--mono);font-size:9px;letter-spacing:.1em;color:var(--amber);border:1px solid rgba(255,180,90,.4);border-radius:10px;padding:1px 6px;margin-left:8px;vertical-align:2px}.mm-msg{font-family:var(--mono);font-size:11px;color:var(--amber);min-height:14px;margin:6px 0 0}
+ .mm-flash{font:inherit;font-size:13px;color:var(--ink);background:none;border:1px dashed rgba(255,180,90,.5);border-radius:6px;padding:2px 8px;cursor:pointer}#memele.flashing{opacity:0;pointer-events:none;transition:opacity .3s}
+ .arx-game-clue b{font-family:var(--mono);font-size:9px;letter-spacing:.16em;text-transform:uppercase;color:var(--amber);font-weight:500;margin-right:6px}
++.mm-gu{display:flex;justify-content:flex-end;gap:8px;align-items:center;margin:8px 0 0}.mm-gu button{font-family:var(--mono);font-size:10.5px;letter-spacing:.08em;color:var(--ink-dim);background:none;border:1px solid var(--rule);border-radius:8px;padding:0 12px;min-height:36px;cursor:pointer}.mm-gu button.arm{color:#160c04;background:var(--amber);border-color:var(--amber)}.mm-gu button[data-a=gucancel]{border-style:dashed}
++.mm-rev{margin:10px 0 0;font-family:var(--serif);font-size:15px;color:var(--ink);text-align:left}.mm-rev b{color:var(--amber-bright)}.mm-rev .lin{font-family:var(--mono);font-size:10.5px;letter-spacing:.04em;color:var(--ink-dim);margin-top:4px}
++.gm-pick{display:block;width:100%;text-align:left;margin:8px 0;padding:12px 14px;background:rgba(255,255,255,.03);border:1px solid var(--rule);border-radius:10px;cursor:pointer;color:var(--ink)}.gm-pick:hover{border-color:var(--amber)}.gm-pick b{display:block;font-family:var(--serif);font-size:22px;font-weight:500}.gm-pick span{font-family:var(--serif);font-size:14px;color:var(--ink-dim)}.gm-pick i{float:right;font-style:normal;font-family:var(--mono);font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:var(--amber);margin-top:-22px}
++.gm-back{all:unset;cursor:pointer;font-family:var(--mono);font-size:10px;letter-spacing:.12em;color:var(--ink-dim);text-transform:uppercase}.gm-opts{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:10px 0}.gm-o{position:relative;font-family:var(--serif);font-size:16px;color:var(--ink);background:rgba(255,255,255,.04);border:1px solid var(--rule);border-radius:8px;padding:10px;min-height:48px;cursor:pointer;text-align:left}.gm-o:hover{border-color:var(--amber)}.gm-o.on{border-color:var(--amber);background:rgba(184,115,51,.18)}.gm-o em{font-style:normal;font-family:var(--mono);font-size:11px;color:#160c04;background:var(--amber);border-radius:10px;padding:1px 7px;margin-right:6px}
++.gm-acts{display:flex;gap:8px;justify-content:flex-end}.gm-acts button{font-family:var(--mono);font-size:11px;letter-spacing:.08em;color:var(--amber);background:rgba(255,180,90,.08);border:1px solid rgba(255,180,90,.45);border-radius:8px;padding:0 14px;min-height:40px;cursor:pointer}.gm-acts button:disabled{opacity:.4;cursor:default}.gm-lad{display:grid;grid-template-columns:repeat(4,1fr);gap:4px;margin:6px 0}.gm-lad .arx-game-cell{font-size:12px}
++.gm-dots{display:flex;gap:6px;margin:6px 0 10px}.gm-dots span{width:22px;height:8px;border-radius:4px;background:var(--arx-game-far)}.gm-dots .hit{background:var(--arx-game-hit)}.gm-dots .cur{background:var(--amber);opacity:.5}.gm-dots .skip{background:var(--ink-faint)}.gm-res a,.mm-rev a{color:var(--amber-bright)}
++@media (max-width:520px){.gm-opts,.gm-lad{grid-template-columns:1fr}.arx-game h2{font-size:28px}}
+ .arx-game-share{margin-top:14px;padding:12px;border:1px solid var(--rule);border-radius:10px;text-align:center}
+ .arx-game-share .grid{font-size:20px;line-height:1.25;white-space:pre}
+ .arx-game .acts{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin-top:10px}
+@@ -104,7 +111,7 @@
+ body.phone #phonenote{display:block;position:fixed;z-index:30;left:50%;top:76px;transform:translateX(-50%);width:min(360px,92vw);padding:12px 14px;border-radius:12px;text-align:center;font-family:var(--serif);font-size:16px;color:var(--ink)}
+ body.phone #phonenote a{display:inline-block;margin-top:6px;font-family:var(--mono);font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--amber-bright)}
+ body.phone #stage canvas{pointer-events:none}
+-body.phone #tb button:not([data-k=search]):not([data-k=dice]):not([data-k=memele]):not([data-k=tours]),body.phone #tb .sep,body.phone #legend{display:none!important}
++body.phone #tb button:not([data-k=search]):not([data-k=dice]):not([data-k=games]):not([data-k=tours]),body.phone #tb .sep,body.phone #legend{display:none!important}
+ body.phone #panel{top:0;height:100%;height:100dvh;z-index:40}
+ body.phone #tourbar{bottom:auto;top:50%;transform:translate(-50%,-50%);width:min(380px,92vw)}
+ body.phone #tourbar .tc{font-size:18px}
+@@ -1036,6 +1043,7 @@
+     legend: ico('<rect x="4" y="5" width="16" height="14" rx="2"/><path d="M8 10h8M8 14h5"/>'), help: ico('<circle cx="12" cy="12" r="8"/><path d="M10 10a2 2 0 1 1 3 1.7c-.7.4-1 1-1 1.8M12 16.5v.5"/>'),
+     sym: ico('<path d="M12 3l2.5 6.5L21 12l-6.5 2.5L12 21l-2.5-6.5L3 12l6.5-2.5z"/>'), reset: ico('<path d="M5 12a7 7 0 1 0 2-5M5 4v4h4"/>'),
+     tours: ico('<path d="M4 19l5-14 5 10 3-5 3 9z"/>'), link: ico('<path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/>'),
++    games: ico('<rect x="3" y="7" width="18" height="11" rx="4"/><path d="M8 10.5v4M6 12.5h4"/><circle cx="15.5" cy="11.5" r="1" fill="currentColor"/><circle cx="17.5" cy="13.5" r="1" fill="currentColor"/>'),
+     memele: ico('<rect x="3" y="5" width="5" height="5" rx="1"/><rect x="9.5" y="5" width="5" height="5" rx="1"/><rect x="16" y="5" width="5" height="5" rx="1"/><rect x="3" y="13" width="5" height="5" rx="1"/><rect x="9.5" y="13" width="5" height="5" rx="1"/>'),
+     dice: ico('<rect x="4" y="4" width="16" height="16" rx="3"/><circle cx="9" cy="9" r="1.1" fill="currentColor"/><circle cx="15" cy="15" r="1.1" fill="currentColor"/><circle cx="15" cy="9" r="1.1" fill="currentColor"/><circle cx="9" cy="15" r="1.1" fill="currentColor"/>') };
+   const tb = document.createElement('div'); tb.id = 'tb'; tb.className = 'gl'; tb.setAttribute('role', 'toolbar'); tb.setAttribute('aria-label', 'Map tools');
+@@ -1049,8 +1057,8 @@
+   const bS = b('search', 'Search', 'Search ideas and thinkers (/)'), bC = b('color', 'Color', 'Color the stars by one tradition'),
+     bF = b('filter', 'Filter', 'Filter by domain, tradition or branch', $('filtbtn')), bT = b('stretch', 'Stretch', 'Stretch or squeeze the map', $('strbtn')),
+     bL = b('legend', 'Key', 'Show or hide the map key'), bH = b('help', 'Help', 'How to read this map (?)', $('helpbtn')),
+-    bY = b('sym', 'Symbols', 'About the 3D symbols', $('symbtn')), bR = b('reset', 'Reset', 'Back to the full map (R)', $('resetbtn')), bD = b('dice', 'Random', 'Random idea'), bTo = b('tours', 'Tours', 'Guided tours'), bLk = b('link', 'Link', 'Copy link to this view'), bMm = b('memele', 'Memele', 'Memele: the daily guess-the-idea game');
+-  bMm.onclick = () => window.__memele.open();
++    bY = b('sym', 'Symbols', 'About the 3D symbols', $('symbtn')), bR = b('reset', 'Reset', 'Back to the full map (R)', $('resetbtn')), bD = b('dice', 'Random', 'Random idea'), bTo = b('tours', 'Tours', 'Guided tours'), bLk = b('link', 'Link', 'Copy link to this view'), bMm = b('games', 'Games', 'Games: Memele and other daily puzzles');
++  bMm.onclick = () => window.__games.menu();
+   bTo.setAttribute('aria-expanded', 'false'); bTo.onclick = () => window.__tours.menu(); bLk.onclick = () => window.__copyLink(bLk);
+   bD.onclick = () => window.__randomIdea();
+   const sep = () => { const s = document.createElement('span'); s.className = 'sep'; return s; };
+@@ -1281,7 +1289,7 @@
+   const SERIF = "'Cormorant Garamond', Georgia, serif", MONO = "'JetBrains Mono', ui-monospace, monospace";
+   const sp = (x, t, px, x0, y, al) => { if (x.letterSpacing !== undefined) x.letterSpacing = px + 'px'; x.textAlign = al || 'left'; x.fillText(t, x0, y); if (x.letterSpacing !== undefined) x.letterSpacing = '0px'; };
+   const COL = { hit: C.bright, near: C.amber, mid: C.mid, far: C.far };
+-  /* result({game, number, dateLabel, solved, tries, max, rows:[{tone:'hit'|'near'|'mid'|'far', arrow:'↑'|'↓'|''}], lines:[...], url}) -> Promise<Blob> */
++  /* result({game, number, dateLabel, solved, gaveUp?, tries, max, rows:[{tone:'hit'|'near'|'mid'|'far', arrow:'↑'|'↓'|''}], lines:[...], url}) -> Promise<Blob> */
+   async function result(d) {
+     try { await document.fonts.load("500 80px 'Cormorant Garamond'"); await document.fonts.load("500 24px 'JetBrains Mono'"); } catch (e) {}
+     const cv = document.createElement('canvas'); cv.width = W; cv.height = H; const x = cv.getContext('2d');
+@@ -1291,7 +1299,7 @@
+     x.fillStyle = C.amber; x.font = `500 26px ${MONO}`; sp(x, 'ARX CORTEX · THE MEMEPLEX', 6, W - PAD, 124, 'right'); x.fillStyle = C.rule; x.fillRect(PAD, 176, W - PAD * 2, 2);
+     x.fillStyle = C.ink; x.font = `500 120px ${SERIF}`; x.textAlign = 'left'; x.fillText(d.game, PAD, 340);
+     x.fillStyle = C.dim; x.font = `400 30px ${MONO}`; sp(x, `#${d.number} · ${d.dateLabel}`.toUpperCase(), 5, PAD, 410);
+-    x.fillStyle = d.solved ? C.bright : C.dim; x.font = `500 64px ${SERIF}`; x.fillText(d.solved ? `Solved in ${d.tries}/${d.max}` : `Not solved · X/${d.max}`, PAD, 530);
++    x.fillStyle = d.solved ? C.bright : d.gaveUp ? C.amber : C.dim; x.font = `500 64px ${SERIF}`; x.fillText(d.solved ? `Solved in ${d.tries}/${d.max}` : d.gaveUp ? `🏳️ Gave up · X/${d.max}` : `Not solved · X/${d.max}`, PAD, 530);
+     const cell = 118, gap = 22, gx = PAD; let y = 620;
+     d.rows.forEach(r => { x.fillStyle = COL[r.tone] || C.far; x.beginPath(); x.roundRect ? x.roundRect(gx, y, cell * 4, cell, 14) : x.rect(gx, y, cell * 4, cell); x.fill();
+       x.fillStyle = r.tone === 'hit' ? C.bright : C.dim; x.font = `500 64px ${MONO}`; x.textAlign = 'center'; x.fillText(r.arrow || '✓', gx + cell * 4 + 80, y + cell * .7); y += cell + gap; });
+@@ -1358,7 +1366,7 @@
+     if (r.length === 1 || r[0].s + 0.15 < r[1].s) return { id: r[0].d.id }; return { ask: r.filter(x => x.s <= r[0].s + 0.5).slice(0, 6).map(x => x.d.id) }; };
+   const el = document.createElement('div'); el.className = 'arx-game'; el.id = 'memele'; el.setAttribute('role', 'dialog'); el.setAttribute('aria-modal', 'true'); el.setAttribute('aria-label', 'Memele');
+   document.body.appendChild(el);
+-  let K, ans, st;
++  let K, ans, st, guArm = false;
+   const rowData = g => { const d = byId[g], s = steps(g, ans.id); return { d, s, t: tone(s), yrs: Math.abs(d.year - ans.year), arrow: g === ans.id ? '' : ans.year > d.year ? '↑' : '↓' }; };
+   const hintsBefore = (day, i) => (day.hints || []).filter(h => h === i).length;
+   const emoji = day => day.guesses.map((g, i) => { const r = rowData(g); return '💡'.repeat(hintsBefore(day, i)) + EMO[r.t] + (r.arrow === '↑' ? '⬆️' : r.arrow === '↓' ? '⬇️' : ''); }).join('\n');
+@@ -1367,16 +1375,19 @@
+   const clueHtml = (k, v, i, day) => {
+     const tag = (day.hintIdx || []).includes(i) ? '<span class="mm-h" title="Revealed with a hint">💡 hint</span>' : '';
+     return v === 'map' ? `<p class="arx-game-clue"><b>${k}</b>${tag}<button type="button" class="mm-flash" data-a="flash">Flash its area on the map</button></p>` : `<p class="arx-game-clue"><b>${k}</b>${esc(v)}${tag}</p>`; };
+-  const shareText = day => `Memele #${dayNo(K)} ${day.won ? day.guesses.length : 'X'}/${MAX}${(day.hints || []).length ? ` · 💡${day.hints.length}` : ''}\n${emoji(day)}\narxcortex.io/memeplex`;
++  const guLine = day => `🏳️ Gave up after ${day.guesses.length} guess${day.guesses.length === 1 ? '' : 'es'}${(day.hints || []).length ? ` and ${day.hints.length} hint${day.hints.length > 1 ? 's' : ''}` : ''}`;
++  const shareText = day => `Memele #${dayNo(K)} ${day.gaveUp ? '🏳️ ' : ''}${day.won ? day.guesses.length : 'X'}/${MAX}${(day.hints || []).length ? ` · 💡${day.hints.length}` : ''}\n${[emoji(day), day.gaveUp ? guLine(day) : ''].filter(Boolean).join('\n')}\narxcortex.io/memeplex`;
++  const revealHtml = () => { const ps = (ans.parents || []).filter(k => byId[k]).map(nm), cs = (ans.children || []).filter(k => byId[k]).map(nm);
++    return `<div class="mm-rev">The answer: <b>${esc(ans.name)}</b> <button type="button" class="mm-flash" data-a="panel">Open its panel</button><div class="lin">${ps.length ? `${esc(and(ps))} → ` : ''}${esc(ans.name)}${cs.length ? ` → ${esc(and(cs.slice(0, 3)))}` : ''}</div></div>`; };
+   function render() {
+     const day = st.days[K] || (st.days[K] = { guesses: [], done: false, won: false }); NCLUE = clues(ans).length; const shown = revealed(day);
+     el.innerHTML = `<div class="box"><button class="x" aria-label="Close">×</button><h2>Memele</h2><div class="sub">#${dayNo(K)} · ${K} · streak ${st.streak || 0} · best ${st.best || 0}</div>
+       ${day.done ? '' : `<div class="mm-in"><input type="text" placeholder="Guess an idea (${MAX - day.guesses.length} left)" aria-label="Guess an idea" autocomplete="off"><button type="button" class="mm-hint" data-a="hint"${shown >= NCLUE ? ' disabled' : ''} title="Reveal the next clue">💡 Hint${(day.hints || []).length ? ` (${day.hints.length})` : ''}</button></div><div class="mm-msg" aria-live="polite"></div><div class="ac" role="listbox"></div>
+-      <details class="mm-br"${st.br ? ' open' : ''}><summary>Browse ideas · <span class="mm-left"></span></summary><div class="mm-f"><select data-f="dom" aria-label="Category"><option value="">Any category</option>${Object.entries(DOM).map(([k, v]) => `<option value="${k}"${st.fd === k ? ' selected' : ''}>${v}</option>`).join('')}</select><select data-f="era" aria-label="Era"><option value="">Any era</option>${ERAS.map((e, i) => `<option value="${i}"${String(st.fe) === String(i) ? ' selected' : ''}>${e[0]}</option>`).join('')}</select></div><div class="mm-list"></div></details>`}
++      <details class="mm-br"${st.br ? ' open' : ''}><summary>Browse ideas · <span class="mm-left"></span></summary><div class="mm-f"><select data-f="dom" aria-label="Category"><option value="">Any category</option>${Object.entries(DOM).map(([k, v]) => `<option value="${k}"${st.fd === k ? ' selected' : ''}>${v}</option>`).join('')}</select><select data-f="era" aria-label="Era"><option value="">Any era</option>${ERAS.map((e, i) => `<option value="${i}"${String(st.fe) === String(i) ? ' selected' : ''}>${e[0]}</option>`).join('')}</select></div><div class="mm-list"></div></details><div class="mm-gu">${guArm ? '<span class="mm-msg" style="margin:0">Reveal answer?</span><button type="button" data-a="gucancel">Keep playing</button><button type="button" class="arm" data-a="giveup">🏳️ Yes, reveal</button>' : '<button type="button" data-a="giveup" title="Give up and reveal today\'s answer">🏳️ I don\'t know</button>'}</div>`}
+       ${day.guesses.length ? `<div class="hdr"><span>Guess</span><span>Steps</span><span>Years</span><span></span></div>` : `<p class="how">Read the clue and guess today's idea in ${MAX} tries. Each guess shows how many lineage steps it is from the answer, how many years apart, and whether the answer is newer (↑) or older (↓). Each miss reveals a different kind of clue, or tap 💡 Hint for one any time (hints show in your result).</p>`}
+       ${day.guesses.map(g => { const r = rowData(g); return `<div class="arx-game-row"><div class="arx-game-cell n ${r.t}">${esc(r.d.name)}</div><div class="arx-game-cell ${r.t}">${r.s === null ? '—' : r.s}</div><div class="arx-game-cell">${r.yrs}</div><div class="arx-game-cell">${r.arrow || '✓'}</div></div>`; }).join('')}
+       <div style="margin-top:10px">${clues(ans).slice(0, shown).map(([t, k, v], i) => clueHtml(k, v, i, day)).join('')}</div>
+-      ${day.done ? `<div class="arx-game-share"><div class="sub" style="margin:0 0 6px">${day.won ? `Solved in ${day.guesses.length}/${MAX}` : `The answer was ${esc(ans.name)}`}${(day.hints || []).length ? ` · ${day.hints.length} hint${day.hints.length > 1 ? 's' : ''} 💡` : ''}</div><div class="grid" aria-label="Result grid">${emoji(day)}</div>
++      ${day.done ? `<div class="arx-game-share"><div class="sub" style="margin:0 0 6px">${day.won ? `Solved in ${day.guesses.length}/${MAX}` : day.gaveUp ? `🏳️ Gave up · ${day.guesses.length} guess${day.guesses.length === 1 ? '' : 'es'}` : `Not solved`}${(day.hints || []).length ? ` · ${day.hints.length} hint${day.hints.length > 1 ? 's' : ''} 💡` : ''}</div><div class="grid" aria-label="Result grid">${emoji(day)}</div>${revealHtml()}
+         <div class="acts"><button data-a="copy">Copy result</button><button data-a="card">Share card</button><button data-a="see">See it on the map</button></div><p class="how">New Memele tomorrow.</p></div>` : ''}</div>`;
+     el.querySelector('.x').onclick = close;
+     const inp = el.querySelector('input'), ac = el.querySelector('.ac');
+@@ -1397,10 +1408,13 @@
+       br.querySelectorAll('select').forEach(x => x.onchange = () => { drawBr(); save(st); }); br.ontoggle = () => { st.br = br.open; save(st); }; drawBr(); }
+     const a = n => el.querySelector(`[data-a=${n}]`);
+     if (a('hint')) a('hint').onclick = hint;
++    if (a('giveup')) a('giveup').onclick = () => guArm ? giveUp() : (guArm = true, render());
++    if (a('gucancel')) a('gucancel').onclick = () => { guArm = false; render(); };
++    if (a('panel')) a('panel').onclick = () => { close(); focusIdea(ans.id); };
+     if (a('flash')) a('flash').onclick = flash;
+     if (a('copy')) { a('copy').onclick = () => { const t = shareText(day); (navigator.clipboard && window.isSecureContext ? navigator.clipboard.writeText(t) : Promise.reject()).catch(() => { const ta = document.createElement('textarea'); ta.value = t; document.body.appendChild(ta); ta.select(); try { document.execCommand('copy'); } catch (e) {} ta.remove(); }); a('copy').textContent = 'Copied'; };
+-      a('card').onclick = async () => { close(); ArxShareCard.open(await ArxGameCard.result({ game: 'Memele', number: dayNo(K), dateLabel: K, solved: day.won, tries: day.guesses.length, max: MAX,
+-        rows: day.guesses.map(g => { const r = rowData(g); return { tone: r.t, arrow: r.arrow }; }), lines: [`Streak ${st.streak || 0} · best ${st.best || 0}${(day.hints || []).length ? ` · 💡 ${day.hints.length} hint${day.hints.length > 1 ? 's' : ''}` : ''}`, 'Guess the idea from its lineage, era and thinkers.'], url: 'arxcortex.io/memeplex' }), `memele-${dayNo(K)}.png`); };
++      a('card').onclick = async () => { close(); ArxShareCard.open(await ArxGameCard.result({ game: 'Memele', number: dayNo(K), dateLabel: K, solved: day.won, gaveUp: !!day.gaveUp, tries: day.guesses.length, max: MAX,
++        rows: day.guesses.map(g => { const r = rowData(g); return { tone: r.t, arrow: r.arrow }; }), lines: [...(day.gaveUp ? [guLine(day)] : []), `Streak ${st.streak || 0} · best ${st.best || 0}${(day.hints || []).length ? ` · 💡 ${day.hints.length} hint${day.hints.length > 1 ? 's' : ''}` : ''}`, 'Guess the idea from its lineage, era and thinkers.'], url: 'arxcortex.io/memeplex' }), `memele-${dayNo(K)}.png`); };
+       a('see').onclick = () => { close(); focusIdea(ans.id); }; } }
+   function submit(raw) { const day = st.days[K], m = el.querySelector('.mm-msg'), ac = el.querySelector('.ac'); if (!raw.trim()) return;
+     const r = resolve(raw, day.guesses);
+@@ -1409,6 +1423,7 @@
+     m.textContent = 'Did you mean:'; ac.dataset.nav = '';
+     ac.innerHTML = r.ask.map((id, i) => `<button type="button" role="option" data-id="${id}" class="${i ? '' : 'sel'}">${esc(byId[id].name)}</button>`).join('');
+     ac.querySelectorAll('button').forEach(b => b.onclick = () => guess(b.dataset.id)); }
++  function giveUp() { const day = st.days[K]; guArm = false; if (day.done) return; day.done = true; day.won = false; day.gaveUp = true; st.streak = 0; save(st); render(); }
+   function hint() { const day = st.days[K]; if (day.done) return; const n = revealed(day); if (n >= NCLUE) return;
+     day.hints = day.hints || []; day.hintIdx = day.hintIdx || []; day.hints.push(day.guesses.length); day.hintIdx.push(n); save(st); render();
+     if (n === NCLUE - 1) flash(); }
+@@ -1424,11 +1439,108 @@
+       st.streak = prev === yk ? (st.streak || 0) + 1 : 1; st.best = Math.max(st.best || 0, st.streak); st.lastWin = K; }
+     else if (day.guesses.length >= MAX) { day.done = true; st.streak = 0; }
+     save(st); render(); }
+-  function open(k) { K = k || today(); ans = answerFor(K); st = load(); st.days = st.days || {}; render(); el.classList.add('open'); }
++  function open(k) { guArm = false; K = k || today(); ans = answerFor(K); st = load(); st.days = st.days || {}; render(); el.classList.add('open'); }
+   function close() { el.classList.remove('open'); }
+   el.addEventListener('click', e => { if (e.target === el) close(); });
+   addEventListener('keydown', e => { if (e.key === 'Escape' && el.classList.contains('open')) close(); });
+-  return { open, close, guess, submit, hint, resolve, search: (q, skip) => search(q, skip).map(r => r.d.id), clueTypes: () => clues(ans).map(c => c[0]), get day() { return st && st.days[K]; }, answerFor, steps, today, shareText: () => shareText(st.days[K]) };
++  return { open, close, guess, submit, hint, giveUp, resolve, search: (q, skip) => search(q, skip).map(r => r.d.id), clueTypes: () => clues(ans).map(c => c[0]), get day() { return st && st.days[K]; }, answerFor, steps, today, shareText: () => shareText(st.days[K]) };
++})();
++
++/* ---------- Games hub: one 'Games' button opens a picker; Memele + Lineage Ladder, Odd One Out, Thinker Match (daily, seeded, from live ideas.json) ---------- */
++window.__games = (() => {
++  const KEY = 'arxgames-v1', today = () => window.__memele.today(), EPOCH = Date.UTC(2026, 9, 28);
++  const dayNo = k => Math.floor((Date.UTC(...k.split('-').map((v, i) => i === 1 ? v - 1 : +v)) - EPOCH) / 864e5) + 1;
++  const load = () => { try { return JSON.parse(localStorage.getItem(KEY)) || {}; } catch (e) { return {}; } };
++  const save = s => { try { localStorage.setItem(KEY, JSON.stringify(s)); } catch (e) {} };
++  const rng = seed => { let n = 0; return () => hash(seed + ':' + (n++)); };
++  const pick = (a, r) => a[Math.floor(r() * a.length)];
++  const shuf = (a, r) => a.map(x => [r(), x]).sort((p, q) => p[0] - q[0]).map(p => p[1]);
++  const kids = id => (byId[id].children || []).filter(k => byId[k]);
++  const isEdge = (a, b) => (byId[b].parents || []).includes(a);
++  const roots = ideas.filter(d => d.root), fam = r => new Set([r.id, ...lineage(r.id).dn]);
++  const rootName = r => { const ax = axes.find(a => a.id === r.root_axis); return ax ? ax.label : r.name; };
++  const nm = id => byId[id].name;
++  /* --- puzzles --- */
++  const GAMES = {
++    ladder: { title: 'Lineage Ladder', blurb: 'Put four ideas in order, from ancestor to descendant.', max: 3,
++      make(K) { const r = rng('ladder:' + K); for (let t = 0; t < 400; t++) { let c = [pick(ideas, r).id];
++          while (c.length < 4) { const k = kids(c[c.length - 1]).filter(x => !c.includes(x)); if (!k.length) break; c.push(pick(k, r)); }
++          if (c.length === 4) return { chain: c, shown: shuf(c, r) }; } } },
++    odd: { title: 'Odd One Out', blurb: 'Five rounds. Three ideas share a root tradition; tap the one that does not.', rounds: 5,
++      make(K) { const r = rng('odd:' + K), out = []; let t = 0;
++        while (out.length < 5 && t++ < 2000) { const A = pick(roots, r), B = pick(roots, r); if (A === B) continue; const fa = fam(A), fb = fam(B);
++          const ins = [...fa].filter(i => !fb.has(i)), odd = [...fb].filter(i => !fa.has(i)); if (ins.length < 3 || !odd.length) continue;
++          const three = shuf(ins, r).slice(0, 3), o = pick(odd, r); if (out.some(q => q.odd === o)) continue;
++          out.push({ opts: shuf([...three, o], r), odd: o, a: A.id, b: B.id }); } return { rounds: out }; } },
++    thinker: { title: 'Thinker Match', blurb: 'Five rounds. Match each key thinker to their idea.', rounds: 5,
++      make(K) { const r = rng('thinker:' + K), out = [], pool = ideas.filter(d => (d.thinkers || []).length); let t = 0;
++        while (out.length < 5 && t++ < 2000) { const d = pick(pool, r), th = pick(d.thinkers, r); if (out.some(q => q.th === th || q.ans === d.id)) continue;
++          const others = shuf(ideas.filter(x => x.id !== d.id && !(x.thinkers || []).includes(th)), r).slice(0, 3).map(x => x.id);
++          out.push({ th, ans: d.id, opts: shuf([d.id, ...others], r) }); } return { rounds: out }; } } };
++  const el = document.createElement('div'); el.className = 'arx-game'; el.id = 'games'; el.setAttribute('role', 'dialog'); el.setAttribute('aria-modal', 'true'); el.setAttribute('aria-label', 'Games');
++  document.body.appendChild(el);
++  let cur = null, K, P, S, st, arm = false;
++  const close = () => el.classList.remove('open');
++  const day = () => { st = load(); st[cur] = st[cur] || {}; const s = st[cur][K] || (st[cur][K] = cur === 'ladder' ? { tries: [], done: false, won: false } : { picks: [], done: false }); if (s.chain) P.chain = s.chain; return s; };
++  const score = s => s.picks.filter((p, i) => P.rounds[i] && p === (cur === 'odd' ? P.rounds[i].odd : P.rounds[i].ans)).length;
++  const MARK = { hit: '🟩', far: '⬛', skip: '🏳️' };
++  const tones = s => cur === 'ladder' ? s.tries.map(t => t.filter((x, i) => x === P.chain[i]).length === 4 ? 'hit' : t.filter((x, i) => x === P.chain[i]).length >= 2 ? 'near' : 'far')
++    : s.picks.map((p, i) => p === null ? 'skip' : p === (cur === 'odd' ? P.rounds[i].odd : P.rounds[i].ans) ? 'hit' : 'far');
++  const headline = s => cur === 'ladder' ? (s.won ? `${s.tries.length}/${GAMES.ladder.max}` : `${s.gaveUp ? '🏳️ ' : ''}X/${GAMES.ladder.max}`) : `${score(s)}/5${s.picks.includes(null) ? ' · 🏳️' + s.picks.filter(p => p === null).length : ''}`;
++  const grid = s => cur === 'ladder' ? s.tries.map(t => t.map((x, i) => x === P.chain[i] ? '🟩' : '⬛').join('')).join('\n') : tones(s).map(t => MARK[t] || '⬛').join('');
++  const shareText = (g, k) => { const c = cur, ck = K; cur = g || cur; K = k || K || today(); P = GAMES[cur].make(K); const s = day();
++    const t = `${GAMES[cur].title} #${dayNo(K)} ${headline(s)}\n${grid(s)}${cur === 'ladder' && s.gaveUp ? `\n🏳️ Gave up after ${s.tries.length} tr${s.tries.length === 1 ? 'y' : 'ies'}` : ''}\narxcortex.io/memeplex`; cur = c || cur; K = ck || K; return t; };
++  function menu() { cur = null; K = today(); st = load();
++    const row = (k, t, b) => { const s = k === 'memele' ? null : (st[k] || {})[K]; const m = k === 'memele' ? (() => { try { const d = (JSON.parse(localStorage.getItem('memele-v1')) || {}).days || {}; return d[K] && d[K].done ? 'done today' : ''; } catch (e) { return ''; } })() : s && s.done ? 'done today' : '';
++      return `<button type="button" class="gm-pick" data-g="${k}"><b>${t}</b><span>${b}</span>${m ? `<i>${m}</i>` : ''}</button>`; };
++    el.innerHTML = `<div class="box"><button class="x" aria-label="Close">×</button><h2>Games</h2><div class="sub">Daily puzzles from the Memeplex · ${K}</div>
++      ${row('memele', 'Memele', 'Guess the idea of the day from clues about its lineage, era and thinkers.')}${Object.entries(GAMES).map(([k, g]) => row(k, g.title, g.blurb)).join('')}
++      <p class="how">Every game uses the ideas on this map and resets each day. Each one ends with a share card.</p></div>`;
++    el.querySelector('.x').onclick = close; el.querySelectorAll('.gm-pick').forEach(b => b.onclick = () => b.dataset.g === 'memele' ? (close(), window.__memele.open()) : play(b.dataset.g));
++    el.classList.add('open'); }
++  function play(g, k) { cur = g; K = k || today(); P = GAMES[g].make(K); arm = false; S = { order: [] }; render(); el.classList.add('open'); }
++  const guBtn = (done) => done ? '' : `<div class="mm-gu">${arm ? `<span class="mm-msg" style="margin:0">${cur === 'ladder' ? 'Reveal answer?' : 'Reveal this one?'}</span><button type="button" data-a="gucancel">Keep playing</button><button type="button" class="arm" data-a="giveup">🏳️ Yes, reveal</button>` : `<button type="button" data-a="giveup">🏳️ I don't know</button>`}</div>`;
++  function render() { const s = day(), G = GAMES[cur]; let body = '';
++    if (cur === 'ladder') {
++      body = `<p class="how">Tap the ideas in order, starting with the oldest ancestor. Each one is a direct parent of the next. ${G.max} tries.</p>
++        ${s.tries.map(t => `<div class="gm-lad">${t.map((x, i) => `<span class="arx-game-cell n ${x === P.chain[i] ? 'hit' : ''}">${i + 1}. ${esc(nm(x))}</span>`).join('')}</div>`).join('')}
++        ${s.done ? '' : `<div class="gm-opts">${P.shown.map(x => { const i = S.order.indexOf(x); return `<button type="button" class="gm-o${i >= 0 ? ' on' : ''}" data-id="${x}">${i >= 0 ? `<em>${i + 1}</em>` : ''}${esc(nm(x))}</button>`; }).join('')}</div>
++          <div class="acts gm-acts"><button type="button" data-a="clear">Clear</button><button type="button" data-a="check"${S.order.length === 4 ? '' : ' disabled'}>Check order</button></div>`}
++        ${s.done ? `<div class="mm-rev">The lineage: <div class="lin">${P.chain.map(x => `<a href="#" data-id="${x}">${esc(nm(x))}</a>`).join(' → ')}</div></div>` : ''}`;
++    } else { const i = s.picks.length, R = P.rounds;
++      body = `<div class="gm-dots">${R.map((q, j) => `<span class="${j < i ? tones(s)[j] : j === i && !s.done ? 'cur' : ''}"></span>`).join('')}</div>
++        ${s.done ? '' : `<p class="arx-game-clue"><b>Round ${i + 1}/5</b>${cur === 'odd' ? 'Which idea does not share a root tradition with the other three?' : `Which idea lists <b style="color:var(--amber-bright);font-family:var(--serif);font-size:16px;letter-spacing:0;text-transform:none">${esc(R[i].th)}</b> as a key thinker?`}</p>
++          <div class="gm-opts">${R[i].opts.map(x => `<button type="button" class="gm-o" data-id="${x}">${esc(nm(x))}</button>`).join('')}</div>`}
++        ${s.picks.map((p, j) => { const q = R[j], a = cur === 'odd' ? q.odd : q.ans, t = tones(s)[j];
++          return `<div class="mm-rev gm-res"><span class="gm-t ${t}">${MARK[t]}</span> ${cur === 'odd' ? `<a href="#" data-id="${a}">${esc(nm(a))}</a> descends from ${esc(rootName(byId[q.b]))}; the others from ${esc(rootName(byId[q.a]))}.` : `${esc(q.th)} → <a href="#" data-id="${a}">${esc(nm(a))}</a>`}${p && p !== a ? ` <span class="lin">(you picked ${esc(nm(p))})</span>` : ''}</div>`; }).reverse().join('')}`; }
++    el.innerHTML = `<div class="box"><button class="x" aria-label="Close">×</button><button class="gm-back" data-a="back">‹ Games</button><h2>${G.title}</h2><div class="sub">#${dayNo(K)} · ${K}</div>${body}${guBtn(s.done)}
++      ${s.done ? `<div class="arx-game-share"><div class="sub" style="margin:0 0 6px">${headline(s)}</div><div class="grid">${grid(s)}</div><div class="acts"><button data-a="copy">Copy result</button><button data-a="card">Share card</button></div><p class="how">New puzzle tomorrow.</p></div>` : ''}</div>`;
++    const a = n => el.querySelector(`[data-a=${n}]`);
++    el.querySelector('.x').onclick = close; a('back').onclick = menu;
++    el.querySelectorAll('a[data-id]').forEach(x => x.onclick = e => { e.preventDefault(); close(); focusIdea(x.dataset.id); });
++    el.querySelectorAll('.gm-o').forEach(x => x.onclick = () => choose(x.dataset.id));
++    if (a('clear')) a('clear').onclick = () => { S.order = []; render(); };
++    if (a('check')) a('check').onclick = check;
++    if (a('giveup')) a('giveup').onclick = () => arm ? giveUp() : (arm = true, render());
++    if (a('gucancel')) a('gucancel').onclick = () => { arm = false; render(); };
++    if (a('copy')) { a('copy').onclick = () => { const t = shareText(); (navigator.clipboard && window.isSecureContext ? navigator.clipboard.writeText(t) : Promise.reject()).catch(() => {}); a('copy').textContent = 'Copied'; };
++      a('card').onclick = async () => { const c = cardData(); close(); ArxShareCard.open(await ArxGameCard.result(c), `${cur}-${dayNo(K)}.png`); }; } }
++  function cardData() { const s = day(), G = GAMES[cur], lad = cur === 'ladder', sc = lad ? 0 : score(s), gu = lad ? !!s.gaveUp : s.picks.includes(null);
++    return { game: G.title, number: dayNo(K), dateLabel: K, solved: lad ? s.won : sc === 5, gaveUp: lad ? gu : false, tries: lad ? s.tries.length : sc, max: lad ? G.max : 5,
++      rows: tones(s).map(t => ({ tone: t === 'skip' ? 'far' : t, arrow: t === 'hit' ? '✓' : t === 'skip' ? '·' : '✗' })),
++      lines: [...(gu ? [lad ? `🏳️ Gave up after ${s.tries.length} tr${s.tries.length === 1 ? 'y' : 'ies'}` : `🏳️ ${s.picks.filter(p => p === null).length} skipped with "I don't know"`] : []), lad ? 'Order the ideas from ancestor to descendant.' : `${sc} of 5 right · ${G.blurb.replace('Five rounds. ', '')}`], url: 'arxcortex.io/memeplex' }; }
++  function choose(id) { const s = day(); if (s.done) return; arm = false;
++    if (cur === 'ladder') { const i = S.order.indexOf(id); i >= 0 ? S.order.splice(i, 1) : S.order.length < 4 && S.order.push(id); return render(); }
++    s.picks.push(id); if (s.picks.length >= 5) s.done = true; save(st); render(); }
++  function check() { const s = day(); if (s.done || S.order.length !== 4) return; const t = [...S.order]; s.tries.push(t);
++    if (t.every((x, i) => i === 0 || isEdge(t[i - 1], x))) { s.done = s.won = true; s.chain = t; P.chain = t; }
++    else if (s.tries.length >= GAMES.ladder.max) s.done = true; S.order = []; save(st); render(); }
++  function giveUp() { const s = day(); arm = false; if (s.done) return;
++    if (cur === 'ladder') { s.done = true; s.gaveUp = true; } else { s.picks.push(null); if (s.picks.length >= 5) s.done = true; }
++    save(st); render(); }
++  el.addEventListener('click', e => { if (e.target === el) close(); });
++  addEventListener('keydown', e => { if (e.key === 'Escape' && el.classList.contains('open')) close(); });
++  return { menu, play, close, choose, check, giveUp, shareText, cardData, puzzle: (g, k) => GAMES[g].make(k || today()), get state() { return cur && day(); }, isEdge, fam: id => [...fam(byId[id])] };
+ })();
+ 
+ /* ---------- Phone mode: narrow or touch screens get a non-interactive backdrop + search, random, games, tours ---------- */

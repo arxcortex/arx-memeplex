@@ -1,0 +1,115 @@
+{
+ "default": {
+  "labels": 29,
+  "overlaps": 3,
+  "pairs": [
+   "Cartesian dualism / Methodism and Evangelicalism",
+   "Enlightenment liberalism / Romanticism",
+   "Darwinian selection / Nietzschean will to power"
+  ],
+  "closeDots": [
+   "enlightenment_liberalism~liberal_protestantism",
+   "existentialism~neoliberalism",
+   "buddhas_dharma~theravada",
+   "anarchism~social_democracy"
+  ]
+ },
+ "top": {
+  "labels": 29,
+  "overlaps": 28,
+  "pairs": [
+   "Platonic Forms / Neoplatonism",
+   "Platonic Forms / Hegelian dialectic",
+   "Platonic Forms / Apostolic Christianity (the shared church before the 1054 split)",
+   "Aristotelian teleology / Methodism and Evangelicalism",
+   "Aristotelian teleology / The Buddha's Middle Way",
+   "Neoplatonism / Hegelian dialectic",
+   "Hermetic correspondence / Thomism",
+   "Hermetic correspondence / Anglicanism",
+   "Augustinian grace / Apostolic Christianity (the shared church before the 1054 split)",
+   "Augustinian grace / Roman Catholicism",
+   "Augustinian grace / Falsafa",
+   "Thomism / Anglicanism",
+   "Cartesian dualism / Enlightenment liberalism",
+   "Cartesian dualism / Postmodernism",
+   "Cartesian dualism / Confucian ethics",
+   "Cartesian dualism / Utopian socialism",
+   "Cartesian dualism / Opposes hierarchy",
+   "Enlightenment liberalism / Utopian socialism",
+   "Enlightenment liberalism / Opposes hierarchy",
+   "Romanticism / Protestantism (Lutheranism)",
+   "Romanticism / Anglicanism",
+   "Postmodernism / Utopian socialism",
+   "Postmodernism / Opposes hierarchy",
+   "Apostolic Christianity (the shared church before the 1054 split) / Roman Catholicism",
+   "Roman Catholicism / Falsafa",
+   "Protestantism (Lutheranism) / Anglicanism",
+   "Methodism and Evangelicalism / The Buddha's Middle Way",
+   "Utopian socialism / Opposes hierarchy"
+  ],
+  "closeDots": [
+   "hermetic_correspondence~church_of_the_east",
+   "augustinian_grace~sufism",
+   "cartesian_dualism~post_irony",
+   "social_contract~post_irony",
+   "social_contract~madhyamaka",
+   "romanticism~protestantism",
+   "existentialism~effective_altruism",
+   "neoliberalism~christian_fundamentalism",
+   "post_irony~madhyamaka",
+   "internet_meme_culture~liberal_protestantism",
+   "apostolic_christianity~oriental_orthodoxy",
+   "church_of_the_east~post_vatican_ii_catholicism",
+   "church_of_the_east~avicennism",
+   "anabaptism~daoist_way",
+   "methodism~theravada",
+   "methodism~zen",
+   "pentecostalism~buddhas_dharma",
+   "post_vatican_ii_catholicism~falsafa",
+   "post_vatican_ii_catholicism~avicennism",
+   "upanishadic_brahman~advaita_vedanta",
+   "theravada~zen",
+   "utopian_socialism~libertarianism"
+  ]
+ },
+ "rootsonly": {
+  "labels": 20,
+  "overlaps": 1,
+  "pairs": [
+   "Darwinian selection / Nietzschean will to power"
+  ],
+  "closeDots": [
+   "existentialism~neoliberalism",
+   "buddhas_dharma~theravada",
+   "anarchism~social_democracy"
+  ]
+ },
+ "filter": {
+  "labels": 28,
+  "overlaps": 16,
+  "pairs": [
+   "Enlightenment liberalism / Romanticism",
+   "Enlightenment liberalism / Liberal Protestantism",
+   "Romanticism / Liberal Protestantism",
+   "Darwinian selection / Nietzschean will to power",
+   "Darwinian selection / Social Darwinism",
+   "Nietzschean will to power / Social Darwinism",
+   "Existentialism / Frankfurt School critical theory",
+   "Existentialism / Neoliberalism",
+   "Existentialism / Libertarianism",
+   "Frankfurt School critical theory / Neoliberalism",
+   "Frankfurt School critical theory / Libertarianism",
+   "Postmodernism / Post-irony",
+   "Postmodernism / Internet meme culture",
+   "Neoliberalism / Libertarianism",
+   "Post-irony / Internet meme culture",
+   "Anarchism / Social democracy"
+  ],
+  "closeDots": [
+   "enlightenment_liberalism~liberal_protestantism",
+   "existentialism~neoliberalism",
+   "buddhas_dharma~theravada",
+   "anarchism~social_democracy"
+  ]
+ }
+}

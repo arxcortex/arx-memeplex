@@ -1,0 +1,142 @@
+[
+ {
+  "id": "platonism",
+  "label": "Platonism",
+  "group": "tradition",
+  "description": "Eternal Forms, the Good, reason ascending past appearances.",
+  "plain": "Ideas from the Greek philosopher Plato. He taught that the things we see are imperfect copies of perfect, unchanging patterns he called Forms."
+ },
+ {
+  "id": "aristotelianism",
+  "label": "Aristotelianism",
+  "group": "tradition",
+  "description": "Natural ends, categories, virtue as habit, logic from observation.",
+  "plain": "Ideas from Aristotle, Plato's student. He studied the natural world closely and argued that everything has a purpose it grows toward."
+ },
+ {
+  "id": "stoicism",
+  "label": "Stoicism",
+  "group": "tradition",
+  "description": "Rational cosmic order, virtue as the only good, mastery of passions.",
+  "plain": "An ancient Greek and Roman school. Stoics taught that the universe runs on reason and that a good life means staying calm and doing your duty."
+ },
+ {
+  "id": "christianity",
+  "label": "Christianity",
+  "group": "tradition",
+  "description": "Incarnation, grace, sin and redemption, the Church.",
+  "plain": "The religion built on the life and teaching of Jesus. Its core ideas include sin, forgiveness through God's grace, and salvation."
+ },
+ {
+  "id": "gnosticism",
+  "label": "Gnosticism",
+  "group": "tradition",
+  "description": "Flawed material world, hidden saving knowledge, divine spark trapped in matter.",
+  "plain": "Early religious groups who taught that the physical world is a trap made by a lesser god, and that secret knowledge (gnosis) sets the soul free."
+ },
+ {
+  "id": "hermeticism",
+  "label": "Hermeticism",
+  "group": "tradition",
+  "description": "As above, so below; correspondences, occult knowledge, the magus.",
+  "plain": "A tradition based on texts credited to a legendary sage, Hermes Trismegistus. Its motto is 'as above, so below': the heavens and earth mirror each other."
+ },
+ {
+  "id": "enlightenment_liberalism",
+  "label": "Enlightenment liberalism",
+  "group": "tradition",
+  "description": "Individual rights, consent, reason, progress, limited government.",
+  "plain": "The 1600s–1700s movement that championed individual rights, free thought, government by consent of the people, and progress through reason."
+ },
+ {
+  "id": "marxism",
+  "label": "Marxism",
+  "group": "tradition",
+  "description": "Material conditions, class struggle, history as dialectical motion.",
+  "plain": "Ideas from Karl Marx and Friedrich Engels. They argued that conflict between economic classes drives history and that capitalism will give way to communism."
+ },
+ {
+  "id": "darwinism",
+  "label": "Darwinism",
+  "group": "tradition",
+  "description": "Variation, selection, descent with modification, no designer needed.",
+  "plain": "Charles Darwin's theory that living things change over generations: those best suited to their surroundings survive and pass on their traits."
+ },
+ {
+  "id": "nietzsche",
+  "label": "Nietzsche",
+  "group": "tradition",
+  "description": "Will to power, revaluation of values, death of God, the overman.",
+  "plain": "Ideas from the German philosopher Friedrich Nietzsche. He attacked Christian morality, declared 'God is dead', and urged people to create their own values."
+ },
+ {
+  "id": "critical_theory",
+  "label": "Critical theory",
+  "group": "tradition",
+  "description": "Exposing power hidden in norms, institutions and culture.",
+  "plain": "A school of thought that grew out of the Frankfurt School in Germany. It looks for hidden power in everyday rules, institutions and culture, and asks who benefits."
+ },
+ {
+  "id": "confucianism",
+  "label": "Confucianism",
+  "group": "tradition",
+  "description": "Ritual, filial duty, humane rule, cultivated character.",
+  "plain": "Ideas from the Chinese teacher Confucius. He taught that a good society rests on family duty, proper ritual and rulers who lead by moral example."
+ },
+ {
+  "id": "daoism",
+  "label": "Daoism",
+  "group": "tradition",
+  "description": "The Way (Dao), effortless action, simplicity, harmony with nature.",
+  "plain": "A Chinese tradition built on the Tao Te Ching. It teaches following the Dao, the natural Way of things, by acting simply and without force."
+ },
+ {
+  "id": "buddhism",
+  "label": "Buddhism",
+  "group": "tradition",
+  "description": "Suffering, impermanence, no fixed self, liberation through the Middle Way.",
+  "plain": "The tradition begun by the Buddha in India. It teaches that suffering comes from craving and that a disciplined path of ethics and meditation ends it."
+ },
+ {
+  "id": "vedanta",
+  "label": "Vedanta",
+  "group": "tradition",
+  "description": "Brahman (ultimate reality), Atman (the self), liberation through knowledge.",
+  "plain": "Indian philosophy built on the Upanishads. Its central idea is that the deepest self (Atman) is linked to, or the same as, ultimate reality (Brahman)."
+ },
+ {
+  "id": "islamic_philosophy",
+  "label": "Islamic philosophy",
+  "group": "tradition",
+  "description": "Greek philosophy recast in Arabic: reason, God, emanation, the intellect.",
+  "plain": "Philosophy in the medieval Islamic world. Thinkers like al-Kindi and Avicenna took up Aristotle and Plato and joined them with belief in one God."
+ },
+ {
+  "id": "humor",
+  "label": "Humor",
+  "group": "register",
+  "description": "Joke, play and laughter as the medium of the idea.",
+  "plain": "Not a school of thought but a style: how much the idea lives in jokes, play and laughter."
+ },
+ {
+  "id": "irony",
+  "label": "Irony",
+  "group": "register",
+  "description": "Saying one thing and meaning another; distance from sincere commitment.",
+  "plain": "A style: saying one thing while meaning another, or holding beliefs at arm's length instead of stating them sincerely."
+ },
+ {
+  "id": "abstraction",
+  "label": "Abstract vs material",
+  "group": "stance",
+  "description": "Stance on what reality is made of: mind and ideas, or matter.",
+  "plain": "Is reality, at bottom, made of ideas, mind or spirit, or of matter and physical conditions? +5 means fully idealist (ideas or spirit come first), 0 is neutral or mixed, −5 means fully materialist (matter comes first). This is a position the idea takes, not a family it belongs to."
+ },
+ {
+  "id": "hierarchy",
+  "label": "Hierarchy",
+  "group": "stance",
+  "description": "Stance toward ranked order: social, political or cosmic.",
+  "plain": "Does this idea think some people, beings or powers rightly stand above others? +5 strongly favors hierarchy, 0 is neutral or mixed, −5 strongly opposes it. This is a position the idea takes, not a family it belongs to."
+ }
+]

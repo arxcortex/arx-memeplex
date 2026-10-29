@@ -1,0 +1,81 @@
+[
+ {
+  "id": "magnifica_humanitas_ai",
+  "name": "Magnifica Humanitas and the AI question",
+  "year": 2026,
+  "year_approx": false,
+  "date": "2026-05-15",
+  "date_range": [
+   "2026-05-15",
+   "2026-05-25"
+  ],
+  "place": "Vatican City",
+  "lat": 41.9022,
+  "lon": 12.4539,
+  "origin_src": "https://grokipedia.com/page/Magnifica_Humanitas",
+  "origin_note": "Leo XIV signs the encyclical on 15 May 2026 and presents it on 25 May 2026",
+  "thinkers": [
+   "Leo XIV"
+  ],
+  "plain": "Pope Leo XIV's first encyclical says AI must serve the human person, be governed, and not replace human limits, set against transhumanism.",
+  "summary": "Leo XIV's 2026 encyclical on AI, tied back to Rerum Novarum (1891).",
+  "related_ideas": [
+   "catholic_social_teaching",
+   "thomism",
+   "aristotelian_teleology",
+   "post_vatican_ii_catholicism",
+   "roman_catholicism",
+   "accelerationism"
+  ],
+  "story_url": "https://github.com/arxcortex/arxstories/blob/main/currents/2026-05-25-magnifica-humanitas-and-ai/index.md",
+  "ratings": {
+   "platonism": 1,
+   "aristotelianism": 4,
+   "stoicism": 0,
+   "christianity": 5,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 1,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 3,
+   "hierarchy": 3
+  },
+  "rationale": {
+   "platonism": "Keeps the Platonic strand Christian thought took from Augustine.",
+   "aristotelianism": "Uses Aquinas's idea of a human nature with ends to judge AI.",
+   "stoicism": "No clear debt to, or quarrel with, this tradition.",
+   "christianity": "A papal encyclical citing Scripture, Aquinas and earlier popes.",
+   "gnosticism": "No clear debt to, or quarrel with, this tradition.",
+   "hermeticism": "No clear debt to, or quarrel with, this tradition.",
+   "enlightenment_liberalism": "Calls for oversight, accountability and legal frameworks, in rights language.",
+   "marxism": "Criticizes concentrated tech power, but from Catholic social teaching, not Marx.",
+   "darwinism": "Rejects Huxley-style directed evolution past human limits.",
+   "nietzsche": "No clear debt to, or quarrel with, this tradition.",
+   "critical_theory": "Criticizes a technocratic paradigm, but not from the Frankfurt School.",
+   "confucianism": "No clear debt to, or quarrel with, this tradition.",
+   "daoism": "No clear debt to, or quarrel with, this tradition.",
+   "buddhism": "No clear debt to, or quarrel with, this tradition.",
+   "vedanta": "No clear debt to, or quarrel with, this tradition.",
+   "islamic_philosophy": "No clear debt to, or quarrel with, this tradition.",
+   "humor": "Written as formal teaching, not through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Calls the person spiritual, and limits and the body part of being human.",
+   "hierarchy": "Teaching from papal authority that also warns against power held by a few."
+  },
+  "sources": [
+   "https://grokipedia.com/page/Magnifica_Humanitas",
+   "https://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html",
+   "https://www.vaticannews.va/en/pope/news/2026-05/pope-leo-xiv-encyclical-magnifica-humanitas-ai.html"
+  ]
+ }
+]

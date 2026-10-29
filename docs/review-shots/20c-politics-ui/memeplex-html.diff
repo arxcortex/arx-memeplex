@@ -1,0 +1,172 @@
+--- ../memeplex-build/site-v3/memeplex-before.html	2026-10-28 09:18:37.789402079 -1000
++++ ../memeplex-build/site-v3/memeplex.html	2026-10-28 09:24:09.578022515 -1000
+@@ -151,6 +151,47 @@
+ #strbox .done{margin-left:auto;color:var(--amber);border-color:var(--amber)} #strbox .keys{margin-top:8px;text-transform:none;letter-spacing:.04em;line-height:1.5;color:var(--ink-faint)}
+ @media (max-width:700px){#strbtn,#strbox{width:100%}}
+ /* STRETCH-CSS end */
++/* UI-CHROME-CSS start: compact glass toolbar + collapsible panels + domain chips */
++:root{--glass:rgba(16,15,19,.62);--glass-b:rgba(184,115,51,.28);--glass-hi:rgba(232,153,104,.10);--rad:10px}
++.gl{background:var(--glass)!important;border:1px solid var(--glass-b)!important;border-radius:var(--rad);box-shadow:0 10px 30px rgba(0,0,0,.45),inset 0 1px 0 rgba(255,255,255,.04);-webkit-backdrop-filter:blur(14px) saturate(1.2);backdrop-filter:blur(14px) saturate(1.2)}
++.controls{gap:8px!important}
++#tb{display:flex;gap:2px;padding:4px;align-items:center;pointer-events:auto}
++#tb button{all:unset;box-sizing:border-box;display:inline-flex;align-items:center;gap:6px;height:30px;padding:0 10px;border-radius:7px;font-family:var(--mono);font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-dim);cursor:pointer;white-space:nowrap;transition:background .2s,color .2s}
++#tb button svg{width:14px;height:14px;stroke:currentColor;fill:none;stroke-width:1.6;flex:none}
++#tb button:hover{color:var(--ink);background:var(--glass-hi)}
++#tb button.on,#tb button[aria-expanded=true]{color:var(--amber-bright);background:rgba(184,115,51,.16)}
++#tb button:focus-visible{outline:1px solid var(--amber)}
++#tb .n:empty{display:none} #tb .n{color:var(--amber-bright);font-size:9px;float:none!important}
++#tb .sep{width:1px;height:18px;background:var(--glass-b);margin:0 3px}
++#tbp{display:flex;flex-direction:column;gap:8px;align-items:flex-end;width:260px;pointer-events:auto}
++#tbp>*{width:100%!important;box-sizing:border-box}
++.pp{display:none;padding:10px 12px}
++.pp.open{display:block}
++.pp .ph,#filt .bh,#strbox .ph{font-family:var(--mono);font-size:9px;letter-spacing:.2em;text-transform:uppercase;color:var(--amber);margin:0 0 7px}
++#tbp input,#tbp select{width:100%!important;box-sizing:border-box;border-radius:6px;background:rgba(6,6,8,.55)!important;border:1px solid var(--glass-b)!important;padding:7px 9px!important}
++#tbp #results{width:100%!important;position:static;border-radius:6px;margin-top:4px;background:rgba(6,6,8,.7)}
++#tbp #results:empty{display:none}
++#filt,#strbox{padding:12px!important}
++#filt .chip,#filt .dchip{border-radius:999px}
++#filt .dchip{display:flex;align-items:center;gap:5px;background:transparent;border:1px solid var(--rule);color:var(--ink-dim);font-family:var(--serif);font-size:13px;padding:2px 9px;cursor:pointer;border-radius:999px}
++#filt .dchip[aria-pressed=true]{color:var(--bg);background:var(--amber);border-color:var(--amber)}
++#filt .chips.dm{max-height:none;margin-bottom:2px}
++#legend.gl{padding:10px 14px;max-width:300px;transition:opacity .25s}
++#legend.hid{display:none}
++#helpbtn,#symbtn,#filtbtn,#strbtn,#resetbtn{width:auto!important;border:0!important;background:none!important;text-decoration:none!important}
++body.panel-open #tbp{display:none}
++@media (max-width:760px){
++ header{padding:12px 12px 0!important;flex-direction:row!important;align-items:flex-start;gap:8px!important}
++ .brand h1{font-size:20px!important} .brand .sub{display:none} .brand .home-link{margin-top:2px}
++ .controls{width:auto!important;flex-direction:column!important;flex-wrap:nowrap!important;align-items:flex-end!important}
++ #tb{flex-wrap:nowrap;max-width:calc(100vw - 130px);overflow-x:auto;scrollbar-width:none}
++ #tb button{padding:0 8px;height:34px} #tb button .t{display:none} #tb .sep{display:none}
++ #tbp{position:fixed;left:8px;right:8px;bottom:8px;width:auto;z-index:36}
++ .pp{padding:14px 16px}
++ #filt{border-radius:var(--rad) var(--rad) 0 0}
++ #legend.gl{left:8px!important;right:8px;bottom:8px!important;max-width:none}
++}
++/* UI-CHROME-CSS end */
+ </style>
+ </head>
+ <body>
+@@ -173,7 +214,8 @@
+       <button id="symbtn" type="button" title="What each 3D symbol means, and where it comes from">About the symbols</button>
+       <button id="filtbtn" type="button" aria-expanded="false" aria-controls="filt" title="Isolate root traditions">Filter <span class="n"></span></button>
+       <div id="filt" role="region" aria-label="Filter by root tradition">
+-        <div class="row"><button class="tg" type="button" aria-pressed="false">Roots only</button><button class="clr" type="button">Clear</button><button class="clr done" type="button">Done</button></div>
++        <div class="bh" style="border:0;padding:0;margin-top:0">Domain</div><div class="chips dm"><button class="dchip" type="button" data-dom="" aria-pressed="true">All</button><button class="dchip" type="button" data-dom="politics" aria-pressed="false">Political theory</button><button class="dchip" type="button" data-dom="philosophy" aria-pressed="false">Philosophy</button><button class="dchip" type="button" data-dom="religion" aria-pressed="false">Religion</button><button class="dchip" type="button" data-dom="culture" aria-pressed="false">Internet &amp; culture</button></div>
++        <div class="bh">Traditions</div><div class="row"><button class="tg" type="button" aria-pressed="false">Roots only</button><button class="clr" type="button">Clear</button><button class="clr done" type="button">Done</button></div>
+         <div class="chips"></div>
+         <div class="bh">Branches</div><div class="chips br"></div>
+         <div class="count"></div>
+@@ -439,9 +481,11 @@
+ const roots = ideas.filter(d => d.root).sort((a, b) => a.year - b.year);
+ const families = {}; roots.forEach((r, i) => { r.rootColor = new THREE.Color(ROOT_PALETTE[i % ROOT_PALETTE.length]);
+   families[r.id] = new Set([r.id, ...lineage(r.id).dn]); });
+-const filt = { rootsOnly: false, sel: new Set() };
+-const filterOn = () => filt.rootsOnly || filt.sel.size > 0;
+-const inFilter = d => !filterOn() || (filt.rootsOnly && d.root) || [...filt.sel].some(r => families[r].has(d.id));
++const filt = { rootsOnly: false, sel: new Set(), dom: '' };
++const domOK = d => !filt.dom || (d.domain || []).includes(filt.dom);
++const treeOn = () => filt.rootsOnly || filt.sel.size > 0;
++const filterOn = () => treeOn() || !!filt.dom;
++const inFilter = d => domOK(d) && (!treeOn() || (filt.rootsOnly && d.root) || [...filt.sel].some(r => families[r].has(d.id)));
+ const famOf = d => [...filt.sel].find(r => families[r].has(d.id)); // first selected family (selection order) for tint
+ window.__families = Object.fromEntries(roots.map(r => [r.id, families[r.id].size]));
+ /* ---------- BRANCHES start: named family views. Members = seeds + descendants via parent edges
+@@ -770,14 +814,14 @@
+ document.getElementById('resetbtn').onclick = resetView;
+ /* ---------- Filter UI ---------- */
+ const filtBtn = document.getElementById('filtbtn'), filtBox = document.getElementById('filt'), filtTg = filtBox.querySelector('.tg'), filtCount = filtBox.querySelector('.count');
+-filtBox.querySelector('.chips').innerHTML = roots.map(r => `<button class="chip" type="button" aria-pressed="false" data-root="${r.id}" style="--c:#${r.rootColor.getHexString()}" title="${esc(r.name)} and every idea descended from it (${families[r.id].size})"><i></i>${esc(axLabel(r.root_axis))}</button>`).join('');
++filtBox.querySelector('.chips:not(.dm):not(.br)').innerHTML = roots.map(r => `<button class="chip" type="button" aria-pressed="false" data-root="${r.id}" style="--c:#${r.rootColor.getHexString()}" title="${esc(r.name)} and every idea descended from it (${families[r.id].size})"><i></i>${esc(axLabel(r.root_axis))}</button>`).join('');
+ filtBox.querySelector('.chips.br').innerHTML = branches.map(b => `<button class="chip" type="button" aria-pressed="false" data-root="${b.key}" style="--c:${b.color}" title="${esc(b.name)} (${b.set.size} ideas)"><i></i>${esc(b.name)}</button>`).join('');
+ function frameBranch(set) { const pts = [...set].map(k => byId[k].star.grp.position); if (!pts.length) return; const box = new THREE.Box3().setFromPoints(pts), c = box.getCenter(new THREE.Vector3()), r = Math.max(12, box.getSize(new THREE.Vector3()).length() * 0.75);
+   const dir = camera.position.clone().sub(controls.target).normalize(); controls.autoRotate = false; camTl && camTl.kill();
+   camTl = gsap.timeline({ defaults: { duration: reduce ? 0 : 1.2, ease: 'power3.inOut' } }).to(controls.target, { x: c.x, y: c.y, z: c.z }, 0).to(camera.position, { x: c.x + dir.x * r, y: c.y + dir.y * r, z: c.z + dir.z * r }, 0); }
+ let filtOpen = false;
+ function toggleFilt(open = !filtOpen) { filtOpen = open; filtBtn.setAttribute('aria-expanded', open); filtBtn.classList.toggle('on', open);
+-  if (open) { if (isMobile()) { if (filtBox.parentNode !== document.getElementById('app')) document.getElementById('app').appendChild(filtBox); } else if (filtBox.previousElementSibling !== filtBtn) filtBtn.after(filtBox);
++  if (open) { if (isMobile()) { if (filtBox.parentNode !== document.getElementById('app')) document.getElementById('app').appendChild(filtBox); } else if (filtBox.parentNode.id !== 'tbp') document.getElementById('tbp').appendChild(filtBox);
+     gsap.set(filtBox, { display: 'block' });
+     gsap.fromTo(filtBox, isMobile() ? { yPercent: 100, autoAlpha: 1 } : { height: 0, autoAlpha: 0 }, isMobile() ? { yPercent: 0, duration: reduce ? 0 : 0.45, ease: 'power3.out' } : { height: 'auto', autoAlpha: 1, duration: reduce ? 0 : 0.4, ease: 'power2.out' });
+     gsap.fromTo(filtBox.querySelectorAll('.chip'), { autoAlpha: 0, y: 4 }, { autoAlpha: 1, y: 0, duration: reduce ? 0 : 0.3, stagger: 0.015, delay: 0.08, ease: 'power2.out' }); }
+@@ -786,14 +830,16 @@
+ function applyFilter(init) {
+   const n = ideas.filter(inFilter).length;
+   filtTg.setAttribute('aria-pressed', filt.rootsOnly);
++  filtBox.querySelectorAll('.dchip').forEach(c => c.setAttribute('aria-pressed', c.dataset.dom === filt.dom));
+   filtBox.querySelectorAll('.chip').forEach(c => c.setAttribute('aria-pressed', filt.sel.has(c.dataset.root)));
+   filtCount.textContent = filterOn() ? `${n} of ${ideas.length} ideas visible` : `All ${ideas.length} ideas visible`;
+   filtBtn.querySelector('.n').textContent = filterOn() ? `${n}/${ideas.length}` : '';
+   if (current && !inFilter(byId[current])) closePanel();
+   if (!init) { highlight(current || null); applyLens(lensAx); }
+-  window.__filter = { rootsOnly: filt.rootsOnly, sel: [...filt.sel], visible: n };
++  window.__filter = { rootsOnly: filt.rootsOnly, sel: [...filt.sel], dom: filt.dom, visible: n };
+ }
+-function clearFilter() { filt.rootsOnly = false; filt.sel.clear(); applyFilter(); }
++function clearFilter() { filt.rootsOnly = false; filt.sel.clear(); filt.dom = ''; applyFilter(); }
++filtBox.querySelectorAll('.dchip').forEach(c => c.onclick = () => { filt.dom = c.dataset.dom; applyFilter(); });
+ filtTg.onclick = () => { filt.rootsOnly = !filt.rootsOnly; applyFilter(); };
+ filtBox.querySelector('.clr').onclick = clearFilter;
+ filtBox.querySelectorAll('.chip').forEach(c => c.onclick = () => { const k = c.dataset.root; filt.sel.has(k) ? filt.sel.delete(k) : filt.sel.add(k); applyFilter();
+@@ -872,6 +918,60 @@
+   if (['x', 'y', 'z', 'a'].some(k => S[k] !== 1)) go(true); else sync();
+ })();
+ /* ---------- STRETCH end ---------- */
++/* ---------- UI-CHROME start: compact toolbar; every panel collapsible; state in localStorage 'memeplex-ui'; minimal by default ---------- */
++(function () {
++  const KEY = 'memeplex-ui', $ = id => document.getElementById(id);
++  let st = {}; try { st = JSON.parse(localStorage.getItem(KEY) || '{}'); } catch (e) {}
++  const save = () => { try { localStorage.setItem(KEY, JSON.stringify(st)); } catch (e) {} };
++  const ctr = document.querySelector('.controls'), ico = p => `<svg viewBox="0 0 24 24" aria-hidden="true">${p}</svg>`;
++  const I = { search: ico('<circle cx="11" cy="11" r="6"/><path d="M16 16l5 5"/>'), color: ico('<circle cx="12" cy="12" r="8"/><path d="M12 4a8 8 0 0 1 0 16z" fill="currentColor"/>'),
++    filter: ico('<path d="M4 6h16M7 12h10M10 18h4"/>'), stretch: ico('<path d="M4 12h16M4 12l3-3M4 12l3 3M20 12l-3-3M20 12l-3 3M12 4v4M12 16v4"/>'),
++    legend: ico('<rect x="4" y="5" width="16" height="14" rx="2"/><path d="M8 10h8M8 14h5"/>'), help: ico('<circle cx="12" cy="12" r="8"/><path d="M10 10a2 2 0 1 1 3 1.7c-.7.4-1 1-1 1.8M12 16.5v.5"/>'),
++    sym: ico('<path d="M12 3l2.5 6.5L21 12l-6.5 2.5L12 21l-2.5-6.5L3 12l6.5-2.5z"/>'), reset: ico('<path d="M5 12a7 7 0 1 0 2-5M5 4v4h4"/>') };
++  const tb = document.createElement('div'); tb.id = 'tb'; tb.className = 'gl'; tb.setAttribute('role', 'toolbar'); tb.setAttribute('aria-label', 'Map tools');
++  const tbp = document.createElement('div'); tbp.id = 'tbp'; ctr.prepend(tb, tbp);
++  // search + color panels from the existing inputs
++  const mk = (id, title, els) => { const p = document.createElement('div'); p.id = id; p.className = 'pp gl'; p.innerHTML = `<div class="ph">${title}</div>`; els.forEach(e => p.appendChild(e)); return p; };
++  const pS = mk('pSearch', 'Search', [$('search'), $('results')]), pC = mk('pColor', 'Color by', [$('axis')]);
++  ctr.querySelectorAll(':scope > label').forEach(l => l.remove());
++  const b = (k, label, title, el) => { const x = el || document.createElement('button'); x.type = 'button'; x.dataset.k = k; x.title = title; x.setAttribute('aria-label', title);
++    const n = x.querySelector('.n'); x.innerHTML = I[k] + `<span class="t">${label}</span>`; if (n) x.appendChild(n); return x; };
++  const bS = b('search', 'Search', 'Search ideas and thinkers (/)'), bC = b('color', 'Color', 'Color the stars by one tradition'),
++    bF = b('filter', 'Filter', 'Filter by domain, tradition or branch', $('filtbtn')), bT = b('stretch', 'Stretch', 'Stretch or squeeze the map', $('strbtn')),
++    bL = b('legend', 'Key', 'Show or hide the map key'), bH = b('help', 'Help', 'How to read this map (?)', $('helpbtn')),
++    bY = b('sym', 'Symbols', 'About the 3D symbols', $('symbtn')), bR = b('reset', 'Reset', 'Back to the full map (R)', $('resetbtn'));
++  const sep = () => { const s = document.createElement('span'); s.className = 'sep'; return s; };
++  [bS, bC, bF, bT, bL, sep(), bH, bY, bR].forEach(e => tb.appendChild(e));
++  [pS, pC, $('filt'), $('strbox')].forEach(e => tbp.appendChild(e)); $('filt').classList.add('gl'); $('strbox').classList.add('gl');
++  [...ctr.childNodes].forEach(n => n !== tb && n !== tbp && n.remove());
++  const legend = $('legend'); legend.classList.add('gl');
++  const placeP = () => { const m = matchMedia('(max-width:760px)').matches, home = m ? $('app') : ctr; if (tbp.parentNode !== home) home.appendChild(tbp); }; placeP(); addEventListener('resize', placeP);
++  const mobile = () => matchMedia('(max-width:760px)').matches;
++  const P = { search: [pS, bS], color: [pC, bC] };
++  function closeOthers(k) { if (!mobile()) return; // phones: one sheet at a time so the map stays visible
++    ['search', 'color', 'legend'].forEach(o => o !== k && st[o] && set(o, false));
++    if (k !== 'filter' && st.filter) toggleFilt(false), st.filter = false; if (k !== 'stretch' && st.stretch && window.__stretch) __stretch.toggle(false), st.stretch = false; }
++  function set(k, open) { st[k] = open; save();
++    if (P[k]) { P[k][0].classList.toggle('open', open); P[k][1].setAttribute('aria-expanded', open); if (open && k === 'search') setTimeout(() => $('search').focus(), 30); }
++    if (k === 'legend') { legend.classList.toggle('hid', !open); bL.setAttribute('aria-expanded', open); } }
++  bS.onclick = () => { const o = !st.search; if (o) closeOthers('search'); set('search', o); };
++  bC.onclick = () => { const o = !st.color; if (o) closeOthers('color'); set('color', o); };
++  bL.onclick = () => { const o = !st.legend; if (o) closeOthers('legend'); set('legend', o); };
++  const fOn = bF.onclick; bF.onclick = () => { if (!filtOpen) closeOthers('filter'); fOn(); st.filter = filtOpen; save(); };
++  filtBox.querySelector('.done').addEventListener('click', () => { st.filter = false; save(); });
++  const tOn = bT.onclick; bT.onclick = () => { if ($('strbox').style.display !== 'block') closeOthers('stretch'); tOn(); st.stretch = $('strbox').style.display === 'block'; save(); };
++  $('strbox').querySelector('.done').addEventListener('click', () => { st.stretch = false; save(); });
++  $('axis').addEventListener('change', () => { if ($('axis').value && !st.legend) set('legend', true); });
++  addEventListener('keydown', e => { const t = document.activeElement; if (e.key === '/' && !(t && /^(INPUT|TEXTAREA|SELECT)$/.test(t.tagName))) { e.preventDefault(); if (!st.search) set('search', true); else $('search').focus(); }
++    if (e.key === 'Escape' && t === $('search')) { set('search', false); t.blur(); } });
++  // restore (default: everything collapsed)
++  set('search', !!st.search && !mobile()); set('color', !!st.color && !mobile()); set('legend', !!st.legend);
++  if (st.filter && !mobile()) toggleFilt(true); else st.filter = false;
++  if (st.stretch && !mobile() && window.__stretch) __stretch.toggle(true); else st.stretch = false;
++  save(); window.__ui = { st, set };
++})();
++/* ---------- UI-CHROME end ---------- */
++
+ </script>
+ </body>
+ </html>

@@ -1,0 +1,133 @@
+--- site-v3/_before-display.html	2026-10-26 12:10:33.068164290 -1000
++++ site-v3/memeplex.html	2026-10-26 12:16:13.096164290 -1000
+@@ -206,7 +206,8 @@
+       <li><b>Each glowing point is one idea.</b> Bigger points have more "children": later ideas that grew from them.</li>
+       <li><b>Sixteen points are root ideas.</b> Each one starts a tradition, like Plato's theory of Forms for Platonism. On the map they glow like any other point. Click one and its page shows a copper "Root idea of …" badge.</li>
+       <li><b>Lines mean "descends from".</b> A line runs from a parent idea to a later idea that borrowed from it. Point at an idea to light up its ancestors (copper) and descendants (white).</li>
+-      <li><b>Height is time.</b> Older ideas sit low, newer ones sit high. The map ranks ideas by year rather than using an exact timeline, so crowded centuries don't squash together. Dates on the side line mark the eras.</li>
++      <li><b>Height is time.</b> Older ideas sit low, newer ones sit high. The map ranks ideas by year rather than using an exact timeline, so crowded centuries don't squash together, and the busy last few centuries get extra height. Dates on the side line mark the eras.</li>
++      <li><b>Names appear as you zoom in.</b> From far away you see the root ideas and the biggest ideas. Smaller ideas show their names as you get closer, and a name that would cover another one waits until there's room. Pointing at any idea shows its name.</li>
+     </ul>
+     <div class="k">What the floor directions mean</div>
+     <p>The floor has two fixed directions, and they always mean the same thing.</p>
+@@ -277,16 +278,20 @@
+ const years = ideas.map(d => d.year), yMin = Math.min(...years), yMax = Math.max(...years);
+ const tY = y => { const s = Math.sign(y) * Math.log10(1 + Math.abs(y)); const a = Math.log10(1 + Math.abs(yMin)) * Math.sign(yMin), b = Math.log10(1 + yMax); return ((s - a) / (b - a)) * 2 - 1; };
+ const sortedY = [...years].sort((a, b) => a - b);
++/* DISPLAY-PASS: taller timeline. TIME_H = half-height of the time axis (was 26). TIME_RANK = share of height given by year rank
++   (was 0.75); rank spacing gives each idea an equal slice of height, so crowded eras (1750+) get more room. */
++const TIME_H = 44, TIME_RANK = 0.85;
+ const yPos = y => { // interpolated ordinal rank so era ticks share the star mapping
+   let k = sortedY.findIndex(v => v >= y); if (k <= 0) k = Math.max(1, k === -1 ? sortedY.length - 1 : 1);
+   const a = sortedY[k - 1], b = sortedY[k], f = b === a ? 0 : Math.min(1, Math.max(0, (y - a) / (b - a)));
+-  const r = ((k - 1 + f) / (sortedY.length - 1)) * 2 - 1; return (r * 0.75 + tY(y) * 0.25) * 26; };
++  const r = ((k - 1 + f) / (sortedY.length - 1)) * 2 - 1; return (r * TIME_RANK + tY(y) * (1 - TIME_RANK)) * TIME_H; };
+ const STEP = 6.4; // world units per score point (±5 -> ±32)
+ ideas.forEach(d => { const ang = hash(d.id) * Math.PI * 2, rad = 0.6 + hash(d.id + '~') * 1.6;
+   d.pos = new THREE.Vector3(sc(d, 'abstraction') * STEP + Math.cos(ang) * rad, yPos(d.year), sc(d, 'hierarchy') * STEP + Math.sin(ang) * rad); });
+ // collision spreading: push apart stars that sit too close (deterministic, few passes)
+-for (let it = 0; it < 30; it++) for (let i = 0; i < ideas.length; i++) for (let j = i + 1; j < ideas.length; j++) {
+-  const p = ideas[i].pos, q = ideas[j].pos, dx = q.x - p.x, dy = (q.y - p.y) * 1.5, dz = q.z - p.z, dd = Math.hypot(dx, dy, dz), MIN = 2.6;
++for (let it = 0; it < 40; it++) for (let i = 0; i < ideas.length; i++) for (let j = i + 1; j < ideas.length; j++) {
++  const p = ideas[i].pos, q = ideas[j].pos, dx = q.x - p.x, dy = (q.y - p.y) * 1.5, dz = q.z - p.z, dd = Math.hypot(dx, dy, dz),
++    MIN = (Math.abs(sc(ideas[i], 'abstraction')) <= 1 && Math.abs(sc(ideas[j], 'abstraction')) <= 1) ? 4 : 3.2; // DISPLAY-PASS: was 2.6
+   if (dd < MIN) { const ux = dd ? dx / dd : Math.cos(i + j), uz = dd ? dz / dd : Math.sin(i + j), push = (MIN - dd) / 2;
+     p.x -= ux * push; p.z -= uz * push; q.x += ux * push; q.z += uz * push; } }
+ const POLES = [['More abstract / ideal', [5 * STEP + 8, 0, 0]], ['More material', [-5 * STEP - 8, 0, 0]], ['Favors hierarchy', [0, 0, 5 * STEP + 8]], ['Opposes hierarchy', [0, 0, -5 * STEP - 8]]];
+@@ -305,10 +310,15 @@
+ const scene = new THREE.Scene();
+ scene.fog = new THREE.FogExp2(0x0a0a0c, 0.008);
+ const camera = new THREE.PerspectiveCamera(50, innerWidth / innerHeight, 0.1, 1000);
+-const homeCam = new THREE.Vector3(0, 18, isMobile() ? 130 : 95);
+-camera.position.set(0, 60, 220);
++const homeCam = new THREE.Vector3();
++const fitHome = () => { // DISPLAY-PASS: distance that fits the map's height and width on this screen (was fixed 95 / 130)
++  const ext = ideas.reduce((m, d) => Math.max(m, Math.abs(d.pos.y)), 0) + 9, wid = 5 * STEP + 10, v = Math.tan(THREE.MathUtils.degToRad(25)), h = v * (innerWidth / innerHeight);
++  const dist = Math.max(ext / v, wid / h) * 1.02 + 6; homeCam.set(0, dist * 0.18, dist); return homeCam; };
++fitHome();
++scene.fog.density = 0.008 * Math.min(1, 95 / homeCam.length()); // DISPLAY-PASS: keep the old brightness at the farther home view
++camera.position.set(0, 60, 280);
+ const controls = new OrbitControls(camera, renderer.domElement);
+-controls.enableDamping = true; controls.dampingFactor = 0.06; controls.minDistance = 8; controls.maxDistance = 260;
++controls.enableDamping = true; controls.dampingFactor = 0.06; controls.minDistance = 8; controls.maxDistance = 320;
+ controls.autoRotate = !reduce; controls.autoRotateSpeed = 0.25;
+ 
+ // dust field
+@@ -470,7 +480,7 @@
+     const v = hide ? 0 : ax ? ((d.ratings || {})[ax] || 0) : null;
+     const fam = v === null && filt.sel.size ? famOf(d) : null;
+     const col = fam ? (BRANCH_COL[fam] || byId[fam].rootColor) : v === null ? COPPER : v > 0 ? GREY.clone().lerp(COPPER, v / 5) : GREY.clone().lerp(BLUE, -v / 5);
+-    const s = v === null ? 1 + Math.min(d.children.length, 4) * 0.15 : 0.6 + Math.abs(v) * 0.22;
++    const s = v === null ? (d.children.length || d.root ? 1 + Math.min(d.children.length, 4) * 0.15 : 0.85) : 0.6 + Math.abs(v) * 0.22; // DISPLAY-PASS: leaves 0.85
+     gsap.to(d.star.core.material.color, { r: col.r, g: col.g, b: col.b, duration: reduce ? 0 : 0.8, overwrite: 'auto' });
+     gsap.to(d.star.halo.material.color, { r: col.r, g: col.g, b: col.b, duration: reduce ? 0 : 0.8, overwrite: 'auto' });
+     gsap.to(d.star.grp.scale, { x: s, y: s, z: s, duration: reduce ? 0 : 0.8, overwrite: 'auto' });
+@@ -603,7 +613,7 @@
+     gsap.to(d.star.halo.material, { opacity: !v ? 0.04 : lit(d) ? 0.55 : 0.1, duration: 0.5, overwrite: 'auto' });
+     gsap.to(d.star.core.material, { opacity: v ? 1 : 0.13, duration: 0.5, overwrite: 'auto' }); });
+   labels.forEach(o => { if (!o.d) return; const v = vis(o.d);
+-    o.off = F ? !v : !o.base; o.el.style.opacity = lit(o.d) ? 1 : 0.2; });
++    o.off = F && !v; o.lin = !!L && lit(o.d); o.el.style.opacity = lit(o.d) ? 1 : 0.2; });
+ }
+ let camTl;
+ function focusIdea(id) {
+@@ -667,25 +677,49 @@
+ const labels = ideas.map(d => {
+   const el = document.createElement('div'); el.className = 'lbl'; el.textContent = d.name;
+   el.style.cssText = 'position:absolute;left:0;top:0;z-index:5;pointer-events:none;font-family:var(--mono);font-size:9px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-dim);white-space:nowrap';
+-  lblLayer.appendChild(el); const base = d.children.length >= 2; return { d, el, base, off: !base };
++  lblLayer.appendChild(el); const base = d.children.length >= 2; return { d, el, base, off: false, w: el.offsetWidth };
+ });
+ const mk = (txt, pos, cls) => { const el = document.createElement('div'); el.className = 'axl ' + (cls || ''); el.textContent = txt; lblLayer.appendChild(el); labels.push({ pos, el, center: true }); };
+ POLES.forEach(([t, xyz]) => mk(t, new THREE.Vector3(...xyz)));
+-[-400, 0, 500, 1250, 1600, 1800, 1900, 1950, 2000].filter(y => y >= yMin && y <= yMax).forEach(y => mk(y < 0 ? -y + ' BC' : y === 0 ? 'AD 1' : String(y), new THREE.Vector3(SPINE.x, yPos(y) - CENTER.y, SPINE.z), 'era'));
+-const tmp = new THREE.Vector3();
++[-400, 0, 500, 1250, 1600, 1800, 1850, 1900, 1950, 2000].filter(y => y >= yMin && y <= yMax).forEach(y => mk(y < 0 ? -y + ' BC' : y === 0 ? 'AD 1' : String(y), new THREE.Vector3(SPINE.x, yPos(y) - CENTER.y, SPINE.z), 'era'));
++/* ---------- LABEL-LOD start (display pass): labels by zoom level + no overlaps ----------
++   Tier: root 4, 2+ children 3, 1 child 2, leaf 1. In filter mode visible ideas get +1; the focused idea's lineage +2;
++   the hovered or open idea always shows. Tiers 3+ show at any zoom, tier 2 within LOD.mid, tier 1 within LOD.near
++   (camera distance). Then labels are placed highest tier first (nearest first within a tier) and any label that would
++   overlap one already placed is hidden until you zoom in. Pole and era labels are placed first. */
++const LOD = { mid: 120, near: 70, pad: 4, h: 18 };
++const tmp = new THREE.Vector3(); let lodStats = {};
+ function placeLabels() {
+-  labels.forEach(({ d, pos, el, center, off }) => {
++  const W = innerWidth, H = innerHeight, F = filterOn(), placed = [], cand = []; let hidZoom = 0, hidOverlap = 0;
++  const hit = (x, y, w) => placed.some(r => x < r[2] && x + w > r[0] && y < r[3] && y + LOD.h > r[1]);
++  labels.forEach(o => { const { d, pos, el, center, off } = o;
+     if (off) { el.style.display = 'none'; return; }
+     tmp.copy(d ? d.pos : pos).project(camera);
+     const vis = tmp.z < 1 && Math.abs(tmp.x) < 1.1 && Math.abs(tmp.y) < 1.1;
+-    el.style.display = vis ? 'block' : 'none';
+-    if (vis) { el.style.transform = `translate(${(tmp.x + 1) / 2 * innerWidth + (center ? 0 : 2)}px,${(1 - tmp.y) / 2 * innerHeight - 9}px)` + (center ? ' translateX(-50%)' : '');
+-      el.style.zIndex = (center ? 0 : 100000) + Math.max(0, 99999 - Math.round(camera.position.distanceTo(d ? d.pos : pos) * 50)); }
+-  });
+-}
++    if (!vis) { el.style.display = 'none'; return; }
++    const sx = (tmp.x + 1) / 2 * W, sy = (1 - tmp.y) / 2 * H - 9, dist = camera.position.distanceTo(d ? d.pos : pos);
++    if (center) { o.sx = sx; o.sy = sy; o.dist = dist; const w = o.w || 60; placed.push([sx - w / 2 - LOD.pad, sy - 1, sx + w / 2 + LOD.pad, sy + LOD.h]); show(o); return; }
++    let t = d.root ? 4 : d.children.length >= 2 ? 3 : d.children.length ? 2 : 1;
++    if (F) t += 1; if (o.lin) t += 2;
++    const must = d.id === current || d.id === hovered;
++    if (!must && ((t === 2 && dist > LOD.mid) || (t <= 1 && dist > LOD.near))) { el.style.display = 'none'; hidZoom++; return; }
++    o.sx = sx; o.sy = sy; o.dist = dist; o.t = must ? 99 : t; cand.push(o); });
++  cand.sort((a, b) => b.t - a.t || a.dist - b.dist);
++  cand.forEach(o => { const w = o.w || o.d.name.length * 7, x = o.sx + 2;
++    if (o.t < 99 && hit(x - LOD.pad, o.sy, w + LOD.pad * 2)) { o.el.style.display = 'none'; hidOverlap++; return; }
++    placed.push([x - LOD.pad, o.sy - 1, x + w + LOD.pad, o.sy + LOD.h]); show(o); });
++  lodStats = { shown: placed.length, hidZoom, hidOverlap };
++}
++function show({ d, pos, el, center, sx, sy, dist }) { el.style.display = 'block';
++  el.style.transform = `translate(${sx + (center ? 0 : 2)}px,${sy}px)` + (center ? ' translateX(-50%)' : '');
++  el.style.zIndex = (center ? 0 : 100000) + Math.max(0, 99999 - Math.round(dist * 50)); }
++window.__lod = { LOD, stats: () => lodStats };
++const lodMeasure = () => labels.forEach(o => { o.el.style.display = 'block'; o.w = o.el.offsetWidth; }); lodMeasure();
++document.fonts && document.fonts.ready.then(lodMeasure);
++/* ---------- LABEL-LOD end ---------- */
+ 
+ /* ---------- Loop / resize / intro ---------- */
+-addEventListener('resize', () => { camera.aspect = innerWidth / innerHeight; camera.updateProjectionMatrix(); renderer.setSize(innerWidth, innerHeight); });
++addEventListener('resize', () => { camera.aspect = innerWidth / innerHeight; camera.updateProjectionMatrix(); renderer.setSize(innerWidth, innerHeight); fitHome(); });
+ const symCores = stars.filter(s => s.core.userData.sym).map(s => s.core); window.__symbols = symCores.map(c => [c.userData.id, c.userData.sym]);
+ gsap.ticker.add((t, dt) => { if (!reduce) symCores.forEach(c => { c.rotation.y += dt * 0.0004; }); controls.update(); renderer.render(scene, camera); placeLabels(); });
+ gsap.set(panel, { xPercent: 100 });
