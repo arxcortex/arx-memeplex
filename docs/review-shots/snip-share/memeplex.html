@@ -884,10 +884,53 @@ const lodMeasure = () => labels.forEach(o => { o.el.style.display = 'block'; o.w
 document.fonts && document.fonts.ready.then(lodMeasure);
 /* ---------- LABEL-LOD end ---------- */
 
+/* ---------- ZOOM: eased, cursor-anchored zoom target. Wheel (pixel/line/page deltas normalised), trackpad pinch
+   (ctrl+wheel, boosted and clamped) and two-finger touch pinch all feed one target distance. The camera eases toward it
+   each frame by scaling camera + target about the point under the cursor, so that point stays put. Any camera animation
+   cancels the target; prefers-reduced-motion zooms instantly. ---------- */
+const ZOOM = { k: 0.0016, clamp: 120, pinch: 4, ease: 14 };
+controls.enableZoom = false;
+const zRay = new THREE.Raycaster(), zNdc = new THREE.Vector2(), zPlane = new THREE.Plane(), zP = new THREE.Vector3(), zDir = new THREE.Vector3();
+let zT = null;
+const camDist = () => camera.position.distanceTo(controls.target);
+const camBusy = () => (camTl && camTl.isActive()) || gsap.isTweening(camera.position) || gsap.isTweening(controls.target);
+function zApply(nd) { const d = camDist(); if (!(d > 0) || Math.abs(nd - d) < 1e-5) return;
+  zRay.setFromCamera(zNdc, camera); camera.getWorldDirection(zDir); zPlane.setFromNormalAndCoplanarPoint(zDir, controls.target);
+  if (!zRay.ray.intersectPlane(zPlane, zP)) zP.copy(controls.target);
+  const f = nd / d; camera.position.sub(zP).multiplyScalar(f).add(zP); controls.target.sub(zP).multiplyScalar(f).add(zP); }
+function zoomBy(factor, cx, cy) { if (!controls.enabled || camBusy()) return;
+  const r = renderer.domElement.getBoundingClientRect(); zNdc.set((cx - r.left) / r.width * 2 - 1, -((cy - r.top) / r.height) * 2 + 1);
+  controls.autoRotate = false;
+  zT = THREE.MathUtils.clamp((zT == null ? camDist() : zT) * factor, controls.minDistance, controls.maxDistance);
+  if (reduce) { zApply(zT); zT = null; } }
+function zoomTick(dt) { if (zT == null) return; if (camBusy()) { zT = null; return; }
+  const d = camDist(), nd = d + (zT - d) * (1 - Math.exp(-ZOOM.ease * Math.min(dt, 64) / 1000));
+  if (Math.abs(zT - nd) < 0.002 * zT) { zApply(zT); zT = null; } else zApply(nd); }
+renderer.domElement.addEventListener('wheel', e => { if (!controls.enabled) return; e.preventDefault();
+  let dy = e.deltaY * (e.deltaMode === 1 ? 16 : e.deltaMode === 2 ? innerHeight : 1);
+  if (e.ctrlKey) dy *= ZOOM.pinch; dy = Math.max(-ZOOM.clamp, Math.min(ZOOM.clamp, dy));
+  zoomBy(Math.exp(dy * ZOOM.k), e.clientX, e.clientY); }, { passive: false });
+const zTouch = new Map(); let zPinch = 0;
+const zSpan = () => { const [a, b] = [...zTouch.values()]; return [Math.hypot(a.x - b.x, a.y - b.y), (a.x + b.x) / 2, (a.y + b.y) / 2]; };
+renderer.domElement.addEventListener('pointerdown', e => { if (e.pointerType !== 'touch') return; zTouch.set(e.pointerId, { x: e.clientX, y: e.clientY }); if (zTouch.size === 2) zPinch = zSpan()[0]; });
+renderer.domElement.addEventListener('pointermove', e => { if (e.pointerType !== 'touch' || !zTouch.has(e.pointerId)) return; zTouch.set(e.pointerId, { x: e.clientX, y: e.clientY });
+  if (zTouch.size !== 2 || !zPinch) return; const [sp, mx, my] = zSpan(); if (sp > 0) { zoomBy(zPinch / sp, mx, my); zPinch = sp; } });
+const zUp = e => { zTouch.delete(e.pointerId); zPinch = zTouch.size === 2 ? zSpan()[0] : 0; };
+['pointerup', 'pointercancel'].forEach(t => renderer.domElement.addEventListener(t, zUp));
+/* placeLabels skip: only re-place when the camera, hover/focus or view changed, with a 200 ms safety refresh. */
+let lblKey = '', lblAt = 0, lblRuns = 0;
+function labelsMaybe(now) { const m = camera.matrixWorld.elements, q = camera.projectionMatrix.elements;
+  const k = m.map(v => Math.round(v * 1e4)).join(',') + '|' + q[0] + ',' + q[5] + '|' + current + '|' + hovered + '|' + (window.__views && window.__views.cur) + '|' + innerWidth + 'x' + innerHeight;
+  if (k === lblKey && now - lblAt < 200) return; lblKey = k; lblAt = now; lblRuns++; placeLabels(); }
+window.__zoom = { ZOOM, dist: camDist, get target() { return zT; }, get labelRuns() { return lblRuns; }, busy: camBusy,
+  under(x, y) { const r = renderer.domElement.getBoundingClientRect(), n = new THREE.Vector2((x - r.left) / r.width * 2 - 1, -((y - r.top) / r.height) * 2 + 1), rc = new THREE.Raycaster(), dir = new THREE.Vector3(), pl = new THREE.Plane(), o = new THREE.Vector3();
+    rc.setFromCamera(n, camera); camera.getWorldDirection(dir); pl.setFromNormalAndCoplanarPoint(dir, controls.target); return rc.ray.intersectPlane(pl, o) ? o.toArray() : null; },
+  screen(a) { const r = renderer.domElement.getBoundingClientRect(), v = new THREE.Vector3(...a).project(camera); return [r.left + (v.x + 1) / 2 * r.width, r.top + (1 - v.y) / 2 * r.height]; },
+  still() { controls.autoRotate = false; } };
 /* ---------- Loop / resize / intro ---------- */
 addEventListener('resize', () => { camera.aspect = innerWidth / innerHeight; camera.updateProjectionMatrix(); renderer.setSize(innerWidth, innerHeight); fitHome(); });
 const symCores = stars.filter(s => s.core.userData.sym).map(s => s.core); window.__symbols = symCores.map(c => [c.userData.id, c.userData.sym]);
-gsap.ticker.add((t, dt) => { if (!reduce) symCores.forEach(c => { c.rotation.y += dt * 0.0004; }); controls.update(); renderer.render(scene, camera); placeLabels(); });
+gsap.ticker.add((t, dt) => { if (!reduce) symCores.forEach(c => { c.rotation.y += dt * 0.0004; }); zoomTick(dt); controls.update(); renderer.render(scene, camera); labelsMaybe(t * 1000); });
 gsap.set(panel, { xPercent: 100 });
 
 const intro = gsap.timeline();
