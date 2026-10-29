@@ -11324,7 +11324,7 @@
   "summary": "Republicans from Machiavelli to the Commonwealthmen tie liberty to civic virtue, balanced government and vigilance against corruption.",
   "edge_notes": {
    "renaissance_humanism": {
-    "status": "direct",
+    "status": "documented",
     "type": "revival",
     "src": "https://grokipedia.com/page/Classical_republicanism",
     "note": "Machiavelli's civic humanism revived Roman republican models, which Harrington then institutionalized in Oceana."
@@ -11413,13 +11413,13 @@
   "summary": "The American founders fused Lockean natural rights with classical civic virtue to justify independence and a republic without a king.",
   "edge_notes": {
    "classical_republicanism": {
-    "status": "direct",
+    "status": "documented",
     "type": "reader",
     "src": "https://en.wikipedia.org/wiki/Commonwealthmen",
     "note": "Trenchard and Gordon's Cato's Letters (1720–23) were, in Clinton Rossiter's words, 'the most popular, quotable, esteemed source for political ideas in the colonial period'; Adams cited Cicero's De Officiis (Grokipedia, Classical republicanism)."
    },
    "enlightenment_liberalism": {
-    "status": "direct",
+    "status": "documented",
     "type": "text",
     "src": "https://grokipedia.com/page/Republicanism_in_the_United_States",
     "note": "Jefferson adapted Locke's 'life, liberty, and property' (Two Treatises, 1689) as 'life, liberty, and the pursuit of happiness' in the Declaration of Independence."
@@ -11510,19 +11510,19 @@
   "summary": "The 1789 Declaration makes liberty, property, security and resistance to oppression universal rights and places sovereignty in the nation.",
   "edge_notes": {
    "american_republicanism": {
-    "status": "direct",
+    "status": "documented",
     "type": "delegate",
     "src": "https://grokipedia.com/page/Declaration_of_the_Rights_of_Man_and_of_the_Citizen",
     "note": "Lafayette, a veteran of the American war, drafted a first version in July 1789 drawing on the Virginia Declaration of Rights, with input from Jefferson, then U.S. minister to France."
    },
    "enlightenment_liberalism": {
-    "status": "direct",
+    "status": "documented",
     "type": "text",
     "src": "https://grokipedia.com/page/Declaration_of_the_Rights_of_Man_and_of_the_Citizen",
     "note": "The page names Montesquieu as a source; separation of powers appears in Article 16."
    },
    "social_contract": {
-    "status": "direct",
+    "status": "documented",
     "type": "text",
     "src": "https://grokipedia.com/page/Declaration_of_the_Rights_of_Man_and_of_the_Citizen",
     "note": "Draws on Rousseau's general will: law is 'the expression of the general will'. Sieyès's What Is the Third Estate? (January 1789) supplied national sovereignty (Grokipedia, What_Is_the_Third_Estate?)."
@@ -11610,13 +11610,13 @@
   "summary": "Jacobins pushed Rousseau's general will into a centralized republic of virtue, culminating in the Terror of 1793–94.",
   "edge_notes": {
    "social_contract": {
-    "status": "direct",
+    "status": "documented",
     "type": "reader",
     "src": "https://en.wikipedia.org/wiki/Jacobin",
     "note": "Robespierre is described as a disciple of Rousseau whose politics rested on the Social Contract (1762) (Wikipedia, Jacobin); Grokipedia's Robespierre page says his engagement with Rousseau's Social Contract profoundly shaped his views on popular sovereignty and the general will."
    },
    "rights_of_man": {
-    "status": "direct",
+    "status": "documented",
     "type": "text",
     "src": "https://en.wikipedia.org/wiki/Jacobin",
     "note": "Robespierre framed his program in terms of the rights of man; the source ties that framing to Rousseau's social contract rather than to the 1789 Declaration."
