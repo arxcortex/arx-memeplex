@@ -1,0 +1,533 @@
+{
+  "tours": [
+    {
+      "id": "academy-to-the-ming-court",
+      "title": "From Plato's Academy to the Ming court: how Aristotle reached Beijing by way of Baghdad",
+      "summary": "Aristotle studied under Plato; Baghdad translated him; Avicenna read al-Farabi on him; Aquinas read Avicenna; Trent canonized Aquinas; a Jesuit carried it to China.",
+      "stops": [
+        {
+          "id": "platonic_forms",
+          "caption": "Plato taught in his Academy at Athens that true reality lies in eternal Forms that the visible world only copies. The Academy was a school with pupils, and its most famous pupil stayed twenty years.",
+          "source": "https://en.wikipedia.org/wiki/Theory_of_forms",
+          "sources": [
+            "https://grokipedia.com/page/Theory_of_forms",
+            "https://en.wikipedia.org/wiki/Theory_of_forms"
+          ],
+          "link_from_previous": null
+        },
+        {
+          "id": "aristotelian_teleology",
+          "caption": "Aristotle entered the Academy at about seventeen and left only at Plato's death. He kept his teacher's question about form but placed form inside things, each striving toward its end. His treatises survived as a teaching corpus that later commentators kept in circulation.",
+          "source": "https://en.wikipedia.org/wiki/Aristotle",
+          "sources": [
+            "https://grokipedia.com/page/Aristotle",
+            "https://en.wikipedia.org/wiki/Aristotle"
+          ],
+          "link_from_previous": {
+            "type": "teacher–student",
+            "evidence": "Aristotle studied in Plato's Academy from about 367 to 347 BC (Aristotle).",
+            "evidence_url": "https://en.wikipedia.org/wiki/Aristotle"
+          }
+        },
+        {
+          "id": "falsafa",
+          "caption": "In Abbasid Baghdad, translators, many of them Syriac Christians, rendered Aristotle's corpus into Arabic. Al-Kindi, working from those versions, set out to reconcile Greek philosophy with revealed religion. The carrier across the centuries was the book, copied and translated.",
+          "source": "https://en.wikipedia.org/wiki/Greco-Arabic_translation_movement",
+          "sources": [
+            "https://en.wikipedia.org/wiki/Greco-Arabic_translation_movement"
+          ],
+          "link_from_previous": {
+            "type": "translation",
+            "evidence": "Abbasid translation movement rendered Aristotle into Arabic, largely through Syriac Christian translators such as Hunayn ibn Ishaq; al-Kindi worked with these versions (Greco-Arabic translation movement).",
+            "evidence_url": "https://en.wikipedia.org/wiki/Greco-Arabic_translation_movement"
+          }
+        },
+        {
+          "id": "avicennism",
+          "caption": "Ibn Sina recorded that he could not grasp Aristotle's Metaphysics until a cheap copy of al-Farabi's treatise on the aims of the Metaphysics, bought from a bookseller, opened it to him. He went on to build a system distinguishing essence from existence. His Shifa' became the standard Arabic summa of Aristotelian philosophy.",
+          "source": "https://en.wikipedia.org/wiki/Avicenna",
+          "sources": [
+            "https://grokipedia.com/page/Avicenna",
+            "https://en.wikipedia.org/wiki/Avicenna"
+          ],
+          "link_from_previous": {
+            "type": "documented reading",
+            "evidence": "Avicenna's autobiography records that he could not understand Aristotle's Metaphysics until he bought al-Farabi's short treatise on its aims (Avicenna).",
+            "evidence_url": "https://en.wikipedia.org/wiki/Avicenna"
+          }
+        },
+        {
+          "id": "thomism",
+          "caption": "Latin translations made at Toledo put Avicenna in Western schools. Thomas Aquinas took over his distinction of essence and existence in On Being and Essence and cited him throughout the Summa. The Dominican friar fused Aristotle, so received, with Augustine's theology.",
+          "source": "https://en.wikipedia.org/wiki/Latin_translations_of_the_12th_century",
+          "sources": [
+            "https://grokipedia.com/page/Latin_translations_of_the_12th_century",
+            "https://en.wikipedia.org/wiki/Latin_translations_of_the_12th_century"
+          ],
+          "link_from_previous": {
+            "type": "translation + documented reading",
+            "evidence": "Avicenna's works were translated into Latin in 12th-century Spain (Toledo); Aquinas cites him throughout De ente et essentia and the Summa (Thomas Aquinas).",
+            "evidence_url": "https://en.wikipedia.org/wiki/Latin_translations_of_the_12th_century"
+          }
+        },
+        {
+          "id": "tridentine_catholicism",
+          "caption": "The Council of Trent answered the Reformation largely in scholastic terms, with Thomist theologians prominent among its experts; how far Thomism dominated is contested. In 1567 Pius V named Aquinas a Doctor of the Church. The tale that the Summa lay on the council's altar is later tradition and contested.",
+          "source": "https://en.wikipedia.org/wiki/Council_of_Trent",
+          "sources": [
+            "https://grokipedia.com/page/Council_of_Trent",
+            "https://en.wikipedia.org/wiki/Council_of_Trent"
+          ],
+          "link_from_previous": {
+            "type": "institutional descent",
+            "evidence": "Scholastic, largely Thomist, theology informed the decrees of the Council of Trent (1545–63) (degree of Thomist dominance contested); Pius V declared Aquinas a Doctor of the Church in 1567. The story that the Summa lay on the altar beside Scripture is contested.",
+            "evidence_url": "https://en.wikipedia.org/wiki/Council_of_Trent"
+          }
+        },
+        {
+          "id": "jesuit_accommodation",
+          "caption": "Matteo Ricci, a Jesuit formed in post-Tridentine Rome, reached Macau in 1582 and Beijing in 1601. He presented Christianity in Confucian dress and wrote The True Meaning of the Lord of Heaven in Chinese. The Aristotelian-Thomist curriculum he learned went with him to the Ming court.",
+          "source": "https://en.wikipedia.org/wiki/Matteo_Ricci",
+          "sources": [
+            "https://grokipedia.com/page/Matteo_Ricci",
+            "https://en.wikipedia.org/wiki/Matteo_Ricci"
+          ],
+          "link_from_previous": {
+            "type": "institutional descent",
+            "evidence": "Ricci entered the Jesuit order in 1571, trained in Rome under Clavius, and reached Macau in 1582 (Matteo Ricci).",
+            "evidence_url": "https://en.wikipedia.org/wiki/Matteo_Ricci"
+          }
+        }
+      ],
+      "kind": "transmission"
+    },
+    {
+      "id": "kant-to-the-cpusa",
+      "title": "From Kant to the CPUSA: how a critique of reason became a party with a Moscow office",
+      "summary": "Hegel built on Kant; Marx came up among the Young Hegelians; Lenin built a party on Marx; that party founded the Comintern, which assembled the American Communist Party.",
+      "stops": [
+        {
+          "id": "transcendental_idealism",
+          "caption": "In the Critique of Pure Reason (1781) Kant argued that the mind supplies the forms through which it knows the world. He left a gap between appearances and things in themselves that his German readers rushed to close.",
+          "source": "https://en.wikipedia.org/wiki/Immanuel_Kant",
+          "sources": [
+            "https://grokipedia.com/page/Immanuel_Kant",
+            "https://en.wikipedia.org/wiki/Immanuel_Kant"
+          ],
+          "link_from_previous": null
+        },
+        {
+          "id": "hegelian_dialectic",
+          "caption": "Hegel, who began as a seminary student reading Kant, closed the gap by making reason historical. In the Phenomenology of Spirit (1807) consciousness moves through contradictions until it knows itself as spirit. His lecture hall in Berlin then made him the reigning philosopher of Prussia.",
+          "source": "https://en.wikipedia.org/wiki/Georg_Wilhelm_Friedrich_Hegel",
+          "sources": [
+            "https://grokipedia.com/page/Georg_Wilhelm_Friedrich_Hegel",
+            "https://en.wikipedia.org/wiki/Georg_Wilhelm_Friedrich_Hegel"
+          ],
+          "link_from_previous": {
+            "type": "documented reading",
+            "evidence": "Hegel's system develops through engagement with Kant, Fichte and Schelling; the Phenomenology of Spirit (1807) answers the Kantian critique (Hegel).",
+            "evidence_url": "https://en.wikipedia.org/wiki/Georg_Wilhelm_Friedrich_Hegel"
+          }
+        },
+        {
+          "id": "marxism",
+          "caption": "Karl Marx arrived in Berlin after Hegel's death and joined the Young Hegelians, who fought over what the system meant for religion and the state. He kept the dialectic and moved the contradiction into production and class. With Engels he published The Communist Manifesto in 1848.",
+          "source": "https://en.wikipedia.org/wiki/Young_Hegelians",
+          "sources": [
+            "https://grokipedia.com/page/Young_Hegelians",
+            "https://en.wikipedia.org/wiki/Young_Hegelians"
+          ],
+          "link_from_previous": {
+            "type": "school descent",
+            "evidence": "Marx joined the Young Hegelian Doctors' Club in Berlin in the late 1830s (Young Hegelians).",
+            "evidence_url": "https://en.wikipedia.org/wiki/Young_Hegelians"
+          }
+        },
+        {
+          "id": "leninism",
+          "caption": "Vladimir Lenin read Marx in the 1880s and 1890s and joined the Russian Marxist movement. In What Is to Be Done? (1902) he argued that workers needed a vanguard party of professional revolutionaries. His faction took the name Bolsheviks at the 1903 congress.",
+          "source": "https://en.wikipedia.org/wiki/What_Is_to_Be_Done%3F",
+          "sources": [
+            "https://grokipedia.com/page/What_Is_to_Be_Done%3F",
+            "https://en.wikipedia.org/wiki/What_Is_to_Be_Done%3F"
+          ],
+          "link_from_previous": {
+            "type": "documented reading",
+            "evidence": "Lenin worked as a Marxist organizer from the 1890s; What Is to Be Done? (1902) argues within Marxism for a vanguard party (What Is to Be Done?).",
+            "evidence_url": "https://en.wikipedia.org/wiki/What_Is_to_Be_Done%3F"
+          }
+        },
+        {
+          "id": "comintern",
+          "caption": "Having taken power, the Bolsheviks convened the Communist International in Moscow in March 1919. The Twenty-One Conditions of 1920 bound every member party to the Bolshevik model. A party had become a world headquarters.",
+          "source": "https://en.wikipedia.org/wiki/Comintern",
+          "sources": [
+            "https://en.wikipedia.org/wiki/Comintern"
+          ],
+          "link_from_previous": {
+            "type": "institutional descent",
+            "evidence": "The Bolshevik leadership founded the Communist International in Moscow in March 1919 (Comintern).",
+            "evidence_url": "https://en.wikipedia.org/wiki/Comintern"
+          }
+        },
+        {
+          "id": "american_communism",
+          "caption": "In 1919 the left wing of the Socialist Party of America split into two communist parties, each seeking Moscow's recognition. The Comintern ordered them to merge, and the unified party took its line from Moscow for decades. The chain from Kant's study ends in a disciplined American section of a world party.",
+          "source": "https://en.wikipedia.org/wiki/Communist_Party_USA",
+          "sources": [
+            "https://grokipedia.com/page/Communist_Party_USA",
+            "https://en.wikipedia.org/wiki/Communist_Party_USA"
+          ],
+          "link_from_previous": {
+            "type": "institutional descent",
+            "evidence": "Two rival American communist parties formed in 1919 from the Socialist Party's left wing; the Comintern pressed them to unite (Communist Party USA).",
+            "evidence_url": "https://en.wikipedia.org/wiki/Communist_Party_USA"
+          }
+        }
+      ],
+      "kind": "genealogy"
+    },
+    {
+      "id": "jerusalem-to-azusa-street",
+      "title": "From Jerusalem to Azusa Street: one church, four ruptures, and a revival in Los Angeles",
+      "summary": "An apostolic church split East and West; England broke from Rome; an Anglican priest founded Methodism; Holiness Methodists bred the preachers who lit Azusa Street.",
+      "stops": [
+        {
+          "id": "christianity",
+          "caption": "A Jewish movement around Jesus of Nazareth spread from Judea through the eastern Mediterranean in the first century. Its communities kept a succession of bishops that later councils would claim.",
+          "source": "https://en.wikipedia.org/wiki/Early_Christianity",
+          "sources": [
+            "https://grokipedia.com/page/Early_Christianity",
+            "https://en.wikipedia.org/wiki/Early_Christianity"
+          ],
+          "link_from_previous": null
+        },
+        {
+          "id": "apostolic_christianity",
+          "caption": "In 325 Constantine summoned the bishops to Nicaea, and the church gained a creed and an imperial framework. For seven centuries East and West shared communion, if uneasily.",
+          "source": "https://en.wikipedia.org/wiki/First_Council_of_Nicaea",
+          "sources": [
+            "https://grokipedia.com/page/First_Council_of_Nicaea",
+            "https://en.wikipedia.org/wiki/First_Council_of_Nicaea"
+          ],
+          "link_from_previous": {
+            "type": "institutional descent",
+            "evidence": "Constantine convened some 250–318 bishops at the Council of Nicaea (325) (First Council of Nicaea).",
+            "evidence_url": "https://en.wikipedia.org/wiki/First_Council_of_Nicaea"
+          }
+        },
+        {
+          "id": "roman_catholicism",
+          "caption": "In 1054 papal legates excommunicated Patriarch Michael Cerularius, who anathematized the legates in turn. Historians read the date as a marker for a slower separation, so it is conventional rather than decisive. The Latin church kept the see of Rome at its centre.",
+          "source": "https://en.wikipedia.org/wiki/East%E2%80%93West_Schism",
+          "sources": [
+            "https://grokipedia.com/page/East%E2%80%93West_Schism",
+            "https://en.wikipedia.org/wiki/East%E2%80%93West_Schism"
+          ],
+          "link_from_previous": {
+            "type": "institutional descent (schism)",
+            "evidence": "Mutual excommunications of 1054 mark the conventional East–West break; historians treat the date as symbolic of a longer drift (East–West Schism).",
+            "evidence_url": "https://en.wikipedia.org/wiki/East%E2%80%93West_Schism"
+          }
+        },
+        {
+          "id": "anglicanism",
+          "caption": "In 1534 Parliament declared Henry VIII supreme head of the Church of England, cutting its tie to Rome while keeping its bishops and parishes. Under Cranmer and Elizabeth it took Protestant doctrine into that inherited structure.",
+          "source": "https://en.wikipedia.org/wiki/Act_of_Supremacy_1534",
+          "sources": [
+            "https://en.wikipedia.org/wiki/Act_of_Supremacy_1534"
+          ],
+          "link_from_previous": {
+            "type": "institutional descent (schism)",
+            "evidence": "The Act of Supremacy (1534) made the English king supreme head of the Church of England (Act of Supremacy 1534).",
+            "evidence_url": "https://en.wikipedia.org/wiki/Act_of_Supremacy_1534"
+          }
+        },
+        {
+          "id": "methodism",
+          "caption": "John Wesley, an Anglican priest, felt his heart 'strangely warmed' at Aldersgate in 1738 and began field preaching with his brother Charles. Methodist societies stayed inside the Church of England in his lifetime. American Methodists organized separately in 1784.",
+          "source": "https://en.wikipedia.org/wiki/John_Wesley",
+          "sources": [
+            "https://grokipedia.com/page/John_Wesley",
+            "https://en.wikipedia.org/wiki/John_Wesley"
+          ],
+          "link_from_previous": {
+            "type": "institutional descent",
+            "evidence": "John Wesley was an ordained priest of the Church of England who remained one until death (John Wesley).",
+            "evidence_url": "https://en.wikipedia.org/wiki/John_Wesley"
+          }
+        },
+        {
+          "id": "holiness_movement",
+          "caption": "Methodists who kept Wesley's doctrine of entire sanctification organized the National Camp Meeting Association in 1867. They preached a 'second blessing' after conversion and later formed independent Holiness churches.",
+          "source": "https://en.wikipedia.org/wiki/Holiness_movement",
+          "sources": [
+            "https://grokipedia.com/page/Holiness_movement",
+            "https://en.wikipedia.org/wiki/Holiness_movement"
+          ],
+          "link_from_previous": {
+            "type": "institutional descent",
+            "evidence": "PROPOSED idea. National Camp Meeting Association, 1867 (Holiness movement).",
+            "evidence_url": "https://en.wikipedia.org/wiki/Holiness_movement"
+          }
+        },
+        {
+          "id": "pentecostalism",
+          "caption": "Charles Fox Parham, a Holiness preacher, taught that speaking in tongues marked baptism in the Spirit. William J. Seymour heard him in Houston in 1905, though segregation kept him outside the classroom. From 1906 Seymour's mission on Azusa Street drew seekers from across the world.",
+          "source": "https://en.wikipedia.org/wiki/William_J._Seymour",
+          "sources": [
+            "https://grokipedia.com/page/William_J._Seymour",
+            "https://en.wikipedia.org/wiki/William_J._Seymour"
+          ],
+          "link_from_previous": {
+            "type": "teacher–student",
+            "evidence": "Seymour studied under Parham in Houston in 1905, then led the Azusa Street revival from 1906 (William J. Seymour).",
+            "evidence_url": "https://en.wikipedia.org/wiki/William_J._Seymour"
+          }
+        }
+      ],
+      "kind": "genealogy"
+    },
+    {
+      "id": "bolsheviks-to-neoconservatives",
+      "title": "From the Bolsheviks to the neoconservatives: a Trotskyist faction trains its opponents",
+      "summary": "Lenin's party produced Trotsky; Trotsky's American followers split under Shachtman; some of Shachtman's young followers became the first neoconservatives.",
+      "stops": [
+        {
+          "id": "marxism",
+          "caption": "Marx and Engels held that capitalism would produce its own gravediggers in the industrial working class. Their followers organized parties across Europe to hasten that end.",
+          "source": "https://en.wikipedia.org/wiki/Marxism",
+          "sources": [
+            "https://grokipedia.com/page/Marxism",
+            "https://en.wikipedia.org/wiki/Marxism"
+          ],
+          "link_from_previous": null
+        },
+        {
+          "id": "leninism",
+          "caption": "Lenin added the vanguard: a party of professional revolutionaries to lead the workers. His Bolsheviks took power in 1917.",
+          "source": "https://en.wikipedia.org/wiki/What_Is_to_Be_Done%3F",
+          "sources": [
+            "https://grokipedia.com/page/What_Is_to_Be_Done%3F",
+            "https://en.wikipedia.org/wiki/What_Is_to_Be_Done%3F"
+          ],
+          "link_from_previous": {
+            "type": "documented reading",
+            "evidence": "Lenin argued within Marxism for a vanguard party in What Is to Be Done? (1902).",
+            "evidence_url": "https://en.wikipedia.org/wiki/What_Is_to_Be_Done%3F"
+          }
+        },
+        {
+          "id": "trotskyism",
+          "caption": "Leon Trotsky joined the Bolsheviks in 1917 and built the Red Army. After 1923 his Left Opposition claimed the true Leninist inheritance against Stalin. Exiled, he gathered followers abroad, including a small American party.",
+          "source": "https://en.wikipedia.org/wiki/Left_Opposition",
+          "sources": [
+            "https://grokipedia.com/page/Left_Opposition",
+            "https://en.wikipedia.org/wiki/Left_Opposition"
+          ],
+          "link_from_previous": {
+            "type": "institutional descent",
+            "evidence": "PROPOSED edge leninism→trotskyism. Trotsky joined the Bolsheviks in 1917; Left Opposition formed 1923 (Left Opposition).",
+            "evidence_url": "https://en.wikipedia.org/wiki/Left_Opposition"
+          }
+        },
+        {
+          "id": "shachtmanism",
+          "caption": "In 1940 Max Shachtman and James Burnham split from the American Trotskyists over whether to defend the Soviet Union. Shachtman's Workers Party declared a 'third camp' against both Washington and Moscow. Burnham soon left Marxism entirely and wrote The Managerial Revolution (1941).",
+          "source": "https://en.wikipedia.org/wiki/Max_Shachtman",
+          "sources": [
+            "https://grokipedia.com/page/Max_Shachtman",
+            "https://en.wikipedia.org/wiki/Max_Shachtman"
+          ],
+          "link_from_previous": {
+            "type": "faction split",
+            "evidence": "Shachtman and Burnham broke with Trotsky and the SWP in 1940 over the nature of the USSR, forming the Workers Party (Max Shachtman).",
+            "evidence_url": "https://en.wikipedia.org/wiki/Max_Shachtman"
+          }
+        },
+        {
+          "id": "neoconservatism",
+          "caption": "Irving Kristol spent his City College years in a small Trotskyist youth group, by his own later account on Shachtman's side, before moving to anti-communist liberalism and then the right. Shachtman's last followers backed hawkish Democrats such as Henry Jackson. Historians dispute how far the Trotskyist schooling shaped the later creed, so the link is real in membership and contested in weight.",
+          "source": "https://en.wikipedia.org/wiki/Irving_Kristol",
+          "sources": [
+            "https://grokipedia.com/page/Irving_Kristol",
+            "https://en.wikipedia.org/wiki/Irving_Kristol"
+          ],
+          "link_from_previous": {
+            "type": "membership descent (contested weight)",
+            "evidence": "Irving Kristol belonged to the Trotskyist wing of the Young People's Socialist League at City College around 1940 (his later account places him in the Shachtmanite faction); Shachtman's late followers backed anti-communist Democrats. How much neoconservatism owes to Trotskyism is contested (Neoconservatism).",
+            "evidence_url": "https://en.wikipedia.org/wiki/Irving_Kristol"
+          }
+        }
+      ],
+      "kind": "genealogy"
+    },
+    {
+      "id": "aristotle-to-sartre",
+      "title": "From Aristotle to Sartre: how one doctrine of the mind passed through three lecture rooms",
+      "summary": "Brentano revived Aristotle's theory of mind; Husserl heard Brentano; Heidegger assisted Husserl; Sartre went to Berlin to learn them and wrote Being and Nothingness.",
+      "stops": [
+        {
+          "id": "aristotelian_teleology",
+          "caption": "Aristotle's On the Soul and Metaphysics treated being as said in many ways and the mind as taking on the form of what it knows. Scholastic commentators kept those texts in the schools for centuries.",
+          "source": "https://en.wikipedia.org/wiki/Aristotle",
+          "sources": [
+            "https://grokipedia.com/page/Aristotle",
+            "https://en.wikipedia.org/wiki/Aristotle"
+          ],
+          "link_from_previous": null
+        },
+        {
+          "id": "brentano_intentionality",
+          "caption": "Franz Brentano wrote his dissertation on the senses of being in Aristotle and in 1874 revived the scholastic idea that every mental act is directed at an object. He called it intentional inexistence and taught it to a crowded Vienna lecture hall.",
+          "source": "https://en.wikipedia.org/wiki/Franz_Brentano",
+          "sources": [
+            "https://grokipedia.com/page/Franz_Brentano",
+            "https://en.wikipedia.org/wiki/Franz_Brentano"
+          ],
+          "link_from_previous": {
+            "type": "documented reading",
+            "evidence": "PROPOSED idea. Brentano's 1862 dissertation was on the several senses of being in Aristotle (Franz Brentano).",
+            "evidence_url": "https://en.wikipedia.org/wiki/Franz_Brentano"
+          }
+        },
+        {
+          "id": "phenomenology",
+          "caption": "Edmund Husserl heard Brentano in Vienna from 1884 to 1886 and turned from mathematics to philosophy. His Logical Investigations (1900–01) made intentionality the method of a new science of experience.",
+          "source": "https://en.wikipedia.org/wiki/Edmund_Husserl",
+          "sources": [
+            "https://grokipedia.com/page/Edmund_Husserl",
+            "https://en.wikipedia.org/wiki/Edmund_Husserl"
+          ],
+          "link_from_previous": {
+            "type": "teacher–student",
+            "evidence": "PROPOSED edge. Husserl attended Brentano's lectures in Vienna, 1884–86 (Edmund Husserl).",
+            "evidence_url": "https://en.wikipedia.org/wiki/Edmund_Husserl"
+          }
+        },
+        {
+          "id": "existential_phenomenology",
+          "caption": "Martin Heidegger, who had read Brentano's Aristotle dissertation as a schoolboy, served as Husserl's assistant from 1919 to 1923. Being and Time (1927), dedicated to Husserl, turned the method from consciousness to existence. The two men later broke over that turn.",
+          "source": "https://en.wikipedia.org/wiki/Martin_Heidegger",
+          "sources": [
+            "https://grokipedia.com/page/Martin_Heidegger",
+            "https://en.wikipedia.org/wiki/Martin_Heidegger"
+          ],
+          "link_from_previous": {
+            "type": "teacher–student",
+            "evidence": "Heidegger was Husserl's assistant from 1919 to 1923 and dedicated Being and Time (1927) to him (Martin Heidegger).",
+            "evidence_url": "https://en.wikipedia.org/wiki/Martin_Heidegger"
+          }
+        },
+        {
+          "id": "existentialism",
+          "caption": "Jean-Paul Sartre spent 1933–34 in Berlin studying Husserl and then read Heidegger closely. Being and Nothingness (1943) recast both into the claim that existence precedes essence. The Aristotelian question of being reached the Paris cafés through three documented lecture rooms.",
+          "source": "https://en.wikipedia.org/wiki/Jean-Paul_Sartre",
+          "sources": [
+            "https://grokipedia.com/page/Jean-Paul_Sartre",
+            "https://en.wikipedia.org/wiki/Jean-Paul_Sartre"
+          ],
+          "link_from_previous": {
+            "type": "documented reading",
+            "evidence": "PROPOSED edge. Sartre studied Husserl in Berlin in 1933–34 and drew on Heidegger in Being and Nothingness (1943) (Jean-Paul Sartre).",
+            "evidence_url": "https://en.wikipedia.org/wiki/Jean-Paul_Sartre"
+          }
+        }
+      ],
+      "kind": "genealogy"
+    }
+  ],
+  "proposed_additions": [
+    {
+      "kind": "idea",
+      "id": "brentano_intentionality",
+      "name": "Brentano's descriptive psychology (intentionality)",
+      "year": 1874,
+      "place": "Vienna, Austria-Hungary",
+      "parents": [
+        "aristotelian_teleology"
+      ],
+      "caption": "Franz Brentano wrote his 1862 dissertation on the several senses of being in Aristotle, then in Psychology from an Empirical Standpoint (1874) revived the scholastic-Aristotelian notion that every mental act is directed at an object. He called that directedness intentional inexistence. His Vienna lecture hall trained a generation, Edmund Husserl among them.",
+      "source": "https://en.wikipedia.org/wiki/Franz_Brentano",
+      "sources": [
+        "https://grokipedia.com/page/Franz_Brentano",
+        "https://en.wikipedia.org/wiki/Franz_Brentano"
+      ]
+    },
+    {
+      "kind": "edge",
+      "from": "brentano_intentionality",
+      "to": "phenomenology",
+      "caption": "Husserl attended Brentano's lectures in Vienna from 1884 to 1886 and credited him with turning him to philosophy; intentionality became the core of the Logical Investigations (1900–01).",
+      "source": "https://en.wikipedia.org/wiki/Edmund_Husserl",
+      "sources": [
+        "https://grokipedia.com/page/Edmund_Husserl",
+        "https://en.wikipedia.org/wiki/Edmund_Husserl"
+      ]
+    },
+    {
+      "kind": "edge",
+      "from": "existential_phenomenology",
+      "to": "existentialism",
+      "caption": "Sartre studied Husserl in Berlin in 1933–34 and read Being and Time; Being and Nothingness (1943) builds directly on Heidegger's analysis of existence.",
+      "source": "https://en.wikipedia.org/wiki/Jean-Paul_Sartre",
+      "sources": [
+        "https://grokipedia.com/page/Jean-Paul_Sartre",
+        "https://en.wikipedia.org/wiki/Jean-Paul_Sartre"
+      ]
+    },
+    {
+      "kind": "idea",
+      "id": "holiness_movement",
+      "name": "Holiness movement",
+      "year": 1867,
+      "place": "Vineland, New Jersey, USA",
+      "parents": [
+        "methodism"
+      ],
+      "caption": "Methodists who held to John Wesley's teaching of entire sanctification, a second work of grace after conversion, organized the National Camp Meeting Association in 1867. The movement spread through camp meetings and later broke into independent Holiness churches. Its preachers supplied the vocabulary of a 'second blessing' that Pentecostals would rename.",
+      "source": "https://en.wikipedia.org/wiki/Holiness_movement",
+      "sources": [
+        "https://grokipedia.com/page/Holiness_movement",
+        "https://en.wikipedia.org/wiki/Holiness_movement"
+      ]
+    },
+    {
+      "kind": "edge",
+      "from": "holiness_movement",
+      "to": "pentecostalism",
+      "caption": "Charles Fox Parham, a Holiness preacher and former Methodist supply pastor, taught tongues as evidence of Spirit baptism; William J. Seymour sat in his Houston Bible school in 1905, then led the Azusa Street revival from 1906.",
+      "source": "https://en.wikipedia.org/wiki/William_J._Seymour",
+      "sources": [
+        "https://grokipedia.com/page/William_J._Seymour",
+        "https://en.wikipedia.org/wiki/William_J._Seymour"
+      ]
+    },
+    {
+      "kind": "edge",
+      "from": "leninism",
+      "to": "trotskyism",
+      "caption": "Trotsky joined the Bolsheviks in 1917 and led the Red Army; his Left Opposition of 1923 claimed to defend Leninism against the party apparatus. The live data lists only marxism as parent.",
+      "source": "https://en.wikipedia.org/wiki/Left_Opposition",
+      "sources": [
+        "https://grokipedia.com/page/Left_Opposition",
+        "https://en.wikipedia.org/wiki/Left_Opposition"
+      ]
+    }
+  ],
+  "dropped": [
+    {
+      "id": "humanists-to-odin",
+      "reason": "No documented carrier chain: renaissance_humanism→social_contract→liberalism→romanticism→heathenry is resemblance, not handoff. Heathenry's real roots (Icelandic Ásatrú 1972 reading the Eddas) don't run through these stops."
+    },
+    {
+      "id": "reason-to-acceleration",
+      "reason": "Romanticism→Nietzsche→postmodernism→accelerationism is a loose affinity chain; the documented line (Deleuze/Guattari→Land→e/acc) needs ideas not in the data. Replaced by aristotle-to-sartre."
+    },
+    {
+      "id": "forms-to-the-comintern (opening)",
+      "reason": "Plato→Plotinus→Hegel jumped 600 and 1,500 years without carriers. Rebuilt from Kant as kant-to-the-cpusa."
+    }
+  ]
+}
