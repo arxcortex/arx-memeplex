@@ -11306,7 +11306,7 @@
    "christianity": "Its core texts attack theism, Christianity foremost (The God Delusion, God Is Not Great).",
    "gnosticism": "No real link to Gnosticism.",
    "hermeticism": "No real link to Hermeticism.",
-   "enlightenment_liberalism": "Hitchens calls for 'a renewed Enlightenment' (Wikipedia, Christopher Hitchens); frames itself as defending Enlightenment values.",
+   "enlightenment_liberalism": "Hitchens was 'lauded for resurrecting Enlightenment rationalism' (Grokipedia, Christopher Hitchens).",
    "marxism": "No real link to Marxism.",
    "darwinism": "Dawkins rebuts design by natural selection (Grokipedia, The God Delusion).",
    "nietzsche": "Sources show no debt to Nietzsche; judgment.",
@@ -11326,8 +11326,7 @@
    "https://grokipedia.com/page/New_Atheism",
    "https://en.wikipedia.org/wiki/New_Atheism",
    "https://grokipedia.com/page/The_God_Delusion",
-   "https://en.wikipedia.org/wiki/The_God_Delusion",
-   "https://en.wikipedia.org/wiki/Christopher_Hitchens"
+   "https://grokipedia.com/page/Christopher_Hitchens"
   ],
   "domain": [
    "religion",
@@ -11342,8 +11341,8 @@
    },
    "enlightenment_liberalism": {
     "status": "contested",
-    "type": "self-conscious invocation (Hitchens's call for a renewed Enlightenment, God Is Not Great, 2007)",
-    "src": "https://en.wikipedia.org/wiki/Christopher_Hitchens",
+    "type": "self-conscious invocation (Hitchens credited with reviving Enlightenment rationalism)",
+    "src": "https://grokipedia.com/page/Christopher_Hitchens",
     "note": "low-moderate: the sources tie it to Hitchens; 'Enlightenment' maps to enlightenment_liberalism by name, not by an explicit 'liberalism' statement"
    }
   },
