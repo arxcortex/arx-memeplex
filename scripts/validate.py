@@ -38,6 +38,20 @@ for d in ideas:
   if "wikipedia.org" in str(d.get("origin_src","")) or any("wikipedia.org" in u for u in d["sources"]): E.append(f"{i}: Wikipedia source; use Grokipedia")
   for u in [d.get("origin_src") or ""]+d["sources"]:
     if u and not u.startswith(("https://grokipedia.com/page/","https://plato.stanford.edu/","https://iep.utm.edu/")): W.append(f"{i}: non-Grokipedia source {u}")
+  ti=d.get("thrives_in")
+  if not isinstance(ti,dict) or not isinstance(ti.get("historical"),bool) or not isinstance(ti.get("places"),list): E.append(f"{i}: thrives_in needs historical (bool) and places (list)")
+  else:
+    pl=ti["places"]
+    if len(pl)>4: E.append(f"{i}: thrives_in has more than 4 places")
+    if not pl and ti.get("uncertain") is not True: E.append(f"{i}: thrives_in empty but not marked uncertain")
+    if pl and ti.get("uncertain"): E.append(f"{i}: thrives_in marked uncertain but has places")
+    if not pl: W.append(f"{i}: thrives_in uncertain (no sourced place)")
+    for x in pl:
+      if not isinstance(x.get("place"),str) or not x["place"].strip() or len(x["place"])>60: E.append(f"{i}: thrives_in place missing or >60")
+      if "period" in x and (not isinstance(x["period"],str) or not x["period"].strip()): E.append(f"{i}: thrives_in period empty")
+      if not str(x.get("src","")).startswith("https://grokipedia.com/page/") and not str(x.get("src","")).startswith(("https://plato.stanford.edu/","https://www.pewresearch.org/","https://www.wikidata.org/")): E.append(f"{i}: thrives_in src must be Grokipedia/SEP/Pew/Wikidata")
+      if not x.get("note") or len(x["note"])>160: E.append(f"{i}: thrives_in note missing or >160")
+    if len({x.get("place") for x in pl})!=len(pl): E.append(f"{i}: thrives_in duplicate place")
   if not isinstance(d.get("root"),bool): E.append(f"{i}: root not bool")
   if d["root"]:
     ax=d.get("root_axis")

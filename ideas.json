@@ -70,7 +70,22 @@
   ],
   "domain": [
    "philosophy"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Academic philosophy worldwide",
+     "src": "https://grokipedia.com/page/Platonic_Academy",
+     "note": "Named in the Grokipedia article “Platonic Academy”."
+    },
+    {
+     "place": "Western Europe",
+     "src": "https://grokipedia.com/page/Platonic_Academy",
+     "note": "Named in the Grokipedia article “Platonic Academy”."
+    }
+   ]
+  }
  },
  {
   "id": "aristotelian_teleology",
@@ -147,7 +162,17 @@
   ],
   "domain": [
    "philosophy"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Catholic universities and seminaries",
+     "src": "https://grokipedia.com/page/Lyceum_(classical)",
+     "note": "Named in the Grokipedia article “Lyceum (classical)”."
+    }
+   ]
+  }
  },
  {
   "id": "stoic_logos",
@@ -223,7 +248,23 @@
   ],
   "domain": [
    "philosophy"
-  ]
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Rome",
+     "period": "Roman Empire",
+     "src": "https://grokipedia.com/page/Stoicism",
+     "note": "Named in the Grokipedia article “Stoicism”."
+    },
+    {
+     "place": "Athens",
+     "src": "https://grokipedia.com/page/Stoicism",
+     "note": "Named in the Grokipedia article “Stoicism”."
+    }
+   ]
+  }
  },
  {
   "id": "epicureanism",
@@ -295,7 +336,28 @@
   ],
   "domain": [
    "philosophy"
-  ]
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Rome",
+     "period": "Roman Republic and Empire",
+     "src": "https://grokipedia.com/page/Epicureanism",
+     "note": "Named in the Grokipedia article “Epicureanism”."
+    },
+    {
+     "place": "Herculaneum",
+     "src": "https://grokipedia.com/page/Epicureanism",
+     "note": "Named in the Grokipedia article “Epicureanism”."
+    },
+    {
+     "place": "Athens",
+     "src": "https://grokipedia.com/page/Epicureanism",
+     "note": "Named in the Grokipedia article “Epicureanism”."
+    }
+   ]
+  }
  },
  {
   "id": "neoplatonism",
@@ -373,7 +435,27 @@
   "domain": [
    "philosophy",
    "religion"
-  ]
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Alexandria",
+     "src": "https://grokipedia.com/page/Neoplatonism",
+     "note": "Named in the Grokipedia article “Neoplatonism”."
+    },
+    {
+     "place": "Athens",
+     "src": "https://grokipedia.com/page/Neoplatonism",
+     "note": "Named in the Grokipedia article “Neoplatonism”."
+    },
+    {
+     "place": "Rome",
+     "src": "https://grokipedia.com/page/Neoplatonism",
+     "note": "Named in the Grokipedia article “Neoplatonism”."
+    }
+   ]
+  }
  },
  {
   "id": "gnostic_dualism",
@@ -446,7 +528,27 @@
   ],
   "domain": [
    "religion"
-  ]
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Egypt",
+     "src": "https://grokipedia.com/page/Gnosticism",
+     "note": "Named in the Grokipedia article “Gnosticism”."
+    },
+    {
+     "place": "Rome",
+     "src": "https://grokipedia.com/page/Gnosticism",
+     "note": "Named in the Grokipedia article “Gnosticism”."
+    },
+    {
+     "place": "Syria",
+     "src": "https://grokipedia.com/page/Gnosticism",
+     "note": "Named in the Grokipedia article “Gnosticism”."
+    }
+   ]
+  }
  },
  {
   "id": "hermetic_correspondence",
@@ -519,7 +621,22 @@
   ],
   "domain": [
    "religion"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Renaissance Florence",
+     "src": "https://grokipedia.com/page/Hermeticism",
+     "note": "Named in the Grokipedia article “Hermeticism”."
+    },
+    {
+     "place": "Western Europe",
+     "src": "https://grokipedia.com/page/Hermeticism",
+     "note": "Named in the Grokipedia article “Hermeticism”."
+    }
+   ]
+  }
  },
  {
   "id": "augustinian_grace",
@@ -592,7 +709,12 @@
   ],
   "domain": [
    "religion"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [],
+   "uncertain": true
+  }
  },
  {
   "id": "thomism",
@@ -674,7 +796,32 @@
   ],
   "domain": [
    "religion"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Catholic universities",
+     "src": "https://grokipedia.com/page/Thomism",
+     "note": "Named in the Grokipedia article “Thomism”."
+    },
+    {
+     "place": "Italy",
+     "src": "https://grokipedia.com/page/Thomism",
+     "note": "Named in the Grokipedia article “Thomism”."
+    },
+    {
+     "place": "France",
+     "src": "https://grokipedia.com/page/Thomism",
+     "note": "Named in the Grokipedia article “Thomism”."
+    },
+    {
+     "place": "United States",
+     "src": "https://grokipedia.com/page/Thomism",
+     "note": "Named in the Grokipedia article “Thomism”."
+    }
+   ]
+  }
  },
  {
   "id": "renaissance_humanism",
@@ -750,7 +897,27 @@
   ],
   "domain": [
    "philosophy"
-  ]
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Italy",
+     "src": "https://grokipedia.com/page/Renaissance_humanism",
+     "note": "Named in the Grokipedia article “Renaissance humanism”."
+    },
+    {
+     "place": "Florence",
+     "src": "https://grokipedia.com/page/Renaissance_humanism",
+     "note": "Named in the Grokipedia article “Renaissance humanism”."
+    },
+    {
+     "place": "Northern Europe",
+     "src": "https://grokipedia.com/page/Renaissance_humanism",
+     "note": "Named in the Grokipedia article “Renaissance humanism”."
+    }
+   ]
+  }
  },
  {
   "id": "cartesian_dualism",
@@ -824,7 +991,22 @@
   ],
   "domain": [
    "philosophy"
-  ]
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "France",
+     "src": "https://grokipedia.com/page/Cartesianism",
+     "note": "Named in the Grokipedia article “Cartesianism”."
+    },
+    {
+     "place": "Dutch Republic",
+     "src": "https://grokipedia.com/page/Cartesianism",
+     "note": "Named in the Grokipedia article “Cartesianism”."
+    }
+   ]
+  }
  },
  {
   "id": "social_contract",
@@ -910,6 +1092,21 @@
     "src": "https://grokipedia.com/page/Jean_Bodin",
     "note": "Bodin's undivided sovereignty influenced later absolutists such as Hobbes."
    }
+  },
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "United States",
+     "src": "https://grokipedia.com/page/Social_contract",
+     "note": "Named in the Grokipedia article “Social contract”."
+    },
+    {
+     "place": "Western Europe",
+     "src": "https://grokipedia.com/page/Social_contract",
+     "note": "Named in the Grokipedia article “Social contract”."
+    }
+   ]
   }
  },
  {
@@ -986,7 +1183,27 @@
   ],
   "domain": [
    "politics"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "United States",
+     "src": "https://grokipedia.com/page/Liberalism",
+     "note": "Named in the Grokipedia article “Liberalism”."
+    },
+    {
+     "place": "United Kingdom",
+     "src": "https://grokipedia.com/page/Liberalism",
+     "note": "Named in the Grokipedia article “Liberalism”."
+    },
+    {
+     "place": "Western Europe",
+     "src": "https://grokipedia.com/page/Liberalism",
+     "note": "Named in the Grokipedia article “Liberalism”."
+    }
+   ]
+  }
  },
  {
   "id": "romanticism",
@@ -1070,6 +1287,26 @@
     "src": "https://grokipedia.com/page/Novalis",
     "note": "Novalis studied the works of Jakob Böhme under Tieck's influence."
    }
+  },
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Germany",
+     "src": "https://grokipedia.com/page/Romanticism",
+     "note": "Named in the Grokipedia article “Romanticism”."
+    },
+    {
+     "place": "England",
+     "src": "https://grokipedia.com/page/Romanticism",
+     "note": "Named in the Grokipedia article “Romanticism”."
+    },
+    {
+     "place": "France",
+     "src": "https://grokipedia.com/page/Romanticism",
+     "note": "Named in the Grokipedia article “Romanticism”."
+    }
+   ]
   }
  },
  {
@@ -1157,6 +1394,21 @@
     "src": "https://grokipedia.com/page/Pantheism_controversy",
     "note": "The pantheism controversy of 1785 revived Spinoza; Hegel's biography records his attention to it."
    }
+  },
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Germany",
+     "src": "https://grokipedia.com/page/Georg_Wilhelm_Friedrich_Hegel",
+     "note": "Named in the Grokipedia article “Georg Wilhelm Friedrich Hegel”."
+    },
+    {
+     "place": "Academic philosophy worldwide",
+     "src": "https://grokipedia.com/page/Georg_Wilhelm_Friedrich_Hegel",
+     "note": "Named in the Grokipedia article “Georg Wilhelm Friedrich Hegel”."
+    }
+   ]
   }
  },
  {
@@ -1238,7 +1490,32 @@
   "domain": [
    "politics",
    "philosophy"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "China",
+     "src": "https://grokipedia.com/page/Marxism",
+     "note": "Named in the Grokipedia article “Marxism”."
+    },
+    {
+     "place": "Vietnam",
+     "src": "https://grokipedia.com/page/Marxism",
+     "note": "Named in the Grokipedia article “Marxism”."
+    },
+    {
+     "place": "Cuba",
+     "src": "https://grokipedia.com/page/Marxism",
+     "note": "Named in the Grokipedia article “Marxism”."
+    },
+    {
+     "place": "Western universities",
+     "src": "https://grokipedia.com/page/Marxism",
+     "note": "Named in the Grokipedia article “Marxism”."
+    }
+   ]
+  }
  },
  {
   "id": "darwinian_selection",
@@ -1313,7 +1590,27 @@
   ],
   "domain": [
    "philosophy"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Science worldwide",
+     "src": "https://grokipedia.com/page/Natural_selection",
+     "note": "Named in the Grokipedia article “Natural selection”."
+    },
+    {
+     "place": "United Kingdom",
+     "src": "https://grokipedia.com/page/Natural_selection",
+     "note": "Named in the Grokipedia article “Natural selection”."
+    },
+    {
+     "place": "United States",
+     "src": "https://grokipedia.com/page/Natural_selection",
+     "note": "Named in the Grokipedia article “Natural selection”."
+    }
+   ]
+  }
  },
  {
   "id": "will_to_power",
@@ -1387,7 +1684,12 @@
   ],
   "domain": [
    "philosophy"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [],
+   "uncertain": true
+  }
  },
  {
   "id": "existentialism",
@@ -1467,7 +1769,27 @@
   ],
   "domain": [
    "philosophy"
-  ]
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "France",
+     "src": "https://grokipedia.com/page/Existentialism",
+     "note": "Named in the Grokipedia article “Existentialism”."
+    },
+    {
+     "place": "Paris",
+     "src": "https://grokipedia.com/page/Existentialism",
+     "note": "Named in the Grokipedia article “Existentialism”."
+    },
+    {
+     "place": "Germany",
+     "src": "https://grokipedia.com/page/Existentialism",
+     "note": "Named in the Grokipedia article “Existentialism”."
+    }
+   ]
+  }
  },
  {
   "id": "frankfurt_school",
@@ -1543,7 +1865,27 @@
   "domain": [
    "philosophy",
    "politics"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Germany",
+     "src": "https://grokipedia.com/page/Frankfurt_School",
+     "note": "Named in the Grokipedia article “Frankfurt School”."
+    },
+    {
+     "place": "United States",
+     "src": "https://grokipedia.com/page/Frankfurt_School",
+     "note": "Named in the Grokipedia article “Frankfurt School”."
+    },
+    {
+     "place": "Western universities",
+     "src": "https://grokipedia.com/page/Frankfurt_School",
+     "note": "Named in the Grokipedia article “Frankfurt School”."
+    }
+   ]
+  }
  },
  {
   "id": "postmodernism",
@@ -1621,7 +1963,27 @@
   ],
   "domain": [
    "philosophy"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "United States",
+     "src": "https://grokipedia.com/page/Postmodernism",
+     "note": "Named in the Grokipedia article “Postmodernism”."
+    },
+    {
+     "place": "France",
+     "src": "https://grokipedia.com/page/Postmodernism",
+     "note": "Named in the Grokipedia article “Postmodernism”."
+    },
+    {
+     "place": "Western universities",
+     "src": "https://grokipedia.com/page/Postmodernism",
+     "note": "Named in the Grokipedia article “Postmodernism”."
+    }
+   ]
+  }
  },
  {
   "id": "neoliberalism",
@@ -1696,7 +2058,27 @@
   ],
   "domain": [
    "politics"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "United States",
+     "src": "https://grokipedia.com/page/Neoliberalism",
+     "note": "Named in the Grokipedia article “Neoliberalism”."
+    },
+    {
+     "place": "United Kingdom",
+     "src": "https://grokipedia.com/page/Neoliberalism",
+     "note": "Named in the Grokipedia article “Neoliberalism”."
+    },
+    {
+     "place": "Chile",
+     "src": "https://grokipedia.com/page/Neoliberalism",
+     "note": "Named in the Grokipedia article “Neoliberalism”."
+    }
+   ]
+  }
  },
  {
   "id": "neoreaction",
@@ -1773,7 +2155,27 @@
   "domain": [
    "politics",
    "culture"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "United States",
+     "src": "https://grokipedia.com/page/Dark_Enlightenment",
+     "note": "Named in the Grokipedia article “Dark Enlightenment”."
+    },
+    {
+     "place": "Silicon Valley",
+     "src": "https://grokipedia.com/page/Dark_Enlightenment",
+     "note": "Named in the Grokipedia article “Dark Enlightenment”."
+    },
+    {
+     "place": "Online",
+     "src": "https://grokipedia.com/page/Dark_Enlightenment",
+     "note": "Named in the Grokipedia article “Dark Enlightenment”."
+    }
+   ]
+  }
  },
  {
   "id": "effective_altruism",
@@ -1851,7 +2253,27 @@
   "domain": [
    "philosophy",
    "culture"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Oxford",
+     "src": "https://grokipedia.com/page/Effective_altruism",
+     "note": "Named in the Grokipedia article “Effective altruism”."
+    },
+    {
+     "place": "San Francisco Bay Area",
+     "src": "https://grokipedia.com/page/Effective_altruism",
+     "note": "Named in the Grokipedia article “Effective altruism”."
+    },
+    {
+     "place": "United Kingdom",
+     "src": "https://grokipedia.com/page/Effective_altruism",
+     "note": "Named in the Grokipedia article “Effective altruism”."
+    }
+   ]
+  }
  },
  {
   "id": "accelerationism",
@@ -1931,7 +2353,27 @@
   "domain": [
    "philosophy",
    "politics"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "United Kingdom",
+     "src": "https://grokipedia.com/page/Accelerationism",
+     "note": "Named in the Grokipedia article “Accelerationism”."
+    },
+    {
+     "place": "United States",
+     "src": "https://grokipedia.com/page/Accelerationism",
+     "note": "Named in the Grokipedia article “Accelerationism”."
+    },
+    {
+     "place": "Online",
+     "src": "https://grokipedia.com/page/Accelerationism",
+     "note": "Named in the Grokipedia article “Accelerationism”."
+    }
+   ]
+  }
  },
  {
   "id": "post_irony",
@@ -2003,7 +2445,22 @@
   ],
   "domain": [
    "culture"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "United States",
+     "src": "https://grokipedia.com/page/Post-irony",
+     "note": "Named in the Grokipedia article “Post-irony”."
+    },
+    {
+     "place": "Online",
+     "src": "https://grokipedia.com/page/Post-irony",
+     "note": "Named in the Grokipedia article “Post-irony”."
+    }
+   ]
+  }
  },
  {
   "id": "meme_theory",
@@ -2077,7 +2534,22 @@
   "domain": [
    "philosophy",
    "culture"
-  ]
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "United Kingdom",
+     "src": "https://grokipedia.com/page/Memetics",
+     "note": "Named in the Grokipedia article “Memetics”."
+    },
+    {
+     "place": "United States",
+     "src": "https://grokipedia.com/page/Memetics",
+     "note": "Named in the Grokipedia article “Memetics”."
+    }
+   ]
+  }
  },
  {
   "id": "internet_meme_culture",
@@ -2150,7 +2622,22 @@
   ],
   "domain": [
    "culture"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Online",
+     "src": "https://grokipedia.com/page/Internet_meme",
+     "note": "Named in the Grokipedia article “Internet meme”."
+    },
+    {
+     "place": "United States",
+     "src": "https://grokipedia.com/page/Internet_meme",
+     "note": "Named in the Grokipedia article “Internet meme”."
+    }
+   ]
+  }
  },
  {
   "id": "calvinism",
@@ -2224,7 +2711,22 @@
   ],
   "domain": [
    "religion"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Netherlands",
+     "src": "https://grokipedia.com/page/Calvinism",
+     "note": "Named in the Grokipedia article “Calvinism”."
+    },
+    {
+     "place": "Scotland",
+     "src": "https://grokipedia.com/page/Calvinism",
+     "note": "Named in the Grokipedia article “Calvinism”."
+    }
+   ]
+  }
  },
  {
   "id": "positivism",
@@ -2297,7 +2799,12 @@
   ],
   "domain": [
    "philosophy"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [],
+   "uncertain": true
+  }
  },
  {
   "id": "traditionalism",
@@ -2379,7 +2886,22 @@
   "domain": [
    "religion",
    "philosophy"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "France",
+     "src": "https://grokipedia.com/page/Traditionalism_(perennialism)",
+     "note": "Named in the Grokipedia article “Traditionalism (perennialism)”."
+    },
+    {
+     "place": "Russia",
+     "src": "https://grokipedia.com/page/Traditionalism_(perennialism)",
+     "note": "Named in the Grokipedia article “Traditionalism (perennialism)”."
+    }
+   ]
+  }
  },
  {
   "id": "christianity",
@@ -2451,7 +2973,32 @@
   ],
   "domain": [
    "religion"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "United States",
+     "src": "https://grokipedia.com/page/Christianity_by_country",
+     "note": "Named in the Grokipedia article “Christianity by country”."
+    },
+    {
+     "place": "Brazil",
+     "src": "https://grokipedia.com/page/Christianity_by_country",
+     "note": "Named in the Grokipedia article “Christianity by country”."
+    },
+    {
+     "place": "Mexico",
+     "src": "https://grokipedia.com/page/Christianity_by_country",
+     "note": "Named in the Grokipedia article “Christianity by country”."
+    },
+    {
+     "place": "Sub-Saharan Africa",
+     "src": "https://grokipedia.com/page/Christianity_by_country",
+     "note": "Named in the Grokipedia article “Christianity by country”."
+    }
+   ]
+  }
  },
  {
   "id": "social_darwinism",
@@ -2525,7 +3072,27 @@
   ],
   "domain": [
    "politics"
-  ]
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "United States",
+     "src": "https://grokipedia.com/page/Social_Darwinism",
+     "note": "Named in the Grokipedia article “Social Darwinism”."
+    },
+    {
+     "place": "United Kingdom",
+     "src": "https://grokipedia.com/page/Social_Darwinism",
+     "note": "Named in the Grokipedia article “Social Darwinism”."
+    },
+    {
+     "place": "Germany",
+     "src": "https://grokipedia.com/page/Social_Darwinism",
+     "note": "Named in the Grokipedia article “Social Darwinism”."
+    }
+   ]
+  }
  },
  {
   "id": "apostolic_christianity",
@@ -2607,7 +3174,27 @@
   "aliases": [
    "early church",
    "undivided church"
-  ]
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Roman Empire",
+     "src": "https://grokipedia.com/page/Christianity",
+     "note": "Named in the Grokipedia article “Christianity”."
+    },
+    {
+     "place": "Constantinople",
+     "src": "https://grokipedia.com/page/Christianity",
+     "note": "Named in the Grokipedia article “Christianity”."
+    },
+    {
+     "place": "Rome",
+     "src": "https://grokipedia.com/page/Christianity",
+     "note": "Named in the Grokipedia article “Christianity”."
+    }
+   ]
+  }
  },
  {
   "id": "oriental_orthodoxy",
@@ -2684,7 +3271,32 @@
   ],
   "aliases": [
    "non-Chalcedonian churches"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Ethiopia",
+     "src": "https://grokipedia.com/page/Oriental_Orthodox_Churches",
+     "note": "Named in the Grokipedia article “Oriental Orthodox Churches”."
+    },
+    {
+     "place": "Egypt",
+     "src": "https://grokipedia.com/page/Oriental_Orthodox_Churches",
+     "note": "Named in the Grokipedia article “Oriental Orthodox Churches”."
+    },
+    {
+     "place": "Armenia",
+     "src": "https://grokipedia.com/page/Oriental_Orthodox_Churches",
+     "note": "Named in the Grokipedia article “Oriental Orthodox Churches”."
+    },
+    {
+     "place": "India",
+     "src": "https://grokipedia.com/page/Oriental_Orthodox_Churches",
+     "note": "Named in the Grokipedia article “Oriental Orthodox Churches”."
+    }
+   ]
+  }
  },
  {
   "id": "church_of_the_east",
@@ -2758,7 +3370,32 @@
   ],
   "domain": [
    "religion"
-  ]
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Persia",
+     "src": "https://grokipedia.com/page/Church_of_the_East",
+     "note": "Named in the Grokipedia article “Church of the East”."
+    },
+    {
+     "place": "Iraq",
+     "src": "https://grokipedia.com/page/Church_of_the_East",
+     "note": "Named in the Grokipedia article “Church of the East”."
+    },
+    {
+     "place": "Central Asia",
+     "src": "https://grokipedia.com/page/Church_of_the_East",
+     "note": "Named in the Grokipedia article “Church of the East”."
+    },
+    {
+     "place": "China",
+     "src": "https://grokipedia.com/page/Church_of_the_East",
+     "note": "Named in the Grokipedia article “Church of the East”."
+    }
+   ]
+  }
  },
  {
   "id": "eastern_orthodoxy",
@@ -2834,7 +3471,32 @@
   ],
   "domain": [
    "religion"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Russia",
+     "src": "https://grokipedia.com/page/Eastern_Orthodox_Church",
+     "note": "Named in the Grokipedia article “Eastern Orthodox Church”."
+    },
+    {
+     "place": "Ukraine",
+     "src": "https://grokipedia.com/page/Eastern_Orthodox_Church",
+     "note": "Named in the Grokipedia article “Eastern Orthodox Church”."
+    },
+    {
+     "place": "Romania",
+     "src": "https://grokipedia.com/page/Eastern_Orthodox_Church",
+     "note": "Named in the Grokipedia article “Eastern Orthodox Church”."
+    },
+    {
+     "place": "Greece",
+     "src": "https://grokipedia.com/page/Eastern_Orthodox_Church",
+     "note": "Named in the Grokipedia article “Eastern Orthodox Church”."
+    }
+   ]
+  }
  },
  {
   "id": "roman_catholicism",
@@ -2913,7 +3575,32 @@
   ],
   "domain": [
    "religion"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Brazil",
+     "src": "https://grokipedia.com/page/Catholic_Church_by_country",
+     "note": "Named in the Grokipedia article “Catholic Church by country”."
+    },
+    {
+     "place": "Mexico",
+     "src": "https://grokipedia.com/page/Catholic_Church_by_country",
+     "note": "Named in the Grokipedia article “Catholic Church by country”."
+    },
+    {
+     "place": "Philippines",
+     "src": "https://grokipedia.com/page/Catholic_Church_by_country",
+     "note": "Named in the Grokipedia article “Catholic Church by country”."
+    },
+    {
+     "place": "United States",
+     "src": "https://grokipedia.com/page/Catholic_Church_by_country",
+     "note": "Named in the Grokipedia article “Catholic Church by country”."
+    }
+   ]
+  }
  },
  {
   "id": "protestantism",
@@ -3003,6 +3690,26 @@
     "src": "https://grokipedia.com/page/Erasmus",
     "note": "Erasmus's Greek New Testament (1516) influenced Luther, Melanchthon, Zwingli and Calvin."
    }
+  },
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "United States",
+     "src": "https://grokipedia.com/page/Protestantism",
+     "note": "Named in the Grokipedia article “Protestantism”."
+    },
+    {
+     "place": "Brazil",
+     "src": "https://grokipedia.com/page/Protestantism",
+     "note": "Named in the Grokipedia article “Protestantism”."
+    },
+    {
+     "place": "Germany",
+     "src": "https://grokipedia.com/page/Protestantism",
+     "note": "Named in the Grokipedia article “Protestantism”."
+    }
+   ]
   }
  },
  {
@@ -3079,7 +3786,32 @@
   ],
   "domain": [
    "religion"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Nigeria",
+     "src": "https://grokipedia.com/page/Anglican_Communion",
+     "note": "Named in the Grokipedia article “Anglican Communion”."
+    },
+    {
+     "place": "England",
+     "src": "https://grokipedia.com/page/Anglican_Communion",
+     "note": "Named in the Grokipedia article “Anglican Communion”."
+    },
+    {
+     "place": "Uganda",
+     "src": "https://grokipedia.com/page/Anglican_Communion",
+     "note": "Named in the Grokipedia article “Anglican Communion”."
+    },
+    {
+     "place": "Kenya",
+     "src": "https://grokipedia.com/page/Anglican_Communion",
+     "note": "Named in the Grokipedia article “Anglican Communion”."
+    }
+   ]
+  }
  },
  {
   "id": "anabaptism",
@@ -3155,7 +3887,17 @@
   ],
   "domain": [
    "religion"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "United States",
+     "src": "https://grokipedia.com/page/Anabaptism",
+     "note": "Named in the Grokipedia article “Anabaptism”."
+    }
+   ]
+  }
  },
  {
   "id": "methodism",
@@ -3234,7 +3976,27 @@
   ],
   "domain": [
    "religion"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "United States",
+     "src": "https://grokipedia.com/page/Methodism",
+     "note": "Named in the Grokipedia article “Methodism”."
+    },
+    {
+     "place": "United Kingdom",
+     "src": "https://grokipedia.com/page/Methodism",
+     "note": "Named in the Grokipedia article “Methodism”."
+    },
+    {
+     "place": "Africa",
+     "src": "https://grokipedia.com/page/Methodism",
+     "note": "Named in the Grokipedia article “Methodism”."
+    }
+   ]
+  }
  },
  {
   "id": "pentecostalism",
@@ -3312,7 +4074,32 @@
   ],
   "domain": [
    "religion"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Brazil",
+     "src": "https://grokipedia.com/page/Pentecostalism",
+     "note": "Named in the Grokipedia article “Pentecostalism”."
+    },
+    {
+     "place": "Nigeria",
+     "src": "https://grokipedia.com/page/Pentecostalism",
+     "note": "Named in the Grokipedia article “Pentecostalism”."
+    },
+    {
+     "place": "United States",
+     "src": "https://grokipedia.com/page/Pentecostalism",
+     "note": "Named in the Grokipedia article “Pentecostalism”."
+    },
+    {
+     "place": "South Korea",
+     "src": "https://grokipedia.com/page/Pentecostalism",
+     "note": "Named in the Grokipedia article “Pentecostalism”."
+    }
+   ]
+  }
  },
  {
   "id": "tridentine_catholicism",
@@ -3394,7 +4181,22 @@
    "Tridentine",
    "Tridentine Catholicism",
    "Counter-Reformation"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "France",
+     "src": "https://grokipedia.com/page/Traditionalist_Catholicism",
+     "note": "Named in the Grokipedia article “Traditionalist Catholicism”."
+    },
+    {
+     "place": "United States",
+     "src": "https://grokipedia.com/page/Traditionalist_Catholicism",
+     "note": "Named in the Grokipedia article “Traditionalist Catholicism”."
+    }
+   ]
+  }
  },
  {
   "id": "post_vatican_ii_catholicism",
@@ -3473,7 +4275,32 @@
   ],
   "domain": [
    "religion"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Latin America",
+     "src": "https://grokipedia.com/page/Catholic_Church",
+     "note": "Named in the Grokipedia article “Catholic Church”."
+    },
+    {
+     "place": "Africa",
+     "src": "https://grokipedia.com/page/Catholic_Church",
+     "note": "Named in the Grokipedia article “Catholic Church”."
+    },
+    {
+     "place": "Philippines",
+     "src": "https://grokipedia.com/page/Catholic_Church",
+     "note": "Named in the Grokipedia article “Catholic Church”."
+    },
+    {
+     "place": "United States",
+     "src": "https://grokipedia.com/page/Catholic_Church",
+     "note": "Named in the Grokipedia article “Catholic Church”."
+    }
+   ]
+  }
  },
  {
   "id": "liberal_protestantism",
@@ -3548,7 +4375,22 @@
   ],
   "domain": [
    "religion"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "United States",
+     "src": "https://grokipedia.com/page/Liberal_Christianity",
+     "note": "Named in the Grokipedia article “Liberal Christianity”."
+    },
+    {
+     "place": "Germany",
+     "src": "https://grokipedia.com/page/Liberal_Christianity",
+     "note": "Named in the Grokipedia article “Liberal Christianity”."
+    }
+   ]
+  }
  },
  {
   "id": "christian_fundamentalism",
@@ -3626,7 +4468,22 @@
   ],
   "domain": [
    "religion"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "United States",
+     "src": "https://grokipedia.com/page/Christian_fundamentalism",
+     "note": "Named in the Grokipedia article “Christian fundamentalism”."
+    },
+    {
+     "place": "Southern United States",
+     "src": "https://grokipedia.com/page/Christian_fundamentalism",
+     "note": "Named in the Grokipedia article “Christian fundamentalism”."
+    }
+   ]
+  }
  },
  {
   "id": "young_earth_creationism",
@@ -3701,7 +4558,27 @@
   ],
   "domain": [
    "religion"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "United States",
+     "src": "https://grokipedia.com/page/Young_Earth_creationism",
+     "note": "Named in the Grokipedia article “Young Earth creationism”."
+    },
+    {
+     "place": "Australia",
+     "src": "https://grokipedia.com/page/Young_Earth_creationism",
+     "note": "Named in the Grokipedia article “Young Earth creationism”."
+    },
+    {
+     "place": "Kentucky",
+     "src": "https://grokipedia.com/page/Young_Earth_creationism",
+     "note": "Named in the Grokipedia article “Young Earth creationism”."
+    }
+   ]
+  }
  },
  {
   "id": "confucian_ethics",
@@ -3778,7 +4655,32 @@
   "domain": [
    "philosophy",
    "politics"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "China",
+     "src": "https://grokipedia.com/page/Confucianism",
+     "note": "Named in the Grokipedia article “Confucianism”."
+    },
+    {
+     "place": "South Korea",
+     "src": "https://grokipedia.com/page/Confucianism",
+     "note": "Named in the Grokipedia article “Confucianism”."
+    },
+    {
+     "place": "Taiwan",
+     "src": "https://grokipedia.com/page/Confucianism",
+     "note": "Named in the Grokipedia article “Confucianism”."
+    },
+    {
+     "place": "Japan",
+     "src": "https://grokipedia.com/page/Confucianism",
+     "note": "Named in the Grokipedia article “Confucianism”."
+    }
+   ]
+  }
  },
  {
   "id": "daoist_way",
@@ -3857,7 +4759,22 @@
    "Tao Te Ching",
    "Daoism",
    "Taoism"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "China",
+     "src": "https://grokipedia.com/page/Taoism",
+     "note": "Named in the Grokipedia article “Taoism”."
+    },
+    {
+     "place": "Taiwan",
+     "src": "https://grokipedia.com/page/Taoism",
+     "note": "Named in the Grokipedia article “Taoism”."
+    }
+   ]
+  }
  },
  {
   "id": "buddhas_dharma",
@@ -3928,7 +4845,32 @@
   "root_axis": "buddhism",
   "domain": [
    "religion"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "China",
+     "src": "https://grokipedia.com/page/Buddhism_by_country",
+     "note": "Named in the Grokipedia article “Buddhism by country”."
+    },
+    {
+     "place": "Thailand",
+     "src": "https://grokipedia.com/page/Buddhism_by_country",
+     "note": "Named in the Grokipedia article “Buddhism by country”."
+    },
+    {
+     "place": "Japan",
+     "src": "https://grokipedia.com/page/Buddhism_by_country",
+     "note": "Named in the Grokipedia article “Buddhism by country”."
+    },
+    {
+     "place": "Myanmar",
+     "src": "https://grokipedia.com/page/Buddhism_by_country",
+     "note": "Named in the Grokipedia article “Buddhism by country”."
+    }
+   ]
+  }
  },
  {
   "id": "upanishadic_brahman",
@@ -4003,7 +4945,17 @@
   ],
   "aliases": [
    "Upanishads"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "India",
+     "src": "https://grokipedia.com/page/Upanishads",
+     "note": "Named in the Grokipedia article “Upanishads”."
+    }
+   ]
+  }
  },
  {
   "id": "falsafa",
@@ -4082,7 +5034,28 @@
   "domain": [
    "philosophy",
    "religion"
-  ]
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Baghdad",
+     "period": "Abbasid Caliphate",
+     "src": "https://grokipedia.com/page/Early_Islamic_philosophy",
+     "note": "Named in the Grokipedia article “Early Islamic philosophy”."
+    },
+    {
+     "place": "Persia",
+     "src": "https://grokipedia.com/page/Early_Islamic_philosophy",
+     "note": "Named in the Grokipedia article “Early Islamic philosophy”."
+    },
+    {
+     "place": "Al-Andalus",
+     "src": "https://grokipedia.com/page/Early_Islamic_philosophy",
+     "note": "Named in the Grokipedia article “Early Islamic philosophy”."
+    }
+   ]
+  }
  },
  {
   "id": "legalism",
@@ -4156,7 +5129,22 @@
   ],
   "domain": [
    "politics"
-  ]
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Qin",
+     "src": "https://grokipedia.com/page/Legalism_(Chinese_philosophy)",
+     "note": "Named in the Grokipedia article “Legalism (Chinese philosophy)”."
+    },
+    {
+     "place": "China",
+     "src": "https://grokipedia.com/page/Legalism_(Chinese_philosophy)",
+     "note": "Named in the Grokipedia article “Legalism (Chinese philosophy)”."
+    }
+   ]
+  }
  },
  {
   "id": "neo_confucianism",
@@ -4232,7 +5220,29 @@
   "domain": [
    "philosophy",
    "religion"
-  ]
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "China",
+     "period": "Song, Ming and Qing dynasties",
+     "src": "https://grokipedia.com/page/Neo-Confucianism",
+     "note": "Named in the Grokipedia article “Neo-Confucianism”."
+    },
+    {
+     "place": "Korea",
+     "period": "Joseon",
+     "src": "https://grokipedia.com/page/Neo-Confucianism",
+     "note": "Named in the Grokipedia article “Neo-Confucianism”."
+    },
+    {
+     "place": "Japan",
+     "src": "https://grokipedia.com/page/Neo-Confucianism",
+     "note": "Named in the Grokipedia article “Neo-Confucianism”."
+    }
+   ]
+  }
  },
  {
   "id": "theravada",
@@ -4304,7 +5314,32 @@
   ],
   "domain": [
    "religion"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Sri Lanka",
+     "src": "https://grokipedia.com/page/Theravada",
+     "note": "Named in the Grokipedia article “Theravada”."
+    },
+    {
+     "place": "Thailand",
+     "src": "https://grokipedia.com/page/Theravada",
+     "note": "Named in the Grokipedia article “Theravada”."
+    },
+    {
+     "place": "Myanmar",
+     "src": "https://grokipedia.com/page/Theravada",
+     "note": "Named in the Grokipedia article “Theravada”."
+    },
+    {
+     "place": "Cambodia",
+     "src": "https://grokipedia.com/page/Theravada",
+     "note": "Named in the Grokipedia article “Theravada”."
+    }
+   ]
+  }
  },
  {
   "id": "madhyamaka",
@@ -4380,7 +5415,27 @@
   ],
   "aliases": [
    "Mahayana emptiness"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Tibet",
+     "src": "https://grokipedia.com/page/Madhyamaka",
+     "note": "Named in the Grokipedia article “Madhyamaka”."
+    },
+    {
+     "place": "China",
+     "src": "https://grokipedia.com/page/Madhyamaka",
+     "note": "Named in the Grokipedia article “Madhyamaka”."
+    },
+    {
+     "place": "Japan",
+     "src": "https://grokipedia.com/page/Madhyamaka",
+     "note": "Named in the Grokipedia article “Madhyamaka”."
+    }
+   ]
+  }
  },
  {
   "id": "zen",
@@ -4454,7 +5509,32 @@
   ],
   "domain": [
    "religion"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Japan",
+     "src": "https://grokipedia.com/page/Zen",
+     "note": "Named in the Grokipedia article “Zen”."
+    },
+    {
+     "place": "China",
+     "src": "https://grokipedia.com/page/Zen",
+     "note": "Named in the Grokipedia article “Zen”."
+    },
+    {
+     "place": "South Korea",
+     "src": "https://grokipedia.com/page/Zen",
+     "note": "Named in the Grokipedia article “Zen”."
+    },
+    {
+     "place": "Vietnam",
+     "src": "https://grokipedia.com/page/Zen",
+     "note": "Named in the Grokipedia article “Zen”."
+    }
+   ]
+  }
  },
  {
   "id": "advaita_vedanta",
@@ -4526,7 +5606,17 @@
   ],
   "domain": [
    "religion"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "India",
+     "src": "https://grokipedia.com/page/Advaita_Vedanta",
+     "note": "Named in the Grokipedia article “Advaita Vedanta”."
+    }
+   ]
+  }
  },
  {
   "id": "sufism",
@@ -4609,6 +5699,31 @@
     "src": "https://grokipedia.com/page/Sufism",
     "note": "Scholars debate how much Neoplatonism shaped Sufism; shared heritage, not direct adoption."
    }
+  },
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Turkey",
+     "src": "https://grokipedia.com/page/Sufism",
+     "note": "Named in the Grokipedia article “Sufism”."
+    },
+    {
+     "place": "Pakistan",
+     "src": "https://grokipedia.com/page/Sufism",
+     "note": "Named in the Grokipedia article “Sufism”."
+    },
+    {
+     "place": "Senegal",
+     "src": "https://grokipedia.com/page/Sufism",
+     "note": "Named in the Grokipedia article “Sufism”."
+    },
+    {
+     "place": "Egypt",
+     "src": "https://grokipedia.com/page/Sufism",
+     "note": "Named in the Grokipedia article “Sufism”."
+    }
+   ]
   }
  },
  {
@@ -4682,7 +5797,22 @@
   ],
   "domain": [
    "religion"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Egypt",
+     "src": "https://grokipedia.com/page/Ash'arism",
+     "note": "Named in the Grokipedia article “Ash'arism”."
+    },
+    {
+     "place": "North Africa",
+     "src": "https://grokipedia.com/page/Ash'arism",
+     "note": "Named in the Grokipedia article “Ash'arism”."
+    }
+   ]
+  }
  },
  {
   "id": "avicennism",
@@ -4755,7 +5885,22 @@
   "domain": [
    "philosophy",
    "religion"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Iran",
+     "src": "https://grokipedia.com/page/Avicennism",
+     "note": "Named in the Grokipedia article “Avicennism”."
+    },
+    {
+     "place": "Persia",
+     "src": "https://grokipedia.com/page/Avicennism",
+     "note": "Named in the Grokipedia article “Avicennism”."
+    }
+   ]
+  }
  },
  {
   "id": "averroism",
@@ -4831,7 +5976,22 @@
   "domain": [
    "philosophy",
    "religion"
-  ]
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Paris",
+     "src": "https://grokipedia.com/page/Averroism",
+     "note": "Named in the Grokipedia article “Averroism”."
+    },
+    {
+     "place": "Padua",
+     "src": "https://grokipedia.com/page/Averroism",
+     "note": "Named in the Grokipedia article “Averroism”."
+    }
+   ]
+  }
  },
  {
   "id": "burkean_conservatism",
@@ -4906,7 +6066,22 @@
   ],
   "domain": [
    "politics"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "United Kingdom",
+     "src": "https://grokipedia.com/page/Conservatism",
+     "note": "Named in the Grokipedia article “Conservatism”."
+    },
+    {
+     "place": "United States",
+     "src": "https://grokipedia.com/page/Conservatism",
+     "note": "Named in the Grokipedia article “Conservatism”."
+    }
+   ]
+  }
  },
  {
   "id": "utopian_socialism",
@@ -4983,7 +6158,27 @@
   ],
   "domain": [
    "politics"
-  ]
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "France",
+     "src": "https://grokipedia.com/page/Utopian_socialism",
+     "note": "Named in the Grokipedia article “Utopian socialism”."
+    },
+    {
+     "place": "United Kingdom",
+     "src": "https://grokipedia.com/page/Utopian_socialism",
+     "note": "Named in the Grokipedia article “Utopian socialism”."
+    },
+    {
+     "place": "United States",
+     "src": "https://grokipedia.com/page/Utopian_socialism",
+     "note": "Named in the Grokipedia article “Utopian socialism”."
+    }
+   ]
+  }
  },
  {
   "id": "anarchism",
@@ -5061,7 +6256,32 @@
   ],
   "domain": [
    "politics"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Spain",
+     "src": "https://grokipedia.com/page/Anarchism",
+     "note": "Named in the Grokipedia article “Anarchism”."
+    },
+    {
+     "place": "Catalonia",
+     "src": "https://grokipedia.com/page/Anarchism",
+     "note": "Named in the Grokipedia article “Anarchism”."
+    },
+    {
+     "place": "Ukraine",
+     "src": "https://grokipedia.com/page/Anarchism",
+     "note": "Named in the Grokipedia article “Anarchism”."
+    },
+    {
+     "place": "Western Europe",
+     "src": "https://grokipedia.com/page/Anarchism",
+     "note": "Named in the Grokipedia article “Anarchism”."
+    }
+   ]
+  }
  },
  {
   "id": "social_democracy",
@@ -5139,7 +6359,32 @@
   ],
   "domain": [
    "politics"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Sweden",
+     "src": "https://grokipedia.com/page/Social_democracy",
+     "note": "Named in the Grokipedia article “Social democracy”."
+    },
+    {
+     "place": "Norway",
+     "src": "https://grokipedia.com/page/Social_democracy",
+     "note": "Named in the Grokipedia article “Social democracy”."
+    },
+    {
+     "place": "Denmark",
+     "src": "https://grokipedia.com/page/Social_democracy",
+     "note": "Named in the Grokipedia article “Social democracy”."
+    },
+    {
+     "place": "Germany",
+     "src": "https://grokipedia.com/page/Social_democracy",
+     "note": "Named in the Grokipedia article “Social democracy”."
+    }
+   ]
+  }
  },
  {
   "id": "libertarianism",
@@ -5218,7 +6463,22 @@
   ],
   "domain": [
    "politics"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "United States",
+     "src": "https://grokipedia.com/page/Libertarianism",
+     "note": "Named in the Grokipedia article “Libertarianism”."
+    },
+    {
+     "place": "Argentina",
+     "src": "https://grokipedia.com/page/Libertarianism",
+     "note": "Named in the Grokipedia article “Libertarianism”."
+    }
+   ]
+  }
  },
  {
   "id": "nationalism",
@@ -5293,7 +6553,22 @@
   ],
   "domain": [
    "politics"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Worldwide",
+     "src": "https://grokipedia.com/page/Nationalism",
+     "note": "Named in the Grokipedia article “Nationalism”."
+    },
+    {
+     "place": "Europe",
+     "src": "https://grokipedia.com/page/Nationalism",
+     "note": "Named in the Grokipedia article “Nationalism”."
+    }
+   ]
+  }
  },
  {
   "id": "fascism",
@@ -5371,7 +6646,27 @@
   ],
   "domain": [
    "politics"
-  ]
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Italy",
+     "src": "https://grokipedia.com/page/Fascism",
+     "note": "Named in the Grokipedia article “Fascism”."
+    },
+    {
+     "place": "Germany",
+     "src": "https://grokipedia.com/page/Fascism",
+     "note": "Named in the Grokipedia article “Fascism”."
+    },
+    {
+     "place": "Spain",
+     "src": "https://grokipedia.com/page/Fascism",
+     "note": "Named in the Grokipedia article “Fascism”."
+    }
+   ]
+  }
  },
  {
   "id": "catholic_integralism",
@@ -5447,7 +6742,27 @@
   "domain": [
    "politics",
    "religion"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "United States",
+     "src": "https://grokipedia.com/page/Integralism",
+     "note": "Named in the Grokipedia article “Integralism”."
+    },
+    {
+     "place": "France",
+     "src": "https://grokipedia.com/page/Integralism",
+     "note": "Named in the Grokipedia article “Integralism”."
+    },
+    {
+     "place": "Spain",
+     "src": "https://grokipedia.com/page/Integralism",
+     "note": "Named in the Grokipedia article “Integralism”."
+    }
+   ]
+  }
  },
  {
   "id": "communitarianism",
@@ -5526,7 +6841,22 @@
   ],
   "domain": [
    "politics"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "United States",
+     "src": "https://grokipedia.com/page/Communitarianism",
+     "note": "Named in the Grokipedia article “Communitarianism”."
+    },
+    {
+     "place": "United Kingdom",
+     "src": "https://grokipedia.com/page/Communitarianism",
+     "note": "Named in the Grokipedia article “Communitarianism”."
+    }
+   ]
+  }
  },
  {
   "id": "liberation_theology",
@@ -5602,7 +6932,32 @@
   "domain": [
    "religion",
    "politics"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Latin America",
+     "src": "https://grokipedia.com/page/Liberation_theology",
+     "note": "Named in the Grokipedia article “Liberation theology”."
+    },
+    {
+     "place": "Brazil",
+     "src": "https://grokipedia.com/page/Liberation_theology",
+     "note": "Named in the Grokipedia article “Liberation theology”."
+    },
+    {
+     "place": "Peru",
+     "src": "https://grokipedia.com/page/Liberation_theology",
+     "note": "Named in the Grokipedia article “Liberation theology”."
+    },
+    {
+     "place": "Nicaragua",
+     "src": "https://grokipedia.com/page/Liberation_theology",
+     "note": "Named in the Grokipedia article “Liberation theology”."
+    }
+   ]
+  }
  },
  {
   "id": "populism",
@@ -5674,7 +7029,27 @@
   ],
   "domain": [
    "politics"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Latin America",
+     "src": "https://grokipedia.com/page/Populism",
+     "note": "Named in the Grokipedia article “Populism”."
+    },
+    {
+     "place": "United States",
+     "src": "https://grokipedia.com/page/Populism",
+     "note": "Named in the Grokipedia article “Populism”."
+    },
+    {
+     "place": "Europe",
+     "src": "https://grokipedia.com/page/Populism",
+     "note": "Named in the Grokipedia article “Populism”."
+    }
+   ]
+  }
  },
  {
   "id": "divine_right_of_kings",
@@ -5758,6 +7133,26 @@
     "src": "https://grokipedia.com/page/Divine_right_of_kings",
     "note": "Bodin's Six Books (1576) synthesized absolutist theory, with sovereignty indivisible and ultimately God-derived, and influenced royal claims."
    }
+  },
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "England",
+     "src": "https://grokipedia.com/page/Divine_right_of_kings",
+     "note": "Named in the Grokipedia article “Divine right of kings”."
+    },
+    {
+     "place": "France",
+     "src": "https://grokipedia.com/page/Divine_right_of_kings",
+     "note": "Named in the Grokipedia article “Divine right of kings”."
+    },
+    {
+     "place": "Scotland",
+     "src": "https://grokipedia.com/page/Divine_right_of_kings",
+     "note": "Named in the Grokipedia article “Divine right of kings”."
+    }
+   ]
   }
  },
  {
@@ -5839,7 +7234,32 @@
   "domain": [
    "religion",
    "politics"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Italy",
+     "src": "https://grokipedia.com/page/Catholic_social_teaching",
+     "note": "Named in the Grokipedia article “Catholic social teaching”."
+    },
+    {
+     "place": "Germany",
+     "src": "https://grokipedia.com/page/Catholic_social_teaching",
+     "note": "Named in the Grokipedia article “Catholic social teaching”."
+    },
+    {
+     "place": "Latin America",
+     "src": "https://grokipedia.com/page/Catholic_social_teaching",
+     "note": "Named in the Grokipedia article “Catholic social teaching”."
+    },
+    {
+     "place": "United States",
+     "src": "https://grokipedia.com/page/Catholic_social_teaching",
+     "note": "Named in the Grokipedia article “Catholic social teaching”."
+    }
+   ]
+  }
  },
  {
   "id": "valentinianism",
@@ -5914,7 +7334,27 @@
   ],
   "domain": [
    "religion"
-  ]
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Rome",
+     "src": "https://grokipedia.com/page/Valentinianism",
+     "note": "Named in the Grokipedia article “Valentinianism”."
+    },
+    {
+     "place": "Alexandria",
+     "src": "https://grokipedia.com/page/Valentinianism",
+     "note": "Named in the Grokipedia article “Valentinianism”."
+    },
+    {
+     "place": "Egypt",
+     "src": "https://grokipedia.com/page/Valentinianism",
+     "note": "Named in the Grokipedia article “Valentinianism”."
+    }
+   ]
+  }
  },
  {
   "id": "manichaeism",
@@ -5997,6 +7437,31 @@
     "src": "https://grokipedia.com/page/Manichaeism",
     "note": "Manichaeism drew on Buddhism among other traditions and counts the Buddha among its prophets."
    }
+  },
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Persia",
+     "src": "https://grokipedia.com/page/Manichaeism",
+     "note": "Named in the Grokipedia article “Manichaeism”."
+    },
+    {
+     "place": "Central Asia",
+     "src": "https://grokipedia.com/page/Manichaeism",
+     "note": "Named in the Grokipedia article “Manichaeism”."
+    },
+    {
+     "place": "China",
+     "src": "https://grokipedia.com/page/Manichaeism",
+     "note": "Named in the Grokipedia article “Manichaeism”."
+    },
+    {
+     "place": "Roman Empire",
+     "src": "https://grokipedia.com/page/Manichaeism",
+     "note": "Named in the Grokipedia article “Manichaeism”."
+    }
+   ]
   }
  },
  {
@@ -6072,7 +7537,27 @@
   ],
   "domain": [
    "religion"
-  ]
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Bulgaria",
+     "src": "https://grokipedia.com/page/Bogomilism",
+     "note": "Named in the Grokipedia article “Bogomilism”."
+    },
+    {
+     "place": "Bosnia",
+     "src": "https://grokipedia.com/page/Bogomilism",
+     "note": "Named in the Grokipedia article “Bogomilism”."
+    },
+    {
+     "place": "Byzantine Empire",
+     "src": "https://grokipedia.com/page/Bogomilism",
+     "note": "Named in the Grokipedia article “Bogomilism”."
+    }
+   ]
+  }
  },
  {
   "id": "catharism",
@@ -6146,7 +7631,27 @@
   ],
   "domain": [
    "religion"
-  ]
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Languedoc",
+     "src": "https://grokipedia.com/page/Catharism",
+     "note": "Named in the Grokipedia article “Catharism”."
+    },
+    {
+     "place": "Southern France",
+     "src": "https://grokipedia.com/page/Catharism",
+     "note": "Named in the Grokipedia article “Catharism”."
+    },
+    {
+     "place": "Northern Italy",
+     "src": "https://grokipedia.com/page/Catharism",
+     "note": "Named in the Grokipedia article “Catharism”."
+    }
+   ]
+  }
  },
  {
   "id": "analytical_psychology",
@@ -6222,7 +7727,27 @@
   "domain": [
    "philosophy",
    "religion"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Zurich",
+     "src": "https://grokipedia.com/page/Analytical_psychology",
+     "note": "Named in the Grokipedia article “Analytical psychology”."
+    },
+    {
+     "place": "United States",
+     "src": "https://grokipedia.com/page/Analytical_psychology",
+     "note": "Named in the Grokipedia article “Analytical psychology”."
+    },
+    {
+     "place": "United Kingdom",
+     "src": "https://grokipedia.com/page/Analytical_psychology",
+     "note": "Named in the Grokipedia article “Analytical psychology”."
+    }
+   ]
+  }
  },
  {
   "id": "spinozism",
@@ -6294,7 +7819,17 @@
   ],
   "domain": [
    "philosophy"
-  ]
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Dutch Republic",
+     "src": "https://grokipedia.com/page/Baruch_Spinoza",
+     "note": "Named in the Grokipedia article “Baruch Spinoza”."
+    }
+   ]
+  }
  },
  {
   "id": "transcendental_idealism",
@@ -6369,7 +7904,17 @@
   ],
   "domain": [
    "philosophy"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Academic philosophy worldwide",
+     "src": "https://grokipedia.com/page/Transcendental_idealism",
+     "note": "Named in the Grokipedia article “Transcendental idealism”."
+    }
+   ]
+  }
  },
  {
   "id": "scottish_common_sense_realism",
@@ -6444,7 +7989,27 @@
   ],
   "domain": [
    "philosophy"
-  ]
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Scotland",
+     "src": "https://grokipedia.com/page/Scottish_common_sense_realism",
+     "note": "Named in the Grokipedia article “Scottish common sense realism”."
+    },
+    {
+     "place": "United States",
+     "src": "https://grokipedia.com/page/Scottish_common_sense_realism",
+     "note": "Named in the Grokipedia article “Scottish common sense realism”."
+    },
+    {
+     "place": "Princeton",
+     "src": "https://grokipedia.com/page/Scottish_common_sense_realism",
+     "note": "Named in the Grokipedia article “Scottish common sense realism”."
+    }
+   ]
+  }
  },
  {
   "id": "utilitarianism",
@@ -6521,7 +8086,27 @@
   "domain": [
    "philosophy",
    "politics"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "United Kingdom",
+     "src": "https://grokipedia.com/page/Utilitarianism",
+     "note": "Named in the Grokipedia article “Utilitarianism”."
+    },
+    {
+     "place": "United States",
+     "src": "https://grokipedia.com/page/Utilitarianism",
+     "note": "Named in the Grokipedia article “Utilitarianism”."
+    },
+    {
+     "place": "Oxford",
+     "src": "https://grokipedia.com/page/Utilitarianism",
+     "note": "Named in the Grokipedia article “Utilitarianism”."
+    }
+   ]
+  }
  },
  {
   "id": "pragmatism",
@@ -6596,7 +8181,17 @@
   ],
   "domain": [
    "philosophy"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "United States",
+     "src": "https://grokipedia.com/page/Pragmatism",
+     "note": "Named in the Grokipedia article “Pragmatism”."
+    }
+   ]
+  }
  },
  {
   "id": "phenomenology",
@@ -6674,7 +8269,12 @@
   ],
   "domain": [
    "philosophy"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [],
+   "uncertain": true
+  }
  },
  {
   "id": "trotskyism",
@@ -6749,7 +8349,32 @@
   ],
   "domain": [
    "politics"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "United Kingdom",
+     "src": "https://grokipedia.com/page/Trotskyism",
+     "note": "Named in the Grokipedia article “Trotskyism”."
+    },
+    {
+     "place": "France",
+     "src": "https://grokipedia.com/page/Trotskyism",
+     "note": "Named in the Grokipedia article “Trotskyism”."
+    },
+    {
+     "place": "Argentina",
+     "src": "https://grokipedia.com/page/Trotskyism",
+     "note": "Named in the Grokipedia article “Trotskyism”."
+    },
+    {
+     "place": "Brazil",
+     "src": "https://grokipedia.com/page/Trotskyism",
+     "note": "Named in the Grokipedia article “Trotskyism”."
+    }
+   ]
+  }
  },
  {
   "id": "american_communism",
@@ -6830,7 +8455,22 @@
   "aliases": [
    "CPUSA",
    "Communist Party USA"
-  ]
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "New York City",
+     "src": "https://grokipedia.com/page/Communist_Party_USA",
+     "note": "Named in the Grokipedia article “Communist Party USA”."
+    },
+    {
+     "place": "United States",
+     "src": "https://grokipedia.com/page/Communist_Party_USA",
+     "note": "Named in the Grokipedia article “Communist Party USA”."
+    }
+   ]
+  }
  },
  {
   "id": "shachtmanism",
@@ -6906,7 +8546,22 @@
   ],
   "domain": [
    "politics"
-  ]
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "New York",
+     "src": "https://grokipedia.com/page/Shachtmanism",
+     "note": "Named in the Grokipedia article “Shachtmanism”."
+    },
+    {
+     "place": "United States",
+     "src": "https://grokipedia.com/page/Shachtmanism",
+     "note": "Named in the Grokipedia article “Shachtmanism”."
+    }
+   ]
+  }
  },
  {
   "id": "new_deal_liberalism",
@@ -6979,7 +8634,17 @@
   ],
   "domain": [
    "politics"
-  ]
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "United States",
+     "src": "https://grokipedia.com/page/New_Deal",
+     "note": "Named in the Grokipedia article “New Deal”."
+    }
+   ]
+  }
  },
  {
   "id": "old_right",
@@ -7054,7 +8719,22 @@
   ],
   "domain": [
    "politics"
-  ]
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "United States",
+     "src": "https://grokipedia.com/page/Old_Right_(United_States)",
+     "note": "Named in the Grokipedia article “Old Right (United States)”."
+    },
+    {
+     "place": "American Midwest",
+     "src": "https://grokipedia.com/page/Old_Right_(United_States)",
+     "note": "Named in the Grokipedia article “Old Right (United States)”."
+    }
+   ]
+  }
  },
  {
   "id": "fusionism",
@@ -7130,7 +8810,17 @@
   ],
   "domain": [
    "politics"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "United States",
+     "src": "https://grokipedia.com/page/Fusionism",
+     "note": "Named in the Grokipedia article “Fusionism”."
+    }
+   ]
+  }
  },
  {
   "id": "new_left",
@@ -7208,7 +8898,32 @@
   ],
   "domain": [
    "politics"
-  ]
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "United States",
+     "src": "https://grokipedia.com/page/New_Left",
+     "note": "Named in the Grokipedia article “New Left”."
+    },
+    {
+     "place": "United Kingdom",
+     "src": "https://grokipedia.com/page/New_Left",
+     "note": "Named in the Grokipedia article “New Left”."
+    },
+    {
+     "place": "France",
+     "src": "https://grokipedia.com/page/New_Left",
+     "note": "Named in the Grokipedia article “New Left”."
+    },
+    {
+     "place": "West Germany",
+     "src": "https://grokipedia.com/page/New_Left",
+     "note": "Named in the Grokipedia article “New Left”."
+    }
+   ]
+  }
  },
  {
   "id": "neoconservatism",
@@ -7284,7 +8999,22 @@
   ],
   "domain": [
    "politics"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "United States",
+     "src": "https://grokipedia.com/page/Neoconservatism",
+     "note": "Named in the Grokipedia article “Neoconservatism”."
+    },
+    {
+     "place": "Washington",
+     "src": "https://grokipedia.com/page/Neoconservatism",
+     "note": "Named in the Grokipedia article “Neoconservatism”."
+    }
+   ]
+  }
  },
  {
   "id": "paleoconservatism",
@@ -7360,7 +9090,17 @@
   ],
   "domain": [
    "politics"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "United States",
+     "src": "https://grokipedia.com/page/Paleoconservatism",
+     "note": "Named in the Grokipedia article “Paleoconservatism”."
+    }
+   ]
+  }
  },
  {
   "id": "cypherpunks",
@@ -7436,7 +9176,22 @@
   "domain": [
    "politics",
    "culture"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "San Francisco Bay Area",
+     "src": "https://grokipedia.com/page/Cypherpunk",
+     "note": "Named in the Grokipedia article “Cypherpunk”."
+    },
+    {
+     "place": "Online",
+     "src": "https://grokipedia.com/page/Cypherpunk",
+     "note": "Named in the Grokipedia article “Cypherpunk”."
+    }
+   ]
+  }
  },
  {
   "id": "rationalist_community",
@@ -7514,7 +9269,27 @@
   ],
   "aliases": [
    "LessWrong"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "San Francisco Bay Area",
+     "src": "https://grokipedia.com/page/Rationalist_community",
+     "note": "Named in the Grokipedia article “Rationalist community”."
+    },
+    {
+     "place": "Berkeley",
+     "src": "https://grokipedia.com/page/Rationalist_community",
+     "note": "Named in the Grokipedia article “Rationalist community”."
+    },
+    {
+     "place": "Online",
+     "src": "https://grokipedia.com/page/Rationalist_community",
+     "note": "Named in the Grokipedia article “Rationalist community”."
+    }
+   ]
+  }
  },
  {
   "id": "chan_culture",
@@ -7590,7 +9365,27 @@
   ],
   "aliases": [
    "4chan"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Online",
+     "src": "https://grokipedia.com/page/4chan",
+     "note": "Named in the Grokipedia article “4chan”."
+    },
+    {
+     "place": "United States",
+     "src": "https://grokipedia.com/page/4chan",
+     "note": "Named in the Grokipedia article “4chan”."
+    },
+    {
+     "place": "Japan",
+     "src": "https://grokipedia.com/page/4chan",
+     "note": "Named in the Grokipedia article “4chan”."
+    }
+   ]
+  }
  },
  {
   "id": "effective_accelerationism",
@@ -7668,7 +9463,22 @@
   "aliases": [
    "e/acc",
    "eacc"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Silicon Valley",
+     "src": "https://grokipedia.com/page/Effective_accelerationism",
+     "note": "Named in the Grokipedia article “Effective accelerationism”."
+    },
+    {
+     "place": "Online",
+     "src": "https://grokipedia.com/page/Effective_accelerationism",
+     "note": "Named in the Grokipedia article “Effective accelerationism”."
+    }
+   ]
+  }
  },
  {
   "id": "jingjiao",
@@ -7745,7 +9555,27 @@
   ],
   "aliases": [
    "Tang-dynasty Christianity"
-  ]
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Chang'an",
+     "src": "https://grokipedia.com/page/Church_of_the_East_in_China",
+     "note": "Named in the Grokipedia article “Church of the East in China”."
+    },
+    {
+     "place": "Tang dynasty",
+     "src": "https://grokipedia.com/page/Church_of_the_East_in_China",
+     "note": "Named in the Grokipedia article “Church of the East in China”."
+    },
+    {
+     "place": "China",
+     "src": "https://grokipedia.com/page/Church_of_the_East_in_China",
+     "note": "Named in the Grokipedia article “Church of the East in China”."
+    }
+   ]
+  }
  },
  {
   "id": "jesuit_accommodation",
@@ -7823,7 +9653,28 @@
   ],
   "aliases": [
    "Ricci"
-  ]
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Beijing",
+     "src": "https://grokipedia.com/page/Chinese_Rites_controversy",
+     "note": "Named in the Grokipedia article “Chinese Rites controversy”."
+    },
+    {
+     "place": "China",
+     "period": "Ming dynasty",
+     "src": "https://grokipedia.com/page/Chinese_Rites_controversy",
+     "note": "Named in the Grokipedia article “Chinese Rites controversy”."
+    },
+    {
+     "place": "Macau",
+     "src": "https://grokipedia.com/page/Chinese_Rites_controversy",
+     "note": "Named in the Grokipedia article “Chinese Rites controversy”."
+    }
+   ]
+  }
  },
  {
   "id": "shinto",
@@ -7893,7 +9744,17 @@
   "domain": [
    "religion"
   ],
-  "parent_note": "No parent on the map. Shinto emerged before Buddhism reached Japan in the sixth century; Buddhism later blended with it (shinbutsu-shūgō) but is not its source."
+  "parent_note": "No parent on the map. Shinto emerged before Buddhism reached Japan in the sixth century; Buddhism later blended with it (shinbutsu-shūgō) but is not its source.",
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Japan",
+     "src": "https://grokipedia.com/page/Shinto",
+     "note": "Named in the Grokipedia article “Shinto”."
+    }
+   ]
+  }
  },
  {
   "id": "kokugaku",
@@ -7973,7 +9834,23 @@
   ],
   "aliases": [
    "National Learning"
-  ]
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Japan",
+     "period": "Edo period",
+     "src": "https://grokipedia.com/page/Kokugaku",
+     "note": "Named in the Grokipedia article “Kokugaku”."
+    },
+    {
+     "place": "Edo",
+     "src": "https://grokipedia.com/page/Kokugaku",
+     "note": "Named in the Grokipedia article “Kokugaku”."
+    }
+   ]
+  }
  },
  {
   "id": "pure_land",
@@ -8050,7 +9927,27 @@
   ],
   "aliases": [
    "Jodo-shu"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Japan",
+     "src": "https://grokipedia.com/page/Pure_Land_Buddhism",
+     "note": "Named in the Grokipedia article “Pure Land Buddhism”."
+    },
+    {
+     "place": "China",
+     "src": "https://grokipedia.com/page/Pure_Land_Buddhism",
+     "note": "Named in the Grokipedia article “Pure Land Buddhism”."
+    },
+    {
+     "place": "Vietnam",
+     "src": "https://grokipedia.com/page/Pure_Land_Buddhism",
+     "note": "Named in the Grokipedia article “Pure Land Buddhism”."
+    }
+   ]
+  }
  },
  {
   "id": "vajrayana",
@@ -8125,7 +10022,32 @@
   ],
   "aliases": [
    "Tantric Buddhism"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Tibet",
+     "src": "https://grokipedia.com/page/Vajrayana",
+     "note": "Named in the Grokipedia article “Vajrayana”."
+    },
+    {
+     "place": "Bhutan",
+     "src": "https://grokipedia.com/page/Vajrayana",
+     "note": "Named in the Grokipedia article “Vajrayana”."
+    },
+    {
+     "place": "Mongolia",
+     "src": "https://grokipedia.com/page/Vajrayana",
+     "note": "Named in the Grokipedia article “Vajrayana”."
+    },
+    {
+     "place": "Nepal",
+     "src": "https://grokipedia.com/page/Vajrayana",
+     "note": "Named in the Grokipedia article “Vajrayana”."
+    }
+   ]
+  }
  },
  {
   "id": "tibetan_buddhism",
@@ -8317,6 +10239,17 @@
     "src": "https://plato.stanford.edu/entries/mohism/",
     "note": "Mozi argued against the Ru; the Han-era claim that he was a former Confucian is unsupported by the Mozi."
    }
+  },
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "China",
+     "period": "Warring States period",
+     "src": "https://grokipedia.com/page/Mohism",
+     "note": "Named in the Grokipedia article “Mohism”."
+    }
+   ]
   }
  },
  {
@@ -8392,7 +10325,32 @@
   ],
   "domain": [
    "religion"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "United States",
+     "src": "https://grokipedia.com/page/Wicca",
+     "note": "Named in the Grokipedia article “Wicca”."
+    },
+    {
+     "place": "United Kingdom",
+     "src": "https://grokipedia.com/page/Wicca",
+     "note": "Named in the Grokipedia article “Wicca”."
+    },
+    {
+     "place": "Canada",
+     "src": "https://grokipedia.com/page/Wicca",
+     "note": "Named in the Grokipedia article “Wicca”."
+    },
+    {
+     "place": "Australia",
+     "src": "https://grokipedia.com/page/Wicca",
+     "note": "Named in the Grokipedia article “Wicca”."
+    }
+   ]
+  }
  },
  {
   "id": "old_norse_religion",
@@ -8461,7 +10419,27 @@
   "domain": [
    "religion"
   ],
-  "parent_note": "No parent idea on the map; it continued earlier Germanic traditions."
+  "parent_note": "No parent idea on the map; it continued earlier Germanic traditions.",
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Scandinavia",
+     "src": "https://grokipedia.com/page/Old_Norse_religion",
+     "note": "Named in the Grokipedia article “Old Norse religion”."
+    },
+    {
+     "place": "Iceland",
+     "src": "https://grokipedia.com/page/Old_Norse_religion",
+     "note": "Named in the Grokipedia article “Old Norse religion”."
+    },
+    {
+     "place": "Norway",
+     "src": "https://grokipedia.com/page/Old_Norse_religion",
+     "note": "Named in the Grokipedia article “Old Norse religion”."
+    }
+   ]
+  }
  },
  {
   "id": "yungdrung_bon",
@@ -8533,7 +10511,27 @@
   ],
   "domain": [
    "religion"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Tibet",
+     "src": "https://grokipedia.com/page/Bon",
+     "note": "Named in the Grokipedia article “Bon”."
+    },
+    {
+     "place": "Nepal",
+     "src": "https://grokipedia.com/page/Bon",
+     "note": "Named in the Grokipedia article “Bon”."
+    },
+    {
+     "place": "India",
+     "src": "https://grokipedia.com/page/Bon",
+     "note": "Named in the Grokipedia article “Bon”."
+    }
+   ]
+  }
  },
  {
   "id": "modern_druidry",
@@ -8611,7 +10609,22 @@
   ],
   "aliases": [
    "Druid revival"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "United Kingdom",
+     "src": "https://grokipedia.com/page/Druidry_(modern)",
+     "note": "Named in the Grokipedia article “Druidry (modern)”."
+    },
+    {
+     "place": "United States",
+     "src": "https://grokipedia.com/page/Druidry_(modern)",
+     "note": "Named in the Grokipedia article “Druidry (modern)”."
+    }
+   ]
+  }
  },
  {
   "id": "rodnovery",
@@ -8689,7 +10702,27 @@
   ],
   "aliases": [
    "Slavic Native Faith"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Russia",
+     "src": "https://grokipedia.com/page/Slavic_Native_Faith",
+     "note": "Named in the Grokipedia article “Slavic Native Faith”."
+    },
+    {
+     "place": "Ukraine",
+     "src": "https://grokipedia.com/page/Slavic_Native_Faith",
+     "note": "Named in the Grokipedia article “Slavic Native Faith”."
+    },
+    {
+     "place": "Poland",
+     "src": "https://grokipedia.com/page/Slavic_Native_Faith",
+     "note": "Named in the Grokipedia article “Slavic Native Faith”."
+    }
+   ]
+  }
  },
  {
   "id": "romuva",
@@ -8766,7 +10799,17 @@
   ],
   "aliases": [
    "Baltic faith"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Lithuania",
+     "src": "https://grokipedia.com/page/Romuva_(religion)",
+     "note": "Named in the Grokipedia article “Romuva (religion)”."
+    }
+   ]
+  }
  },
  {
   "id": "heathenry",
@@ -8844,7 +10887,27 @@
   "aliases": [
    "Ásatrú",
    "Asatru"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Iceland",
+     "src": "https://grokipedia.com/page/Heathenry_(new_religious_movement)",
+     "note": "Named in the Grokipedia article “Heathenry (new religious movement)”."
+    },
+    {
+     "place": "United States",
+     "src": "https://grokipedia.com/page/Heathenry_(new_religious_movement)",
+     "note": "Named in the Grokipedia article “Heathenry (new religious movement)”."
+    },
+    {
+     "place": "Scandinavia",
+     "src": "https://grokipedia.com/page/Heathenry_(new_religious_movement)",
+     "note": "Named in the Grokipedia article “Heathenry (new religious movement)”."
+    }
+   ]
+  }
  },
  {
   "id": "hellenism_revival",
@@ -8919,7 +10982,22 @@
   "aliases": [
    "modern Greek polytheism",
    "Hellenic polytheism"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Greece",
+     "src": "https://grokipedia.com/page/Hellenism_(modern_religion)",
+     "note": "Named in the Grokipedia article “Hellenism (modern religion)”."
+    },
+    {
+     "place": "United States",
+     "src": "https://grokipedia.com/page/Hellenism_(modern_religion)",
+     "note": "Named in the Grokipedia article “Hellenism (modern religion)”."
+    }
+   ]
+  }
  },
  {
   "id": "scientific_racism",
@@ -9001,6 +11079,26 @@
     "src": "https://grokipedia.com/page/Arthur_de_Gobineau",
     "note": "Blumenbach's categories were taken up by later race theory such as Gobineau's (1853–55)."
    }
+  },
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Germany",
+     "src": "https://grokipedia.com/page/Scientific_racism",
+     "note": "Named in the Grokipedia article “Scientific racism”."
+    },
+    {
+     "place": "United States",
+     "src": "https://grokipedia.com/page/Scientific_racism",
+     "note": "Named in the Grokipedia article “Scientific racism”."
+    },
+    {
+     "place": "United Kingdom",
+     "src": "https://grokipedia.com/page/Scientific_racism",
+     "note": "Named in the Grokipedia article “Scientific racism”."
+    }
+   ]
   }
  },
  {
@@ -9076,7 +11174,27 @@
   ],
   "domain": [
    "politics"
-  ]
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Germany",
+     "src": "https://grokipedia.com/page/Antisemitism",
+     "note": "Named in the Grokipedia article “Antisemitism”."
+    },
+    {
+     "place": "Austria",
+     "src": "https://grokipedia.com/page/Antisemitism",
+     "note": "Named in the Grokipedia article “Antisemitism”."
+    },
+    {
+     "place": "France",
+     "src": "https://grokipedia.com/page/Antisemitism",
+     "note": "Named in the Grokipedia article “Antisemitism”."
+    }
+   ]
+  }
  },
  {
   "id": "pan_germanism",
@@ -9150,7 +11268,22 @@
   ],
   "domain": [
    "politics"
-  ]
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Germany",
+     "src": "https://grokipedia.com/page/Pan-Germanism",
+     "note": "Named in the Grokipedia article “Pan-Germanism”."
+    },
+    {
+     "place": "Austria",
+     "src": "https://grokipedia.com/page/Pan-Germanism",
+     "note": "Named in the Grokipedia article “Pan-Germanism”."
+    }
+   ]
+  }
  },
  {
   "id": "volkisch_movement",
@@ -9228,7 +11361,17 @@
   "domain": [
    "politics",
    "culture"
-  ]
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Germany",
+     "src": "https://grokipedia.com/page/V%C3%B6lkisch_movement",
+     "note": "Named in the Grokipedia article “Völkisch movement”."
+    }
+   ]
+  }
  },
  {
   "id": "racial_hygiene",
@@ -9302,7 +11445,17 @@
   ],
   "domain": [
    "politics"
-  ]
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Germany",
+     "src": "https://grokipedia.com/page/Racial_hygiene",
+     "note": "Named in the Grokipedia article “Racial hygiene”."
+    }
+   ]
+  }
  },
  {
   "id": "nazism",
@@ -9385,7 +11538,17 @@
   "aliases": [
    "Nazism",
    "Nazis"
-  ]
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Nazi Germany",
+     "src": "https://grokipedia.com/page/Nazism",
+     "note": "Named in the Grokipedia article “Nazism”."
+    }
+   ]
+  }
  },
  {
   "id": "neo_nazism",
@@ -9457,7 +11620,27 @@
   ],
   "domain": [
    "politics"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Germany",
+     "src": "https://grokipedia.com/page/Neo-Nazism",
+     "note": "Named in the Grokipedia article “Neo-Nazism”."
+    },
+    {
+     "place": "United States",
+     "src": "https://grokipedia.com/page/Neo-Nazism",
+     "note": "Named in the Grokipedia article “Neo-Nazism”."
+    },
+    {
+     "place": "Russia",
+     "src": "https://grokipedia.com/page/Neo-Nazism",
+     "note": "Named in the Grokipedia article “Neo-Nazism”."
+    }
+   ]
+  }
  },
  {
   "id": "existential_phenomenology",
@@ -9531,7 +11714,17 @@
   ],
   "domain": [
    "philosophy"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Germany",
+     "src": "https://grokipedia.com/page/Being_and_Time",
+     "note": "Named in the Grokipedia article “Being and Time”."
+    }
+   ]
+  }
  },
  {
   "id": "existenz_philosophy",
@@ -9604,7 +11797,22 @@
   ],
   "domain": [
    "philosophy"
-  ]
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Germany",
+     "src": "https://grokipedia.com/page/Karl_Jaspers",
+     "note": "Named in the Grokipedia article “Karl Jaspers”."
+    },
+    {
+     "place": "Switzerland",
+     "src": "https://grokipedia.com/page/Karl_Jaspers",
+     "note": "Named in the Grokipedia article “Karl Jaspers”."
+    }
+   ]
+  }
  },
  {
   "id": "leninism",
@@ -9681,7 +11889,22 @@
   "aliases": [
    "Bolshevism",
    "Bolsheviks"
-  ]
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Soviet Union",
+     "src": "https://grokipedia.com/page/Leninism",
+     "note": "Named in the Grokipedia article “Leninism”."
+    },
+    {
+     "place": "Russia",
+     "src": "https://grokipedia.com/page/Leninism",
+     "note": "Named in the Grokipedia article “Leninism”."
+    }
+   ]
+  }
  },
  {
   "id": "comintern",
@@ -9758,7 +11981,22 @@
   "aliases": [
    "Communist International",
    "Third International"
-  ]
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Moscow",
+     "src": "https://grokipedia.com/page/Communist_International",
+     "note": "Named in the Grokipedia article “Communist International”."
+    },
+    {
+     "place": "Soviet Union",
+     "src": "https://grokipedia.com/page/Communist_International",
+     "note": "Named in the Grokipedia article “Communist International”."
+    }
+   ]
+  }
  },
  {
   "id": "socialist_party_of_america",
@@ -9832,7 +12070,22 @@
   ],
   "domain": [
    "politics"
-  ]
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "United States",
+     "src": "https://grokipedia.com/page/Socialist_Party_of_America",
+     "note": "Named in the Grokipedia article “Socialist Party of America”."
+    },
+    {
+     "place": "Milwaukee",
+     "src": "https://grokipedia.com/page/Socialist_Party_of_America",
+     "note": "Named in the Grokipedia article “Socialist Party of America”."
+    }
+   ]
+  }
  },
  {
   "id": "civil_rights_movement",
@@ -9916,6 +12169,26 @@
     "src": "https://grokipedia.com/page/Martin_Luther_King_Jr.",
     "note": "King was a Baptist minister trained at Crozer Theological Seminary."
    }
+  },
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Southern United States",
+     "src": "https://grokipedia.com/page/Civil_rights_movement",
+     "note": "Named in the Grokipedia article “Civil rights movement”."
+    },
+    {
+     "place": "Alabama",
+     "src": "https://grokipedia.com/page/Civil_rights_movement",
+     "note": "Named in the Grokipedia article “Civil rights movement”."
+    },
+    {
+     "place": "Mississippi",
+     "src": "https://grokipedia.com/page/Civil_rights_movement",
+     "note": "Named in the Grokipedia article “Civil rights movement”."
+    }
+   ]
   }
  },
  {
@@ -9991,7 +12264,27 @@
   "domain": [
    "politics",
    "philosophy"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "United States",
+     "src": "https://grokipedia.com/page/Liberal_feminism",
+     "note": "Named in the Grokipedia article “Liberal feminism”."
+    },
+    {
+     "place": "United Kingdom",
+     "src": "https://grokipedia.com/page/Liberal_feminism",
+     "note": "Named in the Grokipedia article “Liberal feminism”."
+    },
+    {
+     "place": "Western Europe",
+     "src": "https://grokipedia.com/page/Liberal_feminism",
+     "note": "Named in the Grokipedia article “Liberal feminism”."
+    }
+   ]
+  }
  },
  {
   "id": "socialist_feminism",
@@ -10066,7 +12359,27 @@
   ],
   "domain": [
    "politics"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "United States",
+     "src": "https://grokipedia.com/page/Socialist_feminism",
+     "note": "Named in the Grokipedia article “Socialist feminism”."
+    },
+    {
+     "place": "United Kingdom",
+     "src": "https://grokipedia.com/page/Socialist_feminism",
+     "note": "Named in the Grokipedia article “Socialist feminism”."
+    },
+    {
+     "place": "Germany",
+     "src": "https://grokipedia.com/page/Socialist_feminism",
+     "note": "Named in the Grokipedia article “Socialist feminism”."
+    }
+   ]
+  }
  },
  {
   "id": "radical_feminism",
@@ -10142,7 +12455,22 @@
   "domain": [
    "politics",
    "culture"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "United States",
+     "src": "https://grokipedia.com/page/Radical_feminism",
+     "note": "Named in the Grokipedia article “Radical feminism”."
+    },
+    {
+     "place": "United Kingdom",
+     "src": "https://grokipedia.com/page/Radical_feminism",
+     "note": "Named in the Grokipedia article “Radical feminism”."
+    }
+   ]
+  }
  },
  {
   "id": "black_feminism",
@@ -10220,7 +12548,17 @@
   "domain": [
    "politics",
    "culture"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "United States",
+     "src": "https://grokipedia.com/page/Black_feminism",
+     "note": "Named in the Grokipedia article “Black feminism”."
+    }
+   ]
+  }
  },
  {
   "id": "critical_legal_studies",
@@ -10297,7 +12635,22 @@
   "domain": [
    "politics",
    "philosophy"
-  ]
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Harvard",
+     "src": "https://grokipedia.com/page/Critical_legal_studies",
+     "note": "Named in the Grokipedia article “Critical legal studies”."
+    },
+    {
+     "place": "United States",
+     "src": "https://grokipedia.com/page/Critical_legal_studies",
+     "note": "Named in the Grokipedia article “Critical legal studies”."
+    }
+   ]
+  }
  },
  {
   "id": "critical_race_theory",
@@ -10375,7 +12728,22 @@
   "domain": [
    "politics",
    "philosophy"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "United States",
+     "src": "https://grokipedia.com/page/Critical_race_theory",
+     "note": "Named in the Grokipedia article “Critical race theory”."
+    },
+    {
+     "place": "United Kingdom",
+     "src": "https://grokipedia.com/page/Critical_race_theory",
+     "note": "Named in the Grokipedia article “Critical race theory”."
+    }
+   ]
+  }
  },
  {
   "id": "intersectionality",
@@ -10452,7 +12820,27 @@
   "domain": [
    "politics",
    "philosophy"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "United States",
+     "src": "https://grokipedia.com/page/Intersectionality",
+     "note": "Named in the Grokipedia article “Intersectionality”."
+    },
+    {
+     "place": "United Kingdom",
+     "src": "https://grokipedia.com/page/Intersectionality",
+     "note": "Named in the Grokipedia article “Intersectionality”."
+    },
+    {
+     "place": "Western universities",
+     "src": "https://grokipedia.com/page/Intersectionality",
+     "note": "Named in the Grokipedia article “Intersectionality”."
+    }
+   ]
+  }
  },
  {
   "id": "social_justice_movement",
@@ -10530,7 +12918,27 @@
   "aliases": [
    "woke",
    "social justice movement"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "United States",
+     "src": "https://grokipedia.com/page/Woke",
+     "note": "Named in the Grokipedia article “Woke”."
+    },
+    {
+     "place": "United Kingdom",
+     "src": "https://grokipedia.com/page/Woke",
+     "note": "Named in the Grokipedia article “Woke”."
+    },
+    {
+     "place": "Canada",
+     "src": "https://grokipedia.com/page/Woke",
+     "note": "Named in the Grokipedia article “Woke”."
+    }
+   ]
+  }
  },
  {
   "id": "america_first",
@@ -10609,7 +13017,27 @@
   ],
   "domain": [
    "politics"
-  ]
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "United States",
+     "src": "https://grokipedia.com/page/America_First_Committee",
+     "note": "Named in the Grokipedia article “America First Committee”."
+    },
+    {
+     "place": "Chicago",
+     "src": "https://grokipedia.com/page/America_First_Committee",
+     "note": "Named in the Grokipedia article “America First Committee”."
+    },
+    {
+     "place": "American Midwest",
+     "src": "https://grokipedia.com/page/America_First_Committee",
+     "note": "Named in the Grokipedia article “America First Committee”."
+    }
+   ]
+  }
  },
  {
   "id": "maga",
@@ -10687,7 +13115,17 @@
   ],
   "aliases": [
    "Make America Great Again"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "United States",
+     "src": "https://grokipedia.com/page/Make_America_Great_Again",
+     "note": "Named in the Grokipedia article “Make America Great Again”."
+    }
+   ]
+  }
  },
  {
   "id": "postliberalism",
@@ -10763,7 +13201,27 @@
   "domain": [
    "politics",
    "philosophy"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "United States",
+     "src": "https://grokipedia.com/page/Postliberalism",
+     "note": "Named in the Grokipedia article “Postliberalism”."
+    },
+    {
+     "place": "United Kingdom",
+     "src": "https://grokipedia.com/page/Postliberalism",
+     "note": "Named in the Grokipedia article “Postliberalism”."
+    },
+    {
+     "place": "Hungary",
+     "src": "https://grokipedia.com/page/Postliberalism",
+     "note": "Named in the Grokipedia article “Postliberalism”."
+    }
+   ]
+  }
  },
  {
   "id": "national_conservatism",
@@ -10837,7 +13295,32 @@
   ],
   "domain": [
    "politics"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "United States",
+     "src": "https://grokipedia.com/page/National_conservatism",
+     "note": "Named in the Grokipedia article “National conservatism”."
+    },
+    {
+     "place": "Hungary",
+     "src": "https://grokipedia.com/page/National_conservatism",
+     "note": "Named in the Grokipedia article “National conservatism”."
+    },
+    {
+     "place": "United Kingdom",
+     "src": "https://grokipedia.com/page/National_conservatism",
+     "note": "Named in the Grokipedia article “National conservatism”."
+    },
+    {
+     "place": "Israel",
+     "src": "https://grokipedia.com/page/National_conservatism",
+     "note": "Named in the Grokipedia article “National conservatism”."
+    }
+   ]
+  }
  },
  {
   "id": "holiness_movement",
@@ -10911,7 +13394,17 @@
   ],
   "domain": [
    "religion"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "United States",
+     "src": "https://grokipedia.com/page/Holiness_movement",
+     "note": "Named in the Grokipedia article “Holiness movement”."
+    }
+   ]
+  }
  },
  {
   "id": "brentano_intentionality",
@@ -10985,7 +13478,22 @@
   ],
   "domain": [
    "philosophy"
-  ]
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Vienna",
+     "src": "https://grokipedia.com/page/Franz_Brentano",
+     "note": "Named in the Grokipedia article “Franz Brentano”."
+    },
+    {
+     "place": "Austria",
+     "src": "https://grokipedia.com/page/Franz_Brentano",
+     "note": "Named in the Grokipedia article “Franz Brentano”."
+    }
+   ]
+  }
  },
  {
   "id": "islam",
@@ -11057,7 +13565,32 @@
   "domain": [
    "religion",
    "politics"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Indonesia",
+     "src": "https://grokipedia.com/page/Islam_by_country",
+     "note": "Named in the Grokipedia article “Islam by country”."
+    },
+    {
+     "place": "Pakistan",
+     "src": "https://grokipedia.com/page/Islam_by_country",
+     "note": "Named in the Grokipedia article “Islam by country”."
+    },
+    {
+     "place": "India",
+     "src": "https://grokipedia.com/page/Islam_by_country",
+     "note": "Named in the Grokipedia article “Islam by country”."
+    },
+    {
+     "place": "Bangladesh",
+     "src": "https://grokipedia.com/page/Islam_by_country",
+     "note": "Named in the Grokipedia article “Islam by country”."
+    }
+   ]
+  }
  },
  {
   "id": "kalam",
@@ -11134,7 +13667,22 @@
   ],
   "aliases": [
    "Islamic theology"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Egypt",
+     "src": "https://grokipedia.com/page/Kalam",
+     "note": "Named in the Grokipedia article “Kalam”."
+    },
+    {
+     "place": "Iran",
+     "src": "https://grokipedia.com/page/Kalam",
+     "note": "Named in the Grokipedia article “Kalam”."
+    }
+   ]
+  }
  },
  {
   "id": "mevlevi_order",
@@ -11211,7 +13759,27 @@
   ],
   "aliases": [
    "Whirling Dervishes"
-  ]
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Konya",
+     "src": "https://grokipedia.com/page/Mevlevi_Order",
+     "note": "Named in the Grokipedia article “Mevlevi Order”."
+    },
+    {
+     "place": "Turkey",
+     "src": "https://grokipedia.com/page/Mevlevi_Order",
+     "note": "Named in the Grokipedia article “Mevlevi Order”."
+    },
+    {
+     "place": "Istanbul",
+     "src": "https://grokipedia.com/page/Mevlevi_Order",
+     "note": "Named in the Grokipedia article “Mevlevi Order”."
+    }
+   ]
+  }
  },
  {
   "id": "bohmean_theosophy",
@@ -11293,6 +13861,16 @@
     "src": "https://grokipedia.com/page/Jakob_Böhme",
     "note": "Böhme read visionaries such as Paracelsus, Weigel and Schwenckfeld."
    }
+  },
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "England",
+     "src": "https://grokipedia.com/page/Jakob_Böhme",
+     "note": "Named in the Grokipedia article “Jakob Böhme”."
+    }
+   ]
   }
  },
  {
@@ -11374,6 +13952,16 @@
     "src": "https://grokipedia.com/page/Johann_Friedrich_Blumenbach",
     "note": "Enlightenment natural history; whether the Enlightenment as such is responsible is debated."
    }
+  },
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Europe",
+     "src": "https://grokipedia.com/page/Johann_Friedrich_Blumenbach",
+     "note": "Named in the Grokipedia article “Johann Friedrich Blumenbach”."
+    }
+   ]
   }
  },
  {
