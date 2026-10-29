@@ -13,14 +13,14 @@ async def run():
         await pg.route("**/arx-memeplex/"+f,(lambda f:(lambda r,q=None:r.fulfill(status=200,content_type="application/json",body=open(R+f).read())))(f))
       await pg.add_init_script("localStorage.setItem('memeplex-help-seen','1')")
       await pg.goto("http://localhost:8784/memeplex.html?intro=none"); await pg.wait_for_function("window.__memeplex && __memeplex.ideas && __memeplex.ideas.length",polling=500); await pg.wait_for_timeout(3000)
-      for iid,ctxw in [('existentialism',' philosophy'),('social_justice_movement',None)]:
+      for iid in ['existentialism','social_justice_movement']:
         await pg.evaluate(f"__memeplex.focusIdea('{iid}')"); await pg.wait_for_timeout(1500)
         a=pg.locator('#panel a',has_text='Search on YouTube')
         if await a.count()!=1: fail.append((tag,iid,'count')); continue
         h=await a.get_attribute('href'); t=await a.get_attribute('target'); rel=await a.get_attribute('rel')
         name=await pg.evaluate(f"__memeplex.ideas.find(d=>d.id=='{iid}').name")
         q=urllib.parse.parse_qs(urllib.parse.urlparse(h).query).get('search_query',[''])[0]
-        ok=h.startswith('https://www.youtube.com/results?search_query=') and t=='_blank' and 'noopener' in rel and q.startswith(name) and (ctxw is None or q==name+ctxw)
+        ok=h.startswith('https://www.youtube.com/results?search_query=') and t=='_blank' and 'noopener' in rel and q==name
         print(tag,iid,ok,h)
         if not ok: fail.append((tag,iid,h))
         await a.scroll_into_view_if_needed(); await pg.wait_for_timeout(400)

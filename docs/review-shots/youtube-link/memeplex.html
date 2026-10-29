@@ -633,8 +633,7 @@ applyLens('');
 /* ---------- Panel ---------- */
 const panel = document.getElementById('panel');
 /* YouTube search link: plain search URL, no embed, no API key. Adds a context word so the results are about the idea. */
-const YT_CTX = { religion: ' religion', politics: ' political ideology', philosophy: ' philosophy', culture: ' history' };
-const ytUrl = d => 'https://www.youtube.com/results?search_query=' + encodeURIComponent(d.name + (YT_CTX[[].concat(d.domain || [])[0]] || ' history'));
+const ytUrl = d => 'https://www.youtube.com/results?search_query=' + encodeURIComponent(d.name);
 const esc = s => String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const fmtYear = (y, ap) => (ap ? 'c. ' : '') + (y < 0 ? `${-y} BC` : `AD ${y}`);
 let current = null;
