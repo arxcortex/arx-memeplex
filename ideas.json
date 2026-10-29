@@ -11253,5 +11253,655 @@
     "note": "Enlightenment natural history; whether the Enlightenment as such is responsible is debated."
    }
   }
+ },
+ {
+  "id": "new_atheism",
+  "name": "New Atheism",
+  "root": false,
+  "year": 2004,
+  "year_approx": false,
+  "place": null,
+  "lat": null,
+  "lon": null,
+  "origin_src": "https://grokipedia.com/page/New_Atheism",
+  "origin_note": "Harris's The End of Faith (2004), the first of the movement's best-known texts",
+  "thinkers": [
+   "Sam Harris",
+   "Richard Dawkins",
+   "Daniel Dennett",
+   "Christopher Hitchens"
+  ],
+  "parents": [
+   "darwinian_selection",
+   "enlightenment_liberalism"
+  ],
+  "plain": "A public movement of assertive atheism after 9/11, known through bestsellers by Harris, Dawkins, Dennett and Hitchens.",
+  "summary": "Assertive atheism of the 2000s; many scholars treat the label as journalistic.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 3,
+   "marxism": 0,
+   "darwinism": 3,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 0,
+   "hierarchy": 0
+  },
+  "rationale": {
+   "platonism": "Not yet scored from sources; placeholder 0 pending review.",
+   "aristotelianism": "Not yet scored from sources; placeholder 0 pending review.",
+   "stoicism": "Not yet scored from sources; placeholder 0 pending review.",
+   "christianity": "Not yet scored from sources; placeholder 0 pending review.",
+   "gnosticism": "Not yet scored from sources; placeholder 0 pending review.",
+   "hermeticism": "Not yet scored from sources; placeholder 0 pending review.",
+   "enlightenment_liberalism": "Hitchens calls for a renewed Enlightenment (God Is Not Great).",
+   "marxism": "Not yet scored from sources; placeholder 0 pending review.",
+   "darwinism": "Dawkins argues from natural selection against design (The God Delusion).",
+   "nietzsche": "Not yet scored from sources; placeholder 0 pending review.",
+   "critical_theory": "Not yet scored from sources; placeholder 0 pending review.",
+   "confucianism": "Not yet scored from sources; placeholder 0 pending review.",
+   "daoism": "Not yet scored from sources; placeholder 0 pending review.",
+   "buddhism": "Not yet scored from sources; placeholder 0 pending review.",
+   "vedanta": "Not yet scored from sources; placeholder 0 pending review.",
+   "islamic_philosophy": "Not yet scored from sources; placeholder 0 pending review.",
+   "humor": "Not yet scored from sources; placeholder 0 pending review.",
+   "irony": "Not yet scored from sources; placeholder 0 pending review.",
+   "abstraction": "Not yet scored from sources; placeholder 0 pending review.",
+   "hierarchy": "Not yet scored from sources; placeholder 0 pending review."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/New_Atheism",
+   "https://en.wikipedia.org/wiki/New_Atheism",
+   "https://grokipedia.com/page/The_God_Delusion",
+   "https://en.wikipedia.org/wiki/The_God_Delusion",
+   "https://en.wikipedia.org/wiki/Christopher_Hitchens"
+  ],
+  "domain": [
+   "religion",
+   "philosophy"
+  ],
+  "edge_notes": {
+   "darwinian_selection": {
+    "status": "documented",
+    "type": "argument (Dawkins's design rebuttal in The God Delusion, 2006)",
+    "src": "https://grokipedia.com/page/The_God_Delusion",
+    "note": "low: the sources tie it to Dawkins only, not to all New Atheists"
+   },
+   "enlightenment_liberalism": {
+    "status": "contested",
+    "type": "self-conscious invocation (Hitchens's call for a renewed Enlightenment, God Is Not Great, 2007)",
+    "src": "https://en.wikipedia.org/wiki/Christopher_Hitchens",
+    "note": "low-moderate: the sources tie it to Hitchens; 'Enlightenment' maps to enlightenment_liberalism by name, not by an explicit 'liberalism' statement"
+   }
+  },
+  "caption": "A public movement of assertive atheism that followed the 9/11 attacks. Its best-known texts are Harris's The End of Faith (2004), Dawkins's The God Delusion (2006), Dennett's Breaking the Spell (2006) and Hitchens's God Is Not Great (2007).",
+  "contested": "Wikipedia cites scholars (Taylor, Cotter, Zenk) who treat 'New Atheism' as a journalistic label rather than a defined school."
+ },
+ {
+  "id": "atheism_plus",
+  "name": "Atheism Plus",
+  "root": false,
+  "year": 2012,
+  "year_approx": false,
+  "place": null,
+  "lat": null,
+  "lon": null,
+  "origin_src": "https://grokipedia.com/page/New_Atheism",
+  "origin_note": "Launched in 2012 after the 2011 'Elevatorgate' dispute",
+  "thinkers": [
+   "Jen McCreight",
+   "PZ Myers"
+  ],
+  "parents": [
+   "new_atheism"
+  ],
+  "plain": "A 2012 faction in online atheism that joined atheism to feminism, antiracism and transgender rights.",
+  "summary": "Online atheist faction of 2012, after the 2011 'Elevatorgate' dispute; Grokipedia says it alienated some atheists.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 0,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 0,
+   "hierarchy": 0
+  },
+  "rationale": {
+   "platonism": "Not yet scored from sources; placeholder 0 pending review.",
+   "aristotelianism": "Not yet scored from sources; placeholder 0 pending review.",
+   "stoicism": "Not yet scored from sources; placeholder 0 pending review.",
+   "christianity": "Not yet scored from sources; placeholder 0 pending review.",
+   "gnosticism": "Not yet scored from sources; placeholder 0 pending review.",
+   "hermeticism": "Not yet scored from sources; placeholder 0 pending review.",
+   "enlightenment_liberalism": "Not yet scored from sources; placeholder 0 pending review.",
+   "marxism": "Not yet scored from sources; placeholder 0 pending review.",
+   "darwinism": "Not yet scored from sources; placeholder 0 pending review.",
+   "nietzsche": "Not yet scored from sources; placeholder 0 pending review.",
+   "critical_theory": "Not yet scored from sources; placeholder 0 pending review.",
+   "confucianism": "Not yet scored from sources; placeholder 0 pending review.",
+   "daoism": "Not yet scored from sources; placeholder 0 pending review.",
+   "buddhism": "Not yet scored from sources; placeholder 0 pending review.",
+   "vedanta": "Not yet scored from sources; placeholder 0 pending review.",
+   "islamic_philosophy": "Not yet scored from sources; placeholder 0 pending review.",
+   "humor": "Not yet scored from sources; placeholder 0 pending review.",
+   "irony": "Not yet scored from sources; placeholder 0 pending review.",
+   "abstraction": "Not yet scored from sources; placeholder 0 pending review.",
+   "hierarchy": "Not yet scored from sources; placeholder 0 pending review."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/New_Atheism"
+  ],
+  "domain": [
+   "religion",
+   "culture"
+  ],
+  "edge_notes": {
+   "new_atheism": {
+    "status": "contested",
+    "type": "schism (2011–12)",
+    "src": "https://grokipedia.com/page/New_Atheism",
+    "note": "moderate"
+   }
+  },
+  "caption": "A 2012 faction inside online atheism that joined atheism to feminism, antiracism and transgender rights. Grokipedia dates it to the aftermath of the 2011 'Elevatorgate' dispute and says it alienated atheists who wanted a narrower focus on religion.",
+  "contested": "It has only one fetched source, Grokipedia's New Atheism page. There is no standalone Grokipedia or Wikipedia page.",
+  "aliases": [
+   "Atheism+"
+  ]
+ },
+ {
+  "id": "anti_sjw_youtube",
+  "name": "Anti-SJW YouTube",
+  "root": false,
+  "year": 2013,
+  "year_approx": true,
+  "place": null,
+  "lat": null,
+  "lon": null,
+  "origin_src": "https://grokipedia.com/page/Thunderf00t",
+  "origin_note": "Thunderf00t's and Carl Benjamin's 2013 video series",
+  "thinkers": [
+   "Thunderf00t (Phil Mason)",
+   "Carl Benjamin (Sargon of Akkad)"
+  ],
+  "parents": [
+   "new_atheism",
+   "atheism_plus"
+  ],
+  "plain": "YouTube commentary, much of it from the online atheist and skeptic scene, that turned from religion to critiques of feminism and social-justice activism.",
+  "summary": "Skeptic YouTube's turn to anti-feminist critique, seen in Thunderf00t's and Carl Benjamin's 2013 videos.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 0,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 0,
+   "hierarchy": 0
+  },
+  "rationale": {
+   "platonism": "Not yet scored from sources; placeholder 0 pending review.",
+   "aristotelianism": "Not yet scored from sources; placeholder 0 pending review.",
+   "stoicism": "Not yet scored from sources; placeholder 0 pending review.",
+   "christianity": "Not yet scored from sources; placeholder 0 pending review.",
+   "gnosticism": "Not yet scored from sources; placeholder 0 pending review.",
+   "hermeticism": "Not yet scored from sources; placeholder 0 pending review.",
+   "enlightenment_liberalism": "Not yet scored from sources; placeholder 0 pending review.",
+   "marxism": "Not yet scored from sources; placeholder 0 pending review.",
+   "darwinism": "Not yet scored from sources; placeholder 0 pending review.",
+   "nietzsche": "Not yet scored from sources; placeholder 0 pending review.",
+   "critical_theory": "Not yet scored from sources; placeholder 0 pending review.",
+   "confucianism": "Not yet scored from sources; placeholder 0 pending review.",
+   "daoism": "Not yet scored from sources; placeholder 0 pending review.",
+   "buddhism": "Not yet scored from sources; placeholder 0 pending review.",
+   "vedanta": "Not yet scored from sources; placeholder 0 pending review.",
+   "islamic_philosophy": "Not yet scored from sources; placeholder 0 pending review.",
+   "humor": "Not yet scored from sources; placeholder 0 pending review.",
+   "irony": "Not yet scored from sources; placeholder 0 pending review.",
+   "abstraction": "Not yet scored from sources; placeholder 0 pending review.",
+   "hierarchy": "Not yet scored from sources; placeholder 0 pending review."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Thunderf00t",
+   "https://grokipedia.com/page/Carl_Benjamin",
+   "https://grokipedia.com/page/New_Atheism"
+  ],
+  "domain": [
+   "culture",
+   "politics"
+  ],
+  "edge_notes": {
+   "new_atheism": {
+    "status": "contested",
+    "type": "genealogy (same creators)",
+    "src": "https://grokipedia.com/page/Thunderf00t",
+    "note": "YES: rests on two YouTubers, and Grokipedia describes it in sympathetic terms"
+   },
+   "atheism_plus": {
+    "status": "contested",
+    "type": "reaction (attributed): critics of Atheism+/feminist currents in online atheism",
+    "src": "https://grokipedia.com/page/Thunderf00t",
+    "note": "YES: no fetched source names Atheism+ itself as the target; Grokipedia ties Thunderf00t's 2013 series to rifts in atheist organizations, including his 2012 removal from Freethought Blogs, where Atheism+ was launched"
+   }
+  },
+  "caption": "YouTube commentary, much of it from the online atheist and skeptic scene, that turned from religion to critiques of feminism and social-justice activism. Grokipedia records Thunderf00t's 2013 series \"Why 'Feminism' is Poisoning Atheism\" and his 'Feminism versus FACTS' series (first video March 14, 2013). It also records Carl Benjamin's first video, 'Anita Sarkeesian Doesn't Understand People' (June 21, 2013), and his early alignment with New Atheist arguments.",
+  "contested": "No fetched source defines 'anti-SJW' as a movement. The node generalizes from two named YouTubers. 'SJW' is a pejorative coinage, so the name is a quoted self-description."
+ },
+ {
+  "id": "gamergate",
+  "name": "Gamergate",
+  "root": false,
+  "year": 2014,
+  "year_approx": false,
+  "place": null,
+  "lat": null,
+  "lon": null,
+  "origin_src": "https://grokipedia.com/page/Gamergate",
+  "origin_note": "A blog post by Eron Gjoni in August 2014",
+  "thinkers": [
+   "Milo Yiannopoulos (as journalist)"
+  ],
+  "parents": [
+   "anti_sjw_youtube",
+   "chan_culture"
+  ],
+  "plain": "An online campaign from August 2014, organized on 4chan, 8chan and Reddit. Supporters framed it as about games-journalism ethics; Wikipedia's sources describe harassment.",
+  "summary": "2014 online campaign; Grokipedia and Wikipedia characterize its nature and aims very differently.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 0,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 0,
+   "hierarchy": 0
+  },
+  "rationale": {
+   "platonism": "Not yet scored from sources; placeholder 0 pending review.",
+   "aristotelianism": "Not yet scored from sources; placeholder 0 pending review.",
+   "stoicism": "Not yet scored from sources; placeholder 0 pending review.",
+   "christianity": "Not yet scored from sources; placeholder 0 pending review.",
+   "gnosticism": "Not yet scored from sources; placeholder 0 pending review.",
+   "hermeticism": "Not yet scored from sources; placeholder 0 pending review.",
+   "enlightenment_liberalism": "Not yet scored from sources; placeholder 0 pending review.",
+   "marxism": "Not yet scored from sources; placeholder 0 pending review.",
+   "darwinism": "Not yet scored from sources; placeholder 0 pending review.",
+   "nietzsche": "Not yet scored from sources; placeholder 0 pending review.",
+   "critical_theory": "Not yet scored from sources; placeholder 0 pending review.",
+   "confucianism": "Not yet scored from sources; placeholder 0 pending review.",
+   "daoism": "Not yet scored from sources; placeholder 0 pending review.",
+   "buddhism": "Not yet scored from sources; placeholder 0 pending review.",
+   "vedanta": "Not yet scored from sources; placeholder 0 pending review.",
+   "islamic_philosophy": "Not yet scored from sources; placeholder 0 pending review.",
+   "humor": "Not yet scored from sources; placeholder 0 pending review.",
+   "irony": "Not yet scored from sources; placeholder 0 pending review.",
+   "abstraction": "Not yet scored from sources; placeholder 0 pending review.",
+   "hierarchy": "Not yet scored from sources; placeholder 0 pending review."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Gamergate",
+   "https://en.wikipedia.org/wiki/Gamergate"
+  ],
+  "domain": [
+   "culture",
+   "politics"
+  ],
+  "edge_notes": {
+   "anti_sjw_youtube": {
+    "status": "contested",
+    "type": "participation",
+    "src": "https://grokipedia.com/page/Carl_Benjamin",
+    "note": "YES: participation is documented, but Benjamin is the only named example"
+   },
+   "chan_culture": {
+    "status": "documented",
+    "type": "venue (4chan, 8chan)",
+    "src": "https://en.wikipedia.org/wiki/Gamergate",
+    "note": "low"
+   }
+  },
+  "caption": "An online campaign that began in August 2014, when a blog post by Eron Gjoni about developer Zoë Quinn set off Gamergate. Supporters framed it as a campaign about ethics in games journalism, and Wikipedia's sources describe a harassment campaign. It was organized on 4chan, 8chan and Reddit. Wikipedia reports that 'social justice warrior' became its supporters' favored term and then entered mainstream use.",
+  "contested": "Grokipedia and Wikipedia characterize the campaign's nature and aims very differently, and both note it had no leaders or agreed goals."
+ },
+ {
+  "id": "alt_right",
+  "name": "Alt-right",
+  "root": false,
+  "year": 2010,
+  "year_approx": false,
+  "place": null,
+  "lat": null,
+  "lon": null,
+  "origin_src": "https://grokipedia.com/page/Richard_B._Spencer",
+  "origin_note": "Spencer launches The Alternative Right webzine in March 2010",
+  "thinkers": [
+   "Richard Spencer"
+  ],
+  "parents": [
+   "chan_culture",
+   "neoreaction",
+   "paleoconservatism"
+  ],
+  "plain": "A movement Wikipedia describes as white nationalist. Richard Spencer launched The Alternative Right webzine in March 2010; the term traces to Paul Gottfried in 2008.",
+  "summary": "Movement named by Spencer's 2010 webzine; Wikipedia says it drew wide attention in 2015 through Breitbart and its support for Trump.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 0,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 0,
+   "hierarchy": 0
+  },
+  "rationale": {
+   "platonism": "Not yet scored from sources; placeholder 0 pending review.",
+   "aristotelianism": "Not yet scored from sources; placeholder 0 pending review.",
+   "stoicism": "Not yet scored from sources; placeholder 0 pending review.",
+   "christianity": "Not yet scored from sources; placeholder 0 pending review.",
+   "gnosticism": "Not yet scored from sources; placeholder 0 pending review.",
+   "hermeticism": "Not yet scored from sources; placeholder 0 pending review.",
+   "enlightenment_liberalism": "Not yet scored from sources; placeholder 0 pending review.",
+   "marxism": "Not yet scored from sources; placeholder 0 pending review.",
+   "darwinism": "Not yet scored from sources; placeholder 0 pending review.",
+   "nietzsche": "Not yet scored from sources; placeholder 0 pending review.",
+   "critical_theory": "Not yet scored from sources; placeholder 0 pending review.",
+   "confucianism": "Not yet scored from sources; placeholder 0 pending review.",
+   "daoism": "Not yet scored from sources; placeholder 0 pending review.",
+   "buddhism": "Not yet scored from sources; placeholder 0 pending review.",
+   "vedanta": "Not yet scored from sources; placeholder 0 pending review.",
+   "islamic_philosophy": "Not yet scored from sources; placeholder 0 pending review.",
+   "humor": "Not yet scored from sources; placeholder 0 pending review.",
+   "irony": "Not yet scored from sources; placeholder 0 pending review.",
+   "abstraction": "Not yet scored from sources; placeholder 0 pending review.",
+   "hierarchy": "Not yet scored from sources; placeholder 0 pending review."
+  },
+  "stories": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Alt-right",
+   "https://grokipedia.com/page/Richard_B._Spencer",
+   "https://grokipedia.com/page/Milo_Yiannopoulos"
+  ],
+  "domain": [
+   "politics",
+   "culture"
+  ],
+  "edge_notes": {
+   "chan_culture": {
+    "status": "contested",
+    "type": "umbrella",
+    "src": "https://en.wikipedia.org/wiki/Alt-right",
+    "note": "Parent from the proposed node; no edge-level evidence in the research file."
+   },
+   "neoreaction": {
+    "status": "contested",
+    "type": "cited influence (Yarvin)",
+    "src": "https://grokipedia.com/page/Milo_Yiannopoulos",
+    "note": "YES: one 2016 polemical article"
+   },
+   "paleoconservatism": {
+    "status": "contested",
+    "type": "term origin (Gottfried)",
+    "src": "https://en.wikipedia.org/wiki/Alt-right",
+    "note": "Term traced to Paul Gottfried's 2008 talk (Wikipedia, Alt-right); Gottfried is a paleoconservative."
+   }
+  },
+  "caption": "A movement that Wikipedia describes as white nationalist. Wikipedia traces the term to Paul Gottfried's 2008 talk; Richard Spencer launched The Alternative Right webzine in March 2010 and helped popularize the label. Wikipedia reports that after Gamergate it made more use of trolling and harassment, and that it drew wide attention in 2015 through Breitbart News coverage and its support for Trump.",
+  "contested": "Gamergate is not a parent: the alt-right (2010) predates it (2014). The sources support only amplification (Neiwert says Gamergate 'heralded' its rise; Hawley), and Vice News, as quoted on Wikipedia's Gamergate page, says 'the majority of Gamergaters resent the affiliation'. The neoreaction parent rests on the Yiannopoulos–Bokhari 2016 Breitbart article as Grokipedia summarizes it. No Grokipedia Alt-right page exists. A pre-2010 paleoconservatism parent (Gottfried) may be worth adding if that node exists."
+ },
+ {
+  "id": "alt_lite",
+  "name": "Alt-lite",
+  "root": false,
+  "year": 2016,
+  "year_approx": true,
+  "place": null,
+  "lat": null,
+  "lon": null,
+  "origin_src": "https://grokipedia.com/page/Milo_Yiannopoulos",
+  "origin_note": "The term entered wide use in late 2016",
+  "thinkers": [
+   "Milo Yiannopoulos",
+   "Mike Cernovich",
+   "Gavin McInnes"
+  ],
+  "parents": [
+   "gamergate",
+   "alt_right"
+  ],
+  "plain": "A label for pro-Trump, culturally nationalist commentators who rejected the alt-right's ethnic nationalism. Hawley says white nationalists coined it as a pejorative.",
+  "summary": "Mostly an outside label; the split from the alt-right followed Spencer's November 2016 'Hail Trump' speech.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 0,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 0,
+   "hierarchy": 0
+  },
+  "rationale": {
+   "platonism": "Not yet scored from sources; placeholder 0 pending review.",
+   "aristotelianism": "Not yet scored from sources; placeholder 0 pending review.",
+   "stoicism": "Not yet scored from sources; placeholder 0 pending review.",
+   "christianity": "Not yet scored from sources; placeholder 0 pending review.",
+   "gnosticism": "Not yet scored from sources; placeholder 0 pending review.",
+   "hermeticism": "Not yet scored from sources; placeholder 0 pending review.",
+   "enlightenment_liberalism": "Not yet scored from sources; placeholder 0 pending review.",
+   "marxism": "Not yet scored from sources; placeholder 0 pending review.",
+   "darwinism": "Not yet scored from sources; placeholder 0 pending review.",
+   "nietzsche": "Not yet scored from sources; placeholder 0 pending review.",
+   "critical_theory": "Not yet scored from sources; placeholder 0 pending review.",
+   "confucianism": "Not yet scored from sources; placeholder 0 pending review.",
+   "daoism": "Not yet scored from sources; placeholder 0 pending review.",
+   "buddhism": "Not yet scored from sources; placeholder 0 pending review.",
+   "vedanta": "Not yet scored from sources; placeholder 0 pending review.",
+   "islamic_philosophy": "Not yet scored from sources; placeholder 0 pending review.",
+   "humor": "Not yet scored from sources; placeholder 0 pending review.",
+   "irony": "Not yet scored from sources; placeholder 0 pending review.",
+   "abstraction": "Not yet scored from sources; placeholder 0 pending review.",
+   "hierarchy": "Not yet scored from sources; placeholder 0 pending review."
+  },
+  "stories": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Alt-lite",
+   "https://en.wikipedia.org/wiki/Alt-right",
+   "https://grokipedia.com/page/Milo_Yiannopoulos"
+  ],
+  "domain": [
+   "politics",
+   "culture"
+  ],
+  "edge_notes": {
+   "gamergate": {
+    "status": "contested",
+    "type": "person (Yiannopoulos at Breitbart, Sept 2014)",
+    "src": "https://grokipedia.com/page/Gamergate",
+    "note": "moderate: 'alt-lite' is a rival/outside label that Yiannopoulos rejected"
+   },
+   "alt_right": {
+    "status": "contested",
+    "type": "split / naming (Nov 2016 'Hail Trump' speech)",
+    "src": "https://en.wikipedia.org/wiki/Alt-lite",
+    "note": "moderate: Hawley and ADL framing"
+   }
+  },
+  "caption": "A label for pro-Trump, culturally nationalist commentators who rejected the alt-right's ethnic nationalism. Political scientist George Hawley writes that white nationalists coined the term as a pejorative, and the ADL's 2017 guide classified commentators as alt-right or alt-lite. Wikipedia dates the split to reactions to Spencer's November 2016 'Hail Trump' speech; the August 2017 Unite the Right rally exacerbated it. Yiannopoulos insisted he had 'nothing in common' with Spencer.",
+  "contested": "The term is mostly an outside or rival label, and its characterization relies on Hawley and the ADL. 2016 marks when the term entered wide use (late 2016), not a founding date; Wikipedia says the concept emerged in 2017."
+ },
+ {
+  "id": "online_right",
+  "name": "Online right",
+  "root": false,
+  "year": 2016,
+  "year_approx": true,
+  "place": null,
+  "lat": null,
+  "lon": null,
+  "origin_src": "https://grokipedia.com/page/Milo_Yiannopoulos",
+  "origin_note": "Coalesced around the 2016 US election; no founding date",
+  "thinkers": [],
+  "parents": [
+   "alt_right",
+   "alt_lite",
+   "chan_culture"
+  ],
+  "plain": "A loose umbrella term for the internet-native right-wing commentary and subcultures that coalesced around the 2016 US election.",
+  "summary": "Loose, contested umbrella term with no defining source or founding date.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 0,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 0,
+   "hierarchy": 0
+  },
+  "rationale": {
+   "platonism": "Not yet scored from sources; placeholder 0 pending review.",
+   "aristotelianism": "Not yet scored from sources; placeholder 0 pending review.",
+   "stoicism": "Not yet scored from sources; placeholder 0 pending review.",
+   "christianity": "Not yet scored from sources; placeholder 0 pending review.",
+   "gnosticism": "Not yet scored from sources; placeholder 0 pending review.",
+   "hermeticism": "Not yet scored from sources; placeholder 0 pending review.",
+   "enlightenment_liberalism": "Not yet scored from sources; placeholder 0 pending review.",
+   "marxism": "Not yet scored from sources; placeholder 0 pending review.",
+   "darwinism": "Not yet scored from sources; placeholder 0 pending review.",
+   "nietzsche": "Not yet scored from sources; placeholder 0 pending review.",
+   "critical_theory": "Not yet scored from sources; placeholder 0 pending review.",
+   "confucianism": "Not yet scored from sources; placeholder 0 pending review.",
+   "daoism": "Not yet scored from sources; placeholder 0 pending review.",
+   "buddhism": "Not yet scored from sources; placeholder 0 pending review.",
+   "vedanta": "Not yet scored from sources; placeholder 0 pending review.",
+   "islamic_philosophy": "Not yet scored from sources; placeholder 0 pending review.",
+   "humor": "Not yet scored from sources; placeholder 0 pending review.",
+   "irony": "Not yet scored from sources; placeholder 0 pending review.",
+   "abstraction": "Not yet scored from sources; placeholder 0 pending review.",
+   "hierarchy": "Not yet scored from sources; placeholder 0 pending review."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Milo_Yiannopoulos",
+   "https://en.wikipedia.org/wiki/Alt-right"
+  ],
+  "domain": [
+   "politics",
+   "culture"
+  ],
+  "edge_notes": {
+   "alt_right": {
+    "status": "contested",
+    "type": "umbrella",
+    "src": "https://grokipedia.com/page/Milo_Yiannopoulos",
+    "note": "Parent from the proposed node; no edge-level evidence in the research file."
+   },
+   "alt_lite": {
+    "status": "contested",
+    "type": "umbrella",
+    "src": "https://grokipedia.com/page/Milo_Yiannopoulos",
+    "note": "YES: loose umbrella node with no defining source; boundaries disputed"
+   },
+   "chan_culture": {
+    "status": "contested",
+    "type": "umbrella",
+    "src": "https://grokipedia.com/page/Milo_Yiannopoulos",
+    "note": "Parent from the proposed node; no edge-level evidence in the research file."
+   }
+  },
+  "caption": "A loose umbrella term for the internet-native right-wing commentary and subcultures that coalesced around the 2016 US election. Grokipedia says Breitbart under Steve Bannon 'amplified anti-establishment rhetoric resonant with emerging online right-wing subcultures' in 2016.",
+  "contested": "YES: loose umbrella term. No fetched source defines it, it has no founding date, and its boundaries (which of alt_right, alt_lite, chan_culture, maga and others it includes) are disputed. Kept as a node per MemeBot."
  }
 ]
