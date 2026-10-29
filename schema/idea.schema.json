@@ -59,6 +59,12 @@
       "origin_note": {
         "type": "string"
       },
+      "caption": {
+        "type": "string"
+      },
+      "contested": {
+        "type": "string"
+      },
       "place": {
         "type": [
           "string",

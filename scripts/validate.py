@@ -35,7 +35,10 @@ for d in ideas:
   for a in ("hierarchy","abstraction"):
     if a not in AX: E.append(f"stance axis {a} missing (map layout needs it)")
     elif not isinstance(d["ratings"].get(a),int): E.append(f"{i}: stance {a} must be scored (map layout)")
-  if "wikipedia.org" in str(d.get("origin_src","")) or any("wikipedia.org" in u for u in d["sources"]): E.append(f"{i}: Wikipedia source; use Grokipedia")
+  # House rule: Grokipedia first; en.wikipedia.org and plato.stanford.edu are allowed only as fallbacks beside a Grokipedia source.
+  SU=[d.get("origin_src") or ""]+d["sources"]
+  if any("wikipedia.org" in u and not u.startswith("https://en.wikipedia.org/wiki/") for u in SU): E.append(f"{i}: only en.wikipedia.org is allowed as a Wikipedia fallback")
+  if any(u.startswith(("https://en.wikipedia.org/","https://plato.stanford.edu/")) for u in SU) and not any(u.startswith("https://grokipedia.com/page/") for u in SU): E.append(f"{i}: Wikipedia/SEP fallback without a Grokipedia source; use Grokipedia first")
   for u in [d.get("origin_src") or ""]+d["sources"]:
     if u and not u.startswith(("https://grokipedia.com/page/","https://plato.stanford.edu/","https://iep.utm.edu/")): W.append(f"{i}: non-Grokipedia source {u}")
   if not isinstance(d.get("root"),bool): E.append(f"{i}: root not bool")
