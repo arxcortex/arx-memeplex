@@ -9,7 +9,6 @@
       "id",
       "name",
       "root",
-      "root_axis",
       "year",
       "year_approx",
       "origin_src",
@@ -157,6 +156,76 @@
         "items": {
           "type": "string"
         }
+      },
+      "aliases": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "uniqueItems": true
+      },
+      "parent_note": {
+        "type": "string",
+        "description": "Why an idea has no or unusual parents"
+      },
+      "edge_notes": {
+        "type": "object",
+        "description": "Keyed by parent id",
+        "additionalProperties": {
+          "type": "object",
+          "required": [
+            "status",
+            "src",
+            "note"
+          ],
+          "properties": {
+            "status": {
+              "type": "string"
+            },
+            "type": {
+              "type": "string"
+            },
+            "src": {
+              "type": "string",
+              "pattern": "^https://"
+            },
+            "note": {
+              "type": "string"
+            }
+          },
+          "additionalProperties": true
+        }
+      },
+      "thrives_in": {
+        "type": "object",
+        "properties": {
+          "historical": {
+            "type": "boolean"
+          },
+          "places": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "place"
+              ],
+              "properties": {
+                "place": {
+                  "type": "string"
+                },
+                "src": {
+                  "type": "string",
+                  "pattern": "^https://"
+                },
+                "note": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": true
+            }
+          }
+        },
+        "additionalProperties": true
       }
     }
   }
