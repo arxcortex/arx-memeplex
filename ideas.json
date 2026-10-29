@@ -8118,6 +8118,116 @@
   ]
  },
  {
+  "id": "tibetan_buddhism",
+  "name": "Tibetan Buddhism",
+  "root": false,
+  "root_axis": null,
+  "year": 779,
+  "year_approx": true,
+  "origin_src": "https://grokipedia.com/page/Tibetan_Buddhism",
+  "origin_note": "Buddhism reached Tibet under Songtsen Gampo (7th c.); its institutional origin is Samye Monastery, founded c. 779 by Trisong Detsen who invited Indian masters including Shantarakshita and Padmasambhava",
+  "place": "Samye",
+  "lat": 29.33,
+  "lon": 91.5,
+  "thinkers": [
+   "Trisong Detsen",
+   "Shantarakshita",
+   "Padmasambhava",
+   "Tsongkhapa"
+  ],
+  "parents": [
+   "vajrayana"
+  ],
+  "plain": "Tibet's form of tantric Buddhism, built on Indian Mahayana teaching and run through monasteries, reincarnate lamas and, later, the Dalai Lamas.",
+  "summary": "Vajrayana as built in Tibet from 779: four schools (Nyingma, Kagyu, Sakya, Gelug), reincarnate lamas and a monastic state under the Dalai Lamas.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 0,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 5,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 3,
+   "hierarchy": 5
+  },
+  "rationale": {
+   "platonism": "No real link to Platonism.",
+   "aristotelianism": "No real link to Aristotelianism.",
+   "stoicism": "No real link to Stoicism.",
+   "christianity": "No real link to Christianity.",
+   "gnosticism": "No real link to Gnosticism.",
+   "hermeticism": "No real link to Hermeticism.",
+   "enlightenment_liberalism": "No real link to Enlightenment liberalism.",
+   "marxism": "No real link to Marxism.",
+   "darwinism": "No real link to Darwinism.",
+   "nietzsche": "No real link to Nietzsche.",
+   "critical_theory": "No real link to critical theory.",
+   "confucianism": "No real link to Confucianism.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "A form of Vajrayana blending Indian Mahayana doctrine and tantric practice (Grokipedia, Tibetan Buddhism).",
+   "vedanta": "Inherited Indian tantra secondhand via Vajrayana; no direct Vedanta tie.",
+   "islamic_philosophy": "No real link to Islamic philosophy.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Not carried in an ironic tone.",
+   "abstraction": "Gelug stresses logical debate and scriptural study; tantra works through visualization.",
+   "hierarchy": "Reincarnate lamas and the Dalai Lama as ruler of a monastic state (Grokipedia, Tibetan Buddhism)."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Tibetan_Buddhism",
+   "https://grokipedia.com/page/Samye",
+   "https://grokipedia.com/page/Vajrayana"
+  ],
+  "domain": [
+   "religion"
+  ],
+  "aliases": [
+   "Lamaism",
+   "Himalayan Buddhism"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Tibet",
+     "period": "779–present",
+     "src": "https://grokipedia.com/page/Tibetan_Buddhism",
+     "note": "Founded at Samye c. 779; Gelug theocracy ruled from Lhasa's Potala from the 17th c. to 1959."
+    },
+    {
+     "place": "Mongolia",
+     "period": "1270–present",
+     "src": "https://grokipedia.com/page/Tibetan_Buddhism",
+     "note": "Spread under Yuan patronage of Sakya; reintroduced after 1990, Gelug-influenced."
+    },
+    {
+     "place": "Bhutan",
+     "src": "https://grokipedia.com/page/Tibetan_Buddhism",
+     "note": "Exile settlements across India, Nepal and Bhutan (Grokipedia, Tibetan Buddhism)."
+    },
+    {
+     "place": "India",
+     "period": "1959–present",
+     "src": "https://grokipedia.com/page/Tibetan_Buddhism",
+     "note": "Dalai Lama's exile since 1959; about 100,000 Tibetans in India."
+    }
+   ]
+  },
+  "parent_note": "Grokipedia describes it as a form of Vajrayana Buddhism."
+ },
+ {
   "id": "mohism",
   "name": "Mohism",
   "root": false,
@@ -8279,10 +8389,10 @@
   "name": "Old Norse religion",
   "root": false,
   "root_axis": null,
-  "year": 1270,
+  "year": 800,
   "year_approx": true,
   "origin_src": "https://grokipedia.com/page/Old_Norse_religion",
-  "origin_note": "Known mainly from Icelandic manuscripts such as the Codex Regius (c. 1270), written after Christianization",
+  "origin_note": "Practiced from the late Iron Age through the Viking Age (c. 793–1066), continuing earlier Germanic traditions; Christian Icelanders recorded its myths after conversion, chiefly in the Codex Regius (c. 1270).",
   "place": "Iceland",
   "lat": 64.15,
   "lon": -21.94,
@@ -8316,7 +8426,7 @@
    "platonism": "No real link to platonism.",
    "aristotelianism": "No real link to aristotelianism.",
    "stoicism": "No real link to stoicism.",
-   "christianity": "Recorded by Christians after the conversion and blended with Christianity; the link here is that influence.",
+   "christianity": "Recorded by Christian Icelanders after the conversion; Christian influence shaped the written myths, but the religion does not descend from Christianity.",
    "gnosticism": "No real link to gnosticism.",
    "hermeticism": "No real link to hermeticism.",
    "enlightenment_liberalism": "No real link to enlightenment_liberalism.",
@@ -8340,7 +8450,8 @@
   ],
   "domain": [
    "religion"
-  ]
+  ],
+  "parent_note": "No parent idea on the map; it continued earlier Germanic traditions."
  },
  {
   "id": "yungdrung_bon",
