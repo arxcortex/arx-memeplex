@@ -1,6 +1,6 @@
 # Later-era update nodes, batch 1
 
-Five new ideas (164 total): Neo-Thomism (1879, Rome), Neostoicism (1584, Leiden), Modern synthesis (1942), Western Marxism (1923, Vienna), New Confucianism (1921, Republican China). Each has a sourced year, place, thinkers, plain text, scores on all 20 axes with one-line reasons, thrives_in, domain, edge_notes and aliases. thinkers.json gains 23 names (18 Grokipedia, 5 Wikipedia where no Grokipedia page exists).
+Five new ideas (164 total): Neo-Thomism (1879, Rome), Neostoicism (1584, Leiden), Modern synthesis (1942), Western Marxism (1923, Vienna), New Confucianism (1921, Republican China). Each has a sourced year, place, thinkers, plain text, scores on all 20 axes with one-line reasons, thrives_in, domain, edge_notes and aliases. thinkers.json gains 23 names (17 Grokipedia, 6 Wikipedia where no Grokipedia page exists).
 
 Also: parent_note on epicureanism and islam, which had no parents and no note.
 
