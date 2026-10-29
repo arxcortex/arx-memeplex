@@ -695,7 +695,8 @@
   ],
   "parents": [
    "thomism",
-   "hermetic_correspondence"
+   "hermetic_correspondence",
+   "neoplatonism"
   ],
   "plain": "Scholars in Italy revived ancient Greek and Roman books and celebrated human learning, talent and dignity.",
   "summary": "Humanists revive classical texts and praise human dignity and learning.",
@@ -1689,7 +1690,8 @@
   "parents": [
    "will_to_power",
    "neoliberalism",
-   "postmodernism"
+   "postmodernism",
+   "accelerationism"
   ],
   "plain": "Neoreactionaries reject democracy and propose rule by a single leader or a company-like state instead.",
   "summary": "Neoreactionaries reject democracy and propose rule modeled on monarchy or the corporation.",
@@ -2289,7 +2291,9 @@
   ],
   "parents": [
    "hermetic_correspondence",
-   "neoplatonism"
+   "neoplatonism",
+   "advaita_vedanta",
+   "sufism"
   ],
   "plain": "René Guénon and others claimed one ancient wisdom lies beneath all great religions, and saw the modern world as a decline from it.",
   "summary": "Traditionalists claim one ancient wisdom lies under all the great religions and that the modern world is a decline.",
@@ -2498,7 +2502,7 @@
  },
  {
   "id": "apostolic_christianity",
-  "name": "Apostolic Christianity (the shared church before the 1054 split)",
+  "name": "Apostolic Christianity",
   "root": false,
   "root_axis": null,
   "year": 325,
@@ -2572,11 +2576,15 @@
   ],
   "domain": [
    "religion"
+  ],
+  "aliases": [
+   "early church",
+   "undivided church"
   ]
  },
  {
   "id": "oriental_orthodoxy",
-  "name": "Oriental Orthodoxy (after 451)",
+  "name": "Oriental Orthodoxy",
   "root": false,
   "root_axis": null,
   "year": 451,
@@ -2646,6 +2654,9 @@
   ],
   "domain": [
    "religion"
+  ],
+  "aliases": [
+   "non-Chalcedonian churches"
   ]
  },
  {
@@ -2879,7 +2890,7 @@
  },
  {
   "id": "protestantism",
-  "name": "Protestantism (Lutheranism)",
+  "name": "Protestantism",
   "root": false,
   "root_axis": null,
   "year": 1517,
@@ -2898,7 +2909,7 @@
    "augustinian_grace"
   ],
   "plain": "Martin Luther protested against the sale of indulgences and taught that people are saved by faith alone, through God's grace, with the Bible as the final authority.",
-  "summary": "Luther's 1517 protest: salvation by faith alone through God's grace, with the Bible as the final authority.",
+  "summary": "Luther's 1517 protest: salvation by faith alone through God's grace, with the Bible as the final authority. Began as Lutheranism.",
   "ratings": {
    "platonism": 1,
    "aristotelianism": -2,
@@ -2953,6 +2964,9 @@
   ],
   "domain": [
    "religion"
+  ],
+  "aliases": [
+   "Lutheranism"
   ]
  },
  {
@@ -3266,7 +3280,7 @@
  },
  {
   "id": "tridentine_catholicism",
-  "name": "Counter-Reformation (Tridentine) Catholicism",
+  "name": "Counter-Reformation Catholicism",
   "root": false,
   "root_axis": null,
   "year": 1545,
@@ -3285,7 +3299,7 @@
    "thomism"
   ],
   "plain": "The Catholic answer to the Reformation. The Council of Trent restated doctrine against Protestant teaching, reformed clergy training, and tightened church discipline.",
-  "summary": "Catholicism after the Council of Trent (1545-63): doctrine restated against Protestants, clergy reformed, discipline tightened.",
+  "summary": "Catholicism after the Council of Trent (1545-63): doctrine restated against Protestants, clergy reformed, discipline tightened. Also called Tridentine Catholicism.",
   "ratings": {
    "platonism": 2,
    "aristotelianism": 4,
@@ -3339,6 +3353,11 @@
   ],
   "domain": [
    "religion"
+  ],
+  "aliases": [
+   "Tridentine",
+   "Tridentine Catholicism",
+   "Counter-Reformation"
   ]
  },
  {
@@ -3726,7 +3745,7 @@
  },
  {
   "id": "daoist_way",
-  "name": "The Dao (Tao Te Ching)",
+  "name": "The Dao",
   "root": true,
   "year": -300,
   "year_approx": true,
@@ -3796,6 +3815,11 @@
   "root_axis": "daoism",
   "domain": [
    "religion"
+  ],
+  "aliases": [
+   "Tao Te Ching",
+   "Daoism",
+   "Taoism"
   ]
  },
  {
@@ -3871,7 +3895,7 @@
  },
  {
   "id": "upanishadic_brahman",
-  "name": "Brahman and Atman (Upanishads)",
+  "name": "Brahman and Atman",
   "root": true,
   "year": -700,
   "year_approx": true,
@@ -3939,6 +3963,9 @@
   "root_axis": "vedanta",
   "domain": [
    "religion"
+  ],
+  "aliases": [
+   "Upanishads"
   ]
  },
  {
@@ -3957,6 +3984,7 @@
    "al-Farabi"
   ],
   "parents": [
+   "islam",
    "aristotelian_teleology",
    "neoplatonism"
   ],
@@ -4243,7 +4271,7 @@
  },
  {
   "id": "madhyamaka",
-  "name": "Madhyamaka (Mahayana emptiness)",
+  "name": "Madhyamaka",
   "root": false,
   "year": 150,
   "year_approx": true,
@@ -4259,7 +4287,7 @@
    "buddhas_dharma"
   ],
   "plain": "Nagarjuna, a Mahayana thinker, argued that nothing exists on its own: everything is 'empty', existing only through its links to other things.",
-  "summary": "Nagarjuna argues that all things are empty of fixed nature and exist only through relations.",
+  "summary": "Nagarjuna argues that all things are empty of fixed nature and exist only through relations. Mahayana teaching on emptiness.",
   "ratings": {
    "platonism": 0,
    "aristotelianism": 0,
@@ -4312,6 +4340,9 @@
   ],
   "domain": [
    "religion"
+  ],
+  "aliases": [
+   "Mahayana emptiness"
   ]
  },
  {
@@ -4473,13 +4504,17 @@
   "origin_note": "Ascetic movement emerges in Basra and Kufa, late 7th to early 8th century",
   "thinkers": [
    "Hasan al-Basri",
+   "al-Ghazali",
    "Rumi"
   ],
-  "parents": [],
+  "parents": [
+   "islam",
+   "neoplatonism"
+  ],
   "plain": "Sufism is the inward, mystical path of Islam. Sufis seek closeness to God through prayer, remembrance and giving up worldly attachment.",
   "summary": "Sufis seek closeness to God through prayer, remembrance and detachment from the world.",
   "ratings": {
-   "platonism": 0,
+   "platonism": 1,
    "aristotelianism": 0,
    "stoicism": 0,
    "christianity": 0,
@@ -4501,7 +4536,7 @@
    "hierarchy": 2
   },
   "rationale": {
-   "platonism": "No real link to Platonism.",
+   "platonism": "Some scholars see Neoplatonic echoes in its idea of the soul rising to God; others dispute it.",
    "aristotelianism": "No real link to Aristotelianism.",
    "stoicism": "No real link to Stoicism.",
    "christianity": "No real link to Christianity.",
@@ -4525,11 +4560,19 @@
   "stories": [],
   "sources": [
    "https://grokipedia.com/page/Sufism",
-   "https://grokipedia.com/page/Rumi"
+   "https://grokipedia.com/page/Rumi",
+   "https://grokipedia.com/page/Al-Ghazali"
   ],
   "domain": [
    "religion"
-  ]
+  ],
+  "edge_notes": {
+   "neoplatonism": {
+    "status": "contested",
+    "src": "https://grokipedia.com/page/Sufism",
+    "note": "Scholars debate how much Neoplatonism shaped Sufism; shared heritage, not direct adoption."
+   }
+  }
  },
  {
   "id": "asharism",
@@ -4546,7 +4589,9 @@
    "al-Ash'ari",
    "al-Ghazali"
   ],
-  "parents": [],
+  "parents": [
+   "kalam"
+  ],
   "plain": "Ash'arism is a school of Sunni theology. It says God directly causes every event, and that reason must serve revelation, not judge it.",
   "summary": "Al-Ash'ari's school holds that God directly causes all events and that reason serves revelation.",
   "ratings": {
@@ -6653,7 +6698,7 @@
  },
  {
   "id": "american_communism",
-  "name": "American communism (CPUSA)",
+  "name": "American communism",
   "root": false,
   "root_axis": null,
   "year": 1919,
@@ -6673,7 +6718,7 @@
    "comintern"
   ],
   "plain": "The Communist Party USA formed in 1919 after the Russian Revolution. It took orders and money from Moscow, organized unions in the 1930s, and peaked around 1939.",
-  "summary": "America's Marxist-Leninist party, founded 1919 and tied to Moscow; strongest in the Depression and World War II years.",
+  "summary": "America's Marxist-Leninist party, founded 1919 and tied to Moscow; strongest in the Depression and World War II years. Mainly the CPUSA.",
   "ratings": {
    "platonism": 0,
    "aristotelianism": 0,
@@ -6726,6 +6771,10 @@
   ],
   "domain": [
    "politics"
+  ],
+  "aliases": [
+   "CPUSA",
+   "Communist Party USA"
   ]
  },
  {
@@ -7336,7 +7385,7 @@
  },
  {
   "id": "rationalist_community",
-  "name": "Rationalists (LessWrong)",
+  "name": "Rationalists",
   "root": false,
   "root_axis": null,
   "year": 2009,
@@ -7354,7 +7403,7 @@
    "utilitarianism"
   ],
   "plain": "An online community started on the LessWrong blog that tries to think more clearly: weigh evidence like a probability, watch for biases, and worry about AI risk.",
-  "summary": "Online movement to sharpen reasoning with probability and bias-spotting, closely tied to AI safety and effective altruism.",
+  "summary": "Online movement to sharpen reasoning with probability and bias-spotting, closely tied to AI safety and effective altruism. Centered on LessWrong.",
   "ratings": {
    "platonism": 0,
    "aristotelianism": 0,
@@ -7407,11 +7456,14 @@
   "domain": [
    "philosophy",
    "culture"
+  ],
+  "aliases": [
+   "LessWrong"
   ]
  },
  {
   "id": "chan_culture",
-  "name": "Chan culture (4chan)",
+  "name": "Chan culture",
   "root": false,
   "root_axis": null,
   "year": 2003,
@@ -7480,11 +7532,14 @@
   ],
   "domain": [
    "culture"
+  ],
+  "aliases": [
+   "4chan"
   ]
  },
  {
   "id": "effective_accelerationism",
-  "name": "Effective accelerationism (e/acc)",
+  "name": "Effective accelerationism",
   "root": false,
   "root_axis": null,
   "year": 2022,
@@ -7502,7 +7557,7 @@
    "effective_altruism"
   ],
   "plain": "An online tech movement that says speed up AI and technology as fast as possible, with markets not regulators in charge. It formed as a rebuttal to AI-safety caution.",
-  "summary": "Pro-tech movement for maximal AI progress via markets, against AI pauses; borrows EA's framing and Land's accelerationism.",
+  "summary": "Pro-tech movement for maximal AI progress via markets, against AI pauses; borrows EA's framing and Land's accelerationism. Also called e/acc.",
   "ratings": {
    "platonism": 0,
    "aristotelianism": 0,
@@ -7554,11 +7609,15 @@
   "domain": [
    "culture",
    "philosophy"
+  ],
+  "aliases": [
+   "e/acc",
+   "eacc"
   ]
  },
  {
   "id": "jingjiao",
-  "name": "Jingjiao (Tang-dynasty Christianity)",
+  "name": "Jingjiao",
   "root": false,
   "root_axis": null,
   "year": 635,
@@ -7576,7 +7635,7 @@
    "daoist_way"
   ],
   "plain": "Monks of the Church of the East brought Christianity to Tang China, where it was called the \"religion of light\".",
-  "summary": "Church of the East Christianity in Tang China, the \"religion of light\" (Jingjiao).",
+  "summary": "Church of the East Christianity in Tang China, the \"religion of light\" (Jingjiao). Tang-dynasty Christianity.",
   "ratings": {
    "platonism": 0,
    "aristotelianism": 0,
@@ -7628,11 +7687,14 @@
   ],
   "domain": [
    "religion"
+  ],
+  "aliases": [
+   "Tang-dynasty Christianity"
   ]
  },
  {
   "id": "jesuit_accommodation",
-  "name": "Jesuit accommodation in China (Ricci)",
+  "name": "Jesuit accommodation in China",
   "root": false,
   "root_axis": null,
   "year": 1583,
@@ -7651,7 +7713,7 @@
    "confucian_ethics"
   ],
   "plain": "Jesuits in China adapted to Chinese language and customs and allowed Confucian rites, until Rome banned the rites in 1704, 1715 and 1742.",
-  "summary": "Jesuit mission strategy in China that accommodated Confucian rites.",
+  "summary": "Jesuit mission strategy in China that accommodated Confucian rites. Led by Matteo Ricci.",
   "ratings": {
    "platonism": 0,
    "aristotelianism": 1,
@@ -7703,6 +7765,9 @@
   ],
   "domain": [
    "religion"
+  ],
+  "aliases": [
+   "Ricci"
   ]
  },
  {
@@ -7778,7 +7843,7 @@
  },
  {
   "id": "kokugaku",
-  "name": "Kokugaku (National Learning)",
+  "name": "Kokugaku",
   "root": false,
   "root_axis": null,
   "year": 1728,
@@ -7798,7 +7863,7 @@
    "neo_confucianism"
   ],
   "plain": "Japanese scholars went back to the oldest native texts to recover the \"way of the kami\" from Chinese and Buddhist influence.",
-  "summary": "Edo-period movement reviving ancient Japanese texts and Shinto against Chinese learning.",
+  "summary": "Edo-period movement reviving ancient Japanese texts and Shinto against Chinese learning. Means National Learning.",
   "ratings": {
    "platonism": 0,
    "aristotelianism": 0,
@@ -7851,11 +7916,14 @@
   "domain": [
    "religion",
    "philosophy"
+  ],
+  "aliases": [
+   "National Learning"
   ]
  },
  {
   "id": "pure_land",
-  "name": "Pure Land Buddhism (Jodo-shu)",
+  "name": "Pure Land Buddhism",
   "root": false,
   "root_axis": null,
   "year": 1175,
@@ -7873,7 +7941,7 @@
    "madhyamaka"
   ],
   "plain": "Salvation by calling on the name of Amitabha Buddha and trusting his vow, open to ordinary lay people.",
-  "summary": "Devotion to Amitabha Buddha through recitation of his name (nembutsu).",
+  "summary": "Devotion to Amitabha Buddha through recitation of his name (nembutsu). Jodo-shu in Japan.",
   "ratings": {
    "platonism": 0,
    "aristotelianism": 0,
@@ -7925,11 +7993,14 @@
   ],
   "domain": [
    "religion"
+  ],
+  "aliases": [
+   "Jodo-shu"
   ]
  },
  {
   "id": "vajrayana",
-  "name": "Vajrayana (Tantric Buddhism)",
+  "name": "Vajrayana",
   "root": false,
   "root_axis": null,
   "year": 600,
@@ -7946,7 +8017,7 @@
    "madhyamaka"
   ],
   "plain": "An esoteric branch of Buddhism using ritual, mantra and visualization, passed from teacher to student.",
-  "summary": "Esoteric Mahayana Buddhism of tantras, mantras and guru lineages.",
+  "summary": "Esoteric Mahayana Buddhism of tantras, mantras and guru lineages. Also called Tantric Buddhism.",
   "ratings": {
    "platonism": 0,
    "aristotelianism": 0,
@@ -7997,6 +8068,9 @@
   ],
   "domain": [
    "religion"
+  ],
+  "aliases": [
+   "Tantric Buddhism"
   ]
  },
  {
@@ -8161,9 +8235,7 @@
   "lat": 64.15,
   "lon": -21.94,
   "thinkers": [],
-  "parents": [
-   "christianity"
-  ],
+  "parents": [],
   "plain": "The gods, giants and fate of the Viking-age Norse, known mostly from poems written down by Christian Icelanders.",
   "summary": "Pre-Christian Norse religion of Odin and Thor, recorded in Icelandic manuscripts.",
   "ratings": {
@@ -8292,7 +8364,7 @@
  },
  {
   "id": "modern_druidry",
-  "name": "Modern Druidry (Druid revival)",
+  "name": "Modern Druidry",
   "root": false,
   "root_axis": null,
   "year": 1964,
@@ -8363,11 +8435,14 @@
   ],
   "domain": [
    "religion"
+  ],
+  "aliases": [
+   "Druid revival"
   ]
  },
  {
   "id": "rodnovery",
-  "name": "Rodnovery (Slavic Native Faith)",
+  "name": "Rodnovery",
   "root": false,
   "root_axis": null,
   "year": 1964,
@@ -8438,11 +8513,14 @@
   "domain": [
    "religion",
    "politics"
+  ],
+  "aliases": [
+   "Slavic Native Faith"
   ]
  },
  {
   "id": "romuva",
-  "name": "Romuva (Baltic faith)",
+  "name": "Romuva",
   "root": false,
   "root_axis": null,
   "year": 1967,
@@ -8512,11 +8590,14 @@
   ],
   "domain": [
    "religion"
+  ],
+  "aliases": [
+   "Baltic faith"
   ]
  },
  {
   "id": "heathenry",
-  "name": "Heathenry (Ásatrú)",
+  "name": "Heathenry",
   "root": false,
   "root_axis": null,
   "year": 1972,
@@ -8535,7 +8616,7 @@
    "nationalism"
   ],
   "plain": "A modern revival of the Norse and Germanic gods, such as Odin and Thor, recognized as a religion in Iceland.",
-  "summary": "Modern Germanic paganism reviving the Norse gods.",
+  "summary": "Modern Germanic paganism reviving the Norse gods. Also called Asatru.",
   "ratings": {
    "platonism": 0,
    "aristotelianism": 0,
@@ -8586,11 +8667,15 @@
   ],
   "domain": [
    "religion"
+  ],
+  "aliases": [
+   "Ásatrú",
+   "Asatru"
   ]
  },
  {
   "id": "hellenism_revival",
-  "name": "Hellenism (modern Greek polytheism)",
+  "name": "Hellenism",
   "root": false,
   "root_axis": null,
   "year": 1997,
@@ -8657,6 +8742,10 @@
   ],
   "domain": [
    "religion"
+  ],
+  "aliases": [
+   "modern Greek polytheism",
+   "Hellenic polytheism"
   ]
  },
  {
@@ -9036,7 +9125,7 @@
  },
  {
   "id": "nazism",
-  "name": "National Socialism (Nazism)",
+  "name": "National Socialism",
   "root": false,
   "root_axis": null,
   "year": 1920,
@@ -9060,7 +9149,7 @@
    "racial_hygiene"
   ],
   "plain": "National Socialism put the racial folk community above the individual, under one leader. Ruling Germany 1933-45, it started World War II in 1939 and carried out the Holocaust.",
-  "summary": "Hitler's movement: a racial folk community, leader principle and living space. Its regime began WWII and murdered six million Jews in the Holocaust.",
+  "summary": "Hitler's movement: a racial folk community, leader principle and living space. Its regime began WWII and murdered six million Jews in the Holocaust. Also called Nazism.",
   "ratings": {
    "platonism": 0,
    "aristotelianism": 0,
@@ -9111,6 +9200,10 @@
   ],
   "domain": [
    "politics"
+  ],
+  "aliases": [
+   "Nazism",
+   "Nazis"
   ]
  },
  {
@@ -9334,7 +9427,7 @@
  },
  {
   "id": "leninism",
-  "name": "Leninism (Bolshevism)",
+  "name": "Leninism",
   "root": false,
   "root_axis": null,
   "year": 1903,
@@ -9351,7 +9444,7 @@
    "marxism"
   ],
   "plain": "Lenin held that workers left alone reach only union demands. A disciplined party of professional revolutionaries must lead them. His Bolsheviks took power in Russia in 1917.",
-  "summary": "Lenin's Marxism: a vanguard party of professional revolutionaries leads the workers; imperialism as capitalism's highest stage.",
+  "summary": "Lenin's Marxism: a vanguard party of professional revolutionaries leads the workers; imperialism as capitalism's highest stage. Also called Bolshevism.",
   "ratings": {
    "platonism": 0,
    "aristotelianism": 0,
@@ -9403,11 +9496,15 @@
   ],
   "domain": [
    "politics"
+  ],
+  "aliases": [
+   "Bolshevism",
+   "Bolsheviks"
   ]
  },
  {
   "id": "comintern",
-  "name": "Comintern (Communist International)",
+  "name": "Comintern",
   "root": false,
   "root_axis": null,
   "year": 1919,
@@ -9476,6 +9573,10 @@
   ],
   "domain": [
    "politics"
+  ],
+  "aliases": [
+   "Communist International",
+   "Third International"
   ]
  },
  {
@@ -10166,7 +10267,7 @@
  },
  {
   "id": "social_justice_movement",
-  "name": "Social justice (woke)",
+  "name": "Social justice",
   "root": false,
   "root_axis": null,
   "year": 2014,
@@ -10236,6 +10337,10 @@
   "domain": [
    "politics",
    "culture"
+  ],
+  "aliases": [
+   "woke",
+   "social justice movement"
   ]
  },
  {
@@ -10319,7 +10424,7 @@
  },
  {
   "id": "maga",
-  "name": "MAGA (Make America Great Again)",
+  "name": "MAGA",
   "root": false,
   "root_axis": null,
   "year": 2015,
@@ -10337,7 +10442,7 @@
    "populism"
   ],
   "plain": "MAGA is the movement around Donald Trump's slogan. Supporters seek to reverse national decline by reviving industry, strict immigration enforcement, tariffs and avoiding foreign entanglements.",
-  "summary": "Trump's movement to reverse national decline: revive industry, strict immigration, tariffs, America First abroad.",
+  "summary": "Trump's movement to reverse national decline: revive industry, strict immigration, tariffs, America First abroad. Make America Great Again.",
   "ratings": {
    "platonism": 0,
    "aristotelianism": 0,
@@ -10390,6 +10495,9 @@
   "domain": [
    "politics",
    "culture"
+  ],
+  "aliases": [
+   "Make America Great Again"
   ]
  },
  {
@@ -10688,6 +10796,232 @@
   ],
   "domain": [
    "philosophy"
+  ]
+ },
+ {
+  "id": "islam",
+  "name": "Islam",
+  "root": false,
+  "year": 610,
+  "year_approx": true,
+  "place": "Mecca",
+  "lat": 21.42,
+  "lon": 39.83,
+  "origin_src": "https://grokipedia.com/page/Islam",
+  "origin_note": "Muhammad's Meccan preaching begins c. 610 CE, the start of the Quran's revelation by Muslim account",
+  "thinkers": [
+   "Muhammad"
+  ],
+  "parents": [],
+  "plain": "Islam began in Mecca with the Prophet Muhammad. Muslims believe in one God and follow the Quran, which they hold God revealed to Muhammad.",
+  "summary": "Muhammad preaches strict belief in one God; Muslims follow the Quran as the revealed word of God.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 0,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 3,
+   "hierarchy": 3
+  },
+  "rationale": {
+   "platonism": "No real link to Platonism.",
+   "aristotelianism": "No real link to Aristotelianism.",
+   "stoicism": "No real link to Stoicism.",
+   "christianity": "No real link to Christianity.",
+   "gnosticism": "No real link to Gnosticism.",
+   "hermeticism": "No real link to Hermeticism.",
+   "enlightenment_liberalism": "No real link to Enlightenment liberalism.",
+   "marxism": "No real link to Marxism.",
+   "darwinism": "No real link to Darwinism.",
+   "nietzsche": "No real link to Nietzsche.",
+   "critical_theory": "No real link to Critical theory.",
+   "confucianism": "No real link to Confucianism.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "No real link to Buddhism.",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "Comes before Islamic philosophy (falsafa) existed, so it cannot descend from it.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Not carried in an ironic tone.",
+   "abstraction": "God, who is unseen, is the true reality behind the created world.",
+   "hierarchy": "God commands; people submit, and law orders community life."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Islam",
+   "https://grokipedia.com/page/Muhammad",
+   "https://grokipedia.com/page/Quran"
+  ],
+  "domain": [
+   "religion",
+   "politics"
+  ]
+ },
+ {
+  "id": "kalam",
+  "name": "Kalam",
+  "root": false,
+  "year": 720,
+  "year_approx": true,
+  "place": "Basra",
+  "lat": 30.51,
+  "lon": 47.81,
+  "origin_src": "https://grokipedia.com/page/Kalam",
+  "origin_note": "The Mu'tazila, an early school of Kalam, arise in Basra in the early 8th century under Wasil ibn Ata (d. 748)",
+  "thinkers": [
+   "Wasil ibn Ata",
+   "al-Ash'ari"
+  ],
+  "parents": [
+   "islam"
+  ],
+  "plain": "Kalam is Islamic theology that uses reasoned argument to explain and defend belief in God, His justice and His oneness.",
+  "summary": "Muslim theologians use reasoned debate to defend God's oneness and justice; Mu'tazilites and Ash'arites are its main schools. Islamic theology.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 0,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 1,
+   "hierarchy": 2
+  },
+  "rationale": {
+   "platonism": "No real link to Platonism.",
+   "aristotelianism": "Borrows some Greek logic in debate, but builds its own theology.",
+   "stoicism": "No real link to Stoicism.",
+   "christianity": "No real link to Christianity.",
+   "gnosticism": "No real link to Gnosticism.",
+   "hermeticism": "No real link to Hermeticism.",
+   "enlightenment_liberalism": "No real link to Enlightenment liberalism.",
+   "marxism": "No real link to Marxism.",
+   "darwinism": "No real link to Darwinism.",
+   "nietzsche": "No real link to Nietzsche.",
+   "critical_theory": "No real link to Critical theory.",
+   "confucianism": "No real link to Confucianism.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "No real link to Buddhism.",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "Grew up alongside falsafa and often argued with it.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Not carried in an ironic tone.",
+   "abstraction": "God is the ultimate reality; the world depends on Him.",
+   "hierarchy": "Stresses God's absolute command over creation."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Kalam",
+   "https://grokipedia.com/page/Mu%27tazilism"
+  ],
+  "domain": [
+   "religion",
+   "philosophy"
+  ],
+  "aliases": [
+   "Islamic theology"
+  ]
+ },
+ {
+  "id": "mevlevi_order",
+  "name": "Mevlevi order",
+  "root": false,
+  "year": 1273,
+  "year_approx": true,
+  "place": "Konya",
+  "lat": 37.87,
+  "lon": 32.48,
+  "origin_src": "https://grokipedia.com/page/Mevlevi_Order",
+  "origin_note": "Grows from Rumi's legacy in Konya after his death in 1273; organized by his son Sultan Veled (d. 1312)",
+  "thinkers": [
+   "Rumi",
+   "Sultan Veled"
+  ],
+  "parents": [
+   "sufism"
+  ],
+  "plain": "The Mevlevi are a Sufi brotherhood founded around the poet Rumi. They are known for a turning dance used as a form of prayer.",
+  "summary": "Sufi brotherhood built on Rumi's teaching, known for the whirling prayer ceremony (sema).",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 0,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 4,
+   "hierarchy": 2
+  },
+  "rationale": {
+   "platonism": "No real link to Platonism.",
+   "aristotelianism": "No real link to Aristotelianism.",
+   "stoicism": "No real link to Stoicism.",
+   "christianity": "No real link to Christianity.",
+   "gnosticism": "No real link to Gnosticism.",
+   "hermeticism": "No real link to Hermeticism.",
+   "enlightenment_liberalism": "No real link to Enlightenment liberalism.",
+   "marxism": "No real link to Marxism.",
+   "darwinism": "No real link to Darwinism.",
+   "nietzsche": "No real link to Nietzsche.",
+   "critical_theory": "No real link to Critical theory.",
+   "confucianism": "No real link to Confucianism.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "No real link to Buddhism.",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "Comes after falsafa but draws on Sufi poetry, not philosophy.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Not carried in an ironic tone.",
+   "abstraction": "The world is a veil; the real goal is union with God.",
+   "hierarchy": "Teaches through ranked paths of master and disciple and grades of spiritual progress."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Mevlevi_Order",
+   "https://grokipedia.com/page/Rumi"
+  ],
+  "domain": [
+   "religion",
+   "culture"
+  ],
+  "aliases": [
+   "Whirling Dervishes"
   ]
  }
 ]
