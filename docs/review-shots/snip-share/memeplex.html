@@ -394,6 +394,8 @@ async function load(name) {
 const [axes, ideas, thinkerLinks] = await Promise.all([load('axes.json'), load('ideas.json'),
   /* optional: thinker -> Grokipedia URL; a missing or bad file just leaves chips plain */
   load('thinkers.json').then(o => (o && typeof o === 'object' && !Array.isArray(o)) ? o : {}).catch(() => ({}))]);
+/* optional: Modern politics view config (countries, party colours); a missing file just hides the view */
+const politicsCfg = await load('politics.json').then(o => (o && Array.isArray(o.countries)) ? o : { countries: [] }).catch(() => ({ countries: [] }));
 const thinkerUrl = t => { const u = thinkerLinks[t]; return (typeof u === 'string' && /^https:\/\/(grokipedia\.com\/page|en\.wikipedia\.org\/wiki)\//.test(u)) ? u : null; };
 const byId = Object.fromEntries(ideas.map(d => [d.id, d]));
 ideas.forEach(d => d.children = ideas.filter(c => (c.parents || []).includes(d.id)).map(c => c.id));
@@ -610,7 +612,7 @@ const sel = document.getElementById('axis'), legend = document.getElementById('l
   axes.filter(a => a.group === gname).forEach(a => og.append(new Option(a.label, a.id))); sel.append(og);
 });
 let lensAx = '';
-function applyLens(ax) { lensAx = ax;
+function applyLens(ax) { lensAx = ax; if (window.__pol && __pol.on) { __pol.paint(); return; }
   ideas.forEach(d => {
     const hide = ax && d.root && (axes.find(x => x.id === ax) || {}).group === 'register';
     const v = hide ? 0 : ax ? ((d.ratings || {})[ax] || 0) : null;
@@ -704,6 +706,7 @@ function renderPanel(d) {
    ${d.root ? `<span class="badge" title="The idea that starts one of the sixteen traditions used for scoring">Root idea of ${esc(axes.find(a => a.id === d.root_axis).label)}</span>` : ''}
    <p class="plain">${esc(d.plain || d.summary)}</p>
    ${d.plain && d.summary ? `<p class="detail">${esc(d.summary)}</p>` : ''}
+   ${window.__pol ? __pol.panelHtml(d) : ''}
    <div class="tools"><button data-act="compare">Compare</button><button data-act="lineage">Trace lineage</button><button data-act="kin" title="Every ancestor and descendant, grouped by steps away">Ancestors &amp; descendants</button><button data-act="card" title="Make a 9:16 image for social media">Share card</button></div>
    <div class="k">Key thinkers</div><div class="chips">${d.thinkers.map(t => { const u = thinkerUrl(t); return u ? `<a class="tlink" href="${esc(u)}" target="_blank" rel="noopener" title="${esc(t)} (opens in a new tab)">${esc(t)}</a>` : `<span>${esc(t)}</span>`; }).join('')}</div>
    <div class="k">Came from (parents)</div><div class="chips">${d.parents.map(chip).join('') || '<span class="muted">No earlier idea mapped</span>'}</div>
@@ -867,7 +870,7 @@ function placeLabels() {
     if (center) { o.sx = sx; o.sy = sy; o.dist = dist; const w = o.w || 60; placed.push([sx - w / 2 - LOD.pad, sy - 1, sx + w / 2 + LOD.pad, sy + LOD.h]); show(o); return; }
     let t = d.root ? 4 : d.children.length >= 2 ? 3 : d.children.length ? 2 : 1;
     if (F) t += 1; if (o.lin) t += 2;
-    const must = d.id === current || d.id === hovered || (d.root && window.__views && window.__views.cur === 'tree'); // tree view: every root tradition named at the base
+    const must = d.id === current || d.id === hovered || (d.root && window.__views && window.__views.cur === 'tree') || (window.__pol && __pol.on && __pol.fac.has(d.id)); // tree view: every root tradition named at the base
     if (!must && ((t === 2 && dist > LOD.mid) || (t <= 1 && dist > LOD.near))) { el.style.display = 'none'; hidZoom++; return; }
     o.sx = sx; o.sy = sy; o.dist = dist; o.t = must ? 99 : t; cand.push(o); });
   cand.sort((a, b) => b.t - a.t || a.dist - b.dist);
@@ -1182,7 +1185,7 @@ window.__memeplex = { cardIdea, cardCompare, shareIdea, shareCompare, focusIdea,
   const TLW = 96, tlX = y => { let i = 1; while (i < TLK.length - 1 && y > TLK[i][0]) i++; const [a, ua] = TLK[i - 1], [b, ub] = TLK[i];
     return ((ua + (ub - ua) * Math.min(1, Math.max(0, (y - a) / (b - a)))) * 2 - 1) * TLW; };
   L.timeline = d => { const x = tlX(d.year); return [V(x, d.basePos.x * 0.75, d.basePos.z * 0.75), x]; };
-  const NAMES = { default: 'Default map', helix: 'Helix', beatific: 'Beatific vision', tree: 'Tree of life', galaxy: 'Galaxy', sphere: 'Sphere', brain: 'Brain', flat: 'Flat: Abstraction', flatH: 'Flat: Hierarchy', timeline: 'Linear timeline' };
+  const NAMES = { default: 'Default map', helix: 'Helix', beatific: 'Beatific vision', tree: 'Tree of life', galaxy: 'Galaxy', sphere: 'Sphere', brain: 'Brain', flat: 'Flat: Abstraction', flatH: 'Flat: Hierarchy', timeline: 'Linear timeline', ...(politicsCfg.countries.length ? { politics: 'Modern politics' } : {}) };
   const TIMEAX = { helix: 'height', beatific: 'ring radius', tree: 'height', galaxy: 'arm radius', sphere: 'latitude', brain: 'distance from stem', flat: 'height', flatH: 'height', timeline: 'left to right' };
   const POS = {}, TC = {}; // precomputed once
   Object.keys(L).forEach(k => { POS[k] = {}; TC[k] = {}; ideas.forEach(d => { const [p, c] = L[k](d); POS[k][d.id] = p; TC[k][d.id] = c; }); });
@@ -1274,9 +1277,10 @@ window.__memeplex = { cardIdea, cardCompare, shareIdea, shareCompare, focusIdea,
     CH.mats.forEach(m => gsap.to(m, { opacity: fl ? m.userData.op : 0, duration: dur, overwrite: 'auto', onComplete: () => { if (!/^flat/.test(cur)) CH.g.visible = false; } }));
     CH.L2.forEach(o => { o.off = !(o.chart === 'both' ? fl : o.chart === k) || (mob && o.el.classList.contains('minor')); if (!o.off) o.w = o.el.offsetWidth || o.w; }); }
   function set(k, o = {}) { if (!NAMES[k]) return; const instant = o.instant || reduce, dur = instant ? 0 : (o.dur || 2);
-    const from = Object.fromEntries(ideas.map(d => [d.id, d.pos.clone()])), to = target(k), lift0 = lift, lift1 = k === 'default' ? 1 : 0;
-    const [c1, t1] = frame(k), c0 = camera.position.clone(), t0 = controls.target.clone();
-    tl && tl.kill(); camTl && camTl.kill(); cur = k; decor(k, instant ? 0 : dur * 0.6); sync();
+    const lay = k === 'politics' ? 'default' : k; // MODERN-POLITICS: a colour view on the default layout
+    const from = Object.fromEntries(ideas.map(d => [d.id, d.pos.clone()])), to = target(lay), lift0 = lift, lift1 = lay === 'default' ? 1 : 0;
+    const [c1, t1] = frame(lay), c0 = camera.position.clone(), t0 = controls.target.clone();
+    tl && tl.kill(); camTl && camTl.kill(); cur = k; decor(lay, instant ? 0 : dur * 0.6); sync(); window.__pol && __pol.toggle(k === 'politics');
     gsap.to(lblLayer, { opacity: 0, duration: instant ? 0 : 0.25, overwrite: 'auto' });
     const p = { t: 0 }, step = () => { const e = p.t; ideas.forEach(d => d.pos.lerpVectors(from[d.id], to[d.id], e)); lift = lift0 + (lift1 - lift0) * e;
       if (!o.noCam) { controls.target.lerpVectors(t0, t1, e); camera.position.lerpVectors(c0, c1, e); } draw(); };
@@ -1693,10 +1697,74 @@ body.snipping #panel,body.snipping #tourbar{visibility:hidden!important}
   window.__snip = { start, cancel, capture, linkState, get last() { return window.__snipLast; } };
 })();
 
+
+/* ---------- MODERN-POLITICS view: factions coloured by today's party, ancestors blended by how much they feed each faction.
+   All colours and countries come from politics.json; ideas carry the alignment in the field the country names. ---------- */
+(() => {
+  const C = politicsCfg.countries; if (!C.length) return;
+  const css = document.createElement('style');
+  css.textContent = `#polkey{position:fixed;left:16px;bottom:16px;z-index:12;max-width:300px;max-height:46vh;overflow:auto;padding:10px 12px;border-radius:10px;font-family:var(--serif);font-size:13px;color:var(--ink);display:none}
+#polkey .h{font-family:var(--mono);font-size:9px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-dim);margin-bottom:6px}
+#polkey select{width:100%;margin:2px 0 8px;font:inherit;background:transparent;color:var(--ink);border:1px solid var(--glass-b);border-radius:6px;padding:3px}
+#polkey .sw{display:inline-block;width:11px;height:11px;border-radius:50%;margin-right:6px;vertical-align:-1px}
+#polkey .row{margin:2px 0}#polkey .grad{height:6px;border-radius:3px;margin:4px 0 2px}
+#polkey .fl button{all:unset;cursor:pointer;display:block;margin:2px 0}#polkey .fl button:hover{color:var(--amber-bright)}
+#polkey details summary{cursor:pointer;font-family:var(--mono);font-size:9px;letter-spacing:.16em;text-transform:uppercase;color:var(--amber);margin-top:6px}
+body.phone #polkey{left:8px;right:8px;bottom:64px;max-width:none;max-height:30vh;font-size:12px}
+body.pol-on #legend{display:none!important}body.phone.panel-open #polkey{display:none!important}
+.polbox{margin:10px 0;padding:8px 10px;border-left:3px solid;border-radius:4px;background:rgba(255,255,255,.03)}.polbox .why{margin:4px 0}`;
+  document.head.appendChild(css);
+  const key = document.createElement('div'); key.id = 'polkey'; key.className = 'gl'; key.setAttribute('aria-label', 'Modern politics key'); document.body.appendChild(key);
+  const col = h => new THREE.Color(h), DIMS = 0.55;
+  const P = { on: false, first: C[0].id, country: C[0].id, fac: new Set(), mix: {}, cfg: C[0] };
+  const strengthOf = (c, a) => { const w = String(a.strength || '').split(/\s+/)[0].toLowerCase(); return c.strength[w] ?? 0.8; };
+  const leanOf = a => a.lean || ((String(a.strength || '').match(/^lean\s+(\S+)/i) || [])[1]);
+  // share of party a (0..1) for one faction
+  const shareA = (c, a) => { const m = c.mix; if (a.party === m.a) return 1; if (a.party === m.b) return 0;
+    const l = leanOf(a); return l === m.a ? (c.lean_share ?? 0.65) : l === m.b ? 1 - (c.lean_share ?? 0.65) : 0.5; };
+  const blend = (c, t) => { const A = col(c.parties[c.mix.a].color), B = col(c.parties[c.mix.b].color), M = col(c.parties[c.mix.mid].color); // t = share of b
+    return t <= 0.5 ? A.lerp(M, t * 2) : M.lerp(B, (t - 0.5) * 2); };
+  function compute() { const c = P.cfg, F = c.field; P.fac = new Set(ideas.filter(d => d[F] && c.parties[d[F].party]).map(d => d.id)); P.mix = {};
+    const acc = {}; // id -> [a, b]
+    P.fac.forEach(id => { const a = byId[id][F], s = strengthOf(c, a), sa = shareA(c, a);
+      const dist = { [id]: 0 }, q = [id]; while (q.length) { const k = q.shift(); (byId[k].parents || []).forEach(p => { if (byId[p] && dist[p] === undefined) { dist[p] = dist[k] + 1; q.push(p); } }); }
+      Object.entries(dist).forEach(([k, n]) => { if (!n) return; const w = s * Math.pow(c.decay ?? 0.7, n - 1); if (w < 0.04) return; const v = acc[k] || (acc[k] = [0, 0]); v[0] += w * sa; v[1] += w * (1 - sa); }); });
+    ideas.forEach(d => { const a = d[F];
+      if (P.fac.has(d.id)) { const s = strengthOf(c, a), base = a.party === c.mix.mid ? col(c.parties[a.party].color) : blend(c, 1 - shareA(c, a));
+        P.mix[d.id] = { kind: 'faction', party: a.party, t: 1 - shareA(c, a), s, color: base.lerp(col(c.dim), (1 - s) * DIMS) }; return; }
+      const v = acc[d.id]; if (!v) { P.mix[d.id] = { kind: 'none', color: col(c.dim) }; return; }
+      const tot = v[0] + v[1], t = v[1] / tot, s = Math.min(1, 0.35 + tot * 0.5);
+      P.mix[d.id] = { kind: 'ancestor', t, s, a: v[0], b: v[1], color: blend(c, t).lerp(col(c.dim), (1 - s) * 0.8) }; }); }
+  function paint() { const dur = reduce ? 0 : 0.8;
+    ideas.forEach(d => { const m = P.mix[d.id], c = m.color, sc = m.kind === 'faction' ? 1.5 : m.kind === 'ancestor' ? 0.75 + m.s * 0.4 : 0.55;
+      gsap.to(d.star.core.material.color, { r: c.r, g: c.g, b: c.b, duration: dur, overwrite: 'auto' });
+      gsap.to(d.star.halo.material.color, { r: c.r, g: c.g, b: c.b, duration: dur, overwrite: 'auto' });
+      gsap.to(d.star.grp.scale, { x: sc, y: sc, z: sc, duration: dur, overwrite: 'auto' }); }); }
+  const hex = c => '#' + col(c).getHexString();
+  function renderKey() { const c = P.cfg, F = c.field, pr = c.parties;
+    const fl = [...P.fac].map(id => byId[id]).sort((x, y) => (x[F].party > y[F].party ? 1 : x[F].party < y[F].party ? -1 : x.name.localeCompare(y.name)));
+    key.innerHTML = `<div class="h">Modern politics</div>
+      <select aria-label="Country">${C.map(x => `<option value="${esc(x.id)}"${x.id === P.country ? ' selected' : ''}>${esc(x.name)}</option>`).join('')}</select>
+      ${Object.entries(pr).map(([k, p]) => `<div class="row" data-party="${esc(k)}"><span class="sw" style="background:${hex(p.color)}"></span>${esc(p.label)}</div>`).join('')}
+      <div class="grad" style="background:linear-gradient(90deg,${hex(pr[c.mix.a].color)},${hex(pr[c.mix.mid].color)},${hex(pr[c.mix.b].color)})"></div>
+      <div class="row" style="color:var(--ink-dim)">${esc(c.mix.label)}; brighter = feeds in more. Unrelated ideas are dimmed.</div>
+      <details ${isMobile() ? '' : 'open'}><summary>Factions (${fl.length})</summary><div class="fl">${fl.map(d => `<button data-go="${esc(d.id)}"><span class="sw" style="background:${'#' + P.mix[d.id].color.getHexString()}"></span>${esc(d.name)} · ${esc(pr[d[F].party].label)}${d[F].strength ? ' (' + esc(d[F].strength) + ')' : ''}</button>`).join('')}</div></details>`;
+    key.querySelector('select').onchange = e => P.setCountry(e.target.value);
+    key.querySelectorAll('[data-go]').forEach(b => b.onclick = () => focusIdea(b.dataset.go)); }
+  P.setCountry = (id, quiet) => { const c = C.find(x => x.id === id); if (!c) return; P.country = id; P.cfg = c; compute(); if (P.on) { renderKey(); paint(); } };
+  P.toggle = on => { if (on === P.on) return; P.on = on; key.style.display = on ? 'block' : 'none'; document.body.classList.toggle('pol-on', on);
+    if (on) { compute(); renderKey(); paint(); } else applyLens(lensAx); };
+  P.paint = paint;
+  P.panelHtml = d => C.map(c => { const a = d[c.field]; if (!a || !c.parties[a.party]) return ''; const p = c.parties[a.party];
+    return `<div class="polbox" style="border-color:${hex(p.color)}"><div class="k" style="margin:0">Modern politics · ${esc(c.name)}</div>
+      <p class="why"><span class="sw" style="display:inline-block;width:10px;height:10px;border-radius:50%;background:${hex(p.color)};margin-right:6px"></span><b>${esc(p.label)}</b>${a.strength ? ' · ' + esc(a.strength) : ''}${a.lean ? ' · lean ' + esc(a.lean) : ''}</p>
+      <p class="why">${esc(a.note || '')}</p>${a.src ? `<p class="why"><a href="${esc(a.src)}" target="_blank" rel="noopener">${esc(decodeURIComponent(a.src.replace(/^https?:\/\//, '')))}</a></p>` : ''}</div>`; }).join('');
+  compute(); window.__pol = P;
+})();
 /* ---------- Shareable links: view, filter and open idea live in the URL hash ---------- */
 (() => {
   const state = () => { const p = new URLSearchParams(), v = window.__views ? __views.cur : 'default';
-    if (v && v !== 'default') p.set('v', v); if (filt.dom) p.set('dom', filt.dom); if (filt.rootsOnly) p.set('roots', '1');
+    if (v && v !== 'default') p.set('v', v); if (v === 'politics' && window.__pol && __pol.country !== __pol.first) p.set('pc', __pol.country); if (filt.dom) p.set('dom', filt.dom); if (filt.rootsOnly) p.set('roots', '1');
     if (filt.sel.size) p.set('sel', [...filt.sel].join(',')); if (current && byId[current]) p.set('i', current); return p.toString(); };
   let last = null; const write = () => { const s = state(); if (s === last) return; last = s; history.replaceState(null, '', location.pathname + location.search + (s ? '#' + s : '')); };
   const h = new URLSearchParams(location.hash.slice(1)); window.__linkRestore = Object.fromEntries(h);
@@ -1706,7 +1774,7 @@ body.snipping #panel,body.snipping #tourbar{visibility:hidden!important}
   const restoreCam = () => { const c = (h.get('cam') || '').split(',').map(Number); if (c.length !== 6 || c.some(n => !isFinite(n))) return;
     gsap.killTweensOf(camera.position); gsap.killTweensOf(controls.target); controls.autoRotate = false; camera.position.set(c[0], c[1], c[2]); controls.target.set(c[3], c[4], c[5]); controls.update(); window.__camRestored = true; };
   { const ax = h.get('ax'), s = document.getElementById('axis'); if (ax && [...s.options].some(o => o.value === ax)) { s.value = ax; s.dispatchEvent(new Event('change')); } }
-  const later = () => { const v = h.get('v'); if (v && window.__views && __views.names[v] && v !== 'default') __views.set(v);
+  const later = () => { const v = h.get('v'); if (h.get('pc') && window.__pol) __pol.setCountry(h.get('pc'), true); if (v && window.__views && __views.names[v] && v !== 'default') __views.set(v);
     const i = h.get('i'), dly = v ? 2300 : 0; if (i && byId[i]) setTimeout(() => focusIdea(i), dly); if (h.has('cam')) setTimeout(restoreCam, dly + (i ? 1700 : 50)); last = null; setInterval(write, 400); };
   if (location.hash.length > 1) setTimeout(later, reduce ? 100 : 4300); else setInterval(write, 400);
   const toast = document.createElement('div'); toast.id = 'toast'; toast.className = 'gl'; document.body.appendChild(toast);
