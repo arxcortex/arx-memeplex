@@ -42,7 +42,7 @@ Islam is NOT a root and no axis was added (proposal below).
 - civil_rights_movement ← christianity: should it be protestantism (Black Baptist churches, King)?
 - spinozism has no children: Spinoza → German Idealism / Hegel (pantheism controversy)? Couldn't confirm on Grokipedia's Hegel page.
 - renaissance_humanism → protestantism (Erasmus) — missing edge?
-- jingjiao → jesuit_accommodation (NOT on map): loose and contested; Ricci's missionaries found the Nestorian stele (1625) after accommodation was underway.
+- jingjiao → jesuit_accommodation: both ideas are on the map (jesuit_accommodation, 1583), but this edge is not drawn and should stay cut. The stele was unearthed between 1621 and 1625, after Ricci died in 1610, so the Jesuits received it; they did not descend from it (loose-links batch 1).
 
 ## Open questions
 1. **Islam's parents.** Islam is a monotheistic Abrahamic religion (Grokipedia), but the map has no Judaism idea and a christianity → islam edge would be a claim about descent that Muslims and many historians would frame differently. Options: add second_temple_judaism / rabbinic Judaism and link both, or leave Islam with no parents.

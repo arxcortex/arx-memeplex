@@ -997,7 +997,7 @@
   ],
   "parents": [
    "enlightenment_liberalism",
-   "hermetic_correspondence"
+   "bohmean_theosophy"
   ],
   "plain": "Romantic writers and artists valued feeling, nature, imagination and national culture over cold calculation.",
   "summary": "Romantics prize feeling, nature, national culture and awe at the vast (the sublime) over cold reason.",
@@ -1052,7 +1052,15 @@
   ],
   "domain": [
    "philosophy"
-  ]
+  ],
+  "edge_notes": {
+   "bohmean_theosophy": {
+    "status": "documented",
+    "type": "documented reading",
+    "src": "https://grokipedia.com/page/Novalis",
+    "note": "Novalis studied the works of Jakob Böhme under Tieck's influence."
+   }
+  }
  },
  {
   "id": "hegelian_dialectic",
@@ -1073,7 +1081,8 @@
    "neoplatonism",
    "romanticism",
    "enlightenment_liberalism",
-   "transcendental_idealism"
+   "transcendental_idealism",
+   "spinozism"
   ],
   "plain": "Hegel saw history as a clash of ideas: each idea meets its opposite, and the conflict produces a new, fuller idea.",
   "summary": "Hegel says history moves through clashes of opposing views, as the human mind (Spirit) comes to know itself.",
@@ -1130,7 +1139,15 @@
   ],
   "domain": [
    "philosophy"
-  ]
+  ],
+  "edge_notes": {
+   "spinozism": {
+    "status": "documented",
+    "type": "documented reading",
+    "src": "https://grokipedia.com/page/Pantheism_controversy",
+    "note": "The pantheism controversy of 1785 revived Spinoza; Hegel's biography records his attention to it."
+   }
+  }
  },
  {
   "id": "marxism",
@@ -2906,7 +2923,8 @@
   ],
   "parents": [
    "roman_catholicism",
-   "augustinian_grace"
+   "augustinian_grace",
+   "renaissance_humanism"
   ],
   "plain": "Martin Luther protested against the sale of indulgences and taught that people are saved by faith alone, through God's grace, with the Bible as the final authority.",
   "summary": "Luther's 1517 protest: salvation by faith alone through God's grace, with the Bible as the final authority. Began as Lutheranism.",
@@ -2967,7 +2985,15 @@
   ],
   "aliases": [
    "Lutheranism"
-  ]
+  ],
+  "edge_notes": {
+   "renaissance_humanism": {
+    "status": "documented",
+    "type": "direct handoff",
+    "src": "https://grokipedia.com/page/Erasmus",
+    "note": "Erasmus's Greek New Testament (1516) influenced Luther, Melanchthon, Zwingli and Calvin."
+   }
+  }
  },
  {
   "id": "anglicanism",
@@ -5887,7 +5913,8 @@
   ],
   "parents": [
    "gnostic_dualism",
-   "christianity"
+   "christianity",
+   "buddhas_dharma"
   ],
   "plain": "Mani taught that darkness invaded a kingdom of light and trapped bits of light inside matter. His followers kept strict rules to free that light. The faith spread from Rome to China.",
   "summary": "Mani's religion of light and darkness: bits of divine light lie trapped in matter, and strict living helps set them free.",
@@ -5942,7 +5969,15 @@
   ],
   "domain": [
    "religion"
-  ]
+  ],
+  "edge_notes": {
+   "buddhas_dharma": {
+    "status": "documented",
+    "type": "influence",
+    "src": "https://grokipedia.com/page/Manichaeism",
+    "note": "Manichaeism drew on Buddhism among other traditions and counts the Buddha among its prophets."
+   }
+  }
  },
  {
   "id": "bogomilism",
@@ -7839,7 +7874,15 @@
   ],
   "domain": [
    "religion"
-  ]
+  ],
+  "edge_notes": {
+   "buddhas_dharma": {
+    "status": "contested",
+    "type": "syncretic influence",
+    "src": "https://grokipedia.com/page/Shinbutsu-shūgō",
+    "note": "Scholars debate whether Buddhism shaped Shinto or the two only coexisted (shinbutsu-shūgō)."
+   }
+  }
  },
  {
   "id": "kokugaku",
@@ -8145,7 +8188,15 @@
   "domain": [
    "philosophy",
    "politics"
-  ]
+  ],
+  "edge_notes": {
+   "confucian_ethics": {
+    "status": "contested",
+    "type": "reaction",
+    "src": "https://plato.stanford.edu/entries/mohism/",
+    "note": "Mozi argued against the Ru; the Han-era claim that he was a former Confucian is unsupported by the Mozi."
+   }
+  }
  },
  {
   "id": "wicca",
@@ -8766,7 +8817,7 @@
    "Houston Stewart Chamberlain"
   ],
   "parents": [
-   "enlightenment_liberalism"
+   "racial_classification"
   ],
   "plain": "Scientific racism used measurement and classification to rank human races. Gobineau (1853) placed whites, and an 'Aryan' family, at the top and blamed mixing for decline.",
   "summary": "19th-century racial science that sorted humans into ranked races; Gobineau credited civilization to an 'Aryan' white type.",
@@ -8820,7 +8871,15 @@
   ],
   "domain": [
    "politics"
-  ]
+  ],
+  "edge_notes": {
+   "racial_classification": {
+    "status": "documented",
+    "type": "influence",
+    "src": "https://grokipedia.com/page/Arthur_de_Gobineau",
+    "note": "Blumenbach's categories were taken up by later race theory such as Gobineau's (1853–55)."
+   }
+  }
  },
  {
   "id": "racial_antisemitism",
@@ -9672,7 +9731,7 @@
    "John Lewis"
   ],
   "parents": [
-   "christianity",
+   "protestantism",
    "enlightenment_liberalism"
   ],
   "plain": "Black Americans used court cases, boycotts, sit-ins and marches to end legal segregation. King joined Gandhi's nonviolence to Christian love. It won the 1964 and 1965 rights acts.",
@@ -9727,7 +9786,15 @@
   ],
   "domain": [
    "politics"
-  ]
+  ],
+  "edge_notes": {
+   "protestantism": {
+    "status": "documented",
+    "type": "direct handoff",
+    "src": "https://grokipedia.com/page/Martin_Luther_King_Jr.",
+    "note": "King was a Baptist minister trained at Crozer Theological Seminary."
+   }
+  }
  },
  {
   "id": "liberal_feminism",
@@ -11023,5 +11090,168 @@
   "aliases": [
    "Whirling Dervishes"
   ]
+ },
+ {
+  "id": "bohmean_theosophy",
+  "name": "Böhmean theosophy",
+  "root": false,
+  "year": 1612,
+  "year_approx": false,
+  "place": "Görlitz",
+  "lat": 51.15,
+  "lon": 14.99,
+  "origin_src": "https://grokipedia.com/page/Jakob_Böhme",
+  "origin_note": "Böhme writes Aurora, 1612",
+  "thinkers": [
+   "Jakob Böhme"
+  ],
+  "parents": [
+   "hermetic_correspondence",
+   "protestantism"
+  ],
+  "plain": "A Lutheran shoemaker in Görlitz recast the Hermetic and Paracelsian cosmos as a drama inside God.",
+  "summary": "Jakob Böhme's mystical theosophy, read two centuries later by the Jena Romantics.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 3,
+   "gnosticism": 0,
+   "hermeticism": 3,
+   "enlightenment_liberalism": 0,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "humor": 0,
+   "irony": 0,
+   "critical_theory": 0,
+   "hierarchy": 0,
+   "abstraction": 4,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "A Lutheran layman writing about God and creation.",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "Read visionaries such as Paracelsus and recast their cosmos.",
+   "enlightenment_liberalism": "Comes before the Enlightenment existed, so it cannot descend from it.",
+   "marxism": "Comes before Marxism existed, so it cannot descend from it.",
+   "darwinism": "Comes before Darwinism existed, so it cannot descend from it.",
+   "nietzsche": "Comes before Nietzsche existed, so it cannot descend from it.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Writes in earnest visionary terms.",
+   "critical_theory": "Comes before Critical theory existed, so it cannot descend from it.",
+   "hierarchy": "No clear stance on social rank.",
+   "abstraction": "Deals in visions of God, spirit and cosmos.",
+   "confucianism": "No real link to Confucianism.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "No real link to Buddhism.",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "No real link to Islamic philosophy (falsafa)."
+  },
+  "sources": [
+   "https://grokipedia.com/page/Jakob_Böhme",
+   "https://grokipedia.com/page/Novalis"
+  ],
+  "stories": [],
+  "domain": [
+   "religion",
+   "philosophy"
+  ],
+  "edge_notes": {
+   "hermetic_correspondence": {
+    "status": "documented",
+    "type": "influence",
+    "src": "https://grokipedia.com/page/Jakob_Böhme",
+    "note": "Böhme read visionaries such as Paracelsus, Weigel and Schwenckfeld."
+   }
+  }
+ },
+ {
+  "id": "racial_classification",
+  "name": "Blumenbach's racial classification",
+  "root": false,
+  "year": 1795,
+  "year_approx": false,
+  "place": "Göttingen",
+  "lat": 51.54,
+  "lon": 9.93,
+  "origin_src": "https://grokipedia.com/page/Johann_Friedrich_Blumenbach",
+  "origin_note": "Blumenbach's five-part classification, 1795",
+  "thinkers": [
+   "Johann Friedrich Blumenbach"
+  ],
+  "parents": [
+   "enlightenment_liberalism"
+  ],
+  "plain": "Göttingen's anatomist sorted humanity into five varieties by skull. He insisted they were one species.",
+  "summary": "Blumenbach's five human varieties, later reused by race theorists who dropped his one-species view.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 1,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "humor": 0,
+   "irony": 0,
+   "critical_theory": 0,
+   "hierarchy": 2,
+   "abstraction": -2,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "No clear debt to, or quarrel with, Christianity.",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear link to Hermeticism.",
+   "enlightenment_liberalism": "Part of Enlightenment natural history; how far the Enlightenment is responsible is debated.",
+   "marxism": "Comes before Marxism existed, so it cannot descend from it.",
+   "darwinism": "Comes before Darwinism existed, so it cannot descend from it.",
+   "nietzsche": "Comes before Nietzsche existed, so it cannot descend from it.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "critical_theory": "Comes before Critical theory existed, so it cannot descend from it.",
+   "hierarchy": "Sorted people into varieties while holding they were one species.",
+   "abstraction": "Built on skull measurements.",
+   "confucianism": "No real link to Confucianism.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "No real link to Buddhism.",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "No real link to Islamic philosophy (falsafa)."
+  },
+  "sources": [
+   "https://grokipedia.com/page/Johann_Friedrich_Blumenbach",
+   "https://grokipedia.com/page/Scientific_racism"
+  ],
+  "stories": [],
+  "domain": [
+   "culture",
+   "politics"
+  ],
+  "edge_notes": {
+   "enlightenment_liberalism": {
+    "status": "contested",
+    "type": "influence",
+    "src": "https://grokipedia.com/page/Johann_Friedrich_Blumenbach",
+    "note": "Enlightenment natural history; whether the Enlightenment as such is responsible is debated."
+   }
+  }
  }
 ]
