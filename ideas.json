@@ -1963,7 +1963,8 @@
   ],
   "parents": [
    "marxism",
-   "hegelian_dialectic"
+   "hegelian_dialectic",
+   "psychoanalysis"
   ],
   "plain": "A group of German thinkers who applied Marx's ideas to culture, arguing that mass media and consumer society keep people passive.",
   "summary": "Frankfurt thinkers turn Marxism toward culture, criticizing mass media and reason used only as a tool.",
@@ -2046,6 +2047,15 @@
      "note": "Named in the Grokipedia article “Frankfurt School”."
     }
    ]
+  },
+  "edge_notes": {
+   "psychoanalysis": {
+    "status": "influence",
+    "type": "influence",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Frankfurt_School",
+    "note": "Critical theory 'emerged from an interdisciplinary effort to integrate Marxist historical materialism with Freudian psychoanalysis and Hegelian dialectics'."
+   }
   }
  },
  {
@@ -8417,81 +8427,88 @@
   "root_axis": null,
   "year": 1913,
   "year_approx": true,
+  "origin_src": "https://grokipedia.com/page/Carl_Jung",
+  "origin_note": "Freud and Jung's 'personal collaboration ended in January 1913'; 'This rupture freed Jung to pursue analytical psychology independently'; he resigned as IPA president on 20 April 1914",
   "place": "Zurich",
   "lat": 47.37,
   "lon": 8.54,
-  "origin_src": "https://grokipedia.com/page/Analytical_psychology",
-  "origin_note": "Jung breaks with Freud in 1912-1913 and then develops analytical psychology on his own in Switzerland",
   "thinkers": [
    "Carl Jung",
    "Marie-Louise von Franz"
   ],
   "parents": [
+   "psychoanalysis",
    "gnostic_dualism",
    "hermetic_correspondence"
   ],
   "plain": "Carl Jung said every mind shares a collective unconscious full of inborn patterns called archetypes. His therapy aims at individuation: becoming whole by facing the unconscious.",
-  "summary": "Jung's psychology: a collective unconscious full of shared archetypes, and therapy as becoming whole by facing it.",
+  "summary": "Jung's psychology after his 1913 break with Freud: a collective unconscious of archetypes, and therapy as individuation, drawing on myth, religion and alchemy.",
   "ratings": {
    "platonism": 0,
    "aristotelianism": 0,
    "stoicism": 0,
-   "christianity": 0,
-   "gnosticism": 2,
-   "hermeticism": 2,
+   "christianity": 1,
+   "gnosticism": 3,
+   "hermeticism": 3,
    "enlightenment_liberalism": 0,
    "marxism": 0,
    "darwinism": 0,
-   "nietzsche": 0,
+   "nietzsche": 1,
    "critical_theory": 0,
    "confucianism": 0,
-   "daoism": 0,
-   "buddhism": 0,
+   "daoism": 1,
+   "buddhism": 1,
    "vedanta": 0,
    "islamic_philosophy": 0,
    "islam": 0,
-   "judaism": 0,
-   "romanticism": 0,
+   "judaism": -1,
+   "romanticism": 1,
    "nationalism": 0,
    "humor": 0,
    "irony": 0,
-   "abstraction": 2,
+   "abstraction": 3,
    "hierarchy": 0
   },
   "rationale": {
    "platonism": "No real link to Platonism.",
    "aristotelianism": "No real link to Aristotelianism.",
    "stoicism": "No real link to Stoicism.",
-   "christianity": "Studied Christian symbols as psychology, neither building on nor attacking the faith.",
-   "gnosticism": "Jung read Gnostic texts as symbols of the psyche; Grokipedia says his archetype ideas formed partly through them.",
-   "hermeticism": "Drew on alchemy and Hermeticism, read as maps of inner change.",
+   "christianity": "Engaged Christian symbolism as psychology, e.g. Answer to Job (1952), neither confessing nor rejecting it (Grokipedia, Carl Jung).",
+   "gnosticism": "Archetypes formed partly through 'comparative studies of alchemy, Gnosticism' (Grokipedia, Analytical psychology).",
+   "hermeticism": "Studied Hermeticism and alchemy 'as symbolic languages of the psyche' (Grokipedia, Carl Jung).",
    "enlightenment_liberalism": "No real link to Enlightenment liberalism.",
    "marxism": "No real link to Marxism.",
    "darwinism": "No real link to Darwinism.",
-   "nietzsche": "No real link to Nietzsche.",
-   "critical_theory": "Comes before Critical theory existed, so it cannot descend from it.",
+   "nietzsche": "His 1936–1937 Yale seminars analyzed 'Nietzsche's visions' (Grokipedia, Carl Jung); a subject, not a root.",
+   "critical_theory": "Predates and stands apart from critical theory.",
    "confucianism": "No real link to Confucianism.",
-   "daoism": "No real link to Daoism.",
-   "buddhism": "No real link to Buddhism.",
-   "vedanta": "No real link to Vedanta.",
+   "daoism": "Drew on the I Ching among Eastern sources (Grokipedia, Carl Jung); a minor strand.",
+   "buddhism": "Drew on 'Eastern philosophies' broadly (Grokipedia, Analytical psychology); no specific Buddhist lineage.",
+   "vedanta": "Warned Europeans against adopting 'yoga or Vedanta' uncritically (Grokipedia, Carl Jung); interest without adoption.",
    "islamic_philosophy": "No real link to Islamic philosophy (falsafa).",
    "islam": "No real link to Islam.",
-   "judaism": "No real link to Judaism.",
-   "romanticism": "No real link to Romanticism.",
-   "nationalism": "No real link to Nationalism.",
+   "judaism": "In 1930s essays Jung distinguished 'Jewish' from 'Aryan' psychology, which 'critics call antisemitic' (Grokipedia, Carl Jung).",
+   "romanticism": "Myth-centered: his framework 'prioritizes exploration of myths, dreams, and symbols over deterministic sexual drives' (Grokipedia, Carl Jung).",
+   "nationalism": "No real link to nationalism.",
    "humor": "Not expressed through jokes or play.",
    "irony": "Makes its case directly, without ironic distance.",
-   "abstraction": "Treats the psyche and its symbols as real and purposive, while grounding claims in clinical work.",
+   "abstraction": "Treats archetypes and the psyche's purposive drive to wholeness as real (Grokipedia, Analytical psychology).",
    "hierarchy": "About the inner life, not who should rule."
   },
   "stories": [],
   "sources": [
    "https://grokipedia.com/page/Analytical_psychology",
-   "https://grokipedia.com/page/Carl_Jung"
+   "https://grokipedia.com/page/Carl_Jung",
+   "https://grokipedia.com/page/Psychology_and_Alchemy",
+   "https://grokipedia.com/page/Alchemy"
   ],
   "domain": [
    "philosophy",
    "religion"
+  ],
+  "aliases": [
+   "Jungian psychology",
+   "Analytical psychology"
   ],
   "thrives_in": {
    "historical": false,
@@ -8499,20 +8516,45 @@
     {
      "place": "Zurich",
      "src": "https://grokipedia.com/page/Analytical_psychology",
-     "note": "Named in the Grokipedia article “Analytical psychology”."
+     "note": "The C.G. Jung Institute in Zurich, founded in 1948, trained analysts; it moved to Küsnacht in 1979.",
+     "period": "1948–"
     },
     {
      "place": "United States",
-     "src": "https://grokipedia.com/page/Analytical_psychology",
-     "note": "Named in the Grokipedia article “Analytical psychology”."
+     "src": "https://grokipedia.com/page/Carl_Jung",
+     "note": "Yale seminars in 1936–1937 'drew American practitioners and expanded his transatlantic influence'."
     },
     {
      "place": "United Kingdom",
-     "src": "https://grokipedia.com/page/Analytical_psychology",
-     "note": "Named in the Grokipedia article “Analytical psychology”."
+     "src": "https://grokipedia.com/page/Carl_Jung",
+     "note": "Lectures to 'an English audience' fostered 'early adoption in Britain'."
     }
    ]
-  }
+  },
+  "edge_notes": {
+   "psychoanalysis": {
+    "status": "direct",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Carl_Jung",
+    "note": "Jung met Freud via his Burghölzli work; the 1913 rupture over sexuality 'freed Jung to pursue' his own theory."
+   },
+   "gnostic_dualism": {
+    "status": "influence",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Analytical_psychology",
+    "note": "Archetype ideas 'crystallized through clinical observations and comparative studies of alchemy, Gnosticism, and Eastern philosophies'."
+   },
+   "hermetic_correspondence": {
+    "status": "influence",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Carl_Jung",
+    "note": "He 'studied esoteric traditions including Hermeticism, Gnosticism, and the I Ching, interpreting them as symbolic languages of the psyche'."
+   }
+  },
+  "parent_note": "Alchemy has no node; Jung's Psychology and Alchemy (1944) read it as 'a projection of the psyche's individuation process' (Grokipedia, Alchemy), and the Alchemy page ties alchemy to Hermeticism, so it rides on hermetic_correspondence."
  },
  {
   "id": "spinozism",
@@ -21063,5 +21105,138 @@
     }
    ]
   }
+ },
+ {
+  "id": "psychoanalysis",
+  "name": "Psychoanalysis",
+  "root": false,
+  "root_axis": null,
+  "year": 1895,
+  "year_approx": true,
+  "origin_src": "https://grokipedia.com/page/Studies_on_Hysteria",
+  "origin_note": "Breuer and Freud's Studies on Hysteria is 'a 1895 clinical monograph co-authored by Viennese physicians'; Freud's April 21, 1896 lecture 'The Aetiology of Hysteria' set out the seduction theory, dropped by 1897",
+  "place": "Vienna",
+  "lat": 48.21,
+  "lon": 16.37,
+  "thinkers": [
+   "Sigmund Freud",
+   "Josef Breuer"
+  ],
+  "parents": [
+   "romanticism",
+   "will_to_power"
+  ],
+  "plain": "Freud's theory that hidden wishes and memories, mostly sexual and from childhood, drive what people do, and his talking cure for bringing them to light.",
+  "summary": "Freud's theory and therapy of the unconscious: repression, dreams as wish-fulfillment, infantile sexuality and the Oedipus complex; organized in Vienna from 1902.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": -2,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 1,
+   "marxism": 0,
+   "darwinism": 1,
+   "nietzsche": 1,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "islam": 0,
+   "judaism": -1,
+   "romanticism": 1,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -1,
+   "hierarchy": 1
+  },
+  "rationale": {
+   "platonism": "No real link to Platonism.",
+   "aristotelianism": "No real link to Aristotelianism.",
+   "stoicism": "No real link to Stoicism.",
+   "christianity": "The Future of an Illusion (1927) calls religion 'an illusion rooted in human helplessness' (Grokipedia, Sigmund Freud).",
+   "gnosticism": "No real link to Gnosticism.",
+   "hermeticism": "No real link to Hermeticism.",
+   "enlightenment_liberalism": "A rationalist science of mind; a 'materialistic framework' shaped his early rejection of metaphysics (Grokipedia, Psychoanalysis).",
+   "marxism": "No real link to Marxism.",
+   "darwinism": "Treats drives as biological instincts (Eros, Thanatos); a naturalist frame more than a Darwinian lineage.",
+   "nietzsche": "Freud granted Nietzsche's intuitions matched his findings but said he avoided reading him (Autobiographical Study, 1925).",
+   "critical_theory": "No real link to critical theory.",
+   "confucianism": "No real link to Confucianism.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "No real link to Buddhism.",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "No real link to Islamic philosophy (falsafa).",
+   "islam": "No real link to Islam.",
+   "judaism": "Freud was of Jewish birth but treated all religion as illusion; Moses and Monotheism is a late work (Grokipedia, Sigmund Freud).",
+   "romanticism": "The unconscious had Romantic precursors in Schelling (Grokipedia, Unconscious mind); Freud framed his own work as science.",
+   "nationalism": "No real link to nationalism.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Clinical and drive-based; the mind as a system of instinctual energies, not ideal forms.",
+   "hierarchy": "Civilization needs the 'repression of primal instincts' via superego (Grokipedia, Sigmund Freud); not a political creed."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Psychoanalysis",
+   "https://grokipedia.com/page/Sigmund_Freud",
+   "https://grokipedia.com/page/Studies_on_Hysteria",
+   "https://grokipedia.com/page/Unconscious_mind",
+   "https://grokipedia.com/page/Arthur_Schopenhauer"
+  ],
+  "domain": [
+   "philosophy",
+   "culture"
+  ],
+  "aliases": [
+   "Freudian psychoanalysis",
+   "Freudianism",
+   "Psycho-analysis"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Vienna",
+     "src": "https://grokipedia.com/page/Psychoanalysis",
+     "note": "Freud's Psychological Wednesday Society (1902) became the Vienna Psychoanalytic Society by 1908.",
+     "period": "1902–1938"
+    },
+    {
+     "place": "United States",
+     "src": "https://grokipedia.com/page/Psychoanalysis",
+     "note": "After the 1909 lectures, U.S. psychoanalytic clinics appeared 'by the 1910s'.",
+     "period": "1909–"
+    },
+    {
+     "place": "London",
+     "src": "https://grokipedia.com/page/Sigmund_Freud",
+     "note": "Freud emigrated to London in 1938 amid Nazi persecution.",
+     "period": "1938–"
+    }
+   ]
+  },
+  "edge_notes": {
+   "romanticism": {
+    "status": "loose",
+    "type": "context",
+    "strength": "weak",
+    "src": "https://grokipedia.com/page/Unconscious_mind",
+    "note": "'Within German Romanticism', Schelling 'introduced the Unbewusstes (unconscious)'; the page treats this as background to Freud's model, not a source he drew on."
+   },
+   "will_to_power": {
+    "status": "loose",
+    "type": "context",
+    "strength": "weak",
+    "src": "https://www.freudpage.info/freudquotes2.html",
+    "note": "Freud: Nietzsche's 'guesses and intuitions often agree in the most astonishing way' with psychoanalysis, but 'was for a long time avoided by me' (1925).",
+    "contested": true
+   }
+  },
+  "parent_note": "Schopenhauer has no node; the Schopenhauer page says his will 'resonated with' Freud's id, 'though Freud cited Schopenhauer sparingly', and Freud wrote 'I read Schopenhauer very late in my life' (Autobiographical Study, SE 20:59–60, transcribed at freudpage.info). No edge."
  }
 ]
