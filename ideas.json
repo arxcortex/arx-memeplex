@@ -21348,11 +21348,624 @@
     "note": "Second Temple sects 'contributed to the interpretive and communal frameworks later formalized in Rabbinic Judaism, with the Pharisees emerging as the primary antecedent'."
    }
   },
-  "abstraction_quote": {
-   "src": "https://grokipedia.com/page/Rabbinic_Judaism",
-   "quote": "God revealed two interdependent components of Torah to Moses at Mount Sinai"
-  },
   "parent_note": "Dating is contested: Neusner (cited on the Rabbinic Judaism page) has it 'crystallized between 200 and 600 CE'. This node dates it to when Yavne sages first held it."
+ },
+ {
+  "id": "modern_stoicism",
+  "name": "Modern Stoicism",
+  "root": false,
+  "year": 2012,
+  "year_approx": true,
+  "place": "Britain",
+  "lat": null,
+  "lon": null,
+  "origin_src": "https://grokipedia.com/page/Stoicism",
+  "origin_note": "A revival of Stoic practice that surged in the 2010s. The Modern Stoicism project began with a 2012 conference and the online Stoic Week, run each October since 2013; earlier, Albert Ellis drew on Epictetus when he founded Rational Emotive Behavior Therapy in 1955",
+  "thinkers": [
+   "Massimo Pigliucci",
+   "Donald Robertson",
+   "Ryan Holiday",
+   "Albert Ellis"
+  ],
+  "parents": [
+   "stoic_logos"
+  ],
+  "plain": "A modern revival of ancient Stoic ethics as a practical way of life. People use its exercises, like focusing only on what you can control, to stay calm and steady, often alongside modern talk therapy.",
+  "summary": "Stoic ethics as everyday practice: Stoic Week, Stoicon and popular books by Pigliucci, Robertson and Holiday, closely tied to cognitive behavioral therapy.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 5,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 0,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -1,
+   "hierarchy": 0
+  },
+  "rationale": {
+   "platonism": "No real link to Platonism.",
+   "aristotelianism": "No real link to Aristotelianism.",
+   "stoicism": "Puts the ethics of Epictetus, Seneca and Marcus Aurelius into daily practice.",
+   "christianity": "No real link to Christianity.",
+   "gnosticism": "No real link to Gnosticism.",
+   "hermeticism": "No real link to Hermeticism.",
+   "enlightenment_liberalism": "No real link to Enlightenment liberalism.",
+   "marxism": "No real link to Marxism.",
+   "darwinism": "No real link to Darwinism.",
+   "nietzsche": "No real link to Nietzsche.",
+   "critical_theory": "No real link to Critical theory.",
+   "confucianism": "No real link to Confucianism.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "No real link to Buddhism.",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "No real link to Islamic philosophy.",
+   "islam": "No documented relation.",
+   "judaism": "No documented relation.",
+   "romanticism": "No documented relation.",
+   "nationalism": "No documented relation.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Mostly sets aside Stoic physics and theology in favor of psychology and evidence.",
+   "hierarchy": "A personal ethic about your own judgments; it takes no stand on social rank."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Stoicism",
+   "https://grokipedia.com/page/Massimo_Pigliucci",
+   "https://grokipedia.com/page/Donald_Robertson",
+   "https://grokipedia.com/page/Ryan_Holiday"
+  ],
+  "domain": [
+   "philosophy"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Britain",
+     "src": "https://grokipedia.com/page/Donald_Robertson",
+     "note": "Founding member Donald Robertson ran a London therapy practice and helped build Stoic Week before moving to Canada in 2013."
+    },
+    {
+     "place": "United States",
+     "src": "https://grokipedia.com/page/Ryan_Holiday",
+     "note": "Ryan Holiday's The Obstacle Is the Way (2014) and The Daily Stoic (2016) spread it among business leaders and athletes."
+    },
+    {
+     "place": "Online",
+     "src": "https://grokipedia.com/page/Stoicism",
+     "note": "Stoic Week, held online each October since 2013, drew thousands of participants by 2024."
+    }
+   ]
+  },
+  "aliases": [
+   "New Stoicism",
+   "Contemporary Stoicism"
+  ],
+  "edge_notes": {
+   "stoic_logos": {
+    "status": "direct",
+    "type": "revival",
+    "src": "https://grokipedia.com/page/Stoicism",
+    "note": "Adapts the ethics of Epictetus, Seneca and Marcus Aurelius to modern life and psychology."
+   }
+  }
+ },
+ {
+  "id": "engaged_buddhism",
+  "name": "Engaged Buddhism",
+  "root": false,
+  "year": 1964,
+  "year_approx": true,
+  "place": "Saigon",
+  "lat": 10.78,
+  "lon": 106.7,
+  "origin_src": "https://grokipedia.com/page/Engaged_Buddhism",
+  "origin_note": "Thich Nhat Hanh founded Van Hanh Buddhist University in Saigon in 1964 and the School of Youth for Social Service in the mid-1960s to aid war victims; he named the idea in his 1967 book Vietnam: Lotus in a Sea of Fire",
+  "thinkers": [
+   "Thích Nhất Hạnh",
+   "Sulak Sivaraksa",
+   "A. T. Ariyaratne",
+   "Joanna Macy",
+   "14th Dalai Lama"
+  ],
+  "parents": [
+   "zen"
+  ],
+  "plain": "A movement that applies Buddhist ethics to war, poverty, injustice and the environment. It treats helping people who suffer as part of meditation practice, not a break from it.",
+  "summary": "Thich Nhat Hanh's answer to the Vietnam War: mindfulness joined to nonviolent relief and peace work, carried on by Sulak Sivaraksa, Sarvodaya and Western groups.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 0,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 5,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 0,
+   "hierarchy": -2
+  },
+  "rationale": {
+   "platonism": "No real link to Platonism.",
+   "aristotelianism": "No real link to Aristotelianism.",
+   "stoicism": "No real link to Stoicism.",
+   "christianity": "No real link to Christianity.",
+   "gnosticism": "No real link to Gnosticism.",
+   "hermeticism": "No real link to Hermeticism.",
+   "enlightenment_liberalism": "No real link to Enlightenment liberalism.",
+   "marxism": "No real link to Marxism.",
+   "darwinism": "No real link to Darwinism.",
+   "nietzsche": "No real link to Nietzsche.",
+   "critical_theory": "No real link to Critical theory.",
+   "confucianism": "No real link to Confucianism.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "Applies Buddhist teaching on suffering, compassion and interdependence directly to social life.",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "No real link to Islamic philosophy.",
+   "islam": "No documented relation.",
+   "judaism": "No documented relation.",
+   "romanticism": "No documented relation.",
+   "nationalism": "No documented relation.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Joins inner meditation with practical work like rebuilding villages and aiding refugees.",
+   "hierarchy": "Stands against war and authoritarian rule; Ambedkar's related movement rejected caste."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Engaged_Buddhism",
+   "https://grokipedia.com/page/Thích_Nhất_Hạnh",
+   "https://grokipedia.com/page/Sulak_Sivaraksa",
+   "https://grokipedia.com/page/Joanna_Macy"
+  ],
+  "domain": [
+   "religion",
+   "politics"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "South Vietnam",
+     "src": "https://grokipedia.com/page/Engaged_Buddhism",
+     "note": "Began here as relief and peace work during the Vietnam War.",
+     "period": "1960s"
+    },
+    {
+     "place": "France",
+     "src": "https://grokipedia.com/page/Thích_Nhất_Hạnh",
+     "note": "Thich Nhat Hanh founded Plum Village Monastery in France in 1982, the hub of a global network.",
+     "period": "since 1982"
+    },
+    {
+     "place": "Sri Lanka",
+     "src": "https://grokipedia.com/page/Engaged_Buddhism",
+     "note": "The Sarvodaya Shramadana Movement, founded in 1958, reached over 15,000 villages by the 1970s."
+    },
+    {
+     "place": "United States",
+     "src": "https://grokipedia.com/page/Engaged_Buddhism",
+     "note": "The Buddhist Peace Fellowship, founded in 1978, runs hospice, prison meditation and environmental work."
+    }
+   ]
+  },
+  "aliases": [
+   "Socially engaged Buddhism",
+   "Applied Buddhism"
+  ],
+  "edge_notes": {
+   "zen": {
+    "status": "documented",
+    "type": "influence",
+    "src": "https://grokipedia.com/page/Engaged_Buddhism",
+    "note": "Its founder, Thich Nhat Hanh, was a Vietnamese Zen monk who drew on Zen practice."
+   }
+  }
+ },
+ {
+  "id": "islamic_modernism",
+  "name": "Islamic modernism",
+  "root": false,
+  "year": 1884,
+  "year_approx": true,
+  "place": "Paris",
+  "lat": 48.86,
+  "lon": 2.35,
+  "origin_src": "https://grokipedia.com/page/Islamic_modernism",
+  "origin_note": "Jamal al-Din al-Afghani and Muhammad Abduh launched the journal al-Urwa al-Wuthqa in Paris in 1884, calling for renewed ijtihad; Sayyid Ahmad Khan had founded the Muhammadan Anglo-Oriental College in India in 1875",
+  "thinkers": [
+   "Jamal al-Din al-Afghani",
+   "Muhammad Abduh",
+   "Sayyid Ahmad Khan",
+   "Muhammad Iqbal"
+  ],
+  "parents": [
+   "islam",
+   "kalam",
+   "falsafa"
+  ],
+  "plain": "A 19th-century movement to show that Islam fits with modern science, reason and constitutional government. Its thinkers wanted Muslims to reason afresh from the Quran instead of copying older rulings.",
+  "summary": "Afghani, Abduh, Sayyid Ahmad Khan and Iqbal: renewed ijtihad, science and constitutional reform within Islam, against both rigid tradition and wholesale Westernization.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 2,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 4,
+   "islam": 4,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 1,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 1,
+   "hierarchy": -1
+  },
+  "rationale": {
+   "platonism": "No real link to Platonism.",
+   "aristotelianism": "No real link to Aristotelianism.",
+   "stoicism": "No real link to Stoicism.",
+   "christianity": "No real link to Christianity.",
+   "gnosticism": "No real link to Gnosticism.",
+   "hermeticism": "No real link to Hermeticism.",
+   "enlightenment_liberalism": "Argues Islam fits with science, democracy and constitutions, but rejects wholesale Westernization.",
+   "marxism": "No real link to Marxism.",
+   "darwinism": "No real link to Darwinism.",
+   "nietzsche": "No real link to Nietzsche.",
+   "critical_theory": "No real link to Critical theory.",
+   "confucianism": "No real link to Confucianism.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "No real link to Buddhism.",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "Revives the reason-and-revelation harmony of Avicenna and Averroes.",
+   "islam": "Reform within Islam: revive ijtihad to reread the Quran and Sunnah for modern conditions, not reject them.",
+   "judaism": "No documented relation.",
+   "romanticism": "No documented relation.",
+   "nationalism": "Sought to reconcile Islam with nationalism and influenced nationalist movements, though it also promoted pan-Islamic unity.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Holds that God's signs can be read in nature through reason and science.",
+   "hierarchy": "Pressed for constitutions and parliaments to check despotic rule, under Islamic oversight."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Islamic_modernism",
+   "https://grokipedia.com/page/Jamal_al-Din_al-Afghani",
+   "https://grokipedia.com/page/Muhammad_Abduh",
+   "https://grokipedia.com/page/Syed_Ahmad_Khan",
+   "https://grokipedia.com/page/Muhammad_Iqbal"
+  ],
+  "domain": [
+   "religion",
+   "politics"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Egypt",
+     "src": "https://grokipedia.com/page/Muhammad_Abduh",
+     "note": "Abduh pushed reforms of Al-Azhar and served as Grand Mufti of Egypt from 1899 to 1905."
+    },
+    {
+     "place": "British India",
+     "src": "https://grokipedia.com/page/Islamic_modernism",
+     "note": "Sayyid Ahmad Khan's college of 1875 became Aligarh Muslim University in 1920."
+    },
+    {
+     "place": "Ottoman Empire",
+     "src": "https://grokipedia.com/page/Islamic_modernism",
+     "note": "Modernist intellectuals pressed for the constitutional experiments of 1876 and 1908."
+    }
+   ]
+  },
+  "aliases": [
+   "Islamic reformism",
+   "Modernist Islam"
+  ],
+  "edge_notes": {
+   "islam": {
+    "status": "direct",
+    "type": "reform",
+    "src": "https://grokipedia.com/page/Islamic_modernism",
+    "note": "A reform movement within Islam that sought to renew it through reason, education and fresh reading of the Quran."
+   },
+   "kalam": {
+    "status": "documented",
+    "type": "influence",
+    "src": "https://grokipedia.com/page/Islamic_modernism",
+    "note": "Took inspiration from the rationalist Mu'tazila; Abduh defended Islam's rationality with Mu'tazilite ideas."
+   },
+   "falsafa": {
+    "status": "documented",
+    "type": "influence",
+    "src": "https://grokipedia.com/page/Islamic_modernism",
+    "note": "Looked back to philosophers such as Avicenna and Averroes who harmonized reason and faith."
+   }
+  }
+ },
+ {
+  "id": "salafism",
+  "name": "Salafism",
+  "root": false,
+  "year": 1898,
+  "year_approx": true,
+  "place": "Cairo",
+  "lat": 30.04,
+  "lon": 31.24,
+  "origin_src": "https://grokipedia.com/page/Salafi_movement",
+  "origin_note": "Took shape in the late 19th and early 20th centuries; Rashid Rida's Cairo journal al-Manar, founded in 1898, applied the label salafi and popularized Ibn Taymiyya's legacy, and Salafiyya became a self-description of purist groups after the 1920s",
+  "thinkers": [
+   "Rashid Rida",
+   "Jamal al-Din al-Qasimi",
+   "Muhammad Nasiruddin al-Albani",
+   "Muhammad ibn al-Uthaymin"
+  ],
+  "parents": [
+   "islam",
+   "islamic_modernism"
+  ],
+  "plain": "A Sunni movement that wants Islam practiced as the first Muslims practiced it. It reads the Quran and the Prophet's sayings literally and rejects later additions, such as honoring saints.",
+  "summary": "Return to the salaf: strict monotheism, literal reading of Quran and hadith, no innovations; quietist, political and jihadi strands; spread by Saudi-funded schools.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": -3,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": -4,
+   "islam": 5,
+   "judaism": -1,
+   "romanticism": 0,
+   "nationalism": -2,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 2,
+   "hierarchy": 2
+  },
+  "rationale": {
+   "platonism": "No real link to Platonism.",
+   "aristotelianism": "No real link to Aristotelianism.",
+   "stoicism": "No real link to Stoicism.",
+   "christianity": "No real link to Christianity.",
+   "gnosticism": "No real link to Gnosticism.",
+   "hermeticism": "No real link to Hermeticism.",
+   "enlightenment_liberalism": "Opposes secularism and Western influence; law should come straight from scripture.",
+   "marxism": "No real link to Marxism.",
+   "darwinism": "No real link to Darwinism.",
+   "nietzsche": "No real link to Nietzsche.",
+   "critical_theory": "No real link to Critical theory.",
+   "confucianism": "No real link to Confucianism.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "No real link to Buddhism.",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "Rejects philosophy and rationalist theology as later innovations on the faith of the first Muslims.",
+   "islam": "A purist return to the practice of the salaf, the first generations of Muslims.",
+   "judaism": "Rida, a founding figure, critiqued 'perceived distortions in Judaism and Christianity' and opposed Zionism.",
+   "romanticism": "No documented relation.",
+   "nationalism": "Leading Salafi scholars such as Ibn Baz opposed nationalism and secular ideologies.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Centers on God's absolute oneness and revealed scripture over human reasoning.",
+   "hierarchy": "Puts God's law above human law; its quietist strand urges obedience to Muslim rulers."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Salafi_movement",
+   "https://grokipedia.com/page/Rashid_Rida",
+   "https://grokipedia.com/page/Al-Albani",
+   "https://grokipedia.com/page/Islamic_modernism"
+  ],
+  "domain": [
+   "religion",
+   "politics"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Saudi Arabia",
+     "src": "https://grokipedia.com/page/Salafi_movement",
+     "note": "Saudi-funded schools such as the Islamic University of Madinah, founded in 1961, trained generations in Salafi creed."
+    },
+    {
+     "place": "Egypt",
+     "src": "https://grokipedia.com/page/Salafi_movement",
+     "note": "Rida's al-Manar spread it from Cairo, and purist groups took the Salafi name after the 1920s.",
+     "period": "from 1898"
+    },
+    {
+     "place": "Gulf states",
+     "src": "https://grokipedia.com/page/Islamic_modernism",
+     "note": "The 1973 oil boom let Gulf states fund Salafi-Wahhabi mosques, schools and publications worldwide.",
+     "period": "1970s–1980s"
+    }
+   ]
+  },
+  "aliases": [
+   "Salafi movement",
+   "Salafiyya"
+  ],
+  "edge_notes": {
+   "islam": {
+    "status": "direct",
+    "type": "reform",
+    "src": "https://grokipedia.com/page/Salafi_movement",
+    "note": "A Sunni reform trend that seeks to restore Islam as practiced by the first three generations of Muslims."
+   },
+   "islamic_modernism": {
+    "status": "documented",
+    "type": "influence",
+    "src": "https://grokipedia.com/page/Salafi_movement",
+    "note": "Rida began under Abduh's modernism, then moved toward stricter Salafi positions."
+   }
+  }
+ },
+ {
+  "id": "political_realism",
+  "name": "Political realism",
+  "root": false,
+  "year": 1939,
+  "year_approx": true,
+  "place": "London",
+  "lat": 51.51,
+  "lon": -0.13,
+  "origin_src": "https://grokipedia.com/page/Realism_(international_relations)",
+  "origin_note": "E. H. Carr's The Twenty Years' Crisis, published in London in 1939, was an early foundational text; Hans Morgenthau's Politics Among Nations (1948) systematized it. Realists trace their roots to Thucydides, Machiavelli and Hobbes",
+  "thinkers": [
+   "E. H. Carr",
+   "Hans Morgenthau",
+   "Reinhold Niebuhr",
+   "George F. Kennan",
+   "Kenneth Waltz",
+   "John Mearsheimer"
+  ],
+  "parents": [],
+  "plain": "A theory of world politics that says states look out for themselves in a world with no ruler above them. Survival needs power, alliances and a balance of power, more than ideals or international law.",
+  "summary": "Carr and Morgenthau against interwar idealism: states seek power and security in anarchy; later Waltz's neorealism and Mearsheimer's offensive realism.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 1,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": -3,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -2,
+   "hierarchy": 1
+  },
+  "rationale": {
+   "platonism": "No real link to Platonism.",
+   "aristotelianism": "No real link to Aristotelianism.",
+   "stoicism": "No real link to Stoicism.",
+   "christianity": "Niebuhr's Christian idea of original sin shaped its dark view of human nature.",
+   "gnosticism": "No real link to Gnosticism.",
+   "hermeticism": "No real link to Hermeticism.",
+   "enlightenment_liberalism": "Rejects liberal idealism; Carr attacked the interwar faith in a natural harmony of interests.",
+   "marxism": "No real link to Marxism.",
+   "darwinism": "No real link to Darwinism.",
+   "nietzsche": "No real link to Nietzsche.",
+   "critical_theory": "No real link to Critical theory.",
+   "confucianism": "No real link to Confucianism.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "No real link to Buddhism.",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "No real link to Islamic philosophy.",
+   "islam": "No documented relation.",
+   "judaism": "No documented relation.",
+   "romanticism": "No documented relation.",
+   "nationalism": "No documented relation.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Explains politics by power and material strength rather than by ideals.",
+   "hierarchy": "Describes world politics as ruled by the strongest powers, more as fact than as an ideal."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Realism_(international_relations)",
+   "https://grokipedia.com/page/The_Twenty_Years'_Crisis",
+   "https://grokipedia.com/page/Hans_Morgenthau",
+   "https://grokipedia.com/page/Reinhold_Niebuhr",
+   "https://grokipedia.com/page/Kenneth_Waltz"
+  ],
+  "domain": [
+   "politics",
+   "philosophy"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "United States",
+     "src": "https://grokipedia.com/page/Realism_(international_relations)",
+     "note": "Shaped US foreign policy in the Cold War through deterrence and containment."
+    },
+    {
+     "place": "Chicago",
+     "src": "https://grokipedia.com/page/Hans_Morgenthau",
+     "note": "Morgenthau taught political science at the University of Chicago for three decades from 1943."
+    },
+    {
+     "place": "Britain",
+     "src": "https://grokipedia.com/page/The_Twenty_Years'_Crisis",
+     "note": "Carr's 1939 critique of interwar idealism appeared in London on the eve of war.",
+     "period": "1939"
+    }
+   ]
+  },
+  "aliases": [
+   "Realism (international relations)",
+   "Classical realism",
+   "Realist school"
+  ],
+  "parent_note": "No parent line drawn. Realists trace their roots to Thucydides and Machiavelli, who are not nodes, and to the \"war of all against all\" in Thomas Hobbes."
  },
  {
   "id": "latter_day_saint_movement",
