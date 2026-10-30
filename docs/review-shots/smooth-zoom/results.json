@@ -1,0 +1,50 @@
+{
+ "anchor_px_drift": 0.09,
+ "wheel_steps": {
+  "start": 141.94,
+  "end": 28.66,
+  "frames": 65,
+  "max_step_frac": 0.095,
+  "monotonic": true
+ },
+ "line_vs_pixel": [
+  1.0798,
+  1.0798
+ ],
+ "ctrl_pinch_ratio": 0.527,
+ "clamped_5000_vs_120": [
+  1.212,
+  1.212
+ ],
+ "label_runs_idle_2s": 10,
+ "frame_ms_p50_p95_swiftshader": [
+  34.6,
+  41
+ ],
+ "reset": {
+  "target_cleared": true,
+  "dist_after": 141.94
+ },
+ "tour": {
+  "id": "academy-to-the-ming-court",
+  "step": [
+   "academy-to-the-ming-court",
+   1
+  ],
+  "busy_during_move": true,
+  "target_during_move": null
+ },
+ "snip": [
+  "block",
+  "grid"
+ ],
+ "reduced_motion": {
+  "changed_same_tick": true,
+  "target_left": null
+ },
+ "phone_pinch": {
+  "start": 208.11,
+  "end": 49.55,
+  "max_step_frac": 0.075
+ }
+}

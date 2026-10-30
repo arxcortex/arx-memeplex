@@ -1,0 +1,393 @@
+{
+ "results": {
+  "http-desk": {
+   "ideas": 192,
+   "countries": [
+    "us",
+    "gb",
+    "fr",
+    "de",
+    "ru",
+    "cn",
+    "jp"
+   ],
+   "us": {
+    "vis": true,
+    "head": "Modern politics \u00b7 coloured by party",
+    "rows": 3,
+    "fac": 14,
+    "judg": [],
+    "cdu": null
+   },
+   "gb": {
+    "vis": true,
+    "head": "Modern politics \u00b7 coloured by party",
+    "rows": 6,
+    "fac": 7,
+    "judg": [],
+    "cdu": null
+   },
+   "fr": {
+    "vis": true,
+    "head": "Modern politics \u00b7 coloured by party",
+    "rows": 6,
+    "fac": 7,
+    "judg": [],
+    "cdu": null,
+    "sd_blend": "#c12669"
+   },
+   "de": {
+    "vis": true,
+    "head": "Modern politics \u00b7 coloured by party",
+    "rows": 7,
+    "fac": 6,
+    "judg": [],
+    "cdu": "background:#5c5c5c;box-shadow:0 0 0 1.5px #e8e4da",
+    "cdu_star": "#5c5c5c"
+   },
+   "ru": {
+    "vis": true,
+    "head": "Modern politics \u00b7 coloured by bloc",
+    "rows": 4,
+    "fac": 4,
+    "judg": [],
+    "cdu": null
+   },
+   "cn": {
+    "vis": true,
+    "head": "Modern politics \u00b7 coloured by bloc",
+    "rows": 5,
+    "fac": 5,
+    "judg": [
+     "Proposed shade, no party color",
+     "Proposed shade, no party color",
+     "Proposed shade, no party color"
+    ],
+    "cdu": null
+   },
+   "jp": {
+    "vis": true,
+    "head": "Modern politics \u00b7 coloured by party",
+    "rows": 6,
+    "fac": 5,
+    "judg": [],
+    "cdu": null
+   },
+   "panel": true,
+   "hide": {
+    "pol": 41,
+    "polVis": 0,
+    "vis": 151,
+    "edgesHidden": 83,
+    "pressed": "true",
+    "f": {
+     "rootsOnly": false,
+     "sel": [],
+     "dom": "",
+     "visible": 151,
+     "hidePol": true,
+     "edgesHidden": 83
+    }
+   },
+   "snip": {
+    "w": 1872,
+    "h": 907,
+    "lit": 0.09710245165847485,
+    "brand": true
+   },
+   "errors": []
+  },
+  "http-phone": {
+   "ideas": 192,
+   "countries": [
+    "us",
+    "gb",
+    "fr",
+    "de",
+    "ru",
+    "cn",
+    "jp"
+   ],
+   "us": {
+    "vis": true,
+    "head": "Modern politics \u00b7 coloured by party",
+    "rows": 3,
+    "fac": 14,
+    "judg": [],
+    "cdu": null
+   },
+   "gb": {
+    "vis": true,
+    "head": "Modern politics \u00b7 coloured by party",
+    "rows": 6,
+    "fac": 7,
+    "judg": [],
+    "cdu": null
+   },
+   "fr": {
+    "vis": true,
+    "head": "Modern politics \u00b7 coloured by party",
+    "rows": 6,
+    "fac": 7,
+    "judg": [],
+    "cdu": null,
+    "sd_blend": "#c12669"
+   },
+   "de": {
+    "vis": true,
+    "head": "Modern politics \u00b7 coloured by party",
+    "rows": 7,
+    "fac": 6,
+    "judg": [],
+    "cdu": "background:#5c5c5c;box-shadow:0 0 0 1.5px #e8e4da",
+    "cdu_star": "#5c5c5c"
+   },
+   "ru": {
+    "vis": true,
+    "head": "Modern politics \u00b7 coloured by bloc",
+    "rows": 4,
+    "fac": 4,
+    "judg": [],
+    "cdu": null
+   },
+   "cn": {
+    "vis": true,
+    "head": "Modern politics \u00b7 coloured by bloc",
+    "rows": 5,
+    "fac": 5,
+    "judg": [
+     "Proposed shade, no party color",
+     "Proposed shade, no party color",
+     "Proposed shade, no party color"
+    ],
+    "cdu": null
+   },
+   "jp": {
+    "vis": true,
+    "head": "Modern politics \u00b7 coloured by party",
+    "rows": 6,
+    "fac": 5,
+    "judg": [],
+    "cdu": null
+   },
+   "panel": true,
+   "hide": {
+    "pol": 41,
+    "polVis": 0,
+    "vis": 151,
+    "edgesHidden": 83,
+    "pressed": "true",
+    "f": {
+     "rootsOnly": false,
+     "sel": [],
+     "dom": "",
+     "visible": 151,
+     "hidePol": true,
+     "edgesHidden": 83
+    }
+   },
+   "snip": {
+    "w": 640,
+    "h": 962,
+    "lit": 0.159862012987013,
+    "brand": true
+   },
+   "errors": []
+  },
+  "file-desk": {
+   "ideas": 192,
+   "countries": [
+    "us",
+    "gb",
+    "fr",
+    "de",
+    "ru",
+    "cn",
+    "jp"
+   ],
+   "us": {
+    "vis": true,
+    "head": "Modern politics \u00b7 coloured by party",
+    "rows": 3,
+    "fac": 14,
+    "judg": [],
+    "cdu": null
+   },
+   "gb": {
+    "vis": true,
+    "head": "Modern politics \u00b7 coloured by party",
+    "rows": 6,
+    "fac": 7,
+    "judg": [],
+    "cdu": null
+   },
+   "fr": {
+    "vis": true,
+    "head": "Modern politics \u00b7 coloured by party",
+    "rows": 6,
+    "fac": 7,
+    "judg": [],
+    "cdu": null,
+    "sd_blend": "#c12669"
+   },
+   "de": {
+    "vis": true,
+    "head": "Modern politics \u00b7 coloured by party",
+    "rows": 7,
+    "fac": 6,
+    "judg": [],
+    "cdu": "background:#5c5c5c;box-shadow:0 0 0 1.5px #e8e4da",
+    "cdu_star": "#5c5c5c"
+   },
+   "ru": {
+    "vis": true,
+    "head": "Modern politics \u00b7 coloured by bloc",
+    "rows": 4,
+    "fac": 4,
+    "judg": [],
+    "cdu": null
+   },
+   "cn": {
+    "vis": true,
+    "head": "Modern politics \u00b7 coloured by bloc",
+    "rows": 5,
+    "fac": 5,
+    "judg": [
+     "Proposed shade, no party color",
+     "Proposed shade, no party color",
+     "Proposed shade, no party color"
+    ],
+    "cdu": null
+   },
+   "jp": {
+    "vis": true,
+    "head": "Modern politics \u00b7 coloured by party",
+    "rows": 6,
+    "fac": 5,
+    "judg": [],
+    "cdu": null
+   },
+   "panel": true,
+   "hide": {
+    "pol": 41,
+    "polVis": 0,
+    "vis": 151,
+    "edgesHidden": 83,
+    "pressed": "true",
+    "f": {
+     "rootsOnly": false,
+     "sel": [],
+     "dom": "",
+     "visible": 151,
+     "hidePol": true,
+     "edgesHidden": 83
+    }
+   },
+   "snip": {
+    "w": 1872,
+    "h": 907,
+    "lit": 0.09716867292580275,
+    "brand": true
+   },
+   "errors": []
+  },
+  "file-phone": {
+   "ideas": 192,
+   "countries": [
+    "us",
+    "gb",
+    "fr",
+    "de",
+    "ru",
+    "cn",
+    "jp"
+   ],
+   "us": {
+    "vis": true,
+    "head": "Modern politics \u00b7 coloured by party",
+    "rows": 3,
+    "fac": 14,
+    "judg": [],
+    "cdu": null
+   },
+   "gb": {
+    "vis": true,
+    "head": "Modern politics \u00b7 coloured by party",
+    "rows": 6,
+    "fac": 7,
+    "judg": [],
+    "cdu": null
+   },
+   "fr": {
+    "vis": true,
+    "head": "Modern politics \u00b7 coloured by party",
+    "rows": 6,
+    "fac": 7,
+    "judg": [],
+    "cdu": null,
+    "sd_blend": "#c12669"
+   },
+   "de": {
+    "vis": true,
+    "head": "Modern politics \u00b7 coloured by party",
+    "rows": 7,
+    "fac": 6,
+    "judg": [],
+    "cdu": "background:#5c5c5c;box-shadow:0 0 0 1.5px #e8e4da",
+    "cdu_star": "#5c5c5c"
+   },
+   "ru": {
+    "vis": true,
+    "head": "Modern politics \u00b7 coloured by bloc",
+    "rows": 4,
+    "fac": 4,
+    "judg": [],
+    "cdu": null
+   },
+   "cn": {
+    "vis": true,
+    "head": "Modern politics \u00b7 coloured by bloc",
+    "rows": 5,
+    "fac": 5,
+    "judg": [
+     "Proposed shade, no party color",
+     "Proposed shade, no party color",
+     "Proposed shade, no party color"
+    ],
+    "cdu": null
+   },
+   "jp": {
+    "vis": true,
+    "head": "Modern politics \u00b7 coloured by party",
+    "rows": 6,
+    "fac": 5,
+    "judg": [],
+    "cdu": null
+   },
+   "panel": true,
+   "hide": {
+    "pol": 41,
+    "polVis": 0,
+    "vis": 151,
+    "edgesHidden": 83,
+    "pressed": "true",
+    "f": {
+     "rootsOnly": false,
+     "sel": [],
+     "dom": "",
+     "visible": 151,
+     "hidePol": true,
+     "edgesHidden": 83
+    }
+   },
+   "snip": {
+    "w": 640,
+    "h": 962,
+    "lit": 0.15947646103896104,
+    "brand": true
+   },
+   "errors": []
+  }
+ },
+ "fail": []
+}
