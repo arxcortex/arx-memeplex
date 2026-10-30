@@ -21353,5 +21353,149 @@
    "quote": "God revealed two interdependent components of Torah to Moses at Mount Sinai"
   },
   "parent_note": "Dating is contested: Neusner (cited on the Rabbinic Judaism page) has it 'crystallized between 200 and 600 CE'. This node dates it to when Yavne sages first held it."
+ },
+ {
+  "id": "latter_day_saint_movement",
+  "name": "Latter-day Saint movement",
+  "root": false,
+  "root_axis": null,
+  "year": 1827,
+  "year_approx": true,
+  "place": "Manchester (near Palmyra), New York",
+  "lat": 43.01,
+  "lon": -77.23,
+  "origin_src": "https://grokipedia.com/page/Latter_Day_Saint_movement",
+  "origin_note": "The Church of Christ was 'formally organized on April 6, 1830, in Fayette, New York , at the home of Peter Whitmer Sr., with six initial members'; the Book of Mormon was 'published in March 1830 by E. B. Grandin in Palmyra'. Dated here to 1827, when Smith 'retrieved the plates in 1827' near Manchester, New York (Grokipedia, Golden plates); the reported First Vision (1820) precedes it",
+  "thinkers": [
+   "Joseph Smith",
+   "Brigham Young"
+  ],
+  "parents": [
+   "protestantism",
+   "methodism"
+  ],
+  "plain": "A Christian movement organized as a church by Joseph Smith in 1830; it teaches a restored church, the Book of Mormon as added scripture, living prophets and temple rites for eternal families.",
+  "summary": "Restorationist Christian tradition organized as a church by Joseph Smith in 1830: Great Apostasy and restoration, Book of Mormon, embodied God, eternal progression, temples; led west by Brigham Young.",
+  "ratings": {
+   "platonism": -1,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 4,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 1,
+   "marxism": -1,
+   "darwinism": -1,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "islam": 0,
+   "judaism": 2,
+   "romanticism": 1,
+   "nationalism": 1,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -1,
+   "hierarchy": 3
+  },
+  "rationale": {
+   "platonism": "Rejects immaterial being: 'There is no such thing as immaterial matter. All spirit is matter' (D&C 131:7).",
+   "aristotelianism": "No real link to Aristotelianism.",
+   "stoicism": "No real link to Stoicism.",
+   "christianity": "A 'restorationist Christian tradition' centered on Christ; rejects the Nicene Trinity for an embodied Father and Son (Grokipedia, LDS movement; Mormonism).",
+   "gnosticism": "Temple rites and saving knowledge lead to exaltation, but matter is good and embodiment sought, the reverse of Gnostic dualism; no Gnostic link shown.",
+   "hermeticism": "Smith's early seer-stone treasure seeking is documented as 'vernacular occultism'; a Hermetic lineage is argued by some, not shown (Grokipedia, Mormonism).",
+   "enlightenment_liberalism": "Stresses agency and free choice in the plan of salvation; accepted constitutional order after 1890 but built a 'semi-theocratic society' in Utah (Grokipedia).",
+   "marxism": "Early communal economics in Utah (Grokipedia, Mormonism), yet the modern church teaches tithing and self-reliance, not class struggle.",
+   "darwinism": "Frames human origins through divine creation and eternal progression of spirits (Grokipedia, Mormonism); no Darwinian frame.",
+   "nietzsche": "No real link to Nietzsche.",
+   "critical_theory": "No real link to critical theory.",
+   "confucianism": "No real link to Confucianism.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "No real link to Buddhism.",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "No real link to Islamic philosophy (falsafa).",
+   "islam": "No real link to Islam.",
+   "judaism": "The Book of Mormon tells of migrants 'from Jerusalem around 600 BCE'; adopts Israelite priesthood, temple and covenant language (Grokipedia, LDS movement).",
+   "romanticism": "Rose in the revivalist 'Burned-over District' with visions and a sacred American past; romantic in mood, not a Romantic doctrine.",
+   "nationalism": "The Book of Mormon makes the Americas a 'promised land' (Grokipedia, Book of Mormon); now global, with most members outside the US.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Materialist metaphysics: 'All spirit is matter, but it is more fine or pure' (D&C 131:7); God 'has a body of flesh and bones' (Grokipedia, Joseph Smith).",
+   "hierarchy": "LDS polity is 'Hierarchical with prophetic leadership' (Grokipedia, LDS Church infobox), though callings are lay, 'voluntary and unpaid'."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Latter_Day_Saint_movement",
+   "https://grokipedia.com/page/Mormonism",
+   "https://grokipedia.com/page/Joseph_Smith",
+   "https://grokipedia.com/page/Brigham_Young",
+   "https://grokipedia.com/page/The_Church_of_Jesus_Christ_of_Latter-day_Saints",
+   "https://grokipedia.com/page/Community_of_Christ",
+   "https://grokipedia.com/page/Book_of_Mormon",
+   "https://grokipedia.com/page/Golden_plates",
+   "https://grokipedia.com/page/Restorationism",
+   "https://grokipedia.com/page/Second_Great_Awakening",
+   "https://grokipedia.com/page/Burned-over_district",
+   "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/131?lang=eng"
+  ],
+  "domain": [
+   "religion"
+  ],
+  "aliases": [
+   "Mormonism",
+   "Latter Day Saint movement",
+   "Mormon"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Palmyra–Fayette, New York",
+     "src": "https://grokipedia.com/page/Burned-over_district",
+     "note": "Founded amid revivals of the Burned-over District; organized at Fayette in 1830.",
+     "period": "1820–1831"
+    },
+    {
+     "place": "Kirtland, Ohio and Nauvoo, Illinois",
+     "src": "https://grokipedia.com/page/Latter_Day_Saint_movement",
+     "note": "Gathering centers until Smith's assassination on June 27, 1844 and the succession crisis.",
+     "period": "1831–1846"
+    },
+    {
+     "place": "Salt Lake City, Utah",
+     "src": "https://grokipedia.com/page/Brigham_Young",
+     "note": "Brigham Young led the trek west; Young served as church president 'from 1847 until his death'.",
+     "period": "1847–"
+    },
+    {
+     "place": "Latin America and Africa",
+     "src": "https://grokipedia.com/page/The_Church_of_Jesus_Christ_of_Latter-day_Saints",
+     "note": "International membership is now the majority, e.g. Brazil 'over 1.4 million members'.",
+     "period": "20th c.–"
+    }
+   ]
+  },
+  "edge_notes": {
+   "protestantism": {
+    "status": "influence",
+    "type": "influence",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Joseph_Smith",
+    "note": "Smith grew up amid revivals where 'Methodists, Baptists , and Presbyterians' competed; his First Vision told him to join none, so the movement defines itself against them."
+   },
+   "methodism": {
+    "status": "loose",
+    "type": "context",
+    "strength": "weak",
+    "src": "https://grokipedia.com/page/Joseph_Smith",
+    "note": "Stands in for the Second Great Awakening setting (no node yet). Palmyra records show 'Presbyterian and Methodist activities as early as 1816' and a June 1818 camp meeting; no doctrinal link shown."
+   }
+  },
+  "parent_note": "Key ancestors Restorationism (Christian primitivism) and the Second Great Awakening have no nodes on main; proposed, not built. No Hermetic or ceremonial_magic edge: folk-magic and Masonic links are documented only as contested context."
  }
 ]
