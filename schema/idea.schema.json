@@ -258,6 +258,312 @@
           }
         },
         "additionalProperties": false
+      },
+      "party_alignment_gb": {
+        "type": "object",
+        "required": [
+          "party",
+          "strength",
+          "src",
+          "note"
+        ],
+        "properties": {
+          "party": {
+            "enum": [
+              "CON",
+              "LAB",
+              "REF",
+              "LD",
+              "GRN",
+              "mixed"
+            ]
+          },
+          "strength": {
+            "type": "string"
+          },
+          "lean": {
+            "type": "string"
+          },
+          "blend": {
+            "type": "array",
+            "items": {
+              "enum": [
+                "CON",
+                "LAB",
+                "REF",
+                "LD",
+                "GRN"
+              ]
+            },
+            "minItems": 2,
+            "maxItems": 2
+          },
+          "src": {
+            "type": "string",
+            "pattern": "^https://"
+          },
+          "note": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "party_alignment_fr": {
+        "type": "object",
+        "required": [
+          "party",
+          "strength",
+          "src",
+          "note"
+        ],
+        "properties": {
+          "party": {
+            "enum": [
+              "RN",
+              "REN",
+              "LR",
+              "PS",
+              "LFI",
+              "mixed"
+            ]
+          },
+          "strength": {
+            "type": "string"
+          },
+          "lean": {
+            "type": "string"
+          },
+          "blend": {
+            "type": "array",
+            "items": {
+              "enum": [
+                "RN",
+                "REN",
+                "LR",
+                "PS",
+                "LFI"
+              ]
+            },
+            "minItems": 2,
+            "maxItems": 2
+          },
+          "src": {
+            "type": "string",
+            "pattern": "^https://"
+          },
+          "note": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "party_alignment_de": {
+        "type": "object",
+        "required": [
+          "party",
+          "strength",
+          "src",
+          "note"
+        ],
+        "properties": {
+          "party": {
+            "enum": [
+              "CDU",
+              "SPD",
+              "GRUENE",
+              "AFD",
+              "BSW",
+              "FDP",
+              "mixed"
+            ]
+          },
+          "strength": {
+            "type": "string"
+          },
+          "lean": {
+            "type": "string"
+          },
+          "blend": {
+            "type": "array",
+            "items": {
+              "enum": [
+                "CDU",
+                "SPD",
+                "GRUENE",
+                "AFD",
+                "BSW",
+                "FDP"
+              ]
+            },
+            "minItems": 2,
+            "maxItems": 2
+          },
+          "src": {
+            "type": "string",
+            "pattern": "^https://"
+          },
+          "note": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "party_alignment_ru": {
+        "type": "object",
+        "required": [
+          "party",
+          "strength",
+          "src",
+          "note"
+        ],
+        "properties": {
+          "party": {
+            "enum": [
+              "POWER",
+              "SYS",
+              "NONSYS",
+              "mixed"
+            ]
+          },
+          "strength": {
+            "type": "string"
+          },
+          "lean": {
+            "type": "string"
+          },
+          "blend": {
+            "type": "array",
+            "items": {
+              "enum": [
+                "POWER",
+                "SYS",
+                "NONSYS"
+              ]
+            },
+            "minItems": 2,
+            "maxItems": 2
+          },
+          "src": {
+            "type": "string",
+            "pattern": "^https://"
+          },
+          "note": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "party_alignment_cn": {
+        "type": "object",
+        "required": [
+          "party",
+          "strength",
+          "src",
+          "note"
+        ],
+        "properties": {
+          "party": {
+            "enum": [
+              "CORE",
+              "REFORM",
+              "LEFT",
+              "LIB",
+              "mixed"
+            ]
+          },
+          "strength": {
+            "type": "string"
+          },
+          "lean": {
+            "type": "string"
+          },
+          "blend": {
+            "type": "array",
+            "items": {
+              "enum": [
+                "CORE",
+                "REFORM",
+                "LEFT",
+                "LIB"
+              ]
+            },
+            "minItems": 2,
+            "maxItems": 2
+          },
+          "src": {
+            "type": "string",
+            "pattern": "^https://"
+          },
+          "note": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "party_alignment_jp": {
+        "type": "object",
+        "required": [
+          "party",
+          "strength",
+          "src",
+          "note"
+        ],
+        "properties": {
+          "party": {
+            "enum": [
+              "LDP",
+              "CDP",
+              "ISHIN",
+              "SANSEI",
+              "KOMEI",
+              "mixed"
+            ]
+          },
+          "strength": {
+            "type": "string"
+          },
+          "lean": {
+            "type": "string"
+          },
+          "blend": {
+            "type": "array",
+            "items": {
+              "enum": [
+                "LDP",
+                "CDP",
+                "ISHIN",
+                "SANSEI",
+                "KOMEI"
+              ]
+            },
+            "minItems": 2,
+            "maxItems": 2
+          },
+          "src": {
+            "type": "string",
+            "pattern": "^https://"
+          },
+          "note": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "modern_politics": {
+        "type": "boolean",
+        "description": "Modern politics view tag. Derivable: true whenever the idea has any party_alignment* field."
+      },
+      "naming_note": {
+        "type": "string",
+        "description": "Why the idea carries this name; e.g. a practitioners' name preferred over a later critical label"
+      },
+      "naming_note_src": {
+        "type": "array",
+        "minItems": 1,
+        "items": {
+          "type": "string",
+          "pattern": "^https://"
+        }
       }
     }
   }

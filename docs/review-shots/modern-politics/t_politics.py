@@ -31,7 +31,7 @@ async def run():
       else:
         R_,G_,B_=rgb(r['ancCol'])
         if not (R_>0.15 and B_>0.15): fail.append((tag,'ancestor colour not a blend',r['ancCol']))
-      if not r['keyShown'] or set(r['keyRows'])!={'R','D','mixed'} or r['facs']<10 or r['country']!=['United States']: fail.append((tag,'key',r))
+      if not r['keyShown'] or set(r['keyRows'])!={'R','D','mixed'} or r['facs']<10 or r['country'][0]!='United States': fail.append((tag,'key',r))
       if 'v=politics' not in r['hash']: fail.append((tag,'url state',r['hash']))
       if r['none']<50: fail.append((tag,'unrelated not dimmed'))
       await pg.screenshot(path=f"politics-{tag}-view.png")

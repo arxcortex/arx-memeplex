@@ -4490,7 +4490,8 @@
    "strength": "strong",
    "src": "https://grokipedia.com/page/Christian_right",
    "note": "Through the religious right; fundamentalists who backed Carter in 1976 moved Republican (Grokipedia, Moral Majority)."
-  }
+  },
+  "modern_politics": true
  },
  {
   "id": "young_earth_creationism",
@@ -6391,7 +6392,31 @@
      "note": "Named in the Grokipedia article “Social democracy”."
     }
    ]
-  }
+  },
+  "party_alignment_de": {
+   "party": "SPD",
+   "strength": "strong",
+   "src": "https://grokipedia.com/page/Social_Democratic_Party_of_Germany",
+   "note": "The SPD, Germany's oldest party; 16.4% in 2025, 'its poorest postwar outcome'."
+  },
+  "party_alignment_fr": {
+   "party": "PS",
+   "strength": "strong",
+   "src": "https://grokipedia.com/page/Socialist_Party_(France)",
+   "note": "The Socialist Party, now a partner in the New Popular Front with LFI.",
+   "blend": [
+    "PS",
+    "LFI"
+   ],
+   "lean": "PS"
+  },
+  "party_alignment_gb": {
+   "party": "LAB",
+   "strength": "strong",
+   "src": "https://grokipedia.com/page/Labour_Party_(UK)",
+   "note": "Labour; Starmer's centrist pivot yielded a 2024 landslide (Grokipedia, Labour Party)."
+  },
+  "modern_politics": true
  },
  {
   "id": "libertarianism",
@@ -6491,7 +6516,8 @@
    "strength": "lean R",
    "src": "https://grokipedia.com/page/Libertarian_Party_(United_States)",
    "note": "Own party since 1971, the third-largest by registration; inside the GOP via fusionism's coalition of 'economic libertarians'."
-  }
+  },
+  "modern_politics": true
  },
  {
   "id": "nationalism",
@@ -6581,7 +6607,35 @@
      "note": "Named in the Grokipedia article “Nationalism”."
     }
    ]
-  }
+  },
+  "party_alignment_fr": {
+   "party": "mixed",
+   "strength": "split",
+   "src": "https://grokipedia.com/page/Gaullism",
+   "note": "Claimed by Gaullists and the National Rally.",
+   "blend": [
+    "LR",
+    "RN"
+   ]
+  },
+  "party_alignment_jp": {
+   "party": "mixed",
+   "strength": "lean LDP",
+   "src": "https://grokipedia.com/page/Japanese_nationalism",
+   "note": "LDP right and Sanseitō.",
+   "blend": [
+    "LDP",
+    "SANSEI"
+   ],
+   "lean": "LDP"
+  },
+  "party_alignment_de": {
+   "party": "AFD",
+   "strength": "moderate",
+   "src": "https://grokipedia.com/page/Alternative_for_Germany",
+   "note": "In Germany carried mainly by the AfD."
+  },
+  "modern_politics": true
  },
  {
   "id": "fascism",
@@ -7068,7 +7122,24 @@
    "strength": "split",
    "src": "https://grokipedia.com/page/Progressivism_in_the_United_States",
    "note": "Right populism under MAGA, left populism under Sanders, who revived 'economic populism' (Grokipedia, Progressivism in the US)."
-  }
+  },
+  "party_alignment_fr": {
+   "party": "mixed",
+   "strength": "split",
+   "src": "https://grokipedia.com/page/La_France_Insoumise",
+   "note": "Right populism in the RN, left 'humanist populism' in LFI.",
+   "blend": [
+    "RN",
+    "LFI"
+   ]
+  },
+  "party_alignment_gb": {
+   "party": "REF",
+   "strength": "strong",
+   "src": "https://grokipedia.com/page/Reform_UK",
+   "note": "Carried by Reform UK."
+  },
+  "modern_politics": true
  },
  {
   "id": "divine_right_of_kings",
@@ -8669,7 +8740,8 @@
    "strength": "strong",
    "src": "https://grokipedia.com/page/Reagan_Democrat",
    "note": "The Democratic coalition since 1933; Reagan Democrats show its working-class fracture toward Republicans after 1980."
-  }
+  },
+  "modern_politics": true
  },
  {
   "id": "old_right",
@@ -8851,7 +8923,8 @@
    "strength": "strong",
    "src": "https://grokipedia.com/page/Fusionism",
    "note": "Built Goldwater's 1964 and Reagan's coalitions; weakened since Trump's 2016 campaign 'rejected fusionist free-trade shibboleths'."
-  }
+  },
+  "modern_politics": true
  },
  {
   "id": "new_left",
@@ -9051,7 +9124,8 @@
    "strength": "split",
    "src": "https://grokipedia.com/page/Neoconservatism",
    "note": "Began among Democrats such as Eugene Rostow, 'a \"Scoop Jackson Democrat\"', and Commentary writers under Podhoretz; moved Republican under Reagan; some joined Never Trump efforts, including the 2020 endorsement of Biden by former Republican security officials."
-  }
+  },
+  "modern_politics": true
  },
  {
   "id": "paleoconservatism",
@@ -9143,7 +9217,8 @@
    "strength": "moderate",
    "src": "https://grokipedia.com/page/Paleoconservatism",
    "note": "Marginal in the GOP in the late 20th century; 'renewed traction in recent populist movements'. Buchanan ran in Republican primaries."
-  }
+  },
+  "modern_politics": true
  },
  {
   "id": "cypherpunks",
@@ -11044,7 +11119,7 @@
  },
  {
   "id": "scientific_racism",
-  "name": "Scientific racism",
+  "name": "Race science",
   "root": false,
   "root_axis": null,
   "year": 1853,
@@ -11110,7 +11185,14 @@
   },
   "stories": [],
   "sources": [
-   "https://grokipedia.com/page/Scientific_racism"
+   "https://grokipedia.com/page/Scientific_racism",
+   "https://www.cambridge.org/core/journals/bjhs-themes/article/history-of-science-through-the-prism-of-race/D041D3BDF1CAE769C11A2CED4694DD23",
+   "https://grokipedia.com/page/Racial_hygiene",
+   "https://grokipedia.com/page/Craniometry",
+   "https://grokipedia.com/page/Anthropometry",
+   "https://grokipedia.com/page/Eugenics",
+   "https://doi.org/10.1086/200208",
+   "https://www.cambridge.org/core/journals/bjhs-themes/article/history-of-science-through-the-prism-of-race/D041D3BDF1CAE769C11A2CED4694DD23#fn10"
   ],
   "domain": [
    "politics"
@@ -11142,7 +11224,16 @@
      "note": "Named in the Grokipedia article “Scientific racism”."
     }
    ]
-  }
+  },
+  "aliases": [
+   "Scientific racism",
+   "Racial science"
+  ],
+  "naming_note": "Practitioners called it race science; historians say 'scientific racism' took hold after World War II and spread in the early 1960s as a critical label.",
+  "naming_note_src": [
+   "https://grokipedia.com/page/Scientific_racism",
+   "https://www.cambridge.org/core/journals/bjhs-themes/article/history-of-science-through-the-prism-of-race/D041D3BDF1CAE769C11A2CED4694DD23"
+  ]
  },
  {
   "id": "racial_antisemitism",
@@ -11947,7 +12038,20 @@
      "note": "Named in the Grokipedia article “Leninism”."
     }
    ]
-  }
+  },
+  "party_alignment_ru": {
+   "party": "SYS",
+   "strength": "strong",
+   "src": "https://grokipedia.com/page/Communist_Party_of_the_Russian_Federation",
+   "note": "Bloc: the CPRF, founded February 14, 1993 under Zyuganov, sits in the Duma as loyal 'systemic' opposition."
+  },
+  "party_alignment_cn": {
+   "party": "CORE",
+   "strength": "strong",
+   "src": "https://grokipedia.com/page/Xi_Jinping_Thought",
+   "note": "Bloc: Marxism-Leninism is the party's charter doctrine."
+  },
+  "modern_politics": true
  },
  {
   "id": "comintern",
@@ -13174,7 +13278,8 @@
    "strength": "strong",
    "src": "https://grokipedia.com/page/Make_America_Great_Again",
    "note": "The 2024 RNC platform was titled 'Make America Great Again'; the movement 'reshaped the Republican Party toward populism'."
-  }
+  },
+  "modern_politics": true
  },
  {
   "id": "postliberalism",
@@ -13276,7 +13381,8 @@
    "strength": "moderate",
    "src": "https://grokipedia.com/page/Postliberalism",
    "note": "An intellectual current; Vice President Vance 'has explicitly aligned with postliberalism'."
-  }
+  },
+  "modern_politics": true
  },
  {
   "id": "national_conservatism",
@@ -13381,7 +13487,8 @@
    "strength": "strong",
    "src": "https://grokipedia.com/page/National_conservatism",
    "note": "Grokipedia ties it to 'U.S. Republican emphases on America First economics post-2016'."
-  }
+  },
+  "modern_politics": true
  },
  {
   "id": "holiness_movement",
@@ -15308,7 +15415,8 @@
    "strength": "strong",
    "src": "https://grokipedia.com/page/Christian_right",
    "note": "Grokipedia: Moral Majority turned evangelicals into 'a reliable Republican base'; white evangelicals gave 78% to Romney (2012) and 81% to Trump (2016)."
-  }
+  },
+  "modern_politics": true
  },
  {
   "id": "new_democrats",
@@ -15421,7 +15529,8 @@
    "strength": "strong",
    "src": "https://grokipedia.com/page/Democratic_Leadership_Council",
    "note": "Intra-Democratic faction; the DLC closed in 2011 but the New Democrat Coalition, formed by DLC members in 1997, remains in the House."
-  }
+  },
+  "modern_politics": true
  },
  {
   "id": "democratic_socialism_us",
@@ -15539,7 +15648,8 @@
    "strength": "moderate",
    "src": "https://grokipedia.com/page/Democratic_Socialists_of_America",
    "note": "Not a party; DSA 'emphasized reforming the Democratic Party from within over third-party runs' (Grokipedia, DSA). Contested inside DSA. The Squad, an informal subgroup of the Congressional Progressive Caucus, overlaps with DSA but is not the same group (Grokipedia, Congressional Progressive Caucus)."
-  }
+  },
+  "modern_politics": true
  },
  {
   "id": "progressive_left",
@@ -15651,7 +15761,8 @@
    "strength": "strong",
    "src": "https://grokipedia.com/page/Congressional_Progressive_Caucus",
    "note": "A Democratic caucus formed 'to pull the Democratic Party toward more interventionist government'. Sanders, a founder, is an independent."
-  }
+  },
+  "modern_politics": true
  },
  {
   "id": "neo_thomism",
@@ -16229,5 +16340,2689 @@
     "note": "Engaged Kant's philosophy; Mou Zongsan built a moral metaphysics joining Kantian ethics to Confucian thought."
    }
   }
+ },
+ {
+  "id": "one_nation_conservatism",
+  "name": "One-nation conservatism",
+  "root": false,
+  "root_axis": null,
+  "year": 1845,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/One-nation_conservatism",
+  "origin_note": "Disraeli's 1845 novel Sybil, or The Two Nations portrayed Britain as split into rich and poor 'nations'; the One Nation Group of Conservative MPs formed in 1950 (Grokipedia, One-nation conservatism)",
+  "place": "London",
+  "lat": 51.51,
+  "lon": -0.13,
+  "thinkers": [
+   "Benjamin Disraeli",
+   "Harold Macmillan"
+  ],
+  "parents": [
+   "burkean_conservatism"
+  ],
+  "plain": "Paternalist Toryism: the privileged owe duties to the poor, and the state should ease hardship to keep the nation whole.",
+  "summary": "Disraeli's 'two nations' warning grew into the Conservative moderate wing; the One Nation Group of 1950 and Macmillan's welfare-state Toryism carried it on.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 1,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 1,
+   "marxism": -2,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -3,
+   "hierarchy": 3
+  },
+  "rationale": {
+   "platonism": "No real link to Platonism.",
+   "aristotelianism": "No real link to Aristotelianism.",
+   "stoicism": "No real link to Stoicism.",
+   "christianity": "Noblesse oblige carries an Anglican moral sense of duty; judgment.",
+   "gnosticism": "No real link to Gnosticism.",
+   "hermeticism": "No real link to Hermeticism.",
+   "enlightenment_liberalism": "Works through parliament and extended the franchise as 'Tory democracy' (Grokipedia, One-nation conservatism).",
+   "marxism": "Rejects class conflict, seeking 'national unity over ideological confrontation with Labour'.",
+   "darwinism": "No real link to Darwinism.",
+   "nietzsche": "No real link to Nietzsche.",
+   "critical_theory": "No link to Critical theory.",
+   "confucianism": "No real link to Confucianism.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "No real link to Buddhism.",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "No real link to Islamic philosophy (falsafa).",
+   "humor": "Earnest register.",
+   "irony": "Sincere.",
+   "abstraction": "Prefers 'organic society and gradual change' to theory (Grokipedia, One-nation conservatism).",
+   "hierarchy": "Sees society as 'a hierarchical organism where elites exercise benevolent authority' (Grokipedia)."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/One-nation_conservatism"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "aliases": [
+   "One Nation Conservatives",
+   "Tory democracy",
+   "wets"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "United Kingdom",
+     "src": "https://grokipedia.com/page/One-nation_conservatism",
+     "note": "The One Nation Group of Conservative MPs formed in 1950; its 'wets' clashed with Thatcher's 'dries'.",
+     "period": "1950–present"
+    }
+   ]
+  },
+  "edge_notes": {
+   "burkean_conservatism": {
+    "status": "direct",
+    "type": "descent",
+    "src": "https://grokipedia.com/page/One-nation_conservatism",
+    "note": "Grokipedia speaks of 'one-nation's Burkean inheritance favoring prudence over mass agitation'."
+   }
+  },
+  "party_alignment_gb": {
+   "party": "CON",
+   "strength": "strong",
+   "src": "https://grokipedia.com/page/One-nation_conservatism",
+   "note": "The One Nation Group was 'founded in 1950 by nine newly elected Conservative MPs'."
+  },
+  "modern_politics": true
+ },
+ {
+  "id": "thatcherism",
+  "name": "Thatcherism",
+  "root": false,
+  "root_axis": null,
+  "year": 1974,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Thatcherism",
+  "origin_note": "Keith Joseph's Upminster and Preston speeches of June and September 1974 'marked an intellectual shift within the party toward monetarism'; Thatcher's government took office May 1979 (Grokipedia, Thatcherism)",
+  "place": "London",
+  "lat": 51.51,
+  "lon": -0.13,
+  "thinkers": [
+   "Margaret Thatcher",
+   "Keith Joseph",
+   "Enoch Powell"
+  ],
+  "parents": [
+   "neoliberalism"
+  ],
+  "plain": "Free markets, privatization, union reform, sound money and a strong state at home and abroad.",
+  "summary": "Joseph and Thatcher turned the Conservatives against the post-war consensus; her 1979–1990 governments cut inflation, sold state firms and curbed unions.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 1,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 4,
+   "marxism": -4,
+   "darwinism": 1,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 1,
+   "hierarchy": 2
+  },
+  "rationale": {
+   "platonism": "No real link to Platonism.",
+   "aristotelianism": "No real link to Aristotelianism.",
+   "stoicism": "No real link to Stoicism.",
+   "christianity": "Thatcher, a Methodist grocer's daughter, invoked moral thrift; judgment.",
+   "gnosticism": "No real link to Gnosticism.",
+   "hermeticism": "No real link to Hermeticism.",
+   "enlightenment_liberalism": "Drew 'core inspiration from classical liberal philosophy, particularly the works of Friedrich Hayek' (Grokipedia, Thatcherism).",
+   "marxism": "Rejected 'the post-war consensus favoring state intervention' and fought socialism as a road to serfdom.",
+   "darwinism": "Market competition as the engine of efficiency; judgment, no biological claim.",
+   "nietzsche": "No real link to Nietzsche.",
+   "critical_theory": "No real link to Critical theory.",
+   "confucianism": "No real link to Confucianism.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "No real link to Buddhism.",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "No real link to Islamic philosophy (falsafa).",
+   "humor": "Earnest register.",
+   "irony": "Sincere.",
+   "abstraction": "Ideas-driven by Hayek and monetarist theory, applied pragmatically; judgment.",
+   "hierarchy": "Defends inequality of outcome and a strong state; judgment."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Thatcherism",
+   "https://grokipedia.com/page/Euroscepticism_in_the_United_Kingdom"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "aliases": [
+   "Tory right",
+   "dries",
+   "Thatcherite"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "United Kingdom",
+     "src": "https://grokipedia.com/page/Thatcherism",
+     "note": "Governing doctrine 1979–1990; still the reference point of the Conservative right.",
+     "period": "1979–present"
+    },
+    {
+     "place": "England",
+     "src": "https://grokipedia.com/page/Euroscepticism_in_the_United_Kingdom",
+     "note": "Its Bruges speech of 1988 set the frame for later English Euroscepticism.",
+     "period": "1988–present"
+    }
+   ]
+  },
+  "edge_notes": {
+   "neoliberalism": {
+    "status": "direct",
+    "type": "descent",
+    "src": "https://grokipedia.com/page/Thatcherism",
+    "note": "Thatcherism 'drew core inspiration' from Hayek, a founder of neoliberalism, and from monetarism."
+   }
+  },
+  "party_alignment_gb": {
+   "party": "CON",
+   "strength": "strong",
+   "src": "https://grokipedia.com/page/Thatcherism",
+   "note": "The Conservative right's core doctrine since 1975; Reform UK also claims parts of it.",
+   "blend": [
+    "CON",
+    "REF"
+   ],
+   "lean": "CON"
+  },
+  "modern_politics": true
+ },
+ {
+  "id": "new_labour",
+  "name": "New Labour",
+  "root": false,
+  "root_axis": null,
+  "year": 1994,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/New_Labour",
+  "origin_note": "Tony Blair won the Labour leadership on July 21, 1994 and adopted the 'New Labour' name at the October 1994 conference; Clause IV was rewritten in 1995 (Grokipedia, New Labour)",
+  "place": "London",
+  "lat": 51.51,
+  "lon": -0.13,
+  "thinkers": [
+   "Tony Blair",
+   "Gordon Brown",
+   "Peter Mandelson",
+   "Anthony Giddens"
+  ],
+  "parents": [
+   "social_democracy",
+   "new_democrats"
+  ],
+  "plain": "Labour's centrist Third Way: markets and fiscal prudence joined to public investment and social justice.",
+  "summary": "Blair rebranded Labour in 1994, dropped common ownership from Clause IV in 1995 and won three elections from 1997.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 3,
+   "marxism": -3,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 0,
+   "hierarchy": -1
+  },
+  "rationale": {
+   "platonism": "No real link to Platonism.",
+   "aristotelianism": "No real link to Aristotelianism.",
+   "stoicism": "No real link to Stoicism.",
+   "christianity": "No real link to Christianity.",
+   "gnosticism": "No real link to Gnosticism.",
+   "hermeticism": "No real link to Hermeticism.",
+   "enlightenment_liberalism": "Embraced 'capitalism' while 'retaining commitments to equality and community' (Grokipedia, New Labour).",
+   "marxism": "Dropped Clause IV's 'common ownership of the means of production' in 1995.",
+   "darwinism": "No real link to Darwinism.",
+   "nietzsche": "No real link to Nietzsche.",
+   "critical_theory": "No link to Critical theory.",
+   "confucianism": "No real link to Confucianism.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "No real link to Buddhism.",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "No real link to Islamic philosophy (falsafa).",
+   "humor": "Earnest register.",
+   "irony": "Sincere.",
+   "abstraction": "Pragmatic modernization; judgment.",
+   "hierarchy": "Opportunity over equal outcomes; judgment."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/New_Labour",
+   "https://grokipedia.com/page/Labour_Party_(UK)",
+   "https://grokipedia.com/page/Democratic_Leadership_Council"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "aliases": [
+   "Blairism",
+   "Blairites",
+   "Third Way Labour"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "United Kingdom",
+     "src": "https://grokipedia.com/page/Labour_Party_(UK)",
+     "note": "Labour won three straight elections under Blair, 1997–2010 (Grokipedia, Labour Party).",
+     "period": "1994–2010"
+    },
+    {
+     "place": "London",
+     "src": "https://grokipedia.com/page/New_Labour",
+     "note": "Its Blairite heirs remain a Labour faction; judgment drawn from party history.",
+     "period": "2010–present"
+    }
+   ]
+  },
+  "edge_notes": {
+   "social_democracy": {
+    "status": "direct",
+    "type": "reform",
+    "src": "https://grokipedia.com/page/New_Labour",
+    "note": "Adopted 'Third Way principles as a framework for modernizing social democracy'."
+   },
+   "new_democrats": {
+    "status": "influence",
+    "type": "transfer",
+    "src": "https://grokipedia.com/page/Democratic_Leadership_Council",
+    "note": "Grokipedia's DLC page says its influence extended to Tony Blair's policies."
+   }
+  },
+  "party_alignment_gb": {
+   "party": "LAB",
+   "strength": "strong",
+   "src": "https://grokipedia.com/page/New_Labour",
+   "note": "Labour's governing faction 1994–2010; 'Blairite' still names its right wing."
+  },
+  "modern_politics": true
+ },
+ {
+  "id": "labour_left",
+  "name": "Labour left",
+  "root": false,
+  "root_axis": null,
+  "year": 1982,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Socialist_Campaign_Group",
+  "origin_note": "Socialist Campaign Group formed December 1982 by Tony Benn's allies who left the Tribune Group; it backed Corbyn's leadership win in 2015 (Grokipedia, Socialist Campaign Group)",
+  "place": "London",
+  "lat": 51.51,
+  "lon": -0.13,
+  "thinkers": [
+   "Tony Benn",
+   "Jeremy Corbyn",
+   "John McDonnell",
+   "Diane Abbott"
+  ],
+  "parents": [
+   "social_democracy"
+  ],
+  "plain": "Labour's socialist wing: public ownership, anti-austerity, trade unions and anti-war politics.",
+  "summary": "Benn's allies founded the Campaign Group in 1982; Corbyn led Labour 2015–2020 and Momentum organized his supporters.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 1,
+   "marxism": 2,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 1,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 1,
+   "hierarchy": -4
+  },
+  "rationale": {
+   "platonism": "No real link to Platonism.",
+   "aristotelianism": "No real link to Aristotelianism.",
+   "stoicism": "No real link to Stoicism.",
+   "christianity": "No real link to Christianity.",
+   "gnosticism": "No real link to Gnosticism.",
+   "hermeticism": "No real link to Hermeticism.",
+   "enlightenment_liberalism": "Works inside a parliamentary party; judgment.",
+   "marxism": "Pro-nationalization and union-based; socialist, not Marxist-Leninist; judgment.",
+   "darwinism": "No real link to Darwinism.",
+   "nietzsche": "No real link to Nietzsche.",
+   "critical_theory": "Anti-war and anti-racist campaigns; judgment.",
+   "confucianism": "No real link to Confucianism.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "No real link to Buddhism.",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "No real link to Islamic philosophy (falsafa).",
+   "humor": "Earnest register.",
+   "irony": "Sincere.",
+   "abstraction": "Programmatic socialism; judgment.",
+   "hierarchy": "Pushes 'anti-austerity and pro-nationalization platforms' (Grokipedia, Socialist Campaign Group)."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Socialist_Campaign_Group",
+   "https://grokipedia.com/page/Momentum_(organisation)"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "aliases": [
+   "Bennism",
+   "Corbynism",
+   "Socialist Campaign Group",
+   "hard left"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "United Kingdom",
+     "src": "https://grokipedia.com/page/Socialist_Campaign_Group",
+     "note": "A parliamentary bloc of Labour MPs since 1982; it drove Corbyn's 2015 leadership win.",
+     "period": "1982–present"
+    },
+    {
+     "place": "London",
+     "src": "https://grokipedia.com/page/Momentum_(organisation)",
+     "note": "Momentum launched in October 2015 from Corbyn campaign volunteers (Grokipedia, Momentum).",
+     "period": "2015–present"
+    }
+   ]
+  },
+  "edge_notes": {
+   "social_democracy": {
+    "status": "direct",
+    "type": "faction",
+    "src": "https://grokipedia.com/page/Socialist_Campaign_Group",
+    "note": "Formed inside Labour 'as a bulwark against perceived rightward drifts in party policy'."
+   }
+  },
+  "party_alignment_gb": {
+   "party": "LAB",
+   "strength": "strong",
+   "src": "https://grokipedia.com/page/Socialist_Campaign_Group",
+   "note": "A faction within the Labour Party since 1982."
+  },
+  "modern_politics": true
+ },
+ {
+  "id": "reform_uk_populism",
+  "name": "Reform UK populism",
+  "root": false,
+  "root_axis": null,
+  "year": 2019,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Reform_UK",
+  "origin_note": "The Brexit Party, 'the direct predecessor to Reform UK, emerged in early 2019'; UKIP, its forerunner, was founded in 1993 (Grokipedia, Reform UK)",
+  "place": "London",
+  "lat": 51.51,
+  "lon": -0.13,
+  "thinkers": [
+   "Nigel Farage",
+   "Richard Tice"
+  ],
+  "parents": [
+   "populism",
+   "thatcherism"
+  ],
+  "plain": "British national populism: leave EU rules behind, cut immigration, restore national sovereignty.",
+  "summary": "Farage's Brexit Party (2019) became Reform UK; it won 14.3% and five seats in July 2024 and pressed the Conservatives from the right.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 1,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 0,
+   "marxism": -3,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": -3,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "humor": 1,
+   "irony": 0,
+   "abstraction": -2,
+   "hierarchy": 1
+  },
+  "rationale": {
+   "platonism": "No real link to Platonism.",
+   "aristotelianism": "No real link to Aristotelianism.",
+   "stoicism": "No real link to Stoicism.",
+   "christianity": "Some appeal to Christian heritage; judgment.",
+   "gnosticism": "No real link to Gnosticism.",
+   "hermeticism": "No real link to Hermeticism.",
+   "enlightenment_liberalism": "Free-market and sovereign-parliament claims, with immigration limits; mixed; judgment.",
+   "marxism": "Anti-socialist; judgment.",
+   "darwinism": "No real link to Darwinism.",
+   "nietzsche": "No real link to Nietzsche.",
+   "critical_theory": "Opposes progressive cultural agendas; judgment.",
+   "confucianism": "No real link to Confucianism.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "No real link to Buddhism.",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "No real link to Islamic philosophy (falsafa).",
+   "humor": "Farage's pub-politics persona; judgment.",
+   "irony": "Sincere.",
+   "abstraction": "Plain-speaking populism; judgment.",
+   "hierarchy": "Nation over supranational bodies; judgment."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Reform_UK",
+   "https://grokipedia.com/page/Euroscepticism_in_the_United_Kingdom"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "aliases": [
+   "Brexit Party",
+   "Faragism",
+   "Reform-style populism"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "United Kingdom",
+     "src": "https://grokipedia.com/page/Reform_UK",
+     "note": "Won 14.3% of the vote and five seats in July 2024, then 'hundreds of council seats' in 2025.",
+     "period": "2019–present"
+    }
+   ]
+  },
+  "edge_notes": {
+   "populism": {
+    "status": "direct",
+    "type": "descent",
+    "src": "https://grokipedia.com/page/Reform_UK",
+    "note": "Grokipedia frames it as the voice 'for voters disillusioned with establishment parties'."
+   },
+   "thatcherism": {
+    "status": "influence",
+    "type": "precedent",
+    "src": "https://grokipedia.com/page/Euroscepticism_in_the_United_Kingdom",
+    "note": "Euroscepticism 'intensified during Margaret Thatcher's premiership, exemplified by her 1988 Bruges speech'."
+   }
+  },
+  "party_alignment_gb": {
+   "party": "REF",
+   "strength": "strong",
+   "src": "https://grokipedia.com/page/Reform_UK",
+   "note": "Party led by Farage since June 2024; draws Conservative voters."
+  },
+  "modern_politics": true
+ },
+ {
+  "id": "gaullism",
+  "name": "Gaullism",
+  "root": false,
+  "root_axis": null,
+  "year": 1940,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Gaullism",
+  "origin_note": "On June 18, 1940, de Gaulle broadcast the Appeal of 18 June from London over the BBC; he founded the RPF on April 14, 1947 (Grokipedia, Gaullism)",
+  "place": "London",
+  "lat": 51.51,
+  "lon": -0.13,
+  "thinkers": [
+   "Charles de Gaulle",
+   "Georges Pompidou",
+   "Jacques Chirac"
+  ],
+  "parents": [
+   "nationalism"
+  ],
+  "plain": "French independence and grandeur: a strong presidency, national sovereignty and autonomy from blocs.",
+  "summary": "Born in de Gaulle's 1940 call to resist, it built the Fifth Republic in 1958 and passed through the UDR and RPR to The Republicans.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 1,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 1,
+   "marxism": -3,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -1,
+   "hierarchy": 3
+  },
+  "rationale": {
+   "platonism": "No real link to Platonism.",
+   "aristotelianism": "No real link to Aristotelianism.",
+   "stoicism": "No real link to Stoicism.",
+   "christianity": "De Gaulle was Catholic; the doctrine is secular-republican; judgment.",
+   "gnosticism": "No real link to Gnosticism.",
+   "hermeticism": "No real link to Hermeticism.",
+   "enlightenment_liberalism": "Republican and electoral, yet favors a strong executive; judgment.",
+   "marxism": "Anti-communist pacts excluded the RPF (Grokipedia, Gaullism).",
+   "darwinism": "No real link to Darwinism.",
+   "nietzsche": "No real link to Nietzsche.",
+   "critical_theory": "No real link to Critical theory.",
+   "confucianism": "No real link to Confucianism.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "No real link to Buddhism.",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "No real link to Islamic philosophy (falsafa).",
+   "humor": "Earnest register.",
+   "irony": "Sincere.",
+   "abstraction": "A 'nationalist yet pragmatic conservatism' (Grokipedia, Gaullism).",
+   "hierarchy": "Presidential system and national unity over 'parliamentary weakness'; judgment."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Gaullism",
+   "https://grokipedia.com/page/The_Republicans_(France)"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "aliases": [
+   "Gaullists"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "France",
+     "src": "https://grokipedia.com/page/The_Republicans_(France)",
+     "note": "The Republicans blend 'liberal-conservatism with Gaullist nationalism' (Grokipedia).",
+     "period": "1958–present"
+    }
+   ]
+  },
+  "edge_notes": {
+   "nationalism": {
+    "status": "direct",
+    "type": "descent",
+    "src": "https://grokipedia.com/page/Gaullism",
+    "note": "Embeds 'a nationalist yet pragmatic conservatism into French politics'."
+   }
+  },
+  "party_alignment_fr": {
+   "party": "LR",
+   "strength": "strong",
+   "src": "https://grokipedia.com/page/The_Republicans_(France)",
+   "note": "Carried through the UDR, RPR (1976), UMP and The Republicans (2015).",
+   "blend": [
+    "LR",
+    "RN"
+   ],
+   "lean": "LR"
+  },
+  "modern_politics": true
+ },
+ {
+  "id": "macronism",
+  "name": "Macronism",
+  "root": false,
+  "root_axis": null,
+  "year": 2016,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Renaissance_(French_political_party)",
+  "origin_note": "En Marche! was founded on April 6, 2016, by Emmanuel Macron in Amiens while he was Economy Minister (Grokipedia, Renaissance)",
+  "place": "Amiens",
+  "lat": 49.89,
+  "lon": 2.3,
+  "thinkers": [
+   "Emmanuel Macron",
+   "Édouard Philippe",
+   "Gabriel Attal"
+  ],
+  "parents": [
+   "neoliberalism"
+  ],
+  "plain": "Pro-European liberal centrism that mixes market reform with social investment, 'en même temps'.",
+  "summary": "Macron founded En Marche! in 2016 to break the left-right divide and won the presidency in 2017; the party became Renaissance.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 4,
+   "marxism": -2,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 1,
+   "hierarchy": 0
+  },
+  "rationale": {
+   "platonism": "No real link to Platonism.",
+   "aristotelianism": "No real link to Aristotelianism.",
+   "stoicism": "No real link to Stoicism.",
+   "christianity": "No real link to Christianity.",
+   "gnosticism": "No real link to Gnosticism.",
+   "hermeticism": "No real link to Hermeticism.",
+   "enlightenment_liberalism": "Promotes 'pro-European policies and liberal reforms focused on economic modernization and meritocracy' (Grokipedia, Renaissance).",
+   "marxism": "Market liberalization over class politics; judgment.",
+   "darwinism": "No real link to Darwinism.",
+   "nietzsche": "No real link to Nietzsche.",
+   "critical_theory": "No real link to Critical theory.",
+   "confucianism": "No real link to Confucianism.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "No real link to Buddhism.",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "No real link to Islamic philosophy (falsafa).",
+   "humor": "Earnest register.",
+   "irony": "Sincere.",
+   "abstraction": "Technocratic reform program; judgment.",
+   "hierarchy": "Meritocratic; judgment."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Renaissance_(French_political_party)",
+   "https://grokipedia.com/page/Emmanuel_Macron"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "aliases": [
+   "macronisme",
+   "En Marche",
+   "Renaissance party"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "France",
+     "src": "https://grokipedia.com/page/Renaissance_(French_political_party)",
+     "note": "Governing presidential party since 2017.",
+     "period": "2017–present"
+    }
+   ]
+  },
+  "edge_notes": {
+   "neoliberalism": {
+    "status": "influence",
+    "type": "synthesis",
+    "src": "https://grokipedia.com/page/Emmanuel_Macron",
+    "note": "Blends 'left-leaning social investments with right-leaning market liberalization'."
+   }
+  },
+  "party_alignment_fr": {
+   "party": "REN",
+   "strength": "strong",
+   "src": "https://grokipedia.com/page/Renaissance_(French_political_party)",
+   "note": "Party founded as En Marche! (2016), renamed Renaissance."
+  },
+  "modern_politics": true
+ },
+ {
+  "id": "rassemblement_national",
+  "name": "National Rally nationalism",
+  "root": false,
+  "root_axis": null,
+  "year": 1972,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/National_Rally",
+  "origin_note": "Founded in 1972 as the National Front by Jean-Marie Le Pen; renamed National Rally on June 1, 2018 under Marine Le Pen (Grokipedia, National Rally)",
+  "place": "Paris",
+  "lat": 48.86,
+  "lon": 2.35,
+  "thinkers": [
+   "Jean-Marie Le Pen",
+   "Marine Le Pen",
+   "Jordan Bardella"
+  ],
+  "parents": [
+   "nationalism",
+   "populism"
+  ],
+  "plain": "French national populism: cut immigration, defend sovereignty against the EU, protect the welfare state for citizens.",
+  "summary": "Le Pen's National Front of 1972 became the National Rally in 2018; Marine Le Pen took 41.5% in the 2022 runoff.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 1,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": -1,
+   "marxism": -2,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": -3,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -2,
+   "hierarchy": 2
+  },
+  "rationale": {
+   "platonism": "No real link to Platonism.",
+   "aristotelianism": "No real link to Aristotelianism.",
+   "stoicism": "No real link to Stoicism.",
+   "christianity": "Invokes French Catholic heritage; judgment.",
+   "gnosticism": "No real link to Gnosticism.",
+   "hermeticism": "No real link to Hermeticism.",
+   "enlightenment_liberalism": "Electoral, but opposes multicultural liberal consensus; judgment.",
+   "marxism": "Anti-communist origins; now courts workers; judgment.",
+   "darwinism": "No real link to Darwinism.",
+   "nietzsche": "No real link to Nietzsche.",
+   "critical_theory": "Opposes progressive identity politics; judgment.",
+   "confucianism": "No real link to Confucianism.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "No real link to Buddhism.",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "No real link to Islamic philosophy (falsafa).",
+   "humor": "Earnest register.",
+   "irony": "Sincere.",
+   "abstraction": "Populist register; judgment.",
+   "hierarchy": "National preference over newcomers; judgment."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/National_Rally"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "aliases": [
+   "Front National",
+   "National Front",
+   "Lepenism",
+   "RN"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "France",
+     "src": "https://grokipedia.com/page/National_Rally",
+     "note": "Marine Le Pen 'garnered 41.5 percent of the vote' in the 2022 runoff (Grokipedia, National Rally).",
+     "period": "1972–present"
+    }
+   ]
+  },
+  "edge_notes": {
+   "nationalism": {
+    "status": "direct",
+    "type": "descent",
+    "src": "https://grokipedia.com/page/National_Rally",
+    "note": "Founded 'to advance anti-immigration and nationalist policies'."
+   },
+   "populism": {
+    "status": "direct",
+    "type": "descent",
+    "src": "https://grokipedia.com/page/National_Rally",
+    "note": "Grokipedia describes 'tensions between populist nationalism and entrenched elites'."
+   }
+  },
+  "party_alignment_fr": {
+   "party": "RN",
+   "strength": "strong",
+   "src": "https://grokipedia.com/page/National_Rally",
+   "note": "Party since 1972; led by Bardella since November 2022."
+  },
+  "modern_politics": true
+ },
+ {
+  "id": "la_france_insoumise",
+  "name": "La France Insoumise",
+  "root": false,
+  "root_axis": null,
+  "year": 2016,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/La_France_Insoumise",
+  "origin_note": "Founded on February 10, 2016, when Jean-Luc Mélenchon announced it on France 2; its program was adopted in Lille in October 2016 (Grokipedia, La France Insoumise)",
+  "place": "Paris",
+  "lat": 48.86,
+  "lon": 2.35,
+  "thinkers": [
+   "Jean-Luc Mélenchon"
+  ],
+  "parents": [
+   "social_democracy",
+   "populism"
+  ],
+  "plain": "French left populism: a Sixth Republic, a break with neoliberal economics, and power to 'the people' over elites.",
+  "summary": "Mélenchon launched LFI in 2016, won 21.95% in 2022, and led the largest group in the New Popular Front in 2024.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 1,
+   "marxism": 2,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 2,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 1,
+   "hierarchy": -4
+  },
+  "rationale": {
+   "platonism": "No real link to Platonism.",
+   "aristotelianism": "No real link to Aristotelianism.",
+   "stoicism": "No real link to Stoicism.",
+   "christianity": "No real link to Christianity.",
+   "gnosticism": "No real link to Gnosticism.",
+   "hermeticism": "No real link to Hermeticism.",
+   "enlightenment_liberalism": "Invokes 'republican universalism' (Grokipedia, LFI).",
+   "marxism": "Critiques neoliberalism while 'purging echoes of orthodox socialism or communism from its rhetoric' (Grokipedia, LFI).",
+   "darwinism": "No real link to Darwinism.",
+   "nietzsche": "No real link to Nietzsche.",
+   "critical_theory": "Anti-discrimination and identity concerns; judgment.",
+   "confucianism": "No real link to Confucianism.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "No real link to Buddhism.",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "No real link to Islamic philosophy (falsafa).",
+   "humor": "Earnest register.",
+   "irony": "Sincere.",
+   "abstraction": "Programmatic; judgment.",
+   "hierarchy": "Targets elites and inequality; judgment."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/La_France_Insoumise"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "aliases": [
+   "LFI",
+   "France Unbowed",
+   "Mélenchonism"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "France",
+     "src": "https://grokipedia.com/page/La_France_Insoumise",
+     "note": "Largest group in the New Popular Front after 2024, with 70 seats (Grokipedia, LFI).",
+     "period": "2016–present"
+    },
+    {
+     "place": "Seine-Saint-Denis",
+     "src": "https://grokipedia.com/page/La_France_Insoumise",
+     "note": "LFI addresses voters of 'the 93'; strong among precarious urban workers (Grokipedia, LFI).",
+     "period": "2017–present"
+    }
+   ]
+  },
+  "edge_notes": {
+   "social_democracy": {
+    "status": "direct",
+    "type": "split",
+    "src": "https://grokipedia.com/page/La_France_Insoumise",
+    "note": "Mélenchon built it on 'prior critiques of Socialist Party policies under François Hollande'."
+   },
+   "populism": {
+    "status": "direct",
+    "type": "descent",
+    "src": "https://grokipedia.com/page/La_France_Insoumise",
+    "note": "Its creed is Mélenchon's 'humanist populism'."
+   }
+  },
+  "party_alignment_fr": {
+   "party": "LFI",
+   "strength": "strong",
+   "src": "https://grokipedia.com/page/La_France_Insoumise",
+   "note": "Party-movement founded 2016."
+  },
+  "modern_politics": true
+ },
+ {
+  "id": "christian_democracy",
+  "name": "Christian democracy",
+  "root": false,
+  "root_axis": null,
+  "year": 1870,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Christian_democracy",
+  "origin_note": "In Germany the Centre Party 'coalesced on December 17, 1870, uniting Catholic deputies in the Reichstag'; the CDU was founded in 1945 (Grokipedia, Christian democracy; CDU)",
+  "place": "Berlin",
+  "lat": 52.52,
+  "lon": 13.4,
+  "thinkers": [
+   "Konrad Adenauer",
+   "Ludwig Erhard",
+   "Helmut Kohl",
+   "Angela Merkel"
+  ],
+  "parents": [
+   "roman_catholicism"
+  ],
+  "plain": "Christian-inspired center-right politics: human dignity, subsidiarity, solidarity and a social market economy.",
+  "summary": "From the 1870 Centre Party to the CDU of 1945, it led West Germany under Adenauer and still leads Germany under Merz.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 1,
+   "stoicism": 0,
+   "christianity": 4,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 2,
+   "marxism": -3,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -1,
+   "hierarchy": 1
+  },
+  "rationale": {
+   "platonism": "No real link to Platonism.",
+   "aristotelianism": "Common good inherited through Thomist social thought; judgment.",
+   "stoicism": "No real link to Stoicism.",
+   "christianity": "Core principles 'human dignity, subsidiarity, solidarity, and the common good' come from Catholic social teaching (Grokipedia).",
+   "gnosticism": "No real link to Gnosticism.",
+   "hermeticism": "No real link to Hermeticism.",
+   "enlightenment_liberalism": "Pairs free enterprise with welfare in the 'social market economy' (Grokipedia, CDU).",
+   "marxism": "An alternative 'to both atheistic collectivism and unchecked individualism' (Grokipedia).",
+   "darwinism": "No real link to Darwinism.",
+   "nietzsche": "No real link to Nietzsche.",
+   "critical_theory": "No real link to Critical theory.",
+   "confucianism": "No real link to Confucianism.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "No real link to Buddhism.",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "No real link to Islamic philosophy (falsafa).",
+   "humor": "Earnest register.",
+   "irony": "Sincere.",
+   "abstraction": "Pragmatic governing party; judgment.",
+   "hierarchy": "Subsidiarity puts authority 'at the lowest effective level'; moderate order; judgment."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Christian_democracy",
+   "https://grokipedia.com/page/Christian_Democratic_Union_of_Germany"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "aliases": [
+   "Christian Democrats",
+   "CDU/CSU",
+   "CDU/CSU Union"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Germany",
+     "src": "https://grokipedia.com/page/Christian_Democratic_Union_of_Germany",
+     "note": "Friedrich Merz leads the CDU and became chancellor after the February 2025 snap election (Grokipedia, CDU).",
+     "period": "1945–present"
+    },
+    {
+     "place": "Western Europe",
+     "src": "https://grokipedia.com/page/Christian_democracy",
+     "note": "Became 'a major political force after World War II' in Catholic countries (Grokipedia).",
+     "period": "1945–present"
+    }
+   ]
+  },
+  "edge_notes": {
+   "roman_catholicism": {
+    "status": "direct",
+    "type": "descent",
+    "src": "https://grokipedia.com/page/Christian_democracy",
+    "note": "Parties drew 'from papal encyclicals like Rerum Novarum (1891) and Quadragesimo Anno (1931)'."
+   }
+  },
+  "party_alignment_de": {
+   "party": "CDU",
+   "strength": "strong",
+   "src": "https://grokipedia.com/page/Christian_Democratic_Union_of_Germany",
+   "note": "CDU with its Bavarian sister CSU; founded 1945."
+  },
+  "modern_politics": true
+ },
+ {
+  "id": "alternative_for_germany",
+  "name": "Alternative for Germany",
+  "root": false,
+  "root_axis": null,
+  "year": 2013,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Alternative_for_Germany",
+  "origin_note": "Established on February 6, 2013 by economists including Bernd Lucke to oppose eurozone bailouts; founding congress in Berlin, April 14, 2013 (Grokipedia, AfD)",
+  "place": "Berlin",
+  "lat": 52.52,
+  "lon": 13.4,
+  "thinkers": [
+   "Bernd Lucke",
+   "Alexander Gauland",
+   "Alice Weidel",
+   "Björn Höcke"
+  ],
+  "parents": [
+   "nationalism",
+   "populism"
+  ],
+  "plain": "German national populism: limit immigration, oppose EU integration and the euro rescue, restore national identity.",
+  "summary": "Founded against euro bailouts in 2013, it moved 'from euroscepticism toward nationalism' and won 20.8% in 2025.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 1,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": -1,
+   "marxism": -3,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": -3,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -2,
+   "hierarchy": 2
+  },
+  "rationale": {
+   "platonism": "No real link to Platonism.",
+   "aristotelianism": "No real link to Aristotelianism.",
+   "stoicism": "No real link to Stoicism.",
+   "christianity": "Claims Christian-Western culture; judgment.",
+   "gnosticism": "No real link to Gnosticism.",
+   "hermeticism": "No real link to Hermeticism.",
+   "enlightenment_liberalism": "Began 'as a liberal-conservative alternative'; later shifted right (Grokipedia, AfD).",
+   "marxism": "Anti-left; judgment.",
+   "darwinism": "No real link to Darwinism.",
+   "nietzsche": "No real link to Nietzsche.",
+   "critical_theory": "Opposes progressive cultural agendas; judgment.",
+   "confucianism": "No real link to Confucianism.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "No real link to Buddhism.",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "No real link to Islamic philosophy (falsafa).",
+   "humor": "Earnest register.",
+   "irony": "Sincere.",
+   "abstraction": "Populist register; judgment.",
+   "hierarchy": "Nation and native population first; judgment."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Alternative_for_Germany"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "aliases": [
+   "AfD"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Germany",
+     "src": "https://grokipedia.com/page/Alternative_for_Germany",
+     "note": "Won 20.8 percent and 152 seats on February 23, 2025, the second-largest group (Grokipedia, AfD).",
+     "period": "2013–present"
+    },
+    {
+     "place": "East Germany",
+     "src": "https://grokipedia.com/page/Bündnis_Sahra_Wagenknecht",
+     "note": "Contests the East with the BSW (Grokipedia, Bündnis Sahra Wagenknecht).",
+     "period": "2014–present"
+    }
+   ]
+  },
+  "edge_notes": {
+   "nationalism": {
+    "status": "direct",
+    "type": "descent",
+    "src": "https://grokipedia.com/page/Alternative_for_Germany",
+    "note": "'Leadership shifts moved the party from euroscepticism toward nationalism.'"
+   },
+   "populism": {
+    "status": "influence",
+    "type": "descent",
+    "src": "https://grokipedia.com/page/Alternative_for_Germany",
+    "note": "Draws voters frustrated with 'the consensus on European integration'; judgment."
+   }
+  },
+  "party_alignment_de": {
+   "party": "AFD",
+   "strength": "strong",
+   "src": "https://grokipedia.com/page/Alternative_for_Germany",
+   "note": "Party; the Federal Office for the Protection of the Constitution classified it as right-wing extremist in May 2025."
+  },
+  "modern_politics": true
+ },
+ {
+  "id": "german_left_conservatism",
+  "name": "German left-conservatism",
+  "root": false,
+  "root_axis": null,
+  "year": 2024,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Bündnis_Sahra_Wagenknecht",
+  "origin_note": "Bündnis Sahra Wagenknecht was founded in January 2024 by Sahra Wagenknecht after clashes inside Die Linke (Grokipedia, Bündnis Sahra Wagenknecht)",
+  "place": "Berlin",
+  "lat": 52.52,
+  "lon": 13.4,
+  "thinkers": [
+   "Sahra Wagenknecht"
+  ],
+  "parents": [
+   "nationalism"
+  ],
+  "plain": "Left economics with conservative social views: redistribution and welfare, limits on migration, peace with Russia.",
+  "summary": "Wagenknecht left Die Linke and founded the BSW in January 2024; it won seats in eastern states but polled about 4% in 2025.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": -1,
+   "marxism": 2,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": -2,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 0,
+   "hierarchy": -2
+  },
+  "rationale": {
+   "platonism": "No real link to Platonism.",
+   "aristotelianism": "No real link to Aristotelianism.",
+   "stoicism": "No real link to Stoicism.",
+   "christianity": "No real link to Christianity.",
+   "gnosticism": "No real link to Gnosticism.",
+   "hermeticism": "No real link to Hermeticism.",
+   "enlightenment_liberalism": "Against 'progressive cultural liberalism' (Grokipedia, Left-conservatism).",
+   "marxism": "Wagenknecht came from Die Linke, formed from the PDS and WASG (Grokipedia, BSW).",
+   "darwinism": "No real link to Darwinism.",
+   "nietzsche": "No real link to Nietzsche.",
+   "critical_theory": "Rejects progressive identity politics; judgment.",
+   "confucianism": "No real link to Confucianism.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "No real link to Buddhism.",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "No real link to Islamic philosophy (falsafa).",
+   "humor": "Earnest register.",
+   "irony": "Sincere.",
+   "abstraction": "Mixed; judgment.",
+   "hierarchy": "'Robust economic redistribution' with tradition (Grokipedia, Left-conservatism)."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Bündnis_Sahra_Wagenknecht",
+   "https://grokipedia.com/page/Left-conservatism"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "aliases": [
+   "Bündnis Sahra Wagenknecht",
+   "BSW",
+   "Wagenknecht left",
+   "left-conservatism"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "East Germany",
+     "src": "https://grokipedia.com/page/Bündnis_Sahra_Wagenknecht",
+     "note": "Its first results 'established BSW as a viable force in Ostdeutschland' (Grokipedia, BSW).",
+     "period": "2024–present"
+    }
+   ]
+  },
+  "edge_notes": {
+   "nationalism": {
+    "status": "influence",
+    "type": "synthesis",
+    "src": "https://grokipedia.com/page/Left-conservatism",
+    "note": "'Prioritizes national sovereignty and traditional values' (Grokipedia, Left-conservatism)."
+   }
+  },
+  "party_alignment_de": {
+   "party": "BSW",
+   "strength": "strong",
+   "src": "https://grokipedia.com/page/Bündnis_Sahra_Wagenknecht",
+   "note": "Party since January 2024; below the 5% threshold in February 2025."
+  },
+  "modern_politics": true
+ },
+ {
+  "id": "green_politics",
+  "name": "Green politics",
+  "root": false,
+  "root_axis": null,
+  "year": 1980,
+  "year_approx": true,
+  "origin_src": "https://grokipedia.com/page/Alliance_90%2FThe_Greens",
+  "origin_note": "West German Greens founded 1980 out of 'environmental, peace, and women's movements of the late 1970s'; the 'four pillars' emerged from Green movements of the 1970s and 1980s (Grokipedia, Alliance 90/The Greens; Green politics)",
+  "place": null,
+  "lat": null,
+  "lon": null,
+  "thinkers": [
+   "Petra Kelly",
+   "Joschka Fischer",
+   "Annalena Baerbock",
+   "Robert Habeck"
+  ],
+  "parents": [
+   "new_left"
+  ],
+  "plain": "Ecology, grassroots democracy, social justice and nonviolence: the four pillars of Green parties.",
+  "summary": "West Germany's Greens, founded 1980 against nuclear power, merged with East Germany's Alliance 90 in 1993 and governed in 1998–2005 and 2021–2025.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 3,
+   "marxism": 1,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 3,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 1,
+   "hierarchy": -4
+  },
+  "rationale": {
+   "platonism": "No real link to Platonism.",
+   "aristotelianism": "No real link to Aristotelianism.",
+   "stoicism": "No real link to Stoicism.",
+   "christianity": "No real link to Christianity.",
+   "gnosticism": "No real link to Gnosticism.",
+   "hermeticism": "No real link to Hermeticism.",
+   "enlightenment_liberalism": "Rights, gender equality and EU integration; judgment.",
+   "marxism": "Some founders came from the 1968 left; judgment.",
+   "darwinism": "Ecology, not evolutionary theory.",
+   "nietzsche": "No real link to Nietzsche.",
+   "critical_theory": "Rooted 'in the 1968 student revolts' (Grokipedia, Alliance 90/The Greens); judgment.",
+   "confucianism": "No real link to Confucianism.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "No real link to Buddhism.",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "No real link to Islamic philosophy (falsafa).",
+   "humor": "Earnest register.",
+   "irony": "Sincere.",
+   "abstraction": "Systemic ecological thinking, as in 'Limits to Growth' (Grokipedia, Green politics); judgment.",
+   "hierarchy": "Grassroots democracy and equality are pillars (Grokipedia, Green politics)."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Green_politics",
+   "https://grokipedia.com/page/Alliance_90%2FThe_Greens"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "aliases": [
+   "Greens",
+   "Die Grünen",
+   "Alliance 90/The Greens",
+   "environmentalism"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Germany",
+     "src": "https://grokipedia.com/page/Alliance_90%2FThe_Greens",
+     "note": "In federal government 2021–2025; Baerbock was foreign minister (Grokipedia, Alliance 90/The Greens).",
+     "period": "1983–present"
+    },
+    {
+     "place": "Western Europe",
+     "src": "https://grokipedia.com/page/Green_politics",
+     "note": "Green parties drove 'Germany's nuclear phase-out and broader European shifts' (Grokipedia, Green politics).",
+     "period": "1980s–present"
+    }
+   ]
+  },
+  "edge_notes": {
+   "new_left": {
+    "status": "direct",
+    "type": "descent",
+    "src": "https://grokipedia.com/page/Alliance_90%2FThe_Greens",
+    "note": "Founders were 'often rooted in the 1968 student revolts'."
+   }
+  },
+  "party_alignment_de": {
+   "party": "GRUENE",
+   "strength": "strong",
+   "src": "https://grokipedia.com/page/Alliance_90%2FThe_Greens",
+   "note": "Alliance 90/The Greens since the May 1993 merger."
+  },
+  "modern_politics": true
+ },
+ {
+  "id": "eurasianism",
+  "name": "Eurasianism",
+  "root": false,
+  "root_axis": null,
+  "year": 1921,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Eurasianism",
+  "origin_note": "The movement 'coalesced around the publication of the manifesto Iskhod k Vostoku', issued in Sofia in mid-1921 by Savitskii, Suvchinskii, Florovskii and Trubetzkoy (Grokipedia, Eurasianism)",
+  "place": "Sofia",
+  "lat": 42.7,
+  "lon": 23.32,
+  "thinkers": [
+   "Nikolai Trubetzkoy",
+   "Petr Savitskii",
+   "Lev Gumilev",
+   "Aleksandr Dugin"
+  ],
+  "parents": [
+   "eastern_orthodoxy"
+  ],
+  "plain": "Russia as a distinct Eurasian civilization, neither Europe nor Asia, uniting many peoples against the Atlantic West.",
+  "summary": "Émigrés launched it in Sofia in 1921; Dugin revived it in the 1990s, and Putin's 2011 Eurasian Union drew on its integration ideas.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 3,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": -4,
+   "marxism": -1,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 3,
+   "hierarchy": 4
+  },
+  "rationale": {
+   "platonism": "No real link to Platonism.",
+   "aristotelianism": "No real link to Aristotelianism.",
+   "stoicism": "No real link to Stoicism.",
+   "christianity": "Called for an 'ideocratic' state 'governed by transcendent Orthodox ideology' (Grokipedia, Eurasianism).",
+   "gnosticism": "No real link to Gnosticism.",
+   "hermeticism": "No real link to Hermeticism.",
+   "enlightenment_liberalism": "Unites peoples 'against Western individualism and universalism' (Grokipedia, Eurasianism).",
+   "marxism": "Rejects 'materialist principles' (Grokipedia); some later fellow-traveling; judgment.",
+   "darwinism": "No real link to Darwinism.",
+   "nietzsche": "No real link to Nietzsche.",
+   "critical_theory": "No real link to Critical theory.",
+   "confucianism": "No real link to Confucianism.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "No real link to Buddhism.",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "No real link to Islamic philosophy (falsafa).",
+   "humor": "Earnest register.",
+   "irony": "Sincere.",
+   "abstraction": "Geopolitical and civilizational theory, 'topogenic' determinism (Grokipedia).",
+   "hierarchy": "Peoples 'under Russian cultural hegemony' (Grokipedia, Eurasianism)."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Eurasianism",
+   "https://grokipedia.com/page/Aleksandr_Dugin"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "aliases": [
+   "Neo-Eurasianism",
+   "Eurasianists"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Russia",
+     "src": "https://grokipedia.com/page/Eurasianism",
+     "note": "Putin's 2011 op-ed on a 'Eurasian Union' drew on its integration concepts (Grokipedia, Eurasianism).",
+     "period": "1990s–present"
+    }
+   ]
+  },
+  "edge_notes": {
+   "eastern_orthodoxy": {
+    "status": "direct",
+    "type": "descent",
+    "src": "https://grokipedia.com/page/Eurasianism",
+    "note": "Eurasian unity was 'preserved by autarkic economic policies and Orthodox spirituality'."
+   }
+  },
+  "party_alignment_ru": {
+   "party": "POWER",
+   "strength": "moderate",
+   "src": "https://grokipedia.com/page/Aleksandr_Dugin",
+   "note": "Bloc, not party: Dugin's movements aligned 'with shifts toward state conservatism under Putin without formal integration into ruling structures'."
+  },
+  "modern_politics": true
+ },
+ {
+  "id": "putinism",
+  "name": "Putinism",
+  "root": false,
+  "root_axis": null,
+  "year": 1999,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Putinism",
+  "origin_note": "Yeltsin appointed Putin prime minister on August 9, 1999; Unity and OVR announced the merger into United Russia on April 20, 2001 (Grokipedia, Putinism; United Russia)",
+  "place": "Moscow",
+  "lat": 55.76,
+  "lon": 37.62,
+  "thinkers": [
+   "Vladimir Putin",
+   "Vladislav Surkov",
+   "Sergey Karaganov"
+  ],
+  "parents": [
+   "nationalism",
+   "eastern_orthodoxy",
+   "eurasianism"
+  ],
+  "plain": "Strong-state Russian conservatism: a 'vertical of power', sovereignty against the West, and Orthodox traditional values.",
+  "summary": "Built after 1999 around Putin, United Russia and 'sovereign democracy'; it now frames Russia as a Eurasian power with Orthodox values.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 3,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": -4,
+   "marxism": -1,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": -3,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -1,
+   "hierarchy": 5
+  },
+  "rationale": {
+   "platonism": "No real link to Platonism.",
+   "aristotelianism": "No real link to Aristotelianism.",
+   "stoicism": "No real link to Stoicism.",
+   "christianity": "'Promotes traditional family structures and moral values rooted in Russian Orthodoxy' (Grokipedia, Putinism).",
+   "gnosticism": "No real link to Gnosticism.",
+   "hermeticism": "No real link to Hermeticism.",
+   "enlightenment_liberalism": "Sets 'sovereign democracy' against 'Western liberal democracy' (Grokipedia, Putinism).",
+   "marxism": "Post-Soviet; keeps Soviet nostalgia without Marxism; judgment.",
+   "darwinism": "No real link to Darwinism.",
+   "nietzsche": "No real link to Nietzsche.",
+   "critical_theory": "Against 'Western moral degradation' (Grokipedia, Putinism).",
+   "confucianism": "No real link to Confucianism.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "No real link to Buddhism.",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "No real link to Islamic philosophy (falsafa).",
+   "humor": "Earnest register.",
+   "irony": "Sincere.",
+   "abstraction": "Statist pragmatism; judgment.",
+   "hierarchy": "A 'vertical of power' to 'restore state efficacy' (Grokipedia, Putinism)."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Putinism",
+   "https://grokipedia.com/page/United_Russia"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "aliases": [
+   "Putin's Russia",
+   "sovereign democracy",
+   "United Russia line"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Russia",
+     "src": "https://grokipedia.com/page/United_Russia",
+     "note": "United Russia, the 'party of power', has dominated the Duma since the 2000s (Grokipedia, United Russia).",
+     "period": "2000–present"
+    }
+   ]
+  },
+  "edge_notes": {
+   "nationalism": {
+    "status": "direct",
+    "type": "descent",
+    "src": "https://grokipedia.com/page/Putinism",
+    "note": "Sovereignty means Russia must 'reject external impositions on its political, economic, and cultural systems'."
+   },
+   "eastern_orthodoxy": {
+    "status": "influence",
+    "type": "alliance",
+    "src": "https://grokipedia.com/page/Putinism",
+    "note": "Draws on 'a deepened alliance with the Russian Orthodox Church'."
+   },
+   "eurasianism": {
+    "status": "influence",
+    "type": "borrowing",
+    "src": "https://grokipedia.com/page/Eurasianism",
+    "note": "Putin's 2011 'Eurasian Union' op-ed 'explicitly drew on these integration concepts'."
+   }
+  },
+  "party_alignment_ru": {
+   "party": "POWER",
+   "strength": "strong",
+   "src": "https://grokipedia.com/page/United_Russia",
+   "note": "The ruling bloc; United Russia functions as a 'party of power'."
+  },
+  "modern_politics": true
+ },
+ {
+  "id": "russian_liberal_opposition",
+  "name": "Russian liberal opposition",
+  "root": false,
+  "root_axis": null,
+  "year": 1993,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Yabloko",
+  "origin_note": "Yabloko formed as an electoral bloc in summer 1993 under Grigory Yavlinsky, Yuri Boldyrev and Vladimir Lukin (Grokipedia, Yabloko)",
+  "place": "Moscow",
+  "lat": 55.76,
+  "lon": 37.62,
+  "thinkers": [
+   "Grigory Yavlinsky",
+   "Boris Nemtsov",
+   "Garry Kasparov",
+   "Alexei Navalny"
+  ],
+  "parents": [
+   "enlightenment_liberalism"
+  ],
+  "plain": "Russian liberals and democrats opposed to Putin: rule of law, free elections, human rights and integration with Europe.",
+  "summary": "Yabloko and later Navalny's Anti-Corruption Foundation led it; after 2022 much of it works from exile.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 5,
+   "marxism": -2,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 0,
+   "hierarchy": -2
+  },
+  "rationale": {
+   "platonism": "No real link to Platonism.",
+   "aristotelianism": "No real link to Aristotelianism.",
+   "stoicism": "No real link to Stoicism.",
+   "christianity": "Secular.",
+   "gnosticism": "No real link to Gnosticism.",
+   "hermeticism": "No real link to Hermeticism.",
+   "enlightenment_liberalism": "'Social-liberal principles, human rights, and opposition to authoritarian tendencies' (Grokipedia, Yabloko).",
+   "marxism": "Anti-communist; judgment.",
+   "darwinism": "No real link to Darwinism.",
+   "nietzsche": "No real link to Nietzsche.",
+   "critical_theory": "No real link to Critical theory.",
+   "confucianism": "No real link to Confucianism.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "No real link to Buddhism.",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "No real link to Islamic philosophy (falsafa).",
+   "humor": "Earnest register.",
+   "irony": "Sincere.",
+   "abstraction": "Mixed; judgment.",
+   "hierarchy": "Against the vertical of power; judgment."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Yabloko",
+   "https://grokipedia.com/page/Liberalism_in_Russia",
+   "https://grokipedia.com/page/Alexei_Navalny"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "aliases": [
+   "Yabloko",
+   "non-systemic opposition",
+   "Navalny movement"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Russian diaspora",
+     "src": "https://grokipedia.com/page/Liberalism_in_Russia",
+     "note": "After 2022 'key figures like Garry Kasparov and elements of Navalny's team operated from abroad' (Grokipedia).",
+     "period": "2022–present"
+    },
+    {
+     "place": "Moscow",
+     "src": "https://grokipedia.com/page/Yabloko",
+     "note": "Yabloko remains 'one of Russia's few enduring non-systemic opposition voices' (Grokipedia).",
+     "period": "1993–present"
+    }
+   ]
+  },
+  "edge_notes": {
+   "enlightenment_liberalism": {
+    "status": "direct",
+    "type": "descent",
+    "src": "https://grokipedia.com/page/Liberalism_in_Russia",
+    "note": "Grokipedia treats Yabloko and the exiled opposition as Russia's liberal tradition."
+   }
+  },
+  "party_alignment_ru": {
+   "party": "NONSYS",
+   "strength": "strong",
+   "src": "https://grokipedia.com/page/Yabloko",
+   "note": "Bloc: the non-systemic opposition, outside the Kremlin-licensed parties."
+  },
+  "modern_politics": true
+ },
+ {
+  "id": "socialism_chinese_characteristics",
+  "name": "Socialism with Chinese characteristics",
+  "root": false,
+  "root_axis": null,
+  "year": 1978,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Deng_Xiaoping_Theory",
+  "origin_note": "Deng's 'reform and opening up' began at the Third Plenum of the 11th CPC Central Committee in 1978; 'Deng Xiaoping Theory' was named at the 15th Congress in September 1997 (Grokipedia, Deng Xiaoping Theory)",
+  "place": "Beijing",
+  "lat": 39.9,
+  "lon": 116.4,
+  "thinkers": [
+   "Deng Xiaoping",
+   "Jiang Zemin",
+   "Hu Jintao"
+  ],
+  "parents": [
+   "leninism"
+  ],
+  "plain": "One-party Leninist rule with a 'socialist market economy': state firms in strategic sectors alongside private business.",
+  "summary": "Deng turned from Maoist orthodoxy in 1978; the socialist market economy grew rapidly under one-party rule.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": -2,
+   "marxism": 3,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 1,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -2,
+   "hierarchy": 4
+  },
+  "rationale": {
+   "platonism": "No real link to Platonism.",
+   "aristotelianism": "No real link to Aristotelianism.",
+   "stoicism": "No real link to Stoicism.",
+   "christianity": "No real link to Christianity.",
+   "gnosticism": "No real link to Gnosticism.",
+   "hermeticism": "No real link to Hermeticism.",
+   "enlightenment_liberalism": "Market reform without 'multiparty democracy' (Grokipedia, Socialism with Chinese characteristics).",
+   "marxism": "Placed 'alongside Marxism-Leninism and Mao Zedong Thought' (Grokipedia, Deng Xiaoping Theory).",
+   "darwinism": "No real link to Darwinism.",
+   "nietzsche": "No real link to Nietzsche.",
+   "critical_theory": "No real link to Critical theory.",
+   "confucianism": "Stability and harmony themes; judgment.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "No real link to Buddhism.",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "No real link to Islamic philosophy (falsafa).",
+   "humor": "Earnest register.",
+   "irony": "Sincere.",
+   "abstraction": "'Development is the absolute principle': pragmatic (Grokipedia).",
+   "hierarchy": "One-party rule prioritizing 'political stability and centralized planning' (Grokipedia)."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Socialism_with_Chinese_characteristics",
+   "https://grokipedia.com/page/Deng_Xiaoping_Theory"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "aliases": [
+   "Deng Xiaoping Theory",
+   "reform and opening up",
+   "Dengism"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "China",
+     "src": "https://grokipedia.com/page/Socialism_with_Chinese_characteristics",
+     "note": "The state's governing doctrine since 1978.",
+     "period": "1978–present"
+    },
+    {
+     "place": "Shenzhen",
+     "src": "https://grokipedia.com/page/Socialism_with_Chinese_characteristics",
+     "note": "Deng's 1992 Southern Tour of the SEZs 'spurring coastal openness policies' (Grokipedia).",
+     "period": "1980–present"
+    }
+   ]
+  },
+  "edge_notes": {
+   "leninism": {
+    "status": "direct",
+    "type": "descent",
+    "src": "https://grokipedia.com/page/Deng_Xiaoping_Theory",
+    "note": "Adapts Marxism-Leninism; the Communist Party keeps one-party rule."
+   }
+  },
+  "party_alignment_cn": {
+   "party": "REFORM",
+   "strength": "strong",
+   "src": "https://grokipedia.com/page/Deng_Xiaoping_Theory",
+   "note": "Bloc: the reform-and-opening line inside the CCP."
+  },
+  "modern_politics": true
+ },
+ {
+  "id": "xi_jinping_thought",
+  "name": "Xi Jinping Thought",
+  "root": false,
+  "root_axis": null,
+  "year": 2017,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Xi_Jinping_Thought",
+  "origin_note": "Enshrined in the CPC Constitution at the 19th National Congress on October 18, 2017, and in the PRC Constitution on March 11, 2018 (Grokipedia, Xi Jinping Thought)",
+  "place": "Beijing",
+  "lat": 39.9,
+  "lon": 116.4,
+  "thinkers": [
+   "Xi Jinping"
+  ],
+  "parents": [
+   "socialism_chinese_characteristics"
+  ],
+  "plain": "The CCP's current guiding thought: party leadership over everything, national rejuvenation, and Marxism adapted to China.",
+  "summary": "Written into the party charter in 2017 and the state constitution in 2018, it is the official doctrine of Xi's era.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": -4,
+   "marxism": 4,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 1,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 1,
+   "hierarchy": 5
+  },
+  "rationale": {
+   "platonism": "No real link to Platonism.",
+   "aristotelianism": "No real link to Aristotelianism.",
+   "stoicism": "No real link to Stoicism.",
+   "christianity": "No real link to Christianity.",
+   "gnosticism": "No real link to Gnosticism.",
+   "hermeticism": "No real link to Hermeticism.",
+   "enlightenment_liberalism": "Rejects multiparty liberal democracy; judgment.",
+   "marxism": "'The latest theoretical advancement in adapting Marxism-Leninism to China's context' (Grokipedia).",
+   "darwinism": "No real link to Darwinism.",
+   "nietzsche": "No real link to Nietzsche.",
+   "critical_theory": "No real link to Critical theory.",
+   "confucianism": "Uses traditional culture in 'national rejuvenation'; judgment.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "No real link to Buddhism.",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "No real link to Islamic philosophy (falsafa).",
+   "humor": "Earnest register.",
+   "irony": "Sincere.",
+   "abstraction": "Systematized doctrine; judgment.",
+   "hierarchy": "Party leadership and a core leader; judgment."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Xi_Jinping_Thought"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "aliases": [
+   "Xi Thought",
+   "Xi Jinping Thought on Socialism with Chinese Characteristics for a New Era"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "China",
+     "src": "https://grokipedia.com/page/Xi_Jinping_Thought",
+     "note": "National guiding principle since March 2018 (Grokipedia, Xi Jinping Thought).",
+     "period": "2017–present"
+    }
+   ]
+  },
+  "edge_notes": {
+   "socialism_chinese_characteristics": {
+    "status": "direct",
+    "type": "descent",
+    "src": "https://grokipedia.com/page/Xi_Jinping_Thought",
+    "note": "Its full name builds on the doctrine; it succeeds 'Deng Xiaoping Theory and the Scientific Outlook on Development'."
+   }
+  },
+  "party_alignment_cn": {
+   "party": "CORE",
+   "strength": "strong",
+   "src": "https://grokipedia.com/page/Xi_Jinping_Thought",
+   "note": "Bloc: the party center around Xi."
+  },
+  "modern_politics": true
+ },
+ {
+  "id": "chinese_new_left",
+  "name": "Chinese New Left",
+  "root": false,
+  "root_axis": null,
+  "year": 1994,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Chinese_New_Left",
+  "origin_note": "The term 'Chinese New Left' was coined by journalist Yang Ping in Beijing Youth Daily on July 21, 1994 (Grokipedia, Chinese New Left)",
+  "place": "Beijing",
+  "lat": 39.9,
+  "lon": 116.4,
+  "thinkers": [
+   "Wang Hui",
+   "Cui Zhiyuan",
+   "Gan Yang",
+   "Bo Xilai"
+  ],
+  "parents": [
+   "marxism"
+  ],
+  "plain": "Critics of market reform who want state action against inequality; some revive Mao-era ideas.",
+  "summary": "Named in 1994, it critiqued privatization and inequality; Bo Xilai's Chongqing Model became its political test.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": -2,
+   "marxism": 3,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 2,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 2,
+   "hierarchy": -3
+  },
+  "rationale": {
+   "platonism": "No real link to Platonism.",
+   "aristotelianism": "No real link to Aristotelianism.",
+   "stoicism": "No real link to Stoicism.",
+   "christianity": "No real link to Christianity.",
+   "gnosticism": "No real link to Gnosticism.",
+   "hermeticism": "No real link to Hermeticism.",
+   "enlightenment_liberalism": "Contrasted with 'liberal endorsements of unfettered privatization' (Grokipedia).",
+   "marxism": "Draws 'selectively from socialist traditions'; some 'neo-Maoist elements' (Grokipedia).",
+   "darwinism": "No real link to Darwinism.",
+   "nietzsche": "No real link to Nietzsche.",
+   "critical_theory": "Critiques of globalization and neoliberalism; judgment.",
+   "confucianism": "No real link to Confucianism.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "No real link to Buddhism.",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "No real link to Islamic philosophy (falsafa).",
+   "humor": "Earnest register.",
+   "irony": "Sincere.",
+   "abstraction": "Academic debate; judgment.",
+   "hierarchy": "Seeks state action 'to mitigate inequality' (Grokipedia)."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Chinese_New_Left"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "aliases": [
+   "neo-Maoists",
+   "xin zuopai"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Chongqing",
+     "src": "https://grokipedia.com/page/Chinese_New_Left",
+     "note": "Bo Xilai's Chongqing Model from 2007 revived 'Mao-era cultural elements' (Grokipedia).",
+     "period": "2007–2012"
+    },
+    {
+     "place": "China",
+     "src": "https://grokipedia.com/page/Chinese_New_Left",
+     "note": "An academic current since the mid-1990s.",
+     "period": "1994–present"
+    }
+   ]
+  },
+  "edge_notes": {
+   "marxism": {
+    "status": "direct",
+    "type": "descent",
+    "src": "https://grokipedia.com/page/Chinese_New_Left",
+    "note": "Draws 'selectively from socialist traditions' and in one strand 'Mao Zedong's mass line'."
+   }
+  },
+  "party_alignment_cn": {
+   "party": "LEFT",
+   "strength": "strong",
+   "src": "https://grokipedia.com/page/Chinese_New_Left",
+   "note": "Bloc: the left critics of reform, partly inside the party (Bo Xilai)."
+  },
+  "modern_politics": true
+ },
+ {
+  "id": "chinese_liberalism",
+  "name": "Chinese liberalism",
+  "root": false,
+  "root_axis": null,
+  "year": 1919,
+  "year_approx": true,
+  "origin_src": "https://grokipedia.com/page/Liberalism_in_China",
+  "origin_note": "Yan Fu's translations of Mill and Spencer shaped the May Fourth Movement and Republican-era debates; Hu Shih led its pragmatic wing (Grokipedia, Liberalism in China)",
+  "place": "Beijing",
+  "lat": 39.9,
+  "lon": 116.4,
+  "thinkers": [
+   "Yan Fu",
+   "Hu Shih",
+   "Liu Xiaobo"
+  ],
+  "parents": [
+   "enlightenment_liberalism",
+   "pragmatism"
+  ],
+  "plain": "Chinese advocates of constitutional government, rule of law, civil rights and multi-party democracy.",
+  "summary": "From May Fourth to Charter 08 (2008), Chinese liberals pressed for constitutional rule; the party treats them as dissidents.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 5,
+   "marxism": -3,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": -1,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 0,
+   "hierarchy": -3
+  },
+  "rationale": {
+   "platonism": "No real link to Platonism.",
+   "aristotelianism": "No real link to Aristotelianism.",
+   "stoicism": "No real link to Stoicism.",
+   "christianity": "No real link to Christianity.",
+   "gnosticism": "No real link to Gnosticism.",
+   "hermeticism": "No real link to Hermeticism.",
+   "enlightenment_liberalism": "Charter 08 demanded 'human rights protections, abolition of one-party rule, and a federal republic' (Grokipedia).",
+   "marxism": "Opposes the CCP's one-party rule (Grokipedia, Liberalism in China).",
+   "darwinism": "No real link to Darwinism.",
+   "nietzsche": "No real link to Nietzsche.",
+   "critical_theory": "No real link to Critical theory.",
+   "confucianism": "May Fourth roots challenged Confucian tradition; judgment.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "No real link to Buddhism.",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "No real link to Islamic philosophy (falsafa).",
+   "humor": "Earnest register.",
+   "irony": "Sincere.",
+   "abstraction": "Mixed; judgment.",
+   "hierarchy": "Multi-party democracy and separation of powers (Grokipedia)."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Liberalism_in_China"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "aliases": [
+   "Charter 08",
+   "Chinese liberals"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Chinese diaspora",
+     "src": "https://grokipedia.com/page/Liberalism_in_China",
+     "note": "Underground and exile networks persist after post-2008 prosecutions (Grokipedia, Liberalism in China).",
+     "period": "1989–present"
+    }
+   ]
+  },
+  "edge_notes": {
+   "enlightenment_liberalism": {
+    "status": "direct",
+    "type": "transfer",
+    "src": "https://grokipedia.com/page/Liberalism_in_China",
+    "note": "'Introduced through translations of thinkers like John Stuart Mill and Herbert Spencer by figures such as Yan Fu'."
+   },
+   "pragmatism": {
+    "status": "direct",
+    "type": "transfer",
+    "src": "https://grokipedia.com/page/Liberalism_in_China",
+    "note": "Hu Shih 'sinified liberalism through pragmatism, influenced by John Dewey'."
+   }
+  },
+  "party_alignment_cn": {
+   "party": "LIB",
+   "strength": "strong",
+   "src": "https://grokipedia.com/page/Liberalism_in_China",
+   "note": "Bloc: liberals and dissidents outside the party line."
+  },
+  "modern_politics": true
+ },
+ {
+  "id": "abe_line_conservatism",
+  "name": "Abe-line conservatism",
+  "root": false,
+  "root_axis": null,
+  "year": 1997,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Nippon_Kaigi",
+  "origin_note": "Nippon Kaigi was established on May 30, 1997, by merging two predecessor groups; Abe set out his 'beautiful country' program on September 29, 2006 (Grokipedia, Nippon Kaigi; Shinzo Abe)",
+  "place": "Tokyo",
+  "lat": 35.68,
+  "lon": 139.69,
+  "thinkers": [
+   "Shinzo Abe",
+   "Sanae Takaichi"
+  ],
+  "parents": [
+   "nationalism",
+   "shinto"
+  ],
+  "plain": "LDP's hawkish wing: revise the postwar constitution, strengthen defense, honor the Imperial family and war dead, revive the economy.",
+  "summary": "Organized through Nippon Kaigi (1997) and led by Abe, it shaped Japan 2012–2020; Takaichi became prime minister in October 2025.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 0,
+   "marxism": -3,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": -2,
+   "confucianism": 1,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -1,
+   "hierarchy": 3
+  },
+  "rationale": {
+   "platonism": "No real link to Platonism.",
+   "aristotelianism": "No real link to Aristotelianism.",
+   "stoicism": "No real link to Stoicism.",
+   "christianity": "No real link to Christianity.",
+   "gnosticism": "No real link to Gnosticism.",
+   "hermeticism": "No real link to Hermeticism.",
+   "enlightenment_liberalism": "Electoral, US-allied, yet revisionist on postwar liberal settlement; judgment.",
+   "marxism": "Anti-communist; judgment.",
+   "darwinism": "No real link to Darwinism.",
+   "nietzsche": "No real link to Nietzsche.",
+   "critical_theory": "Opposes progressive history education; judgment.",
+   "confucianism": "Moral education in schools; judgment.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "No real link to Buddhism.",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "No real link to Islamic philosophy (falsafa).",
+   "humor": "Earnest register.",
+   "irony": "Sincere.",
+   "abstraction": "'Conservative realism' (Grokipedia, Shinzo Abe).",
+   "hierarchy": "'Respecting the Imperial Family as the center of national life' (Grokipedia, Nippon Kaigi)."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Nippon_Kaigi",
+   "https://grokipedia.com/page/Shinzo_Abe",
+   "https://grokipedia.com/page/Japanese_nationalism",
+   "https://grokipedia.com/page/Liberal_Democratic_Party_(Japan)"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "aliases": [
+   "Abe line",
+   "Nippon Kaigi conservatism",
+   "LDP right"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Japan",
+     "src": "https://grokipedia.com/page/Liberal_Democratic_Party_(Japan)",
+     "note": "Takaichi, 'a conservative advocate for constitutional revision', won the LDP presidency on October 4, 2025 (Grokipedia).",
+     "period": "2012–present"
+    }
+   ]
+  },
+  "edge_notes": {
+   "nationalism": {
+    "status": "direct",
+    "type": "descent",
+    "src": "https://grokipedia.com/page/Japanese_nationalism",
+    "note": "Abe 'embodied this resurgence' of Japanese nationalism (Grokipedia, Japanese nationalism)."
+   },
+   "shinto": {
+    "status": "influence",
+    "type": "tradition",
+    "src": "https://grokipedia.com/page/Nippon_Kaigi",
+    "note": "Its principles 'integrate Shinto-influenced values with modern policy demands'."
+   }
+  },
+  "party_alignment_jp": {
+   "party": "LDP",
+   "strength": "strong",
+   "src": "https://grokipedia.com/page/Liberal_Democratic_Party_(Japan)",
+   "note": "The LDP's conservative wing; Takaichi's 2025 win marked 'a shift toward hawkish nationalism'."
+  },
+  "modern_politics": true
+ },
+ {
+  "id": "constitutional_pacifism",
+  "name": "Constitutional pacifism",
+  "root": false,
+  "root_axis": null,
+  "year": 2017,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Constitutional_Democratic_Party_of_Japan",
+  "origin_note": "CDP founded October 2, 2017, by Yukio Edano's faction of the Democratic Party, dedicated to defending Article 9's pacifist provisions (Grokipedia, CDP)",
+  "place": "Tokyo",
+  "lat": 35.68,
+  "lon": 139.69,
+  "thinkers": [
+   "Yukio Edano",
+   "Yoshihiko Noda"
+  ],
+  "parents": [
+   "enlightenment_liberalism"
+  ],
+  "plain": "Japan's center-left: defend the pacifist Article 9 and constitutionalism, expand rights, gender equality and renewables.",
+  "summary": "Edano founded the CDP in 2017; it won 148 seats in October 2024 and is the main opposition to the LDP.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 4,
+   "marxism": -1,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 1,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 0,
+   "hierarchy": -2
+  },
+  "rationale": {
+   "platonism": "No real link to Platonism.",
+   "aristotelianism": "No real link to Aristotelianism.",
+   "stoicism": "No real link to Stoicism.",
+   "christianity": "No real link to Christianity.",
+   "gnosticism": "No real link to Gnosticism.",
+   "hermeticism": "No real link to Hermeticism.",
+   "enlightenment_liberalism": "Emphasizes 'constitutionalism, pacifism under Article 9, human rights protections' (Grokipedia, CDP).",
+   "marxism": "Center-left, not Marxist; judgment.",
+   "darwinism": "No real link to Darwinism.",
+   "nietzsche": "No real link to Nietzsche.",
+   "critical_theory": "'Anti-discrimination measures'; judgment.",
+   "confucianism": "No real link to Confucianism.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "No real link to Buddhism.",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "No real link to Islamic philosophy (falsafa).",
+   "humor": "Earnest register.",
+   "irony": "Sincere.",
+   "abstraction": "Mixed; judgment.",
+   "hierarchy": "Gender equality and anti-discrimination (Grokipedia, CDP)."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Constitutional_Democratic_Party_of_Japan"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "aliases": [
+   "CDP",
+   "Article 9 pacifism",
+   "Japanese constitutionalist left"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Japan",
+     "src": "https://grokipedia.com/page/Constitutional_Democratic_Party_of_Japan",
+     "note": "Won 148 seats in the October 27, 2024 snap election, a net gain of 52 (Grokipedia, CDP).",
+     "period": "2017–present"
+    }
+   ]
+  },
+  "edge_notes": {
+   "enlightenment_liberalism": {
+    "status": "direct",
+    "type": "descent",
+    "src": "https://grokipedia.com/page/Constitutional_Democratic_Party_of_Japan",
+    "note": "Founded as 'a center-left alternative dedicated to \"constitutionalism\"'."
+   }
+  },
+  "party_alignment_jp": {
+   "party": "CDP",
+   "strength": "strong",
+   "src": "https://grokipedia.com/page/Constitutional_Democratic_Party_of_Japan",
+   "note": "Party founded 2017."
+  },
+  "modern_politics": true
+ },
+ {
+  "id": "ishin_reformism",
+  "name": "Ishin reformism",
+  "root": false,
+  "root_axis": null,
+  "year": 2010,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Osaka_Restoration_Association",
+  "origin_note": "Osaka Restoration Association founded by Tōru Hashimoto in April 2010; national party Nippon Ishin no Kai established September 2012; Hashimoto established Initiatives from Osaka on October 1, 2015 (Grokipedia, Japan Innovation Party)",
+  "place": "Osaka",
+  "lat": 34.69,
+  "lon": 135.5,
+  "thinkers": [
+   "Tōru Hashimoto",
+   "Ichirō Matsui",
+   "Hirofumi Yoshimura"
+  ],
+  "parents": [
+   "neoliberalism",
+   "populism"
+  ],
+  "plain": "Osaka-born reformism: decentralization, deregulation, smaller government and fiscal restraint.",
+  "summary": "Hashimoto's Osaka movement went national as Nippon Ishin no Kai and joined an LDP coalition in October 2025.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 3,
+   "marxism": -2,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -2,
+   "hierarchy": 0
+  },
+  "rationale": {
+   "platonism": "No real link to Platonism.",
+   "aristotelianism": "No real link to Aristotelianism.",
+   "stoicism": "No real link to Stoicism.",
+   "christianity": "No real link to Christianity.",
+   "gnosticism": "No real link to Gnosticism.",
+   "hermeticism": "No real link to Hermeticism.",
+   "enlightenment_liberalism": "Promotes 'decentralization, deregulation, and fiscal conservatism' (Grokipedia, JIP).",
+   "marxism": "Opponents say it undermines 'social welfare structures' (Grokipedia, JIP).",
+   "darwinism": "No real link to Darwinism.",
+   "nietzsche": "No real link to Nietzsche.",
+   "critical_theory": "No real link to Critical theory.",
+   "confucianism": "No real link to Confucianism.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "No real link to Buddhism.",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "No real link to Islamic philosophy (falsafa).",
+   "humor": "Earnest register.",
+   "irony": "Sincere.",
+   "abstraction": "Administrative reform; judgment.",
+   "hierarchy": "Anti-establishment reform; judgment."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Osaka_Restoration_Association",
+   "https://grokipedia.com/page/Japan_Innovation_Party"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "aliases": [
+   "Nippon Ishin no Kai",
+   "Osaka Ishin",
+   "Japan Innovation Party"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Osaka",
+     "src": "https://grokipedia.com/page/Japan_Innovation_Party",
+     "note": "Regional base since 2010; referendums on the metropolis plan in 2015 and later (Grokipedia, JIP).",
+     "period": "2010–present"
+    }
+   ]
+  },
+  "edge_notes": {
+   "neoliberalism": {
+    "status": "influence",
+    "type": "borrowing",
+    "src": "https://grokipedia.com/page/Japan_Innovation_Party",
+    "note": "Deregulation and fiscal conservatism as 'alternatives to the dominant Liberal Democratic Party's governance model'."
+   },
+   "populism": {
+    "status": "influence",
+    "type": "style",
+    "src": "https://grokipedia.com/page/Japan_Innovation_Party",
+    "note": "Built on Hashimoto's 'charismatic, no-nonsense style' in a 'politically disillusioned electorate'."
+   }
+  },
+  "party_alignment_jp": {
+   "party": "ISHIN",
+   "strength": "strong",
+   "src": "https://grokipedia.com/page/Japan_Innovation_Party",
+   "note": "Nippon Ishin no Kai; in coalition with the LDP since October 2025.",
+   "blend": [
+    "ISHIN",
+    "LDP"
+   ],
+   "lean": "ISHIN"
+  },
+  "modern_politics": true
+ },
+ {
+  "id": "sanseito_populism",
+  "name": "Sanseitō populism",
+  "root": false,
+  "root_axis": null,
+  "year": 2020,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Sanseitō",
+  "origin_note": "Sanseitō was founded in 2020 by Sohei Kamiya and Manabu Matsuda during the COVID-19 pandemic (Grokipedia, Sanseitō)",
+  "place": null,
+  "lat": null,
+  "lon": null,
+  "thinkers": [
+   "Sohei Kamiya",
+   "Manabu Matsuda"
+  ],
+  "parents": [
+   "populism",
+   "nationalism"
+  ],
+  "plain": "'Japan First' populism: national sovereignty, limits on immigration, food sovereignty and suspicion of globalism.",
+  "summary": "Founded in 2020, it won 14 seats in the July 2025 upper house vote on a 'Japan First' platform.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": -2,
+   "marxism": -2,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": -2,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -2,
+   "hierarchy": 2
+  },
+  "rationale": {
+   "platonism": "No real link to Platonism.",
+   "aristotelianism": "No real link to Aristotelianism.",
+   "stoicism": "No real link to Stoicism.",
+   "christianity": "No real link to Christianity.",
+   "gnosticism": "No real link to Gnosticism.",
+   "hermeticism": "No real link to Hermeticism.",
+   "enlightenment_liberalism": "Seeks 'exit from post-war international frameworks' (Grokipedia, Sanseitō).",
+   "marxism": "Anti-globalist, not socialist; judgment.",
+   "darwinism": "No real link to Darwinism.",
+   "nietzsche": "No real link to Nietzsche.",
+   "critical_theory": "Against 'globalist' cultural influence; judgment.",
+   "confucianism": "No real link to Confucianism.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "No real link to Buddhism.",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "No real link to Islamic philosophy (falsafa).",
+   "humor": "Earnest register.",
+   "irony": "Sincere.",
+   "abstraction": "Populist register; judgment.",
+   "hierarchy": "'Cultural and ethnic cohesion' (Grokipedia, Sanseitō)."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Sanseitō",
+   "https://grokipedia.com/page/Japanese_nationalism"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "aliases": [
+   "Sanseito",
+   "Japan First"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Japan",
+     "src": "https://grokipedia.com/page/Sanseitō",
+     "note": "Won 14 seats in the July 2025 House of Councillors vote (Grokipedia, Sanseitō).",
+     "period": "2025–present"
+    }
+   ]
+  },
+  "edge_notes": {
+   "populism": {
+    "status": "direct",
+    "type": "descent",
+    "src": "https://grokipedia.com/page/Sanseitō",
+    "note": "Gathered citizens angry at 'perceived failures in existing political structures'."
+   },
+   "nationalism": {
+    "status": "direct",
+    "type": "descent",
+    "src": "https://grokipedia.com/page/Japanese_nationalism",
+    "note": "'Positioning nationalism as a direct antidote to globalization's homogenizing effects.'"
+   }
+  },
+  "party_alignment_jp": {
+   "party": "SANSEI",
+   "strength": "strong",
+   "src": "https://grokipedia.com/page/Sanseitō",
+   "note": "Party since 2020."
+  },
+  "modern_politics": true
  }
 ]

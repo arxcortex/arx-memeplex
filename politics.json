@@ -6,12 +6,324 @@
       "name": "United States",
       "field": "party_alignment",
       "parties": {
-        "R": { "label": "Republican", "color": "#d62828" },
-        "D": { "label": "Democratic", "color": "#1d4ed8" },
-        "mixed": { "label": "Split between the parties", "color": "#7b3fb0" }
+        "R": {
+          "label": "Republican",
+          "color": "#d62828"
+        },
+        "D": {
+          "label": "Democratic",
+          "color": "#1d4ed8"
+        },
+        "mixed": {
+          "label": "Split between the parties",
+          "color": "#7b3fb0"
+        }
       },
-      "mix": { "a": "R", "b": "D", "mid": "mixed", "label": "Shared ancestry (red and blue mixed)" },
-      "strength": { "strong": 1, "moderate": 0.72, "split": 0.85, "lean": 0.8, "weak": 0.55 },
+      "mix": {
+        "a": "R",
+        "b": "D",
+        "mid": "mixed",
+        "label": "Shared ancestry (red and blue mixed)"
+      },
+      "strength": {
+        "strong": 1,
+        "moderate": 0.72,
+        "split": 0.85,
+        "lean": 0.8,
+        "weak": 0.55
+      },
+      "lean_share": 0.65,
+      "decay": 0.7,
+      "dim": "#2b2925"
+    },
+    {
+      "id": "gb",
+      "name": "United Kingdom",
+      "field": "party_alignment_gb",
+      "mode": "party",
+      "parties": {
+        "CON": {
+          "label": "Conservative",
+          "color": "#0087DC",
+          "src": "https://www.wikidata.org/wiki/Q9626"
+        },
+        "LAB": {
+          "label": "Labour",
+          "color": "#DC241F",
+          "src": "https://www.wikidata.org/wiki/Q9630"
+        },
+        "REF": {
+          "label": "Reform UK",
+          "color": "#12B6CF",
+          "src": "https://www.wikidata.org/wiki/Q104721252"
+        },
+        "LD": {
+          "label": "Liberal Democrats",
+          "color": "#FAA61A",
+          "src": "https://www.wikidata.org/wiki/Q9624"
+        },
+        "GRN": {
+          "label": "Green (England and Wales)",
+          "color": "#02A95B",
+          "src": "https://www.wikidata.org/wiki/Q9669"
+        },
+        "mixed": {
+          "label": "Split between parties",
+          "color": "#7b3fb0"
+        }
+      },
+      "blend": "Two-color blend from the alignment's blend list, weighted toward lean when set",
+      "strength": {
+        "strong": 1,
+        "moderate": 0.72,
+        "split": 0.85,
+        "lean": 0.8,
+        "weak": 0.55
+      },
+      "lean_share": 0.65,
+      "decay": 0.7,
+      "dim": "#2b2925"
+    },
+    {
+      "id": "fr",
+      "name": "France",
+      "field": "party_alignment_fr",
+      "mode": "party",
+      "parties": {
+        "RN": {
+          "label": "National Rally",
+          "color": "#104E8B",
+          "src": "https://www.wikidata.org/wiki/Q205150"
+        },
+        "REN": {
+          "label": "Renaissance",
+          "color": "#FFD600",
+          "src": "https://www.wikidata.org/wiki/Q23731823"
+        },
+        "LR": {
+          "label": "The Republicans",
+          "color": "#034EA2",
+          "src": "https://www.wikidata.org/wiki/Q20012759"
+        },
+        "PS": {
+          "label": "Socialist Party",
+          "color": "#E3265B",
+          "src": "https://www.wikidata.org/wiki/Q170972"
+        },
+        "LFI": {
+          "label": "La France Insoumise",
+          "color": "#56277E",
+          "src": "https://www.wikidata.org/wiki/Q27978402"
+        },
+        "mixed": {
+          "label": "Split between parties",
+          "color": "#7b3fb0"
+        }
+      },
+      "blend": "Two-color blend from the alignment's blend list, weighted toward lean when set",
+      "strength": {
+        "strong": 1,
+        "moderate": 0.72,
+        "split": 0.85,
+        "lean": 0.8,
+        "weak": 0.55
+      },
+      "lean_share": 0.65,
+      "decay": 0.7,
+      "dim": "#2b2925"
+    },
+    {
+      "id": "de",
+      "name": "Germany",
+      "field": "party_alignment_de",
+      "mode": "party",
+      "parties": {
+        "CDU": {
+          "label": "CDU/CSU",
+          "color": "#000000",
+          "src": "https://www.wikidata.org/wiki/Q49762",
+          "display": "#5c5c5c",
+          "display_note": "Official black is invisible on the dim background; render as dark grey with a white outline. CSU blue is #008AC5 (Q49763)."
+        },
+        "SPD": {
+          "label": "SPD",
+          "color": "#E3000F",
+          "src": "https://www.wikidata.org/wiki/Q49768"
+        },
+        "GRUENE": {
+          "label": "Alliance 90/The Greens",
+          "color": "#409A3C",
+          "src": "https://www.wikidata.org/wiki/Q49766"
+        },
+        "AFD": {
+          "label": "AfD",
+          "color": "#009EE0",
+          "src": "https://www.wikidata.org/wiki/Q6721203"
+        },
+        "BSW": {
+          "label": "BSW",
+          "color": "#792351",
+          "src": "https://www.wikidata.org/wiki/Q123121346"
+        },
+        "FDP": {
+          "label": "FDP",
+          "color": "#FFED00",
+          "src": "https://www.wikidata.org/wiki/Q13124"
+        },
+        "mixed": {
+          "label": "Split between parties",
+          "color": "#7b3fb0"
+        }
+      },
+      "blend": "Two-color blend from the alignment's blend list, weighted toward lean when set",
+      "strength": {
+        "strong": 1,
+        "moderate": 0.72,
+        "split": 0.85,
+        "lean": 0.8,
+        "weak": 0.55
+      },
+      "lean_share": 0.65,
+      "decay": 0.7,
+      "dim": "#2b2925"
+    },
+    {
+      "id": "ru",
+      "name": "Russia",
+      "field": "party_alignment_ru",
+      "mode": "bloc",
+      "parties": {
+        "POWER": {
+          "label": "Ruling bloc (United Russia, Kremlin)",
+          "color": "#2056AE",
+          "src": "https://www.wikidata.org/wiki/Q151469"
+        },
+        "SYS": {
+          "label": "Systemic opposition (CPRF, LDPR, in the Duma)",
+          "color": "#D70000",
+          "src": "https://www.wikidata.org/wiki/Q192187"
+        },
+        "NONSYS": {
+          "label": "Non-systemic opposition (Yabloko, exiles)",
+          "color": "#00A23D",
+          "src": "https://www.wikidata.org/wiki/Q15332"
+        },
+        "mixed": {
+          "label": "Between blocs",
+          "color": "#7b3fb0"
+        }
+      },
+      "blend": "Two-color blend from the alignment's blend list, weighted toward lean when set",
+      "strength": {
+        "strong": 1,
+        "moderate": 0.72,
+        "split": 0.85,
+        "lean": 0.8,
+        "weak": 0.55
+      },
+      "lean_share": 0.65,
+      "decay": 0.7,
+      "dim": "#2b2925",
+      "note": "Dominant-party system: color by bloc, defined by relation to the Kremlin. Each bloc takes the Wikidata color of its anchor party: United Russia, CPRF, Yabloko."
+    },
+    {
+      "id": "cn",
+      "name": "China",
+      "field": "party_alignment_cn",
+      "mode": "bloc",
+      "parties": {
+        "CORE": {
+          "label": "Party center, Xi line",
+          "color": "#DD0000",
+          "src": "https://www.wikidata.org/wiki/Q17427"
+        },
+        "REFORM": {
+          "label": "Reform-and-opening line",
+          "color": "#E8A317",
+          "label_note": "Proposed shade, no party color",
+          "legend": "Proposed shade, no party color",
+          "src": null,
+          "judgment": true
+        },
+        "LEFT": {
+          "label": "New Left and neo-Maoists",
+          "color": "#8B0000",
+          "label_note": "Proposed shade, no party color",
+          "legend": "Proposed shade, no party color",
+          "src": null,
+          "judgment": true
+        },
+        "LIB": {
+          "label": "Liberals and dissidents",
+          "color": "#3A7CA5",
+          "label_note": "Proposed shade, no party color",
+          "legend": "Proposed shade, no party color",
+          "src": null,
+          "judgment": true
+        },
+        "mixed": {
+          "label": "Between blocs",
+          "color": "#7b3fb0"
+        }
+      },
+      "blend": "Two-color blend from the alignment's blend list, weighted toward lean when set",
+      "strength": {
+        "strong": 1,
+        "moderate": 0.72,
+        "split": 0.85,
+        "lean": 0.8,
+        "weak": 0.55
+      },
+      "lean_share": 0.65,
+      "decay": 0.7,
+      "dim": "#2b2925",
+      "note": "One-party state: color by bloc. CORE takes CCP red from Wikidata (Q17427); the other three are proposed shades because no party colors exist; the legend shows them as 'Proposed shade, no party color'.",
+      "legend_note": "REFORM, LEFT and LIB: Proposed shade, no party color"
+    },
+    {
+      "id": "jp",
+      "name": "Japan",
+      "field": "party_alignment_jp",
+      "mode": "party",
+      "parties": {
+        "LDP": {
+          "label": "Liberal Democratic Party",
+          "color": "#D7003A",
+          "src": "https://www.wikidata.org/wiki/Q232595"
+        },
+        "CDP": {
+          "label": "Constitutional Democratic Party",
+          "color": "#184589",
+          "src": "https://www.wikidata.org/wiki/Q99233271"
+        },
+        "ISHIN": {
+          "label": "Nippon Ishin no Kai",
+          "color": "#B8CE43",
+          "src": "https://www.wikidata.org/wiki/Q21499745"
+        },
+        "SANSEI": {
+          "label": "Sanseitō",
+          "color": "#ED7301",
+          "src": "https://www.wikidata.org/wiki/Q113009668"
+        },
+        "KOMEI": {
+          "label": "Komeito",
+          "color": "#F55881",
+          "src": "https://www.wikidata.org/wiki/Q1061354"
+        },
+        "mixed": {
+          "label": "Split between parties",
+          "color": "#7b3fb0"
+        }
+      },
+      "blend": "Two-color blend from the alignment's blend list, weighted toward lean when set",
+      "strength": {
+        "strong": 1,
+        "moderate": 0.72,
+        "split": 0.85,
+        "lean": 0.8,
+        "weak": 0.55
+      },
       "lean_share": 0.65,
       "decay": 0.7,
       "dim": "#2b2925"
