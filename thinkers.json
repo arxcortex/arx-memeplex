@@ -266,6 +266,13 @@
   "al-Ghazali": "https://grokipedia.com/page/Al-Ghazali",
   "al-Kindi": "https://grokipedia.com/page/Al-Kindi",
   "Étienne Gilson": "https://grokipedia.com/page/Étienne_Gilson",
+<<<<<<< HEAD
+  "Peter Thiel": "https://grokipedia.com/page/Peter_Thiel",
+  "Marc Andreessen": "https://grokipedia.com/page/Marc_Andreessen",
+  "Elon Musk": "https://grokipedia.com/page/Elon_Musk",
+  "David Sacks": "https://grokipedia.com/page/David_O._Sacks"
+=======
   "Joseph Smith": "https://grokipedia.com/page/Joseph_Smith",
   "Brigham Young": "https://grokipedia.com/page/Brigham_Young"
+>>>>>>> origin/main
 }
