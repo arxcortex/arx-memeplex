@@ -1,0 +1,55 @@
+{
+ "desk": {
+  "polbtn": true,
+  "pol": {
+   "on": true,
+   "key": "block",
+   "maga": "#d62828",
+   "nd": "#1d4ed8"
+  },
+  "clickxy": [
+   975.9276123046875,
+   822.2958374023438
+  ],
+  "cur": "Neoplatonism",
+  "sel": {
+   "n": 1,
+   "txt": "Neoplatonism",
+   "shown": "block",
+   "ring": "block"
+  },
+  "card": {
+   "w": 1200,
+   "h": 920,
+   "dl": "blob:",
+   "dln": "memeplex-snip.png"
+  },
+  "download": "memeplex-snip.png",
+  "copy": [
+   "image/png"
+  ]
+ },
+ "phone": {
+  "polbtn": true,
+  "pol": {
+   "on": true,
+   "key": "block",
+   "maga": "#d62828",
+   "nd": "#1d4ed8"
+  },
+  "clickxy": null,
+  "cur": "Neoplatonism",
+  "sel": {
+   "n": 1,
+   "txt": "Neoplatonism",
+   "shown": "block",
+   "ring": "block"
+  },
+  "card": {
+   "w": 640,
+   "h": 833,
+   "dl": "blob:",
+   "dln": "memeplex-snip.png"
+  }
+ }
+}

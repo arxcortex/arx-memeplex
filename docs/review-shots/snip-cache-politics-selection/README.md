@@ -5,3 +5,8 @@
 - Selected idea: its label is always shown as a bright amber pill on top of other labels, and its node gets a glowing ring, until deselected. The ring is a non-interactive overlay, so picking and zoom are unchanged (pick-fix and smooth-zoom tests give the same results as main).
 
 Test: serve `../snip-share/` and run `python3 t_fix.py`. Results in `results.json`.
+
+## Follow-up: opening the page as a file
+- Snip card was blank when the page is opened straight from disk (file://): the Arx logo PNGs count as cross-origin there, so the canvas was tainted and `toBlob` failed. On file:// the card now uses small embedded copies of the logos, and a failed export now shows an error instead of a broken image.
+- Politics config now falls back from Pages to a `politics.json` beside the page, then to a copy embedded in the page, so the view and key always appear.
+- Test both ways: `python3 t_fix.py` (http) and `MODE=file python3 t_fix.py` (file://, Pages politics.json blocked). Results in `fix.json` and `file-fix.json`.

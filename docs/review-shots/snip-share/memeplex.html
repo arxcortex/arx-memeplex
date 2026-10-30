@@ -368,7 +368,7 @@ body.panel-open #tbp{display:none}
   </div></div>
   <footer>Drag to turn · Scroll to zoom · Click an idea · Share card on its page · Filter by tradition · R to reset · ? for help</footer>
 </div>
-<script src="assets/sharecard.js?v=20261029"></script>
+<script src="assets/sharecard.js?v=20261029b"></script>
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
 <script type="importmap">
 { "imports": {
@@ -400,7 +400,12 @@ const [axes, ideas, thinkerLinks] = await Promise.all([load('axes.json'), load('
   /* optional: thinker -> Grokipedia URL; a missing or bad file just leaves chips plain */
   load('thinkers.json').then(o => (o && typeof o === 'object' && !Array.isArray(o)) ? o : {}).catch(() => ({}))]);
 /* optional: Modern politics view config (countries, party colours); a missing file just hides the view */
-const politicsCfg = await load('politics.json').then(o => (o && Array.isArray(o.countries)) ? o : { countries: [] }).catch(() => ({ countries: [] }));
+/* fallback chain: Pages, then a politics.json beside the page, then the copy embedded here */
+const POLITICS_EMBEDDED = {"note":"Modern politics view. Each country names the idea field that holds its alignment, its party colours, and how strength words map to colour intensity (0..1). Add a country here and an alignment field on ideas to extend the view.","countries":[{"id":"us","name":"United States","field":"party_alignment","parties":{"R":{"label":"Republican","color":"#d62828"},"D":{"label":"Democratic","color":"#1d4ed8"},"mixed":{"label":"Split between the parties","color":"#7b3fb0"}},"mix":{"a":"R","b":"D","mid":"mixed","label":"Shared ancestry (red and blue mixed)"},"strength":{"strong":1,"moderate":0.72,"split":0.85,"lean":0.8,"weak":0.55},"lean_share":0.65,"decay":0.7,"dim":"#2b2925"}]};
+const okPol = o => (o && Array.isArray(o.countries) && o.countries.length) ? o : null;
+const politicsCfg = (await load('politics.json').then(okPol).catch(() => null))
+  || (await fetch('./politics.json', { cache: 'no-cache' }).then(r => r.ok ? r.json() : null).then(okPol).catch(() => null))
+  || POLITICS_EMBEDDED;
 const thinkerUrl = t => { const u = thinkerLinks[t]; return (typeof u === 'string' && /^https:\/\/(grokipedia\.com\/page|en\.wikipedia\.org\/wiki)\//.test(u)) ? u : null; };
 const byId = Object.fromEntries(ideas.map(d => [d.id, d]));
 ideas.forEach(d => d.children = ideas.filter(c => (c.parents || []).includes(d.id)).map(c => c.id));
