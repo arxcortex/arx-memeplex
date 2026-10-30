@@ -1330,7 +1330,8 @@
    "romanticism",
    "enlightenment_liberalism",
    "transcendental_idealism",
-   "spinozism"
+   "spinozism",
+   "german_idealism"
   ],
   "plain": "Hegel saw history as a clash of ideas: each idea meets its opposite, and the conflict produces a new, fuller idea.",
   "summary": "Hegel says history moves through clashes of opposing views, as the human mind (Spirit) comes to know itself.",
@@ -1394,6 +1395,13 @@
     "type": "documented reading",
     "src": "https://grokipedia.com/page/Pantheism_controversy",
     "note": "The pantheism controversy of 1785 revived Spinoza; Hegel's biography records his attention to it."
+   },
+   "german_idealism": {
+    "status": "direct",
+    "type": "direct",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/German_idealism",
+    "note": "Hegel is a core German idealist; the page treats dialectic and historical progress as a German idealist theme."
    }
   },
   "thrives_in": {
@@ -3622,7 +3630,8 @@
   "parents": [
    "roman_catholicism",
    "augustinian_grace",
-   "renaissance_humanism"
+   "renaissance_humanism",
+   "nominalism"
   ],
   "plain": "Martin Luther protested against the sale of indulgences and taught that people are saved by faith alone, through God's grace, with the Bible as the final authority.",
   "summary": "Luther's 1517 protest: salvation by faith alone through God's grace, with the Bible as the final authority. Began as Lutheranism.",
@@ -3676,7 +3685,8 @@
    "https://grokipedia.com/page/Lutheranism",
    "https://grokipedia.com/page/Ninety-five_Theses",
    "https://grokipedia.com/page/Martin_Luther",
-   "https://grokipedia.com/page/Reformation"
+   "https://grokipedia.com/page/Reformation",
+   "https://grokipedia.com/page/William_of_Ockham"
   ],
   "domain": [
    "religion"
@@ -3690,6 +3700,13 @@
     "type": "direct handoff",
     "src": "https://grokipedia.com/page/Erasmus",
     "note": "Erasmus's Greek New Testament (1516) influenced Luther, Melanchthon, Zwingli and Calvin."
+   },
+   "nominalism": {
+    "status": "influence",
+    "type": "influence",
+    "strength": "weak",
+    "src": "https://grokipedia.com/page/William_of_Ockham",
+    "note": "Luther's 'early exposure to Ockhamist via moderna at Erfurt' is said to have shaped his 1517 theses; influence, not descent."
    }
   },
   "thrives_in": {
@@ -9829,7 +9846,7 @@
    "islamic_philosophy": 0,
    "humor": 0,
    "irony": 0,
-   "abstraction": -1,
+   "abstraction": 1,
    "hierarchy": 3
   },
   "rationale": {
@@ -9851,7 +9868,7 @@
    "islamic_philosophy": "No real link to Islamic philosophy.",
    "humor": "Not expressed through jokes or play.",
    "irony": "Not carried in an ironic tone.",
-   "abstraction": "Kami live in natural places and things.",
+   "abstraction": "Kami are spiritual essences in natural things and ancestors, though Shinto stresses ritual practice over belief.",
    "hierarchy": "Formalized by the state; the emperor claimed descent from Amaterasu."
   },
   "stories": [],
@@ -10410,7 +10427,7 @@
    "islamic_philosophy": 0,
    "humor": 0,
    "irony": 0,
-   "abstraction": -1,
+   "abstraction": 1,
    "hierarchy": 1
   },
   "rationale": {
@@ -10432,7 +10449,7 @@
    "islamic_philosophy": "No real link to islamic_philosophy.",
    "humor": "Not expressed through jokes or play.",
    "irony": "Not carried in an ironic tone.",
-   "abstraction": "Divine presence is within nature and the material world.",
+   "abstraction": "Immanent divinity: the universe is animated by divine energy inherent in all things, with spirits in landscapes and beings.",
    "hierarchy": "Initiatory covens with degrees."
   },
   "stories": [],
@@ -10691,7 +10708,7 @@
    "islamic_philosophy": 0,
    "humor": 0,
    "irony": 0,
-   "abstraction": -1,
+   "abstraction": 1,
    "hierarchy": 1
   },
   "rationale": {
@@ -10713,7 +10730,7 @@
    "islamic_philosophy": "No real link to islamic_philosophy.",
    "humor": "Not expressed through jokes or play.",
    "irony": "Not carried in an ironic tone.",
-   "abstraction": "Reverence for the natural world.",
+   "abstraction": "Core to its ethos is an animistic worldview viewing the natural world as imbued with spirit.",
    "hierarchy": "Graded orders of bards, ovates and druids."
   },
   "stories": [],
@@ -10958,7 +10975,7 @@
    "christianity": -2,
    "gnosticism": 0,
    "hermeticism": 0,
-   "enlightenment_liberalism": 0,
+   "enlightenment_liberalism": -1,
    "marxism": 0,
    "darwinism": 0,
    "nietzsche": 0,
@@ -10970,17 +10987,17 @@
    "islamic_philosophy": 0,
    "humor": 0,
    "irony": 0,
-   "abstraction": -1,
+   "abstraction": 1,
    "hierarchy": 1
   },
   "rationale": {
    "platonism": "No real link to platonism.",
    "aristotelianism": "No real link to aristotelianism.",
    "stoicism": "No real link to stoicism.",
-   "christianity": "Revives the gods that Christianity replaced.",
+   "christianity": "Reconstructs pre-Christian Germanic religion and favors source fidelity over syncretism.",
    "gnosticism": "No real link to gnosticism.",
    "hermeticism": "No real link to hermeticism.",
-   "enlightenment_liberalism": "No real link to enlightenment_liberalism.",
+   "enlightenment_liberalism": "Grew from a Romantic turn to ancestral heritage as an antidote to Enlightenment rationalism.",
    "marxism": "No real link to marxism.",
    "darwinism": "No real link to darwinism.",
    "nietzsche": "No real link to nietzsche.",
@@ -10991,9 +11008,9 @@
    "vedanta": "No real link to vedanta.",
    "islamic_philosophy": "No real link to islamic_philosophy.",
    "humor": "Not expressed through jokes or play.",
-   "irony": "Not carried in an ironic tone.",
-   "abstraction": "Gods tied to nature, kin and land.",
-   "hierarchy": "Values kin, ancestry and tradition."
+   "irony": "Meant literally.",
+   "abstraction": "Polytheist and animistic: gods, ancestors and land spirits are real; a landscape that teems with sentient presences.",
+   "hierarchy": "Draws on pre-Christian frameworks of reciprocity and hierarchy, though some groups honor gods without hierarchy."
   },
   "stories": [],
   "sources": [
@@ -14183,14 +14200,14 @@
    "islamic_philosophy": 0,
    "humor": 0,
    "irony": 0,
-   "abstraction": -1,
+   "abstraction": 0,
    "hierarchy": 1
   },
   "rationale": {
    "platonism": "No real link to Platonism.",
    "aristotelianism": "No real link to Aristotelianism.",
    "stoicism": "No real link to Stoicism.",
-   "christianity": "Reads the witch trials as Christian persecution of an older pagan faith (Grokipedia, Witch-cult hypothesis).",
+   "christianity": "Recasts the witch trials as Church persecution of an older faith and the Devil as a manifestation of an ancient horned fertility god.",
    "gnosticism": "No real link to Gnosticism.",
    "hermeticism": "No real link to Hermeticism.",
    "enlightenment_liberalism": "No real link to Enlightenment liberalism.",
@@ -14203,10 +14220,10 @@
    "buddhism": "No real link to Buddhism.",
    "vedanta": "No real link to Vedanta.",
    "islamic_philosophy": "No real link to Islamic philosophy (falsafa).",
-   "humor": "Scholarly in register.",
+   "humor": "Not expressed through jokes or play.",
    "irony": "Meant literally.",
-   "abstraction": "Argues from trial records and folklore, not theory.",
-   "hierarchy": "Pictures witches in structured, hierarchical covens (Grokipedia, Margaret Murray, on her 1917 article)."
+   "abstraction": "No documented link.",
+   "hierarchy": "Posits 13-member covens under a Grand Master, but Murray also cast the cult as egalitarian against patriarchal Christianity."
   },
   "thrives_in": {
    "historical": true,
@@ -18160,7 +18177,8 @@
    "Hu Jintao"
   ],
   "parents": [
-   "leninism"
+   "leninism",
+   "maoism"
   ],
   "plain": "One-party Leninist rule with a 'socialist market economy': state firms in strategic sectors alongside private business.",
   "summary": "Deng turned from Maoist orthodoxy in 1978; the socialist market economy grew rapidly under one-party rule.",
@@ -18211,7 +18229,8 @@
   "stories": [],
   "sources": [
    "https://grokipedia.com/page/Socialism_with_Chinese_characteristics",
-   "https://grokipedia.com/page/Deng_Xiaoping_Theory"
+   "https://grokipedia.com/page/Deng_Xiaoping_Theory",
+   "https://grokipedia.com/page/Maoism"
   ],
   "domain": [
    "politics"
@@ -18244,6 +18263,13 @@
     "type": "descent",
     "src": "https://grokipedia.com/page/Deng_Xiaoping_Theory",
     "note": "Adapts Marxism-Leninism; the Communist Party keeps one-party rule."
+   },
+   "maoism": {
+    "status": "direct",
+    "type": "direct",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Maoism",
+    "note": "Reform line: the 1981 resolution upheld Mao Zedong Thought as guiding ideology while shifting from class struggle to modernization."
    }
   },
   "party_alignment_cn": {
@@ -18375,7 +18401,8 @@
    "Bo Xilai"
   ],
   "parents": [
-   "marxism"
+   "marxism",
+   "maoism"
   ],
   "plain": "Critics of market reform who want state action against inequality; some revive Mao-era ideas.",
   "summary": "Named in 1994, it critiqued privatization and inequality; Bo Xilai's Chongqing Model became its political test.",
@@ -18457,6 +18484,13 @@
     "type": "descent",
     "src": "https://grokipedia.com/page/Chinese_New_Left",
     "note": "Draws 'selectively from socialist traditions' and in one strand 'Mao Zedong's mass line'."
+   },
+   "maoism": {
+    "status": "influence",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Chinese_New_Left",
+    "note": "One strand draws on 'Mao Zedong's mass line'."
    }
   },
   "party_alignment_cn": {
@@ -19024,5 +19058,581 @@
    "note": "Party since 2020."
   },
   "modern_politics": true
+ },
+ {
+  "id": "nominalism",
+  "name": "Nominalism",
+  "root": false,
+  "root_axis": null,
+  "year": 1080,
+  "year_approx": true,
+  "origin_src": "https://grokipedia.com/page/Nominalism",
+  "origin_note": "Roscelin of Compiègne (c. 1050–1125), 'often regarded as the first explicit nominalist', held universals to be flatus vocis; William of Ockham (c. 1287–1347) gave it 'its most influential formulation'",
+  "place": "Compiègne",
+  "lat": 49.42,
+  "lon": 2.83,
+  "thinkers": [
+   "Roscelin of Compiègne",
+   "Peter Abelard",
+   "William of Ockham",
+   "Durandus of Saint-Pourçain"
+  ],
+  "parents": [
+   "aristotelian_teleology"
+  ],
+  "plain": "The view that only individual things exist; general words like 'man' or 'rose' name groups of similar things, not real shared natures.",
+  "summary": "Medieval denial that universals exist outside minds and words, from Roscelin to Ockham's 14th-century system; carries the principle later called Ockham's razor.",
+  "ratings": {
+   "platonism": -4,
+   "aristotelianism": 1,
+   "stoicism": 0,
+   "christianity": 3,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 1,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -2,
+   "hierarchy": -1
+  },
+  "rationale": {
+   "platonism": "Rejects Platonist commitments to immaterial forms (Grokipedia, Nominalism).",
+   "aristotelianism": "Grew out of scholastic reading of Aristotle's logic but denies the common forms moderate realists drew from him.",
+   "stoicism": "No real link to Stoicism.",
+   "christianity": "Worked out by Christian theologians; Ockham was a Franciscan friar writing on theology.",
+   "gnosticism": "No real link to Gnosticism.",
+   "hermeticism": "No real link to Hermeticism.",
+   "enlightenment_liberalism": "Later linked to early modern empiricism through Hobbes and Locke (Grokipedia, Nominalism); an ancestor at most.",
+   "marxism": "No real link to Marxism.",
+   "darwinism": "No real link to Darwinism.",
+   "nietzsche": "No real link to Nietzsche.",
+   "critical_theory": "No real link to critical theory.",
+   "confucianism": "No real link to Confucianism.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "No real link to Buddhism.",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "No real link to Islamic philosophy.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Not carried in an ironic tone.",
+   "abstraction": "Puts individual things and sense experience ahead of abstract essences, though argued through technical logic.",
+   "hierarchy": "Ockham argued lay and clerical rights to resist erroneous papal decrees (Grokipedia, William of Ockham)."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Nominalism",
+   "https://grokipedia.com/page/William_of_Ockham",
+   "https://grokipedia.com/page/Occam's_razor",
+   "https://grokipedia.com/page/Problem_of_universals"
+  ],
+  "domain": [
+   "philosophy",
+   "religion"
+  ],
+  "aliases": [
+   "Ockhamism",
+   "via moderna",
+   "terminism"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Paris",
+     "src": "https://grokipedia.com/page/Nominalism",
+     "note": "Ockhamist moderni disputed realists at the University of Paris; its arts faculty curbed Ockham's doctrines in 1339.",
+     "period": "1339–1395"
+    },
+    {
+     "place": "Oxford",
+     "src": "https://grokipedia.com/page/William_of_Ockham",
+     "note": "Ockham began theological training at Oxford by at least 1317."
+    },
+    {
+     "place": "Munich",
+     "src": "https://grokipedia.com/page/William_of_Ockham",
+     "note": "Ockham lived in Munich under Louis IV from about 1329 until his death on April 9, 1347.",
+     "period": "1329–1347"
+    }
+   ]
+  },
+  "edge_notes": {
+   "aristotelian_teleology": {
+    "status": "context",
+    "type": "context",
+    "strength": "weak",
+    "src": "https://grokipedia.com/page/Nominalism",
+    "note": "Context, not descent: the link is Aristotle's logic. The universals debate was 'sparked by Porphyry's Isagoge', an introduction to Aristotle's logic."
+   }
+  },
+  "parent_note": "Rival of realism: Thomism (moderate realism) and the via antiqua; Thomism is later (1265) than Roscelin and not a parent."
+ },
+ {
+  "id": "german_idealism",
+  "name": "German idealism",
+  "root": false,
+  "root_axis": null,
+  "year": 1794,
+  "year_approx": true,
+  "origin_src": "https://grokipedia.com/page/German_idealism",
+  "origin_note": "A movement 'spanning roughly from the 1780s to the 1840s' in response to Kant's Critique of Pure Reason (1781); Fichte built his system at Jena from 1794, where Schelling joined him in 1798",
+  "place": "Jena",
+  "lat": 50.93,
+  "lon": 11.59,
+  "thinkers": [
+   "Johann Gottlieb Fichte",
+   "Friedrich Wilhelm Joseph Schelling",
+   "Georg Wilhelm Friedrich Hegel",
+   "Karl Leonhard Reinhold"
+  ],
+  "parents": [
+   "transcendental_idealism",
+   "spinozism"
+  ],
+  "plain": "The German philosophers after Kant who held that mind or spirit shapes reality itself, from Fichte's self-positing ego to Hegel's absolute.",
+  "summary": "Post-Kantian systems of Fichte, Schelling and Hegel, about 1794–1840s, holding that mind constitutes reality; feeds Hegel's dialectic and British and American idealism.",
+  "ratings": {
+   "platonism": 3,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 1,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 1,
+   "marxism": 1,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 5,
+   "hierarchy": 1
+  },
+  "rationale": {
+   "platonism": "Idealism 'traces to Plato's' Forms (Grokipedia, Idealism); a theme, not a documented lineage here.",
+   "aristotelianism": "No real link to Aristotelianism.",
+   "stoicism": "No real link to Stoicism.",
+   "christianity": "Fichte was dismissed in 1799 over alleged atheism; Hegel studied theology; a loose and contested tie.",
+   "gnosticism": "No real link to Gnosticism.",
+   "hermeticism": "No real link to Hermeticism.",
+   "enlightenment_liberalism": "Fichte saw the state as a vehicle for ethical progress and cosmopolitan humanity (Grokipedia, German idealism).",
+   "marxism": "Its dialectic of history passes to Marxism through Hegelian dialectic, already on the map.",
+   "darwinism": "No real link to Darwinism.",
+   "nietzsche": "No real link to Nietzsche.",
+   "critical_theory": "No real link to critical theory.",
+   "confucianism": "No real link to Confucianism.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "No real link to Buddhism.",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "No real link to Islamic philosophy.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Not carried in an ironic tone.",
+   "abstraction": "Holds that mind constitutes reality; among the most abstract systems in the map.",
+   "hierarchy": "Fichte's later work stressed communal life and the state; mild."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/German_idealism",
+   "https://grokipedia.com/page/Idealism"
+  ],
+  "domain": [
+   "philosophy"
+  ],
+  "aliases": [
+   "Post-Kantian idealism",
+   "Absolute idealism"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Jena",
+     "src": "https://grokipedia.com/page/German_idealism",
+     "note": "Fichte taught there 1794–1799 and Schelling from 1798.",
+     "period": "1794–1799"
+    },
+    {
+     "place": "Berlin",
+     "src": "https://grokipedia.com/page/German_idealism",
+     "note": "Fichte's later Berlin writings, 1800–1814, turned to language and communal life.",
+     "period": "1800–1814"
+    },
+    {
+     "place": "Britain",
+     "src": "https://grokipedia.com/page/German_idealism",
+     "note": "The page traces an international legacy in British idealism."
+    },
+    {
+     "place": "United States",
+     "src": "https://grokipedia.com/page/German_idealism",
+     "note": "The page traces an international legacy in American idealism."
+    }
+   ]
+  },
+  "edge_notes": {
+   "transcendental_idealism": {
+    "status": "direct",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/German_idealism",
+    "note": "It 'sought to resolve tensions in Kant's transcendental idealism'; Fichte was shaped by Kant's Critique of Practical Reason in 1789."
+   },
+   "spinozism": {
+    "status": "influence",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/German_idealism",
+    "note": "Schelling studied 'the works of Kant, Spinoza, and Fichte' at Tübingen; Spinoza's monism 'inspired later holistic views of reality'."
+   }
+  }
+ },
+ {
+  "id": "guelphs",
+  "name": "Guelphs",
+  "root": false,
+  "root_axis": null,
+  "year": 1215,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Guelphs_and_Ghibellines",
+  "origin_note": "Names from Welf and Waiblingen came into Italian use in the late 12th century and 'solidified' as faction labels 'in Florence by 1215'; Guelphs backed the papacy against imperial rule",
+  "place": "Florence",
+  "lat": 43.77,
+  "lon": 11.26,
+  "thinkers": [
+   "Dante Alighieri"
+  ],
+  "parents": [
+   "roman_catholicism"
+  ],
+  "plain": "The medieval Italian faction that sided with the pope against the Holy Roman Emperor, strong in Florence, Genoa and Bologna.",
+  "summary": "Pro-papal faction of Italian city-states from about 1215 into the 14th century; Florence's Guelphs split into Whites and Blacks around 1300.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 4,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 0,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -3,
+   "hierarchy": 1
+  },
+  "rationale": {
+   "platonism": "No real link to Platonism.",
+   "aristotelianism": "No real link to Aristotelianism.",
+   "stoicism": "No real link to Stoicism.",
+   "christianity": "The pro-papal side in the papacy's dispute with the Empire (Grokipedia, Guelphs and Ghibellines).",
+   "gnosticism": "No real link to Gnosticism.",
+   "hermeticism": "No real link to Hermeticism.",
+   "enlightenment_liberalism": "No real link to Enlightenment liberalism.",
+   "marxism": "No real link to Marxism.",
+   "darwinism": "No real link to Darwinism.",
+   "nietzsche": "No real link to Nietzsche.",
+   "critical_theory": "No real link to critical theory.",
+   "confucianism": "No real link to Confucianism.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "No real link to Buddhism.",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "No real link to Islamic philosophy.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Not carried in an ironic tone.",
+   "abstraction": "Alignments were 'pragmatic rather than doctrinal', driven by feuds and trade (Grokipedia, Guelphs and Ghibellines).",
+   "hierarchy": "Backed papal authority but also communal autonomy against imperial overlordship."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Guelphs_and_Ghibellines"
+  ],
+  "domain": [
+   "politics",
+   "religion"
+  ],
+  "aliases": [
+   "Guelfs",
+   "Guelfi",
+   "Black Guelphs",
+   "White Guelphs"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Florence",
+     "src": "https://grokipedia.com/page/Guelphs_and_Ghibellines",
+     "note": "A leading Guelph stronghold; split into White and Black Guelphs around 1300.",
+     "period": "1215–14th c."
+    },
+    {
+     "place": "Genoa",
+     "src": "https://grokipedia.com/page/Guelphs_and_Ghibellines",
+     "note": "Aligned with the Guelphs amid maritime rivalry with Ghibelline Pisa."
+    },
+    {
+     "place": "Bologna",
+     "src": "https://grokipedia.com/page/Guelphs_and_Ghibellines",
+     "note": "Predominantly Guelph, siding with papal interests."
+    }
+   ]
+  },
+  "edge_notes": {
+   "roman_catholicism": {
+    "status": "direct",
+    "type": "alignment",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Guelphs_and_Ghibellines",
+    "note": "Guelphs were the 'pro-papal' faction; Innocent III 'solidified Guelph ascendancy' against imperial claims."
+   }
+  },
+  "parent_note": "Leading figures, not thinkers: Pope Innocent III solidified Guelph ascendancy; the Cerchi led White Guelphs and the Donati Black Guelphs in Florence."
+ },
+ {
+  "id": "ghibellines",
+  "name": "Ghibellines",
+  "root": false,
+  "root_axis": null,
+  "year": 1215,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Guelphs_and_Ghibellines",
+  "origin_note": "Names from Welf and Waiblingen came into Italian use in the late 12th century and 'solidified' as faction labels 'in Florence by 1215'; Ghibellines backed the Holy Roman Emperor",
+  "place": "Florence",
+  "lat": 43.77,
+  "lon": 11.26,
+  "thinkers": [
+   "Farinata degli Uberti",
+   "Uberti family",
+   "Visconti family"
+  ],
+  "parents": [],
+  "plain": "The medieval Italian faction that sided with the Holy Roman Emperor against the pope, strong in Pisa and Siena.",
+  "summary": "Pro-imperial faction of Italian city-states from about 1215 into the 14th century; won at Montaperti in 1260 under Sienese leadership.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 2,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 0,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -3,
+   "hierarchy": 3
+  },
+  "rationale": {
+   "platonism": "No real link to Platonism.",
+   "aristotelianism": "No real link to Aristotelianism.",
+   "stoicism": "No real link to Stoicism.",
+   "christianity": "Catholic factions opposing papal temporal power, not the faith (Grokipedia, Guelphs and Ghibellines).",
+   "gnosticism": "No real link to Gnosticism.",
+   "hermeticism": "No real link to Hermeticism.",
+   "enlightenment_liberalism": "No real link to Enlightenment liberalism.",
+   "marxism": "No real link to Marxism.",
+   "darwinism": "No real link to Darwinism.",
+   "nietzsche": "No real link to Nietzsche.",
+   "critical_theory": "No real link to critical theory.",
+   "confucianism": "No real link to Confucianism.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "No real link to Buddhism.",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "No real link to Islamic philosophy.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Not carried in an ironic tone.",
+   "abstraction": "Alignments were 'pragmatic rather than doctrinal', driven by feuds and trade (Grokipedia, Guelphs and Ghibellines).",
+   "hierarchy": "Backed imperial overlordship and feudal hierarchy over communal autonomy."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Guelphs_and_Ghibellines"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "aliases": [
+   "Ghibellini",
+   "Ghibelins"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Pisa",
+     "src": "https://grokipedia.com/page/Guelphs_and_Ghibellines",
+     "note": "Kept a consistent Ghibelline orientation, seeking imperial support in Mediterranean trade."
+    },
+    {
+     "place": "Siena",
+     "src": "https://grokipedia.com/page/Guelphs_and_Ghibellines",
+     "note": "A Ghibelline bastion; routed Florentine Guelphs at Montaperti in 1260."
+    },
+    {
+     "place": "Milan",
+     "src": "https://grokipedia.com/page/Guelphs_and_Ghibellines",
+     "note": "Turned from Guelph influence under the Torriani to the Visconti after 1277."
+    }
+   ]
+  },
+  "edge_notes": {},
+  "parent_note": "Parentless: the map has no Holy Roman Empire idea to serve as parent."
+ },
+ {
+  "id": "maoism",
+  "name": "Maoism",
+  "root": false,
+  "root_axis": null,
+  "year": 1938,
+  "year_approx": true,
+  "origin_src": "https://grokipedia.com/page/Maoism",
+  "origin_note": "Held by 1937–1938 (On Practice and On Contradiction, 1937; Mao's 1938 Sixth Plenum report on the Sinification of Marxism); developed at the CCP's Yan'an base (1935–1945) and the 1942–1945 Rectification Campaign; the Seventh Congress at Yan'an, April 23–June 11, 1945, wrote Mao Zedong Thought into the party constitution",
+  "place": "Yan'an",
+  "lat": 36.59,
+  "lon": 109.49,
+  "thinkers": [
+   "Mao Zedong"
+  ],
+  "parents": [
+   "leninism",
+   "marxism"
+  ],
+  "plain": "Mao Zedong's version of Marxism-Leninism for a peasant country: rural revolution, the mass line, people's war and continuing class struggle.",
+  "summary": "Marxism-Leninism adapted by Mao at Yan'an and codified in 1945; official CCP ideology, revised by the 1981 resolution; exported to insurgencies abroad.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": -1,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": -4,
+   "marxism": 5,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": -3,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -1,
+   "hierarchy": 4
+  },
+  "rationale": {
+   "platonism": "No real link to Platonism.",
+   "aristotelianism": "No real link to Aristotelianism.",
+   "stoicism": "No real link to Stoicism.",
+   "christianity": "A general anti-religious campaign: the Four Olds drive 'led to the ransacking of temples' and attacked old culture (Grokipedia, Maoism).",
+   "gnosticism": "No real link to Gnosticism.",
+   "hermeticism": "No real link to Hermeticism.",
+   "enlightenment_liberalism": "Rejects liberal pluralism for party rule and continuing class struggle (Grokipedia, Maoism).",
+   "marxism": "Defined as a variant of Marxism-Leninism (Grokipedia, Maoism).",
+   "darwinism": "No real link to Darwinism.",
+   "nietzsche": "No real link to Nietzsche.",
+   "critical_theory": "Separate lineage; overlaps only through Western student Maoism in the 1960s.",
+   "confucianism": "Mao favored Legalist state-building over Confucian moralism (Grokipedia, Maoism).",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "No real link to Buddhism.",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "No real link to Islamic philosophy.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Not carried in an ironic tone.",
+   "abstraction": "Stresses practice and peasant conditions over doctrine, though built on dialectics.",
+   "hierarchy": "One-party rule and personality cult, alongside mass-line egalitarian rhetoric (Grokipedia, Maoism)."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Maoism"
+  ],
+  "domain": [
+   "politics",
+   "philosophy"
+  ],
+  "aliases": [
+   "Mao Zedong Thought",
+   "Mao Tse-tung Thought"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "China",
+     "src": "https://grokipedia.com/page/Maoism",
+     "note": "Guiding ideology of the CCP since 1945; the 1981 resolution kept it while criticizing Mao's later errors.",
+     "period": "1945–present"
+    },
+    {
+     "place": "India",
+     "src": "https://grokipedia.com/page/Maoism",
+     "note": "Template for India's Naxalite movement (Grokipedia, Maoism)."
+    },
+    {
+     "place": "Peru",
+     "src": "https://grokipedia.com/page/Maoism",
+     "note": "Template for Peru's Shining Path (Grokipedia, Maoism)."
+    },
+    {
+     "place": "Nepal",
+     "src": "https://grokipedia.com/page/Maoism",
+     "note": "Template for Nepal's Maoist rebellion (Grokipedia, Maoism)."
+    }
+   ]
+  },
+  "edge_notes": {
+   "leninism": {
+    "status": "direct",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Maoism",
+    "note": "'A variant of Marxism-Leninism' adapting Marxist theory to a semi-feudal, agrarian society."
+   },
+   "marxism": {
+    "status": "direct",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Maoism",
+    "note": "The Seventh Congress defined it as the integration of Marxist-Leninist theory with Chinese practice."
+   }
+  },
+  "modern_politics": true,
+  "party_alignment_cn": {
+   "party": "CORE",
+   "strength": "moderate",
+   "src": "https://grokipedia.com/page/Maoism",
+   "note": "Bloc: still the party's charter doctrine and venerated, though its core tenets were superseded after 1978; neo-Maoist strand sits with LEFT."
+  },
+  "parent_note": "Assessments are contested: the page reports unification, land reform and gains alongside famine and Cultural Revolution deaths; the CCP's 1981 resolution judged merits primary, errors secondary."
  }
 ]
