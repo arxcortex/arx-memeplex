@@ -21037,7 +21037,7 @@
     "status": "documented",
     "type": "text",
     "src": "https://grokipedia.com/page/Declaration_of_the_Rights_of_Man_and_of_the_Citizen",
-    "note": "The page names Montesquieu as a source; separation of powers appears in Article 16."
+    "note": "Montesquieu is named as a source; separation of powers appears in Article 16."
    },
    "social_contract": {
     "status": "documented",
@@ -21433,7 +21433,7 @@
     {
      "place": "Israel",
      "src": "https://grokipedia.com/page/Judaism",
-     "note": "The page describes Israel's Haredi population and a Chief Rabbinate with authority over Jewish religious matters."
+     "note": "Israel has a large Haredi population and a Chief Rabbinate with authority over Jewish religious matters."
     },
     {
      "place": "United States",
@@ -22804,12 +22804,12 @@
     {
      "place": "Britain",
      "src": "https://grokipedia.com/page/German_idealism",
-     "note": "The page traces an international legacy in British idealism."
+     "note": "Left an international legacy in British idealism."
     },
     {
      "place": "United States",
      "src": "https://grokipedia.com/page/German_idealism",
-     "note": "The page traces an international legacy in American idealism."
+     "note": "Left an international legacy in American idealism."
     }
    ]
   },
@@ -23935,7 +23935,7 @@
     "type": "influence",
     "strength": "strong",
     "src": "https://grokipedia.com/page/Kokutai",
-    "note": "The page treats its 'Integration with State Shinto and Emperor Veneration' as core."
+    "note": "Its 'Integration with State Shinto and Emperor Veneration' is treated as core."
    },
    "confucian_ethics": {
     "status": "loose",
@@ -25850,5 +25850,607 @@
     "note": "Fiscal conservatives joined by 'a subset' that 'integrated evangelical social conservatism', though fiscal aims came first (Grokipedia)."
    }
   }
+ },
+ {
+  "id": "wang_yangming_school",
+  "name": "Wang Yangming school",
+  "root": false,
+  "root_axis": null,
+  "year": 1508,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Yangmingism",
+  "origin_note": "In 1508, in exile at Longchang (Dragon Field), Guizhou, Wang 'experienced a philosophical breakthrough' that 'principle resides within the mind itself' (Grokipedia, Yangmingism).",
+  "place": "Longchang, Guizhou",
+  "lat": 26.84,
+  "lon": 106.59,
+  "thinkers": [
+   "Wang Yangming",
+   "Wang Gen",
+   "Nakae Tōju"
+  ],
+  "parents": [
+   "neo_confucianism"
+  ],
+  "plain": "A Chinese school of Confucian thought that says right and wrong are already known by the heart-mind, and that truly knowing means acting.",
+  "summary": "Wang Yangming's 'School of Mind' (from 1508): moral principle lives in the mind, innate knowing (liangzhi) guides us, and knowledge and action are one.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 0,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 4,
+   "daoism": 1,
+   "buddhism": 1,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 4,
+   "hierarchy": 2
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "No clear debt to, or quarrel with, Christianity.",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "Comes before Enlightenment liberalism existed, so it cannot descend from it.",
+   "marxism": "Comes before Marxism existed, so it cannot descend from it.",
+   "darwinism": "Comes before Darwinism existed, so it cannot descend from it.",
+   "nietzsche": "Comes before Nietzsche existed, so it cannot descend from it.",
+   "critical_theory": "Comes before Critical theory existed, so it cannot descend from it.",
+   "confucianism": "A Neo-Confucian school: keeps Confucian classics and roles but moves principle into the mind.",
+   "daoism": "Wang engaged Daoist ideas as a young man; some later followers echoed Daoist self-cultivation.",
+   "buddhism": "Critics heard Chan's sudden awakening in its inward method; Wang denied any Buddhist debt.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islamic_philosophy": "No clear debt to, or quarrel with, Islamic philosophy (falsafa).",
+   "islam": "No clear debt to, or quarrel with, Islam.",
+   "judaism": "No clear debt to, or quarrel with, Judaism.",
+   "romanticism": "Comes before Romanticism existed, so it cannot descend from it.",
+   "nationalism": "Comes before Nationalism existed, so it cannot descend from it.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Idealist: moral principle is in the mind, not in outside things or texts.",
+   "hierarchy": "Upholds Confucian family and state duties, but weakens the authority of textual orthodoxy."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Yangmingism",
+   "https://grokipedia.com/page/Wang_Yangming",
+   "https://grokipedia.com/page/Neo-Confucianism"
+  ],
+  "domain": [
+   "philosophy"
+  ],
+  "aliases": [
+   "Yangmingism",
+   "School of Mind",
+   "Xinxue",
+   "Lu-Wang school",
+   "Yōmeigaku"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Southern China",
+     "period": "16th century",
+     "src": "https://grokipedia.com/page/Yangmingism",
+     "note": "Wang lectured across Jiangxi and Zhejiang after 1520 and taught hundreds of students."
+    },
+    {
+     "place": "Japan",
+     "period": "Edo period to Meiji",
+     "src": "https://grokipedia.com/page/Yangmingism",
+     "note": "As Yōmeigaku, systematized by Nakae Tōju around the 1630s; read by samurai and later loyalists."
+    },
+    {
+     "place": "Korea",
+     "period": "Joseon",
+     "src": "https://grokipedia.com/page/Yangmingism",
+     "note": "Reached Korea in the mid-Joseon era through Wang's works after his death in 1529."
+    }
+   ]
+  },
+  "edge_notes": {
+   "neo_confucianism": {
+    "status": "direct",
+    "type": "reform",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Yangmingism",
+    "note": "A 'major branch of Neo-Confucian philosophy' that 'critiqued the dominant Cheng-Zhu orthodoxy' of Zhu Xi."
+   }
+  },
+  "parent_note": "Contemporaries and Qing critics charged it with Chan (Zen) influence; Wang said he was removing Buddhist accretions. No zen edge (held). It drew 'partial inspiration' from Lu Jiuyuan, who is not a node."
+ },
+ {
+  "id": "bhakti_movement",
+  "name": "Bhakti movement",
+  "root": false,
+  "root_axis": null,
+  "year": 600,
+  "year_approx": true,
+  "origin_src": "https://grokipedia.com/page/Bhakti_movement",
+  "origin_note": "Emerged 'in South India between the 6th and 9th centuries CE' with the Tamil Alvars and Nayanars (Grokipedia, Bhakti movement); c.600 marks the start of that span.",
+  "place": "Tamil country, South India",
+  "lat": null,
+  "lon": null,
+  "thinkers": [
+   "Andal",
+   "Ramanuja",
+   "Kabir",
+   "Mirabai"
+  ],
+  "parents": [
+   "upanishadic_brahman"
+  ],
+  "plain": "A Hindu movement of loving devotion to one god. Poet-saints sang in everyday languages and said anyone, of any caste, could reach God this way.",
+  "summary": "Devotional Hinduism born with the Tamil Alvars and Nayanars (6th-9th c.): surrender to a personal god over ritual; spread north from the 12th century.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 0,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 3,
+   "islamic_philosophy": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 2,
+   "hierarchy": -2
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "No clear debt to, or quarrel with, Christianity.",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "Comes before Enlightenment liberalism existed, so it cannot descend from it.",
+   "marxism": "Comes before Marxism existed, so it cannot descend from it.",
+   "darwinism": "Comes before Darwinism existed, so it cannot descend from it.",
+   "nietzsche": "Comes before Nietzsche existed, so it cannot descend from it.",
+   "critical_theory": "Comes before Critical theory existed, so it cannot descend from it.",
+   "confucianism": "No clear debt to, or quarrel with, Confucianism.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "Rooted in the Upanishads and the Gita; Ramanuja gave it a Vedanta philosophy.",
+   "islamic_philosophy": "Comes before Islamic philosophy (falsafa) existed, so it cannot descend from it.",
+   "islam": "Comes before Islam existed, so it cannot descend from it.",
+   "judaism": "No clear debt to, or quarrel with, Judaism.",
+   "romanticism": "Comes before Romanticism existed, so it cannot descend from it.",
+   "nationalism": "Comes before Nationalism existed, so it cannot descend from it.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Devotion to a god with form or to the formless absolute; love over ritual.",
+   "hierarchy": "Opened worship to all castes and to women in vernacular hymns, though caste persisted in many bhakti groups."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Bhakti_movement",
+   "https://grokipedia.com/page/Alvars",
+   "https://grokipedia.com/page/Bhagavad_Gita",
+   "https://grokipedia.com/page/Ramanuja",
+   "https://grokipedia.com/page/Kabir"
+  ],
+  "domain": [
+   "religion"
+  ],
+  "aliases": [
+   "Bhakti"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "South India",
+     "period": "6th-9th centuries",
+     "src": "https://grokipedia.com/page/Bhakti_movement",
+     "note": "Tamil Alvar and Nayanar hymns to Vishnu and Shiva."
+    },
+    {
+     "place": "North India",
+     "period": "from the 12th century",
+     "src": "https://grokipedia.com/page/Bhakti_movement",
+     "note": "Spread north through poets such as Kabir, Mirabai and Chaitanya."
+    }
+   ]
+  },
+  "edge_notes": {
+   "upanishadic_brahman": {
+    "status": "documented",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Bhakti_movement",
+    "note": "The Shvetashvatara Upanishad (c.400-200 BCE) is 'one of the earliest textual articulations of bhakti'; the Bhagavad Gita later 'systematizes bhakti'."
+   }
+  },
+  "parent_note": "Grokipedia also notes later exchange with Sufism in North India. No sufism edge: Sufism (c.700) postdates the c.600 start."
+ },
+ {
+  "id": "sikhism",
+  "name": "Sikhism",
+  "root": false,
+  "root_axis": null,
+  "year": 1499,
+  "year_approx": true,
+  "origin_src": "https://grokipedia.com/page/Sikhism",
+  "origin_note": "Guru Nanak's revelation came 'around 1499' at the Bein River, near Sultanpur Lodhi, Punjab (Grokipedia, Sikhism; Sultanpur Lodhi).",
+  "place": "Sultanpur Lodhi, Punjab",
+  "lat": 31.22,
+  "lon": 75.2,
+  "thinkers": [
+   "Guru Nanak",
+   "Guru Arjan",
+   "Guru Gobind Singh"
+  ],
+  "parents": [
+   "bhakti_movement"
+  ],
+  "plain": "A religion from Punjab founded by Guru Nanak. Sikhs worship one formless God, reject caste, and serve others, as in free community kitchens.",
+  "summary": "Founded by Guru Nanak (c.1499, Punjab): one formless God, honest work, sharing, equality beyond caste; Khalsa order 1699; the Guru Granth Sahib is the living Guru.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 0,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 1,
+   "islamic_philosophy": 0,
+   "islam": 1,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 3,
+   "hierarchy": -3
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "No clear debt to, or quarrel with, Christianity.",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "Comes before Enlightenment liberalism existed, so it cannot descend from it.",
+   "marxism": "Comes before Marxism existed, so it cannot descend from it.",
+   "darwinism": "Comes before Darwinism existed, so it cannot descend from it.",
+   "nietzsche": "Comes before Nietzsche existed, so it cannot descend from it.",
+   "critical_theory": "Comes before Critical theory existed, so it cannot descend from it.",
+   "confucianism": "No clear debt to, or quarrel with, Confucianism.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "Shares karma, maya and rebirth vocabulary, but treats maya as real, unlike Advaita.",
+   "islamic_philosophy": "No clear debt to, or quarrel with, Islamic philosophy (falsafa).",
+   "islam": "Some scholars hear Islamic tawhid in its strict monotheism; Sikh scholars reject any derivation.",
+   "judaism": "No clear debt to, or quarrel with, Judaism.",
+   "romanticism": "Comes before Romanticism existed, so it cannot descend from it.",
+   "nationalism": "Comes before Nationalism existed, so it cannot descend from it.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "God is formless and timeless, yet Sikhs live as householders in the world.",
+   "hierarchy": "Rejects caste: everyone sits together at the langar; authority rests in the Gurus and the Granth."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Sikhism",
+   "https://grokipedia.com/page/Guru_Nanak",
+   "https://grokipedia.com/page/Guru_Granth_Sahib",
+   "https://grokipedia.com/page/Sultanpur_Lodhi"
+  ],
+  "domain": [
+   "religion"
+  ],
+  "aliases": [
+   "Sikhi"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Punjab, India",
+     "src": "https://grokipedia.com/page/Sikhism",
+     "note": "About 25 million adherents worldwide, concentrated in Punjab, India."
+    },
+    {
+     "place": "Canada",
+     "src": "https://grokipedia.com/page/Sikhism",
+     "note": "Largest Sikh population outside India: 771,790 in the 2021 census."
+    },
+    {
+     "place": "United Kingdom",
+     "src": "https://grokipedia.com/page/Sikhism",
+     "note": "England and Wales counted 524,140 Sikhs in the 2021 census."
+    }
+   ]
+  },
+  "edge_notes": {
+   "bhakti_movement": {
+    "status": "contested",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Sikhism",
+    "note": "Western scholars often frame Sikhism in 'a Bhakti-Sufi synthesis'; Sikh scholars reject derivation and call it an original revelation. The Granth includes bhakti saints such as Kabir."
+   }
+  },
+  "parent_note": "Lineage is contested: many Sikh scholars treat Sikhism as a distinct revelation. A sufism edge is held, not added."
+ },
+ {
+  "id": "god_worshipping_society",
+  "name": "God Worshipping Society",
+  "root": false,
+  "root_axis": null,
+  "year": 1844,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/God_Worshipping_Society",
+  "origin_note": "A sect 'established in 1844 in Guangxi province' by Feng Yunshan to spread Hong Xiuquan's teachings; it launched the Taiping Heavenly Kingdom in 1851 (Grokipedia).",
+  "place": "Thistle Mountain, Guangxi",
+  "lat": 23.47,
+  "lon": 110.05,
+  "thinkers": [
+   "Hong Xiuquan",
+   "Feng Yunshan",
+   "Yang Xiuqing"
+  ],
+  "parents": [
+   "protestantism"
+  ],
+  "plain": "A Chinese Christian sect whose founder Hong Xiuquan said he was Jesus's younger brother. It grew into the Taiping Rebellion against the Qing.",
+  "summary": "Founded 1844 in Guangxi on Hong Xiuquan's visions: worship of Shangdi, iconoclasm, shared property; became the Taiping Heavenly Kingdom (1851-1864).",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 3,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 0,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": -4,
+   "daoism": -1,
+   "buddhism": -1,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 2,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 1,
+   "hierarchy": 2
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "Built on the Bible and Protestant tracts, but Hong cast himself as Jesus's younger brother.",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "No clear debt to, or quarrel with, Enlightenment liberalism.",
+   "marxism": "Comes before Marxism existed, so it cannot descend from it.",
+   "darwinism": "Comes before Darwinism existed, so it cannot descend from it.",
+   "nietzsche": "Comes before Nietzsche existed, so it cannot descend from it.",
+   "critical_theory": "Comes before Critical theory existed, so it cannot descend from it.",
+   "confucianism": "Rejected Confucian rites and ancestor veneration and demolished Confucian shrines.",
+   "daoism": "Rejected folk and temple religion as demon worship.",
+   "buddhism": "Its iconoclasm destroyed temple images as idolatry.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islamic_philosophy": "No clear debt to, or quarrel with, Islamic philosophy (falsafa).",
+   "islam": "No clear debt to, or quarrel with, Islam.",
+   "judaism": "Took up a modified Ten Commandments via Christian Bibles; no direct Jewish link.",
+   "romanticism": "No clear debt to, or quarrel with, Romanticism.",
+   "nationalism": "Mobilized anti-Manchu feeling; cutting the queue rejected a sign of Manchu rule.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "A heavenly father and visions, but aimed at a literal kingdom on earth.",
+   "hierarchy": "A theocratic Heavenly King over ranked kings, yet it promised shared land and some gender equality."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/God_Worshipping_Society",
+   "https://grokipedia.com/page/Hong_Xiuquan",
+   "https://grokipedia.com/page/Taiping_Rebellion"
+  ],
+  "domain": [
+   "religion",
+   "politics"
+  ],
+  "aliases": [
+   "Bai Shangdi Hui",
+   "Taiping theology",
+   "Taiping ideology"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Guangxi",
+     "period": "1844-1851",
+     "src": "https://grokipedia.com/page/God_Worshipping_Society",
+     "note": "Grew to over 10,000 adherents by 1850, mostly Hakka migrants and poor peasants."
+    },
+    {
+     "place": "Nanjing",
+     "period": "1853-1864",
+     "src": "https://grokipedia.com/page/Taiping_Rebellion",
+     "note": "Captured in 1853 and renamed Tianjing, capital of the Taiping Heavenly Kingdom."
+    }
+   ]
+  },
+  "edge_notes": {
+   "protestantism": {
+    "status": "direct",
+    "type": "influence",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/God_Worshipping_Society",
+    "note": "Hong read Liang Fa's Protestant tracts 'Good Words to Admonish the Age' (1836) and studied with Baptist missionary Issachar Roberts in 1847."
+   }
+  },
+  "parent_note": "Missionaries such as Roberts dismissed its theology as blasphemous; it is a heterodox offshoot, not a mainstream church. Later Maoist praise is reception, not lineage."
+ },
+ {
+  "id": "neo_vedanta",
+  "name": "Neo-Vedanta",
+  "root": false,
+  "root_axis": null,
+  "year": 1893,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Neo-Vedanta",
+  "origin_note": "It 'gained prominence through Vivekananda's address at the 1893 Parliament of the World's Religions in Chicago' (Grokipedia, Neo-Vedanta); roots in Bengal reform from the 1828 Brahmo Samaj.",
+  "place": "Chicago",
+  "lat": 41.88,
+  "lon": -87.63,
+  "thinkers": [
+   "Swami Vivekananda",
+   "Ramakrishna",
+   "Ram Mohan Roy",
+   "Sarvepalli Radhakrishnan"
+  ],
+  "parents": [
+   "advaita_vedanta",
+   "bhakti_movement"
+  ],
+  "plain": "A modern Hindu teaching that says all religions point to one truth. It joins old Vedanta ideas with science, service to others, and tolerance.",
+  "summary": "Vivekananda's modern Advaita (Chicago, 1893): the self is divine, all religions share one truth, and service is worship; built on Bengal reform after 1828.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 1,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 2,
+   "marxism": 0,
+   "darwinism": 1,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 4,
+   "islamic_philosophy": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 1,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 4,
+   "hierarchy": -1
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "Brahmo Samaj blended Unitarian ideas; critics see Protestant echoes, which proponents reject.",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "Stresses reason, tolerance and science; critics trace this to Western influence.",
+   "marxism": "No clear debt to, or quarrel with, Marxism.",
+   "darwinism": "Vivekananda presented Vedanta as not contradicting evolutionary theory.",
+   "nietzsche": "No clear debt to, or quarrel with, Nietzsche.",
+   "critical_theory": "Comes before Critical theory existed, so it cannot descend from it.",
+   "confucianism": "No clear debt to, or quarrel with, Confucianism.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "Restates Advaita's Brahman-Atman identity for a modern, global audience.",
+   "islamic_philosophy": "No clear debt to, or quarrel with, Islamic philosophy (falsafa).",
+   "islam": "No clear debt to, or quarrel with, Islam.",
+   "judaism": "No clear debt to, or quarrel with, Judaism.",
+   "romanticism": "No clear debt to, or quarrel with, Romanticism.",
+   "nationalism": "Inspired independence-era figures, but its universalism clashes with Hindutva.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Ultimate reality is Brahman, one with the self, though it stresses action in the world.",
+   "hierarchy": "Service to all and criticism of caste rigidity, within a monastic order."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Neo-Vedanta",
+   "https://grokipedia.com/page/Swami_Vivekananda",
+   "https://grokipedia.com/page/Ramakrishna",
+   "https://grokipedia.com/page/Raja_Ram_Mohan_Roy",
+   "https://grokipedia.com/page/Vedanta_Society"
+  ],
+  "domain": [
+   "religion",
+   "philosophy"
+  ],
+  "aliases": [
+   "Modern Vedanta",
+   "New Vedanta",
+   "Practical Vedanta"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "India",
+     "src": "https://grokipedia.com/page/Swami_Vivekananda",
+     "note": "Ramakrishna Mission founded 1897, with headquarters at Belur Math."
+    },
+    {
+     "place": "United States",
+     "src": "https://grokipedia.com/page/Vedanta_Society",
+     "note": "Vivekananda founded the first Vedanta Society in New York City in November 1894."
+    }
+   ]
+  },
+  "edge_notes": {
+   "advaita_vedanta": {
+    "status": "direct",
+    "type": "reform",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Neo-Vedanta",
+    "note": "Described as 'a modern reinterpretation of traditional Advaita Vedanta philosophy'."
+   },
+   "bhakti_movement": {
+    "status": "documented",
+    "type": "synthesis",
+    "strength": "weak",
+    "src": "https://grokipedia.com/page/Neo-Vedanta",
+    "note": "Vivekananda's practical Vedanta integrates 'jnana (knowledge), bhakti (devotion), and karma yoga'."
+   }
+  },
+  "parent_note": "Paul Hacker coined the term to say it was shaped by Western idealism and Protestantism; proponents reject this. No edge to Western traditions (held)."
  }
 ]
