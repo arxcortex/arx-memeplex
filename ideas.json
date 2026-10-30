@@ -25242,5 +25242,613 @@
    }
   },
   "parent_note": "Strauss read Nietzsche and Heidegger as the 'third wave' of modernity culminating in nihilism, and his engagement with Heidegger was 'adversarial'; foils, not parents, so no edges. Maimonides has no node."
+ },
+ {
+  "id": "jacksonian_democracy",
+  "name": "Jacksonian democracy",
+  "root": false,
+  "root_axis": null,
+  "year": 1828,
+  "year_approx": true,
+  "place": "Nashville, Tennessee",
+  "lat": 36.16,
+  "lon": -86.78,
+  "origin_src": "https://grokipedia.com/page/Jacksonian_democracy",
+  "origin_note": "The Democratic-Republican remnants 'coalesced into what became known as the Democratic Party by 1828', the year of Jackson's election; his presidency ran 1829-1837",
+  "thinkers": [
+   "Andrew Jackson",
+   "Martin Van Buren"
+  ],
+  "parents": [
+   "american_republicanism"
+  ],
+  "plain": "A movement around Andrew Jackson that widened voting for white men, attacked the national bank and rewarded loyal supporters with office. It founded the Democratic Party.",
+  "summary": "Jackson-era politics of popular sovereignty and the 'common man': white male suffrage, anti-elitism, spoils system, the Bank War, Indian Removal and the founding of the Democratic Party.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 2,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 2,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -1,
+   "hierarchy": -1
+  },
+  "rationale": {
+   "platonism": "No real link to Platonism.",
+   "aristotelianism": "No real link to Aristotelianism.",
+   "stoicism": "No real link to Stoicism.",
+   "christianity": "No religious program; Grokipedia's account of its principles is secular.",
+   "gnosticism": "No real link to Gnosticism.",
+   "hermeticism": "No real link to Hermeticism.",
+   "enlightenment_liberalism": "Popular sovereignty: authority 'derived directly from the consent and will of the majority'; strict construction and limited federal power (Grokipedia).",
+   "marxism": "Attacked 'concentrated financial power favoring the wealthy' on producer and anti-monopoly lines, not class-struggle theory (Grokipedia).",
+   "darwinism": "No real link to Darwinism.",
+   "nietzsche": "No real link to Nietzsche.",
+   "critical_theory": "No real link to critical theory.",
+   "confucianism": "No real link to Confucianism.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "No real link to Buddhism.",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "No real link to Islamic philosophy (falsafa).",
+   "islam": "No real link to Islam.",
+   "judaism": "No real link to Judaism.",
+   "romanticism": "No real link to Romanticism.",
+   "nationalism": "Federal supremacy in the Nullification Crisis and Indian Removal 'accelerated Manifest Destiny's territorial ambitions' (Grokipedia).",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "A practical program of hard money, spoils and rotation in office rather than a systematic theory.",
+   "hierarchy": "Anti-elitist toward banks and officeholders, yet it 'excluded women, free Blacks, and Native Americans' and entrenched white supremacy (Grokipedia)."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Jacksonian_democracy",
+   "https://grokipedia.com/page/Andrew_Jackson",
+   "https://grokipedia.com/page/Martin_Van_Buren",
+   "https://grokipedia.com/page/Democratic_Party_(United_States)"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "aliases": [
+   "Jacksonianism",
+   "Jacksonian Democrats"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "United States",
+     "period": "1828-1840s",
+     "src": "https://grokipedia.com/page/Jacksonian_democracy",
+     "note": "Turnout rose 'from under 27% in 1824 to about 57% in 1828' as suffrage expanded."
+    },
+    {
+     "place": "Nashville, Tennessee",
+     "period": "1820s-1840s",
+     "src": "https://grokipedia.com/page/Andrew_Jackson",
+     "note": "Jackson's home base at The Hermitage near Nashville."
+    }
+   ]
+  },
+  "edge_notes": {
+   "american_republicanism": {
+    "status": "influence",
+    "type": "influence",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Jacksonian_democracy",
+    "note": "Jacksonians drew on 'Jeffersonian ideals of limited government and popular virtue' and the Democratic-Republicans' defense of the 'common man' (Grokipedia)."
+   }
+  }
+ },
+ {
+  "id": "free_soil",
+  "name": "Free Soil",
+  "root": false,
+  "root_axis": null,
+  "year": 1848,
+  "year_approx": false,
+  "place": "Buffalo, New York",
+  "lat": 42.89,
+  "lon": -78.88,
+  "origin_src": "https://grokipedia.com/page/Free_Soil_Party",
+  "origin_note": "Founding convention at Buffalo, New York, 'on August 9–10, 1848', on the slogan 'Free Soil, Free Labor, Free Men'; most members joined the Republican Party in 1854",
+  "thinkers": [
+   "Salmon P. Chase",
+   "Martin Van Buren"
+  ],
+  "parents": [
+   "jacksonian_democracy"
+  ],
+  "plain": "The idea that slavery must not spread into new western territories, so that free farmers and workers could own land and earn a living there. Its party later joined the Republicans.",
+  "summary": "Free-labor ideology of 1848-1854: Congress should bar slavery from federal territories to keep western land for free workers; 'Free Soil, Free Labor, Free Men'. Absorbed by the Republicans.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 3,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -2,
+   "hierarchy": -1
+  },
+  "rationale": {
+   "platonism": "No real link to Platonism.",
+   "aristotelianism": "No real link to Aristotelianism.",
+   "stoicism": "No real link to Stoicism.",
+   "christianity": "Grokipedia says it put land for free workers 'over moral abolitionism'; no religious program in its platform.",
+   "gnosticism": "No real link to Gnosticism.",
+   "hermeticism": "No real link to Hermeticism.",
+   "enlightenment_liberalism": "Free labor: 'self-reliant producers thriving in a system rewarding industry over hierarchy'; slavery kept out of federal territories (Grokipedia).",
+   "marxism": "No real link to Marxism.",
+   "darwinism": "No real link to Darwinism.",
+   "nietzsche": "No real link to Nietzsche.",
+   "critical_theory": "No real link to critical theory.",
+   "confucianism": "No real link to Confucianism.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "No real link to Buddhism.",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "No real link to Islamic philosophy (falsafa).",
+   "islam": "No real link to Islam.",
+   "judaism": "No real link to Judaism.",
+   "romanticism": "No real link to Romanticism.",
+   "nationalism": "A Northern sectional coalition, not a national-identity doctrine.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Framed around labor and land access 'rather than purely ethical crusades' (Grokipedia, Free Soil Party).",
+   "hierarchy": "Against slaveholding power, but aimed to reserve western lands 'for free white labor' rather than for racial equality (Grokipedia)."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Free_Soil_Party",
+   "https://grokipedia.com/page/Salmon_P._Chase",
+   "https://grokipedia.com/page/Martin_Van_Buren",
+   "https://grokipedia.com/page/Radical_Republicans"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "aliases": [
+   "Free Soil Party",
+   "Free Soilers",
+   "free labor ideology"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Buffalo, New York",
+     "period": "1848",
+     "src": "https://grokipedia.com/page/Free_Soil_Party",
+     "note": "Founding Free Soil Convention, August 1848."
+    },
+    {
+     "place": "Ohio",
+     "period": "1848-1854",
+     "src": "https://grokipedia.com/page/Salmon_P._Chase",
+     "note": "Salmon P. Chase, a party founder, sat for Ohio in the U.S. Senate (1849-1855)."
+    }
+   ]
+  },
+  "edge_notes": {
+   "jacksonian_democracy": {
+    "status": "influence",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Free_Soil_Party",
+    "note": "Founded partly by anti-slavery Jacksonian Democrats, the New York 'Barnburners', with Jackson's successor Martin Van Buren as its 1848 nominee (Grokipedia)."
+   }
+  }
+ },
+ {
+  "id": "radical_republicans",
+  "name": "Radical Republicans",
+  "root": false,
+  "root_axis": null,
+  "year": 1861,
+  "year_approx": true,
+  "place": "Washington, D.C.",
+  "lat": 38.89,
+  "lon": -77.01,
+  "origin_src": "https://grokipedia.com/page/Radical_Republicans",
+  "origin_note": "A faction 'during the American Civil War and Reconstruction era (1861–1877)'; it 'originated within the Republican Party shortly after its founding in 1854'. Dated to the 1861 start of the Civil War Congress",
+  "thinkers": [
+   "Thaddeus Stevens",
+   "Charles Sumner"
+  ],
+  "parents": [
+   "free_soil",
+   "american_republicanism"
+  ],
+  "plain": "Republicans in Congress who wanted slavery ended at once and full civil rights and voting rights for freed Black Americans, enforced by federal power over the defeated South.",
+  "summary": "Civil War and Reconstruction GOP faction: immediate emancipation, the 1866 Civil Rights Act, the 14th and 15th Amendments, military Reconstruction, land for freedmen; led by Stevens and Sumner.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 2,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 4,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 1,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 1,
+   "hierarchy": -3
+  },
+  "rationale": {
+   "platonism": "No real link to Platonism.",
+   "aristotelianism": "No real link to Aristotelianism.",
+   "stoicism": "No real link to Stoicism.",
+   "christianity": "Influenced by abolitionist thought, they called slavery 'a fundamental sin against humanity' (Grokipedia).",
+   "gnosticism": "No real link to Gnosticism.",
+   "hermeticism": "No real link to Hermeticism.",
+   "enlightenment_liberalism": "Natural rights and 'equal protection': the Civil Rights Act of 1866 and the Fourteenth and Fifteenth Amendments (Grokipedia).",
+   "marxism": "No real link to Marxism.",
+   "darwinism": "No real link to Darwinism.",
+   "nietzsche": "No real link to Nietzsche.",
+   "critical_theory": "No real link to critical theory.",
+   "confucianism": "No real link to Confucianism.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "No real link to Buddhism.",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "No real link to Islamic philosophy (falsafa).",
+   "islam": "No real link to Islam.",
+   "judaism": "No real link to Judaism.",
+   "romanticism": "No real link to Romanticism.",
+   "nationalism": "Pressed federal power over the seceded states and military oversight of readmission; Union over states' rights.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Driven by 'moral imperatives against slavery' rather than compromise (Grokipedia).",
+   "hierarchy": "Sought to 'reconstruct the nation on egalitarian grounds' and break 'oligarchic power structures' in the South (Grokipedia)."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Radical_Republicans",
+   "https://grokipedia.com/page/Thaddeus_Stevens",
+   "https://grokipedia.com/page/Charles_Sumner",
+   "https://grokipedia.com/page/Reconstruction_era",
+   "https://grokipedia.com/page/Republican_Party_(United_States)"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "aliases": [
+   "Radicals"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Washington, D.C.",
+     "period": "1861-1877",
+     "src": "https://grokipedia.com/page/Radical_Republicans",
+     "note": "Led by Stevens in the House and Sumner in the Senate."
+    },
+    {
+     "place": "Former Confederate states",
+     "period": "1867-1877",
+     "src": "https://grokipedia.com/page/Radical_Republicans",
+     "note": "Reconstruction Acts of 1867 imposed military oversight and black male suffrage."
+    }
+   ]
+  },
+  "edge_notes": {
+   "free_soil": {
+    "status": "influence",
+    "type": "influence",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Free_Soil_Party",
+    "note": "The 1854 Republicans 'adopted their core opposition to territorial slavery' (Grokipedia)."
+   },
+   "american_republicanism": {
+    "status": "influence",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Radical_Republicans",
+    "note": "Radicals saw slavery as 'an indefensible violation of natural rights and republican principles' (Grokipedia, Radical Republicans)."
+   }
+  }
+ },
+ {
+  "id": "progressivism",
+  "name": "Progressivism (Progressive Era)",
+  "root": false,
+  "root_axis": null,
+  "year": 1901,
+  "year_approx": true,
+  "place": "Madison, Wisconsin",
+  "lat": 43.07,
+  "lon": -89.4,
+  "origin_src": "https://grokipedia.com/page/Progressive_Era",
+  "origin_note": "The Progressive Era ran 'roughly spanning the 1890s to the 1920s'. Dated to 1901, when La Follette became governor of Wisconsin (serving 'from 1901 to 1905') and Theodore Roosevelt became president",
+  "thinkers": [
+   "Theodore Roosevelt",
+   "Robert M. La Follette",
+   "Herbert Croly"
+  ],
+  "parents": [
+   "pragmatism",
+   "populism"
+  ],
+  "plain": "A reform movement of about 1890 to 1920 that used government and experts to break up monopolies, clean up politics, protect workers and consumers and widen voting.",
+  "summary": "Progressive Era reform (1890s-1920): antitrust, primaries, direct election of senators, income tax, food safety and labor laws, rule by experts; Roosevelt's New Nationalism and Wilson's New Freedom.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 2,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 1,
+   "marxism": 0,
+   "darwinism": 2,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 2,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -2,
+   "hierarchy": 1
+  },
+  "rationale": {
+   "platonism": "No real link to Platonism.",
+   "aristotelianism": "No real link to Aristotelianism.",
+   "stoicism": "No real link to Stoicism.",
+   "christianity": "The Social Gospel 'supplied a religious rationale for these reforms'; many reformers came from Protestant backgrounds (Grokipedia).",
+   "gnosticism": "No real link to Gnosticism.",
+   "hermeticism": "No real link to Hermeticism.",
+   "enlightenment_liberalism": "Expanded democracy (primaries, direct election of senators, women's suffrage) but critiqued laissez-faire as 'an outdated doctrine' (Grokipedia).",
+   "marxism": "Regulated capitalism rather than replacing it; socialists said it 'inadequately addressed underlying power imbalances' (Grokipedia).",
+   "darwinism": "Dewey drew on 'Darwinian biology'; many progressives 'endorsed eugenics and scientific racism' (Grokipedia).",
+   "nietzsche": "No real link to Nietzsche.",
+   "critical_theory": "No real link to critical theory.",
+   "confucianism": "No real link to Confucianism.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "No real link to Buddhism.",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "No real link to Islamic philosophy (falsafa).",
+   "islam": "No real link to Islam.",
+   "judaism": "No real link to Judaism.",
+   "romanticism": "No real link to Romanticism.",
+   "nationalism": "Roosevelt's 'New Nationalism'; Croly urged 'a stronger centralized government to organize economic life' (Grokipedia).",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Institutions evolve 'through experimentation and adaptation rather than adherence to abstract universals' (Grokipedia).",
+   "hierarchy": "Trusted experts: 'a preference for bureaucratic mechanisms over populist or market-driven decision-making' (Grokipedia)."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Progressive_Era",
+   "https://grokipedia.com/page/Progressivism_in_the_United_States",
+   "https://grokipedia.com/page/Theodore_Roosevelt",
+   "https://grokipedia.com/page/Robert_M._La_Follette",
+   "https://grokipedia.com/page/Herbert_Croly",
+   "https://grokipedia.com/page/John_Dewey",
+   "https://grokipedia.com/page/Social_Gospel"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "aliases": [
+   "Progressive movement",
+   "Progressive Era reform"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Wisconsin",
+     "period": "1901-1905",
+     "src": "https://grokipedia.com/page/Progressive_Era",
+     "note": "The 'Wisconsin Idea' joined university expertise to policy under La Follette."
+    },
+    {
+     "place": "Oregon and California",
+     "period": "1900s-1910s",
+     "src": "https://grokipedia.com/page/Progressive_Era",
+     "note": "Adopted initiative, referendum and recall to curb machines and railroads."
+    },
+    {
+     "place": "United States",
+     "period": "1890s-1920",
+     "src": "https://grokipedia.com/page/Progressive_Era",
+     "note": "Federal reforms: 16th to 19th Amendments, Pure Food and Drug Act (1906)."
+    }
+   ]
+  },
+  "edge_notes": {
+   "pragmatism": {
+    "status": "influence",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Progressivism_in_the_United_States",
+    "note": "Progressives held that institutions must evolve by experiment, 'a view encapsulated in John Dewey's pragmatism' (Grokipedia, Progressivism in the US)."
+   },
+   "populism": {
+    "status": "loose",
+    "type": "context",
+    "strength": "weak",
+    "src": "https://grokipedia.com/page/Progressive_Era",
+    "note": "Direct-democracy reforms spread first in the West and Midwest 'where populist sentiments were strong' (Grokipedia, Progressive Era)."
+   }
+  },
+  "parent_note": "Distinct from progressive_left (1991). The Social Gospel (no node on main) is a likely influence; Grokipedia says it 'supplied a religious rationale' for these reforms."
+ },
+ {
+  "id": "tea_party",
+  "name": "Tea Party movement",
+  "root": false,
+  "root_axis": null,
+  "year": 2009,
+  "year_approx": false,
+  "place": "Chicago",
+  "lat": 41.88,
+  "lon": -87.64,
+  "origin_src": "https://grokipedia.com/page/Tea_Party_movement",
+  "origin_note": "Santelli's CNBC broadcast 'on February 19, 2009' from the Chicago Mercantile Exchange called for 'a Chicago tea party'; Tax Day protests followed on April 15, 2009",
+  "thinkers": [
+   "Ron Paul",
+   "Rick Santelli"
+  ],
+  "parents": [
+   "libertarianism",
+   "fusionism"
+  ],
+  "plain": "A grassroots conservative movement from 2009 that protested bailouts, federal spending, taxes and the Affordable Care Act, and pushed Republicans toward small government.",
+  "summary": "Grassroots fiscal-conservative revolt (2009): limited government, balanced budgets, originalism, against bailouts and Obamacare; won the 2010 midterms and paved the way for Trump's outsider run.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 1,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 3,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 2,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -2,
+   "hierarchy": -1
+  },
+  "rationale": {
+   "platonism": "No real link to Platonism.",
+   "aristotelianism": "No real link to Aristotelianism.",
+   "stoicism": "No real link to Stoicism.",
+   "christianity": "Supporters were 'often described as middle-class Christians'; a subset pressed social conservatism (Grokipedia).",
+   "gnosticism": "No real link to Gnosticism.",
+   "hermeticism": "No real link to Hermeticism.",
+   "enlightenment_liberalism": "Limited government and 'strict adherence to the U.S. Constitution as interpreted through originalism'; cites Locke's natural rights (Grokipedia).",
+   "marxism": "No real link to Marxism.",
+   "darwinism": "No real link to Darwinism.",
+   "nietzsche": "No real link to Nietzsche.",
+   "critical_theory": "No real link to critical theory.",
+   "confucianism": "No real link to Confucianism.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "No real link to Buddhism.",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "No real link to Islamic philosophy (falsafa).",
+   "islam": "No real link to Islam.",
+   "judaism": "No real link to Judaism.",
+   "romanticism": "No real link to Romanticism.",
+   "nationalism": "Founding-era symbolism from the 1773 Boston Tea Party and constitutional patriotism; less nationalist than MAGA.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Concrete fiscal demands: spending cuts, balanced budgets, no tax hikes, repeal of the Affordable Care Act.",
+   "hierarchy": "Anti-establishment, with 'no formal national hierarchy or binding leadership' (Grokipedia)."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Tea_Party_movement",
+   "https://grokipedia.com/page/Rick_Santelli",
+   "https://grokipedia.com/page/Ron_Paul",
+   "https://grokipedia.com/page/Libertarianism",
+   "https://grokipedia.com/page/Fusionism"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "aliases": [
+   "Tea Party",
+   "Taxed Enough Already"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "United States",
+     "src": "https://grokipedia.com/page/Tea_Party_movement",
+     "note": "'an estimated 1,400 local Tea Party groups had formed' by late 2009."
+    }
+   ]
+  },
+  "party_alignment": {
+   "party": "R",
+   "strength": "strong",
+   "src": "https://grokipedia.com/page/Tea_Party_movement",
+   "note": "A force 'within and beyond the Republican Party'; Tea Party candidates helped Republicans net 63 House seats in 2010 (Grokipedia)."
+  },
+  "modern_politics": true,
+  "historically_established": false,
+  "edge_notes": {
+   "libertarianism": {
+    "status": "influence",
+    "type": "influence",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Tea_Party_movement",
+    "note": "'Libertarian influences were prominent, particularly through figures like Ron Paul', whose 2008 run mobilized opposition to federal spending and the Fed (Grokipedia)."
+   },
+   "fusionism": {
+    "status": "influence",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Tea_Party_movement",
+    "note": "Fiscal conservatives joined by 'a subset' that 'integrated evangelical social conservatism', though fiscal aims came first (Grokipedia)."
+   }
+  }
  }
 ]
