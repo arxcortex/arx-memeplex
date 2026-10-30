@@ -78,20 +78,21 @@
     "pol": 41,
     "polVis": 0,
     "vis": 151,
-    "edgesHidden": 0,
+    "edgesHidden": 83,
     "pressed": "true",
     "f": {
      "rootsOnly": false,
      "sel": [],
      "dom": "",
      "visible": 151,
-     "hidePol": true
+     "hidePol": true,
+     "edgesHidden": 83
     }
    },
    "snip": {
     "w": 1872,
     "h": 907,
-    "lit": 0.09704358830973894,
+    "lit": 0.09710245165847485,
     "brand": true
    },
    "errors": []
@@ -174,20 +175,21 @@
     "pol": 41,
     "polVis": 0,
     "vis": 151,
-    "edgesHidden": 0,
+    "edgesHidden": 83,
     "pressed": "true",
     "f": {
      "rootsOnly": false,
      "sel": [],
      "dom": "",
      "visible": 151,
-     "hidePol": true
+     "hidePol": true,
+     "edgesHidden": 83
     }
    },
    "snip": {
     "w": 640,
     "h": 962,
-    "lit": 0.15905032467532468,
+    "lit": 0.159862012987013,
     "brand": true
    },
    "errors": []
@@ -270,20 +272,21 @@
     "pol": 41,
     "polVis": 0,
     "vis": 151,
-    "edgesHidden": 0,
+    "edgesHidden": 83,
     "pressed": "true",
     "f": {
      "rootsOnly": false,
      "sel": [],
      "dom": "",
      "visible": 151,
-     "hidePol": true
+     "hidePol": true,
+     "edgesHidden": 83
     }
    },
    "snip": {
     "w": 1872,
     "h": 907,
-    "lit": 0.0969405774494511,
+    "lit": 0.09716867292580275,
     "brand": true
    },
    "errors": []
@@ -366,20 +369,21 @@
     "pol": 41,
     "polVis": 0,
     "vis": 151,
-    "edgesHidden": 0,
+    "edgesHidden": 83,
     "pressed": "true",
     "f": {
      "rootsOnly": false,
      "sel": [],
      "dom": "",
      "visible": 151,
-     "hidePol": true
+     "hidePol": true,
+     "edgesHidden": 83
     }
    },
    "snip": {
     "w": 640,
     "h": 962,
-    "lit": 0.15949675324675325,
+    "lit": 0.15947646103896104,
     "brand": true
    },
    "errors": []
