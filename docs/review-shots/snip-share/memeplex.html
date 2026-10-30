@@ -24,6 +24,10 @@ header{position:absolute;top:0;left:0;right:0;padding:24px 32px;display:flex;jus
 .controls{pointer-events:auto;display:flex;flex-direction:column;gap:8px;align-items:flex-end}
 .controls input,.controls select{background:rgba(10,10,12,.8);border:1px solid var(--rule);color:var(--ink);font-family:var(--mono);font-size:11px;letter-spacing:.06em;padding:6px 8px;width:220px;outline:none}
 .controls input:focus,.controls select:focus{border-color:var(--amber)}
+/* dark-theme dropdowns: native option lists otherwise render pale text on white */
+select{color-scheme:dark;background-color:#0d0c10;color:var(--ink)}
+select option,select optgroup{background-color:#0d0c10;color:#e8e2d4}
+select option:checked,select option:hover,select option:focus{background:#f0b35a linear-gradient(#f0b35a,#f0b35a);color:#140c04}
 .controls label{font-family:var(--mono);font-size:9px;letter-spacing:.25em;text-transform:uppercase;color:var(--amber)}
 #results{width:220px;max-height:200px;overflow:auto;background:rgba(10,10,12,.92);border:1px solid var(--rule)}
 #results:empty{display:none}
