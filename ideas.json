@@ -6018,7 +6018,8 @@
   ],
   "parents": [
    "anglicanism",
-   "enlightenment_liberalism"
+   "enlightenment_liberalism",
+   "rights_of_man"
   ],
   "plain": "Edmund Burke argued that societies should change slowly, keeping customs and institutions that have been tested over generations instead of rebuilding everything from abstract theories.",
   "summary": "Burke defends inherited customs and slow reform against revolution built on abstract theory.",
@@ -6089,6 +6090,14 @@
      "note": "Named in the Grokipedia article “Conservatism”."
     }
    ]
+  },
+  "edge_notes": {
+   "rights_of_man": {
+    "status": "documented",
+    "type": "reaction",
+    "src": "https://grokipedia.com/page/Reflections_on_the_Revolution_in_France",
+    "note": "Burke wrote Reflections (1790) in direct reply to Richard Price's sermon of 4 Nov 1789 praising the French Revolution."
+   }
   }
  },
  {
@@ -6208,7 +6217,8 @@
   ],
   "parents": [
    "enlightenment_liberalism",
-   "utopian_socialism"
+   "utopian_socialism",
+   "rights_of_man"
   ],
   "plain": "Anarchists hold that the state and other forced chains of command are unjust, and that people can organize society through voluntary cooperation instead.",
   "summary": "Anarchists reject the state and forced authority in favor of voluntary cooperation.",
@@ -6289,6 +6299,14 @@
      "note": "Named in the Grokipedia article “Anarchism”."
     }
    ]
+  },
+  "edge_notes": {
+   "rights_of_man": {
+    "status": "documented",
+    "type": "catalyst",
+    "src": "https://grokipedia.com/page/Enquiry_Concerning_Political_Justice",
+    "note": "The French Revolution was a 'direct catalyst' for Godwin's Political Justice (1793), which shaped philosophical anarchism. Godwin rejected the state rather than adopting the Declaration, so this is a catalyst, not descent."
+   }
   }
  },
  {
@@ -6537,7 +6555,8 @@
   ],
   "parents": [
    "social_contract",
-   "enlightenment_liberalism"
+   "enlightenment_liberalism",
+   "jacobinism"
   ],
   "plain": "Nationalism holds that a people who share a language, history or culture form a nation. It says each nation should govern itself in its own state and deserves its members' first loyalty.",
   "summary": "Nationalism holds that each nation, a people bound by language, history or culture, should rule itself in its own state.",
@@ -6635,7 +6654,15 @@
    "src": "https://grokipedia.com/page/Alternative_for_Germany",
    "note": "In Germany carried mainly by the AfD."
   },
-  "modern_politics": true
+  "modern_politics": true,
+  "edge_notes": {
+   "jacobinism": {
+    "status": "contested",
+    "type": "catalyst",
+    "src": "https://grokipedia.com/page/Nationalism",
+    "note": "Grokipedia ties modern nationalism to popular sovereignty, Rousseau's general will and the 1793 'la patrie en danger' mobilization, but names no Jacobin text or author as the handoff."
+   }
+  }
  },
  {
   "id": "fascism",
@@ -12355,7 +12382,8 @@
    "John Stuart Mill"
   ],
   "parents": [
-   "enlightenment_liberalism"
+   "enlightenment_liberalism",
+   "rights_of_man"
   ],
   "plain": "Liberal feminism applies Enlightenment ideas of reason and individual rights to women. It seeks equal schooling, legal rights and opportunity through reform, not revolution.",
   "summary": "Applies Enlightenment individual rights to women: equal education, law and opportunity, won by reform.",
@@ -12431,6 +12459,14 @@
      "note": "Named in the Grokipedia article “Liberal feminism”."
     }
    ]
+  },
+  "edge_notes": {
+   "rights_of_man": {
+    "status": "documented",
+    "type": "reader",
+    "src": "https://grokipedia.com/page/A_Vindication_of_the_Rights_of_Men",
+    "note": "Wollstonecraft's Vindication of the Rights of Men (1790) was one of the first replies to Burke, defending rights grounded in reason; Rights of Woman followed in 1792 (Grokipedia, Mary_Wollstonecraft)."
+   }
   }
  },
  {
@@ -19024,5 +19060,439 @@
    "note": "Party since 2020."
   },
   "modern_politics": true
+ },
+ {
+  "root": false,
+  "root_axis": null,
+  "year_approx": false,
+  "lat": 51.51,
+  "lon": -0.13,
+  "stories": [],
+  "domain": [
+   "politics"
+  ],
+  "id": "classical_republicanism",
+  "name": "Classical republicanism",
+  "aliases": [
+   "civic humanism",
+   "commonwealth republicanism",
+   "Commonwealthmen"
+  ],
+  "year": 1656,
+  "place": "London",
+  "origin_src": "https://grokipedia.com/page/Classical_republicanism",
+  "origin_note": "Harrington's The Commonwealth of Oceana, 1656; cited by the Grokipedia page. The 1656 date marks the English Commonwealth formulation that fed the colonies; the Italian strand (Machiavelli) is earlier",
+  "thinkers": [
+   "Niccolò Machiavelli",
+   "James Harrington",
+   "John Trenchard",
+   "Thomas Gordon"
+  ],
+  "parents": [
+   "renaissance_humanism"
+  ],
+  "plain": "Classical republicans held that a free state survives only if its citizens are virtuous and power is balanced so no one person or faction can dominate.",
+  "summary": "Republicans from Machiavelli to the Commonwealthmen tie liberty to civic virtue, balanced government and vigilance against corruption.",
+  "edge_notes": {
+   "renaissance_humanism": {
+    "status": "documented",
+    "type": "revival",
+    "src": "https://grokipedia.com/page/Classical_republicanism",
+    "note": "Machiavelli's civic humanism revived Roman republican models, which Harrington then institutionalized in Oceana."
+   }
+  },
+  "sources": [
+   "https://grokipedia.com/page/Classical_republicanism"
+  ],
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 2,
+   "stoicism": 1,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 2,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "humor": 0,
+   "irony": 0,
+   "critical_theory": 0,
+   "hierarchy": 1,
+   "abstraction": 1,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0
+  },
+  "rationale": {
+   "platonism": "No real link.",
+   "aristotelianism": "Draws on Aristotle and Polybius on mixed government.",
+   "stoicism": "Cicero's Stoic-tinged duty ethics is one source.",
+   "christianity": "Largely secular in argument.",
+   "gnosticism": "No real link.",
+   "hermeticism": "No real link.",
+   "enlightenment_liberalism": "Fed the Whig and liberal tradition but stresses duty and virtue over private rights.",
+   "marxism": "Comes before this tradition existed, so it cannot descend from it.",
+   "darwinism": "Comes before this tradition existed, so it cannot descend from it.",
+   "nietzsche": "Comes before this tradition existed, so it cannot descend from it.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Not an ironic tradition.",
+   "critical_theory": "Comes before this tradition existed, so it cannot descend from it.",
+   "hierarchy": "Accepts a virtuous elite inside a balanced constitution.",
+   "abstraction": "Argues from civic models rather than pure theory.",
+   "confucianism": "No real link.",
+   "daoism": "No real link.",
+   "buddhism": "No real link.",
+   "vedanta": "No real link.",
+   "islamic_philosophy": "No real link."
+  },
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Florence",
+     "src": "https://grokipedia.com/page/Classical_republicanism",
+     "note": "Named in the Grokipedia article “Classical republicanism”."
+    },
+    {
+     "place": "Venice",
+     "src": "https://grokipedia.com/page/Classical_republicanism",
+     "note": "Named in the Grokipedia article “Classical republicanism”."
+    },
+    {
+     "place": "England",
+     "src": "https://grokipedia.com/page/Classical_republicanism",
+     "note": "Named in the Grokipedia article “Classical republicanism”."
+    }
+   ]
+  }
+ },
+ {
+  "root": false,
+  "root_axis": null,
+  "year_approx": false,
+  "lat": 39.95,
+  "lon": -75.17,
+  "stories": [],
+  "domain": [
+   "politics"
+  ],
+  "id": "american_republicanism",
+  "name": "American republicanism",
+  "aliases": [
+   "natural rights republicanism",
+   "Spirit of '76"
+  ],
+  "year": 1776,
+  "place": "Philadelphia",
+  "origin_src": "https://grokipedia.com/page/Republicanism_in_the_United_States",
+  "origin_note": "Paine's Common Sense (10 January 1776) and the Declaration of Independence (1776)",
+  "thinkers": [
+   "Thomas Jefferson",
+   "Thomas Paine",
+   "John Adams",
+   "James Madison"
+  ],
+  "parents": [
+   "classical_republicanism",
+   "enlightenment_liberalism"
+  ],
+  "plain": "American revolutionaries argued that people are born with rights to life and liberty, that kings have no natural right to rule, and that a free republic needs virtuous citizens.",
+  "summary": "The American founders fused Lockean natural rights with classical civic virtue to justify independence and a republic without a king.",
+  "edge_notes": {
+   "classical_republicanism": {
+    "status": "documented",
+    "type": "reader",
+    "src": "https://grokipedia.com/page/Classical_republicanism",
+    "note": "John Adams cited Cicero's De Officiis, and the framers drew on classical republican civic virtue (Grokipedia, Classical republicanism)."
+   },
+   "enlightenment_liberalism": {
+    "status": "documented",
+    "type": "text",
+    "src": "https://grokipedia.com/page/Republicanism_in_the_United_States",
+    "note": "Jefferson adapted Locke's 'life, liberty, and property' (Two Treatises, 1689) as 'life, liberty, and the pursuit of happiness' in the Declaration of Independence."
+   }
+  },
+  "sources": [
+   "https://grokipedia.com/page/Republicanism_in_the_United_States",
+   "https://grokipedia.com/page/Classical_republicanism"
+  ],
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 1,
+   "stoicism": 1,
+   "christianity": 1,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 4,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "humor": 0,
+   "irony": 0,
+   "critical_theory": 0,
+   "hierarchy": -2,
+   "abstraction": 3,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0
+  },
+  "rationale": {
+   "platonism": "No real link.",
+   "aristotelianism": "Inherits mixed-government ideas via classical republicanism.",
+   "stoicism": "Adams cited Cicero's De Officiis.",
+   "christianity": "Appeals to a Creator, but the argument is political, not theological.",
+   "gnosticism": "No real link.",
+   "hermeticism": "No real link.",
+   "enlightenment_liberalism": "Locke's natural rights and consent are its core language.",
+   "marxism": "Comes before this tradition existed, so it cannot descend from it.",
+   "darwinism": "Comes before this tradition existed, so it cannot descend from it.",
+   "nietzsche": "Comes before this tradition existed, so it cannot descend from it.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Not ironic.",
+   "critical_theory": "Comes before this tradition existed, so it cannot descend from it.",
+   "hierarchy": "Rejects hereditary monarchy and rank, though it kept slavery.",
+   "abstraction": "Grounds a state in universal, self-evident rights.",
+   "confucianism": "No real link.",
+   "daoism": "No real link.",
+   "buddhism": "No real link.",
+   "vedanta": "No real link.",
+   "islamic_philosophy": "No real link."
+  },
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "United States",
+     "src": "https://grokipedia.com/page/Republicanism_in_the_United_States",
+     "note": "Named in the Grokipedia article “Republicanism in the United States”."
+    }
+   ]
+  }
+ },
+ {
+  "root": false,
+  "root_axis": null,
+  "year_approx": false,
+  "lat": 48.8,
+  "lon": 2.13,
+  "stories": [],
+  "domain": [
+   "politics"
+  ],
+  "id": "rights_of_man",
+  "name": "Rights of Man",
+  "aliases": [
+   "Declaration of the Rights of Man and of the Citizen",
+   "national sovereignty"
+  ],
+  "year": 1789,
+  "place": "Versailles",
+  "origin_src": "https://grokipedia.com/page/Declaration_of_the_Rights_of_Man_and_of_the_Citizen",
+  "origin_note": "Adopted by the National Constituent Assembly, 26 August 1789",
+  "thinkers": [
+   "Marquis de Lafayette",
+   "Emmanuel-Joseph Sieyès",
+   "Thomas Jefferson",
+   "Thomas Paine"
+  ],
+  "parents": [
+   "american_republicanism",
+   "enlightenment_liberalism",
+   "social_contract"
+  ],
+  "plain": "The French revolutionaries declared that all men are born free and equal in rights, that sovereignty belongs to the nation, and that law must express the general will.",
+  "summary": "The 1789 Declaration makes liberty, property, security and resistance to oppression universal rights and places sovereignty in the nation.",
+  "edge_notes": {
+   "american_republicanism": {
+    "status": "documented",
+    "type": "delegate",
+    "src": "https://grokipedia.com/page/Declaration_of_the_Rights_of_Man_and_of_the_Citizen",
+    "note": "Lafayette, a veteran of the American war, drafted a first version in July 1789 drawing on the Virginia Declaration of Rights, with input from Jefferson, then U.S. minister to France."
+   },
+   "enlightenment_liberalism": {
+    "status": "documented",
+    "type": "text",
+    "src": "https://grokipedia.com/page/Declaration_of_the_Rights_of_Man_and_of_the_Citizen",
+    "note": "The page names Montesquieu as a source; separation of powers appears in Article 16."
+   },
+   "social_contract": {
+    "status": "documented",
+    "type": "text",
+    "src": "https://grokipedia.com/page/Declaration_of_the_Rights_of_Man_and_of_the_Citizen",
+    "note": "Draws on Rousseau's general will: law is 'the expression of the general will'. Sieyès's What Is the Third Estate? (January 1789) supplied national sovereignty (Grokipedia, What_Is_the_Third_Estate?)."
+   }
+  },
+  "sources": [
+   "https://grokipedia.com/page/Declaration_of_the_Rights_of_Man_and_of_the_Citizen",
+   "https://grokipedia.com/page/What_Is_the_Third_Estate%3F",
+   "https://grokipedia.com/page/Rights_of_Man"
+  ],
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": -1,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 5,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "humor": 0,
+   "irony": 0,
+   "critical_theory": 0,
+   "hierarchy": -3,
+   "abstraction": 4,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0
+  },
+  "rationale": {
+   "platonism": "No real link.",
+   "aristotelianism": "No real link.",
+   "stoicism": "No real link.",
+   "christianity": "Places sovereignty in the nation, not God or the Church.",
+   "gnosticism": "No real link.",
+   "hermeticism": "No real link.",
+   "enlightenment_liberalism": "The canonical statement of liberal natural rights.",
+   "marxism": "Comes before this tradition existed, so it cannot descend from it.",
+   "darwinism": "Comes before this tradition existed, so it cannot descend from it.",
+   "nietzsche": "Comes before this tradition existed, so it cannot descend from it.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Not ironic.",
+   "critical_theory": "Comes before this tradition existed, so it cannot descend from it.",
+   "hierarchy": "Abolishes legal privilege of rank and birth.",
+   "abstraction": "Burke's chief complaint: rights stated as universal axioms.",
+   "confucianism": "No real link.",
+   "daoism": "No real link.",
+   "buddhism": "No real link.",
+   "vedanta": "No real link.",
+   "islamic_philosophy": "No real link."
+  },
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "France",
+     "src": "https://grokipedia.com/page/Declaration_of_the_Rights_of_Man_and_of_the_Citizen",
+     "note": "Named in the Grokipedia article “Declaration of the Rights of Man and of the Citizen”."
+    }
+   ]
+  }
+ },
+ {
+  "root": false,
+  "root_axis": null,
+  "year_approx": false,
+  "lat": 48.86,
+  "lon": 2.35,
+  "stories": [],
+  "domain": [
+   "politics"
+  ],
+  "id": "jacobinism",
+  "name": "Jacobinism",
+  "aliases": [
+   "Jacobins",
+   "Montagnards"
+  ],
+  "year": 1789,
+  "place": "Paris",
+  "origin_src": "https://grokipedia.com/page/Jacobins",
+  "origin_note": "The Jacobin Club began in 1789 as the Breton Club, formed by deputies from Brittany at the Estates-General in Versailles (Grokipedia, Jacobins)",
+  "thinkers": [
+   "Maximilien Robespierre",
+   "Louis Antoine de Saint-Just"
+  ],
+  "parents": [
+   "social_contract",
+   "rights_of_man"
+  ],
+  "plain": "The Jacobins held that a virtuous republic must enforce the people's single general will, including through the Terror of 1793–94.",
+  "summary": "Jacobins pushed Rousseau's general will into a centralized republic of virtue, culminating in the Terror of 1793–94.",
+  "edge_notes": {
+   "social_contract": {
+    "status": "documented",
+    "type": "reader",
+    "src": "https://grokipedia.com/page/Jacobins",
+    "note": "Grokipedia's Jacobins page names Rousseau's The Social Contract (1762) as the most direct influence on Jacobin ideas of popular sovereignty and civic virtue; its Robespierre page says the same of Robespierre."
+   },
+   "rights_of_man": {
+    "status": "documented",
+    "type": "text",
+    "src": "https://grokipedia.com/page/Jacobins",
+    "note": "The early club backed the adoption of the Declaration of the Rights of Man and of the Citizen on 26 August 1789 (Grokipedia, Jacobins)."
+   }
+  },
+  "sources": [
+   "https://grokipedia.com/page/Jacobins",
+   "https://grokipedia.com/page/Maximilien_Robespierre"
+  ],
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": -3,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 1,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "humor": 0,
+   "irony": 0,
+   "critical_theory": 0,
+   "hierarchy": 2,
+   "abstraction": 4,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0
+  },
+  "rationale": {
+   "platonism": "No real link.",
+   "aristotelianism": "No real link.",
+   "stoicism": "No real link.",
+   "christianity": "Dechristianization and the civic Cult of the Supreme Being.",
+   "gnosticism": "No real link.",
+   "hermeticism": "No real link.",
+   "enlightenment_liberalism": "Begins in liberal rights but suspends them for the general will.",
+   "marxism": "Comes before this tradition existed, so it cannot descend from it.",
+   "darwinism": "Comes before this tradition existed, so it cannot descend from it.",
+   "nietzsche": "Comes before this tradition existed, so it cannot descend from it.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Not ironic.",
+   "critical_theory": "Comes before this tradition existed, so it cannot descend from it.",
+   "hierarchy": "Abolishes rank but concentrates power in the Committee of Public Safety.",
+   "abstraction": "Rules in the name of an abstract virtue and general will.",
+   "confucianism": "No real link.",
+   "daoism": "No real link.",
+   "buddhism": "No real link.",
+   "vedanta": "No real link.",
+   "islamic_philosophy": "No real link."
+  },
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Paris",
+     "src": "https://grokipedia.com/page/Jacobins",
+     "note": "Named in the Grokipedia article “Jacobins”."
+    },
+    {
+     "place": "France",
+     "src": "https://grokipedia.com/page/Jacobins",
+     "note": "Named in the Grokipedia article “Jacobins”."
+    }
+   ]
+  }
  }
 ]
