@@ -87,5 +87,29 @@ for c in cur:
 for d in ideas:
   for r in d.get("related_currents",[]):
     if r not in cids: E.append(f"{d['id']}: related_current {r} missing")
+# schema: top-level idea keys must be allowed by schema/idea.schema.json
+_S=json.load(open(B+"schema/idea.schema.json"))["items"]; _P=set(_S["properties"]); _R=set(_S.get("required",[]))
+for d in ideas:
+  for k in set(d)-_P: E.append(f"{d['id']}: field {k} not allowed by schema")
+  for k in _R-set(d): E.append(f"{d['id']}: required field {k} missing")
+# national.json: National view Religion/Philosophy lists per country
+if os.path.exists(B+"national.json"):
+  nat=json.load(open(B+"national.json")); pcs=[c["id"] for c in json.load(open(B+"politics.json"))["countries"]] if os.path.exists(B+"politics.json") else None
+  if not isinstance(nat.get("countries"),list): E.append("national: countries must be a list")
+  for c in nat.get("countries",[]):
+    ci="national "+str(c.get("id"))
+    if pcs is not None and c.get("id") not in pcs: E.append(f"{ci}: country not in politics.json")
+    for k in("religion","philosophy"):
+      if not isinstance(c.get(k),list): E.append(f"{ci}: {k} must be a list"); continue
+      seen=set()
+      for e in c[k]:
+        i=e.get("idea")
+        if i in seen: E.append(f"{ci} {k}: duplicate {i}")
+        seen.add(i)
+        if not e.get("why"): E.append(f"{ci} {k} {i}: missing why")
+        if not str(e.get("src","")).startswith("https://"): E.append(f"{ci} {k} {i}: src must be https")
+        elif "wikipedia.org" in e["src"]: E.append(f"{ci} {k} {i}: Wikipedia source; use Grokipedia")
+        if k=="philosophy" and e.get("call") not in("historical","living"): E.append(f"{ci} philosophy {i}: call must be historical or living")
+        if i not in by: W.append(f"{ci} {k}: {i} not on the map yet ({e.get('status','unknown')}); skipped in view")
 print("\n".join("WARN "+w for w in W)) if W else None
 print("\n".join(E) or f"OK: {len(ideas)} ideas, {len(cur)} currents, {len(AX)} axes, {len(roots)} roots, all axes scored"); sys.exit(bool(E))
