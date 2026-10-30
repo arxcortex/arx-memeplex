@@ -368,7 +368,7 @@ body.panel-open #tbp{display:none}
   </div></div>
   <footer>Drag to turn · Scroll to zoom · Click an idea · Share card on its page · Filter by tradition · R to reset · ? for help</footer>
 </div>
-<script src="assets/sharecard.js?v=20261029b"></script>
+<script src="assets/sharecard.js?v=20261030"></script>
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
 <script type="importmap">
 { "imports": {
@@ -1762,7 +1762,10 @@ body.snipping #panel,body.snipping #tourbar{visibility:hidden!important}
     x.scale(k, k); x.translate(-r.x, -r.y); x.textBaseline = 'middle';
     lblLayer.querySelectorAll('.lbl,.axl').forEach(el => { const cs = getComputedStyle(el); if (cs.display === 'none' || cs.visibility === 'hidden' || +cs.opacity < 0.05) return;
       const b = el.getBoundingClientRect(); if (b.right < r.x || b.left > r.x + r.w || b.bottom < r.y || b.top > r.y + r.h || !b.width) return;
-      x.globalAlpha = Math.min(1, +cs.opacity || 1); x.fillStyle = 'rgba(6,6,8,.78)'; const rad = Math.min(b.height / 2, 999); x.beginPath(); x.roundRect ? x.roundRect(b.left, b.top, b.width, b.height, rad) : x.rect(b.left, b.top, b.width, b.height); x.fill();
+      x.globalAlpha = Math.min(1, +cs.opacity || 1); const sel = el.classList.contains('sel'), bg = cs.backgroundColor, rad = Math.min(b.height / 2, 999);
+      const pill = () => { x.beginPath(); x.roundRect ? x.roundRect(b.left, b.top, b.width, b.height, rad) : x.rect(b.left, b.top, b.width, b.height); };
+      if (sel) { x.save(); x.shadowColor = 'rgba(240,179,90,.55)'; x.shadowBlur = 14; x.fillStyle = '#f0b35a'; pill(); x.fill(); x.restore(); x.lineWidth = 2; x.strokeStyle = 'rgba(6,6,8,.9)'; pill(); x.stroke(); } // selected: same amber pill + glow ring as the live .lbl.sel
+      if (!sel) { x.fillStyle = (bg && !/rgba\(0, 0, 0, 0\)|transparent/.test(bg) ? bg : 'rgba(6,6,8,.78)'); pill(); x.fill(); }
       x.fillStyle = cs.color; x.font = `${cs.fontStyle} ${cs.fontWeight} ${cs.fontSize} ${cs.fontFamily}`; if ('letterSpacing' in x) x.letterSpacing = cs.letterSpacing === 'normal' ? '0px' : cs.letterSpacing;
       const txt = cs.textTransform === 'uppercase' ? el.textContent.toUpperCase() : el.textContent; x.textAlign = 'left'; x.fillText(txt, b.left + (parseFloat(cs.paddingLeft) || 0), b.top + b.height / 2 + 0.5); });
     x.globalAlpha = 1; return out; }
