@@ -24,6 +24,10 @@ header{position:absolute;top:0;left:0;right:0;padding:24px 32px;display:flex;jus
 .controls{pointer-events:auto;display:flex;flex-direction:column;gap:8px;align-items:flex-end}
 .controls input,.controls select{background:rgba(10,10,12,.8);border:1px solid var(--rule);color:var(--ink);font-family:var(--mono);font-size:11px;letter-spacing:.06em;padding:6px 8px;width:220px;outline:none}
 .controls input:focus,.controls select:focus{border-color:var(--amber)}
+/* dark-theme dropdowns: native option lists otherwise render pale text on white */
+select{color-scheme:dark;background-color:#0d0c10;color:var(--ink)}
+select option,select optgroup{background-color:#0d0c10;color:#e8e2d4}
+select option:checked,select option:hover,select option:focus{background:#f0b35a linear-gradient(#f0b35a,#f0b35a);color:#140c04}
 .controls label{font-family:var(--mono);font-size:9px;letter-spacing:.25em;text-transform:uppercase;color:var(--amber)}
 #results{width:220px;max-height:200px;overflow:auto;background:rgba(10,10,12,.92);border:1px solid var(--rule)}
 #results:empty{display:none}
@@ -113,7 +117,7 @@ header{position:absolute;top:0;left:0;right:0;padding:24px 32px;display:flex;jus
 body.phone #phonenote{display:block;position:fixed;z-index:30;left:50%;top:76px;transform:translateX(-50%);width:min(360px,92vw);padding:12px 14px;border-radius:12px;text-align:center;font-family:var(--serif);font-size:16px;color:var(--ink)}
 body.phone #phonenote a{display:inline-block;margin-top:6px;font-family:var(--mono);font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--amber-bright)}
 body.phone #stage canvas{pointer-events:none}
-body.phone #tb button:not([data-k=search]):not([data-k=dice]):not([data-k=games]):not([data-k=tours]):not([data-k=snip]):not([data-k=politics]):not([data-k=hidepol]),body.phone #tb .sep,body.phone #legend{display:none!important}
+body.phone #tb button:not([data-k=search]):not([data-k=dice]):not([data-k=games]):not([data-k=tours]):not([data-k=snip]):not([data-k=politics]):not([data-k=hidepol]):not([data-k=lines]):not([data-k=theme]):not([data-k=impact]),body.phone #tb .sep,body.phone #legend{display:none!important}
 body.phone #panel{top:0;height:100%;height:100dvh;z-index:40}
 body.phone #tourbar{bottom:auto;top:50%;transform:translate(-50%,-50%);width:min(380px,92vw)}
 body.phone #tourbar .tc{font-size:18px}
@@ -282,6 +286,22 @@ body.panel-open #tbp{display:none}
 /* UI-CHROME-CSS end */
 #games .gm-reset{display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:center;margin-top:10px;padding-top:10px;border-top:1px solid var(--rule)}#games .gm-reset button{all:unset;cursor:pointer;font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-dim);border:1px solid var(--rule);border-radius:6px;padding:7px 10px}#games .gm-reset button:hover{color:var(--ink);border-color:var(--amber)}#games .gm-reset [data-r^=yes]{color:var(--bg);background:var(--amber);border-color:var(--amber)}
 #games .gm-again{all:unset;cursor:pointer;display:block;margin:10px auto 0;padding:9px 16px;border-radius:6px;background:var(--amber);color:var(--bg);font-family:var(--mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase}
+/* LIGHT THEME (T): parchment page; vars cover most of the UI, a runtime pass recolours hard-coded dark panels */
+body.light{--bg:#f3ecdc;--bg-2:#e9e0cb;--ink:#1f1a12;--ink-dim:#5a5040;--ink-faint:#9a8e78;--amber:#9a5a1f;--amber-bright:#8a4a12;--rule:#c9a27a;--glass:rgba(250,245,233,.85);--glass-b:rgba(154,90,31,.35);--glass-hi:rgba(154,90,31,.12)}
+body.light::before{background-image:radial-gradient(ellipse at 20% 10%,rgba(184,115,51,.10),transparent 50%),radial-gradient(ellipse at 80% 90%,rgba(184,115,51,.08),transparent 50%)}
+body.light #panel{background:linear-gradient(180deg,#faf5e9,#f3ecdc)!important}
+body.light .gl{box-shadow:0 10px 30px rgba(80,50,20,.18),inset 0 1px 0 rgba(255,255,255,.5)}
+body.light .lbl,body.light .axl{background:rgba(250,245,233,.9)!important;box-shadow:0 0 8px 3px rgba(250,245,233,.75)}
+body.light .lbl.sel{background:#f0b35a!important;color:#140c04!important;box-shadow:0 0 0 2px #1f1a12,0 0 14px 4px rgba(214,140,40,.7)!important}
+body.light #selring{border-color:#c77d14;box-shadow:0 0 0 2px rgba(31,26,18,.7),0 0 12px 3px rgba(214,140,40,.7)}
+body.light select{color-scheme:light;background-color:#faf5e9;color:#1f1a12}
+body.light select option,body.light select optgroup{background-color:#faf5e9;color:#1f1a12}
+body.light select option:checked,body.light select option:hover{background:#f0b35a linear-gradient(#f0b35a,#f0b35a);color:#140c04}
+#impslider{display:inline-flex;align-items:center;gap:6px;font-family:var(--mono);font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-dim);padding:0 8px;cursor:pointer}
+#impslider input{width:84px;accent-color:#e89968}#impslider b{font-weight:500;color:var(--amber-bright);min-width:16px}
+body.phone #impslider input{width:64px}
+body.phone #tb{flex-wrap:wrap!important;overflow:visible!important;justify-content:flex-end}
+@media (min-width:761px){#tb{flex-wrap:wrap;row-gap:2px;max-width:calc(100vw - 230px)}#impslider{height:30px}} /* toolbar wraps to a second row instead of running off the right edge */
 </style>
 </head>
 <body>
@@ -335,7 +355,7 @@ body.panel-open #tbp{display:none}
     <p>This is a map of big ideas from world history: philosophies, religions and movements, from Plato, Confucius and the Buddha to internet memes. It shows where each idea came from and which ideas are alike.</p>
     <div class="k">What you see</div>
     <ul>
-      <li><b>Each glowing point is one idea.</b> Bigger points have more "children": later ideas that grew from them.</li>
+      <li><b>Each glowing point is one idea.</b> Bigger points have more impact: a 0-100 score from the lineage lines (how many later ideas grew from it, how central it is, how many direct children), adjusted for how many ideas came after it so older ideas get no head start. The <b>Impact</b> slider hides ideas below a score; root ideas always stay.</li>
       <li><b>Sixteen points are root ideas.</b> Each one starts a tradition, like Plato's theory of Forms for Platonism. On the map they glow like any other point. Click one and its page shows a copper "Root idea of …" badge.</li>
       <li><b>Lines mean "descends from".</b> A line runs from a parent idea to a later idea that borrowed from it. Point at an idea to light up its ancestors (copper) and descendants (white).</li>
       <li><b>Height is time.</b> Older ideas sit low, newer ones sit high. The map ranks ideas by year rather than using an exact timeline, so crowded centuries don't squash together, and the busy last few centuries get extra height. Dates on the side line mark the eras.</li>
@@ -368,7 +388,7 @@ body.panel-open #tbp{display:none}
   </div></div>
   <footer>Drag to turn · Scroll to zoom · Click an idea · Share card on its page · Filter by tradition · R to reset · ? for help</footer>
 </div>
-<script src="assets/sharecard.js?v=20261029b"></script>
+<script src="assets/sharecard.js?v=20261030"></script>
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
 <script type="importmap">
 { "imports": {
@@ -409,6 +429,20 @@ const politicsCfg = (await load('politics.json').then(okPol).catch(() => null))
 const thinkerUrl = t => { const u = thinkerLinks[t]; return (typeof u === 'string' && /^https:\/\/(grokipedia\.com\/page|en\.wikipedia\.org\/wiki)\//.test(u)) ? u : null; };
 const byId = Object.fromEntries(ideas.map(d => [d.id, d]));
 ideas.forEach(d => d.children = ideas.filter(c => (c.parents || []).includes(d.id)).map(c => c.id));
+/* IMPACT (0-100), from the lineage graph only; same formula as scripts/impact.py. Age-corrected: each measure is divided by
+   the number of ideas dated after this one (+10), so old ideas don't win just by having had more time.
+   reach = descendants counted 0.7^(generations-1); central = PageRank with credit flowing child -> parent; direct = children.
+   Each becomes a percentile rank; score = 0.45 reach + 0.30 central + 0.25 direct, top idea = 100; no descendants = 0. */
+(function impactScores() { const N = ideas.length, byI = Object.fromEntries(ideas.map(d => [d.id, d])), par = d => (d.parents || []).filter(k => byI[k]);
+  const reach = d => { const seen = new Set([d.id]); let out = 0, fr = [d], g = 1; while (fr.length) { const nx = []; fr.forEach(k => k.children.forEach(c => { if (!seen.has(c)) { seen.add(c); nx.push(byI[c]); out += Math.pow(0.7, g - 1); } })); fr = nx; g++; } return out; };
+  let pr = Object.fromEntries(ideas.map(d => [d.id, 1 / N]));
+  for (let it = 0; it < 100; it++) { const nx = Object.fromEntries(ideas.map(d => [d.id, 0.15 / N])); let dang = 0;
+    ideas.forEach(d => { const ps = par(d); if (ps.length) ps.forEach(p => nx[p] += 0.85 * pr[d.id] / ps.length); else dang += 0.85 * pr[d.id] / N; });
+    ideas.forEach(d => nx[d.id] += dang); pr = nx; }
+  const m = ideas.map(d => { const L = ideas.filter(j => j.year > d.year).length + 10; return [reach(d) / L, pr[d.id] * N / L, d.children.length / L]; });
+  const P = [0, 1, 2].map(k => { const v = m.map(r => r[k]); return v.map(x => (v.filter(y => y < x).length + (v.filter(y => y === x).length - 1) / 2) / (N - 1)); });
+  const raw = ideas.map((d, i) => d.children.length ? 0.45 * P[0][i] + 0.30 * P[1][i] + 0.25 * P[2][i] : 0), mx = Math.max(...raw) || 1;
+  ideas.forEach((d, i) => d.imp = Math.round(1000 * raw[i] / mx) / 10); window.__impact = Object.fromEntries(ideas.map(d => [d.id, d.imp])); })();
 
 /* ---------- Layout: FIXED named directions ----------
    x (left-right) = abstraction stance (+5 abstract/ideal on the right, -5 material on the left)
@@ -581,7 +615,16 @@ const ROOT_PALETTE = ['#e89968','#7fb3d5','#c39bd3','#76d7a4','#f4d03f','#ec7063
 const roots = ideas.filter(d => d.root).sort((a, b) => a.year - b.year);
 const families = {}; roots.forEach((r, i) => { r.rootColor = new THREE.Color(ROOT_PALETTE[i % ROOT_PALETTE.length]);
   families[r.id] = new Set([r.id, ...lineage(r.id).dn]); });
-const filt = { rootsOnly: false, sel: new Set(), dom: '', hidePol: false };
+const filt = { rootsOnly: false, sel: new Set(), dom: '', hidePol: false, noLines: false, imp: 0 };
+/* Lines toggle (L): when off, only the lineage lines of the hovered and the open idea are drawn */
+setInterval(() => { let k = ''; try { k = [filt.imp, filt.noLines, current, hovered, window.__pol && __pol.on, window.__pol && __pol.country, window.__pol && __pol.fac && __pol.fac.size].join('|'); } catch (e) { return; } if (k !== applyLines.k) { const ik = applyLines.k && applyLines.k.split('|').slice(0, 3).join('|'), nk = k.split('|').slice(0, 3).join('|'); applyLines.k = k; if (filt.imp > 0 && ik !== nk) applyFilter(); else applyLines(); } }, 250);
+function applyLines() { let ids = []; try { ids = [current, hovered]; } catch (e) {} // let-bindings may not exist yet at first applyFilter
+  const Ls = filt.noLines ? ids.filter(id => id && byId[id]).map(id => { const L = lineage(id), up = k => k === id || L.up.has(k), dn = k => k === id || L.dn.has(k); return (a, b) => (up(a) && up(b)) || (dn(a) && dn(b)); }) : [];
+  const pol = window.__pol && __pol.on && __pol.fac && __pol.fac.size ? new Set() : null; // politics view: only edges on the ancestor chains of this country's factions
+  if (pol) __pol.fac.forEach(id => { if (byId[id]) { pol.add(id); lineage(id).up.forEach(k => pol.add(k)); } });
+  const own = pol && !filt.noLines ? ids.filter(id => id && byId[id]).map(id => { const L = lineage(id), up = k => k === id || L.up.has(k), dn = k => k === id || L.dn.has(k); return (a, b) => (up(a) && up(b)) || (dn(a) && dn(b)); }) : Ls;
+  lines.forEach(l => { const { a, b } = l.userData; const base = pol ? (pol.has(a) && pol.has(b)) && !filt.noLines : !filt.noLines; l.visible = l.userData.fv !== false && (base || own.some(f => f(a, b))); });
+  const lb = document.getElementById('linesbtn'); if (lb) { lb.classList.toggle('on', !filt.noLines); lb.setAttribute('aria-pressed', String(!filt.noLines)); } }
 /* Abrahamic: not a domain or axis, a derived group. Rule: the idea scores 4+ ("comes straight from it") on the Christianity
    or Islamic philosophy axis. No Judaism node or axis exists yet, so nothing is added for it. */
 const ABRAHAMIC_IDS = ['sufism', 'asharism']; // Islamic ideas that score 0 on the Islamic philosophy (falsafa) axis, added by id
@@ -589,7 +632,7 @@ const ABRAHAMIC = d => Math.max(sc(d, 'christianity'), sc(d, 'islamic_philosophy
 const domOK = d => !filt.dom || (filt.dom === 'abrahamic' ? ABRAHAMIC(d) : (d.domain || []).includes(filt.dom));
 const treeOn = () => filt.rootsOnly || filt.sel.size > 0;
 const isPol = d => d.modern_politics === true || Object.keys(d).some(k => /^party_alignment/.test(k));
-const filterOn = () => treeOn() || !!filt.dom || filt.hidePol;
+const filterOn = () => treeOn() || !!filt.dom || filt.hidePol || filt.imp > 0;
 const inFilter = d => !(filt.hidePol && isPol(d)) && domOK(d) && (!treeOn() || (filt.rootsOnly && d.root) || [...filt.sel].some(r => families[r].has(d.id)));
 const famOf = d => [...filt.sel].find(r => families[r].has(d.id)); // first selected family (selection order) for tint
 window.__families = Object.fromEntries(roots.map(r => [r.id, families[r.id].size]));
@@ -629,7 +672,7 @@ function applyLens(ax) { lensAx = ax; if (window.__pol && __pol.on) { __pol.pain
     const v = hide ? 0 : ax ? ((d.ratings || {})[ax] || 0) : null;
     const fam = v === null && filt.sel.size ? famOf(d) : null;
     const col = fam ? (BRANCH_COL[fam] || byId[fam].rootColor) : v === null ? COPPER : v > 0 ? GREY.clone().lerp(COPPER, v / 5) : GREY.clone().lerp(BLUE, -v / 5);
-    const s = v === null ? (d.children.length || d.root ? 1 + Math.min(d.children.length, 4) * 0.15 : 0.85) : 0.6 + Math.abs(v) * 0.22; // DISPLAY-PASS: leaves 0.85
+    const s = v === null ? (d.root ? 1.45 : 0.8 + (d.imp || 0) / 100 * 0.75) : 0.6 + Math.abs(v) * 0.22; // dot size by impact score // DISPLAY-PASS: leaves 0.85
     gsap.to(d.star.core.material.color, { r: col.r, g: col.g, b: col.b, duration: reduce ? 0 : 0.8, overwrite: 'auto' });
     gsap.to(d.star.halo.material.color, { r: col.r, g: col.g, b: col.b, duration: reduce ? 0 : 0.8, overwrite: 'auto' });
     gsap.to(d.star.grp.scale, { x: s, y: s, z: s, duration: reduce ? 0 : 0.8, overwrite: 'auto' });
@@ -774,6 +817,7 @@ function closePanel() {
 }
 const LINE_UP = new THREE.Color(0xe89968), LINE_DN = new THREE.Color(0xe8e2d4), LINE_BASE = new THREE.Color(0xb87333);
 function highlight(id) {
+  if (filt.noLines) setTimeout(applyLines);
   // focus+context: the whole ancestry (copper) and descent (ivory) stay lit, the rest recedes
   const L = id ? lineage(id) : null, F = filterOn(), vis = d => inFilter(d);
   const inUp = k => k === id || L.up.has(k), inDn = k => k === id || L.dn.has(k);
@@ -853,7 +897,7 @@ renderer.domElement.addEventListener('pointermove', e => {
   if (e.pointerType !== 'mouse') return;
   const d = pick(e);
   renderer.domElement.style.cursor = d ? 'pointer' : 'grab';
-  if ((d && d.id) !== hovered) { hovered = d && d.id; if (!current) highlight(hovered || null); }
+  if ((d && d.id) !== hovered) { hovered = d && d.id; if (!current) highlight(hovered || null); if (filt.noLines) applyLines(); }
   if (d) { tip.textContent = `${d.name} · ${fmtYear(d.year, d.year_approx)}`; gsap.set(tip, { autoAlpha: 1, x: e.clientX + 14, y: e.clientY - 10 }); }
   else gsap.set(tip, { autoAlpha: 0 });
 });
@@ -894,12 +938,12 @@ function placeLabels() {
     if (!vis) { el.style.display = 'none'; return; }
     const sx = (tmp.x + 1) / 2 * W, sy = (1 - tmp.y) / 2 * H - 9, dist = camera.position.distanceTo(d ? d.pos : pos);
     if (center) { o.sx = sx; o.sy = sy; o.dist = dist; const w = o.w || 60; placed.push([sx - w / 2 - LOD.pad, sy - 1, sx + w / 2 + LOD.pad, sy + LOD.h]); show(o); return; }
-    let t = d.root ? 4 : d.children.length >= 2 ? 3 : d.children.length ? 2 : 1;
+    let t = d.root ? 4 : d.imp >= 70 ? 3 : d.imp >= 35 ? 2 : 1; // label level of detail by impact
     if (F) t += 1; if (o.lin) t += 2;
     const must = d.id === current || d.id === hovered || (d.root && window.__views && window.__views.cur === 'tree') || (window.__pol && __pol.on && __pol.fac.has(d.id)); // tree view: every root tradition named at the base
     if (!must && ((t === 2 && dist > LOD.mid) || (t <= 1 && dist > LOD.near))) { el.style.display = 'none'; hidZoom++; return; }
     o.sx = sx; o.sy = sy; o.dist = dist; o.t = must ? 99 : t; cand.push(o); });
-  cand.sort((a, b) => b.t - a.t || a.dist - b.dist);
+  cand.sort((a, b) => b.t - a.t || ((b.d && b.d.imp) || 0) - ((a.d && a.d.imp) || 0) || a.dist - b.dist); // overlaps: higher impact wins
   cand.forEach(o => { const w = o.w || o.d.name.length * 7, x = o.sx + 2;
     if (o.t < 99 && hit(x - LOD.pad, o.sy, w + LOD.pad * 2)) { o.el.style.display = 'none'; hidOverlap++; return; }
     placed.push([x - LOD.pad, o.sy - 1, x + w + LOD.pad, o.sy + LOD.h]); show(o); });
@@ -1027,8 +1071,8 @@ filtBtn.onclick = () => toggleFilt(); filtBox.querySelector('.done').onclick = (
 function applyFilter(init) {
   const n = ideas.filter(inFilter).length;
   filtTg.setAttribute('aria-pressed', filt.rootsOnly); filtHp.setAttribute('aria-pressed', filt.hidePol);
-  ideas.forEach(d => { d.__hid = filt.hidePol && isPol(d); d.star.grp.visible = !d.__hid; });
-  lines.forEach(l => { const { a, b } = l.userData; l.visible = !(byId[a] && byId[a].__hid) && !(byId[b] && byId[b].__hid); });
+  ideas.forEach(d => { let cur = null, hv = null; try { cur = current; hv = hovered; } catch (e) {} d.__hid = (filt.hidePol && isPol(d) && !d.historically_established) || (filt.imp > 0 && !d.root && d.imp < filt.imp && d.id !== cur && d.id !== hv); d.star.grp.visible = !d.__hid; });
+  lines.forEach(l => { const { a, b } = l.userData; l.userData.fv = !(byId[a] && byId[a].__hid) && !(byId[b] && byId[b].__hid); }); applyLines();
   const hb = document.getElementById('hidepolbtn'); if (hb) { hb.classList.toggle('on', filt.hidePol); hb.setAttribute('aria-pressed', filt.hidePol); }
   filtBox.querySelectorAll('.dchip').forEach(c => c.setAttribute('aria-pressed', c.dataset.dom === filt.dom));
   filtBox.querySelectorAll('.chip').forEach(c => c.setAttribute('aria-pressed', filt.sel.has(c.dataset.root)));
@@ -1377,11 +1421,40 @@ window.__memeplex = { cardIdea, cardCompare, shareIdea, shareCompare, focusIdea,
   let pbtn = null; if (NAMES.politics) { pbtn = document.createElement('button'); pbtn.type = 'button'; pbtn.dataset.k = 'politics'; pbtn.id = 'polbtn'; pbtn.title = 'Modern politics: colour factions by party or bloc, pick a country in the key (P)'; pbtn.setAttribute('aria-label', pbtn.title); pbtn.setAttribute('aria-pressed', 'false');
     pbtn.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg><span class="t">Politics</span>';
     tb.insertBefore(pbtn, tb.querySelector('.sep')); pbtn.onclick = () => set(cur === 'politics' ? 'default' : 'politics');
-    const hb = document.createElement('button'); hb.type = 'button'; hb.dataset.k = 'hidepol'; hb.id = 'hidepolbtn'; hb.title = 'Hide modern politics: hide every modern politics idea and its links (H)'; hb.setAttribute('aria-label', hb.title); hb.setAttribute('aria-pressed', 'false');
+    const hb = document.createElement('button'); hb.type = 'button'; hb.dataset.k = 'hidepol'; hb.id = 'hidepolbtn'; hb.title = 'Hide current politics: hide recent and leader-bound modern politics ideas and their links; long-established doctrines stay (H)'; hb.setAttribute('aria-label', hb.title); hb.setAttribute('aria-pressed', 'false');
     hb.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2M3 3l18 18"/></svg><span class="t">Hide politics</span>';
     tb.insertBefore(hb, tb.querySelector('.sep')); hb.onclick = () => { filt.hidePol = !filt.hidePol; applyFilter(); };
     addEventListener('keydown', e => { const t = document.activeElement; if ((e.key === 'h' || e.key === 'H') && !e.metaKey && !e.ctrlKey && !e.altKey && !(t && (/^(INPUT|TEXTAREA|SELECT)$/.test(t.tagName) || t.isContentEditable))) hb.click(); });
     addEventListener('keydown', e => { const t = document.activeElement; if ((e.key === 'p' || e.key === 'P') && !e.metaKey && !e.ctrlKey && !e.altKey && !(t && /^(INPUT|TEXTAREA|SELECT)$/.test(t.tagName))) pbtn.click(); }); }
+  { /* Light/dark theme (T). Default dark; the choice is kept in localStorage. Snip cards keep the dark Arx strip; the map part follows the theme */
+    const LIGHT = { fog: 0xf3ecdc, base: 0x9a5a1f, up: 0x7a3a0a, dn: 0x2a2218 }, DARK = { fog: 0x0a0a0c, base: 0xb87333, up: 0xe89968, dn: 0xe8e2d4 };
+    const lum = c => { const m = /rgba?\(([\d.]+), ([\d.]+), ([\d.]+)(?:, ([\d.]+))?/.exec(c); return m ? { l: (0.2126 * m[1] + 0.7152 * m[2] + 0.0722 * m[3]) / 255, a: m[4] === undefined ? 1 : +m[4] } : null; };
+    const swept = new Set();
+    const sweep = () => { if (!document.body.classList.contains('light')) return; // recolour hard-coded dark panels and pale text
+      document.querySelectorAll('body *:not(canvas):not(svg *):not(.lbl):not(.axl):not(#selring):not(option)').forEach(el => { if (el.closest('.lbl.sel')) return; const cs = getComputedStyle(el), b = lum(cs.backgroundColor);
+        const gi = /gradient/.test(cs.backgroundImage) && lum(cs.backgroundImage); if (gi && gi.l < 0.2 && !el.dataset.thBi) { el.dataset.thBi = el.style.backgroundImage || '-'; el.style.backgroundImage = 'none'; el.style.backgroundColor = '#f6f0e2'; swept.add(el); }
+        if (b && b.a > 0.25 && b.l < 0.2 && !el.dataset.thBg) { el.dataset.thBg = el.style.backgroundColor || '-'; el.style.backgroundColor = `rgba(250,245,233,${Math.max(.85, b.a)})`; swept.add(el); }
+        const t = lum(cs.color); if (t && t.l > 0.72 && !el.dataset.thC) { el.dataset.thC = el.style.color || '-'; el.style.color = '#1f1a12'; swept.add(el); } }); };
+    const unsweep = () => { swept.forEach(el => { if (el.dataset.thBg) { el.style.backgroundColor = el.dataset.thBg === '-' ? '' : el.dataset.thBg; delete el.dataset.thBg; } if (el.dataset.thBi) { el.style.backgroundImage = el.dataset.thBi === '-' ? '' : el.dataset.thBi; delete el.dataset.thBi; } if (el.dataset.thC) { el.style.color = el.dataset.thC === '-' ? '' : el.dataset.thC; delete el.dataset.thC; } }); swept.clear(); };
+    const mats = () => { const on = document.body.classList.contains('light'); scene.traverse(o => { [].concat(o.material || []).forEach(m => { if (m.userData.thB === undefined) m.userData.thB = m.blending; const nb = on ? (m.userData.thB === THREE.AdditiveBlending ? THREE.NormalBlending : m.userData.thB) : m.userData.thB; if (m.blending !== nb) { m.blending = nb; m.needsUpdate = true; } }); }); };
+    const apply = on => { document.body.classList.toggle('light', on); const P = on ? LIGHT : DARK; scene.fog.color.set(P.fog); LINE_BASE.set(P.base); LINE_UP.set(P.up); LINE_DN.set(P.dn);
+      if (lineMat) lineMat.color.set(P.base); lines.forEach(l => l.material.color.set(P.base)); mats(); on ? sweep() : unsweep(); try { highlight(current || null); } catch (e) {}
+      const tbn = document.getElementById('themebtn'); if (tbn) { tbn.setAttribute('aria-pressed', String(on)); tbn.querySelector('.t').textContent = on ? 'Dark' : 'Light'; } window.__theme = on ? 'light' : 'dark'; };
+    const tbn = document.createElement('button'); tbn.type = 'button'; tbn.dataset.k = 'theme'; tbn.id = 'themebtn'; tbn.title = 'Light or dark theme (T)'; tbn.setAttribute('aria-label', tbn.title);
+    tbn.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 1 0 9 9 7 7 0 0 1-9-9z"/></svg><span class="t">Light</span>';
+    tb.insertBefore(tbn, tb.querySelector('.sep')); tbn.onclick = () => { const on = !document.body.classList.contains('light'); try { localStorage.setItem('memeplex-theme', on ? 'light' : 'dark'); } catch (e) {} apply(on); };
+    addEventListener('keydown', e => { const t = document.activeElement; if ((e.key === 't' || e.key === 'T') && !e.metaKey && !e.ctrlKey && !e.altKey && !(t && (/^(INPUT|TEXTAREA|SELECT)$/.test(t.tagName) || t.isContentEditable))) tbn.click(); });
+    setInterval(() => { if (document.body.classList.contains('light')) { sweep(); mats(); } }, 1000); // panels and view materials made later
+    let saved = null; try { saved = localStorage.getItem('memeplex-theme'); } catch (e) {} apply(saved === 'light'); }
+  { /* Impact slider: hide ideas whose impact score is below the threshold (roots and the open or hovered idea always stay) */
+    const w = document.createElement('label'); w.id = 'impslider'; w.dataset.k = 'impact'; w.title = 'Impact: hide ideas below this score. The score (0-100) comes from the lineage lines: how many later ideas grew from an idea, how central it is, and how many direct children it has, each adjusted for how many ideas came after it so older ideas get no head start. Root ideas always show.';
+    w.innerHTML = '<span class="t">Impact</span><input type="range" min="0" max="90" step="5" value="0" aria-label="Impact threshold"><b>0</b>';
+    tb.insertBefore(w, tb.querySelector('.sep')); const inp = w.querySelector('input'), out = w.querySelector('b');
+    inp.addEventListener('input', () => { filt.imp = +inp.value; out.textContent = inp.value; applyFilter(); }); }
+  { const lb = document.createElement('button'); lb.type = 'button'; lb.dataset.k = 'lines'; lb.id = 'linesbtn'; lb.title = 'Lines: show or hide lineage lines; when hidden, the hovered or selected idea still shows its lines (L)'; lb.setAttribute('aria-label', lb.title);
+      lb.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19L12 5l7 14M5 19h14"/></svg><span class="t">Lines</span>';
+      tb.insertBefore(lb, tb.querySelector('.sep')); lb.onclick = () => { filt.noLines = !filt.noLines; applyLines(); };
+      addEventListener('keydown', e => { const t = document.activeElement; if ((e.key === 'l' || e.key === 'L') && !e.metaKey && !e.ctrlKey && !e.altKey && !(t && (/^(INPUT|TEXTAREA|SELECT)$/.test(t.tagName) || t.isContentEditable))) lb.click(); }); applyLines(); }
   const pnl = document.createElement('div'); pnl.id = 'pViews'; pnl.className = 'pp gl';
   pnl.innerHTML = '<div class="ph">Views</div><div class="vw">' + Object.entries(NAMES).map(([k, n]) => `<button type="button" class="vbtn" data-v="${k}" aria-pressed="false">${n}</button>`).join('') +
     '</div><p class="vnote">Alternate shapes for fun. Older ideas always sit lower or nearer the centre than the ideas they led to. Stretch works in the default map only.</p><details class="vsrc"><summary>About the shapes</summary><ul><li><b>Helix</b>: radius, pitch and strand spacing measured from B-DNA structure <a href="https://www.rcsb.org/structure/1BNA" target="_blank" rel="noopener">PDB 1BNA</a> (wwPDB data, CC0).</li><li><b>Brain</b>: points sampled from <a href="https://opengameart.org/content/brain-and-skull" target="_blank" rel="noopener">Brain and Skull</a> by Drummyfish, a model drawn from MRI (CC0).</li><li><b>Tree of life</b>: grown in code (L-system). <b>Galaxy</b>: logarithmic spiral arms in code. <b>Sphere</b> and <b>Beatific vision</b>: built in code, rings after Dante&rsquo;s nine heavens.</li></ul></details>';
@@ -1762,7 +1835,10 @@ body.snipping #panel,body.snipping #tourbar{visibility:hidden!important}
     x.scale(k, k); x.translate(-r.x, -r.y); x.textBaseline = 'middle';
     lblLayer.querySelectorAll('.lbl,.axl').forEach(el => { const cs = getComputedStyle(el); if (cs.display === 'none' || cs.visibility === 'hidden' || +cs.opacity < 0.05) return;
       const b = el.getBoundingClientRect(); if (b.right < r.x || b.left > r.x + r.w || b.bottom < r.y || b.top > r.y + r.h || !b.width) return;
-      x.globalAlpha = Math.min(1, +cs.opacity || 1); x.fillStyle = 'rgba(6,6,8,.78)'; const rad = Math.min(b.height / 2, 999); x.beginPath(); x.roundRect ? x.roundRect(b.left, b.top, b.width, b.height, rad) : x.rect(b.left, b.top, b.width, b.height); x.fill();
+      x.globalAlpha = Math.min(1, +cs.opacity || 1); const sel = el.classList.contains('sel'), bg = cs.backgroundColor, rad = Math.min(b.height / 2, 999);
+      const pill = () => { x.beginPath(); x.roundRect ? x.roundRect(b.left, b.top, b.width, b.height, rad) : x.rect(b.left, b.top, b.width, b.height); };
+      if (sel) { x.save(); x.shadowColor = 'rgba(240,179,90,.55)'; x.shadowBlur = 14; x.fillStyle = '#f0b35a'; pill(); x.fill(); x.restore(); x.lineWidth = 2; x.strokeStyle = 'rgba(6,6,8,.9)'; pill(); x.stroke(); } // selected: same amber pill + glow ring as the live .lbl.sel
+      if (!sel) { x.fillStyle = (bg && !/rgba\(0, 0, 0, 0\)|transparent/.test(bg) ? bg : 'rgba(6,6,8,.78)'); pill(); x.fill(); }
       x.fillStyle = cs.color; x.font = `${cs.fontStyle} ${cs.fontWeight} ${cs.fontSize} ${cs.fontFamily}`; if ('letterSpacing' in x) x.letterSpacing = cs.letterSpacing === 'normal' ? '0px' : cs.letterSpacing;
       const txt = cs.textTransform === 'uppercase' ? el.textContent.toUpperCase() : el.textContent; x.textAlign = 'left'; x.fillText(txt, b.left + (parseFloat(cs.paddingLeft) || 0), b.top + b.height / 2 + 0.5); });
     x.globalAlpha = 1; return out; }
@@ -1873,13 +1949,15 @@ body.pol-on #legend{display:none!important}body.phone.panel-open #polkey{display
 /* ---------- Shareable links: view, filter and open idea live in the URL hash ---------- */
 (() => {
   const state = () => { const p = new URLSearchParams(), v = window.__views ? __views.cur : 'default';
-    if (v && v !== 'default') p.set('v', v); if (v === 'politics' && window.__pol && __pol.country !== __pol.first) p.set('pc', __pol.country); if (filt.dom) p.set('dom', filt.dom); if (filt.rootsOnly) p.set('roots', '1'); if (filt.hidePol) p.set('nopol', '1');
+    if (v && v !== 'default') p.set('v', v); if (v === 'politics' && window.__pol && __pol.country !== __pol.first) p.set('pc', __pol.country); if (filt.dom) p.set('dom', filt.dom); if (filt.rootsOnly) p.set('roots', '1'); if (filt.hidePol) p.set('nopol', '1'); if (filt.noLines) p.set('nolines', '1'); if (filt.imp > 0) p.set('imp', String(filt.imp));
     if (filt.sel.size) p.set('sel', [...filt.sel].join(',')); if (current && byId[current]) p.set('i', current); return p.toString(); };
   let last = null; const write = () => { const s = state(); if (s === last) return; last = s; history.replaceState(null, '', location.pathname + location.search + (s ? '#' + s : '')); };
   const h = new URLSearchParams(location.hash.slice(1)); window.__linkRestore = Object.fromEntries(h);
   if (h.has('dom') || h.has('roots') || h.has('sel') || h.has('nopol')) { filt.hidePol = h.get('nopol') === '1'; const doms = [...document.querySelectorAll('#filt .dchip')].map(c => c.dataset.dom);
     if (doms.includes(h.get('dom'))) filt.dom = h.get('dom'); filt.rootsOnly = h.get('roots') === '1';
     (h.get('sel') || '').split(',').forEach(r => { if (families[r]) filt.sel.add(r); }); applyFilter(); }
+  if (h.get('nolines') === '1') { filt.noLines = true; applyLines(); }
+  if (+h.get('imp') > 0) { filt.imp = Math.min(100, Math.round(+h.get('imp'))); const ir = document.querySelector('#impslider input'); if (ir) { ir.value = filt.imp; ir.dispatchEvent(new Event('input')); } else applyFilter(); }
   const restoreCam = () => { const c = (h.get('cam') || '').split(',').map(Number); if (c.length !== 6 || c.some(n => !isFinite(n))) return;
     gsap.killTweensOf(camera.position); gsap.killTweensOf(controls.target); controls.autoRotate = false; camera.position.set(c[0], c[1], c[2]); controls.target.set(c[3], c[4], c[5]); controls.update(); window.__camRestored = true; };
   { const ax = h.get('ax'), s = document.getElementById('axis'); if (ax && [...s.options].some(o => o.value === ax)) { s.value = ax; s.dispatchEvent(new Event('change')); } }
