@@ -11950,10 +11950,10 @@
    "buddhism": "No real link to buddhism.",
    "vedanta": "No real link to vedanta.",
    "islamic_philosophy": "No real link to islamic_philosophy.",
-   "islam": "No real link to Islam.",
-   "judaism": "No real link to Judaism.",
-   "romanticism": "Heathenry descends from Romanticism's revival of Norse and Germanic religion.",
-   "nationalism": "Heathenry descends in part from Nationalism, though many groups reject ethnic membership.",
+   "islam": "No documented relation.",
+   "judaism": "No documented relation.",
+   "romanticism": "Romantic revival of Norse and Germanic myth and folklore in the 1800s fostered modern Heathenry.",
+   "nationalism": "Emerged from 19th-century romantic nationalism and volkisch currents; many groups now reject ethnic membership.",
    "humor": "Not expressed through jokes or play.",
    "irony": "Meant literally.",
    "abstraction": "Polytheist and animistic: gods, ancestors and land spirits are real; a landscape that teems with sentient presences.",
@@ -15421,7 +15421,7 @@
    "islamic_philosophy": 0,
    "islam": 0,
    "judaism": 0,
-   "romanticism": 0,
+   "romanticism": 1,
    "nationalism": 0,
    "humor": 0,
    "irony": 0,
@@ -15445,10 +15445,10 @@
    "buddhism": "No real link to Buddhism.",
    "vedanta": "No real link to Vedanta.",
    "islamic_philosophy": "No real link to Islamic philosophy (falsafa).",
-   "islam": "No real link to Islam.",
-   "judaism": "No real link to Judaism.",
-   "romanticism": "No real link to Romanticism.",
-   "nationalism": "No real link to Nationalism.",
+   "islam": "No documented relation.",
+   "judaism": "No documented relation.",
+   "romanticism": "Mild: historians tie the theory's appeal to interwar romantics seeking native spirituality; Murray framed it as anthropology.",
+   "nationalism": "No documented relation.",
    "humor": "Not expressed through jokes or play.",
    "irony": "Meant literally.",
    "abstraction": "No documented link.",
@@ -20718,10 +20718,10 @@
    "buddhism": "No real link.",
    "vedanta": "No real link.",
    "islamic_philosophy": "No real link.",
-   "islam": "No real link to Islam.",
-   "judaism": "No real link to Judaism.",
-   "romanticism": "Comes before Romanticism existed, so it cannot descend from it.",
-   "nationalism": "Comes before Nationalism existed, so it cannot descend from it.",
+   "islam": "No documented relation.",
+   "judaism": "No documented relation.",
+   "romanticism": "No documented relation (predates Romanticism).",
+   "nationalism": "No documented relation (predates Nationalism).",
    "humor": "Not expressed through jokes or play.",
    "irony": "Not an ironic tradition.",
    "abstraction": "Argues from civic models rather than pure theory.",
@@ -20841,10 +20841,10 @@
    "buddhism": "No real link.",
    "vedanta": "No real link.",
    "islamic_philosophy": "No real link.",
-   "islam": "No real link to Islam.",
-   "judaism": "No real link to Judaism.",
-   "romanticism": "Comes before Romanticism existed, so it cannot descend from it.",
-   "nationalism": "Comes before Nationalism existed, so it cannot descend from it.",
+   "islam": "No documented relation.",
+   "judaism": "No documented relation.",
+   "romanticism": "No documented relation (predates Romanticism).",
+   "nationalism": "No documented relation (predates Nationalism).",
    "humor": "Not expressed through jokes or play.",
    "irony": "Not ironic.",
    "abstraction": "Grounds a state in universal, self-evident rights.",
@@ -20939,7 +20939,7 @@
    "islam": 0,
    "judaism": 0,
    "romanticism": 0,
-   "nationalism": 0,
+   "nationalism": 1,
    "humor": 0,
    "irony": 0,
    "abstraction": 4,
@@ -20962,10 +20962,10 @@
    "buddhism": "No real link.",
    "vedanta": "No real link.",
    "islamic_philosophy": "No real link.",
-   "islam": "No real link to Islam.",
-   "judaism": "No real link to Judaism.",
-   "romanticism": "Comes before Romanticism existed, so it cannot descend from it.",
-   "nationalism": "Helped give rise to Nationalism rather than descending from it.",
+   "islam": "No documented relation.",
+   "judaism": "No documented relation.",
+   "romanticism": "No documented relation (predates Romanticism).",
+   "nationalism": "Its popular sovereignty and natural rights shaped 19th-century liberal nationalism across Europe.",
    "humor": "Not expressed through jokes or play.",
    "irony": "Not ironic.",
    "abstraction": "Burke's chief complaint: rights stated as universal axioms.",
@@ -21050,7 +21050,7 @@
    "islam": 0,
    "judaism": 0,
    "romanticism": 0,
-   "nationalism": 0,
+   "nationalism": 2,
    "humor": 0,
    "irony": 0,
    "abstraction": 4,
@@ -21073,10 +21073,10 @@
    "buddhism": "No real link.",
    "vedanta": "No real link.",
    "islamic_philosophy": "No real link.",
-   "islam": "No real link to Islam.",
-   "judaism": "No real link to Judaism.",
-   "romanticism": "Comes before Romanticism existed, so it cannot descend from it.",
-   "nationalism": "Feeds into Nationalism as one of its parents rather than descending from it.",
+   "islam": "No documented relation.",
+   "judaism": "No documented relation.",
+   "romanticism": "No documented relation (predates Romanticism).",
+   "nationalism": "Placed sovereignty in the nation as a collective and fostered patriotic participation; its legacy cultivated later nationalism.",
    "humor": "Not expressed through jokes or play.",
    "irony": "Not ironic.",
    "abstraction": "Rules in the name of an abstract virtue and general will.",
@@ -21141,7 +21141,11 @@
    "humor": 0,
    "irony": 0,
    "abstraction": -2,
-   "hierarchy": -1
+   "hierarchy": -1,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 0
   },
   "rationale": {
    "platonism": "Rejects Platonist commitments to immaterial forms (Grokipedia, Nominalism).",
@@ -21163,7 +21167,11 @@
    "humor": "Not expressed through jokes or play.",
    "irony": "Not carried in an ironic tone.",
    "abstraction": "Puts individual things and sense experience ahead of abstract essences, though argued through technical logic.",
-   "hierarchy": "Ockham argued lay and clerical rights to resist erroneous papal decrees (Grokipedia, William of Ockham)."
+   "hierarchy": "Ockham argued lay and clerical rights to resist erroneous papal decrees (Grokipedia, William of Ockham).",
+   "islam": "No documented relation.",
+   "judaism": "No documented relation.",
+   "romanticism": "No documented relation (predates Romanticism).",
+   "nationalism": "No documented relation (predates Nationalism)."
   },
   "stories": [],
   "sources": [
@@ -21258,7 +21266,11 @@
    "humor": 0,
    "irony": 0,
    "abstraction": 5,
-   "hierarchy": 1
+   "hierarchy": 1,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 3,
+   "nationalism": 1
   },
   "rationale": {
    "platonism": "Idealism 'traces to Plato's' Forms (Grokipedia, Idealism); a theme, not a documented lineage here.",
@@ -21280,7 +21292,11 @@
    "humor": "Not expressed through jokes or play.",
    "irony": "Not carried in an ironic tone.",
    "abstraction": "Holds that mind constitutes reality; among the most abstract systems in the map.",
-   "hierarchy": "Fichte's later work stressed communal life and the state; mild."
+   "hierarchy": "Fichte's later work stressed communal life and the state; mild.",
+   "islam": "No documented relation.",
+   "judaism": "No documented relation.",
+   "romanticism": "Fichte's lectures and Schelling's nature-philosophy fed Romanticism; Schelling 'profoundly influenced Romanticism'.",
+   "nationalism": "Fichte's Addresses to the German Nation urged national identity through language and education, framed cosmopolitanly."
   },
   "stories": [],
   "sources": [
@@ -21378,7 +21394,11 @@
    "humor": 0,
    "irony": 0,
    "abstraction": -3,
-   "hierarchy": 1
+   "hierarchy": 1,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 0
   },
   "rationale": {
    "platonism": "No real link to Platonism.",
@@ -21400,7 +21420,11 @@
    "humor": "Not expressed through jokes or play.",
    "irony": "Not carried in an ironic tone.",
    "abstraction": "Alignments were 'pragmatic rather than doctrinal', driven by feuds and trade (Grokipedia, Guelphs and Ghibellines).",
-   "hierarchy": "Backed papal authority but also communal autonomy against imperial overlordship."
+   "hierarchy": "Backed papal authority but also communal autonomy against imperial overlordship.",
+   "islam": "No documented relation.",
+   "judaism": "No documented relation.",
+   "romanticism": "No documented relation (predates Romanticism).",
+   "nationalism": "No documented relation (predates Nationalism)."
   },
   "stories": [],
   "sources": [
@@ -21488,7 +21512,11 @@
    "humor": 0,
    "irony": 0,
    "abstraction": -3,
-   "hierarchy": 3
+   "hierarchy": 3,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 0
   },
   "rationale": {
    "platonism": "No real link to Platonism.",
@@ -21510,7 +21538,11 @@
    "humor": "Not expressed through jokes or play.",
    "irony": "Not carried in an ironic tone.",
    "abstraction": "Alignments were 'pragmatic rather than doctrinal', driven by feuds and trade (Grokipedia, Guelphs and Ghibellines).",
-   "hierarchy": "Backed imperial overlordship and feudal hierarchy over communal autonomy."
+   "hierarchy": "Backed imperial overlordship and feudal hierarchy over communal autonomy.",
+   "islam": "No documented relation.",
+   "judaism": "No documented relation.",
+   "romanticism": "No documented relation (predates Romanticism).",
+   "nationalism": "No documented relation (predates Nationalism)."
   },
   "stories": [],
   "sources": [
@@ -21587,7 +21619,11 @@
    "humor": 0,
    "irony": 0,
    "abstraction": -1,
-   "hierarchy": 4
+   "hierarchy": 4,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 1
   },
   "rationale": {
    "platonism": "No real link to Platonism.",
@@ -21609,7 +21645,11 @@
    "humor": "Not expressed through jokes or play.",
    "irony": "Not carried in an ironic tone.",
    "abstraction": "Stresses practice and peasant conditions over doctrine, though built on dialectics.",
-   "hierarchy": "One-party rule and personality cult, alongside mass-line egalitarian rhetoric (Grokipedia, Maoism)."
+   "hierarchy": "One-party rule and personality cult, alongside mass-line egalitarian rhetoric (Grokipedia, Maoism).",
+   "islam": "No documented relation.",
+   "judaism": "No documented relation.",
+   "romanticism": "No documented relation.",
+   "nationalism": "Sinified Marxism to Chinese conditions and backed national liberation struggles in the Third World."
   },
   "stories": [],
   "sources": [
