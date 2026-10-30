@@ -23119,5 +23119,1379 @@
    "note": "Bloc: still the party's charter doctrine and venerated, though its core tenets were superseded after 1978; neo-Maoist strand sits with LEFT."
   },
   "parent_note": "Assessments are contested: the page reports unification, land reform and gains alongside famine and Cultural Revolution deaths; the CCP's 1981 resolution judged merits primary, errors secondary."
+ },
+ {
+  "id": "samurai_ethos",
+  "name": "Samurai warrior ethos",
+  "root": false,
+  "root_axis": null,
+  "year": 1185,
+  "year_approx": true,
+  "origin_src": "https://grokipedia.com/page/Bushido",
+  "origin_note": "Warrior ethics of service to lords and prowess in battle 'trace to the Kamakura period (1185–1333)', but 'no unified bushido code existed' then",
+  "place": "Kamakura",
+  "lat": 35.32,
+  "lon": 139.55,
+  "thinkers": [],
+  "parents": [
+   "confucian_ethics",
+   "zen"
+  ],
+  "plain": "The unwritten code of Japan's medieval warriors: service to a lord, courage in battle and an honorable death, before anyone called it bushido.",
+  "summary": "Medieval Japanese warrior norms from the Kamakura period on; loyalty was 'often conditional on mutual benefit'. No single written code; later systematized as bushido.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 1,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 0,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 2,
+   "daoism": 0,
+   "buddhism": 2,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -4,
+   "hierarchy": 3,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 0
+  },
+  "rationale": {
+   "platonism": "No real link to Platonism.",
+   "aristotelianism": "No real link to Aristotelianism.",
+   "stoicism": "Stoic acceptance of death is a parallel, not a lineage (Grokipedia, Samurai).",
+   "christianity": "No real link to Christianity.",
+   "gnosticism": "No real link to Gnosticism.",
+   "hermeticism": "No real link to Hermeticism.",
+   "enlightenment_liberalism": "No real link to Enlightenment liberalism.",
+   "marxism": "No real link to Marxism.",
+   "darwinism": "No real link to Darwinism.",
+   "nietzsche": "No real link to Nietzsche.",
+   "critical_theory": "No real link to critical theory.",
+   "confucianism": "Blended 'Confucian hierarchy' into warrior duty (Grokipedia, Samurai).",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "Zen shaped warrior mindset from the early 13th century (Grokipedia, Bushido).",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "No real link to Islamic philosophy.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Not carried in an ironic tone.",
+   "abstraction": "A practical code of conduct in battle and service, not a theory.",
+   "hierarchy": "Built on lord-vassal duty, though loyalty was often conditional (Grokipedia, Bushido).",
+   "islam": "No documented relation.",
+   "judaism": "No documented relation.",
+   "romanticism": "No documented relation (predates Romanticism).",
+   "nationalism": "No documented relation (predates Nationalism)."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Bushido",
+   "https://grokipedia.com/page/Samurai"
+  ],
+  "domain": [
+   "culture",
+   "philosophy"
+  ],
+  "aliases": [
+   "Way of the bow and horse",
+   "Medieval warrior ethics"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Kamakura",
+     "src": "https://grokipedia.com/page/Samurai",
+     "note": "Seat of the Kamakura shogunate, 1185–1333, when the warrior class took power.",
+     "period": "1185–1333"
+    },
+    {
+     "place": "Japan",
+     "src": "https://grokipedia.com/page/Bushido",
+     "note": "Warring States era, 1336–1603, saw piecemeal codification attempts in house codes.",
+     "period": "1336–1603"
+    }
+   ]
+  },
+  "edge_notes": {
+   "confucian_ethics": {
+    "status": "influence",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Samurai",
+    "note": "The samurai ethic blended 'Confucian hierarchy, Zen resilience, and indigenous valor'."
+   },
+   "zen": {
+    "status": "influence",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Bushido",
+    "note": "'Zen Buddhism's introduction in the early 13th century further shaped warrior mindset', promoting acceptance of death."
+   }
+  }
+ },
+ {
+  "id": "bushido",
+  "name": "Bushido",
+  "root": false,
+  "root_axis": null,
+  "year": 1665,
+  "year_approx": true,
+  "origin_src": "https://grokipedia.com/page/Bushido",
+  "origin_note": "The term and 'systematized tenets emerged piecemeal in Edo-era (1603–1868) texts'; Yamaga Sokō (1622–1685) 'first systematically employed' it in The Way of the Samurai (Bushidō, 'circa 1665'); his teaching earned exile in 1666",
+  "place": "Edo",
+  "lat": 35.68,
+  "lon": 139.69,
+  "thinkers": [
+   "Yamaga Sokō",
+   "Yamamoto Tsunetomo"
+  ],
+  "parents": [
+   "samurai_ethos",
+   "neo_confucianism",
+   "zen",
+   "shinto"
+  ],
+  "plain": "The 'way of the warrior' as Edo-period scholars wrote it down for samurai in peacetime: loyalty, rectitude, readiness for death.",
+  "summary": "Edo-period systematization of the warrior ethic by Yamaga Sokō and Hagakure (1709–1716), for a samurai class turned administrators; varied by domain.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 1,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 0,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 3,
+   "daoism": 0,
+   "buddhism": 1,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -2,
+   "hierarchy": 4,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 0
+  },
+  "rationale": {
+   "platonism": "No real link to Platonism.",
+   "aristotelianism": "No real link to Aristotelianism.",
+   "stoicism": "Calm resolve unto death resembles Stoic themes; a parallel only.",
+   "christianity": "No real link to Christianity.",
+   "gnosticism": "No real link to Gnosticism.",
+   "hermeticism": "No real link to Hermeticism.",
+   "enlightenment_liberalism": "No real link to Enlightenment liberalism.",
+   "marxism": "No real link to Marxism.",
+   "darwinism": "No real link to Darwinism.",
+   "nietzsche": "No real link to Nietzsche.",
+   "critical_theory": "No real link to critical theory.",
+   "confucianism": "Yamaga's Way was shaped by 'Confucian hierarchies' and service through scholarship (Grokipedia, Bushido).",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "Hagakure 'blended Zen fatalism' into the ideal; a minor strand (Grokipedia, Bushido).",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "No real link to Islamic philosophy.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Not carried in an ironic tone.",
+   "abstraction": "Written ethics for conduct, more systematic than the medieval ethos.",
+   "hierarchy": "Stresses 'unyielding lord-vassal bonds' (Grokipedia, Bushido).",
+   "islam": "No documented relation.",
+   "judaism": "No documented relation.",
+   "romanticism": "No documented relation (predates Romanticism).",
+   "nationalism": "No documented relation (predates Nationalism)."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Bushido",
+   "https://grokipedia.com/page/Hagakure",
+   "https://grokipedia.com/page/Samurai"
+  ],
+  "domain": [
+   "philosophy",
+   "culture"
+  ],
+  "aliases": [
+   "Bushidō",
+   "Way of the Warrior",
+   "Shidō"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Edo",
+     "src": "https://grokipedia.com/page/Bushido",
+     "note": "Yamaga Sokō taught the warrior's Way and was exiled in 1666 for critiquing shogunal orthodoxy.",
+     "period": "1603–1868"
+    },
+    {
+     "place": "Saga",
+     "src": "https://grokipedia.com/page/Bushido",
+     "note": "Hagakure was compiled for the Nabeshima clan, 1709–1716.",
+     "period": "1709–1716"
+    }
+   ]
+  },
+  "edge_notes": {
+   "samurai_ethos": {
+    "status": "direct",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Bushido",
+    "note": "Edo writers drew on medieval warrior norms 'amid peacetime reflections on martial heritage'."
+   },
+   "neo_confucianism": {
+    "status": "influence",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Bushido",
+    "note": "Yamaga's Way was 'influenced by Confucian hierarchies', though he critiqued shogunal orthodoxy."
+   },
+   "zen": {
+    "status": "influence",
+    "type": "influence",
+    "strength": "weak",
+    "src": "https://grokipedia.com/page/Bushido",
+    "note": "Hagakure 'blended Zen fatalism with Shinto purity' (Grokipedia, Bushido)."
+   },
+   "shinto": {
+    "status": "influence",
+    "type": "influence",
+    "strength": "weak",
+    "src": "https://grokipedia.com/page/Bushido",
+    "note": "Edo bushido was influenced by 'Shinto reverence for purity and ancestry'; Hagakure 'blended Zen fatalism with Shinto purity'."
+   }
+  },
+  "parent_note": "Recorders are not parents: Inoue Tetsujirō and Nitobe Inazō later wrote it up; see meiji_bushido."
+ },
+ {
+  "id": "meiji_bushido",
+  "name": "Meiji Bushido",
+  "root": false,
+  "root_axis": null,
+  "year": 1899,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Nitobe_Inaz%C5%8D",
+  "origin_note": "Nitobe Inazō 'composed Bushido: The Soul of Japan in English in 1899'; published in 1900 in Philadelphia; Inoue Tetsujirō also wrote on bushido in the 1890s",
+  "place": "Japan",
+  "lat": 36.2,
+  "lon": 138.25,
+  "thinkers": [
+   "Nitobe Inazō",
+   "Inoue Tetsujirō"
+  ],
+  "parents": [
+   "bushido",
+   "nationalism"
+  ],
+  "plain": "The modern image of bushido as a national samurai chivalry, written for Japanese schools and Western readers after the samurai class was gone.",
+  "summary": "Late-Meiji reworking of bushido as loyalty to the emperor and a Japanese chivalry (Nitobe, 1899); scholars call it 'an adaptive invention'.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 1,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 1,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 2,
+   "daoism": 0,
+   "buddhism": 1,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 0,
+   "hierarchy": 4,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 3
+  },
+  "rationale": {
+   "platonism": "No real link to Platonism.",
+   "aristotelianism": "No real link to Aristotelianism.",
+   "stoicism": "No real link to Stoicism.",
+   "christianity": "Nitobe was a Christian, Quaker-leaning intellectual comparing bushido with chivalry (Grokipedia, Nitobe Inazō).",
+   "gnosticism": "No real link to Gnosticism.",
+   "hermeticism": "No real link to Hermeticism.",
+   "enlightenment_liberalism": "Framed to aid 'modernization and diplomacy' with the West (Grokipedia, Bushido).",
+   "marxism": "No real link to Marxism.",
+   "darwinism": "No real link to Darwinism.",
+   "nietzsche": "No real link to Nietzsche.",
+   "critical_theory": "No real link to critical theory.",
+   "confucianism": "Kept Confucian loyalty and filial piety, now aimed at the emperor (Grokipedia, Bushido).",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "Keeps Zen themes as heritage; a minor strand.",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "No real link to Islamic philosophy.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Not carried in an ironic tone.",
+   "abstraction": "An idealized national ethic, more abstract than lived Edo practice.",
+   "hierarchy": "Redirected loyalty to the emperor as the head of the nation (Grokipedia, Bushido).",
+   "islam": "No documented relation.",
+   "judaism": "No documented relation.",
+   "romanticism": "No documented relation.",
+   "nationalism": "Nitobe's Bushido aligned samurai virtues 'with Meiji nationalism' for an international audience."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Bushido",
+   "https://grokipedia.com/page/Nitobe_Inaz%C5%8D"
+  ],
+  "domain": [
+   "culture",
+   "politics"
+  ],
+  "aliases": [
+   "Imperial bushido",
+   "Modern bushido"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Japan",
+     "src": "https://grokipedia.com/page/Bushido",
+     "note": "Amplified in early 20th-century education, which claimed ancient origins for it.",
+     "period": "1890s–1945"
+    },
+    {
+     "place": "United States",
+     "src": "https://grokipedia.com/page/Nitobe_Inaz%C5%8D",
+     "note": "Nitobe's book was published in Philadelphia in 1900 for Western readers.",
+     "period": "1900"
+    }
+   ]
+  },
+  "edge_notes": {
+   "bushido": {
+    "status": "direct",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Bushido",
+    "note": "Drew 'on Edo texts' but redirected loyalty from daimyo to the emperor."
+   },
+   "nationalism": {
+    "status": "influence",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Bushido",
+    "note": "A work 'blending historical motifs with Meiji-era nationalism'."
+   }
+  },
+  "parent_note": "Place approximate: Japan, where Nitobe and Inoue held and taught the idea. Philadelphia (Leeds & Biddle, 1900) is only where the book was recorded in print."
+ },
+ {
+  "id": "mito_school",
+  "name": "Mito school",
+  "root": false,
+  "root_axis": null,
+  "year": 1825,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Sonn%C5%8D_j%C5%8Di",
+  "origin_note": "The slogan sonnō jōi was 'first articulated by scholar Aizawa Seishisai in his 1825 treatise Shinron' in the Mito domain; the Mito school had earlier roots",
+  "place": "Mito",
+  "lat": 36.37,
+  "lon": 140.47,
+  "thinkers": [
+   "Aizawa Seishisai"
+  ],
+  "parents": [
+   "neo_confucianism",
+   "shinto",
+   "kokugaku"
+  ],
+  "plain": "Scholars of the Mito domain who called the country to revere the emperor and expel foreigners, and named Japan's unique polity, kokutai.",
+  "summary": "Late-Edo school of the Mito domain that framed kokutai as divinely ordained and coined the program sonnō jōi in Aizawa's Shinron (1825).",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": -3,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 4,
+   "daoism": 0,
+   "buddhism": -1,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 1,
+   "hierarchy": 4,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 2
+  },
+  "rationale": {
+   "platonism": "No real link to Platonism.",
+   "aristotelianism": "No real link to Aristotelianism.",
+   "stoicism": "No real link to Stoicism.",
+   "christianity": "No real link to Christianity.",
+   "gnosticism": "No real link to Gnosticism.",
+   "hermeticism": "No real link to Hermeticism.",
+   "enlightenment_liberalism": "Called for expelling Western powers (Grokipedia, Sonnō jōi).",
+   "marxism": "No real link to Marxism.",
+   "darwinism": "No real link to Darwinism.",
+   "nietzsche": "No real link to Nietzsche.",
+   "critical_theory": "No real link to critical theory.",
+   "confucianism": "'Rooted in Neo-Confucian and Shinto principles' (Grokipedia, Sonnō jōi).",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "Nativist and Confucian; no Buddhist grounding in the sources.",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "No real link to Islamic philosophy.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Not carried in an ironic tone.",
+   "abstraction": "Built a theory of an eternal national essence, kokutai (Grokipedia, Kokutai).",
+   "hierarchy": "Required 'loyalty to the throne' as divinely ordained (Grokipedia, Kokutai).",
+   "islam": "No documented relation.",
+   "judaism": "No documented relation.",
+   "romanticism": "No documented relation.",
+   "nationalism": "Its sonno joi slogan is read by some historians as 'defensive nationalism', though the page stresses Confucian roots."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Sonn%C5%8D_j%C5%8Di",
+   "https://grokipedia.com/page/Kokutai"
+  ],
+  "domain": [
+   "politics",
+   "philosophy"
+  ],
+  "aliases": [
+   "Mitogaku",
+   "Sonnō jōi",
+   "Revere the emperor, expel the barbarians"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Mito",
+     "src": "https://grokipedia.com/page/Sonn%C5%8D_j%C5%8Di",
+     "note": "The Mito domain's intellectual circle first articulated the slogan in 1825.",
+     "period": "1825–1860s"
+    },
+    {
+     "place": "Chōshū",
+     "src": "https://grokipedia.com/page/Sonn%C5%8D_j%C5%8Di",
+     "note": "Domain-wide calls for action against Western ships in 1863; pivot after the 1864 punitive expedition.",
+     "period": "1863–1864"
+    }
+   ]
+  },
+  "edge_notes": {
+   "neo_confucianism": {
+    "status": "direct",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Sonn%C5%8D_j%C5%8Di",
+    "note": "Aizawa's 'anti-foreign nativism' was 'rooted in Neo-Confucian and Shinto principles'."
+   },
+   "shinto": {
+    "status": "influence",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Sonn%C5%8D_j%C5%8Di",
+    "note": "The same line names Shinto as the second root."
+   },
+   "kokugaku": {
+    "status": "influence",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Kokutai",
+    "note": "Nativist (Kokugaku) efforts 'laid proto-kokutai foundations'; the Mito thinkers 'advanced this'."
+   }
+  },
+  "parent_note": "No Grokipedia page for Mito school (404); built from the Sonnō jōi and Kokutai pages. Founding of the school under Tokugawa Mitsukuni is not sourced here, so the node dates from Shinron."
+ },
+ {
+  "id": "state_shinto",
+  "name": "State Shinto",
+  "root": false,
+  "root_axis": null,
+  "year": 1868,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/State_Shinto",
+  "origin_note": "The government's sponsorship and ideological use of Shinto ran 'from the Meiji Restoration in 1868 until its abolition in 1945'; the label Kokka Shintō is mostly retrospective",
+  "place": "Tokyo",
+  "lat": 35.68,
+  "lon": 139.69,
+  "thinkers": [],
+  "parents": [
+   "shinto",
+   "kokugaku"
+  ],
+  "plain": "The Meiji state's use of shrine Shinto as a national civic rite, centered on the emperor as a descendant of the kami.",
+  "summary": "State-run shrine Shinto from 1868 to 1945, set apart from sect Shinto in 1882 and treated as non-religious civic duty; abolished by the Shinto Directive.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 0,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 1,
+   "daoism": 0,
+   "buddhism": -3,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -1,
+   "hierarchy": 5,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 4
+  },
+  "rationale": {
+   "platonism": "No real link to Platonism.",
+   "aristotelianism": "No real link to Aristotelianism.",
+   "stoicism": "No real link to Stoicism.",
+   "christianity": "No real link to Christianity.",
+   "gnosticism": "No real link to Gnosticism.",
+   "hermeticism": "No real link to Hermeticism.",
+   "enlightenment_liberalism": "No real link to Enlightenment liberalism.",
+   "marxism": "No real link to Marxism.",
+   "darwinism": "No real link to Darwinism.",
+   "nietzsche": "No real link to Nietzsche.",
+   "critical_theory": "No real link to critical theory.",
+   "confucianism": "Moral education for subjects drew on Confucian loyalty; secondary.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "Built on the 'Separation from Buddhism' of shrines (Grokipedia, State Shinto).",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "No real link to Islamic philosophy.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Not carried in an ironic tone.",
+   "abstraction": "Ritual and institutional; avoided 'doctrinal innovation' (Grokipedia, State Shinto).",
+   "hierarchy": "A ranked shrine system centered on the emperor's divine descent (Grokipedia, State Shinto).",
+   "islam": "No documented relation.",
+   "judaism": "No documented relation.",
+   "romanticism": "No documented relation.",
+   "nationalism": "A tool for ethnic nationalism and imperial legitimacy, embedding loyalty and nationalism in daily life via shrine rites."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/State_Shinto",
+   "https://grokipedia.com/page/Kokugaku"
+  ],
+  "domain": [
+   "religion",
+   "politics"
+  ],
+  "aliases": [
+   "Kokka Shintō",
+   "Shrine Shinto",
+   "Jinja Shintō"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Japan",
+     "src": "https://grokipedia.com/page/State_Shinto",
+     "note": "Hierarchical network of state-ranked shrines until the 1945 Shinto Directive.",
+     "period": "1868–1945"
+    },
+    {
+     "place": "Korea",
+     "src": "https://grokipedia.com/page/State_Shinto",
+     "note": "Promoted in the colonies of Korea, Taiwan and Manchuria."
+    },
+    {
+     "place": "Taiwan",
+     "src": "https://grokipedia.com/page/State_Shinto",
+     "note": "Promoted in the colonies of Korea, Taiwan and Manchuria."
+    }
+   ]
+  },
+  "edge_notes": {
+   "shinto": {
+    "status": "direct",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/State_Shinto",
+    "note": "'Transformed traditional shrine rituals and folk beliefs into a framework for national cohesion'."
+   },
+   "kokugaku": {
+    "status": "direct",
+    "type": "descent",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/State_Shinto",
+    "note": "'The revival of Shinto began' with Kokugaku; Hirata Atsutane gave it 'a more activist and nationalistic framework'."
+   }
+  },
+  "parent_note": "Place: Tokyo as seat of the Meiji government; the page dates the system nationally, not to one city."
+ },
+ {
+  "id": "kokutai",
+  "name": "Kokutai",
+  "root": false,
+  "root_axis": null,
+  "year": 1868,
+  "year_approx": true,
+  "origin_src": "https://grokipedia.com/page/Kokutai",
+  "origin_note": "Held as state doctrine from the Meiji Restoration of 1868, 'drawing on Mito school ideas'; Aizawa framed it in 1825; the 1890 Imperial Rescript on Education and Kokutai no Hongi (1937) recorded it",
+  "place": "Tokyo",
+  "lat": 35.68,
+  "lon": 139.69,
+  "thinkers": [
+   "Aizawa Seishisai"
+  ],
+  "parents": [
+   "mito_school",
+   "state_shinto",
+   "confucian_ethics"
+  ],
+  "plain": "The idea that Japan is a unique 'national body' headed by an unbroken line of divine emperors, which no constitution could change.",
+  "summary": "Doctrine of Japan's eternal, emperor-centered national polity: Meiji state creed from 1868, enforced by the 1925 Peace Preservation Law, set out in Kokutai no Hongi (1937).",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": -4,
+   "marxism": -3,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 3,
+   "daoism": 0,
+   "buddhism": -1,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 2,
+   "hierarchy": 5,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 4
+  },
+  "rationale": {
+   "platonism": "No real link to Platonism.",
+   "aristotelianism": "No real link to Aristotelianism.",
+   "stoicism": "No real link to Stoicism.",
+   "christianity": "No real link to Christianity.",
+   "gnosticism": "No real link to Gnosticism.",
+   "hermeticism": "No real link to Hermeticism.",
+   "enlightenment_liberalism": "Kokutai no Hongi rejected 'individualistic Western liberalism' (Grokipedia, Kokutai).",
+   "marxism": "The 1925 Peace Preservation Law aimed at socialists in its name (Grokipedia, Kokutai).",
+   "darwinism": "No real link to Darwinism.",
+   "nietzsche": "No real link to Nietzsche.",
+   "critical_theory": "No real link to critical theory.",
+   "confucianism": "The Rescript mandated 'filial piety toward the emperor as the basis for civic duty' (Grokipedia, Kokutai).",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "Shinto- and Confucian-based; Buddhism absorbed as foreign influence (Grokipedia, Statism in Shōwa Japan).",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "No real link to Islamic philosophy.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Not carried in an ironic tone.",
+   "abstraction": "An eternal national essence set apart from any form of government (Grokipedia, Kokutai).",
+   "hierarchy": "The emperor as sacred, inviolable head of the national family (Grokipedia, Japanese nationalism).",
+   "islam": "No documented relation.",
+   "judaism": "No documented relation.",
+   "romanticism": "No documented relation.",
+   "nationalism": "Core of Japanese nationalism from 1868, framing Japan as a divine realm under an unbroken imperial line."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Kokutai",
+   "https://grokipedia.com/page/Japanese_nationalism",
+   "https://grokipedia.com/page/Bushido"
+  ],
+  "domain": [
+   "politics",
+   "religion"
+  ],
+  "aliases": [
+   "National polity"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Japan",
+     "src": "https://grokipedia.com/page/Kokutai",
+     "note": "Taught in schools through the 1890 Rescript; a 1925 law 'criminalized organizations or ideologies deemed to alter the kokutai'.",
+     "period": "1868–1945"
+    }
+   ]
+  },
+  "edge_notes": {
+   "mito_school": {
+    "status": "direct",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Kokutai",
+    "note": "Mito thinkers framed 'kokutai as an eternal, divinely ordained national essence' in Shinron (1825)."
+   },
+   "state_shinto": {
+    "status": "influence",
+    "type": "influence",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Kokutai",
+    "note": "The page treats its 'Integration with State Shinto and Emperor Veneration' as core."
+   },
+   "confucian_ethics": {
+    "status": "loose",
+    "type": "context",
+    "strength": "weak",
+    "src": "https://grokipedia.com/page/Bushido",
+    "note": "The 1890 Rescript enshrined 'filial piety, loyalty' and drew 'from Confucian and samurai precedents' (Grokipedia, Bushido)."
+   }
+  },
+  "parent_note": "Place: Tokyo as seat of the Meiji government; the page dates the doctrine nationally, not to one city. Recorders are not parents: the Rescript and Kokutai no Hongi are documents that set it down."
+ },
+ {
+  "id": "fukoku_kyohei",
+  "name": "Fukoku kyōhei",
+  "root": false,
+  "root_axis": null,
+  "year": 1868,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Fukoku_ky%C5%8Dhei",
+  "origin_note": "'The central slogan of Japan's Meiji government after the 1868 Restoration'; the phrase derives from the Chinese Zhan Guo Ce",
+  "place": "Tokyo",
+  "lat": 35.68,
+  "lon": 139.69,
+  "thinkers": [
+   "Itō Hirobumi"
+  ],
+  "parents": [
+   "legalism"
+  ],
+  "plain": "The Meiji program 'rich country, strong army': adopt Western industry, schools and armies fast to keep Japan from being colonized.",
+  "summary": "Meiji modernization creed from 1868: conscription (1873), state industry and selective Western adoption to reach 'equal international standing'.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 1,
+   "marxism": 0,
+   "darwinism": 1,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": -1,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -4,
+   "hierarchy": 3,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 2
+  },
+  "rationale": {
+   "platonism": "No real link to Platonism.",
+   "aristotelianism": "No real link to Aristotelianism.",
+   "stoicism": "No real link to Stoicism.",
+   "christianity": "No real link to Christianity.",
+   "gnosticism": "No real link to Gnosticism.",
+   "hermeticism": "No real link to Hermeticism.",
+   "enlightenment_liberalism": "'Selective Western adoption' in technology and governance, not liberal rights (Grokipedia, Fukoku kyōhei).",
+   "marxism": "No real link to Marxism.",
+   "darwinism": "Framed as survival against 'Western encroachment'; no Darwinian sources on the page.",
+   "nietzsche": "No real link to Nietzsche.",
+   "critical_theory": "No real link to critical theory.",
+   "confucianism": "Legalist-style state power 'at the expense of moral or ritualistic ideals favored by Confucians' (Grokipedia, Fukoku kyōhei).",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "No real link to Buddhism.",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "No real link to Islamic philosophy.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Not carried in an ironic tone.",
+   "abstraction": "A practical policy slogan for industry and armies.",
+   "hierarchy": "State-directed, oligarch-led reform under imperial authority (Grokipedia, Fukoku kyōhei).",
+   "islam": "No documented relation.",
+   "judaism": "No documented relation.",
+   "romanticism": "No documented relation.",
+   "nationalism": "National strengthening program; its emphasis on 'national homogeneity' and centralization; emperor-centric nationalism persisted."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Fukoku_ky%C5%8Dhei",
+   "https://grokipedia.com/page/Meiji_Restoration"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "aliases": [
+   "Rich country, strong army",
+   "Meiji modernization"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Japan",
+     "src": "https://grokipedia.com/page/Fukoku_ky%C5%8Dhei",
+     "note": "Guided reform from 1868; universal male conscription began in 1873.",
+     "period": "1868–1912"
+    }
+   ]
+  },
+  "edge_notes": {
+   "legalism": {
+    "status": "loose",
+    "type": "context",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Fukoku_ky%C5%8Dhei",
+    "note": "The slogan comes from Warring States 'fuguo qiangbing', linked on the page to Legalists like Shang Yang; a borrowed phrase, not a school."
+   }
+  },
+  "parent_note": "Replaced 'the prior sonnō jōi emphasis on isolation' (Grokipedia, Fukoku kyōhei): a successor to mito_school, not its child. Place: Tokyo as seat of the Meiji government; the page dates the program nationally, not to one city."
+ },
+ {
+  "id": "taisho_democracy",
+  "name": "Taishō democracy",
+  "root": false,
+  "root_axis": null,
+  "year": 1912,
+  "year_approx": true,
+  "origin_src": "https://grokipedia.com/page/Taish%C5%8D_Democracy",
+  "origin_note": "'The era of political liberalization and party ascendancy in Japan spanning approximately 1912 to 1932'; Yoshino Sakuzō argued for minponshugi",
+  "place": "Tokyo",
+  "lat": 35.68,
+  "lon": 139.69,
+  "thinkers": [
+   "Yoshino Sakuzō",
+   "Minobe Tatsukichi",
+   "Hara Takashi"
+  ],
+  "parents": [
+   "enlightenment_liberalism"
+  ],
+  "plain": "The early 20th-century push in Japan for party cabinets, wider voting and government by public opinion within the imperial constitution.",
+  "summary": "Liberal constitutional current of about 1912–1932: Yoshino's minponshugi, party cabinets from 1918, male suffrage in 1925; checked by the 1925 Peace Preservation Law.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 3,
+   "marxism": 1,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -1,
+   "hierarchy": -2,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 0
+  },
+  "rationale": {
+   "platonism": "No real link to Platonism.",
+   "aristotelianism": "No real link to Aristotelianism.",
+   "stoicism": "No real link to Stoicism.",
+   "christianity": "No real link to Christianity.",
+   "gnosticism": "No real link to Gnosticism.",
+   "hermeticism": "No real link to Hermeticism.",
+   "enlightenment_liberalism": "Pushed 'civil liberties' and party government, within 'persistent imperial prerogatives' (Grokipedia, Taishō Democracy).",
+   "marxism": "Coexisted with labor agitation and debate on 'social equity' (Grokipedia, Taishō Democracy).",
+   "darwinism": "No real link to Darwinism.",
+   "nietzsche": "No real link to Nietzsche.",
+   "critical_theory": "No real link to critical theory.",
+   "confucianism": "No real link to Confucianism.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "No real link to Buddhism.",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "No real link to Islamic philosophy.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Not carried in an ironic tone.",
+   "abstraction": "Concrete constitutional and electoral reform.",
+   "hierarchy": "Challenged 'oligarchic dominance' but kept the emperor (Grokipedia, Taishō Democracy).",
+   "islam": "No documented relation.",
+   "judaism": "No documented relation.",
+   "romanticism": "No documented relation.",
+   "nationalism": "No documented relation."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Taish%C5%8D_Democracy",
+   "https://grokipedia.com/page/Statism_in_Sh%C5%8Dwa_Japan",
+   "https://grokipedia.com/page/Kokutai"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "aliases": [
+   "Minponshugi",
+   "Taishō Democracy"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Japan",
+     "src": "https://grokipedia.com/page/Taish%C5%8D_Democracy",
+     "note": "Hara Takashi formed the first commoner-led party cabinet in 1918.",
+     "period": "1912–1932"
+    }
+   ]
+  },
+  "edge_notes": {
+   "enlightenment_liberalism": {
+    "status": "influence",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Taish%C5%8D_Democracy",
+    "note": "'Political liberalization' and 'movements for constitutional reform' against oligarchic rule."
+   }
+  },
+  "parent_note": "Minobe's organ theory (Kenpō kōwa, 1912) is on the Statism in Shōwa Japan page. Place Tokyo is the Diet's seat; the page dates the movement nationally."
+ },
+ {
+  "id": "pan_asianism",
+  "name": "Pan-Asianism",
+  "root": false,
+  "root_axis": null,
+  "year": 1880,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Pan-Asianism",
+  "origin_note": "Originated 'in late 19th-century Japan'; the Kōakai (Exalt Asia Society), 'founded in 1880', institutionalized it; Okakura wrote 'Asia is one' in 1903",
+  "place": "Tokyo",
+  "lat": 35.68,
+  "lon": 139.69,
+  "thinkers": [
+   "Okakura Tenshin",
+   "Tarui Tōkichi",
+   "Sun Yat-sen"
+  ],
+  "parents": [
+   "confucian_ethics"
+  ],
+  "plain": "The call for Asian peoples to stand together against Western empires, which Japan later used to justify its own rule over Asia.",
+  "summary": "Ideal of Asian unity from 1880s Japan (Kōakai, Okakura's 'Asia is one'), taken up by Sun Yat-sen; turned to justify expansion in the 1930s.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": -1,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 2,
+   "daoism": 0,
+   "buddhism": 1,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 1,
+   "hierarchy": 1,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 2
+  },
+  "rationale": {
+   "platonism": "No real link to Platonism.",
+   "aristotelianism": "No real link to Aristotelianism.",
+   "stoicism": "No real link to Stoicism.",
+   "christianity": "No real link to Christianity.",
+   "gnosticism": "No real link to Gnosticism.",
+   "hermeticism": "No real link to Hermeticism.",
+   "enlightenment_liberalism": "Early anti-imperialist and partly republican (Tarui), but against Western dominance.",
+   "marxism": "No real link to Marxism.",
+   "darwinism": "No real link to Darwinism.",
+   "nietzsche": "No real link to Nietzsche.",
+   "critical_theory": "No real link to critical theory.",
+   "confucianism": "Saw Asia as 'a hierarchical family of nations' in Confucian terms (Grokipedia, Pan-Asianism).",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "Okakura drew 'on Buddhist and Confucian motifs' (Grokipedia, Pan-Asianism).",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "No real link to Islamic philosophy.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Not carried in an ironic tone.",
+   "abstraction": "Asia as 'a cohesive spiritual entity', an abstract civilizational idea (Grokipedia, Pan-Asianism).",
+   "hierarchy": "Early equality talk gave way to Japanese leadership (Grokipedia, Pan-Asianism).",
+   "islam": "Only tactical contact with pan-Islamists (Okawa, c.1918-1923), an elite discourse rather than a mass movement; no real link to Islam.",
+   "judaism": "No documented relation.",
+   "romanticism": "No documented relation.",
+   "nationalism": "Regional solidarity rather than 'modern nationalism alone', but later infused 'with nationalist urgency'."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Pan-Asianism",
+   "https://grokipedia.com/page/Okakura_Kakuz%C5%8D",
+   "https://grokipedia.com/page/Greater_East_Asia_Co-Prosperity_Sphere"
+  ],
+  "domain": [
+   "politics",
+   "culture"
+  ],
+  "aliases": [
+   "Pan-Asian solidarity",
+   "Greater Asianism",
+   "Kōa"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Japan",
+     "src": "https://grokipedia.com/page/Pan-Asianism",
+     "note": "Kōakai in 1880; momentum after the Russo-Japanese War of 1904–1905.",
+     "period": "1880–1945"
+    },
+    {
+     "place": "China",
+     "src": "https://grokipedia.com/page/Pan-Asianism",
+     "note": "Sun Yat-sen's Greater Asianism, including his 1924 Kobe speech.",
+     "period": "1924"
+    },
+    {
+     "place": "India",
+     "src": "https://grokipedia.com/page/Pan-Asianism",
+     "note": "Tagore engaged and critiqued it (Grokipedia, Pan-Asianism)."
+    }
+   ]
+  },
+  "edge_notes": {
+   "confucian_ethics": {
+    "status": "influence",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Pan-Asianism",
+    "note": "'Incorporated Confucian principles to conceptualize Asia as a hierarchical family of nations'."
+   }
+  },
+  "parent_note": "Place approximate: the page does not give the Kōakai's founding city; Tokyo is used as the likely seat. Okakura's 1903 book is the classic text."
+ },
+ {
+  "id": "showa_statism",
+  "name": "Shōwa statism",
+  "root": false,
+  "root_axis": null,
+  "year": 1919,
+  "year_approx": true,
+  "origin_src": "https://grokipedia.com/page/Statism_in_Sh%C5%8Dwa_Japan",
+  "origin_note": "Precursor: 'the 1919 founding of Yūzonsha by Kita Ikki and Ōkawa Shūmei'; Kita drafted his Outline Plan in Shanghai in 1919; state ideology 'from the late 1920s onward' to 1945",
+  "place": "Shanghai",
+  "lat": 31.23,
+  "lon": 121.47,
+  "thinkers": [
+   "Kita Ikki",
+   "Ōkawa Shūmei",
+   "Araki Sadao"
+  ],
+  "parents": [
+   "kokutai",
+   "nationalism",
+   "pan_asianism",
+   "meiji_bushido"
+  ],
+  "plain": "The 1920s–1945 Japanese creed that put the emperor's state above parties and individuals, backed military rule and expansion in Asia.",
+  "summary": "Kokkashugi: ultranationalist, militarist state ideology of Imperial Japan, late 1920s–1945; Kita Ikki, Kōdōha, Kokutai no Hongi, the 1940 Co-Prosperity Sphere.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": -5,
+   "marxism": -3,
+   "darwinism": 1,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 3,
+   "daoism": 0,
+   "buddhism": -1,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 1,
+   "hierarchy": 5,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 4
+  },
+  "rationale": {
+   "platonism": "No real link to Platonism.",
+   "aristotelianism": "No real link to Aristotelianism.",
+   "stoicism": "No real link to Stoicism.",
+   "christianity": "No real link to Christianity.",
+   "gnosticism": "No real link to Gnosticism.",
+   "hermeticism": "No real link to Hermeticism.",
+   "enlightenment_liberalism": "Rejected 'Western liberal individualism' and dissolved parties (Grokipedia, Statism in Shōwa Japan).",
+   "marxism": "Anti-communist, though Kita's plan nationalized industry and land (Grokipedia, Ikki Kita).",
+   "darwinism": "Autarky and expansion framed as survival amid 'encirclement' (Grokipedia, Statism in Shōwa Japan).",
+   "nietzsche": "No real link to Nietzsche.",
+   "critical_theory": "No real link to critical theory.",
+   "confucianism": "'Integrated Confucian hierarchies' into a 'family state' (Grokipedia, Statism in Shōwa Japan).",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "Buddhism treated as a foreign import absorbed by kokutai; Kita drew on Nichiren (Grokipedia, Ikki Kita).",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "No real link to Islamic philosophy.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Not carried in an ironic tone.",
+   "abstraction": "Mythic kokutai doctrine plus practical total mobilization.",
+   "hierarchy": "'Absolute authority of the state under the Emperor' (Grokipedia, Statism in Shōwa Japan).",
+   "islam": "No documented relation.",
+   "judaism": "No documented relation.",
+   "romanticism": "No documented relation.",
+   "nationalism": "Kita Ikki and Okawa's Yuzonsha was a 'radical nationalist organization'; Kita blended socialism with anti-liberal nationalism."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Statism_in_Sh%C5%8Dwa_Japan",
+   "https://grokipedia.com/page/Ikki_Kita",
+   "https://grokipedia.com/page/Japanese_militarism",
+   "https://grokipedia.com/page/Greater_East_Asia_Co-Prosperity_Sphere",
+   "https://grokipedia.com/page/Kokutai"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "aliases": [
+   "Kokkashugi",
+   "Japanese militarism",
+   "Japanese ultranationalism",
+   "Greater East Asia Co-Prosperity Sphere"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Japan",
+     "src": "https://grokipedia.com/page/Statism_in_Sh%C5%8Dwa_Japan",
+     "note": "Ruling ideology; the Imperial Rule Assistance Association dissolved the parties in 1940.",
+     "period": "late 1920s–1945"
+    },
+    {
+     "place": "Manchuria",
+     "src": "https://grokipedia.com/page/Statism_in_Sh%C5%8Dwa_Japan",
+     "note": "Victories such as the Manchurian Incident of 1931 were claimed as its fruits.",
+     "period": "1931–1945"
+    },
+    {
+     "place": "Southeast Asia",
+     "src": "https://grokipedia.com/page/Greater_East_Asia_Co-Prosperity_Sphere",
+     "note": "The Co-Prosperity Sphere expanded to Indochina, the Dutch East Indies and beyond.",
+     "period": "1940–1945"
+    }
+   ]
+  },
+  "edge_notes": {
+   "kokutai": {
+    "status": "direct",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Statism_in_Sh%C5%8Dwa_Japan",
+    "note": "'Emphasizing the kokutai', systematized in the 1937 Kokutai no Hongi."
+   },
+   "nationalism": {
+    "status": "influence",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Statism_in_Sh%C5%8Dwa_Japan",
+    "note": "A 'syncretic political ideology' blending 'ultranationalism' and militarism; unlike European popular nationalism."
+   },
+   "pan_asianism": {
+    "status": "influence",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Greater_East_Asia_Co-Prosperity_Sphere",
+    "note": "Ideologues framed the Co-Prosperity Sphere 'as an extension of pan-Asianism'."
+   },
+   "meiji_bushido": {
+    "status": "influence",
+    "type": "influence",
+    "strength": "weak",
+    "src": "https://grokipedia.com/page/Statism_in_Sh%C5%8Dwa_Japan",
+    "note": "Araki's kōdō 'fused bushidō ethics with emperor-centric statism'."
+   }
+  },
+  "parent_note": "Not linked to fascism: 'retrospectively likened to fascism by some scholars', it 'lacked self-identification as such' (Grokipedia, Statism in Shōwa Japan). Kita's 1919 draft was published in 1923."
+ },
+ {
+  "id": "kyoto_school",
+  "name": "Kyoto School",
+  "root": false,
+  "root_axis": null,
+  "year": 1911,
+  "year_approx": false,
+  "origin_src": "https://plato.stanford.edu/entries/kyoto-school/",
+  "origin_note": "Nishida Kitarō began his system 'in his maiden work, An Inquiry into the Good, published in 1911', which won him a post at Kyoto University (SEP, Kyoto School)",
+  "place": "Kyoto",
+  "lat": 35.03,
+  "lon": 135.78,
+  "thinkers": [
+   "Nishida Kitarō",
+   "Tanabe Hajime",
+   "Nishitani Keiji"
+  ],
+  "parents": [
+   "zen",
+   "phenomenology",
+   "hegelian_dialectic"
+  ],
+  "plain": "Japanese philosophers at Kyoto who used Western philosophy to think through Zen ideas, above all 'absolute nothingness'.",
+  "summary": "School of Nishida, Tanabe and Nishitani at Kyoto from 1911: 'pure experience' and 'absolute nothingness'; wartime symposia drew charges of nationalism.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 1,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 0,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 1,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 1,
+   "buddhism": 4,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 5,
+   "hierarchy": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 1
+  },
+  "rationale": {
+   "platonism": "No real link to Platonism.",
+   "aristotelianism": "No real link to Aristotelianism.",
+   "stoicism": "No real link to Stoicism.",
+   "christianity": "Ueda read Zen 'in relation to Meister Eckhart'; Christian mysticism as a dialogue partner (SEP).",
+   "gnosticism": "No real link to Gnosticism.",
+   "hermeticism": "No real link to Hermeticism.",
+   "enlightenment_liberalism": "No real link to Enlightenment liberalism.",
+   "marxism": "No real link to Marxism.",
+   "darwinism": "No real link to Darwinism.",
+   "nietzsche": "Nishitani read nothingness in Nietzsche and Heidegger, finding 'residues of an ontological bias' (SEP, Kyoto School).",
+   "critical_theory": "No real link to critical theory.",
+   "confucianism": "No real link to Confucianism.",
+   "daoism": "SEP traces 'Buddhist and Daoist sources of the idea of absolute nothingness'.",
+   "buddhism": "Built on 'Mahāyāna Buddhist doctrines, particularly Zen' (Grokipedia, Kyoto School).",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "No real link to Islamic philosophy.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Not carried in an ironic tone.",
+   "abstraction": "A metaphysics of 'absolute nothingness', among the most abstract on the map.",
+   "hierarchy": "Philosophical, not political; wartime nationalism charges are contested (SEP).",
+   "islam": "No documented relation.",
+   "judaism": "No documented relation.",
+   "romanticism": "No documented relation.",
+   "nationalism": "Mixed: its wartime writings were co-opted by extreme nationalism they tried to reorient; scholars still dispute complicity."
+  },
+  "stories": [],
+  "sources": [
+   "https://plato.stanford.edu/entries/kyoto-school/",
+   "https://plato.stanford.edu/entries/nishida-kitaro/",
+   "https://grokipedia.com/page/Kyoto_School"
+  ],
+  "domain": [
+   "philosophy",
+   "religion"
+  ],
+  "aliases": [
+   "Kyōto-gakuha",
+   "Philosophy of absolute nothingness"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Kyoto",
+     "src": "https://grokipedia.com/page/Kyoto_School",
+     "note": "Centered on Kyoto Imperial University's philosophy department.",
+     "period": "1911–1945"
+    },
+    {
+     "place": "North America",
+     "src": "https://plato.stanford.edu/entries/kyoto-school/",
+     "note": "Abe Masao contributed 'to inter-religious dialogue in North America'."
+    }
+   ]
+  },
+  "edge_notes": {
+   "zen": {
+    "status": "influence",
+    "type": "influence",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Kyoto_School",
+    "note": "Integrated Western methods 'with Mahāyāna Buddhist doctrines, particularly Zen'; Nishida kept 'a dedicated practice of Zen' (SEP)."
+   },
+   "phenomenology": {
+    "status": "influence",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Kyoto_School",
+    "note": "Integrated 'phenomenology and idealism'; Nishitani studied with Heidegger 1937–1939."
+   },
+   "hegelian_dialectic": {
+    "status": "influence",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Kyoto_School",
+    "note": "'Adapts Hegelian dialectics' into a self-negating process."
+   }
+  },
+  "parent_note": "Wartime role contested: 1942 'Overcoming Modernity' and 1943 world-history roundtables (Grokipedia, Kyoto School); SEP reports critics citing 'a nationalistic character'. No edge to showa_statism."
  }
 ]
