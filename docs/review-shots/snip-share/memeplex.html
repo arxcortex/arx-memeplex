@@ -1036,7 +1036,7 @@ function applyFilter(init) {
   filtBtn.querySelector('.n').textContent = filterOn() ? `${n}/${ideas.length}` : '';
   if (current && !inFilter(byId[current])) closePanel();
   if (!init) { highlight(current || null); applyLens(lensAx); }
-  window.__filter = { rootsOnly: filt.rootsOnly, sel: [...filt.sel], dom: filt.dom, visible: n, hidePol: filt.hidePol };
+  window.__filter = { rootsOnly: filt.rootsOnly, sel: [...filt.sel], dom: filt.dom, visible: n, hidePol: filt.hidePol, edgesHidden: lines.filter(l => !l.visible).length };
 }
 function clearFilter() { filt.hidePol = false; filt.rootsOnly = false; filt.sel.clear(); filt.dom = ''; applyFilter(); }
 filtBox.querySelectorAll('.dchip').forEach(c => c.onclick = () => { filt.dom = c.dataset.dom; applyFilter(); });
