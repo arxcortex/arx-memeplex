@@ -117,7 +117,7 @@ select option:checked,select option:hover,select option:focus{background:#f0b35a
 body.phone #phonenote{display:block;position:fixed;z-index:30;left:50%;top:76px;transform:translateX(-50%);width:min(360px,92vw);padding:12px 14px;border-radius:12px;text-align:center;font-family:var(--serif);font-size:16px;color:var(--ink)}
 body.phone #phonenote a{display:inline-block;margin-top:6px;font-family:var(--mono);font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--amber-bright)}
 body.phone #stage canvas{pointer-events:none}
-body.phone #tb button:not([data-k=search]):not([data-k=dice]):not([data-k=games]):not([data-k=tours]):not([data-k=snip]):not([data-k=politics]):not([data-k=hidepol]),body.phone #tb .sep,body.phone #legend{display:none!important}
+body.phone #tb button:not([data-k=search]):not([data-k=dice]):not([data-k=games]):not([data-k=tours]):not([data-k=snip]):not([data-k=politics]):not([data-k=hidepol]):not([data-k=lines]),body.phone #tb .sep,body.phone #legend{display:none!important}
 body.phone #panel{top:0;height:100%;height:100dvh;z-index:40}
 body.phone #tourbar{bottom:auto;top:50%;transform:translate(-50%,-50%);width:min(380px,92vw)}
 body.phone #tourbar .tc{font-size:18px}
@@ -585,7 +585,16 @@ const ROOT_PALETTE = ['#e89968','#7fb3d5','#c39bd3','#76d7a4','#f4d03f','#ec7063
 const roots = ideas.filter(d => d.root).sort((a, b) => a.year - b.year);
 const families = {}; roots.forEach((r, i) => { r.rootColor = new THREE.Color(ROOT_PALETTE[i % ROOT_PALETTE.length]);
   families[r.id] = new Set([r.id, ...lineage(r.id).dn]); });
-const filt = { rootsOnly: false, sel: new Set(), dom: '', hidePol: false };
+const filt = { rootsOnly: false, sel: new Set(), dom: '', hidePol: false, noLines: false };
+/* Lines toggle (L): when off, only the lineage lines of the hovered and the open idea are drawn */
+setInterval(() => { let k = ''; try { k = [filt.noLines, current, hovered, window.__pol && __pol.on, window.__pol && __pol.country, window.__pol && __pol.fac && __pol.fac.size].join('|'); } catch (e) { return; } if (k !== applyLines.k) { applyLines.k = k; applyLines(); } }, 250);
+function applyLines() { let ids = []; try { ids = [current, hovered]; } catch (e) {} // let-bindings may not exist yet at first applyFilter
+  const Ls = filt.noLines ? ids.filter(id => id && byId[id]).map(id => { const L = lineage(id), up = k => k === id || L.up.has(k), dn = k => k === id || L.dn.has(k); return (a, b) => (up(a) && up(b)) || (dn(a) && dn(b)); }) : [];
+  const pol = window.__pol && __pol.on && __pol.fac && __pol.fac.size ? new Set() : null; // politics view: only edges on the ancestor chains of this country's factions
+  if (pol) __pol.fac.forEach(id => { if (byId[id]) { pol.add(id); lineage(id).up.forEach(k => pol.add(k)); } });
+  const own = pol && !filt.noLines ? ids.filter(id => id && byId[id]).map(id => { const L = lineage(id), up = k => k === id || L.up.has(k), dn = k => k === id || L.dn.has(k); return (a, b) => (up(a) && up(b)) || (dn(a) && dn(b)); }) : Ls;
+  lines.forEach(l => { const { a, b } = l.userData; const base = pol ? (pol.has(a) && pol.has(b)) && !filt.noLines : !filt.noLines; l.visible = l.userData.fv !== false && (base || own.some(f => f(a, b))); });
+  const lb = document.getElementById('linesbtn'); if (lb) { lb.classList.toggle('on', !filt.noLines); lb.setAttribute('aria-pressed', String(!filt.noLines)); } }
 /* Abrahamic: not a domain or axis, a derived group. Rule: the idea scores 4+ ("comes straight from it") on the Christianity
    or Islamic philosophy axis. No Judaism node or axis exists yet, so nothing is added for it. */
 const ABRAHAMIC_IDS = ['sufism', 'asharism']; // Islamic ideas that score 0 on the Islamic philosophy (falsafa) axis, added by id
@@ -778,6 +787,7 @@ function closePanel() {
 }
 const LINE_UP = new THREE.Color(0xe89968), LINE_DN = new THREE.Color(0xe8e2d4), LINE_BASE = new THREE.Color(0xb87333);
 function highlight(id) {
+  if (filt.noLines) setTimeout(applyLines);
   // focus+context: the whole ancestry (copper) and descent (ivory) stay lit, the rest recedes
   const L = id ? lineage(id) : null, F = filterOn(), vis = d => inFilter(d);
   const inUp = k => k === id || L.up.has(k), inDn = k => k === id || L.dn.has(k);
@@ -857,7 +867,7 @@ renderer.domElement.addEventListener('pointermove', e => {
   if (e.pointerType !== 'mouse') return;
   const d = pick(e);
   renderer.domElement.style.cursor = d ? 'pointer' : 'grab';
-  if ((d && d.id) !== hovered) { hovered = d && d.id; if (!current) highlight(hovered || null); }
+  if ((d && d.id) !== hovered) { hovered = d && d.id; if (!current) highlight(hovered || null); if (filt.noLines) applyLines(); }
   if (d) { tip.textContent = `${d.name} · ${fmtYear(d.year, d.year_approx)}`; gsap.set(tip, { autoAlpha: 1, x: e.clientX + 14, y: e.clientY - 10 }); }
   else gsap.set(tip, { autoAlpha: 0 });
 });
@@ -1032,7 +1042,7 @@ function applyFilter(init) {
   const n = ideas.filter(inFilter).length;
   filtTg.setAttribute('aria-pressed', filt.rootsOnly); filtHp.setAttribute('aria-pressed', filt.hidePol);
   ideas.forEach(d => { d.__hid = filt.hidePol && isPol(d); d.star.grp.visible = !d.__hid; });
-  lines.forEach(l => { const { a, b } = l.userData; l.visible = !(byId[a] && byId[a].__hid) && !(byId[b] && byId[b].__hid); });
+  lines.forEach(l => { const { a, b } = l.userData; l.userData.fv = !(byId[a] && byId[a].__hid) && !(byId[b] && byId[b].__hid); }); applyLines();
   const hb = document.getElementById('hidepolbtn'); if (hb) { hb.classList.toggle('on', filt.hidePol); hb.setAttribute('aria-pressed', filt.hidePol); }
   filtBox.querySelectorAll('.dchip').forEach(c => c.setAttribute('aria-pressed', c.dataset.dom === filt.dom));
   filtBox.querySelectorAll('.chip').forEach(c => c.setAttribute('aria-pressed', filt.sel.has(c.dataset.root)));
@@ -1386,6 +1396,10 @@ window.__memeplex = { cardIdea, cardCompare, shareIdea, shareCompare, focusIdea,
     tb.insertBefore(hb, tb.querySelector('.sep')); hb.onclick = () => { filt.hidePol = !filt.hidePol; applyFilter(); };
     addEventListener('keydown', e => { const t = document.activeElement; if ((e.key === 'h' || e.key === 'H') && !e.metaKey && !e.ctrlKey && !e.altKey && !(t && (/^(INPUT|TEXTAREA|SELECT)$/.test(t.tagName) || t.isContentEditable))) hb.click(); });
     addEventListener('keydown', e => { const t = document.activeElement; if ((e.key === 'p' || e.key === 'P') && !e.metaKey && !e.ctrlKey && !e.altKey && !(t && /^(INPUT|TEXTAREA|SELECT)$/.test(t.tagName))) pbtn.click(); }); }
+  { const lb = document.createElement('button'); lb.type = 'button'; lb.dataset.k = 'lines'; lb.id = 'linesbtn'; lb.title = 'Lines: show or hide lineage lines; when hidden, the hovered or selected idea still shows its lines (L)'; lb.setAttribute('aria-label', lb.title);
+      lb.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19L12 5l7 14M5 19h14"/></svg><span class="t">Lines</span>';
+      tb.insertBefore(lb, tb.querySelector('.sep')); lb.onclick = () => { filt.noLines = !filt.noLines; applyLines(); };
+      addEventListener('keydown', e => { const t = document.activeElement; if ((e.key === 'l' || e.key === 'L') && !e.metaKey && !e.ctrlKey && !e.altKey && !(t && (/^(INPUT|TEXTAREA|SELECT)$/.test(t.tagName) || t.isContentEditable))) lb.click(); }); applyLines(); }
   const pnl = document.createElement('div'); pnl.id = 'pViews'; pnl.className = 'pp gl';
   pnl.innerHTML = '<div class="ph">Views</div><div class="vw">' + Object.entries(NAMES).map(([k, n]) => `<button type="button" class="vbtn" data-v="${k}" aria-pressed="false">${n}</button>`).join('') +
     '</div><p class="vnote">Alternate shapes for fun. Older ideas always sit lower or nearer the centre than the ideas they led to. Stretch works in the default map only.</p><details class="vsrc"><summary>About the shapes</summary><ul><li><b>Helix</b>: radius, pitch and strand spacing measured from B-DNA structure <a href="https://www.rcsb.org/structure/1BNA" target="_blank" rel="noopener">PDB 1BNA</a> (wwPDB data, CC0).</li><li><b>Brain</b>: points sampled from <a href="https://opengameart.org/content/brain-and-skull" target="_blank" rel="noopener">Brain and Skull</a> by Drummyfish, a model drawn from MRI (CC0).</li><li><b>Tree of life</b>: grown in code (L-system). <b>Galaxy</b>: logarithmic spiral arms in code. <b>Sphere</b> and <b>Beatific vision</b>: built in code, rings after Dante&rsquo;s nine heavens.</li></ul></details>';
@@ -1880,13 +1894,14 @@ body.pol-on #legend{display:none!important}body.phone.panel-open #polkey{display
 /* ---------- Shareable links: view, filter and open idea live in the URL hash ---------- */
 (() => {
   const state = () => { const p = new URLSearchParams(), v = window.__views ? __views.cur : 'default';
-    if (v && v !== 'default') p.set('v', v); if (v === 'politics' && window.__pol && __pol.country !== __pol.first) p.set('pc', __pol.country); if (filt.dom) p.set('dom', filt.dom); if (filt.rootsOnly) p.set('roots', '1'); if (filt.hidePol) p.set('nopol', '1');
+    if (v && v !== 'default') p.set('v', v); if (v === 'politics' && window.__pol && __pol.country !== __pol.first) p.set('pc', __pol.country); if (filt.dom) p.set('dom', filt.dom); if (filt.rootsOnly) p.set('roots', '1'); if (filt.hidePol) p.set('nopol', '1'); if (filt.noLines) p.set('nolines', '1');
     if (filt.sel.size) p.set('sel', [...filt.sel].join(',')); if (current && byId[current]) p.set('i', current); return p.toString(); };
   let last = null; const write = () => { const s = state(); if (s === last) return; last = s; history.replaceState(null, '', location.pathname + location.search + (s ? '#' + s : '')); };
   const h = new URLSearchParams(location.hash.slice(1)); window.__linkRestore = Object.fromEntries(h);
   if (h.has('dom') || h.has('roots') || h.has('sel') || h.has('nopol')) { filt.hidePol = h.get('nopol') === '1'; const doms = [...document.querySelectorAll('#filt .dchip')].map(c => c.dataset.dom);
     if (doms.includes(h.get('dom'))) filt.dom = h.get('dom'); filt.rootsOnly = h.get('roots') === '1';
     (h.get('sel') || '').split(',').forEach(r => { if (families[r]) filt.sel.add(r); }); applyFilter(); }
+  if (h.get('nolines') === '1') { filt.noLines = true; applyLines(); }
   const restoreCam = () => { const c = (h.get('cam') || '').split(',').map(Number); if (c.length !== 6 || c.some(n => !isFinite(n))) return;
     gsap.killTweensOf(camera.position); gsap.killTweensOf(controls.target); controls.autoRotate = false; camera.position.set(c[0], c[1], c[2]); controls.target.set(c[3], c[4], c[5]); controls.update(); window.__camRestored = true; };
   { const ax = h.get('ax'), s = document.getElementById('axis'); if (ax && [...s.options].some(o => o.value === ax)) { s.value = ax; s.dispatchEvent(new Event('change')); } }
