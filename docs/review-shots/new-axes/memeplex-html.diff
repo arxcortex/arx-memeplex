@@ -1,0 +1,65 @@
+--- docs/review-shots/snip-share/memeplex.html	2026-10-30 07:28:49.246936374 -1000
++++ docs/review-shots/new-axes/memeplex.html	2026-10-30 07:31:02.613107465 -1000
+@@ -336,7 +336,7 @@
+     <div class="k">What you see</div>
+     <ul>
+       <li><b>Each glowing point is one idea.</b> Bigger points have more "children": later ideas that grew from them.</li>
+-      <li><b>Sixteen points are root ideas.</b> Each one starts a tradition, like Plato's theory of Forms for Platonism. On the map they glow like any other point. Click one and its page shows a copper "Root idea of …" badge.</li>
++      <li><b>Nineteen points are root ideas.</b> Each one starts a tradition (Judaism has no root idea on the map yet), like Plato's theory of Forms for Platonism. On the map they glow like any other point. Click one and its page shows a copper "Root idea of …" badge.</li>
+       <li><b>Lines mean "descends from".</b> A line runs from a parent idea to a later idea that borrowed from it. Point at an idea to light up its ancestors (copper) and descendants (white).</li>
+       <li><b>Height is time.</b> Older ideas sit low, newer ones sit high. The map ranks ideas by year rather than using an exact timeline, so crowded centuries don't squash together, and the busy last few centuries get extra height. Dates on the side line mark the eras.</li>
+       <li><b>Names appear as you zoom in.</b> From far away you see the root ideas and the biggest ideas. Smaller ideas show their names as you get closer, and a name that would cover another one waits until there's room. Pointing at any idea shows its name.</li>
+@@ -349,7 +349,7 @@
+     </ul>
+     <p>The faint labels at the edges name these four sides. Ideas with the same two scores are nudged slightly apart so they don't sit on top of each other. Ideas close together on the floor share these two stances, even if they are centuries apart; the tradition scores don't move them.</p>
+     <div class="k">The scores, in plain words</div>
+-    <p>Each idea gets a score from <b>−5 to +5</b> on each of the sixteen traditions: Platonism, Aristotelianism, Stoicism, Christianity, Gnosticism, Hermeticism, Enlightenment liberalism, Marxism, Darwinism, Nietzsche, critical theory, Confucianism, Daoism, Buddhism, Vedanta and Islamic philosophy. <b>+5</b> means it is that tradition or strongly aligned with it. <b>0</b> means no real link. <b>−5</b> means it opposes it. Every score has a one-line reason. Scores are our judgment; dates and places come from cited sources.</p>
++    <p>Each idea gets a score from <b>−5 to +5</b> on each of the twenty traditions: Platonism, Aristotelianism, Stoicism, Christianity, Gnosticism, Hermeticism, Enlightenment liberalism, Marxism, Darwinism, Nietzsche, critical theory, Confucianism, Daoism, Buddhism, Vedanta, Islamic philosophy, Islam, Judaism, Romanticism and Nationalism. Scale: <b>−5 opposes · 0 no link · +5 strongly aligned</b>. +5 means it is that tradition or strongly aligned with it. Every score has a one-line reason. Scores are our judgment; dates and places come from cited sources.</p>
+     <p><b>Stance: hierarchy</b> is a different kind of score. It asks whether the idea thinks some people, beings or powers rightly stand above others. <b>+5</b> strongly favors that kind of ranked order, <b>0</b> is neutral or mixed, <b>−5</b> strongly opposes it. Every idea has one, root ideas included, and it sets the front-back position.</p>
+     <p><b>Stance: abstract vs material</b> asks what reality is made of. <b>+5</b> means ideas, mind or spirit come first (idealist), <b>0</b> is neutral or mixed, <b>−5</b> means matter comes first (materialist). It sets the left-right position.</p>
+     <p><b>Tone</b> is a separate group with two scores: humor and irony. They describe how an idea is expressed, not where it comes from. They are hidden on root ideas.</p>
+@@ -585,7 +585,7 @@
+ /* Abrahamic: not a domain or axis, a derived group. Rule: the idea scores 4+ ("comes straight from it") on the Christianity
+    or Islamic philosophy axis. No Judaism node or axis exists yet, so nothing is added for it. */
+ const ABRAHAMIC_IDS = ['sufism', 'asharism']; // Islamic ideas that score 0 on the Islamic philosophy (falsafa) axis, added by id
+-const ABRAHAMIC = d => Math.max(sc(d, 'christianity'), sc(d, 'islamic_philosophy')) >= 4 || ABRAHAMIC_IDS.includes(d.id);
++const ABRAHAMIC = d => Math.max(sc(d, 'christianity'), sc(d, 'islamic_philosophy'), sc(d, 'islam'), sc(d, 'judaism')) >= 4 || ABRAHAMIC_IDS.includes(d.id);
+ const domOK = d => !filt.dom || (filt.dom === 'abrahamic' ? ABRAHAMIC(d) : (d.domain || []).includes(filt.dom));
+ const treeOn = () => filt.rootsOnly || filt.sel.size > 0;
+ const isPol = d => d.modern_politics === true || Object.keys(d).some(k => /^party_alignment/.test(k));
+@@ -635,7 +635,7 @@
+     gsap.to(d.star.grp.scale, { x: s, y: s, z: s, duration: reduce ? 0 : 0.8, overwrite: 'auto' });
+   });
+   const a = axes.find(x => x.id === ax);
+-  legend.innerHTML = a ? `Colored by ${a.label}<div class="bar"></div>${a.group === 'stance' ? (a.id === 'abstraction' ? 'material (−5) · neutral or mixed (0) · abstract (+5)' : 'opposes (−5) · neutral or mixed (0) · favors (+5)') : 'opposes (−5) · no link (0) · strongly aligned (+5)'}<div class="desc">${a.plain || a.description}${a.group === 'register' ? ' Root ideas stay grey: tone scores are not shown for them.' : ''}</div>`
++  legend.innerHTML = a ? `Colored by ${a.label}<div class="bar"></div>${a.group === 'stance' ? (a.id === 'abstraction' ? 'material (−5) · neutral or mixed (0) · abstract (+5)' : 'opposes (−5) · neutral or mixed (0) · favors (+5)') : '−5 opposes · 0 no link · +5 strongly aligned'}<div class="desc">${a.plain || a.description}${a.group === 'register' ? ' Root ideas stay grey: tone scores are not shown for them.' : ''}</div>`
+     : `Family tree view<div class="desc">Each star is an idea. Higher means newer. Lines link an idea to the ideas it came from. Right is more abstract, left more material; front favors hierarchy, back opposes it. Click a star, or press <b>?</b> for help.</div>`;
+   legend.insertAdjacentHTML('beforeend', WHY_MEMEPLEX);
+ }
+@@ -669,7 +669,7 @@
+   panel.innerHTML = `<button class="close" aria-label="Close">×</button>
+    <div class="k" style="margin-top:0">Compare</div><h2>${esc(a.name)}<br><span style="color:var(--ink-dim);font-size:22px">vs ${esc(b.name)}</span></h2>
+    <div class="when">${fmtYear(a.year, a.year_approx)} · ${fmtYear(b.year, b.year_approx)} · score gap ${dist}</div>
+-   <p class="scale">Bars show each idea's score per tradition (−5 opposes, +5 strongly aligned). Stances: hierarchy (−5 opposes, +5 favors) and abstract vs material (−5 material, +5 abstract). The score gap is 0 for identical scores; bigger means less alike.</p>
++   <p class="scale">Bars show each idea's score per tradition (−5 opposes · 0 no link · +5 strongly aligned). Stances: hierarchy (−5 opposes, +5 favors) and abstract vs material (−5 material, +5 abstract). The score gap is 0 for identical scores; bigger means less alike.</p>
+    <div class="cmp-key"><i style="background:var(--amber)"></i>${esc(a.name)} &nbsp; <i style="background:#e8e2d4"></i>${esc(b.name)}</div>
+    <div class="k">Scores · biggest differences first</div>${ax.map(x => bar(x.label, ra[x.id] || 0, rb[x.id] || 0, x.plain)).join('')}
+    <div class="k">Lineage</div><p class="muted">${rel}</p><div class="chips">${shared.map(k => `<button data-go="${k}">${esc(byId[k].name)}</button>`).join('')}</div>
+@@ -715,7 +715,7 @@
+   const sortR = l => l.filter(a => r0[a.id]).sort((x, y) => Math.abs(r0[y.id]) - Math.abs(r0[x.id]) || r0[y.id] - r0[x.id]);
+   panel.innerHTML = `<button class="close" aria-label="Close">×</button>
+    <h2>${esc(d.name)}</h2><div class="when">${fmtYear(d.year, d.year_approx)}${d.place ? ' · ' + esc(d.place) : ''}</div>
+-   ${d.root ? `<span class="badge" title="The idea that starts one of the sixteen traditions used for scoring">Root idea of ${esc(axes.find(a => a.id === d.root_axis).label)}</span>` : ''}
++   ${d.root ? `<span class="badge" title="The idea that starts one of the traditions used for scoring">Root idea of ${esc(axes.find(a => a.id === d.root_axis).label)}</span>` : ''}
+    <p class="plain">${esc(d.plain || d.summary)}</p>
+    ${d.plain && d.summary ? `<p class="detail">${esc(d.summary)}</p>` : ''}
+    ${window.__pol ? __pol.panelHtml(d) : ''}
+@@ -725,7 +725,7 @@
+    <div class="k">Came from (parents)</div><div class="chips">${d.parents.map(chip).join('') || '<span class="muted">No earlier idea mapped</span>'}</div>
+    <div class="k">Led to (children)</div><div class="chips">${d.children.map(chip).join('') || '<span class="muted">None mapped yet</span>'}</div>
+    <div class="k">Scores</div>
+-   <p class="scale">How strongly this idea aligns with each tradition. <b>+5</b>: it is that tradition or strongly aligned with it. <b>0</b>: no real link. <b>−5</b>: opposes it. Hover a name for what it means. Root ideas show traditions and stance; other ideas also get tone scores below.</p>
++   <p class="scale">How strongly this idea aligns with each tradition: <b>−5 opposes · 0 no link · +5 strongly aligned</b>. Hover a name for what it means. Root ideas show traditions and stance; other ideas also get tone scores below.</p>
+    ${sortR(trad).map(a => bar(a.label, r0[a.id], undefined, a.plain)).join('')}
+    ${st.length ? `<div class="k reg-k">Stance</div><p class="scale">${STANCE_NOTE}</p>${st.map(a => bar(a.label, r0[a.id] || 0, undefined, a.plain)).join('')}` : ''}
+    ${sortR(reg).length ? `<div class="k reg-k">Tone / register</div><p class="scale">${REG_NOTE}</p>${sortR(reg).map(a => bar(a.label, r0[a.id], undefined, a.plain)).join('')}` : ''}
