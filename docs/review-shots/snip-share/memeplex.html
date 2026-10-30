@@ -113,7 +113,7 @@ header{position:absolute;top:0;left:0;right:0;padding:24px 32px;display:flex;jus
 body.phone #phonenote{display:block;position:fixed;z-index:30;left:50%;top:76px;transform:translateX(-50%);width:min(360px,92vw);padding:12px 14px;border-radius:12px;text-align:center;font-family:var(--serif);font-size:16px;color:var(--ink)}
 body.phone #phonenote a{display:inline-block;margin-top:6px;font-family:var(--mono);font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--amber-bright)}
 body.phone #stage canvas{pointer-events:none}
-body.phone #tb button:not([data-k=search]):not([data-k=dice]):not([data-k=games]):not([data-k=tours]):not([data-k=snip]):not([data-k=politics]),body.phone #tb .sep,body.phone #legend{display:none!important}
+body.phone #tb button:not([data-k=search]):not([data-k=dice]):not([data-k=games]):not([data-k=tours]):not([data-k=snip]):not([data-k=politics]):not([data-k=hidepol]),body.phone #tb .sep,body.phone #legend{display:none!important}
 body.phone #panel{top:0;height:100%;height:100dvh;z-index:40}
 body.phone #tourbar{bottom:auto;top:50%;transform:translate(-50%,-50%);width:min(380px,92vw)}
 body.phone #tourbar .tc{font-size:18px}
@@ -305,7 +305,7 @@ body.panel-open #tbp{display:none}
       <button id="filtbtn" type="button" aria-expanded="false" aria-controls="filt" title="Isolate root traditions">Filter <span class="n"></span></button>
       <div id="filt" role="region" aria-label="Filter by root tradition">
         <div class="bh" style="border:0;padding:0;margin-top:0">Domain</div><div class="chips dm"><button class="dchip" type="button" data-dom="" aria-pressed="true">All</button><button class="dchip" type="button" data-dom="politics" aria-pressed="false">Political theory</button><button class="dchip" type="button" data-dom="philosophy" aria-pressed="false">Philosophy</button><button class="dchip" type="button" data-dom="religion" aria-pressed="false">Religion</button><button class="dchip" type="button" data-dom="culture" aria-pressed="false">Internet &amp; culture</button><button class="dchip" type="button" data-dom="abrahamic" aria-pressed="false" title="Ideas rooted in the Abrahamic faiths: scored 4 or 5 (core) on the Christianity or Islamic philosophy axis, plus Sufism and Ash'arism">Abrahamic</button></div>
-        <div class="bh">Traditions</div><div class="row"><button class="tg" type="button" aria-pressed="false">Roots only</button><button class="clr" type="button">Clear</button><button class="clr done" type="button">Done</button></div>
+        <div class="bh">Traditions</div><div class="row"><button class="tg" type="button" aria-pressed="false">Roots only</button><button class="tg hp" type="button" aria-pressed="false" title="Hide every modern politics idea and its links">Hide modern politics</button><button class="clr" type="button">Clear</button><button class="clr done" type="button">Done</button></div>
         <div class="chips"></div>
         <div class="bh">Branches</div><div class="chips br"></div>
         <div class="count"></div>
@@ -401,7 +401,7 @@ const [axes, ideas, thinkerLinks] = await Promise.all([load('axes.json'), load('
   load('thinkers.json').then(o => (o && typeof o === 'object' && !Array.isArray(o)) ? o : {}).catch(() => ({}))]);
 /* optional: Modern politics view config (countries, party colours); a missing file just hides the view */
 /* fallback chain: Pages, then a politics.json beside the page, then the copy embedded here */
-const POLITICS_EMBEDDED = {"note":"Modern politics view. Each country names the idea field that holds its alignment, its party colours, and how strength words map to colour intensity (0..1). Add a country here and an alignment field on ideas to extend the view.","countries":[{"id":"us","name":"United States","field":"party_alignment","parties":{"R":{"label":"Republican","color":"#d62828"},"D":{"label":"Democratic","color":"#1d4ed8"},"mixed":{"label":"Split between the parties","color":"#7b3fb0"}},"mix":{"a":"R","b":"D","mid":"mixed","label":"Shared ancestry (red and blue mixed)"},"strength":{"strong":1,"moderate":0.72,"split":0.85,"lean":0.8,"weak":0.55},"lean_share":0.65,"decay":0.7,"dim":"#2b2925"}]};
+const POLITICS_EMBEDDED = {"note":"Modern politics view. Each country names the idea field that holds its alignment, its party colours, and how strength words map to colour intensity (0..1). Add a country here and an alignment field on ideas to extend the view.","countries":[{"id":"us","name":"United States","field":"party_alignment","parties":{"R":{"label":"Republican","color":"#d62828"},"D":{"label":"Democratic","color":"#1d4ed8"},"mixed":{"label":"Split between the parties","color":"#7b3fb0"}},"mix":{"a":"R","b":"D","mid":"mixed","label":"Shared ancestry (red and blue mixed)"},"strength":{"strong":1,"moderate":0.72,"split":0.85,"lean":0.8,"weak":0.55},"lean_share":0.65,"decay":0.7,"dim":"#2b2925"},{"id":"gb","name":"United Kingdom","field":"party_alignment_gb","mode":"party","parties":{"CON":{"label":"Conservative","color":"#0087DC","src":"https://www.wikidata.org/wiki/Q9626"},"LAB":{"label":"Labour","color":"#DC241F","src":"https://www.wikidata.org/wiki/Q9630"},"REF":{"label":"Reform UK","color":"#12B6CF","src":"https://www.wikidata.org/wiki/Q104721252"},"LD":{"label":"Liberal Democrats","color":"#FAA61A","src":"https://www.wikidata.org/wiki/Q9624"},"GRN":{"label":"Green (England and Wales)","color":"#02A95B","src":"https://www.wikidata.org/wiki/Q9669"},"mixed":{"label":"Split between parties","color":"#7b3fb0"}},"blend":"Two-color blend from the alignment's blend list, weighted toward lean when set","strength":{"strong":1,"moderate":0.72,"split":0.85,"lean":0.8,"weak":0.55},"lean_share":0.65,"decay":0.7,"dim":"#2b2925"},{"id":"fr","name":"France","field":"party_alignment_fr","mode":"party","parties":{"RN":{"label":"National Rally","color":"#104E8B","src":"https://www.wikidata.org/wiki/Q205150"},"REN":{"label":"Renaissance","color":"#FFD600","src":"https://www.wikidata.org/wiki/Q23731823"},"LR":{"label":"The Republicans","color":"#034EA2","src":"https://www.wikidata.org/wiki/Q20012759"},"PS":{"label":"Socialist Party","color":"#E3265B","src":"https://www.wikidata.org/wiki/Q170972"},"LFI":{"label":"La France Insoumise","color":"#56277E","src":"https://www.wikidata.org/wiki/Q27978402"},"mixed":{"label":"Split between parties","color":"#7b3fb0"}},"blend":"Two-color blend from the alignment's blend list, weighted toward lean when set","strength":{"strong":1,"moderate":0.72,"split":0.85,"lean":0.8,"weak":0.55},"lean_share":0.65,"decay":0.7,"dim":"#2b2925"},{"id":"de","name":"Germany","field":"party_alignment_de","mode":"party","parties":{"CDU":{"label":"CDU/CSU","color":"#000000","src":"https://www.wikidata.org/wiki/Q49762","display":"#5c5c5c","display_note":"Official black is invisible on the dim background; render as dark grey with a white outline. CSU blue is #008AC5 (Q49763)."},"SPD":{"label":"SPD","color":"#E3000F","src":"https://www.wikidata.org/wiki/Q49768"},"GRUENE":{"label":"Alliance 90/The Greens","color":"#409A3C","src":"https://www.wikidata.org/wiki/Q49766"},"AFD":{"label":"AfD","color":"#009EE0","src":"https://www.wikidata.org/wiki/Q6721203"},"BSW":{"label":"BSW","color":"#792351","src":"https://www.wikidata.org/wiki/Q123121346"},"FDP":{"label":"FDP","color":"#FFED00","src":"https://www.wikidata.org/wiki/Q13124"},"mixed":{"label":"Split between parties","color":"#7b3fb0"}},"blend":"Two-color blend from the alignment's blend list, weighted toward lean when set","strength":{"strong":1,"moderate":0.72,"split":0.85,"lean":0.8,"weak":0.55},"lean_share":0.65,"decay":0.7,"dim":"#2b2925"},{"id":"ru","name":"Russia","field":"party_alignment_ru","mode":"bloc","parties":{"POWER":{"label":"Ruling bloc (United Russia, Kremlin)","color":"#2056AE","src":"https://www.wikidata.org/wiki/Q151469"},"SYS":{"label":"Systemic opposition (CPRF, LDPR, in the Duma)","color":"#D70000","src":"https://www.wikidata.org/wiki/Q192187"},"NONSYS":{"label":"Non-systemic opposition (Yabloko, exiles)","color":"#00A23D","src":"https://www.wikidata.org/wiki/Q15332"},"mixed":{"label":"Between blocs","color":"#7b3fb0"}},"blend":"Two-color blend from the alignment's blend list, weighted toward lean when set","strength":{"strong":1,"moderate":0.72,"split":0.85,"lean":0.8,"weak":0.55},"lean_share":0.65,"decay":0.7,"dim":"#2b2925","note":"Dominant-party system: color by bloc, defined by relation to the Kremlin. Each bloc takes the Wikidata color of its anchor party: United Russia, CPRF, Yabloko."},{"id":"cn","name":"China","field":"party_alignment_cn","mode":"bloc","parties":{"CORE":{"label":"Party center, Xi line","color":"#DD0000","src":"https://www.wikidata.org/wiki/Q17427"},"REFORM":{"label":"Reform-and-opening line","color":"#E8A317","label_note":"Proposed shade, no party color","legend":"Proposed shade, no party color","src":null,"judgment":true},"LEFT":{"label":"New Left and neo-Maoists","color":"#8B0000","label_note":"Proposed shade, no party color","legend":"Proposed shade, no party color","src":null,"judgment":true},"LIB":{"label":"Liberals and dissidents","color":"#3A7CA5","label_note":"Proposed shade, no party color","legend":"Proposed shade, no party color","src":null,"judgment":true},"mixed":{"label":"Between blocs","color":"#7b3fb0"}},"blend":"Two-color blend from the alignment's blend list, weighted toward lean when set","strength":{"strong":1,"moderate":0.72,"split":0.85,"lean":0.8,"weak":0.55},"lean_share":0.65,"decay":0.7,"dim":"#2b2925","note":"One-party state: color by bloc. CORE takes CCP red from Wikidata (Q17427); the other three are proposed shades because no party colors exist; the legend shows them as 'Proposed shade, no party color'.","legend_note":"REFORM, LEFT and LIB: Proposed shade, no party color"},{"id":"jp","name":"Japan","field":"party_alignment_jp","mode":"party","parties":{"LDP":{"label":"Liberal Democratic Party","color":"#D7003A","src":"https://www.wikidata.org/wiki/Q232595"},"CDP":{"label":"Constitutional Democratic Party","color":"#184589","src":"https://www.wikidata.org/wiki/Q99233271"},"ISHIN":{"label":"Nippon Ishin no Kai","color":"#B8CE43","src":"https://www.wikidata.org/wiki/Q21499745"},"SANSEI":{"label":"Sanseitō","color":"#ED7301","src":"https://www.wikidata.org/wiki/Q113009668"},"KOMEI":{"label":"Komeito","color":"#F55881","src":"https://www.wikidata.org/wiki/Q1061354"},"mixed":{"label":"Split between parties","color":"#7b3fb0"}},"blend":"Two-color blend from the alignment's blend list, weighted toward lean when set","strength":{"strong":1,"moderate":0.72,"split":0.85,"lean":0.8,"weak":0.55},"lean_share":0.65,"decay":0.7,"dim":"#2b2925"}]};
 const okPol = o => (o && Array.isArray(o.countries) && o.countries.length) ? o : null;
 const politicsCfg = (await load('politics.json').then(okPol).catch(() => null))
   || (await fetch('./politics.json', { cache: 'no-cache' }).then(r => r.ok ? r.json() : null).then(okPol).catch(() => null))
@@ -581,15 +581,16 @@ const ROOT_PALETTE = ['#e89968','#7fb3d5','#c39bd3','#76d7a4','#f4d03f','#ec7063
 const roots = ideas.filter(d => d.root).sort((a, b) => a.year - b.year);
 const families = {}; roots.forEach((r, i) => { r.rootColor = new THREE.Color(ROOT_PALETTE[i % ROOT_PALETTE.length]);
   families[r.id] = new Set([r.id, ...lineage(r.id).dn]); });
-const filt = { rootsOnly: false, sel: new Set(), dom: '' };
+const filt = { rootsOnly: false, sel: new Set(), dom: '', hidePol: false };
 /* Abrahamic: not a domain or axis, a derived group. Rule: the idea scores 4+ ("comes straight from it") on the Christianity
    or Islamic philosophy axis. No Judaism node or axis exists yet, so nothing is added for it. */
 const ABRAHAMIC_IDS = ['sufism', 'asharism']; // Islamic ideas that score 0 on the Islamic philosophy (falsafa) axis, added by id
 const ABRAHAMIC = d => Math.max(sc(d, 'christianity'), sc(d, 'islamic_philosophy')) >= 4 || ABRAHAMIC_IDS.includes(d.id);
 const domOK = d => !filt.dom || (filt.dom === 'abrahamic' ? ABRAHAMIC(d) : (d.domain || []).includes(filt.dom));
 const treeOn = () => filt.rootsOnly || filt.sel.size > 0;
-const filterOn = () => treeOn() || !!filt.dom;
-const inFilter = d => domOK(d) && (!treeOn() || (filt.rootsOnly && d.root) || [...filt.sel].some(r => families[r].has(d.id)));
+const isPol = d => d.modern_politics === true || Object.keys(d).some(k => /^party_alignment/.test(k));
+const filterOn = () => treeOn() || !!filt.dom || filt.hidePol;
+const inFilter = d => !(filt.hidePol && isPol(d)) && domOK(d) && (!treeOn() || (filt.rootsOnly && d.root) || [...filt.sel].some(r => families[r].has(d.id)));
 const famOf = d => [...filt.sel].find(r => families[r].has(d.id)); // first selected family (selection order) for tint
 window.__families = Object.fromEntries(roots.map(r => [r.id, families[r.id].size]));
 /* ---------- BRANCHES start: named family views. Members = seeds + descendants via parent edges
@@ -887,7 +888,7 @@ function placeLabels() {
   const W = innerWidth, H = innerHeight, F = filterOn(), placed = [], cand = []; let hidZoom = 0, hidOverlap = 0;
   const hit = (x, y, w) => placed.some(r => x < r[2] && x + w > r[0] && y < r[3] && y + LOD.h > r[1]);
   labels.forEach(o => { const { d, pos, el, center, off } = o;
-    if (off) { el.style.display = 'none'; return; }
+    if (off || (d && d.__hid)) { el.style.display = 'none'; return; }
     tmp.copy(d ? d.pos : pos).project(camera);
     const vis = tmp.z < 1 && Math.abs(tmp.x) < 1.1 && Math.abs(tmp.y) < 1.1;
     if (!vis) { el.style.display = 'none'; return; }
@@ -1009,7 +1010,7 @@ function resetView() {
 }
 document.getElementById('resetbtn').onclick = resetView;
 /* ---------- Filter UI ---------- */
-const filtBtn = document.getElementById('filtbtn'), filtBox = document.getElementById('filt'), filtTg = filtBox.querySelector('.tg'), filtCount = filtBox.querySelector('.count');
+const filtBtn = document.getElementById('filtbtn'), filtBox = document.getElementById('filt'), filtTg = filtBox.querySelector('.tg:not(.hp)'), filtHp = filtBox.querySelector('.tg.hp'), filtCount = filtBox.querySelector('.count');
 filtBox.querySelector('.chips:not(.dm):not(.br)').innerHTML = roots.map(r => `<button class="chip" type="button" aria-pressed="false" data-root="${r.id}" style="--c:#${r.rootColor.getHexString()}" title="${esc(r.name)} and every idea descended from it (${families[r.id].size})"><i></i>${esc(axLabel(r.root_axis))}</button>`).join('');
 filtBox.querySelector('.chips.br').innerHTML = branches.map(b => `<button class="chip" type="button" aria-pressed="false" data-root="${b.key}" style="--c:${b.color}" title="${esc(b.name)} (${b.set.size} ideas)"><i></i>${esc(b.name)}</button>`).join('');
 function frameBranch(set) { const pts = [...set].map(k => byId[k].star.grp.position); if (!pts.length) return; const box = new THREE.Box3().setFromPoints(pts), c = box.getCenter(new THREE.Vector3()), r = Math.max(12, box.getSize(new THREE.Vector3()).length() * 0.75);
@@ -1025,18 +1026,22 @@ function toggleFilt(open = !filtOpen) { filtOpen = open; filtBtn.setAttribute('a
 filtBtn.onclick = () => toggleFilt(); filtBox.querySelector('.done').onclick = () => toggleFilt(false);
 function applyFilter(init) {
   const n = ideas.filter(inFilter).length;
-  filtTg.setAttribute('aria-pressed', filt.rootsOnly);
+  filtTg.setAttribute('aria-pressed', filt.rootsOnly); filtHp.setAttribute('aria-pressed', filt.hidePol);
+  ideas.forEach(d => { d.__hid = filt.hidePol && isPol(d); d.star.grp.visible = !d.__hid; });
+  lines.forEach(l => { const { a, b } = l.userData; l.visible = !(byId[a] && byId[a].__hid) && !(byId[b] && byId[b].__hid); });
+  const hb = document.getElementById('hidepolbtn'); if (hb) { hb.classList.toggle('on', filt.hidePol); hb.setAttribute('aria-pressed', filt.hidePol); }
   filtBox.querySelectorAll('.dchip').forEach(c => c.setAttribute('aria-pressed', c.dataset.dom === filt.dom));
   filtBox.querySelectorAll('.chip').forEach(c => c.setAttribute('aria-pressed', filt.sel.has(c.dataset.root)));
   filtCount.textContent = filterOn() ? `${n} of ${ideas.length} ideas visible` : `All ${ideas.length} ideas visible`;
   filtBtn.querySelector('.n').textContent = filterOn() ? `${n}/${ideas.length}` : '';
   if (current && !inFilter(byId[current])) closePanel();
   if (!init) { highlight(current || null); applyLens(lensAx); }
-  window.__filter = { rootsOnly: filt.rootsOnly, sel: [...filt.sel], dom: filt.dom, visible: n };
+  window.__filter = { rootsOnly: filt.rootsOnly, sel: [...filt.sel], dom: filt.dom, visible: n, hidePol: filt.hidePol };
 }
-function clearFilter() { filt.rootsOnly = false; filt.sel.clear(); filt.dom = ''; applyFilter(); }
+function clearFilter() { filt.hidePol = false; filt.rootsOnly = false; filt.sel.clear(); filt.dom = ''; applyFilter(); }
 filtBox.querySelectorAll('.dchip').forEach(c => c.onclick = () => { filt.dom = c.dataset.dom; applyFilter(); });
 filtTg.onclick = () => { filt.rootsOnly = !filt.rootsOnly; applyFilter(); };
+filtHp.onclick = () => { filt.hidePol = !filt.hidePol; applyFilter(); };
 filtBox.querySelector('.clr').onclick = clearFilter;
 filtBox.querySelectorAll('.chip').forEach(c => c.onclick = () => { const k = c.dataset.root; filt.sel.has(k) ? filt.sel.delete(k) : filt.sel.add(k); applyFilter();
   if (k.startsWith('br:') && filt.sel.has(k)) frameBranch(new Set(ideas.filter(inFilter).map(d => d.id))); });
@@ -1369,9 +1374,13 @@ window.__memeplex = { cardIdea, cardCompare, shareIdea, shareCompare, focusIdea,
   btn.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3c4 3 4 6 0 9s-4 6 0 9M12 3c-4 3-4 6 0 9s4 6 0 9"/></svg><span class="t">Views</span>';
   tb.insertBefore(btn, tb.querySelector('.sep'));
   /* Modern politics gets its own toolbar button so it is findable without opening Views */
-  let pbtn = null; if (NAMES.politics) { pbtn = document.createElement('button'); pbtn.type = 'button'; pbtn.dataset.k = 'politics'; pbtn.id = 'polbtn'; pbtn.title = 'Modern politics: colour US factions by party (P)'; pbtn.setAttribute('aria-label', pbtn.title); pbtn.setAttribute('aria-pressed', 'false');
+  let pbtn = null; if (NAMES.politics) { pbtn = document.createElement('button'); pbtn.type = 'button'; pbtn.dataset.k = 'politics'; pbtn.id = 'polbtn'; pbtn.title = 'Modern politics: colour factions by party or bloc, pick a country in the key (P)'; pbtn.setAttribute('aria-label', pbtn.title); pbtn.setAttribute('aria-pressed', 'false');
     pbtn.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg><span class="t">Politics</span>';
     tb.insertBefore(pbtn, tb.querySelector('.sep')); pbtn.onclick = () => set(cur === 'politics' ? 'default' : 'politics');
+    const hb = document.createElement('button'); hb.type = 'button'; hb.dataset.k = 'hidepol'; hb.id = 'hidepolbtn'; hb.title = 'Hide modern politics: hide every modern politics idea and its links (H)'; hb.setAttribute('aria-label', hb.title); hb.setAttribute('aria-pressed', 'false');
+    hb.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2M3 3l18 18"/></svg><span class="t">Hide politics</span>';
+    tb.insertBefore(hb, tb.querySelector('.sep')); hb.onclick = () => { filt.hidePol = !filt.hidePol; applyFilter(); };
+    addEventListener('keydown', e => { const t = document.activeElement; if ((e.key === 'h' || e.key === 'H') && !e.metaKey && !e.ctrlKey && !e.altKey && !(t && (/^(INPUT|TEXTAREA|SELECT)$/.test(t.tagName) || t.isContentEditable))) hb.click(); });
     addEventListener('keydown', e => { const t = document.activeElement; if ((e.key === 'p' || e.key === 'P') && !e.metaKey && !e.ctrlKey && !e.altKey && !(t && /^(INPUT|TEXTAREA|SELECT)$/.test(t.tagName))) pbtn.click(); }); }
   const pnl = document.createElement('div'); pnl.id = 'pViews'; pnl.className = 'pp gl';
   pnl.innerHTML = '<div class="ph">Views</div><div class="vw">' + Object.entries(NAMES).map(([k, n]) => `<button type="button" class="vbtn" data-v="${k}" aria-pressed="false">${n}</button>`).join('') +
@@ -1787,7 +1796,7 @@ body.snipping #panel,body.snipping #tourbar{visibility:hidden!important}
 #polkey .h{font-family:var(--mono);font-size:9px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-dim);margin-bottom:6px}
 #polkey select{width:100%;margin:2px 0 8px;font:inherit;background:transparent;color:var(--ink);border:1px solid var(--glass-b);border-radius:6px;padding:3px}
 #polkey .sw{display:inline-block;width:11px;height:11px;border-radius:50%;margin-right:6px;vertical-align:-1px}
-#polkey .row{margin:2px 0}#polkey .grad{height:6px;border-radius:3px;margin:4px 0 2px}
+#polkey .row{margin:2px 0}#polkey .jn{font-size:10.5px;color:var(--ink-dim);font-style:italic;margin:0 0 2px 17px}#polkey .grad{height:6px;border-radius:3px;margin:4px 0 2px}
 #polkey .fl button{all:unset;cursor:pointer;display:block;margin:2px 0}#polkey .fl button:hover{color:var(--amber-bright)}
 #polkey details summary{cursor:pointer;font-family:var(--mono);font-size:9px;letter-spacing:.16em;text-transform:uppercase;color:var(--amber);margin-top:6px}
 body.phone #polkey{left:8px;right:8px;bottom:64px;max-width:none;max-height:30vh;font-size:12px}
@@ -1802,9 +1811,10 @@ body.pol-on #legend{display:none!important}body.phone.panel-open #polkey{display
   // share of party a (0..1) for one faction
   const shareA = (c, a) => { const m = c.mix; if (a.party === m.a) return 1; if (a.party === m.b) return 0;
     const l = leanOf(a); return l === m.a ? (c.lean_share ?? 0.65) : l === m.b ? 1 - (c.lean_share ?? 0.65) : 0.5; };
+  const pc = p => p.display || p.color; // display colour (e.g. CDU black drawn #5c5c5c)
   const blend = (c, t) => { const A = col(c.parties[c.mix.a].color), B = col(c.parties[c.mix.b].color), M = col(c.parties[c.mix.mid].color); // t = share of b
     return t <= 0.5 ? A.lerp(M, t * 2) : M.lerp(B, (t - 0.5) * 2); };
-  function compute() { const c = P.cfg, F = c.field; P.fac = new Set(ideas.filter(d => d[F] && c.parties[d[F].party]).map(d => d.id)); P.mix = {};
+  function computeMix() { const c = P.cfg, F = c.field; P.fac = new Set(ideas.filter(d => d[F] && c.parties[d[F].party]).map(d => d.id)); P.mix = {};
     const acc = {}; // id -> [a, b]
     P.fac.forEach(id => { const a = byId[id][F], s = strengthOf(c, a), sa = shareA(c, a);
       const dist = { [id]: 0 }, q = [id]; while (q.length) { const k = q.shift(); (byId[k].parents || []).forEach(p => { if (byId[p] && dist[p] === undefined) { dist[p] = dist[k] + 1; q.push(p); } }); }
@@ -1815,20 +1825,39 @@ body.pol-on #legend{display:none!important}body.phone.panel-open #polkey{display
       const v = acc[d.id]; if (!v) { P.mix[d.id] = { kind: 'none', color: col(c.dim) }; return; }
       const tot = v[0] + v[1], t = v[1] / tot, s = Math.min(1, 0.35 + tot * 0.5);
       P.mix[d.id] = { kind: 'ancestor', t, s, a: v[0], b: v[1], color: blend(c, t).lerp(col(c.dim), (1 - s) * 0.8) }; }); }
+  // generic: any country, party or bloc mode; factions take their party colour (or a two-code blend, weighted by lean); ancestors average the colours they feed
+  const facCol = (c, a) => { const pr = c.parties, bl = Array.isArray(a.blend) && a.blend.length === 2 && pr[a.blend[0]] && pr[a.blend[1]] ? a.blend : null;
+    if (bl) { const l = leanOf(a), w = l === bl[0] ? (c.lean_share ?? 0.65) : l === bl[1] ? 1 - (c.lean_share ?? 0.65) : 0.5; return col(pc(pr[bl[0]])).lerp(col(pc(pr[bl[1]])), 1 - w); }
+    return col(pc(pr[a.party])); };
+  function compute() { const c = P.cfg; if (c.mix) return computeMix(); const F = c.field; P.fac = new Set(ideas.filter(d => d[F] && c.parties[d[F].party]).map(d => d.id)); P.mix = {};
+    const acc = {}; // id -> {r,g,b,w}
+    P.fac.forEach(id => { const a = byId[id][F], s = strengthOf(c, a), fc = facCol(c, a);
+      const dist = { [id]: 0 }, q = [id]; while (q.length) { const k = q.shift(); (byId[k].parents || []).forEach(p => { if (byId[p] && dist[p] === undefined) { dist[p] = dist[k] + 1; q.push(p); } }); }
+      Object.entries(dist).forEach(([k, n]) => { if (!n) return; const w = s * Math.pow(c.decay ?? 0.7, n - 1); if (w < 0.04) return; const v = acc[k] || (acc[k] = { r: 0, g: 0, b: 0, w: 0 }); v.r += fc.r * w; v.g += fc.g * w; v.b += fc.b * w; v.w += w; }); });
+    ideas.forEach(d => { const a = d[F];
+      if (P.fac.has(d.id)) { const s = strengthOf(c, a), p = c.parties[a.party];
+        P.mix[d.id] = { kind: 'faction', party: a.party, s, outline: !!p.display, color: facCol(c, a).lerp(col(c.dim), (1 - s) * DIMS) }; return; }
+      const v = acc[d.id]; if (!v) { P.mix[d.id] = { kind: 'none', color: col(c.dim) }; return; }
+      const s = Math.min(1, 0.35 + v.w * 0.5);
+      P.mix[d.id] = { kind: 'ancestor', s, color: new THREE.Color(v.r / v.w, v.g / v.w, v.b / v.w).lerp(col(c.dim), (1 - s) * 0.8) }; }); }
   function paint() { const dur = reduce ? 0 : 0.8;
     ideas.forEach(d => { const m = P.mix[d.id], c = m.color, sc = m.kind === 'faction' ? 1.5 : m.kind === 'ancestor' ? 0.75 + m.s * 0.4 : 0.55;
       gsap.to(d.star.core.material.color, { r: c.r, g: c.g, b: c.b, duration: dur, overwrite: 'auto' });
-      gsap.to(d.star.halo.material.color, { r: c.r, g: c.g, b: c.b, duration: dur, overwrite: 'auto' });
+      const hc = m.outline ? col('#e8e4da') : c; gsap.to(d.star.halo.material.color, { r: hc.r, g: hc.g, b: hc.b, duration: dur, overwrite: 'auto' });
       gsap.to(d.star.grp.scale, { x: sc, y: sc, z: sc, duration: dur, overwrite: 'auto' }); }); }
   const hex = c => '#' + col(c).getHexString();
+  const swS = p => `background:${hex(pc(p))}${p.display ? ';box-shadow:0 0 0 1.5px #e8e4da' : ''}`;
   function renderKey() { const c = P.cfg, F = c.field, pr = c.parties;
     const fl = [...P.fac].map(id => byId[id]).sort((x, y) => (x[F].party > y[F].party ? 1 : x[F].party < y[F].party ? -1 : x.name.localeCompare(y.name)));
-    key.innerHTML = `<div class="h">Modern politics</div>
+    const bloc = c.mode === 'bloc', judg = Object.values(pr).some(p => p.judgment);
+    key.innerHTML = `<div class="h">Modern politics · ${bloc ? 'coloured by bloc' : 'coloured by party'}</div>
       <select aria-label="Country">${C.map(x => `<option value="${esc(x.id)}"${x.id === P.country ? ' selected' : ''}>${esc(x.name)}</option>`).join('')}</select>
-      ${Object.entries(pr).map(([k, p]) => `<div class="row" data-party="${esc(k)}"><span class="sw" style="background:${hex(p.color)}"></span>${esc(p.label)}</div>`).join('')}
-      <div class="grad" style="background:linear-gradient(90deg,${hex(pr[c.mix.a].color)},${hex(pr[c.mix.mid].color)},${hex(pr[c.mix.b].color)})"></div>
-      <div class="row" style="color:var(--ink-dim)">${esc(c.mix.label)}; brighter = feeds in more. Unrelated ideas are dimmed.</div>
-      <details ${isMobile() ? '' : 'open'}><summary>Factions (${fl.length})</summary><div class="fl">${fl.map(d => `<button data-go="${esc(d.id)}"><span class="sw" style="background:${'#' + P.mix[d.id].color.getHexString()}"></span>${esc(d.name)} · ${esc(pr[d[F].party].label)}${d[F].strength ? ' (' + esc(d[F].strength) + ')' : ''}</button>`).join('')}</div></details>`;
+      ${Object.entries(pr).map(([k, p]) => `<div class="row" data-party="${esc(k)}"${p.judgment ? ' data-judgment="1"' : ''}><span class="sw" style="${swS(p)}"></span>${esc(p.label)}${p.judgment ? `<div class="jn">${esc(p.legend || p.label_note || 'Proposed shade, no party color')}</div>` : ''}${p.display ? `<div class="jn">Drawn ${esc(p.display)} with an outline; official colour ${esc(p.color)}</div>` : ''}</div>`).join('')}
+      ${c.mix ? `<div class="grad" style="background:linear-gradient(90deg,${hex(pr[c.mix.a].color)},${hex(pr[c.mix.mid].color)},${hex(pr[c.mix.b].color)})"></div>
+      <div class="row" style="color:var(--ink-dim)">${esc(c.mix.label)}; brighter = feeds in more. Unrelated ideas are dimmed.</div>`
+      : `<div class="row" style="color:var(--ink-dim)">Two-${bloc ? 'bloc' : 'party'} factions blend both colours. Ancestors mix the colours of the factions they feed; brighter = feeds in more. Unrelated ideas are dimmed.</div>`}
+      ${c.note ? `<div class="row" style="color:var(--ink-dim);font-size:11px">${esc(c.note)}</div>` : ''}
+      <details ${isMobile() ? '' : 'open'}><summary>Factions (${fl.length})</summary><div class="fl">${fl.map(d => `<button data-go="${esc(d.id)}"><span class="sw" style="background:${'#' + P.mix[d.id].color.getHexString()}${P.mix[d.id].outline ? ';box-shadow:0 0 0 1.5px #e8e4da' : ''}"></span>${esc(d.name)} · ${esc(Array.isArray(d[F].blend) && d[F].blend.length === 2 ? d[F].blend.map(b => pr[b] ? pr[b].label : b).join(' + ') : pr[d[F].party].label)}${d[F].strength ? ' (' + esc(d[F].strength) + ')' : ''}</button>`).join('')}</div></details>`;
     key.querySelector('select').onchange = e => P.setCountry(e.target.value);
     key.querySelectorAll('[data-go]').forEach(b => b.onclick = () => focusIdea(b.dataset.go)); }
   P.setCountry = (id, quiet) => { const c = C.find(x => x.id === id); if (!c) return; P.country = id; P.cfg = c; compute(); if (P.on) { renderKey(); paint(); } };
@@ -1836,19 +1865,19 @@ body.pol-on #legend{display:none!important}body.phone.panel-open #polkey{display
     if (on) { compute(); renderKey(); paint(); } else applyLens(lensAx); };
   P.paint = paint;
   P.panelHtml = d => C.map(c => { const a = d[c.field]; if (!a || !c.parties[a.party]) return ''; const p = c.parties[a.party];
-    return `<div class="polbox" style="border-color:${hex(p.color)}"><div class="k" style="margin:0">Modern politics · ${esc(c.name)}</div>
-      <p class="why"><span class="sw" style="display:inline-block;width:10px;height:10px;border-radius:50%;background:${hex(p.color)};margin-right:6px"></span><b>${esc(p.label)}</b>${a.strength ? ' · ' + esc(a.strength) : ''}${a.lean ? ' · lean ' + esc(a.lean) : ''}</p>
+    return `<div class="polbox" style="border-color:${hex(pc(p))}"><div class="k" style="margin:0">Modern politics · ${esc(c.name)}</div>
+      <p class="why"><span class="sw" style="display:inline-block;width:10px;height:10px;border-radius:50%;${swS(p)};margin-right:6px"></span><b>${esc(Array.isArray(a.blend) && a.blend.length === 2 ? a.blend.map(b => c.parties[b] ? c.parties[b].label : b).join(' + ') : p.label)}</b>${p.judgment ? ' · <i>' + esc(p.legend || 'Proposed shade, no party color') + '</i>' : ''}${a.strength ? ' · ' + esc(a.strength) : ''}${a.lean ? ' · lean ' + esc(a.lean) : ''}</p>
       <p class="why">${esc(a.note || '')}</p>${a.src ? `<p class="why"><a href="${esc(a.src)}" target="_blank" rel="noopener">${esc(decodeURIComponent(a.src.replace(/^https?:\/\//, '')))}</a></p>` : ''}</div>`; }).join('');
   compute(); window.__pol = P;
 })();
 /* ---------- Shareable links: view, filter and open idea live in the URL hash ---------- */
 (() => {
   const state = () => { const p = new URLSearchParams(), v = window.__views ? __views.cur : 'default';
-    if (v && v !== 'default') p.set('v', v); if (v === 'politics' && window.__pol && __pol.country !== __pol.first) p.set('pc', __pol.country); if (filt.dom) p.set('dom', filt.dom); if (filt.rootsOnly) p.set('roots', '1');
+    if (v && v !== 'default') p.set('v', v); if (v === 'politics' && window.__pol && __pol.country !== __pol.first) p.set('pc', __pol.country); if (filt.dom) p.set('dom', filt.dom); if (filt.rootsOnly) p.set('roots', '1'); if (filt.hidePol) p.set('nopol', '1');
     if (filt.sel.size) p.set('sel', [...filt.sel].join(',')); if (current && byId[current]) p.set('i', current); return p.toString(); };
   let last = null; const write = () => { const s = state(); if (s === last) return; last = s; history.replaceState(null, '', location.pathname + location.search + (s ? '#' + s : '')); };
   const h = new URLSearchParams(location.hash.slice(1)); window.__linkRestore = Object.fromEntries(h);
-  if (h.has('dom') || h.has('roots') || h.has('sel')) { const doms = [...document.querySelectorAll('#filt .dchip')].map(c => c.dataset.dom);
+  if (h.has('dom') || h.has('roots') || h.has('sel') || h.has('nopol')) { filt.hidePol = h.get('nopol') === '1'; const doms = [...document.querySelectorAll('#filt .dchip')].map(c => c.dataset.dom);
     if (doms.includes(h.get('dom'))) filt.dom = h.get('dom'); filt.rootsOnly = h.get('roots') === '1';
     (h.get('sel') || '').split(',').forEach(r => { if (families[r]) filt.sel.add(r); }); applyFilter(); }
   const restoreCam = () => { const c = (h.get('cam') || '').split(',').map(Number); if (c.length !== 6 || c.some(n => !isFinite(n))) return;
