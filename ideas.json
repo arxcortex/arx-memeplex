@@ -357,7 +357,8 @@
      "note": "Named in the Grokipedia article “Epicureanism”."
     }
    ]
-  }
+  },
+  "parent_note": "No parent on the map. Epicurus adapted the atomism of Democritus and Leucippus, which is not a node."
  },
  {
   "id": "neoplatonism",
@@ -13650,7 +13651,8 @@
      "note": "Named in the Grokipedia article “Islam by country”."
     }
    ]
-  }
+  },
+  "parent_note": "No parent line drawn. Islam is an Abrahamic religion that presents itself as the original monotheism of earlier prophets such as Abraham."
  },
  {
   "id": "kalam",
@@ -15649,6 +15651,583 @@
    "strength": "strong",
    "src": "https://grokipedia.com/page/Congressional_Progressive_Caucus",
    "note": "A Democratic caucus formed 'to pull the Democratic Party toward more interventionist government'. Sanders, a founder, is an independent."
+  }
+ },
+ {
+  "id": "neo_thomism",
+  "name": "Neo-Thomism",
+  "root": false,
+  "year": 1879,
+  "year_approx": false,
+  "place": "Rome",
+  "lat": 41.9,
+  "lon": 12.45,
+  "origin_src": "https://grokipedia.com/page/Neo-scholasticism",
+  "origin_note": "Pope Leo XIII's encyclical Aeterni Patris (1879) formally endorses the revival of Thomas Aquinas's thought in Catholic education, after 19th-century Italian precursors such as Luigi Taparelli d'Azeglio and Matteo Liberatore",
+  "thinkers": [
+   "Leo XIII",
+   "Désiré-Joseph Mercier",
+   "Réginald Garrigou-Lagrange",
+   "Étienne Gilson",
+   "Jacques Maritain"
+  ],
+  "parents": [
+   "thomism"
+  ],
+  "plain": "A revival of Thomas Aquinas's thought in the Catholic Church from the late 1800s. The pope asked Catholic schools to teach Aquinas again, to defend the faith by reason against modern philosophies.",
+  "summary": "Leo XIII's 1879 call to restore Aquinas in Catholic schools: realism and faith-with-reason against rationalism, Kant and positivism; dominant until Vatican II.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 5,
+   "stoicism": 0,
+   "christianity": 5,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": -2,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 2,
+   "hierarchy": 4
+  },
+  "rationale": {
+   "platonism": "No real link to Platonism.",
+   "aristotelianism": "Prizes Aquinas's synthesis of Aristotle's reason with Christian revelation.",
+   "stoicism": "No real link to Stoicism.",
+   "christianity": "An official Catholic program for defending the faith by reason.",
+   "gnosticism": "No real link to Gnosticism.",
+   "hermeticism": "No real link to Hermeticism.",
+   "enlightenment_liberalism": "Was set against modern rationalism, Kantian idealism and liberal philosophy.",
+   "marxism": "No real link to Marxism.",
+   "darwinism": "No real link to Darwinism.",
+   "nietzsche": "Comes before Nietzsche existed; no link.",
+   "critical_theory": "Comes before Critical theory existed; no link.",
+   "confucianism": "No real link to Confucianism.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "No real link to Buddhism.",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "No real link to Islamic philosophy.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Holds that reason reaches real, unchanging first principles and truths about God.",
+   "hierarchy": "Spread by papal decree, and Pius X's 1910 decree required strict adherence to Aquinas."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Neo-scholasticism",
+   "https://grokipedia.com/page/Pope_Leo_XIII",
+   "https://grokipedia.com/page/Jacques_Maritain",
+   "https://grokipedia.com/page/Étienne_Gilson"
+  ],
+  "domain": [
+   "religion",
+   "philosophy"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Rome",
+     "src": "https://grokipedia.com/page/Neo-scholasticism",
+     "note": "Taught at the College of Saint Thomas and the Pontifical Academy of St. Thomas Aquinas.",
+     "period": "1879 to the 1960s"
+    },
+    {
+     "place": "Louvain, Belgium",
+     "src": "https://grokipedia.com/page/Neo-scholasticism",
+     "note": "Cardinal Mercier's Higher Institute of Philosophy at Louvain advanced neo-Thomist studies.",
+     "period": "1879 to the 1960s"
+    },
+    {
+     "place": "Fribourg, Switzerland",
+     "src": "https://grokipedia.com/page/Neo-scholasticism",
+     "note": "Fribourg promoted a balanced Thomism that later influenced Jacques Maritain.",
+     "period": "1879 to the 1960s"
+    },
+    {
+     "place": "United States",
+     "src": "https://grokipedia.com/page/Neo-scholasticism",
+     "note": "The Catholic University of America, founded 1887, adapted it for an immigrant church.",
+     "period": "1879 to the 1960s"
+    }
+   ]
+  },
+  "aliases": [
+   "Neo-scholasticism",
+   "Neo-Scholasticism"
+  ],
+  "edge_notes": {
+   "thomism": {
+    "status": "direct",
+    "type": "revival",
+    "src": "https://grokipedia.com/page/Neo-scholasticism",
+    "note": "Set out to restore the doctrines and methods of Thomas Aquinas in Catholic schools and seminaries."
+   }
+  }
+ },
+ {
+  "id": "neostoicism",
+  "name": "Neostoicism",
+  "root": false,
+  "year": 1584,
+  "year_approx": false,
+  "place": "Leiden",
+  "lat": 52.16,
+  "lon": 4.49,
+  "origin_src": "https://grokipedia.com/page/Neostoicism",
+  "origin_note": "Justus Lipsius wrote De Constantia in the winter of 1583–84 while teaching at Leiden University during the Dutch Revolt, and published it in 1584; his Politica followed in 1589",
+  "thinkers": [
+   "Justus Lipsius",
+   "Guillaume du Vair",
+   "Pierre Charron"
+  ],
+  "parents": [
+   "stoic_logos",
+   "renaissance_humanism"
+  ],
+  "plain": "A late-1500s revival of Stoic ethics, reshaped to fit Christianity. It taught constancy, steady endurance in times of war and chaos, trusting God's plan instead of the old Stoic idea of fate.",
+  "summary": "Justus Lipsius's Christian Stoicism of constancy amid the wars of religion; his Politica urged obedience and order, and the school shaped Grotius and Hobbes.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 5,
+   "christianity": 4,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": -1,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 1,
+   "hierarchy": 3
+  },
+  "rationale": {
+   "platonism": "No real link to Platonism.",
+   "aristotelianism": "No real link to Aristotelianism.",
+   "stoicism": "Revives Stoic ethics directly from Seneca and other Roman Stoics.",
+   "christianity": "Swaps Stoic fate and determinism for God's providence, free will and grace.",
+   "gnosticism": "No real link to Gnosticism.",
+   "hermeticism": "No real link to Hermeticism.",
+   "enlightenment_liberalism": "Puts order, obedience and religious uniformity ahead of personal liberty.",
+   "marxism": "Comes before Marxism existed; no link.",
+   "darwinism": "Comes before Darwinism existed; no link.",
+   "nietzsche": "Comes before Nietzsche existed; no link.",
+   "critical_theory": "Comes before Critical theory existed; no link.",
+   "confucianism": "No real link to Confucianism.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "No real link to Buddhism.",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "No real link to Islamic philosophy.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Drops the old Stoic materialism for divine providence, but stays focused on practical conduct.",
+   "hierarchy": "Lipsius's Politica urged obedience to authority and religious uniformity to keep the state stable."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Neostoicism",
+   "https://grokipedia.com/page/Justus_Lipsius"
+  ],
+  "domain": [
+   "philosophy"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Leiden, Netherlands",
+     "src": "https://grokipedia.com/page/Neostoicism",
+     "note": "Began here while Lipsius taught history and law at Leiden University, amid a circle of Dutch humanists.",
+     "period": "1580s"
+    },
+    {
+     "place": "Spanish Netherlands",
+     "src": "https://grokipedia.com/page/Neostoicism",
+     "note": "After Lipsius moved to Louvain in 1591 it spread through Habsburg and Jesuit circles.",
+     "period": "from 1591"
+    },
+    {
+     "place": "France",
+     "src": "https://grokipedia.com/page/Neostoicism",
+     "note": "Guillaume du Vair's 1594 book on constancy adapted it for royal circles during the wars of religion.",
+     "period": "1590s"
+    },
+    {
+     "place": "England",
+     "src": "https://grokipedia.com/page/Neostoicism",
+     "note": "Translations of De Constantia reached courtiers and scholars; Francis Bacon cited it.",
+     "period": "late 16th–17th centuries"
+    }
+   ]
+  },
+  "aliases": [
+   "Neo-Stoicism"
+  ],
+  "edge_notes": {
+   "stoic_logos": {
+    "status": "direct",
+    "type": "revival",
+    "src": "https://grokipedia.com/page/Neostoicism",
+    "note": "Revived ancient Stoic ethics, chiefly from Seneca, and adapted them to Christianity."
+   },
+   "renaissance_humanism": {
+    "status": "documented",
+    "type": "influence",
+    "src": "https://grokipedia.com/page/Neostoicism",
+    "note": "Humanist recovery and editing of Seneca, Epictetus and Marcus Aurelius made the revival possible."
+   }
+  }
+ },
+ {
+  "id": "modern_synthesis",
+  "name": "Modern synthesis",
+  "root": false,
+  "year": 1942,
+  "year_approx": true,
+  "place": "Britain and the United States",
+  "lat": null,
+  "lon": null,
+  "origin_src": "https://grokipedia.com/page/Modern_synthesis_(20th_century)",
+  "origin_note": "Built between the early 1930s and the 1950s by population geneticists and naturalists; Julian Huxley named it in Evolution: The Modern Synthesis (1942)",
+  "thinkers": [
+   "Ronald Fisher",
+   "J. B. S. Haldane",
+   "Sewall Wright",
+   "Theodosius Dobzhansky",
+   "Ernst Mayr",
+   "Julian Huxley",
+   "George Gaylord Simpson"
+  ],
+  "parents": [
+   "darwinian_selection"
+  ],
+  "plain": "The mid-1900s merger of Darwin's natural selection with Mendel's genetics. Evolution became a change in how common genes are in a population, driven by mutation, drift, gene flow and selection.",
+  "summary": "Fisher, Haldane, Wright, Dobzhansky, Mayr and Huxley unite Darwin and Mendel: evolution as shifting gene frequencies, the mid-century core of biology.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 0,
+   "marxism": 0,
+   "darwinism": 5,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -4,
+   "hierarchy": 0
+  },
+  "rationale": {
+   "platonism": "No real link to Platonism.",
+   "aristotelianism": "No real link to Aristotelianism.",
+   "stoicism": "No real link to Stoicism.",
+   "christianity": "No real link to Christianity.",
+   "gnosticism": "No real link to Gnosticism.",
+   "hermeticism": "No real link to Hermeticism.",
+   "enlightenment_liberalism": "No real link to Enlightenment liberalism.",
+   "marxism": "No real link to Marxism.",
+   "darwinism": "Makes natural selection, now explained by genetics, the main driver of adaptive evolution.",
+   "nietzsche": "No real link to Nietzsche.",
+   "critical_theory": "No real link to Critical theory.",
+   "confucianism": "No real link to Confucianism.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "No real link to Buddhism.",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "No real link to Islamic philosophy.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Explains how life changes through physical genes and the mathematics of populations.",
+   "hierarchy": "A scientific theory of how species change; it takes no stand on social rank."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Modern_synthesis_(20th_century)",
+   "https://grokipedia.com/page/Julian_Huxley",
+   "https://grokipedia.com/page/Theodosius_Dobzhansky",
+   "https://grokipedia.com/page/Ernst_Mayr"
+  ],
+  "domain": [
+   "philosophy"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "United States",
+     "src": "https://grokipedia.com/page/Modern_synthesis_(20th_century)",
+     "note": "The Society for the Study of Evolution was founded at St. Louis in 1946 to carry the new framework."
+    },
+    {
+     "place": "Britain",
+     "src": "https://grokipedia.com/page/Modern_synthesis_(20th_century)",
+     "note": "Home of Fisher, Haldane and Huxley, and of field studies in ecological genetics in Oxfordshire."
+    }
+   ]
+  },
+  "aliases": [
+   "Neo-Darwinian synthesis",
+   "Modern evolutionary synthesis"
+  ],
+  "edge_notes": {
+   "darwinian_selection": {
+    "status": "direct",
+    "type": "descent",
+    "src": "https://grokipedia.com/page/Modern_synthesis_(20th_century)",
+    "note": "Reconciled Darwin's natural selection with Mendel's laws of inheritance."
+   }
+  }
+ },
+ {
+  "id": "western_marxism",
+  "name": "Western Marxism",
+  "root": false,
+  "year": 1923,
+  "year_approx": false,
+  "place": "Vienna",
+  "lat": 48.21,
+  "lon": 16.37,
+  "origin_src": "https://grokipedia.com/page/Western_Marxism",
+  "origin_note": "György Lukács, in exile in Vienna, published History and Class Consciousness in 1923, the same year as Karl Korsch's Marxism and Philosophy; Maurice Merleau-Ponty coined the name in 1955",
+  "thinkers": [
+   "György Lukács",
+   "Karl Korsch",
+   "Antonio Gramsci",
+   "Maurice Merleau-Ponty"
+  ],
+  "parents": [
+   "marxism",
+   "hegelian_dialectic"
+  ],
+  "plain": "Marxist thinkers in Western Europe from the 1920s who turned from economics to culture and consciousness. They asked why workers' revolutions failed in the West and how capitalism wins consent.",
+  "summary": "Lukács, Korsch and Gramsci rework Marx through Hegel: reification, hegemony and culture over economic determinism, apart from Soviet orthodoxy.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": -3,
+   "marxism": 5,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 4,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -2,
+   "hierarchy": -4
+  },
+  "rationale": {
+   "platonism": "No real link to Platonism.",
+   "aristotelianism": "No real link to Aristotelianism.",
+   "stoicism": "No real link to Stoicism.",
+   "christianity": "No real link to Christianity.",
+   "gnosticism": "No real link to Gnosticism.",
+   "hermeticism": "No real link to Hermeticism.",
+   "enlightenment_liberalism": "Treats liberal, bourgeois ideas as ideology that props up capitalist rule.",
+   "marxism": "Marxist theory throughout, though it rejects Soviet-style orthodoxy.",
+   "darwinism": "No real link to Darwinism.",
+   "nietzsche": "No real link to Nietzsche.",
+   "critical_theory": "Shares Critical theory's focus on ideology and culture, and counts the Frankfurt School among its currents.",
+   "confucianism": "No real link to Confucianism.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "No real link to Buddhism.",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "No real link to Islamic philosophy.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Keeps Marx's materialism but stresses consciousness and culture; critics call it idealist.",
+   "hierarchy": "Aims to end class rule and studies how domination wins consent."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Western_Marxism",
+   "https://grokipedia.com/page/György_Lukács",
+   "https://grokipedia.com/page/Karl_Korsch",
+   "https://grokipedia.com/page/Antonio_Gramsci"
+  ],
+  "domain": [
+   "philosophy",
+   "politics"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Frankfurt, Germany",
+     "src": "https://grokipedia.com/page/Western_Marxism",
+     "note": "The Institute for Social Research, founded in 1923, gave it a home and reopened in Frankfurt in 1951."
+    },
+    {
+     "place": "France",
+     "src": "https://grokipedia.com/page/Western_Marxism",
+     "note": "Althusser's structural Marxism took hold, and Marxism peaked in French universities around 1968.",
+     "period": "1960s"
+    },
+    {
+     "place": "Italy",
+     "src": "https://grokipedia.com/page/Western_Marxism",
+     "note": "The Italian Communist Party's Eurocommunism adapted Gramsci's idea of hegemony.",
+     "period": "1970s–1980s"
+    }
+   ]
+  },
+  "edge_notes": {
+   "marxism": {
+    "status": "direct",
+    "type": "descent",
+    "src": "https://grokipedia.com/page/Western_Marxism",
+    "note": "A body of Marxist theory that broke from Soviet-style economic determinism."
+   },
+   "hegelian_dialectic": {
+    "status": "documented",
+    "type": "influence",
+    "src": "https://grokipedia.com/page/Western_Marxism",
+    "note": "Its founders turned back to Hegel's dialectics to explain why revolution failed in the West."
+   }
+  }
+ },
+ {
+  "id": "new_confucianism",
+  "name": "New Confucianism",
+  "root": false,
+  "year": 1921,
+  "year_approx": true,
+  "place": "Republican China",
+  "lat": null,
+  "lon": null,
+  "origin_src": "https://grokipedia.com/page/New_Confucianism",
+  "origin_note": "Its first generation (roughly 1921–1949) began with Liang Shuming's Eastern and Western Cultures and Their Philosophies (1921) and Xiong Shili's New Treatise (1932); the 1958 New Confucian Manifesto set out the second generation's program",
+  "thinkers": [
+   "Liang Shuming",
+   "Xiong Shili",
+   "Mou Zongsan",
+   "Tang Junyi",
+   "Xu Fuguan",
+   "Zhang Junmai"
+  ],
+  "parents": [
+   "neo_confucianism",
+   "transcendental_idealism"
+  ],
+  "plain": "A 20th-century movement to renew Confucian thought for the modern world. It keeps the Confucian focus on inner moral growth, but argues that this fits with science and democracy.",
+  "summary": "Liang Shuming, Xiong Shili, then Mou Zongsan and Tang Junyi renew Confucian moral metaphysics for science and democracy; strong in Taiwan and Hong Kong.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 1,
+   "marxism": -3,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 5,
+   "daoism": 0,
+   "buddhism": 1,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 3,
+   "hierarchy": 2
+  },
+  "rationale": {
+   "platonism": "No real link to Platonism.",
+   "aristotelianism": "No real link to Aristotelianism.",
+   "stoicism": "No real link to Stoicism.",
+   "christianity": "No real link to Christianity.",
+   "gnosticism": "No real link to Gnosticism.",
+   "hermeticism": "No real link to Hermeticism.",
+   "enlightenment_liberalism": "Argues Confucian ethics can support democracy and science, while rejecting Western individualism.",
+   "marxism": "Its 1958 manifesto defended Chinese culture against Marxist materialism.",
+   "darwinism": "No real link to Darwinism.",
+   "nietzsche": "No real link to Nietzsche.",
+   "critical_theory": "Comes before Critical theory existed; no link.",
+   "confucianism": "Sets out to renew Confucian ethics and metaphysics for modern times.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "Engages Buddhist thought; Xiong Shili wove Buddhist ideas into his Confucian system.",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "No real link to Islamic philosophy.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Holds that moral principle goes beyond the physical world and is known by inner cultivation.",
+   "hierarchy": "Keeps Confucian social harmony and order, but pairs it with constitutional democracy."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/New_Confucianism",
+   "https://grokipedia.com/page/Xiong_Shili",
+   "https://grokipedia.com/page/Carsun_Chang"
+  ],
+  "domain": [
+   "philosophy"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Taiwan",
+     "src": "https://grokipedia.com/page/New_Confucianism",
+     "note": "Mou Zongsan and Tang Junyi settled here after 1949; it supports a Confucian strand of constitutional democracy."
+    },
+    {
+     "place": "Hong Kong",
+     "src": "https://grokipedia.com/page/New_Confucianism",
+     "note": "Qian Mu's New Asia College, founded in 1949, became a hub for Confucian scholarship."
+    },
+    {
+     "place": "Mainland China",
+     "src": "https://grokipedia.com/page/New_Confucianism",
+     "note": "Revived since the 1980s, with new institutes and classes at Peking and Tsinghua Universities.",
+     "period": "since the 1980s"
+    }
+   ]
+  },
+  "edge_notes": {
+   "neo_confucianism": {
+    "status": "documented",
+    "type": "revival",
+    "src": "https://grokipedia.com/page/New_Confucianism",
+    "note": "Sees itself as the third epoch of Confucianism after Song-Ming Neo-Confucianism, which it set out to renew."
+   },
+   "transcendental_idealism": {
+    "status": "documented",
+    "type": "influence",
+    "src": "https://grokipedia.com/page/New_Confucianism",
+    "note": "Engaged Kant's philosophy; Mou Zongsan built a moral metaphysics joining Kantian ethics to Confucian thought."
+   }
   }
  }
 ]
