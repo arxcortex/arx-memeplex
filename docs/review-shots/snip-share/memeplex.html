@@ -300,6 +300,8 @@ body.light select option:checked,body.light select option:hover{background:#f0b3
 #impslider{display:inline-flex;align-items:center;gap:6px;font-family:var(--mono);font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-dim);padding:0 8px;cursor:pointer}
 #impslider input{width:84px;accent-color:#e89968}#impslider b{font-weight:500;color:var(--amber-bright);min-width:16px}
 body.phone #impslider input{width:64px}
+body.phone #tb{flex-wrap:wrap!important;overflow:visible!important;justify-content:flex-end}
+@media (min-width:761px){#tb{flex-wrap:wrap;row-gap:2px;max-width:calc(100vw - 230px)}#impslider{height:30px}} /* toolbar wraps to a second row instead of running off the right edge */
 </style>
 </head>
 <body>
