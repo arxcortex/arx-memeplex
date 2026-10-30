@@ -112,6 +112,35 @@
   "plain": "Philosophy in the medieval Islamic world. Thinkers like al-Kindi and Avicenna took up Aristotle and Plato and joined them with belief in one God."
  },
  {
+  "id": "islam",
+  "label": "Islam",
+  "group": "tradition",
+  "description": "Revelation to Muhammad, the Quran, tawhid, law and the mystical path.",
+  "plain": "The religion founded on the Quran and the teachings of the Prophet Muhammad in 7th-century Arabia."
+ },
+ {
+  "id": "judaism",
+  "label": "Judaism",
+  "group": "tradition",
+  "description": "Covenant, Torah, the Hebrew Bible and rabbinic law.",
+  "plain": "The religion and tradition of the Jewish people, built on the covenant with God and the Torah.",
+  "root_pending": true
+ },
+ {
+  "id": "romanticism",
+  "label": "Romanticism",
+  "group": "tradition",
+  "description": "Feeling, imagination, nature, the folk and the inner self over cold reason.",
+  "plain": "The movement of the late 1700s and 1800s that prized feeling, imagination, nature and folk culture."
+ },
+ {
+  "id": "nationalism",
+  "label": "Nationalism",
+  "group": "tradition",
+  "description": "The nation as the main unit of loyalty and the rightful basis of the state.",
+  "plain": "The belief that each nation should rule itself and that loyalty to the nation comes first."
+ },
+ {
   "id": "humor",
   "label": "Humor",
   "group": "register",
