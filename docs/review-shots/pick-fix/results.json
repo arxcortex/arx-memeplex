@@ -1,0 +1,55 @@
+{
+ "desktop": {
+  "dense": 40,
+  "correct": 38,
+  "ties": 2,
+  "fails": [
+   [
+    "Black feminism",
+    "Critical legal studies",
+    "tie"
+   ],
+   [
+    "Chan / Zen",
+    "Kalam",
+    "tie"
+   ]
+  ],
+  "click": [
+   "Neoconservatism",
+   "Neoconservatism"
+  ],
+  "labels_visible_hit": [
+   39,
+   0
+  ],
+  "snip": [
+   true,
+   "block",
+   "grid"
+  ]
+ },
+ "phone": {
+  "dense": 40,
+  "correct": 38,
+  "ties": 2,
+  "fails": [
+   [
+    "Black feminism",
+    "Critical legal studies",
+    "tie"
+   ],
+   [
+    "Existentialism",
+    "Neoliberalism",
+    "tie"
+   ]
+  ],
+  "click": null,
+  "labels_visible_hit": [
+   8,
+   0
+  ],
+  "snip": true
+ }
+}

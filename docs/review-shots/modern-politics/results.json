@@ -1,0 +1,162 @@
+{
+ "results": {
+  "desk": {
+   "maga": {
+    "kind": "faction",
+    "party": "R",
+    "t": 0,
+    "s": 1,
+    "color": {
+     "isColor": true,
+     "r": 0.6724431569510133,
+     "g": 0.02121901037134225,
+     "b": 0.02121901037134225
+    }
+   },
+   "nd": {
+    "kind": "faction",
+    "party": "D",
+    "t": 1,
+    "s": 1,
+    "color": {
+     "isColor": true,
+     "r": 0.012286488353353386,
+     "g": 0.07618538147321911,
+     "b": 0.6866853124288864
+    }
+   },
+   "neo": {
+    "kind": "faction",
+    "party": "mixed",
+    "t": 0.5,
+    "s": 0.85,
+    "color": {
+     "isColor": true,
+     "r": 0.18372160536318216,
+     "g": 0.047435119779223246,
+     "b": 0.39986222934142207
+    }
+   },
+   "cols": {
+    "maga": "#d62828",
+    "new_democrats": "#1d4ed8",
+    "neoconservatism": "#773eaa"
+   },
+   "anc": [
+    {
+     "id": "enlightenment_liberalism",
+     "t": 0.41510671276976263
+    },
+    {
+     "id": "social_contract",
+     "t": 0.3913116780937394
+    },
+    {
+     "id": "renaissance_humanism",
+     "t": 0.3434932134350026
+    },
+    {
+     "id": "cartesian_dualism",
+     "t": 0.39131167809373946
+    },
+    {
+     "id": "absolute_sovereignty",
+     "t": 0.39131167809373946
+    }
+   ],
+   "ancCol": "#903ca3",
+   "keyShown": true,
+   "keyRows": [
+    "R",
+    "D",
+    "mixed"
+   ],
+   "facs": 14,
+   "country": [
+    "United States"
+   ],
+   "hash": "#v=politics",
+   "none": 101
+  },
+  "phone": {
+   "maga": {
+    "kind": "faction",
+    "party": "R",
+    "t": 0,
+    "s": 1,
+    "color": {
+     "isColor": true,
+     "r": 0.6724431569510133,
+     "g": 0.02121901037134225,
+     "b": 0.02121901037134225
+    }
+   },
+   "nd": {
+    "kind": "faction",
+    "party": "D",
+    "t": 1,
+    "s": 1,
+    "color": {
+     "isColor": true,
+     "r": 0.012286488353353386,
+     "g": 0.07618538147321911,
+     "b": 0.6866853124288864
+    }
+   },
+   "neo": {
+    "kind": "faction",
+    "party": "mixed",
+    "t": 0.5,
+    "s": 0.85,
+    "color": {
+     "isColor": true,
+     "r": 0.18372160536318216,
+     "g": 0.047435119779223246,
+     "b": 0.39986222934142207
+    }
+   },
+   "cols": {
+    "maga": "#d62828",
+    "new_democrats": "#1d4ed8",
+    "neoconservatism": "#773eaa"
+   },
+   "anc": [
+    {
+     "id": "enlightenment_liberalism",
+     "t": 0.41510671276976263
+    },
+    {
+     "id": "social_contract",
+     "t": 0.3913116780937394
+    },
+    {
+     "id": "renaissance_humanism",
+     "t": 0.3434932134350026
+    },
+    {
+     "id": "cartesian_dualism",
+     "t": 0.39131167809373946
+    },
+    {
+     "id": "absolute_sovereignty",
+     "t": 0.39131167809373946
+    }
+   ],
+   "ancCol": "#903ca3",
+   "keyShown": true,
+   "keyRows": [
+    "R",
+    "D",
+    "mixed"
+   ],
+   "facs": 14,
+   "country": [
+    "United States"
+   ],
+   "hash": "#v=politics",
+   "none": 101
+  }
+ },
+ "errors": [],
+ "fails": []
+}
