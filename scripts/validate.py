@@ -87,6 +87,9 @@ for c in cur:
 for d in ideas:
   for r in d.get("related_currents",[]):
     if r not in cids: E.append(f"{d['id']}: related_current {r} missing")
+for _f in ("thinkers.json","politics.json","currents.json"):
+  try: json.load(open(B+_f))
+  except Exception as _e: E.append(f"{_f}: invalid JSON: {_e}")
 # schema: top-level idea keys must be allowed by schema/idea.schema.json
 _S=json.load(open(B+"schema/idea.schema.json"))["items"]; _P=set(_S["properties"]); _R=set(_S.get("required",[]))
 for d in ideas:
