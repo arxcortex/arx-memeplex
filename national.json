@@ -1,0 +1,628 @@
+{
+ "note": "National view, Religion and Philosophy sub-options. Countries mirror politics.json (same ids and order). Each entry: idea (ideas.json id), why (one line), src. status absent = id on main; 'pending:<patch>' = id defined in an unmerged patch; 'missing' = see missing_ideas. No adherent percentages. Inclusion rule: religion lists = living traditions with a significant national presence, including historically significant minorities; philosophy lists = living or historically characteristic schools. 'Historical' = no active school or living institutional carrier today; every philosophy entry carries a call field ('historical' or 'living'), and historical ones are also marked '(historical)' in why.",
+ "countries": [
+  {
+   "id": "us",
+   "name": "United States",
+   "religion": [
+    {
+     "idea": "protestantism",
+     "why": "Largest Christian family; Protestantism formed the cultural and institutional backbone of the colonies.",
+     "src": "https://grokipedia.com/page/Religion_in_the_United_States"
+    },
+    {
+     "idea": "roman_catholicism",
+     "why": "Largest single church; grew from a colonial minority through immigration.",
+     "src": "https://grokipedia.com/page/Religion_in_the_United_States"
+    },
+    {
+     "idea": "evangelicalism",
+     "why": "Evangelical influence across Protestant denominations is a distinct living current.",
+     "src": "https://grokipedia.com/page/Evangelicalism",
+     "status": "missing"
+    },
+    {
+     "idea": "pentecostalism",
+     "why": "Listed among American-born movements alongside Mormons and Adventists.",
+     "src": "https://grokipedia.com/page/Religion_in_the_United_States"
+    },
+    {
+     "idea": "latter_day_saint_movement",
+     "why": "American-origin movement, organized as a church in New York in 1830.",
+     "src": "https://grokipedia.com/page/Mormonism",
+     "status": "pending:lds-patch"
+    },
+    {
+     "idea": "rabbinic_judaism",
+     "why": "Judaism is an established minority faith; rabbinic Judaism is its living form.",
+     "src": "https://grokipedia.com/page/Judaism"
+    }
+   ],
+   "philosophy": [
+    {
+     "idea": "pragmatism",
+     "why": "The best-known nationally characteristic American school.",
+     "src": "https://grokipedia.com/page/American_philosophy",
+     "call": "living"
+    },
+    {
+     "idea": "transcendentalism",
+     "why": "Nineteenth-century New England movement treated as a founding American current (historical).",
+     "src": "https://grokipedia.com/page/Transcendentalism",
+     "call": "historical",
+     "status": "missing"
+    },
+    {
+     "idea": "analytic_philosophy",
+     "why": "Dominant mode of academic philosophy in the US after the mid-20th century.",
+     "src": "https://grokipedia.com/page/American_philosophy",
+     "call": "living",
+     "status": "missing"
+    },
+    {
+     "idea": "scottish_common_sense_realism",
+     "why": "Shaped early American college philosophy before pragmatism (historical).",
+     "src": "https://grokipedia.com/page/Scottish_Enlightenment",
+     "call": "historical"
+    }
+   ]
+  },
+  {
+   "id": "gb",
+   "name": "United Kingdom",
+   "religion": [
+    {
+     "idea": "anglicanism",
+     "why": "The Church of England is the established church in England, with the monarch as Supreme Governor.",
+     "src": "https://grokipedia.com/page/Religion_in_the_United_Kingdom"
+    },
+    {
+     "idea": "calvinism",
+     "why": "The Presbyterian Church of Scotland holds national church status.",
+     "src": "https://grokipedia.com/page/Religion_in_the_United_Kingdom"
+    },
+    {
+     "idea": "roman_catholicism",
+     "why": "Major presence, especially in Northern Ireland and Scotland.",
+     "src": "https://grokipedia.com/page/Religion_in_the_United_Kingdom"
+    },
+    {
+     "idea": "methodism",
+     "why": "Leading Nonconformist tradition alongside Baptists and Evangelicals.",
+     "src": "https://grokipedia.com/page/Religion_in_the_United_Kingdom"
+    },
+    {
+     "idea": "islam",
+     "why": "Established minority community and the largest non-Christian faith in the census.",
+     "src": "https://grokipedia.com/page/Religion_in_the_United_Kingdom"
+    },
+    {
+     "idea": "hinduism",
+     "why": "Established Eastern-religion community alongside Sikhism.",
+     "src": "https://grokipedia.com/page/Religion_in_the_United_Kingdom",
+     "status": "missing"
+    },
+    {
+     "idea": "sikhism",
+     "why": "Established Eastern-religion community alongside Hinduism.",
+     "src": "https://grokipedia.com/page/Religion_in_the_United_Kingdom",
+     "status": "missing"
+    }
+   ],
+   "philosophy": [
+    {
+     "idea": "british_empiricism",
+     "why": "Locke, Berkeley and Hume made empiricism the signature British school (historical).",
+     "src": "https://grokipedia.com/page/Empiricism",
+     "call": "historical",
+     "status": "missing"
+    },
+    {
+     "idea": "utilitarianism",
+     "why": "Bentham and Mill's ethics, a defining British tradition.",
+     "src": "https://grokipedia.com/page/British_philosophy",
+     "call": "living"
+    },
+    {
+     "idea": "analytic_philosophy",
+     "why": "Founded largely at Cambridge and Oxford; still dominant.",
+     "src": "https://grokipedia.com/page/Analytic_philosophy",
+     "call": "living",
+     "status": "missing"
+    },
+    {
+     "idea": "scottish_common_sense_realism",
+     "why": "Reid's Scottish answer to Hume (historical).",
+     "src": "https://grokipedia.com/page/Scottish_Enlightenment",
+     "call": "historical"
+    },
+    {
+     "idea": "burkean_conservatism",
+     "why": "Burke's political philosophy; Grokipedia calls him 'the philosophical progenitor of conservatism'.",
+     "src": "https://grokipedia.com/page/Edmund_Burke",
+     "call": "living"
+    }
+   ]
+  },
+  {
+   "id": "fr",
+   "name": "France",
+   "religion": [
+    {
+     "idea": "roman_catholicism",
+     "why": "Historically dominant faith; nominal identification remains the largest religious group.",
+     "src": "https://grokipedia.com/page/Religion_in_France"
+    },
+    {
+     "idea": "islam",
+     "why": "Largest minority faith, driven by post-war immigration.",
+     "src": "https://grokipedia.com/page/Islam_in_France"
+    },
+    {
+     "idea": "protestantism",
+     "why": "Huguenot legacy plus growing evangelical churches.",
+     "src": "https://grokipedia.com/page/Religion_in_France"
+    },
+    {
+     "idea": "rabbinic_judaism",
+     "why": "Long-established Jewish community.",
+     "src": "https://grokipedia.com/page/Religion_in_France"
+    }
+   ],
+   "philosophy": [
+    {
+     "idea": "cartesian_dualism",
+     "why": "Descartes's rationalism is the foundational French school (historical).",
+     "src": "https://grokipedia.com/page/French_philosophy",
+     "call": "historical"
+    },
+    {
+     "idea": "positivism",
+     "why": "Comte founded positivism in France (historical).",
+     "src": "https://grokipedia.com/page/French_philosophy",
+     "call": "historical"
+    },
+    {
+     "idea": "existentialism",
+     "why": "Sartre, Beauvoir and Camus made postwar existentialism characteristically French (historical).",
+     "src": "https://grokipedia.com/page/French_philosophy",
+     "call": "historical"
+    },
+    {
+     "idea": "structuralism",
+     "why": "Lévi-Strauss and others made structuralism a French movement (historical).",
+     "src": "https://grokipedia.com/page/Structuralism",
+     "call": "historical",
+     "status": "missing"
+    },
+    {
+     "idea": "postmodernism",
+     "why": "French post-structuralism (Foucault, Derrida, Deleuze); mapped as nearest node: postmodernism (not identical).",
+     "src": "https://grokipedia.com/page/Post-structuralism",
+     "call": "living"
+    }
+   ]
+  },
+  {
+   "id": "de",
+   "name": "Germany",
+   "religion": [
+    {
+     "idea": "roman_catholicism",
+     "why": "Catholicism predominates in the south and west.",
+     "src": "https://grokipedia.com/page/Religion_in_Germany"
+    },
+    {
+     "idea": "lutheranism",
+     "why": "Protestantism of the EKD, rooted in Luther's Reformation, predominates in the north.",
+     "src": "https://grokipedia.com/page/Lutheranism",
+     "status": "missing"
+    },
+    {
+     "idea": "islam",
+     "why": "Largest non-Christian faith, mainly from immigration.",
+     "src": "https://grokipedia.com/page/Religion_in_Germany"
+    }
+   ],
+   "philosophy": [
+    {
+     "idea": "transcendental_idealism",
+     "why": "Kant's critical philosophy; Neo-Kantian scholarly renewals continued after the war.",
+     "src": "https://grokipedia.com/page/Neo-Kantianism",
+     "call": "living"
+    },
+    {
+     "idea": "hegelian_dialectic",
+     "why": "Hegel's German idealism (historical).",
+     "src": "https://grokipedia.com/page/German_idealism",
+     "call": "historical"
+    },
+    {
+     "idea": "marxism",
+     "why": "Marx's historical materialism (historical).",
+     "src": "https://grokipedia.com/page/German_philosophy",
+     "call": "historical"
+    },
+    {
+     "idea": "will_to_power",
+     "why": "Nietzsche's philosophy (historical).",
+     "src": "https://grokipedia.com/page/German_philosophy",
+     "call": "historical"
+    },
+    {
+     "idea": "phenomenology",
+     "why": "Husserl's phenomenology and its German successors.",
+     "src": "https://grokipedia.com/page/Phenomenology_(philosophy)",
+     "call": "living"
+    },
+    {
+     "idea": "frankfurt_school",
+     "why": "Critical theory of the Frankfurt Institute for Social Research, now in its third generation.",
+     "src": "https://grokipedia.com/page/Frankfurt_School",
+     "call": "living"
+    }
+   ]
+  },
+  {
+   "id": "ru",
+   "name": "Russia",
+   "religion": [
+    {
+     "idea": "eastern_orthodoxy",
+     "why": "The Russian Orthodox Church is the dominant faith and privileged by the state.",
+     "src": "https://grokipedia.com/page/Russian_Orthodox_Church"
+    },
+    {
+     "idea": "islam",
+     "why": "Largest religious minority, concentrated in Tatarstan and the North Caucasus.",
+     "src": "https://grokipedia.com/page/Religion_in_Russia"
+    },
+    {
+     "idea": "tibetan_buddhism",
+     "why": "Buddhism in Buryatia and Kalmykia is a legally 'traditional' faith.",
+     "src": "https://grokipedia.com/page/Religion_in_Russia"
+    },
+    {
+     "idea": "rabbinic_judaism",
+     "why": "Judaism is one of the four legally privileged 'traditional' faiths.",
+     "src": "https://grokipedia.com/page/Religion_in_Russia"
+    },
+    {
+     "idea": "rodnovery",
+     "why": "Slavic Native Faith, a contemporary neopagan movement.",
+     "src": "https://grokipedia.com/page/Religion_in_Russia"
+    }
+   ],
+   "philosophy": [
+    {
+     "idea": "slavophilism",
+     "why": "Nineteenth-century Slavophile school, a defining Russian current (historical).",
+     "src": "https://grokipedia.com/page/Slavophilia",
+     "call": "historical",
+     "status": "missing"
+    },
+    {
+     "idea": "sophiology",
+     "why": "Solovyov's and his successors' Orthodox religious philosophy (historical).",
+     "src": "https://grokipedia.com/page/Sophiology",
+     "call": "historical",
+     "status": "missing"
+    },
+    {
+     "idea": "russian_cosmism",
+     "why": "Fedorov's cosmism, a distinctively Russian movement.",
+     "src": "https://grokipedia.com/page/Russian_cosmism",
+     "call": "living",
+     "status": "missing"
+    },
+    {
+     "idea": "eurasianism",
+     "why": "Eurasianism, from the 1920s émigrés to its revival.",
+     "src": "https://grokipedia.com/page/Russian_philosophy",
+     "call": "living"
+    },
+    {
+     "idea": "leninism",
+     "why": "Soviet Marxism-Leninism, the official philosophy for most of the 20th century (historical).",
+     "src": "https://grokipedia.com/page/Russian_philosophy",
+     "call": "historical"
+    }
+   ]
+  },
+  {
+   "id": "cn",
+   "name": "China",
+   "religion": [
+    {
+     "idea": "chinese_folk_religion",
+     "why": "Syncretic folk beliefs and ancestral rites are the most widespread practice.",
+     "src": "https://grokipedia.com/page/Chinese_folk_religion",
+     "status": "missing"
+    },
+    {
+     "idea": "pure_land",
+     "why": "Pure Land devotion, systematized in China by Tanluan, Daochuo and Shandao; approximate mapping, as the pure_land node is Honen's Jodo-shu (1175, Kyoto).",
+     "src": "https://grokipedia.com/page/Pure_Land_Buddhism"
+    },
+    {
+     "idea": "zen",
+     "why": "Chan, the Chinese meditation school of Buddhism, 'tracing to Bodhidharma' (node: Chan / Zen).",
+     "src": "https://grokipedia.com/page/Religion_in_China"
+    },
+    {
+     "idea": "daoist_way",
+     "why": "Taoism, an indigenous recognized religion.",
+     "src": "https://grokipedia.com/page/Religion_in_China"
+    },
+    {
+     "idea": "islam",
+     "why": "Recognized religion of the Hui and Uyghur communities.",
+     "src": "https://grokipedia.com/page/Religion_in_China"
+    },
+    {
+     "idea": "protestantism",
+     "why": "Recognized religion; Christianity has grown, including underground networks.",
+     "src": "https://grokipedia.com/page/Religion_in_China"
+    },
+    {
+     "idea": "tibetan_buddhism",
+     "why": "Tibetan Buddhist and Bon traditions in Tibetan areas.",
+     "src": "https://grokipedia.com/page/Religion_in_China"
+    }
+   ],
+   "philosophy": [
+    {
+     "idea": "confucian_ethics",
+     "why": "Confucianism, the central Chinese philosophical tradition.",
+     "src": "https://grokipedia.com/page/Chinese_philosophy",
+     "call": "living"
+    },
+    {
+     "idea": "daoist_way",
+     "why": "Daoist philosophy of Laozi and Zhuangzi.",
+     "src": "https://grokipedia.com/page/Chinese_philosophy",
+     "call": "living"
+    },
+    {
+     "idea": "neo_confucianism",
+     "why": "Song-Ming Neo-Confucian synthesis (historical).",
+     "src": "https://grokipedia.com/page/Chinese_philosophy",
+     "call": "historical"
+    },
+    {
+     "idea": "new_confucianism",
+     "why": "Modern New Confucian revival.",
+     "src": "https://grokipedia.com/page/Chinese_philosophy",
+     "call": "living"
+    },
+    {
+     "idea": "legalism",
+     "why": "Legalism, a nationally characteristic classical school (historical).",
+     "src": "https://grokipedia.com/page/Chinese_philosophy",
+     "call": "historical"
+    },
+    {
+     "idea": "marxism",
+     "why": "Marxism as official state philosophy.",
+     "src": "https://grokipedia.com/page/Chinese_philosophy",
+     "call": "living"
+    }
+   ]
+  },
+  {
+   "id": "jp",
+   "name": "Japan",
+   "religion": [
+    {
+     "idea": "shinto",
+     "why": "Indigenous tradition centered on kami.",
+     "src": "https://grokipedia.com/page/Religion_in_Japan"
+    },
+    {
+     "idea": "pure_land",
+     "why": "Pure Land schools are among Japan's doctrinal Buddhist schools.",
+     "src": "https://grokipedia.com/page/Pure_Land_Buddhism"
+    },
+    {
+     "idea": "zen",
+     "why": "Zen schools of Japanese Buddhism.",
+     "src": "https://grokipedia.com/page/Zen"
+    },
+    {
+     "idea": "nichiren_buddhism",
+     "why": "Nichiren's 13th-century school and its lay movements.",
+     "src": "https://grokipedia.com/page/Nichiren_Buddhism",
+     "status": "missing"
+    },
+    {
+     "idea": "japanese_new_religions",
+     "why": "Postwar proliferation of new religious movements.",
+     "src": "https://grokipedia.com/page/Japanese_new_religions",
+     "status": "missing"
+    },
+    {
+     "idea": "christianity",
+     "why": "Historically significant minority (1549 Jesuit mission, Kirishitan persecution, Shimabara 1637-38); now under 2% by organizational data.",
+     "src": "https://grokipedia.com/page/Religion_in_Japan"
+    }
+   ],
+   "philosophy": [
+    {
+     "idea": "kyoto_school",
+     "why": "Nishida's Kyoto School, Japan's best-known modern school.",
+     "src": "https://grokipedia.com/page/Kyoto_School",
+     "call": "living",
+     "status": "pending:japan-history-patch (PR #21)"
+    },
+    {
+     "idea": "kokugaku",
+     "why": "Edo-period National Learning (historical).",
+     "src": "https://grokipedia.com/page/Japanese_philosophy",
+     "call": "historical"
+    },
+    {
+     "idea": "neo_confucianism",
+     "why": "Edo Neo-Confucianism (historical).",
+     "src": "https://grokipedia.com/page/Japanese_philosophy",
+     "call": "historical"
+    },
+    {
+     "idea": "zen",
+     "why": "Zen as a philosophical tradition.",
+     "src": "https://grokipedia.com/page/Japanese_philosophy",
+     "call": "living"
+    },
+    {
+     "idea": "mito_school",
+     "why": "Mito School, Edo-period nationalist learning (historical).",
+     "src": "https://grokipedia.com/page/Japanese_philosophy",
+     "call": "historical",
+     "status": "pending:japan-history-patch (PR #21)"
+    }
+   ]
+  }
+ ],
+ "missing_ideas": [
+  {
+   "id": "evangelicalism",
+   "name": "Evangelicalism",
+   "origin": "not dated here; needs node later",
+   "src": "https://grokipedia.com/page/Evangelicalism",
+   "countries": [
+    "us"
+   ],
+   "axes": "needs node later"
+  },
+  {
+   "id": "transcendentalism",
+   "name": "American Transcendentalism",
+   "origin": "1830s-1840s, New England",
+   "src": "https://grokipedia.com/page/Transcendentalism",
+   "countries": [
+    "us"
+   ],
+   "axes": "needs node later"
+  },
+  {
+   "id": "analytic_philosophy",
+   "name": "Analytic philosophy",
+   "origin": "late 19th-early 20th century, English-speaking world",
+   "src": "https://grokipedia.com/page/Analytic_philosophy",
+   "countries": [
+    "gb",
+    "us"
+   ],
+   "axes": "needs node later"
+  },
+  {
+   "id": "hinduism",
+   "name": "Hinduism",
+   "origin": "not dated here; needs node later",
+   "src": "https://grokipedia.com/page/Hinduism",
+   "countries": [
+    "gb"
+   ],
+   "axes": "needs node later"
+  },
+  {
+   "id": "sikhism",
+   "name": "Sikhism",
+   "origin": "Guru Nanak (1469-1539), Punjab",
+   "src": "https://grokipedia.com/page/Sikhism",
+   "countries": [
+    "gb"
+   ],
+   "axes": "needs node later"
+  },
+  {
+   "id": "british_empiricism",
+   "name": "British empiricism",
+   "origin": "not dated here; needs node later",
+   "src": "https://grokipedia.com/page/Empiricism",
+   "countries": [
+    "gb"
+   ],
+   "axes": "needs node later"
+  },
+  {
+   "id": "structuralism",
+   "name": "Structuralism",
+   "origin": "not dated here; needs node later",
+   "src": "https://grokipedia.com/page/Structuralism",
+   "countries": [
+    "fr"
+   ],
+   "axes": "needs node later"
+  },
+  {
+   "id": "lutheranism",
+   "name": "Lutheranism",
+   "origin": "early 16th century, Germany (Martin Luther)",
+   "src": "https://grokipedia.com/page/Lutheranism",
+   "countries": [
+    "de"
+   ],
+   "axes": "needs node later"
+  },
+  {
+   "id": "slavophilism",
+   "name": "Slavophilism",
+   "origin": "mid-19th century, Russia",
+   "src": "https://grokipedia.com/page/Slavophilia",
+   "countries": [
+    "ru"
+   ],
+   "axes": "needs node later"
+  },
+  {
+   "id": "sophiology",
+   "name": "Sophiology",
+   "origin": "late 19th century, Russia",
+   "src": "https://grokipedia.com/page/Sophiology",
+   "countries": [
+    "ru"
+   ],
+   "axes": "needs node later"
+  },
+  {
+   "id": "russian_cosmism",
+   "name": "Russian cosmism",
+   "origin": "late 19th century, Russia",
+   "src": "https://grokipedia.com/page/Russian_cosmism",
+   "countries": [
+    "ru"
+   ],
+   "axes": "needs node later"
+  },
+  {
+   "id": "chinese_folk_religion",
+   "name": "Chinese folk religion",
+   "origin": "not dated (ancient, continuous); needs node later",
+   "src": "https://grokipedia.com/page/Chinese_folk_religion",
+   "countries": [
+    "cn"
+   ],
+   "axes": "needs node later"
+  },
+  {
+   "id": "nichiren_buddhism",
+   "name": "Nichiren Buddhism",
+   "origin": "13th century, Japan (Nichiren, 1222-1282)",
+   "src": "https://grokipedia.com/page/Nichiren_Buddhism",
+   "countries": [
+    "jp"
+   ],
+   "axes": "needs node later"
+  },
+  {
+   "id": "japanese_new_religions",
+   "name": "Japanese new religions (shinshukyo)",
+   "origin": "since the mid-19th century, Japan",
+   "src": "https://grokipedia.com/page/Japanese_new_religions",
+   "countries": [
+    "jp"
+   ],
+   "axes": "needs node later"
+  }
+ ]
+}
