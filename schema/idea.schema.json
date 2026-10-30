@@ -553,6 +553,10 @@
         "type": "boolean",
         "description": "Modern politics view tag. Derivable: true whenever the idea has any party_alignment* field."
       },
+      "historically_established": {
+        "type": "boolean",
+        "description": "Modern politics ideas only: true when the idea is at least 25 years old and a named doctrine or tradition that has outlasted any single leader or party term. True ideas stay visible when Hide politics is on."
+      },
       "naming_note": {
         "type": "string",
         "description": "Why the idea carries this name; e.g. a practitioners' name preferred over a later critical label"
