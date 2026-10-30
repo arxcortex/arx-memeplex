@@ -36,8 +36,9 @@ header{position:absolute;top:0;left:0;right:0;padding:24px 32px;display:flex;jus
 #panel{position:absolute;top:0;right:0;bottom:0;width:400px;max-width:100vw;z-index:20;background:linear-gradient(180deg,#111114,#0a0a0c);border-left:1px solid var(--rule);padding:28px 28px 40px;overflow-y:auto;visibility:hidden}
 #panel .close{position:absolute;z-index:2;top:14px;right:16px;background:none;border:1px solid var(--rule);color:var(--amber);font-family:var(--mono);font-size:12px;width:26px;height:26px;cursor:pointer}
 #panel .k{font-family:var(--mono);font-size:9px;letter-spacing:.3em;text-transform:uppercase;color:var(--amber);margin:18px 0 8px}
-#panel .yt{margin-top:18px}#panel .yt a{display:inline-block;padding:8px 12px;border:1px solid var(--rule);border-radius:6px;color:var(--ink);font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;text-decoration:none}#panel .yt a:hover{border-color:var(--amber);color:var(--amber)}
 #panel h2{font-weight:500;font-size:32px;line-height:1.05;padding-right:30px}
+#panel .yt{margin-top:18px}#panel .yt a{display:inline-block;padding:8px 12px;border:1px solid var(--rule);border-radius:6px;color:var(--ink);font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;text-decoration:none}#panel .yt a:hover{border-color:var(--amber);color:var(--amber)}
+#panel .kt2{display:grid;grid-template-columns:1fr 1fr;gap:0 14px}#panel .kt2>div{min-width:0}@media(max-width:420px){#panel .kt2{grid-template-columns:1fr}}
 #panel .when{font-family:var(--mono);font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-dim);margin-top:8px}
 #panel .sum{font-size:18px;line-height:1.4;margin-top:14px}
 #panel .chips button,#panel .chips span{display:inline-block;margin:0 6px 6px 0;background:transparent;border:1px solid var(--rule);color:var(--ink);font-family:var(--serif);font-size:15px;padding:3px 8px}
@@ -112,7 +113,7 @@ header{position:absolute;top:0;left:0;right:0;padding:24px 32px;display:flex;jus
 body.phone #phonenote{display:block;position:fixed;z-index:30;left:50%;top:76px;transform:translateX(-50%);width:min(360px,92vw);padding:12px 14px;border-radius:12px;text-align:center;font-family:var(--serif);font-size:16px;color:var(--ink)}
 body.phone #phonenote a{display:inline-block;margin-top:6px;font-family:var(--mono);font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--amber-bright)}
 body.phone #stage canvas{pointer-events:none}
-body.phone #tb button:not([data-k=search]):not([data-k=dice]):not([data-k=games]):not([data-k=tours]):not([data-k=snip]),body.phone #tb .sep,body.phone #legend{display:none!important}
+body.phone #tb button:not([data-k=search]):not([data-k=dice]):not([data-k=games]):not([data-k=tours]):not([data-k=snip]):not([data-k=politics]),body.phone #tb .sep,body.phone #legend{display:none!important}
 body.phone #panel{top:0;height:100%;height:100dvh;z-index:40}
 body.phone #tourbar{bottom:auto;top:50%;transform:translate(-50%,-50%);width:min(380px,92vw)}
 body.phone #tourbar .tc{font-size:18px}
@@ -148,6 +149,10 @@ body.panel-open #tourbar{left:calc((100vw - 380px)/2)}
 .lbl,.axl{padding:3px 8px;border-radius:999px;background:rgba(6,6,8,.82);box-shadow:0 0 10px 4px rgba(6,6,8,.72);transition:opacity .3s}
 @supports ((backdrop-filter:blur(4px)) or (-webkit-backdrop-filter:blur(4px))){.lbl,.axl{background:rgba(6,6,8,.6);-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px)}}
 .lbl{color:var(--ink)!important}
+.lbl.sel{opacity:1!important;color:#140c04!important;background:#f0b35a!important;font-weight:700;box-shadow:0 0 0 2px rgba(6,6,8,.9),0 0 14px 4px rgba(240,179,90,.55)!important;-webkit-backdrop-filter:none!important;backdrop-filter:none!important}
+#selring{position:absolute;left:0;top:0;width:30px;height:30px;margin:-15px 0 0 -15px;border-radius:50%;border:2px solid #f0b35a;box-shadow:0 0 12px 3px rgba(240,179,90,.7),inset 0 0 8px 2px rgba(240,179,90,.45);pointer-events:none;display:none;z-index:5;animation:selpulse 1.8s ease-in-out infinite}
+@keyframes selpulse{50%{box-shadow:0 0 20px 6px rgba(240,179,90,.45),inset 0 0 10px 3px rgba(240,179,90,.3)}}
+@media (prefers-reduced-motion:reduce){#selring{animation:none}}
 #loading{position:absolute;inset:0;display:grid;place-items:center;z-index:30;font-family:var(--mono);font-size:10px;letter-spacing:.3em;text-transform:uppercase;color:var(--amber);background:var(--bg)}
 footer{position:absolute;right:32px;bottom:20px;z-index:10;font-family:var(--mono);font-size:9px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-faint)}
 #helpbtn{background:rgba(10,10,12,.8);border:1px solid var(--amber);color:var(--amber);font-family:var(--mono);font-size:10px;letter-spacing:.16em;text-transform:uppercase;padding:6px 10px;cursor:pointer;width:220px}
@@ -344,7 +349,7 @@ body.panel-open #tbp{display:none}
     </ul>
     <p>The faint labels at the edges name these four sides. Ideas with the same two scores are nudged slightly apart so they don't sit on top of each other. Ideas close together on the floor share these two stances, even if they are centuries apart; the tradition scores don't move them.</p>
     <div class="k">The scores, in plain words</div>
-    <p>Each idea gets a score from <b>−5 to +5</b> on each of the sixteen traditions: Platonism, Aristotelianism, Stoicism, Christianity, Gnosticism, Hermeticism, Enlightenment liberalism, Marxism, Darwinism, Nietzsche, critical theory, Confucianism, Daoism, Buddhism, Vedanta and Islamic philosophy. <b>+5</b> means it is that tradition or grows straight out of it. <b>0</b> means no real link. <b>−5</b> means it was built to oppose it. Every score has a one-line reason. Scores are our judgment; dates and places come from cited sources.</p>
+    <p>Each idea gets a score from <b>−5 to +5</b> on each of the sixteen traditions: Platonism, Aristotelianism, Stoicism, Christianity, Gnosticism, Hermeticism, Enlightenment liberalism, Marxism, Darwinism, Nietzsche, critical theory, Confucianism, Daoism, Buddhism, Vedanta and Islamic philosophy. <b>+5</b> means it is that tradition or strongly aligned with it. <b>0</b> means no real link. <b>−5</b> means it opposes it. Every score has a one-line reason. Scores are our judgment; dates and places come from cited sources.</p>
     <p><b>Stance: hierarchy</b> is a different kind of score. It asks whether the idea thinks some people, beings or powers rightly stand above others. <b>+5</b> strongly favors that kind of ranked order, <b>0</b> is neutral or mixed, <b>−5</b> strongly opposes it. Every idea has one, root ideas included, and it sets the front-back position.</p>
     <p><b>Stance: abstract vs material</b> asks what reality is made of. <b>+5</b> means ideas, mind or spirit come first (idealist), <b>0</b> is neutral or mixed, <b>−5</b> means matter comes first (materialist). It sets the left-right position.</p>
     <p><b>Tone</b> is a separate group with two scores: humor and irony. They describe how an idea is expressed, not where it comes from. They are hidden on root ideas.</p>
@@ -363,7 +368,7 @@ body.panel-open #tbp{display:none}
   </div></div>
   <footer>Drag to turn · Scroll to zoom · Click an idea · Share card on its page · Filter by tradition · R to reset · ? for help</footer>
 </div>
-<script src="assets/sharecard.js"></script>
+<script src="assets/sharecard.js?v=20261029"></script>
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
 <script type="importmap">
 { "imports": {
@@ -624,7 +629,7 @@ function applyLens(ax) { lensAx = ax; if (window.__pol && __pol.on) { __pol.pain
     gsap.to(d.star.grp.scale, { x: s, y: s, z: s, duration: reduce ? 0 : 0.8, overwrite: 'auto' });
   });
   const a = axes.find(x => x.id === ax);
-  legend.innerHTML = a ? `Colored by ${a.label}<div class="bar"></div>${a.group === 'stance' ? (a.id === 'abstraction' ? 'material (−5) · neutral or mixed (0) · abstract (+5)' : 'opposes (−5) · neutral or mixed (0) · favors (+5)') : 'against (−5) · no link (0) · grows from it (+5)'}<div class="desc">${a.plain || a.description}${a.group === 'register' ? ' Root ideas stay grey: tone scores are not shown for them.' : ''}</div>`
+  legend.innerHTML = a ? `Colored by ${a.label}<div class="bar"></div>${a.group === 'stance' ? (a.id === 'abstraction' ? 'material (−5) · neutral or mixed (0) · abstract (+5)' : 'opposes (−5) · neutral or mixed (0) · favors (+5)') : 'opposes (−5) · no link (0) · strongly aligned (+5)'}<div class="desc">${a.plain || a.description}${a.group === 'register' ? ' Root ideas stay grey: tone scores are not shown for them.' : ''}</div>`
     : `Family tree view<div class="desc">Each star is an idea. Higher means newer. Lines link an idea to the ideas it came from. Right is more abstract, left more material; front favors hierarchy, back opposes it. Click a star, or press <b>?</b> for help.</div>`;
   legend.insertAdjacentHTML('beforeend', WHY_MEMEPLEX);
 }
@@ -636,6 +641,7 @@ applyLens('');
 const panel = document.getElementById('panel');
 /* YouTube search link: plain search URL, no embed, no API key. Adds a context word so the results are about the idea. */
 const ytUrl = d => 'https://www.youtube.com/results?search_query=' + encodeURIComponent(d.name);
+const thrivesList = d => ((d.thrives_in || {}).places || []);
 const esc = s => String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const fmtYear = (y, ap) => (ap ? 'c. ' : '') + (y < 0 ? `${-y} BC` : `AD ${y}`);
 let current = null;
@@ -657,7 +663,7 @@ function renderCompare(a, b) {
   panel.innerHTML = `<button class="close" aria-label="Close">×</button>
    <div class="k" style="margin-top:0">Compare</div><h2>${esc(a.name)}<br><span style="color:var(--ink-dim);font-size:22px">vs ${esc(b.name)}</span></h2>
    <div class="when">${fmtYear(a.year, a.year_approx)} · ${fmtYear(b.year, b.year_approx)} · score gap ${dist}</div>
-   <p class="scale">Bars show each idea's score per tradition (−5 against, +5 grows from it). Stances: hierarchy (−5 opposes, +5 favors) and abstract vs material (−5 material, +5 abstract). The score gap is 0 for identical scores; bigger means less alike.</p>
+   <p class="scale">Bars show each idea's score per tradition (−5 opposes, +5 strongly aligned). Stances: hierarchy (−5 opposes, +5 favors) and abstract vs material (−5 material, +5 abstract). The score gap is 0 for identical scores; bigger means less alike.</p>
    <div class="cmp-key"><i style="background:var(--amber)"></i>${esc(a.name)} &nbsp; <i style="background:#e8e2d4"></i>${esc(b.name)}</div>
    <div class="k">Scores · biggest differences first</div>${ax.map(x => bar(x.label, ra[x.id] || 0, rb[x.id] || 0, x.plain)).join('')}
    <div class="k">Lineage</div><p class="muted">${rel}</p><div class="chips">${shared.map(k => `<button data-go="${k}">${esc(byId[k].name)}</button>`).join('')}</div>
@@ -708,11 +714,12 @@ function renderPanel(d) {
    ${d.plain && d.summary ? `<p class="detail">${esc(d.summary)}</p>` : ''}
    ${window.__pol ? __pol.panelHtml(d) : ''}
    <div class="tools"><button data-act="compare">Compare</button><button data-act="lineage">Trace lineage</button><button data-act="kin" title="Every ancestor and descendant, grouped by steps away">Ancestors &amp; descendants</button><button data-act="card" title="Make a 9:16 image for social media">Share card</button></div>
-   <div class="k">Key thinkers</div><div class="chips">${d.thinkers.map(t => { const u = thinkerUrl(t); return u ? `<a class="tlink" href="${esc(u)}" target="_blank" rel="noopener" title="${esc(t)} (opens in a new tab)">${esc(t)}</a>` : `<span>${esc(t)}</span>`; }).join('')}</div>
+   <div class="kt2"><div><div class="k">Key thinkers</div><div class="chips">${d.thinkers.map(t => { const u = thinkerUrl(t); return u ? `<a class="tlink" href="${esc(u)}" target="_blank" rel="noopener" title="${esc(t)} (opens in a new tab)">${esc(t)}</a>` : `<span>${esc(t)}</span>`; }).join('')}</div></div>
+   <div><div class="k" title="${d.thrives_in && d.thrives_in.historical ? 'Where it flourished at its height' : 'Where it is strongest today'}">${d.thrives_in && d.thrives_in.historical ? 'Thrived in' : 'Thrives in'}</div><div class="chips">${thrivesList(d).map(x => `<a class="tlink" href="${esc(x.src)}" target="_blank" rel="noopener" title="${esc(x.note || '')}">${esc(x.place)}${x.period ? ` <span class="muted">(${esc(x.period)})</span>` : ''}</a>`).join('') || '<span class="muted">Not yet sourced</span>'}</div></div></div>
    <div class="k">Came from (parents)</div><div class="chips">${d.parents.map(chip).join('') || '<span class="muted">No earlier idea mapped</span>'}</div>
    <div class="k">Led to (children)</div><div class="chips">${d.children.map(chip).join('') || '<span class="muted">None mapped yet</span>'}</div>
    <div class="k">Scores</div>
-   <p class="scale">How much this idea grows out of each tradition. <b>+5</b>: it is that tradition or comes straight from it. <b>0</b>: no real link. <b>−5</b>: built to fight it. Hover a name for what it means. Root ideas show traditions and stance; other ideas also get tone scores below.</p>
+   <p class="scale">How strongly this idea aligns with each tradition. <b>+5</b>: it is that tradition or strongly aligned with it. <b>0</b>: no real link. <b>−5</b>: opposes it. Hover a name for what it means. Root ideas show traditions and stance; other ideas also get tone scores below.</p>
    ${sortR(trad).map(a => bar(a.label, r0[a.id], undefined, a.plain)).join('')}
    ${st.length ? `<div class="k reg-k">Stance</div><p class="scale">${STANCE_NOTE}</p>${st.map(a => bar(a.label, r0[a.id] || 0, undefined, a.plain)).join('')}` : ''}
    ${sortR(reg).length ? `<div class="k reg-k">Tone / register</div><p class="scale">${REG_NOTE}</p>${sortR(reg).map(a => bar(a.label, r0[a.id], undefined, a.plain)).join('')}` : ''}
@@ -775,7 +782,7 @@ function highlight(id) {
     gsap.to(d.star.halo.material, { opacity: !v ? 0.04 : lit(d) ? 0.55 : 0.1, duration: 0.5, overwrite: 'auto' });
     gsap.to(d.star.core.material, { opacity: v ? 1 : 0.13, duration: 0.5, overwrite: 'auto' }); });
   labels.forEach(o => { if (!o.d) return; const v = vis(o.d);
-    o.off = (F && !v) || (!!L && !lit(o.d)); /* selection: only the lineage (ancestors + descendants + selected) keeps its names */ o.lin = !!L && lit(o.d); o.el.style.opacity = lit(o.d) ? 1 : 0.2; });
+    o.el.classList.toggle('sel', o.d.id === id); o.off = (F && !v && o.d.id !== id) || (!!L && !lit(o.d)); /* selection: only the lineage (ancestors + descendants + selected) keeps its names */ o.lin = !!L && lit(o.d); o.el.style.opacity = lit(o.d) ? 1 : 0.2; });
 }
 let camTl;
 function focusIdea(id) {
@@ -869,7 +876,9 @@ POLES.forEach(([t, xyz]) => mk(t, new THREE.Vector3(...xyz)));
    overlap one already placed is hidden until you zoom in. Pole and era labels are placed first. */
 const LOD = { mid: 120, near: 70, pad: 4, h: 18 };
 const tmp = new THREE.Vector3(); let lodStats = {};
+const selRing = document.createElement('div'); selRing.id = 'selring'; selRing.setAttribute('aria-hidden', 'true'); lblLayer.appendChild(selRing); let selShown = false;
 function placeLabels() {
+  selShown = false;
   const W = innerWidth, H = innerHeight, F = filterOn(), placed = [], cand = []; let hidZoom = 0, hidOverlap = 0;
   const hit = (x, y, w) => placed.some(r => x < r[2] && x + w > r[0] && y < r[3] && y + LOD.h > r[1]);
   labels.forEach(o => { const { d, pos, el, center, off } = o;
@@ -888,11 +897,13 @@ function placeLabels() {
   cand.forEach(o => { const w = o.w || o.d.name.length * 7, x = o.sx + 2;
     if (o.t < 99 && hit(x - LOD.pad, o.sy, w + LOD.pad * 2)) { o.el.style.display = 'none'; hidOverlap++; return; }
     placed.push([x - LOD.pad, o.sy - 1, x + w + LOD.pad, o.sy + LOD.h]); show(o); });
+  selRing.style.display = selShown ? 'block' : 'none';
   lodStats = { shown: placed.length, hidZoom, hidOverlap };
 }
 function show({ d, pos, el, center, sx, sy, dist }) { el.style.display = 'block';
+  if (d && d.id === current) { selShown = true; selRing.style.transform = `translate(${sx}px,${sy + 9}px)`; }
   el.style.transform = `translate(${sx + (center ? 0 : 2)}px,${sy}px)` + (center ? ' translateX(-50%)' : '');
-  el.style.zIndex = (center ? 0 : 100000) + Math.max(0, 99999 - Math.round(dist * 50)); }
+  el.style.zIndex = d && d.id === current ? 300000 : (center ? 0 : 100000) + Math.max(0, 99999 - Math.round(dist * 50)); }
 window.__lod = { LOD, stats: () => lodStats };
 const lodMeasure = () => labels.forEach(o => { o.el.style.display = 'block'; o.w = o.el.offsetWidth; }); lodMeasure();
 document.fonts && document.fonts.ready.then(lodMeasure);
@@ -1352,12 +1363,17 @@ window.__memeplex = { cardIdea, cardCompare, shareIdea, shareCompare, focusIdea,
   const btn = document.createElement('button'); btn.type = 'button'; btn.dataset.k = 'views'; btn.title = 'Alternate views of the map (V)'; btn.setAttribute('aria-label', btn.title); btn.setAttribute('aria-expanded', 'false');
   btn.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3c4 3 4 6 0 9s-4 6 0 9M12 3c-4 3-4 6 0 9s4 6 0 9"/></svg><span class="t">Views</span>';
   tb.insertBefore(btn, tb.querySelector('.sep'));
+  /* Modern politics gets its own toolbar button so it is findable without opening Views */
+  let pbtn = null; if (NAMES.politics) { pbtn = document.createElement('button'); pbtn.type = 'button'; pbtn.dataset.k = 'politics'; pbtn.id = 'polbtn'; pbtn.title = 'Modern politics: colour US factions by party (P)'; pbtn.setAttribute('aria-label', pbtn.title); pbtn.setAttribute('aria-pressed', 'false');
+    pbtn.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg><span class="t">Politics</span>';
+    tb.insertBefore(pbtn, tb.querySelector('.sep')); pbtn.onclick = () => set(cur === 'politics' ? 'default' : 'politics');
+    addEventListener('keydown', e => { const t = document.activeElement; if ((e.key === 'p' || e.key === 'P') && !e.metaKey && !e.ctrlKey && !e.altKey && !(t && /^(INPUT|TEXTAREA|SELECT)$/.test(t.tagName))) pbtn.click(); }); }
   const pnl = document.createElement('div'); pnl.id = 'pViews'; pnl.className = 'pp gl';
   pnl.innerHTML = '<div class="ph">Views</div><div class="vw">' + Object.entries(NAMES).map(([k, n]) => `<button type="button" class="vbtn" data-v="${k}" aria-pressed="false">${n}</button>`).join('') +
     '</div><p class="vnote">Alternate shapes for fun. Older ideas always sit lower or nearer the centre than the ideas they led to. Stretch works in the default map only.</p><details class="vsrc"><summary>About the shapes</summary><ul><li><b>Helix</b>: radius, pitch and strand spacing measured from B-DNA structure <a href="https://www.rcsb.org/structure/1BNA" target="_blank" rel="noopener">PDB 1BNA</a> (wwPDB data, CC0).</li><li><b>Brain</b>: points sampled from <a href="https://opengameart.org/content/brain-and-skull" target="_blank" rel="noopener">Brain and Skull</a> by Drummyfish, a model drawn from MRI (CC0).</li><li><b>Tree of life</b>: grown in code (L-system). <b>Galaxy</b>: logarithmic spiral arms in code. <b>Sphere</b> and <b>Beatific vision</b>: built in code, rings after Dante&rsquo;s nine heavens.</li></ul></details>';
   tbp.appendChild(pnl);
   const css = document.createElement('style'); css.textContent = `#pViews .vw{display:grid;grid-template-columns:1fr 1fr;gap:4px}#pViews .vbtn{all:unset;box-sizing:border-box;padding:7px 8px;border-radius:6px;border:1px solid var(--glass-b);font-family:var(--mono);font-size:9.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-dim);cursor:pointer;text-align:center}#pViews .vbtn:hover{color:var(--ink)}#pViews .vbtn[aria-pressed=true]{color:var(--amber-bright);border-color:var(--amber);background:rgba(184,115,51,.16)}#pViews .vbtn[data-v=default]{grid-column:1/-1}#pViews .vsrc{margin-top:6px;font-size:10.5px;color:var(--ink-dim)}#pViews .vsrc summary{cursor:pointer;font-family:var(--mono);letter-spacing:.12em;text-transform:uppercase;font-size:9px}#pViews .vsrc ul{padding-left:14px;margin:6px 0 0;line-height:1.4}#pViews .vsrc a{color:var(--amber-bright)}#pViews .vnote{margin:8px 0 0;font-size:11px;line-height:1.4;color:var(--ink-dim)}`; document.head.appendChild(css);
-  function sync() { pnl.querySelectorAll('.vbtn').forEach(b => b.setAttribute('aria-pressed', b.dataset.v === cur)); btn.classList.toggle('on', cur !== 'default');
+  function sync() { pnl.querySelectorAll('.vbtn').forEach(b => b.setAttribute('aria-pressed', b.dataset.v === cur)); btn.classList.toggle('on', cur !== 'default'); if (pbtn) { pbtn.classList.toggle('on', cur === 'politics'); pbtn.setAttribute('aria-pressed', cur === 'politics'); }
     const sb = document.getElementById('strbtn'); if (sb) { sb.disabled = cur !== 'default'; sb.style.opacity = cur !== 'default' ? 0.4 : ''; } }
   const toggle = open => { open = open ?? !pnl.classList.contains('open'); if (open && window.__ui && matchMedia('(max-width:760px)').matches) ['search', 'color', 'legend'].forEach(k => __ui.st[k] && __ui.set(k, false));
     pnl.classList.toggle('open', open); btn.setAttribute('aria-expanded', open); };
@@ -1439,10 +1455,11 @@ window.__memele = (() => {
     timeframe: d => { const a = Math.floor(d.year / 100) * 100, f = y => y < 0 ? `${-y} BC` : `AD ${y}`; return ['Timeframe', `Which idea emerged between ${f(a)} and ${f(a + 100)}?`]; },
     children: d => { const c = (d.children || []).filter(k => byId[k]).map(nm).filter(t => !leaks(t, d)).slice(0, 2); return c.length ? ['Children', `Which idea gave rise to ${and(c)}?`] : null; },
     place: d => d.place && !leaks(d.place, d) ? ['Place', `Which idea took shape in ${d.place}?`] : null,
+    thrives: d => { const p = thrivesList(d).map(x => x.place).filter(t => !leaks(t, d)).slice(0, 2); return p.length ? ['Where it thrives', d.thrives_in.historical ? `Which idea flourished at its height in ${and(p)}?` : `Which idea thrives today in ${and(p)}?`] : null; },
     category: d => ['Category', `Which ${(d.domain || []).map(k => DOM[k] || k).join(' / ').toLowerCase()} idea is it?`],
     letter: d => ['First letter', `Which idea's name starts with “${d.name.trim()[0].toUpperCase()}”?`],
     flash: () => ['Map flash', 'map'] };
-  const OPENERS = ['lineage', 'thinkers', 'timeframe', 'children'], MIDDLE = ['place', 'category'];
+  const OPENERS = ['lineage', 'thinkers', 'timeframe', 'children'], MIDDLE = ['place', 'thrives', 'category'];
   const shuffle = (a, seed) => a.map((x, i) => [hash(seed + ':' + i + x), x]).sort((p, q) => p[0] - q[0]).map(p => p[1]);
   const clues = d => { const ok = t => CLUE_TYPES[t](d), opens = shuffle(OPENERS, 'memele-open:' + K).filter(ok);
     const order = [...opens.slice(0, 1), ...shuffle([...opens.slice(1), ...MIDDLE].filter(ok), 'memele-rest:' + K), 'letter', 'flash'];
@@ -1455,7 +1472,7 @@ window.__memele = (() => {
   const EXTRA = { marxism: ['marx', 'marxist'], stoic_logos: ['stoics', 'stoicism', 'stoa'], heathenry: ['asatru', 'asatruar'], neoplatonism: ['plotinus'], platonic_forms: ['plato', 'platonism'], post_vatican_ii_catholicism: ['post-vatican ii catholicism', 'post vatican ii', 'vatican ii'], social_justice_movement: ['woke', 'social justice', 'social justice movement'], maga: ['make america great again'], america_first: ['groypers', 'groyper'] };
   const aliasesOf = d => { const out = new Map(), add = (t, w) => { const c = cmp(t); if (c.length >= 2 && !(out.get(c) <= w)) out.set(c, w); };
     add(d.name, 0); add(d.id.replace(/_/g, ' '), 0); add(d.name.replace(/\(.*?\)/g, ''), 0);
-    (d.name.match(/\(([^)]*)\)/g) || []).forEach(b => add(b.slice(1, -1), 0)); (EXTRA[d.id] || []).forEach(t => add(t, 0));
+    (d.name.match(/\(([^)]*)\)/g) || []).forEach(b => add(b.slice(1, -1), 0)); (EXTRA[d.id] || []).forEach(t => add(t, 0)); (d.aliases || []).forEach(t => add(t, 0));
     [...out.keys()].forEach(c => { if (/ism$/.test(c) && c.length > 6) { add(c.slice(0, -3), 0.2); add(c.slice(0, -3) + 'ist', 0.2); add(c.slice(0, -3) + 'ists', 0.2); } });
     norm(d.name.replace(/\(.*?\)/g, '')).split(' ').forEach(w => w.length >= 5 && add(w, 0.4));
     return out; };
@@ -1577,11 +1594,14 @@ window.__games = (() => {
           const ins = [...fa].filter(i => !fb.has(i)), odd = [...fb].filter(i => !fa.has(i)); if (ins.length < 3 || !odd.length) continue;
           const three = shuf(ins, r).slice(0, 3), o = pick(odd, r); if (out.some(q => q.odd === o)) continue;
           out.push({ opts: shuf([...three, o], r), odd: o, a: A.id, b: B.id }); } return { rounds: out }; } },
-    thinker: { title: 'Thinker Match', blurb: 'Five rounds. Match each key thinker to their idea.', rounds: 5,
+    thinker: { title: 'Thinker Match', blurb: 'Five rounds. Match each key thinker, or a place where an idea thrives, to its idea.', rounds: 5,
       make(K) { const r = rng('thinker:' + K), out = [], pool = ideas.filter(d => (d.thinkers || []).length); let t = 0;
-        while (out.length < 5 && t++ < 2000) { const d = pick(pool, r), th = pick(d.thinkers, r); if (out.some(q => q.th === th || q.ans === d.id)) continue;
-          const others = shuf(ideas.filter(x => x.id !== d.id && !(x.thinkers || []).includes(th)), r).slice(0, 3).map(x => x.id);
-          out.push({ th, ans: d.id, opts: shuf([d.id, ...others], r) }); } return { rounds: out }; } } };
+        const places = x => thrivesList(x).map(p => p.place), ppool = ideas.filter(x => places(x).length);
+        /* two of five rounds ask for the idea that thrives in a place; the place must not be listed by any of the wrong options */
+        while (out.length < 5 && t++ < 2000) { const pr = (out.length === 1 || out.length === 3) && ppool.length > 4;
+          const d = pick(pr ? ppool : pool, r), th = pick(pr ? places(d) : d.thinkers, r); if (out.some(q => q.th === th || q.ans === d.id)) continue;
+          const others = shuf(ideas.filter(x => x.id !== d.id && !(pr ? places(x) : (x.thinkers || [])).includes(th)), r).slice(0, 3).map(x => x.id);
+          out.push({ th, ans: d.id, kind: pr ? 'place' : 'thinker', opts: shuf([d.id, ...others], r) }); } return { rounds: out }; } } };
   const el = document.createElement('div'); el.className = 'arx-game'; el.id = 'games'; el.setAttribute('role', 'dialog'); el.setAttribute('aria-modal', 'true'); el.setAttribute('aria-label', 'Games');
   document.body.appendChild(el);
   let cur = null, K, P, S, st, arm = false;
@@ -1628,7 +1648,7 @@ window.__games = (() => {
         ${s.done ? `<div class="mm-rev">The lineage: <div class="lin">${P.chain.map(x => `<a href="#" data-id="${x}">${esc(nm(x))}</a>`).join(' → ')}</div></div>` : ''}`;
     } else { const i = s.picks.length, R = P.rounds;
       body = `<div class="gm-dots">${R.map((q, j) => `<span class="${j < i ? tones(s)[j] : j === i && !s.done ? 'cur' : ''}"></span>`).join('')}</div>
-        ${s.done ? '' : `<p class="arx-game-clue"><b>Round ${i + 1}/5</b>${cur === 'odd' ? 'Which idea does not share a root tradition with the other three?' : `Which idea lists <b style="color:var(--amber-bright);font-family:var(--serif);font-size:16px;letter-spacing:0;text-transform:none">${esc(R[i].th)}</b> as a key thinker?`}</p>
+        ${s.done ? '' : `<p class="arx-game-clue"><b>Round ${i + 1}/5</b>${cur === 'odd' ? 'Which idea does not share a root tradition with the other three?' : (R[i].kind === 'place' ? `Which idea ${byId[R[i].ans].thrives_in.historical ? 'flourished in' : 'thrives today in'} <b style="color:var(--amber-bright);font-family:var(--serif);font-size:16px;letter-spacing:0;text-transform:none">${esc(R[i].th)}</b>?` : `Which idea lists <b style="color:var(--amber-bright);font-family:var(--serif);font-size:16px;letter-spacing:0;text-transform:none">${esc(R[i].th)}</b> as a key thinker?`)}</p>
           <div class="gm-opts">${R[i].opts.map(x => `<button type="button" class="gm-o" data-id="${x}">${esc(nm(x))}</button>`).join('')}</div>`}
         ${s.picks.map((p, j) => { const q = R[j], a = cur === 'odd' ? q.odd : q.ans, t = tones(s)[j];
           return `<div class="mm-rev gm-res"><span class="gm-t ${t}">${MARK[t]}</span> ${cur === 'odd' ? `<a href="#" data-id="${a}">${esc(nm(a))}</a> descends from ${esc(rootName(byId[q.b]))}; the others from ${esc(rootName(byId[q.a]))}.` : `${esc(q.th)} → <a href="#" data-id="${a}">${esc(nm(a))}</a>`}${p && p !== a ? ` <span class="lin">(you picked ${esc(nm(p))})</span>` : ''}</div>`; }).reverse().join('')}`; }
@@ -1735,6 +1755,7 @@ body.snipping #panel,body.snipping #tourbar{visibility:hidden!important}
   let shot = null, link = '', blob = null, url = null;
   async function build() {
     const title = $m('.tt').checked ? (current && byId[current] ? byId[current].name : 'Memeplex') : '';
+    if (typeof ArxShareCard.snip !== 'function') { msg('The share-card script is out of date in this browser. Reload with Ctrl+F5 (Cmd+Shift+R on Mac).'); throw new Error('sharecard.js lacks snip(): stale cached copy'); }
     blob = await ArxShareCard.snip({ image: shot, scale: 2 / (renderer.domElement.width / renderer.domElement.getBoundingClientRect().width), title, link });
     if (url) URL.revokeObjectURL(url); url = URL.createObjectURL(blob); $m('img').src = url; $m('.dl').href = url; }
   async function capture(r) { await new Promise(r2 => requestAnimationFrame(() => r2())); shot = grab(r); link = CANON + '#' + linkState(); msg(''); md.style.display = 'grid'; await build(); $m('.dl').focus();
