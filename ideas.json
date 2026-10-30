@@ -9903,7 +9903,10 @@
   ],
   "parents": [
    "new_deal_liberalism",
-   "shachtmanism"
+   "shachtmanism",
+   "straussianism",
+   "cold_war_liberalism",
+   "wilsonianism"
   ],
   "plain": "Former liberals, a few once Trotskyists, who turned right in the 1970s against the New Left. They backed a strong US role abroad to fight communism and spread democracy.",
   "summary": "1970s ex-liberals who backed assertive US power to defend democracy and fight communism, with a lighter welfare state at home.",
@@ -9989,7 +9992,32 @@
    "note": "Began among Democrats such as Eugene Rostow, 'a \"Scoop Jackson Democrat\"', and Commentary writers under Podhoretz; moved Republican under Reagan; some joined Never Trump efforts, including the 2020 endorsement of Biden by former Republican security officials."
   },
   "modern_politics": true,
-  "historically_established": true
+  "historically_established": true,
+  "edge_notes": {
+   "straussianism": {
+    "status": "influence",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Leo_Strauss",
+    "note": "Irving Kristol 'engaged directly with Strauss's ideas'; Wolfowitz 'was influenced by Leo Strauss'. Strauss's page says direct policy links 'often overlook his primary focus' on philosophy.",
+    "contested": true
+   },
+   "cold_war_liberalism": {
+    "status": "direct",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Henry_M._Jackson",
+    "note": "Jackson's office 'became a hub for emerging neoconservative talent', including Perle (staffer from 1969); Abrams also staffed Jackson; CDM drew Kristol and Podhoretz."
+   },
+   "wilsonianism": {
+    "status": "influence",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Wilsonianism",
+    "note": "Neoconservatives 'fused Wilsonian idealism with assertive power projection' ('Wilsonianism with teeth'); the Neoconservatism page says it tempers Wilson by rejecting multilateralism.",
+    "contested": true
+   }
+  }
  },
  {
   "id": "paleoconservatism",
@@ -24825,5 +24853,394 @@
   },
   "modern_politics": true,
   "parent_note": "No accelerationism edge: the handoff runs through effective_accelerationism. No cypherpunks edge: The Sovereign Individual (1997), which Thiel prefaced in 2020, is the closer source and has no node."
+ },
+ {
+  "id": "wilsonianism",
+  "name": "Wilsonianism (liberal internationalism)",
+  "root": false,
+  "root_axis": null,
+  "year": 1917,
+  "year_approx": true,
+  "origin_src": "https://grokipedia.com/page/Wilsonianism",
+  "origin_note": "Dated to Wilson's April 2, 1917 war message, which called the war a crusade 'to make the world safe for democracy'; a doctrine 'originating with President Woodrow Wilson during World War I', later 'rooted in Wilson's Fourteen Points speech of January 1918'",
+  "place": "Washington",
+  "lat": 38.9,
+  "lon": -77.04,
+  "thinkers": [
+   "Woodrow Wilson"
+  ],
+  "parents": [
+   "enlightenment_liberalism",
+   "calvinism"
+  ],
+  "plain": "Woodrow Wilson's idea that America should spread democracy, back national self-rule and build a league of nations so that collective security replaces the balance of power.",
+  "summary": "Wilson's World War I program: democracy promotion, self-determination, open diplomacy and collective security through a League of Nations; revived in later US policy.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 1,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 4,
+   "marxism": -1,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 2,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 2,
+   "hierarchy": -1
+  },
+  "rationale": {
+   "platonism": "No real link to Platonism.",
+   "aristotelianism": "No real link to Aristotelianism.",
+   "stoicism": "No real link to Stoicism.",
+   "christianity": "Wilson's Presbyterian upbringing shaped 'a worldview integrating religious ethics with governance' (Grokipedia, Wilsonianism).",
+   "gnosticism": "No real link to Gnosticism.",
+   "hermeticism": "No real link to Hermeticism.",
+   "enlightenment_liberalism": "Universal democracy, consent and collective security; echoes 'Enlightenment ideas of popular sovereignty' (Grokipedia, Wilsonianism).",
+   "marxism": "A liberal rival to revolutionary socialism after 1917; not defined by anticommunism the way later Cold War strands were.",
+   "darwinism": "No real link to Darwinism.",
+   "nietzsche": "No real link to Nietzsche.",
+   "critical_theory": "No real link to critical theory.",
+   "confucianism": "No real link to Confucianism.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "No real link to Buddhism.",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "No real link to Islamic philosophy (falsafa).",
+   "islam": "No real link to Islam.",
+   "judaism": "No real link to Judaism.",
+   "romanticism": "No real link to Romanticism.",
+   "nationalism": "National self-determination is a core plank: Points 9–14 sought polities for nationalities under imperial rule (Grokipedia, Wilsonianism).",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Builds world order 'on moral and legalistic foundations rather than balance-of-power realism' (Grokipedia, Wilsonianism).",
+   "hierarchy": "Favors law, open covenants and collective security among nations over great-power spheres (Grokipedia, Wilsonianism)."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Wilsonianism",
+   "https://grokipedia.com/page/Liberal_internationalism",
+   "https://grokipedia.com/page/Woodrow_Wilson"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "aliases": [
+   "Liberal internationalism",
+   "Wilsonian idealism"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Washington",
+     "src": "https://grokipedia.com/page/Wilsonianism",
+     "note": "Wilson's Fourteen Points (January 1918) and war message (1917) set the doctrine as US policy.",
+     "period": "1917–1920"
+    },
+    {
+     "place": "Paris",
+     "src": "https://grokipedia.com/page/Wilsonianism",
+     "note": "Wilson pressed the program at the Paris Peace Conference, the program 'inspiring the League of Nations covenant'.",
+     "period": "1919"
+    },
+    {
+     "place": "New York",
+     "src": "https://grokipedia.com/page/Wilsonianism",
+     "note": "The UN Charter (1945) directly inheriting the League of Nations' structure for collective security; the UN sits in New York.",
+     "period": "1945–"
+    }
+   ]
+  },
+  "edge_notes": {
+   "enlightenment_liberalism": {
+    "status": "influence",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Wilsonianism",
+    "note": "Self-determination 'derived from consent-based governance, echoing Enlightenment ideas of popular sovereignty but applied internationally'."
+   },
+   "calvinism": {
+    "status": "loose",
+    "type": "context",
+    "strength": "weak",
+    "src": "https://grokipedia.com/page/Wilsonianism",
+    "note": "Wilson grew up in 'a strict Calvinist environment' as a Presbyterian minister's son; the page ties this to his moral view of governance."
+   }
+  },
+  "parent_note": "Liberal internationalism is merged here as an alias: Grokipedia says it 'crystallized as a coherent doctrine during World War I under U.S. President Woodrow Wilson'. Its 19th-century free-trade forerunners are not split out."
+ },
+ {
+  "id": "cold_war_liberalism",
+  "name": "Cold War liberal anticommunism",
+  "root": false,
+  "root_axis": null,
+  "year": 1947,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Americans_for_Democratic_Action",
+  "origin_note": "Americans for Democratic Action was 'founded in 1947' by Eleanor Roosevelt, Hubert Humphrey, Arthur Schlesinger Jr., Reinhold Niebuhr and others 'to advance non-communist progressive policies'; Truman announced his doctrine on March 12, 1947; Schlesinger's The Vital Center followed in 1949",
+  "place": "Washington",
+  "lat": 38.9,
+  "lon": -77.04,
+  "thinkers": [
+   "Arthur Schlesinger Jr.",
+   "Harry S. Truman",
+   "Hubert Humphrey",
+   "Henry M. Jackson"
+  ],
+  "parents": [
+   "new_deal_liberalism",
+   "wilsonianism"
+  ],
+  "plain": "Postwar Democrats who kept the New Deal at home and fought communism abroad: Truman's containment, the ADA and Schlesinger's 'vital center' between left and right extremes.",
+  "summary": "Postwar liberalism that paired New Deal welfare with anticommunist containment; Truman, ADA (1947), Schlesinger's Vital Center (1949), later Scoop Jackson.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 1,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 3,
+   "marxism": -4,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 1,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -2,
+   "hierarchy": 1
+  },
+  "rationale": {
+   "platonism": "No real link to Platonism.",
+   "aristotelianism": "No real link to Aristotelianism.",
+   "stoicism": "No real link to Stoicism.",
+   "christianity": "Reinhold Niebuhr, a Protestant theologian, co-founded ADA (Grokipedia, ADA); the movement itself was secular in program.",
+   "gnosticism": "No real link to Gnosticism.",
+   "hermeticism": "No real link to Hermeticism.",
+   "enlightenment_liberalism": "Vital-center liberalism stressed 'individual integrity, pluralism' and democratic freedom (Grokipedia, Arthur M. Schlesinger Jr.).",
+   "marxism": "Founded 'to advance non-communist progressive policies' (Grokipedia, ADA); containment of Soviet communism is its core.",
+   "darwinism": "No real link to Darwinism.",
+   "nietzsche": "No real link to Nietzsche.",
+   "critical_theory": "No real link to critical theory.",
+   "confucianism": "No real link to Confucianism.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "No real link to Buddhism.",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "No real link to Islamic philosophy (falsafa).",
+   "islam": "No real link to Islam.",
+   "judaism": "No real link to Judaism.",
+   "romanticism": "No real link to Romanticism.",
+   "nationalism": "Patriotic defense of the free world; Jackson stressed 'military strength' against Soviet expansion (Grokipedia, Henry M. Jackson).",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Schlesinger grounded it in 'empirical recognition of human imperfection' (Grokipedia, Arthur M. Schlesinger Jr.).",
+   "hierarchy": "Backed a strong national-security state abroad while extending welfare and labor protections at home (Grokipedia, Henry M. Jackson)."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Americans_for_Democratic_Action",
+   "https://grokipedia.com/page/Arthur_M._Schlesinger_Jr.",
+   "https://grokipedia.com/page/Truman_Doctrine",
+   "https://grokipedia.com/page/Henry_M._Jackson",
+   "https://grokipedia.com/page/Neoconservatism"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "aliases": [
+   "Cold War liberalism",
+   "Vital center liberalism",
+   "Scoop Jackson Democrats"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Washington",
+     "src": "https://grokipedia.com/page/Truman_Doctrine",
+     "note": "Truman's March 12, 1947 address committed aid to Greece and Turkey against communist pressure.",
+     "period": "1947–1953"
+    },
+    {
+     "place": "Democratic Party",
+     "src": "https://grokipedia.com/page/Henry_M._Jackson",
+     "note": "Jackson's Coalition for a Democratic Majority (May 1972) sought 'to reclaim the party from New Left influences'.",
+     "period": "1947–1980s"
+    }
+   ]
+  },
+  "edge_notes": {
+   "new_deal_liberalism": {
+    "status": "direct",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Americans_for_Democratic_Action",
+    "note": "ADA's founders, New Deal Democrats, organized after FDR's death to keep liberalism non-communist; The Vital Center defended the New Deal against totalitarianism."
+   },
+   "wilsonianism": {
+    "status": "influence",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Wilsonianism",
+    "note": "The Truman Doctrine framed containment 'as an extension of Wilsonian self-determination and democratic expansion against Soviet influence'."
+   }
+  },
+  "parent_note": "Grokipedia has no 'Cold War liberalism' or 'Vital Center' article; the node rests on ADA, Schlesinger, Truman Doctrine, Jackson and Neoconservatism pages. Reinhold Niebuhr is an ADA founder but has no node."
+ },
+ {
+  "id": "straussianism",
+  "name": "Straussian political philosophy",
+  "root": false,
+  "root_axis": null,
+  "year": 1949,
+  "year_approx": true,
+  "origin_src": "https://grokipedia.com/page/Leo_Strauss",
+  "origin_note": "Dated to 1949, when Strauss took up a professorship at Chicago, where he 'cultivated a dedicated following of students through seminars focused on primary texts'; Natural Right and History (1953) set out his defense of 'timeless natural right'; 'By the time of Strauss's death in 1973, his students had formed a self-sustaining intellectual movement'",
+  "place": "Chicago",
+  "lat": 41.88,
+  "lon": -87.63,
+  "thinkers": [
+   "Leo Strauss",
+   "Allan Bloom",
+   "Harry V. Jaffa",
+   "Harvey Mansfield"
+  ],
+  "parents": [
+   "platonic_forms",
+   "aristotelian_teleology",
+   "falsafa"
+  ],
+  "plain": "Leo Strauss and his students: careful reading of Plato and the classics, a belief in natural right against modern relativism, and the claim that philosophers often wrote between the lines.",
+  "summary": "Leo Strauss's recovery of classical political philosophy: natural right against historicism, esoteric reading of Plato, Farabi and Maimonides, and a school of students.",
+  "ratings": {
+   "platonism": 4,
+   "aristotelianism": 3,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 1,
+   "marxism": -2,
+   "darwinism": 0,
+   "nietzsche": -2,
+   "critical_theory": -1,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 2,
+   "islam": 0,
+   "judaism": 2,
+   "romanticism": 0,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 2,
+   "abstraction": 3,
+   "hierarchy": 2
+  },
+  "rationale": {
+   "platonism": "Defends 'timeless natural right grounded in reason and classical sources like Plato' (Grokipedia, Leo Strauss).",
+   "aristotelianism": "Draws 'from Plato, Aristotle, and Machiavelli' for classical political philosophy (Grokipedia, Neoconservatism).",
+   "stoicism": "No real link to Stoicism.",
+   "christianity": "Frames the issue as philosophy versus revelation, Athens versus Jerusalem, without taking a Christian side (Grokipedia, Leo Strauss).",
+   "gnosticism": "No real link to Gnosticism.",
+   "hermeticism": "No real link to Hermeticism.",
+   "enlightenment_liberalism": "Defends liberal democracy against totalitarianism but critiques modernity's break 'from classical natural right' (Grokipedia, Leo Strauss).",
+   "marxism": "Treats modern historicism, Marxism's frame included, as leading to relativism and nihilism (Grokipedia, Leo Strauss).",
+   "darwinism": "No real link to Darwinism.",
+   "nietzsche": "Casts Nietzsche and Heidegger as the 'third wave' of modernity that ends in nihilism (Grokipedia, Leo Strauss).",
+   "critical_theory": "Opposes historicist reduction of moral standards to 'cultural artifacts' (Grokipedia, Leo Strauss); no direct engagement.",
+   "confucianism": "No real link to Confucianism.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "No real link to Buddhism.",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "Read Al-Farabi as an esoteric writer and began with research on 'medieval Islamic philosophy' (Grokipedia, Leo Strauss).",
+   "islam": "No real link to Islam.",
+   "judaism": "Born to 'an observant Jewish family'; read Maimonides' Guide and wrote on philosophy versus revelation and Zionism (Grokipedia, Leo Strauss).",
+   "romanticism": "No real link to Romanticism.",
+   "nationalism": "No real link to nationalism.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Holds that philosophers wrote esoterically, hiding meanings beneath an exoteric surface (Grokipedia, Leo Strauss).",
+   "abstraction": "Holds that enduring truths about human nature and the best regime 'can be discerned through reason' (Grokipedia, Neoconservatism).",
+   "hierarchy": "Critics such as Drury see 'a stark natural hierarchy' of philosophers over the many; the page also records rebuttals (Grokipedia, Leo Strauss)."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Leo_Strauss",
+   "https://grokipedia.com/page/Neoconservatism",
+   "https://grokipedia.com/page/Paul_Wolfowitz",
+   "https://grokipedia.com/page/Irving_Kristol"
+  ],
+  "domain": [
+   "philosophy",
+   "politics"
+  ],
+  "aliases": [
+   "Straussianism",
+   "Straussian school",
+   "Leo Strauss"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Chicago",
+     "src": "https://grokipedia.com/page/Leo_Strauss",
+     "note": "Strauss taught there from 1949 and built a following of students around close reading of primary texts.",
+     "period": "1949–1973"
+    },
+    {
+     "place": "United States",
+     "src": "https://grokipedia.com/page/Leo_Strauss",
+     "note": "His students formed 'a self-sustaining intellectual movement' by 1973 that revived great-books education.",
+     "period": "1973–"
+    }
+   ]
+  },
+  "edge_notes": {
+   "platonic_forms": {
+    "status": "influence",
+    "type": "influence",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Leo_Strauss",
+    "note": "Strauss defended 'timeless natural right grounded in reason and classical sources like Plato' and taught seminars on Plato's texts."
+   },
+   "aristotelian_teleology": {
+    "status": "influence",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Neoconservatism",
+    "note": "Strauss 'emphasized the enduring truths of classical political philosophy—drawing from Plato, Aristotle, and Machiavelli'."
+   },
+   "falsafa": {
+    "status": "influence",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Leo_Strauss",
+    "note": "He began in 1932 researching 'medieval Islamic philosophy in Paris' and read Al-Farabi as veiling 'critiques of prophetic authority under apparent deference'."
+   }
+  },
+  "parent_note": "Strauss read Nietzsche and Heidegger as the 'third wave' of modernity culminating in nihilism, and his engagement with Heidegger was 'adversarial'; foils, not parents, so no edges. Maimonides has no node."
  }
 ]

@@ -267,6 +267,12 @@
   "al-Kindi": "https://grokipedia.com/page/Al-Kindi",
   "Étienne Gilson": "https://grokipedia.com/page/Étienne_Gilson",
 <<<<<<< HEAD
+  "Leo Strauss": "https://grokipedia.com/page/Leo_Strauss",
+  "Woodrow Wilson": "https://grokipedia.com/page/Woodrow_Wilson",
+  "Arthur Schlesinger Jr.": "https://grokipedia.com/page/Arthur_M._Schlesinger_Jr.",
+  "Henry M. Jackson": "https://grokipedia.com/page/Henry_M._Jackson"
+=======
+<<<<<<< HEAD
   "Peter Thiel": "https://grokipedia.com/page/Peter_Thiel",
   "Marc Andreessen": "https://grokipedia.com/page/Marc_Andreessen",
   "Elon Musk": "https://grokipedia.com/page/Elon_Musk",
@@ -274,5 +280,6 @@
 =======
   "Joseph Smith": "https://grokipedia.com/page/Joseph_Smith",
   "Brigham Young": "https://grokipedia.com/page/Brigham_Young"
+>>>>>>> origin/main
 >>>>>>> origin/main
 }
