@@ -4867,7 +4867,8 @@
    "src": "https://grokipedia.com/page/Christian_right",
    "note": "Through the religious right; fundamentalists who backed Carter in 1976 moved Republican (Grokipedia, Moral Majority)."
   },
-  "modern_politics": true
+  "modern_politics": true,
+  "historically_established": true
  },
  {
   "id": "young_earth_creationism",
@@ -6970,7 +6971,8 @@
    "src": "https://grokipedia.com/page/Labour_Party_(UK)",
    "note": "Labour; Starmer's centrist pivot yielded a 2024 landslide (Grokipedia, Labour Party)."
   },
-  "modern_politics": true
+  "modern_politics": true,
+  "historically_established": true
  },
  {
   "id": "libertarianism",
@@ -7079,7 +7081,8 @@
    "src": "https://grokipedia.com/page/Libertarian_Party_(United_States)",
    "note": "Own party since 1971, the third-largest by registration; inside the GOP via fusionism's coalition of 'economic libertarians'."
   },
-  "modern_politics": true
+  "modern_politics": true,
+  "historically_established": true
  },
  {
   "id": "nationalism",
@@ -7214,7 +7217,8 @@
     "src": "https://grokipedia.com/page/Nationalism",
     "note": "Grokipedia ties modern nationalism to popular sovereignty, Rousseau's general will and the 1793 'la patrie en danger' mobilization, but names no Jacobin text or author as the handoff."
    }
-  }
+  },
+  "historically_established": true
  },
  {
   "id": "fascism",
@@ -7758,7 +7762,8 @@
    "src": "https://grokipedia.com/page/Reform_UK",
    "note": "Carried by Reform UK."
   },
-  "modern_politics": true
+  "modern_politics": true,
+  "historically_established": true
  },
  {
   "id": "divine_right_of_kings",
@@ -8530,7 +8535,8 @@
    "Baruch Spinoza"
   ],
   "parents": [
-   "cartesian_dualism"
+   "cartesian_dualism",
+   "rabbinic_judaism"
   ],
   "plain": "Spinoza said only one thing truly exists: God, which is the same as Nature. Mind and matter are two sides of it, everything happens by necessity, and freedom means understanding why.",
   "summary": "Spinoza's view that God and Nature are one substance, mind and matter are two sides of it, and everything follows by necessity.",
@@ -8602,6 +8608,15 @@
      "note": "Named in the Grokipedia article “Baruch Spinoza”."
     }
    ]
+  },
+  "edge_notes": {
+   "rabbinic_judaism": {
+    "status": "influence",
+    "type": "influence",
+    "strength": "weak",
+    "src": "https://grokipedia.com/page/Baruch_Spinoza",
+    "note": "Spinoza studied at the Talmud Torah school ('introductory rabbinical commentaries', 'halakhic tradition'), 'possibly influenced by' Maimonides; expelled 1656."
+   }
   }
  },
  {
@@ -9496,7 +9511,8 @@
    "src": "https://grokipedia.com/page/Reagan_Democrat",
    "note": "The Democratic coalition since 1933; Reagan Democrats show its working-class fracture toward Republicans after 1980."
   },
-  "modern_politics": true
+  "modern_politics": true,
+  "historically_established": true
  },
  {
   "id": "old_right",
@@ -9695,7 +9711,8 @@
    "src": "https://grokipedia.com/page/Fusionism",
    "note": "Built Goldwater's 1964 and Reagan's coalitions; weakened since Trump's 2016 campaign 'rejected fusionist free-trade shibboleths'."
   },
-  "modern_politics": true
+  "modern_politics": true,
+  "historically_established": true
  },
  {
   "id": "new_left",
@@ -9916,6 +9933,7 @@
    "note": "Began among Democrats such as Eugene Rostow, 'a \"Scoop Jackson Democrat\"', and Commentary writers under Podhoretz; moved Republican under Reagan; some joined Never Trump efforts, including the 2020 endorsement of Biden by former Republican security officials."
   },
   "modern_politics": true,
+  "historically_established": true,
   "edge_notes": {
    "straussianism": {
     "status": "influence",
@@ -10041,7 +10059,8 @@
    "src": "https://grokipedia.com/page/Paleoconservatism",
    "note": "Marginal in the GOP in the late 20th century; 'renewed traction in recent populist movements'. Buchanan ran in Republican primaries."
   },
-  "modern_politics": true
+  "modern_politics": true,
+  "historically_established": true
  },
  {
   "id": "cypherpunks",
@@ -13114,7 +13133,8 @@
    "src": "https://grokipedia.com/page/Xi_Jinping_Thought",
    "note": "Bloc: Marxism-Leninism is the party's charter doctrine."
   },
-  "modern_politics": true
+  "modern_politics": true,
+  "historically_established": true
  },
  {
   "id": "comintern",
@@ -14455,7 +14475,8 @@
    "src": "https://grokipedia.com/page/Make_America_Great_Again",
    "note": "The 2024 RNC platform was titled 'Make America Great Again'; the movement 'reshaped the Republican Party toward populism'."
   },
-  "modern_politics": true
+  "modern_politics": true,
+  "historically_established": false
  },
  {
   "id": "postliberalism",
@@ -14566,7 +14587,8 @@
    "src": "https://grokipedia.com/page/Postliberalism",
    "note": "An intellectual current; Vice President Vance 'has explicitly aligned with postliberalism'."
   },
-  "modern_politics": true
+  "modern_politics": true,
+  "historically_established": false
  },
  {
   "id": "national_conservatism",
@@ -14680,7 +14702,8 @@
    "src": "https://grokipedia.com/page/National_conservatism",
    "note": "Grokipedia ties it to 'U.S. Republican emphases on America First economics post-2016'."
   },
-  "modern_politics": true
+  "modern_politics": true,
+  "historically_established": false
  },
  {
   "id": "holiness_movement",
@@ -16761,7 +16784,8 @@
    "src": "https://grokipedia.com/page/Christian_right",
    "note": "Grokipedia: Moral Majority turned evangelicals into 'a reliable Republican base'; white evangelicals gave 78% to Romney (2012) and 81% to Trump (2016)."
   },
-  "modern_politics": true
+  "modern_politics": true,
+  "historically_established": true
  },
  {
   "id": "new_democrats",
@@ -16883,7 +16907,8 @@
    "src": "https://grokipedia.com/page/Democratic_Leadership_Council",
    "note": "Intra-Democratic faction; the DLC closed in 2011 but the New Democrat Coalition, formed by DLC members in 1997, remains in the House."
   },
-  "modern_politics": true
+  "modern_politics": true,
+  "historically_established": true
  },
  {
   "id": "democratic_socialism_us",
@@ -17010,7 +17035,8 @@
    "src": "https://grokipedia.com/page/Democratic_Socialists_of_America",
    "note": "Not a party; DSA 'emphasized reforming the Democratic Party from within over third-party runs' (Grokipedia, DSA). Contested inside DSA. The Squad, an informal subgroup of the Congressional Progressive Caucus, overlaps with DSA but is not the same group (Grokipedia, Congressional Progressive Caucus)."
   },
-  "modern_politics": true
+  "modern_politics": true,
+  "historically_established": true
  },
  {
   "id": "progressive_left",
@@ -17131,7 +17157,8 @@
    "src": "https://grokipedia.com/page/Congressional_Progressive_Caucus",
    "note": "A Democratic caucus formed 'to pull the Democratic Party toward more interventionist government'. Sanders, a founder, is an independent."
   },
-  "modern_politics": true
+  "modern_politics": true,
+  "historically_established": true
  },
  {
   "id": "neo_thomism",
@@ -17860,7 +17887,8 @@
    "src": "https://grokipedia.com/page/One-nation_conservatism",
    "note": "The One Nation Group was 'founded in 1950 by nine newly elected Conservative MPs'."
   },
-  "modern_politics": true
+  "modern_politics": true,
+  "historically_established": true
  },
  {
   "id": "thatcherism",
@@ -17985,7 +18013,8 @@
    ],
    "lean": "CON"
   },
-  "modern_politics": true
+  "modern_politics": true,
+  "historically_established": true
  },
  {
   "id": "new_labour",
@@ -18114,7 +18143,8 @@
    "src": "https://grokipedia.com/page/New_Labour",
    "note": "Labour's governing faction 1994–2010; 'Blairite' still names its right wing."
   },
-  "modern_politics": true
+  "modern_politics": true,
+  "historically_established": true
  },
  {
   "id": "labour_left",
@@ -18236,7 +18266,8 @@
    "src": "https://grokipedia.com/page/Socialist_Campaign_Group",
    "note": "A faction within the Labour Party since 1982."
   },
-  "modern_politics": true
+  "modern_politics": true,
+  "historically_established": true
  },
  {
   "id": "reform_uk_populism",
@@ -18356,7 +18387,8 @@
    "src": "https://grokipedia.com/page/Reform_UK",
    "note": "Party led by Farage since June 2024; draws Conservative voters."
   },
-  "modern_politics": true
+  "modern_politics": true,
+  "historically_established": false
  },
  {
   "id": "gaullism",
@@ -18473,7 +18505,8 @@
    ],
    "lean": "LR"
   },
-  "modern_politics": true
+  "modern_politics": true,
+  "historically_established": true
  },
  {
   "id": "macronism",
@@ -18587,7 +18620,8 @@
    "src": "https://grokipedia.com/page/Renaissance_(French_political_party)",
    "note": "Party founded as En Marche! (2016), renamed Renaissance."
   },
-  "modern_politics": true
+  "modern_politics": true,
+  "historically_established": false
  },
  {
   "id": "rassemblement_national",
@@ -18708,7 +18742,8 @@
    "src": "https://grokipedia.com/page/National_Rally",
    "note": "Party since 1972; led by Bardella since November 2022."
   },
-  "modern_politics": true
+  "modern_politics": true,
+  "historically_established": true
  },
  {
   "id": "la_france_insoumise",
@@ -18832,7 +18867,8 @@
    "src": "https://grokipedia.com/page/La_France_Insoumise",
    "note": "Party-movement founded 2016."
   },
-  "modern_politics": true
+  "modern_politics": true,
+  "historically_established": false
  },
  {
   "id": "christian_democracy",
@@ -18953,7 +18989,8 @@
    "src": "https://grokipedia.com/page/Christian_Democratic_Union_of_Germany",
    "note": "CDU with its Bavarian sister CSU; founded 1945."
   },
-  "modern_politics": true
+  "modern_politics": true,
+  "historically_established": true
  },
  {
   "id": "alternative_for_germany",
@@ -19078,7 +19115,8 @@
    "src": "https://grokipedia.com/page/Alternative_for_Germany",
    "note": "Party; the Federal Office for the Protection of the Constitution classified it as right-wing extremist in May 2025."
   },
-  "modern_politics": true
+  "modern_politics": true,
+  "historically_established": false
  },
  {
   "id": "german_left_conservatism",
@@ -19191,7 +19229,8 @@
    "src": "https://grokipedia.com/page/Bündnis_Sahra_Wagenknecht",
    "note": "Party since January 2024; below the 5% threshold in February 2025."
   },
-  "modern_politics": true
+  "modern_politics": true,
+  "historically_established": false
  },
  {
   "id": "green_politics",
@@ -19313,7 +19352,8 @@
    "src": "https://grokipedia.com/page/Alliance_90%2FThe_Greens",
    "note": "Alliance 90/The Greens since the May 1993 merger."
   },
-  "modern_politics": true
+  "modern_politics": true,
+  "historically_established": true
  },
  {
   "id": "eurasianism",
@@ -19427,7 +19467,8 @@
    "src": "https://grokipedia.com/page/Aleksandr_Dugin",
    "note": "Bloc, not party: Dugin's movements aligned 'with shifts toward state conservatism under Putin without formal integration into ruling structures'."
   },
-  "modern_politics": true
+  "modern_politics": true,
+  "historically_established": true
  },
  {
   "id": "putinism",
@@ -19555,7 +19596,8 @@
    "src": "https://grokipedia.com/page/United_Russia",
    "note": "The ruling bloc; United Russia functions as a 'party of power'."
   },
-  "modern_politics": true
+  "modern_politics": true,
+  "historically_established": false
  },
  {
   "id": "russian_liberal_opposition",
@@ -19677,7 +19719,8 @@
    "src": "https://grokipedia.com/page/Yabloko",
    "note": "Bloc: the non-systemic opposition, outside the Kremlin-licensed parties."
   },
-  "modern_politics": true
+  "modern_politics": true,
+  "historically_established": false
  },
  {
   "id": "socialism_chinese_characteristics",
@@ -19797,7 +19840,8 @@
    "src": "https://grokipedia.com/page/Deng_Xiaoping_Theory",
    "note": "Bloc: the reform-and-opening line inside the CCP."
   },
-  "modern_politics": true
+  "modern_politics": true,
+  "historically_established": true
  },
  {
   "id": "xi_jinping_thought",
@@ -19907,7 +19951,8 @@
    "src": "https://grokipedia.com/page/Xi_Jinping_Thought",
    "note": "Bloc: the party center around Xi."
   },
-  "modern_politics": true
+  "modern_politics": true,
+  "historically_established": false
  },
  {
   "id": "chinese_new_left",
@@ -20026,7 +20071,8 @@
    "src": "https://grokipedia.com/page/Chinese_New_Left",
    "note": "Bloc: the left critics of reform, partly inside the party (Bo Xilai)."
   },
-  "modern_politics": true
+  "modern_politics": true,
+  "historically_established": true
  },
  {
   "id": "chinese_liberalism",
@@ -20145,7 +20191,8 @@
    "src": "https://grokipedia.com/page/Liberalism_in_China",
    "note": "Bloc: liberals and dissidents outside the party line."
   },
-  "modern_politics": true
+  "modern_politics": true,
+  "historically_established": true
  },
  {
   "id": "abe_line_conservatism",
@@ -20267,7 +20314,8 @@
    "src": "https://grokipedia.com/page/Liberal_Democratic_Party_(Japan)",
    "note": "The LDP's conservative wing; Takaichi's 2025 win marked 'a shift toward hawkish nationalism'."
   },
-  "modern_politics": true
+  "modern_politics": true,
+  "historically_established": false
  },
  {
   "id": "constitutional_pacifism",
@@ -20379,7 +20427,8 @@
    "src": "https://grokipedia.com/page/Constitutional_Democratic_Party_of_Japan",
    "note": "Party founded 2017."
   },
-  "modern_politics": true
+  "modern_politics": true,
+  "historically_established": false
  },
  {
   "id": "ishin_reformism",
@@ -20505,7 +20554,8 @@
    ],
    "lean": "ISHIN"
   },
-  "modern_politics": true
+  "modern_politics": true,
+  "historically_established": false
  },
  {
   "id": "sanseito_populism",
@@ -20624,7 +20674,8 @@
    "src": "https://grokipedia.com/page/Sanseitō",
    "note": "Party since 2020."
   },
-  "modern_politics": true
+  "modern_politics": true,
+  "historically_established": false
  },
  {
   "root": false,
@@ -21091,6 +21142,245 @@
     }
    ]
   }
+ },
+ {
+  "id": "second_temple_judaism",
+  "name": "Second Temple Judaism",
+  "root": false,
+  "root_axis": null,
+  "year": -516,
+  "year_approx": true,
+  "origin_src": "https://grokipedia.com/page/Second_Temple_Judaism",
+  "origin_note": "From the rebuilding of the Jerusalem Temple 'around 516 BCE' to its destruction in 70 CE",
+  "place": "Jerusalem",
+  "lat": 31.78,
+  "lon": 35.23,
+  "thinkers": [
+   "Ezra",
+   "Hillel the Elder",
+   "Shammai"
+  ],
+  "parents": [],
+  "plain": "Jewish religion in the centuries of the rebuilt Temple in Jerusalem, with rival groups such as the Pharisees, Sadducees and Essenes.",
+  "summary": "Judaism of c.516 BCE–70 CE: one God, Torah observance and Temple sacrifice, split among Pharisees, Sadducees, Essenes and others.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 0,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "islam": 0,
+   "judaism": 5,
+   "romanticism": 0,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 2,
+   "hierarchy": 2
+  },
+  "rationale": {
+   "platonism": "Comes before Platonism existed, so it cannot descend from it.",
+   "aristotelianism": "Comes before Aristotelianism existed, so it cannot descend from it.",
+   "stoicism": "Comes before Stoicism existed, so it cannot descend from it.",
+   "christianity": "Comes before Christianity existed, so it cannot descend from it.",
+   "gnosticism": "Comes before Gnosticism existed, so it cannot descend from it.",
+   "hermeticism": "Comes before Hermeticism existed, so it cannot descend from it.",
+   "enlightenment_liberalism": "Comes before Enlightenment liberalism existed, so it cannot descend from it.",
+   "marxism": "Comes before Marxism existed, so it cannot descend from it.",
+   "darwinism": "Comes before Darwinism existed, so it cannot descend from it.",
+   "nietzsche": "Comes before Nietzsche existed, so it cannot descend from it.",
+   "critical_theory": "Comes before Critical theory existed, so it cannot descend from it.",
+   "confucianism": "Comes before Confucianism existed, so it cannot descend from it.",
+   "daoism": "Comes before Daoism existed, so it cannot descend from it.",
+   "buddhism": "Comes before Buddhism existed, so it cannot descend from it.",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "Comes before Islamic philosophy existed, so it cannot descend from it.",
+   "islam": "Comes before Islam existed, so it cannot descend from it.",
+   "judaism": "Judaism of the Second Temple era; the stock from which both rabbinic Judaism and the Jesus movement came.",
+   "romanticism": "Comes before Romanticism existed, so it cannot descend from it.",
+   "nationalism": "Comes before Nationalism existed, so it cannot descend from it.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Monotheism and Torah observance, but centered on Temple sacrifice and an embodied priestly cult; mixed, leaning idealist.",
+   "hierarchy": "Temple worship run by hereditary priests; high priests governed Yehud and the Hasmoneans joined priestly and political rule."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Second_Temple_Judaism",
+   "https://grokipedia.com/page/Rabbinic_Judaism"
+  ],
+  "domain": [
+   "religion"
+  ],
+  "aliases": [
+   "Early Judaism"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Jerusalem",
+     "period": "c.516 BCE–70 CE",
+     "src": "https://grokipedia.com/page/Second_Temple_Judaism",
+     "note": "Centered on the Second Temple in Jerusalem until its destruction in 70 CE."
+    },
+    {
+     "place": "Egypt",
+     "src": "https://grokipedia.com/page/Second_Temple_Judaism",
+     "note": "Named among diaspora communities where synagogues proliferated for prayer and study."
+    },
+    {
+     "place": "Mesopotamia",
+     "src": "https://grokipedia.com/page/Second_Temple_Judaism",
+     "note": "Named among diaspora communities where synagogues proliferated for prayer and study."
+    }
+   ]
+  },
+  "edge_notes": {}
+ },
+ {
+  "id": "rabbinic_judaism",
+  "name": "Rabbinic Judaism",
+  "root": true,
+  "root_axis": "judaism",
+  "year": 70,
+  "year_approx": true,
+  "origin_src": "https://grokipedia.com/page/Yavne",
+  "origin_note": "Held from c.70 CE, when Yohanan ben Zakkai set up the Yavne academy after the Temple fell; Pharisaic roots are older. The Mishnah (c.200) and Talmuds record it later",
+  "place": "Yavne",
+  "lat": 31.88,
+  "lon": 34.74,
+  "thinkers": [
+   "Yohanan ben Zakkai",
+   "Gamaliel II",
+   "Akiva",
+   "Judah ha-Nasi"
+  ],
+  "parents": [
+   "second_temple_judaism"
+  ],
+  "plain": "The Judaism of the rabbis that took shape after Rome destroyed the Temple in 70 CE. Torah study, prayer and Jewish law replaced Temple sacrifice.",
+  "summary": "Judaism rebuilt around the Written and Oral Torah, synagogue prayer, study and halakha under rabbinic authority after the Temple fell.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": -1,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 0,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "islam": 0,
+   "judaism": 5,
+   "romanticism": 0,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 2,
+   "hierarchy": 1
+  },
+  "rationale": {
+   "platonism": "No real link to Platonism.",
+   "aristotelianism": "No real link to Aristotelianism.",
+   "stoicism": "No real link to Stoicism.",
+   "christianity": "Parted from the Jesus movement by the late 1st century; the Birkat ha-Minim targeted heretics, including Jesus adherents (dating and targets debated).",
+   "gnosticism": "Comes before Gnosticism existed, so it cannot descend from it.",
+   "hermeticism": "Comes before Hermeticism existed, so it cannot descend from it.",
+   "enlightenment_liberalism": "Comes before Enlightenment liberalism existed, so it cannot descend from it.",
+   "marxism": "Comes before Marxism existed, so it cannot descend from it.",
+   "darwinism": "Comes before Darwinism existed, so it cannot descend from it.",
+   "nietzsche": "Comes before Nietzsche existed, so it cannot descend from it.",
+   "critical_theory": "Comes before Critical theory existed, so it cannot descend from it.",
+   "confucianism": "No real link to Confucianism.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "No real link to Buddhism.",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "Comes before Islamic philosophy existed, so it cannot descend from it.",
+   "islam": "Comes before Islam existed, so it cannot descend from it.",
+   "judaism": "This is the tradition itself: Judaism organized around the Written and Oral Torah, halakha and rabbinic authority.",
+   "romanticism": "Comes before Romanticism existed, so it cannot descend from it.",
+   "nationalism": "Comes before Nationalism existed, so it cannot descend from it.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Holds that God, a reality prior to the world, revealed the Written and Oral Torah to Moses at Sinai; truth comes from divine revelation, not matter.",
+   "hierarchy": "Rabbinic scholarly authority replaced the priesthood; learning, not birth, ranks, and Orthodoxy stresses obedience to rabbis."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Rabbinic_Judaism",
+   "https://grokipedia.com/page/Yavne",
+   "https://grokipedia.com/page/Second_Temple_Judaism",
+   "https://grokipedia.com/page/Mishnah",
+   "https://grokipedia.com/page/Judaism"
+  ],
+  "domain": [
+   "religion",
+   "philosophy"
+  ],
+  "aliases": [
+   "Talmudic Judaism",
+   "Rabbinism"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Israel",
+     "src": "https://grokipedia.com/page/Judaism",
+     "note": "The page describes Israel's Haredi population and a Chief Rabbinate with authority over Jewish religious matters."
+    },
+    {
+     "place": "United States",
+     "src": "https://grokipedia.com/page/Judaism",
+     "note": "Judaism infobox: Regions 'Worldwide (primarily Israel and United States)'."
+    },
+    {
+     "place": "Galilee",
+     "period": "c.200–400 CE",
+     "src": "https://grokipedia.com/page/Mishnah",
+     "note": "Mishnah redacted c.200 CE in the Galilee; the Jerusalem Talmud redacted there c.400 CE (Rabbinic Judaism page)."
+    },
+    {
+     "place": "Babylonia",
+     "period": "c.500–8th century CE",
+     "src": "https://grokipedia.com/page/Rabbinic_Judaism",
+     "note": "Babylonian Talmud compiled in Mesopotamian academies c.500 CE; geonic responsa from Babylonian academies c.8th century."
+    }
+   ]
+  },
+  "edge_notes": {
+   "second_temple_judaism": {
+    "status": "direct",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Rabbinic_Judaism",
+    "note": "Second Temple sects 'contributed to the interpretive and communal frameworks later formalized in Rabbinic Judaism, with the Pharisees emerging as the primary antecedent'."
+   }
+  },
+  "abstraction_quote": {
+   "src": "https://grokipedia.com/page/Rabbinic_Judaism",
+   "quote": "God revealed two interdependent components of Torah to Moses at Mount Sinai"
+  },
+  "parent_note": "Dating is contested: Neusner (cited on the Rabbinic Judaism page) has it 'crystallized between 200 and 600 CE'. This node dates it to when Yavne sages first held it."
  },
  {
   "id": "wilsonianism",
