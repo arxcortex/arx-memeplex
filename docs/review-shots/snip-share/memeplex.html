@@ -36,8 +36,9 @@ header{position:absolute;top:0;left:0;right:0;padding:24px 32px;display:flex;jus
 #panel{position:absolute;top:0;right:0;bottom:0;width:400px;max-width:100vw;z-index:20;background:linear-gradient(180deg,#111114,#0a0a0c);border-left:1px solid var(--rule);padding:28px 28px 40px;overflow-y:auto;visibility:hidden}
 #panel .close{position:absolute;z-index:2;top:14px;right:16px;background:none;border:1px solid var(--rule);color:var(--amber);font-family:var(--mono);font-size:12px;width:26px;height:26px;cursor:pointer}
 #panel .k{font-family:var(--mono);font-size:9px;letter-spacing:.3em;text-transform:uppercase;color:var(--amber);margin:18px 0 8px}
-#panel .yt{margin-top:18px}#panel .yt a{display:inline-block;padding:8px 12px;border:1px solid var(--rule);border-radius:6px;color:var(--ink);font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;text-decoration:none}#panel .yt a:hover{border-color:var(--amber);color:var(--amber)}
 #panel h2{font-weight:500;font-size:32px;line-height:1.05;padding-right:30px}
+#panel .yt{margin-top:18px}#panel .yt a{display:inline-block;padding:8px 12px;border:1px solid var(--rule);border-radius:6px;color:var(--ink);font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;text-decoration:none}#panel .yt a:hover{border-color:var(--amber);color:var(--amber)}
+#panel .kt2{display:grid;grid-template-columns:1fr 1fr;gap:0 14px}#panel .kt2>div{min-width:0}@media(max-width:420px){#panel .kt2{grid-template-columns:1fr}}
 #panel .when{font-family:var(--mono);font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-dim);margin-top:8px}
 #panel .sum{font-size:18px;line-height:1.4;margin-top:14px}
 #panel .chips button,#panel .chips span{display:inline-block;margin:0 6px 6px 0;background:transparent;border:1px solid var(--rule);color:var(--ink);font-family:var(--serif);font-size:15px;padding:3px 8px}
@@ -112,7 +113,7 @@ header{position:absolute;top:0;left:0;right:0;padding:24px 32px;display:flex;jus
 body.phone #phonenote{display:block;position:fixed;z-index:30;left:50%;top:76px;transform:translateX(-50%);width:min(360px,92vw);padding:12px 14px;border-radius:12px;text-align:center;font-family:var(--serif);font-size:16px;color:var(--ink)}
 body.phone #phonenote a{display:inline-block;margin-top:6px;font-family:var(--mono);font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--amber-bright)}
 body.phone #stage canvas{pointer-events:none}
-body.phone #tb button:not([data-k=search]):not([data-k=dice]):not([data-k=games]):not([data-k=tours]):not([data-k=snip]),body.phone #tb .sep,body.phone #legend{display:none!important}
+body.phone #tb button:not([data-k=search]):not([data-k=dice]):not([data-k=games]):not([data-k=tours]):not([data-k=snip]):not([data-k=politics]):not([data-k=hidepol]),body.phone #tb .sep,body.phone #legend{display:none!important}
 body.phone #panel{top:0;height:100%;height:100dvh;z-index:40}
 body.phone #tourbar{bottom:auto;top:50%;transform:translate(-50%,-50%);width:min(380px,92vw)}
 body.phone #tourbar .tc{font-size:18px}
@@ -148,6 +149,10 @@ body.panel-open #tourbar{left:calc((100vw - 380px)/2)}
 .lbl,.axl{padding:3px 8px;border-radius:999px;background:rgba(6,6,8,.82);box-shadow:0 0 10px 4px rgba(6,6,8,.72);transition:opacity .3s}
 @supports ((backdrop-filter:blur(4px)) or (-webkit-backdrop-filter:blur(4px))){.lbl,.axl{background:rgba(6,6,8,.6);-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px)}}
 .lbl{color:var(--ink)!important}
+.lbl.sel{opacity:1!important;color:#140c04!important;background:#f0b35a!important;font-weight:700;box-shadow:0 0 0 2px rgba(6,6,8,.9),0 0 14px 4px rgba(240,179,90,.55)!important;-webkit-backdrop-filter:none!important;backdrop-filter:none!important}
+#selring{position:absolute;left:0;top:0;width:30px;height:30px;margin:-15px 0 0 -15px;border-radius:50%;border:2px solid #f0b35a;box-shadow:0 0 12px 3px rgba(240,179,90,.7),inset 0 0 8px 2px rgba(240,179,90,.45);pointer-events:none;display:none;z-index:5;animation:selpulse 1.8s ease-in-out infinite}
+@keyframes selpulse{50%{box-shadow:0 0 20px 6px rgba(240,179,90,.45),inset 0 0 10px 3px rgba(240,179,90,.3)}}
+@media (prefers-reduced-motion:reduce){#selring{animation:none}}
 #loading{position:absolute;inset:0;display:grid;place-items:center;z-index:30;font-family:var(--mono);font-size:10px;letter-spacing:.3em;text-transform:uppercase;color:var(--amber);background:var(--bg)}
 footer{position:absolute;right:32px;bottom:20px;z-index:10;font-family:var(--mono);font-size:9px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-faint)}
 #helpbtn{background:rgba(10,10,12,.8);border:1px solid var(--amber);color:var(--amber);font-family:var(--mono);font-size:10px;letter-spacing:.16em;text-transform:uppercase;padding:6px 10px;cursor:pointer;width:220px}
@@ -300,7 +305,7 @@ body.panel-open #tbp{display:none}
       <button id="filtbtn" type="button" aria-expanded="false" aria-controls="filt" title="Isolate root traditions">Filter <span class="n"></span></button>
       <div id="filt" role="region" aria-label="Filter by root tradition">
         <div class="bh" style="border:0;padding:0;margin-top:0">Domain</div><div class="chips dm"><button class="dchip" type="button" data-dom="" aria-pressed="true">All</button><button class="dchip" type="button" data-dom="politics" aria-pressed="false">Political theory</button><button class="dchip" type="button" data-dom="philosophy" aria-pressed="false">Philosophy</button><button class="dchip" type="button" data-dom="religion" aria-pressed="false">Religion</button><button class="dchip" type="button" data-dom="culture" aria-pressed="false">Internet &amp; culture</button><button class="dchip" type="button" data-dom="abrahamic" aria-pressed="false" title="Ideas rooted in the Abrahamic faiths: scored 4 or 5 (core) on the Christianity or Islamic philosophy axis, plus Sufism and Ash'arism">Abrahamic</button></div>
-        <div class="bh">Traditions</div><div class="row"><button class="tg" type="button" aria-pressed="false">Roots only</button><button class="clr" type="button">Clear</button><button class="clr done" type="button">Done</button></div>
+        <div class="bh">Traditions</div><div class="row"><button class="tg" type="button" aria-pressed="false">Roots only</button><button class="tg hp" type="button" aria-pressed="false" title="Hide every modern politics idea and its links">Hide modern politics</button><button class="clr" type="button">Clear</button><button class="clr done" type="button">Done</button></div>
         <div class="chips"></div>
         <div class="bh">Branches</div><div class="chips br"></div>
         <div class="count"></div>
@@ -344,7 +349,7 @@ body.panel-open #tbp{display:none}
     </ul>
     <p>The faint labels at the edges name these four sides. Ideas with the same two scores are nudged slightly apart so they don't sit on top of each other. Ideas close together on the floor share these two stances, even if they are centuries apart; the tradition scores don't move them.</p>
     <div class="k">The scores, in plain words</div>
-    <p>Each idea gets a score from <b>−5 to +5</b> on each of the sixteen traditions: Platonism, Aristotelianism, Stoicism, Christianity, Gnosticism, Hermeticism, Enlightenment liberalism, Marxism, Darwinism, Nietzsche, critical theory, Confucianism, Daoism, Buddhism, Vedanta and Islamic philosophy. <b>+5</b> means it is that tradition or grows straight out of it. <b>0</b> means no real link. <b>−5</b> means it was built to oppose it. Every score has a one-line reason. Scores are our judgment; dates and places come from cited sources.</p>
+    <p>Each idea gets a score from <b>−5 to +5</b> on each of the sixteen traditions: Platonism, Aristotelianism, Stoicism, Christianity, Gnosticism, Hermeticism, Enlightenment liberalism, Marxism, Darwinism, Nietzsche, critical theory, Confucianism, Daoism, Buddhism, Vedanta and Islamic philosophy. <b>+5</b> means it is that tradition or strongly aligned with it. <b>0</b> means no real link. <b>−5</b> means it opposes it. Every score has a one-line reason. Scores are our judgment; dates and places come from cited sources.</p>
     <p><b>Stance: hierarchy</b> is a different kind of score. It asks whether the idea thinks some people, beings or powers rightly stand above others. <b>+5</b> strongly favors that kind of ranked order, <b>0</b> is neutral or mixed, <b>−5</b> strongly opposes it. Every idea has one, root ideas included, and it sets the front-back position.</p>
     <p><b>Stance: abstract vs material</b> asks what reality is made of. <b>+5</b> means ideas, mind or spirit come first (idealist), <b>0</b> is neutral or mixed, <b>−5</b> means matter comes first (materialist). It sets the left-right position.</p>
     <p><b>Tone</b> is a separate group with two scores: humor and irony. They describe how an idea is expressed, not where it comes from. They are hidden on root ideas.</p>
@@ -363,7 +368,7 @@ body.panel-open #tbp{display:none}
   </div></div>
   <footer>Drag to turn · Scroll to zoom · Click an idea · Share card on its page · Filter by tradition · R to reset · ? for help</footer>
 </div>
-<script src="assets/sharecard.js"></script>
+<script src="assets/sharecard.js?v=20261029b"></script>
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
 <script type="importmap">
 { "imports": {
@@ -395,7 +400,12 @@ const [axes, ideas, thinkerLinks] = await Promise.all([load('axes.json'), load('
   /* optional: thinker -> Grokipedia URL; a missing or bad file just leaves chips plain */
   load('thinkers.json').then(o => (o && typeof o === 'object' && !Array.isArray(o)) ? o : {}).catch(() => ({}))]);
 /* optional: Modern politics view config (countries, party colours); a missing file just hides the view */
-const politicsCfg = await load('politics.json').then(o => (o && Array.isArray(o.countries)) ? o : { countries: [] }).catch(() => ({ countries: [] }));
+/* fallback chain: Pages, then a politics.json beside the page, then the copy embedded here */
+const POLITICS_EMBEDDED = {"note":"Modern politics view. Each country names the idea field that holds its alignment, its party colours, and how strength words map to colour intensity (0..1). Add a country here and an alignment field on ideas to extend the view.","countries":[{"id":"us","name":"United States","field":"party_alignment","parties":{"R":{"label":"Republican","color":"#d62828"},"D":{"label":"Democratic","color":"#1d4ed8"},"mixed":{"label":"Split between the parties","color":"#7b3fb0"}},"mix":{"a":"R","b":"D","mid":"mixed","label":"Shared ancestry (red and blue mixed)"},"strength":{"strong":1,"moderate":0.72,"split":0.85,"lean":0.8,"weak":0.55},"lean_share":0.65,"decay":0.7,"dim":"#2b2925"},{"id":"gb","name":"United Kingdom","field":"party_alignment_gb","mode":"party","parties":{"CON":{"label":"Conservative","color":"#0087DC","src":"https://www.wikidata.org/wiki/Q9626"},"LAB":{"label":"Labour","color":"#DC241F","src":"https://www.wikidata.org/wiki/Q9630"},"REF":{"label":"Reform UK","color":"#12B6CF","src":"https://www.wikidata.org/wiki/Q104721252"},"LD":{"label":"Liberal Democrats","color":"#FAA61A","src":"https://www.wikidata.org/wiki/Q9624"},"GRN":{"label":"Green (England and Wales)","color":"#02A95B","src":"https://www.wikidata.org/wiki/Q9669"},"mixed":{"label":"Split between parties","color":"#7b3fb0"}},"blend":"Two-color blend from the alignment's blend list, weighted toward lean when set","strength":{"strong":1,"moderate":0.72,"split":0.85,"lean":0.8,"weak":0.55},"lean_share":0.65,"decay":0.7,"dim":"#2b2925"},{"id":"fr","name":"France","field":"party_alignment_fr","mode":"party","parties":{"RN":{"label":"National Rally","color":"#104E8B","src":"https://www.wikidata.org/wiki/Q205150"},"REN":{"label":"Renaissance","color":"#FFD600","src":"https://www.wikidata.org/wiki/Q23731823"},"LR":{"label":"The Republicans","color":"#034EA2","src":"https://www.wikidata.org/wiki/Q20012759"},"PS":{"label":"Socialist Party","color":"#E3265B","src":"https://www.wikidata.org/wiki/Q170972"},"LFI":{"label":"La France Insoumise","color":"#56277E","src":"https://www.wikidata.org/wiki/Q27978402"},"mixed":{"label":"Split between parties","color":"#7b3fb0"}},"blend":"Two-color blend from the alignment's blend list, weighted toward lean when set","strength":{"strong":1,"moderate":0.72,"split":0.85,"lean":0.8,"weak":0.55},"lean_share":0.65,"decay":0.7,"dim":"#2b2925"},{"id":"de","name":"Germany","field":"party_alignment_de","mode":"party","parties":{"CDU":{"label":"CDU/CSU","color":"#000000","src":"https://www.wikidata.org/wiki/Q49762","display":"#5c5c5c","display_note":"Official black is invisible on the dim background; render as dark grey with a white outline. CSU blue is #008AC5 (Q49763)."},"SPD":{"label":"SPD","color":"#E3000F","src":"https://www.wikidata.org/wiki/Q49768"},"GRUENE":{"label":"Alliance 90/The Greens","color":"#409A3C","src":"https://www.wikidata.org/wiki/Q49766"},"AFD":{"label":"AfD","color":"#009EE0","src":"https://www.wikidata.org/wiki/Q6721203"},"BSW":{"label":"BSW","color":"#792351","src":"https://www.wikidata.org/wiki/Q123121346"},"FDP":{"label":"FDP","color":"#FFED00","src":"https://www.wikidata.org/wiki/Q13124"},"mixed":{"label":"Split between parties","color":"#7b3fb0"}},"blend":"Two-color blend from the alignment's blend list, weighted toward lean when set","strength":{"strong":1,"moderate":0.72,"split":0.85,"lean":0.8,"weak":0.55},"lean_share":0.65,"decay":0.7,"dim":"#2b2925"},{"id":"ru","name":"Russia","field":"party_alignment_ru","mode":"bloc","parties":{"POWER":{"label":"Ruling bloc (United Russia, Kremlin)","color":"#2056AE","src":"https://www.wikidata.org/wiki/Q151469"},"SYS":{"label":"Systemic opposition (CPRF, LDPR, in the Duma)","color":"#D70000","src":"https://www.wikidata.org/wiki/Q192187"},"NONSYS":{"label":"Non-systemic opposition (Yabloko, exiles)","color":"#00A23D","src":"https://www.wikidata.org/wiki/Q15332"},"mixed":{"label":"Between blocs","color":"#7b3fb0"}},"blend":"Two-color blend from the alignment's blend list, weighted toward lean when set","strength":{"strong":1,"moderate":0.72,"split":0.85,"lean":0.8,"weak":0.55},"lean_share":0.65,"decay":0.7,"dim":"#2b2925","note":"Dominant-party system: color by bloc, defined by relation to the Kremlin. Each bloc takes the Wikidata color of its anchor party: United Russia, CPRF, Yabloko."},{"id":"cn","name":"China","field":"party_alignment_cn","mode":"bloc","parties":{"CORE":{"label":"Party center, Xi line","color":"#DD0000","src":"https://www.wikidata.org/wiki/Q17427"},"REFORM":{"label":"Reform-and-opening line","color":"#E8A317","label_note":"Proposed shade, no party color","legend":"Proposed shade, no party color","src":null,"judgment":true},"LEFT":{"label":"New Left and neo-Maoists","color":"#8B0000","label_note":"Proposed shade, no party color","legend":"Proposed shade, no party color","src":null,"judgment":true},"LIB":{"label":"Liberals and dissidents","color":"#3A7CA5","label_note":"Proposed shade, no party color","legend":"Proposed shade, no party color","src":null,"judgment":true},"mixed":{"label":"Between blocs","color":"#7b3fb0"}},"blend":"Two-color blend from the alignment's blend list, weighted toward lean when set","strength":{"strong":1,"moderate":0.72,"split":0.85,"lean":0.8,"weak":0.55},"lean_share":0.65,"decay":0.7,"dim":"#2b2925","note":"One-party state: color by bloc. CORE takes CCP red from Wikidata (Q17427); the other three are proposed shades because no party colors exist; the legend shows them as 'Proposed shade, no party color'.","legend_note":"REFORM, LEFT and LIB: Proposed shade, no party color"},{"id":"jp","name":"Japan","field":"party_alignment_jp","mode":"party","parties":{"LDP":{"label":"Liberal Democratic Party","color":"#D7003A","src":"https://www.wikidata.org/wiki/Q232595"},"CDP":{"label":"Constitutional Democratic Party","color":"#184589","src":"https://www.wikidata.org/wiki/Q99233271"},"ISHIN":{"label":"Nippon Ishin no Kai","color":"#B8CE43","src":"https://www.wikidata.org/wiki/Q21499745"},"SANSEI":{"label":"Sanseitō","color":"#ED7301","src":"https://www.wikidata.org/wiki/Q113009668"},"KOMEI":{"label":"Komeito","color":"#F55881","src":"https://www.wikidata.org/wiki/Q1061354"},"mixed":{"label":"Split between parties","color":"#7b3fb0"}},"blend":"Two-color blend from the alignment's blend list, weighted toward lean when set","strength":{"strong":1,"moderate":0.72,"split":0.85,"lean":0.8,"weak":0.55},"lean_share":0.65,"decay":0.7,"dim":"#2b2925"}]};
+const okPol = o => (o && Array.isArray(o.countries) && o.countries.length) ? o : null;
+const politicsCfg = (await load('politics.json').then(okPol).catch(() => null))
+  || (await fetch('./politics.json', { cache: 'no-cache' }).then(r => r.ok ? r.json() : null).then(okPol).catch(() => null))
+  || POLITICS_EMBEDDED;
 const thinkerUrl = t => { const u = thinkerLinks[t]; return (typeof u === 'string' && /^https:\/\/(grokipedia\.com\/page|en\.wikipedia\.org\/wiki)\//.test(u)) ? u : null; };
 const byId = Object.fromEntries(ideas.map(d => [d.id, d]));
 ideas.forEach(d => d.children = ideas.filter(c => (c.parents || []).includes(d.id)).map(c => c.id));
@@ -571,15 +581,16 @@ const ROOT_PALETTE = ['#e89968','#7fb3d5','#c39bd3','#76d7a4','#f4d03f','#ec7063
 const roots = ideas.filter(d => d.root).sort((a, b) => a.year - b.year);
 const families = {}; roots.forEach((r, i) => { r.rootColor = new THREE.Color(ROOT_PALETTE[i % ROOT_PALETTE.length]);
   families[r.id] = new Set([r.id, ...lineage(r.id).dn]); });
-const filt = { rootsOnly: false, sel: new Set(), dom: '' };
+const filt = { rootsOnly: false, sel: new Set(), dom: '', hidePol: false };
 /* Abrahamic: not a domain or axis, a derived group. Rule: the idea scores 4+ ("comes straight from it") on the Christianity
    or Islamic philosophy axis. No Judaism node or axis exists yet, so nothing is added for it. */
 const ABRAHAMIC_IDS = ['sufism', 'asharism']; // Islamic ideas that score 0 on the Islamic philosophy (falsafa) axis, added by id
 const ABRAHAMIC = d => Math.max(sc(d, 'christianity'), sc(d, 'islamic_philosophy')) >= 4 || ABRAHAMIC_IDS.includes(d.id);
 const domOK = d => !filt.dom || (filt.dom === 'abrahamic' ? ABRAHAMIC(d) : (d.domain || []).includes(filt.dom));
 const treeOn = () => filt.rootsOnly || filt.sel.size > 0;
-const filterOn = () => treeOn() || !!filt.dom;
-const inFilter = d => domOK(d) && (!treeOn() || (filt.rootsOnly && d.root) || [...filt.sel].some(r => families[r].has(d.id)));
+const isPol = d => d.modern_politics === true || Object.keys(d).some(k => /^party_alignment/.test(k));
+const filterOn = () => treeOn() || !!filt.dom || filt.hidePol;
+const inFilter = d => !(filt.hidePol && isPol(d)) && domOK(d) && (!treeOn() || (filt.rootsOnly && d.root) || [...filt.sel].some(r => families[r].has(d.id)));
 const famOf = d => [...filt.sel].find(r => families[r].has(d.id)); // first selected family (selection order) for tint
 window.__families = Object.fromEntries(roots.map(r => [r.id, families[r.id].size]));
 /* ---------- BRANCHES start: named family views. Members = seeds + descendants via parent edges
@@ -624,7 +635,7 @@ function applyLens(ax) { lensAx = ax; if (window.__pol && __pol.on) { __pol.pain
     gsap.to(d.star.grp.scale, { x: s, y: s, z: s, duration: reduce ? 0 : 0.8, overwrite: 'auto' });
   });
   const a = axes.find(x => x.id === ax);
-  legend.innerHTML = a ? `Colored by ${a.label}<div class="bar"></div>${a.group === 'stance' ? (a.id === 'abstraction' ? 'material (−5) · neutral or mixed (0) · abstract (+5)' : 'opposes (−5) · neutral or mixed (0) · favors (+5)') : 'against (−5) · no link (0) · grows from it (+5)'}<div class="desc">${a.plain || a.description}${a.group === 'register' ? ' Root ideas stay grey: tone scores are not shown for them.' : ''}</div>`
+  legend.innerHTML = a ? `Colored by ${a.label}<div class="bar"></div>${a.group === 'stance' ? (a.id === 'abstraction' ? 'material (−5) · neutral or mixed (0) · abstract (+5)' : 'opposes (−5) · neutral or mixed (0) · favors (+5)') : 'opposes (−5) · no link (0) · strongly aligned (+5)'}<div class="desc">${a.plain || a.description}${a.group === 'register' ? ' Root ideas stay grey: tone scores are not shown for them.' : ''}</div>`
     : `Family tree view<div class="desc">Each star is an idea. Higher means newer. Lines link an idea to the ideas it came from. Right is more abstract, left more material; front favors hierarchy, back opposes it. Click a star, or press <b>?</b> for help.</div>`;
   legend.insertAdjacentHTML('beforeend', WHY_MEMEPLEX);
 }
@@ -636,6 +647,7 @@ applyLens('');
 const panel = document.getElementById('panel');
 /* YouTube search link: plain search URL, no embed, no API key. Adds a context word so the results are about the idea. */
 const ytUrl = d => 'https://www.youtube.com/results?search_query=' + encodeURIComponent(d.name);
+const thrivesList = d => ((d.thrives_in || {}).places || []);
 const esc = s => String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const fmtYear = (y, ap) => (ap ? 'c. ' : '') + (y < 0 ? `${-y} BC` : `AD ${y}`);
 let current = null;
@@ -657,7 +669,7 @@ function renderCompare(a, b) {
   panel.innerHTML = `<button class="close" aria-label="Close">×</button>
    <div class="k" style="margin-top:0">Compare</div><h2>${esc(a.name)}<br><span style="color:var(--ink-dim);font-size:22px">vs ${esc(b.name)}</span></h2>
    <div class="when">${fmtYear(a.year, a.year_approx)} · ${fmtYear(b.year, b.year_approx)} · score gap ${dist}</div>
-   <p class="scale">Bars show each idea's score per tradition (−5 against, +5 grows from it). Stances: hierarchy (−5 opposes, +5 favors) and abstract vs material (−5 material, +5 abstract). The score gap is 0 for identical scores; bigger means less alike.</p>
+   <p class="scale">Bars show each idea's score per tradition (−5 opposes, +5 strongly aligned). Stances: hierarchy (−5 opposes, +5 favors) and abstract vs material (−5 material, +5 abstract). The score gap is 0 for identical scores; bigger means less alike.</p>
    <div class="cmp-key"><i style="background:var(--amber)"></i>${esc(a.name)} &nbsp; <i style="background:#e8e2d4"></i>${esc(b.name)}</div>
    <div class="k">Scores · biggest differences first</div>${ax.map(x => bar(x.label, ra[x.id] || 0, rb[x.id] || 0, x.plain)).join('')}
    <div class="k">Lineage</div><p class="muted">${rel}</p><div class="chips">${shared.map(k => `<button data-go="${k}">${esc(byId[k].name)}</button>`).join('')}</div>
@@ -708,11 +720,12 @@ function renderPanel(d) {
    ${d.plain && d.summary ? `<p class="detail">${esc(d.summary)}</p>` : ''}
    ${window.__pol ? __pol.panelHtml(d) : ''}
    <div class="tools"><button data-act="compare">Compare</button><button data-act="lineage">Trace lineage</button><button data-act="kin" title="Every ancestor and descendant, grouped by steps away">Ancestors &amp; descendants</button><button data-act="card" title="Make a 9:16 image for social media">Share card</button></div>
-   <div class="k">Key thinkers</div><div class="chips">${d.thinkers.map(t => { const u = thinkerUrl(t); return u ? `<a class="tlink" href="${esc(u)}" target="_blank" rel="noopener" title="${esc(t)} (opens in a new tab)">${esc(t)}</a>` : `<span>${esc(t)}</span>`; }).join('')}</div>
+   <div class="kt2"><div><div class="k">Key thinkers</div><div class="chips">${d.thinkers.map(t => { const u = thinkerUrl(t); return u ? `<a class="tlink" href="${esc(u)}" target="_blank" rel="noopener" title="${esc(t)} (opens in a new tab)">${esc(t)}</a>` : `<span>${esc(t)}</span>`; }).join('')}</div></div>
+   <div><div class="k" title="${d.thrives_in && d.thrives_in.historical ? 'Where it flourished at its height' : 'Where it is strongest today'}">${d.thrives_in && d.thrives_in.historical ? 'Thrived in' : 'Thrives in'}</div><div class="chips">${thrivesList(d).map(x => `<a class="tlink" href="${esc(x.src)}" target="_blank" rel="noopener" title="${esc(x.note || '')}">${esc(x.place)}${x.period ? ` <span class="muted">(${esc(x.period)})</span>` : ''}</a>`).join('') || '<span class="muted">Not yet sourced</span>'}</div></div></div>
    <div class="k">Came from (parents)</div><div class="chips">${d.parents.map(chip).join('') || '<span class="muted">No earlier idea mapped</span>'}</div>
    <div class="k">Led to (children)</div><div class="chips">${d.children.map(chip).join('') || '<span class="muted">None mapped yet</span>'}</div>
    <div class="k">Scores</div>
-   <p class="scale">How much this idea grows out of each tradition. <b>+5</b>: it is that tradition or comes straight from it. <b>0</b>: no real link. <b>−5</b>: built to fight it. Hover a name for what it means. Root ideas show traditions and stance; other ideas also get tone scores below.</p>
+   <p class="scale">How strongly this idea aligns with each tradition. <b>+5</b>: it is that tradition or strongly aligned with it. <b>0</b>: no real link. <b>−5</b>: opposes it. Hover a name for what it means. Root ideas show traditions and stance; other ideas also get tone scores below.</p>
    ${sortR(trad).map(a => bar(a.label, r0[a.id], undefined, a.plain)).join('')}
    ${st.length ? `<div class="k reg-k">Stance</div><p class="scale">${STANCE_NOTE}</p>${st.map(a => bar(a.label, r0[a.id] || 0, undefined, a.plain)).join('')}` : ''}
    ${sortR(reg).length ? `<div class="k reg-k">Tone / register</div><p class="scale">${REG_NOTE}</p>${sortR(reg).map(a => bar(a.label, r0[a.id], undefined, a.plain)).join('')}` : ''}
@@ -775,7 +788,7 @@ function highlight(id) {
     gsap.to(d.star.halo.material, { opacity: !v ? 0.04 : lit(d) ? 0.55 : 0.1, duration: 0.5, overwrite: 'auto' });
     gsap.to(d.star.core.material, { opacity: v ? 1 : 0.13, duration: 0.5, overwrite: 'auto' }); });
   labels.forEach(o => { if (!o.d) return; const v = vis(o.d);
-    o.off = (F && !v) || (!!L && !lit(o.d)); /* selection: only the lineage (ancestors + descendants + selected) keeps its names */ o.lin = !!L && lit(o.d); o.el.style.opacity = lit(o.d) ? 1 : 0.2; });
+    o.el.classList.toggle('sel', o.d.id === id); o.off = (F && !v && o.d.id !== id) || (!!L && !lit(o.d)); /* selection: only the lineage (ancestors + descendants + selected) keeps its names */ o.lin = !!L && lit(o.d); o.el.style.opacity = lit(o.d) ? 1 : 0.2; });
 }
 let camTl;
 function focusIdea(id) {
@@ -869,11 +882,13 @@ POLES.forEach(([t, xyz]) => mk(t, new THREE.Vector3(...xyz)));
    overlap one already placed is hidden until you zoom in. Pole and era labels are placed first. */
 const LOD = { mid: 120, near: 70, pad: 4, h: 18 };
 const tmp = new THREE.Vector3(); let lodStats = {};
+const selRing = document.createElement('div'); selRing.id = 'selring'; selRing.setAttribute('aria-hidden', 'true'); lblLayer.appendChild(selRing); let selShown = false;
 function placeLabels() {
+  selShown = false;
   const W = innerWidth, H = innerHeight, F = filterOn(), placed = [], cand = []; let hidZoom = 0, hidOverlap = 0;
   const hit = (x, y, w) => placed.some(r => x < r[2] && x + w > r[0] && y < r[3] && y + LOD.h > r[1]);
   labels.forEach(o => { const { d, pos, el, center, off } = o;
-    if (off) { el.style.display = 'none'; return; }
+    if (off || (d && d.__hid)) { el.style.display = 'none'; return; }
     tmp.copy(d ? d.pos : pos).project(camera);
     const vis = tmp.z < 1 && Math.abs(tmp.x) < 1.1 && Math.abs(tmp.y) < 1.1;
     if (!vis) { el.style.display = 'none'; return; }
@@ -888,11 +903,13 @@ function placeLabels() {
   cand.forEach(o => { const w = o.w || o.d.name.length * 7, x = o.sx + 2;
     if (o.t < 99 && hit(x - LOD.pad, o.sy, w + LOD.pad * 2)) { o.el.style.display = 'none'; hidOverlap++; return; }
     placed.push([x - LOD.pad, o.sy - 1, x + w + LOD.pad, o.sy + LOD.h]); show(o); });
+  selRing.style.display = selShown ? 'block' : 'none';
   lodStats = { shown: placed.length, hidZoom, hidOverlap };
 }
 function show({ d, pos, el, center, sx, sy, dist }) { el.style.display = 'block';
+  if (d && d.id === current) { selShown = true; selRing.style.transform = `translate(${sx}px,${sy + 9}px)`; }
   el.style.transform = `translate(${sx + (center ? 0 : 2)}px,${sy}px)` + (center ? ' translateX(-50%)' : '');
-  el.style.zIndex = (center ? 0 : 100000) + Math.max(0, 99999 - Math.round(dist * 50)); }
+  el.style.zIndex = d && d.id === current ? 300000 : (center ? 0 : 100000) + Math.max(0, 99999 - Math.round(dist * 50)); }
 window.__lod = { LOD, stats: () => lodStats };
 const lodMeasure = () => labels.forEach(o => { o.el.style.display = 'block'; o.w = o.el.offsetWidth; }); lodMeasure();
 document.fonts && document.fonts.ready.then(lodMeasure);
@@ -993,7 +1010,7 @@ function resetView() {
 }
 document.getElementById('resetbtn').onclick = resetView;
 /* ---------- Filter UI ---------- */
-const filtBtn = document.getElementById('filtbtn'), filtBox = document.getElementById('filt'), filtTg = filtBox.querySelector('.tg'), filtCount = filtBox.querySelector('.count');
+const filtBtn = document.getElementById('filtbtn'), filtBox = document.getElementById('filt'), filtTg = filtBox.querySelector('.tg:not(.hp)'), filtHp = filtBox.querySelector('.tg.hp'), filtCount = filtBox.querySelector('.count');
 filtBox.querySelector('.chips:not(.dm):not(.br)').innerHTML = roots.map(r => `<button class="chip" type="button" aria-pressed="false" data-root="${r.id}" style="--c:#${r.rootColor.getHexString()}" title="${esc(r.name)} and every idea descended from it (${families[r.id].size})"><i></i>${esc(axLabel(r.root_axis))}</button>`).join('');
 filtBox.querySelector('.chips.br').innerHTML = branches.map(b => `<button class="chip" type="button" aria-pressed="false" data-root="${b.key}" style="--c:${b.color}" title="${esc(b.name)} (${b.set.size} ideas)"><i></i>${esc(b.name)}</button>`).join('');
 function frameBranch(set) { const pts = [...set].map(k => byId[k].star.grp.position); if (!pts.length) return; const box = new THREE.Box3().setFromPoints(pts), c = box.getCenter(new THREE.Vector3()), r = Math.max(12, box.getSize(new THREE.Vector3()).length() * 0.75);
@@ -1009,18 +1026,22 @@ function toggleFilt(open = !filtOpen) { filtOpen = open; filtBtn.setAttribute('a
 filtBtn.onclick = () => toggleFilt(); filtBox.querySelector('.done').onclick = () => toggleFilt(false);
 function applyFilter(init) {
   const n = ideas.filter(inFilter).length;
-  filtTg.setAttribute('aria-pressed', filt.rootsOnly);
+  filtTg.setAttribute('aria-pressed', filt.rootsOnly); filtHp.setAttribute('aria-pressed', filt.hidePol);
+  ideas.forEach(d => { d.__hid = filt.hidePol && isPol(d); d.star.grp.visible = !d.__hid; });
+  lines.forEach(l => { const { a, b } = l.userData; l.visible = !(byId[a] && byId[a].__hid) && !(byId[b] && byId[b].__hid); });
+  const hb = document.getElementById('hidepolbtn'); if (hb) { hb.classList.toggle('on', filt.hidePol); hb.setAttribute('aria-pressed', filt.hidePol); }
   filtBox.querySelectorAll('.dchip').forEach(c => c.setAttribute('aria-pressed', c.dataset.dom === filt.dom));
   filtBox.querySelectorAll('.chip').forEach(c => c.setAttribute('aria-pressed', filt.sel.has(c.dataset.root)));
   filtCount.textContent = filterOn() ? `${n} of ${ideas.length} ideas visible` : `All ${ideas.length} ideas visible`;
   filtBtn.querySelector('.n').textContent = filterOn() ? `${n}/${ideas.length}` : '';
   if (current && !inFilter(byId[current])) closePanel();
   if (!init) { highlight(current || null); applyLens(lensAx); }
-  window.__filter = { rootsOnly: filt.rootsOnly, sel: [...filt.sel], dom: filt.dom, visible: n };
+  window.__filter = { rootsOnly: filt.rootsOnly, sel: [...filt.sel], dom: filt.dom, visible: n, hidePol: filt.hidePol, edgesHidden: lines.filter(l => !l.visible).length };
 }
-function clearFilter() { filt.rootsOnly = false; filt.sel.clear(); filt.dom = ''; applyFilter(); }
+function clearFilter() { filt.hidePol = false; filt.rootsOnly = false; filt.sel.clear(); filt.dom = ''; applyFilter(); }
 filtBox.querySelectorAll('.dchip').forEach(c => c.onclick = () => { filt.dom = c.dataset.dom; applyFilter(); });
 filtTg.onclick = () => { filt.rootsOnly = !filt.rootsOnly; applyFilter(); };
+filtHp.onclick = () => { filt.hidePol = !filt.hidePol; applyFilter(); };
 filtBox.querySelector('.clr').onclick = clearFilter;
 filtBox.querySelectorAll('.chip').forEach(c => c.onclick = () => { const k = c.dataset.root; filt.sel.has(k) ? filt.sel.delete(k) : filt.sel.add(k); applyFilter();
   if (k.startsWith('br:') && filt.sel.has(k)) frameBranch(new Set(ideas.filter(inFilter).map(d => d.id))); });
@@ -1352,12 +1373,21 @@ window.__memeplex = { cardIdea, cardCompare, shareIdea, shareCompare, focusIdea,
   const btn = document.createElement('button'); btn.type = 'button'; btn.dataset.k = 'views'; btn.title = 'Alternate views of the map (V)'; btn.setAttribute('aria-label', btn.title); btn.setAttribute('aria-expanded', 'false');
   btn.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3c4 3 4 6 0 9s-4 6 0 9M12 3c-4 3-4 6 0 9s4 6 0 9"/></svg><span class="t">Views</span>';
   tb.insertBefore(btn, tb.querySelector('.sep'));
+  /* Modern politics gets its own toolbar button so it is findable without opening Views */
+  let pbtn = null; if (NAMES.politics) { pbtn = document.createElement('button'); pbtn.type = 'button'; pbtn.dataset.k = 'politics'; pbtn.id = 'polbtn'; pbtn.title = 'Modern politics: colour factions by party or bloc, pick a country in the key (P)'; pbtn.setAttribute('aria-label', pbtn.title); pbtn.setAttribute('aria-pressed', 'false');
+    pbtn.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg><span class="t">Politics</span>';
+    tb.insertBefore(pbtn, tb.querySelector('.sep')); pbtn.onclick = () => set(cur === 'politics' ? 'default' : 'politics');
+    const hb = document.createElement('button'); hb.type = 'button'; hb.dataset.k = 'hidepol'; hb.id = 'hidepolbtn'; hb.title = 'Hide modern politics: hide every modern politics idea and its links (H)'; hb.setAttribute('aria-label', hb.title); hb.setAttribute('aria-pressed', 'false');
+    hb.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2M3 3l18 18"/></svg><span class="t">Hide politics</span>';
+    tb.insertBefore(hb, tb.querySelector('.sep')); hb.onclick = () => { filt.hidePol = !filt.hidePol; applyFilter(); };
+    addEventListener('keydown', e => { const t = document.activeElement; if ((e.key === 'h' || e.key === 'H') && !e.metaKey && !e.ctrlKey && !e.altKey && !(t && (/^(INPUT|TEXTAREA|SELECT)$/.test(t.tagName) || t.isContentEditable))) hb.click(); });
+    addEventListener('keydown', e => { const t = document.activeElement; if ((e.key === 'p' || e.key === 'P') && !e.metaKey && !e.ctrlKey && !e.altKey && !(t && /^(INPUT|TEXTAREA|SELECT)$/.test(t.tagName))) pbtn.click(); }); }
   const pnl = document.createElement('div'); pnl.id = 'pViews'; pnl.className = 'pp gl';
   pnl.innerHTML = '<div class="ph">Views</div><div class="vw">' + Object.entries(NAMES).map(([k, n]) => `<button type="button" class="vbtn" data-v="${k}" aria-pressed="false">${n}</button>`).join('') +
     '</div><p class="vnote">Alternate shapes for fun. Older ideas always sit lower or nearer the centre than the ideas they led to. Stretch works in the default map only.</p><details class="vsrc"><summary>About the shapes</summary><ul><li><b>Helix</b>: radius, pitch and strand spacing measured from B-DNA structure <a href="https://www.rcsb.org/structure/1BNA" target="_blank" rel="noopener">PDB 1BNA</a> (wwPDB data, CC0).</li><li><b>Brain</b>: points sampled from <a href="https://opengameart.org/content/brain-and-skull" target="_blank" rel="noopener">Brain and Skull</a> by Drummyfish, a model drawn from MRI (CC0).</li><li><b>Tree of life</b>: grown in code (L-system). <b>Galaxy</b>: logarithmic spiral arms in code. <b>Sphere</b> and <b>Beatific vision</b>: built in code, rings after Dante&rsquo;s nine heavens.</li></ul></details>';
   tbp.appendChild(pnl);
   const css = document.createElement('style'); css.textContent = `#pViews .vw{display:grid;grid-template-columns:1fr 1fr;gap:4px}#pViews .vbtn{all:unset;box-sizing:border-box;padding:7px 8px;border-radius:6px;border:1px solid var(--glass-b);font-family:var(--mono);font-size:9.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-dim);cursor:pointer;text-align:center}#pViews .vbtn:hover{color:var(--ink)}#pViews .vbtn[aria-pressed=true]{color:var(--amber-bright);border-color:var(--amber);background:rgba(184,115,51,.16)}#pViews .vbtn[data-v=default]{grid-column:1/-1}#pViews .vsrc{margin-top:6px;font-size:10.5px;color:var(--ink-dim)}#pViews .vsrc summary{cursor:pointer;font-family:var(--mono);letter-spacing:.12em;text-transform:uppercase;font-size:9px}#pViews .vsrc ul{padding-left:14px;margin:6px 0 0;line-height:1.4}#pViews .vsrc a{color:var(--amber-bright)}#pViews .vnote{margin:8px 0 0;font-size:11px;line-height:1.4;color:var(--ink-dim)}`; document.head.appendChild(css);
-  function sync() { pnl.querySelectorAll('.vbtn').forEach(b => b.setAttribute('aria-pressed', b.dataset.v === cur)); btn.classList.toggle('on', cur !== 'default');
+  function sync() { pnl.querySelectorAll('.vbtn').forEach(b => b.setAttribute('aria-pressed', b.dataset.v === cur)); btn.classList.toggle('on', cur !== 'default'); if (pbtn) { pbtn.classList.toggle('on', cur === 'politics'); pbtn.setAttribute('aria-pressed', cur === 'politics'); }
     const sb = document.getElementById('strbtn'); if (sb) { sb.disabled = cur !== 'default'; sb.style.opacity = cur !== 'default' ? 0.4 : ''; } }
   const toggle = open => { open = open ?? !pnl.classList.contains('open'); if (open && window.__ui && matchMedia('(max-width:760px)').matches) ['search', 'color', 'legend'].forEach(k => __ui.st[k] && __ui.set(k, false));
     pnl.classList.toggle('open', open); btn.setAttribute('aria-expanded', open); };
@@ -1439,10 +1469,11 @@ window.__memele = (() => {
     timeframe: d => { const a = Math.floor(d.year / 100) * 100, f = y => y < 0 ? `${-y} BC` : `AD ${y}`; return ['Timeframe', `Which idea emerged between ${f(a)} and ${f(a + 100)}?`]; },
     children: d => { const c = (d.children || []).filter(k => byId[k]).map(nm).filter(t => !leaks(t, d)).slice(0, 2); return c.length ? ['Children', `Which idea gave rise to ${and(c)}?`] : null; },
     place: d => d.place && !leaks(d.place, d) ? ['Place', `Which idea took shape in ${d.place}?`] : null,
+    thrives: d => { const p = thrivesList(d).map(x => x.place).filter(t => !leaks(t, d)).slice(0, 2); return p.length ? ['Where it thrives', d.thrives_in.historical ? `Which idea flourished at its height in ${and(p)}?` : `Which idea thrives today in ${and(p)}?`] : null; },
     category: d => ['Category', `Which ${(d.domain || []).map(k => DOM[k] || k).join(' / ').toLowerCase()} idea is it?`],
     letter: d => ['First letter', `Which idea's name starts with “${d.name.trim()[0].toUpperCase()}”?`],
     flash: () => ['Map flash', 'map'] };
-  const OPENERS = ['lineage', 'thinkers', 'timeframe', 'children'], MIDDLE = ['place', 'category'];
+  const OPENERS = ['lineage', 'thinkers', 'timeframe', 'children'], MIDDLE = ['place', 'thrives', 'category'];
   const shuffle = (a, seed) => a.map((x, i) => [hash(seed + ':' + i + x), x]).sort((p, q) => p[0] - q[0]).map(p => p[1]);
   const clues = d => { const ok = t => CLUE_TYPES[t](d), opens = shuffle(OPENERS, 'memele-open:' + K).filter(ok);
     const order = [...opens.slice(0, 1), ...shuffle([...opens.slice(1), ...MIDDLE].filter(ok), 'memele-rest:' + K), 'letter', 'flash'];
@@ -1455,7 +1486,7 @@ window.__memele = (() => {
   const EXTRA = { marxism: ['marx', 'marxist'], stoic_logos: ['stoics', 'stoicism', 'stoa'], heathenry: ['asatru', 'asatruar'], neoplatonism: ['plotinus'], platonic_forms: ['plato', 'platonism'], post_vatican_ii_catholicism: ['post-vatican ii catholicism', 'post vatican ii', 'vatican ii'], social_justice_movement: ['woke', 'social justice', 'social justice movement'], maga: ['make america great again'], america_first: ['groypers', 'groyper'] };
   const aliasesOf = d => { const out = new Map(), add = (t, w) => { const c = cmp(t); if (c.length >= 2 && !(out.get(c) <= w)) out.set(c, w); };
     add(d.name, 0); add(d.id.replace(/_/g, ' '), 0); add(d.name.replace(/\(.*?\)/g, ''), 0);
-    (d.name.match(/\(([^)]*)\)/g) || []).forEach(b => add(b.slice(1, -1), 0)); (EXTRA[d.id] || []).forEach(t => add(t, 0));
+    (d.name.match(/\(([^)]*)\)/g) || []).forEach(b => add(b.slice(1, -1), 0)); (EXTRA[d.id] || []).forEach(t => add(t, 0)); (d.aliases || []).forEach(t => add(t, 0));
     [...out.keys()].forEach(c => { if (/ism$/.test(c) && c.length > 6) { add(c.slice(0, -3), 0.2); add(c.slice(0, -3) + 'ist', 0.2); add(c.slice(0, -3) + 'ists', 0.2); } });
     norm(d.name.replace(/\(.*?\)/g, '')).split(' ').forEach(w => w.length >= 5 && add(w, 0.4));
     return out; };
@@ -1577,11 +1608,14 @@ window.__games = (() => {
           const ins = [...fa].filter(i => !fb.has(i)), odd = [...fb].filter(i => !fa.has(i)); if (ins.length < 3 || !odd.length) continue;
           const three = shuf(ins, r).slice(0, 3), o = pick(odd, r); if (out.some(q => q.odd === o)) continue;
           out.push({ opts: shuf([...three, o], r), odd: o, a: A.id, b: B.id }); } return { rounds: out }; } },
-    thinker: { title: 'Thinker Match', blurb: 'Five rounds. Match each key thinker to their idea.', rounds: 5,
+    thinker: { title: 'Thinker Match', blurb: 'Five rounds. Match each key thinker, or a place where an idea thrives, to its idea.', rounds: 5,
       make(K) { const r = rng('thinker:' + K), out = [], pool = ideas.filter(d => (d.thinkers || []).length); let t = 0;
-        while (out.length < 5 && t++ < 2000) { const d = pick(pool, r), th = pick(d.thinkers, r); if (out.some(q => q.th === th || q.ans === d.id)) continue;
-          const others = shuf(ideas.filter(x => x.id !== d.id && !(x.thinkers || []).includes(th)), r).slice(0, 3).map(x => x.id);
-          out.push({ th, ans: d.id, opts: shuf([d.id, ...others], r) }); } return { rounds: out }; } } };
+        const places = x => thrivesList(x).map(p => p.place), ppool = ideas.filter(x => places(x).length);
+        /* two of five rounds ask for the idea that thrives in a place; the place must not be listed by any of the wrong options */
+        while (out.length < 5 && t++ < 2000) { const pr = (out.length === 1 || out.length === 3) && ppool.length > 4;
+          const d = pick(pr ? ppool : pool, r), th = pick(pr ? places(d) : d.thinkers, r); if (out.some(q => q.th === th || q.ans === d.id)) continue;
+          const others = shuf(ideas.filter(x => x.id !== d.id && !(pr ? places(x) : (x.thinkers || [])).includes(th)), r).slice(0, 3).map(x => x.id);
+          out.push({ th, ans: d.id, kind: pr ? 'place' : 'thinker', opts: shuf([d.id, ...others], r) }); } return { rounds: out }; } } };
   const el = document.createElement('div'); el.className = 'arx-game'; el.id = 'games'; el.setAttribute('role', 'dialog'); el.setAttribute('aria-modal', 'true'); el.setAttribute('aria-label', 'Games');
   document.body.appendChild(el);
   let cur = null, K, P, S, st, arm = false;
@@ -1628,7 +1662,7 @@ window.__games = (() => {
         ${s.done ? `<div class="mm-rev">The lineage: <div class="lin">${P.chain.map(x => `<a href="#" data-id="${x}">${esc(nm(x))}</a>`).join(' → ')}</div></div>` : ''}`;
     } else { const i = s.picks.length, R = P.rounds;
       body = `<div class="gm-dots">${R.map((q, j) => `<span class="${j < i ? tones(s)[j] : j === i && !s.done ? 'cur' : ''}"></span>`).join('')}</div>
-        ${s.done ? '' : `<p class="arx-game-clue"><b>Round ${i + 1}/5</b>${cur === 'odd' ? 'Which idea does not share a root tradition with the other three?' : `Which idea lists <b style="color:var(--amber-bright);font-family:var(--serif);font-size:16px;letter-spacing:0;text-transform:none">${esc(R[i].th)}</b> as a key thinker?`}</p>
+        ${s.done ? '' : `<p class="arx-game-clue"><b>Round ${i + 1}/5</b>${cur === 'odd' ? 'Which idea does not share a root tradition with the other three?' : (R[i].kind === 'place' ? `Which idea ${byId[R[i].ans].thrives_in.historical ? 'flourished in' : 'thrives today in'} <b style="color:var(--amber-bright);font-family:var(--serif);font-size:16px;letter-spacing:0;text-transform:none">${esc(R[i].th)}</b>?` : `Which idea lists <b style="color:var(--amber-bright);font-family:var(--serif);font-size:16px;letter-spacing:0;text-transform:none">${esc(R[i].th)}</b> as a key thinker?`)}</p>
           <div class="gm-opts">${R[i].opts.map(x => `<button type="button" class="gm-o" data-id="${x}">${esc(nm(x))}</button>`).join('')}</div>`}
         ${s.picks.map((p, j) => { const q = R[j], a = cur === 'odd' ? q.odd : q.ans, t = tones(s)[j];
           return `<div class="mm-rev gm-res"><span class="gm-t ${t}">${MARK[t]}</span> ${cur === 'odd' ? `<a href="#" data-id="${a}">${esc(nm(a))}</a> descends from ${esc(rootName(byId[q.b]))}; the others from ${esc(rootName(byId[q.a]))}.` : `${esc(q.th)} → <a href="#" data-id="${a}">${esc(nm(a))}</a>`}${p && p !== a ? ` <span class="lin">(you picked ${esc(nm(p))})</span>` : ''}</div>`; }).reverse().join('')}`; }
@@ -1735,6 +1769,7 @@ body.snipping #panel,body.snipping #tourbar{visibility:hidden!important}
   let shot = null, link = '', blob = null, url = null;
   async function build() {
     const title = $m('.tt').checked ? (current && byId[current] ? byId[current].name : 'Memeplex') : '';
+    if (typeof ArxShareCard.snip !== 'function') { msg('The share-card script is out of date in this browser. Reload with Ctrl+F5 (Cmd+Shift+R on Mac).'); throw new Error('sharecard.js lacks snip(): stale cached copy'); }
     blob = await ArxShareCard.snip({ image: shot, scale: 2 / (renderer.domElement.width / renderer.domElement.getBoundingClientRect().width), title, link });
     if (url) URL.revokeObjectURL(url); url = URL.createObjectURL(blob); $m('img').src = url; $m('.dl').href = url; }
   async function capture(r) { await new Promise(r2 => requestAnimationFrame(() => r2())); shot = grab(r); link = CANON + '#' + linkState(); msg(''); md.style.display = 'grid'; await build(); $m('.dl').focus();
@@ -1761,7 +1796,7 @@ body.snipping #panel,body.snipping #tourbar{visibility:hidden!important}
 #polkey .h{font-family:var(--mono);font-size:9px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-dim);margin-bottom:6px}
 #polkey select{width:100%;margin:2px 0 8px;font:inherit;background:transparent;color:var(--ink);border:1px solid var(--glass-b);border-radius:6px;padding:3px}
 #polkey .sw{display:inline-block;width:11px;height:11px;border-radius:50%;margin-right:6px;vertical-align:-1px}
-#polkey .row{margin:2px 0}#polkey .grad{height:6px;border-radius:3px;margin:4px 0 2px}
+#polkey .row{margin:2px 0}#polkey .jn{font-size:10.5px;color:var(--ink-dim);font-style:italic;margin:0 0 2px 17px}#polkey .grad{height:6px;border-radius:3px;margin:4px 0 2px}
 #polkey .fl button{all:unset;cursor:pointer;display:block;margin:2px 0}#polkey .fl button:hover{color:var(--amber-bright)}
 #polkey details summary{cursor:pointer;font-family:var(--mono);font-size:9px;letter-spacing:.16em;text-transform:uppercase;color:var(--amber);margin-top:6px}
 body.phone #polkey{left:8px;right:8px;bottom:64px;max-width:none;max-height:30vh;font-size:12px}
@@ -1776,9 +1811,10 @@ body.pol-on #legend{display:none!important}body.phone.panel-open #polkey{display
   // share of party a (0..1) for one faction
   const shareA = (c, a) => { const m = c.mix; if (a.party === m.a) return 1; if (a.party === m.b) return 0;
     const l = leanOf(a); return l === m.a ? (c.lean_share ?? 0.65) : l === m.b ? 1 - (c.lean_share ?? 0.65) : 0.5; };
+  const pc = p => p.display || p.color; // display colour (e.g. CDU black drawn #5c5c5c)
   const blend = (c, t) => { const A = col(c.parties[c.mix.a].color), B = col(c.parties[c.mix.b].color), M = col(c.parties[c.mix.mid].color); // t = share of b
     return t <= 0.5 ? A.lerp(M, t * 2) : M.lerp(B, (t - 0.5) * 2); };
-  function compute() { const c = P.cfg, F = c.field; P.fac = new Set(ideas.filter(d => d[F] && c.parties[d[F].party]).map(d => d.id)); P.mix = {};
+  function computeMix() { const c = P.cfg, F = c.field; P.fac = new Set(ideas.filter(d => d[F] && c.parties[d[F].party]).map(d => d.id)); P.mix = {};
     const acc = {}; // id -> [a, b]
     P.fac.forEach(id => { const a = byId[id][F], s = strengthOf(c, a), sa = shareA(c, a);
       const dist = { [id]: 0 }, q = [id]; while (q.length) { const k = q.shift(); (byId[k].parents || []).forEach(p => { if (byId[p] && dist[p] === undefined) { dist[p] = dist[k] + 1; q.push(p); } }); }
@@ -1789,20 +1825,39 @@ body.pol-on #legend{display:none!important}body.phone.panel-open #polkey{display
       const v = acc[d.id]; if (!v) { P.mix[d.id] = { kind: 'none', color: col(c.dim) }; return; }
       const tot = v[0] + v[1], t = v[1] / tot, s = Math.min(1, 0.35 + tot * 0.5);
       P.mix[d.id] = { kind: 'ancestor', t, s, a: v[0], b: v[1], color: blend(c, t).lerp(col(c.dim), (1 - s) * 0.8) }; }); }
+  // generic: any country, party or bloc mode; factions take their party colour (or a two-code blend, weighted by lean); ancestors average the colours they feed
+  const facCol = (c, a) => { const pr = c.parties, bl = Array.isArray(a.blend) && a.blend.length === 2 && pr[a.blend[0]] && pr[a.blend[1]] ? a.blend : null;
+    if (bl) { const l = leanOf(a), w = l === bl[0] ? (c.lean_share ?? 0.65) : l === bl[1] ? 1 - (c.lean_share ?? 0.65) : 0.5; return col(pc(pr[bl[0]])).lerp(col(pc(pr[bl[1]])), 1 - w); }
+    return col(pc(pr[a.party])); };
+  function compute() { const c = P.cfg; if (c.mix) return computeMix(); const F = c.field; P.fac = new Set(ideas.filter(d => d[F] && c.parties[d[F].party]).map(d => d.id)); P.mix = {};
+    const acc = {}; // id -> {r,g,b,w}
+    P.fac.forEach(id => { const a = byId[id][F], s = strengthOf(c, a), fc = facCol(c, a);
+      const dist = { [id]: 0 }, q = [id]; while (q.length) { const k = q.shift(); (byId[k].parents || []).forEach(p => { if (byId[p] && dist[p] === undefined) { dist[p] = dist[k] + 1; q.push(p); } }); }
+      Object.entries(dist).forEach(([k, n]) => { if (!n) return; const w = s * Math.pow(c.decay ?? 0.7, n - 1); if (w < 0.04) return; const v = acc[k] || (acc[k] = { r: 0, g: 0, b: 0, w: 0 }); v.r += fc.r * w; v.g += fc.g * w; v.b += fc.b * w; v.w += w; }); });
+    ideas.forEach(d => { const a = d[F];
+      if (P.fac.has(d.id)) { const s = strengthOf(c, a), p = c.parties[a.party];
+        P.mix[d.id] = { kind: 'faction', party: a.party, s, outline: !!p.display, color: facCol(c, a).lerp(col(c.dim), (1 - s) * DIMS) }; return; }
+      const v = acc[d.id]; if (!v) { P.mix[d.id] = { kind: 'none', color: col(c.dim) }; return; }
+      const s = Math.min(1, 0.35 + v.w * 0.5);
+      P.mix[d.id] = { kind: 'ancestor', s, color: new THREE.Color(v.r / v.w, v.g / v.w, v.b / v.w).lerp(col(c.dim), (1 - s) * 0.8) }; }); }
   function paint() { const dur = reduce ? 0 : 0.8;
     ideas.forEach(d => { const m = P.mix[d.id], c = m.color, sc = m.kind === 'faction' ? 1.5 : m.kind === 'ancestor' ? 0.75 + m.s * 0.4 : 0.55;
       gsap.to(d.star.core.material.color, { r: c.r, g: c.g, b: c.b, duration: dur, overwrite: 'auto' });
-      gsap.to(d.star.halo.material.color, { r: c.r, g: c.g, b: c.b, duration: dur, overwrite: 'auto' });
+      const hc = m.outline ? col('#e8e4da') : c; gsap.to(d.star.halo.material.color, { r: hc.r, g: hc.g, b: hc.b, duration: dur, overwrite: 'auto' });
       gsap.to(d.star.grp.scale, { x: sc, y: sc, z: sc, duration: dur, overwrite: 'auto' }); }); }
   const hex = c => '#' + col(c).getHexString();
+  const swS = p => `background:${hex(pc(p))}${p.display ? ';box-shadow:0 0 0 1.5px #e8e4da' : ''}`;
   function renderKey() { const c = P.cfg, F = c.field, pr = c.parties;
     const fl = [...P.fac].map(id => byId[id]).sort((x, y) => (x[F].party > y[F].party ? 1 : x[F].party < y[F].party ? -1 : x.name.localeCompare(y.name)));
-    key.innerHTML = `<div class="h">Modern politics</div>
+    const bloc = c.mode === 'bloc', judg = Object.values(pr).some(p => p.judgment);
+    key.innerHTML = `<div class="h">Modern politics · ${bloc ? 'coloured by bloc' : 'coloured by party'}</div>
       <select aria-label="Country">${C.map(x => `<option value="${esc(x.id)}"${x.id === P.country ? ' selected' : ''}>${esc(x.name)}</option>`).join('')}</select>
-      ${Object.entries(pr).map(([k, p]) => `<div class="row" data-party="${esc(k)}"><span class="sw" style="background:${hex(p.color)}"></span>${esc(p.label)}</div>`).join('')}
-      <div class="grad" style="background:linear-gradient(90deg,${hex(pr[c.mix.a].color)},${hex(pr[c.mix.mid].color)},${hex(pr[c.mix.b].color)})"></div>
-      <div class="row" style="color:var(--ink-dim)">${esc(c.mix.label)}; brighter = feeds in more. Unrelated ideas are dimmed.</div>
-      <details ${isMobile() ? '' : 'open'}><summary>Factions (${fl.length})</summary><div class="fl">${fl.map(d => `<button data-go="${esc(d.id)}"><span class="sw" style="background:${'#' + P.mix[d.id].color.getHexString()}"></span>${esc(d.name)} · ${esc(pr[d[F].party].label)}${d[F].strength ? ' (' + esc(d[F].strength) + ')' : ''}</button>`).join('')}</div></details>`;
+      ${Object.entries(pr).map(([k, p]) => `<div class="row" data-party="${esc(k)}"${p.judgment ? ' data-judgment="1"' : ''}><span class="sw" style="${swS(p)}"></span>${esc(p.label)}${p.judgment ? `<div class="jn">${esc(p.legend || p.label_note || 'Proposed shade, no party color')}</div>` : ''}${p.display ? `<div class="jn">Drawn ${esc(p.display)} with an outline; official colour ${esc(p.color)}</div>` : ''}</div>`).join('')}
+      ${c.mix ? `<div class="grad" style="background:linear-gradient(90deg,${hex(pr[c.mix.a].color)},${hex(pr[c.mix.mid].color)},${hex(pr[c.mix.b].color)})"></div>
+      <div class="row" style="color:var(--ink-dim)">${esc(c.mix.label)}; brighter = feeds in more. Unrelated ideas are dimmed.</div>`
+      : `<div class="row" style="color:var(--ink-dim)">Two-${bloc ? 'bloc' : 'party'} factions blend both colours. Ancestors mix the colours of the factions they feed; brighter = feeds in more. Unrelated ideas are dimmed.</div>`}
+      ${c.note ? `<div class="row" style="color:var(--ink-dim);font-size:11px">${esc(c.note)}</div>` : ''}
+      <details ${isMobile() ? '' : 'open'}><summary>Factions (${fl.length})</summary><div class="fl">${fl.map(d => `<button data-go="${esc(d.id)}"><span class="sw" style="background:${'#' + P.mix[d.id].color.getHexString()}${P.mix[d.id].outline ? ';box-shadow:0 0 0 1.5px #e8e4da' : ''}"></span>${esc(d.name)} · ${esc(Array.isArray(d[F].blend) && d[F].blend.length === 2 ? d[F].blend.map(b => pr[b] ? pr[b].label : b).join(' + ') : pr[d[F].party].label)}${d[F].strength ? ' (' + esc(d[F].strength) + ')' : ''}</button>`).join('')}</div></details>`;
     key.querySelector('select').onchange = e => P.setCountry(e.target.value);
     key.querySelectorAll('[data-go]').forEach(b => b.onclick = () => focusIdea(b.dataset.go)); }
   P.setCountry = (id, quiet) => { const c = C.find(x => x.id === id); if (!c) return; P.country = id; P.cfg = c; compute(); if (P.on) { renderKey(); paint(); } };
@@ -1810,19 +1865,19 @@ body.pol-on #legend{display:none!important}body.phone.panel-open #polkey{display
     if (on) { compute(); renderKey(); paint(); } else applyLens(lensAx); };
   P.paint = paint;
   P.panelHtml = d => C.map(c => { const a = d[c.field]; if (!a || !c.parties[a.party]) return ''; const p = c.parties[a.party];
-    return `<div class="polbox" style="border-color:${hex(p.color)}"><div class="k" style="margin:0">Modern politics · ${esc(c.name)}</div>
-      <p class="why"><span class="sw" style="display:inline-block;width:10px;height:10px;border-radius:50%;background:${hex(p.color)};margin-right:6px"></span><b>${esc(p.label)}</b>${a.strength ? ' · ' + esc(a.strength) : ''}${a.lean ? ' · lean ' + esc(a.lean) : ''}</p>
+    return `<div class="polbox" style="border-color:${hex(pc(p))}"><div class="k" style="margin:0">Modern politics · ${esc(c.name)}</div>
+      <p class="why"><span class="sw" style="display:inline-block;width:10px;height:10px;border-radius:50%;${swS(p)};margin-right:6px"></span><b>${esc(Array.isArray(a.blend) && a.blend.length === 2 ? a.blend.map(b => c.parties[b] ? c.parties[b].label : b).join(' + ') : p.label)}</b>${p.judgment ? ' · <i>' + esc(p.legend || 'Proposed shade, no party color') + '</i>' : ''}${a.strength ? ' · ' + esc(a.strength) : ''}${a.lean ? ' · lean ' + esc(a.lean) : ''}</p>
       <p class="why">${esc(a.note || '')}</p>${a.src ? `<p class="why"><a href="${esc(a.src)}" target="_blank" rel="noopener">${esc(decodeURIComponent(a.src.replace(/^https?:\/\//, '')))}</a></p>` : ''}</div>`; }).join('');
   compute(); window.__pol = P;
 })();
 /* ---------- Shareable links: view, filter and open idea live in the URL hash ---------- */
 (() => {
   const state = () => { const p = new URLSearchParams(), v = window.__views ? __views.cur : 'default';
-    if (v && v !== 'default') p.set('v', v); if (v === 'politics' && window.__pol && __pol.country !== __pol.first) p.set('pc', __pol.country); if (filt.dom) p.set('dom', filt.dom); if (filt.rootsOnly) p.set('roots', '1');
+    if (v && v !== 'default') p.set('v', v); if (v === 'politics' && window.__pol && __pol.country !== __pol.first) p.set('pc', __pol.country); if (filt.dom) p.set('dom', filt.dom); if (filt.rootsOnly) p.set('roots', '1'); if (filt.hidePol) p.set('nopol', '1');
     if (filt.sel.size) p.set('sel', [...filt.sel].join(',')); if (current && byId[current]) p.set('i', current); return p.toString(); };
   let last = null; const write = () => { const s = state(); if (s === last) return; last = s; history.replaceState(null, '', location.pathname + location.search + (s ? '#' + s : '')); };
   const h = new URLSearchParams(location.hash.slice(1)); window.__linkRestore = Object.fromEntries(h);
-  if (h.has('dom') || h.has('roots') || h.has('sel')) { const doms = [...document.querySelectorAll('#filt .dchip')].map(c => c.dataset.dom);
+  if (h.has('dom') || h.has('roots') || h.has('sel') || h.has('nopol')) { filt.hidePol = h.get('nopol') === '1'; const doms = [...document.querySelectorAll('#filt .dchip')].map(c => c.dataset.dom);
     if (doms.includes(h.get('dom'))) filt.dom = h.get('dom'); filt.rootsOnly = h.get('roots') === '1';
     (h.get('sel') || '').split(',').forEach(r => { if (families[r]) filt.sel.add(r); }); applyFilter(); }
   const restoreCam = () => { const c = (h.get('cam') || '').split(',').map(Number); if (c.length !== 6 || c.some(n => !isFinite(n))) return;

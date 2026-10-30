@@ -59,6 +59,7 @@ for d in ideas:
     roots[ax]=roots.get(ax,0)+1
   elif d.get("root_axis"): E.append(f"{i}: root_axis set on non-root")
 for a in axes:
+  if a["group"]=="tradition" and a.get("root_pending") is True and roots.get(a["id"],0)==0: W.append(f"tradition {a['id']}: root idea pending (no anchor idea on the map yet)"); continue
   if a["group"]=="tradition" and roots.get(a["id"])!=1: E.append(f"tradition {a['id']}: needs exactly one root idea, has {roots.get(a['id'],0)}")
 # currents.json: trends in thought, same rating schema as ideas
 cur=json.load(open(B+"currents.json")) if os.path.exists(B+"currents.json") else []
