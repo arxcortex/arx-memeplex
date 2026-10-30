@@ -11933,10 +11933,10 @@
    "buddhism": "No real link to buddhism.",
    "vedanta": "No real link to vedanta.",
    "islamic_philosophy": "No real link to islamic_philosophy.",
-   "islam": "No real link to Islam.",
-   "judaism": "No real link to Judaism.",
-   "romanticism": "Heathenry descends from Romanticism's revival of Norse and Germanic religion.",
-   "nationalism": "Heathenry descends in part from Nationalism, though many groups reject ethnic membership.",
+   "islam": "No documented relation.",
+   "judaism": "No documented relation.",
+   "romanticism": "Romantic revival of Norse and Germanic myth and folklore in the 1800s fostered modern Heathenry.",
+   "nationalism": "Emerged from 19th-century romantic nationalism and volkisch currents; many groups now reject ethnic membership.",
    "humor": "Not expressed through jokes or play.",
    "irony": "Not carried in an ironic tone.",
    "abstraction": "Gods tied to nature, kin and land.",
@@ -15404,7 +15404,7 @@
    "islamic_philosophy": 0,
    "islam": 0,
    "judaism": 0,
-   "romanticism": 0,
+   "romanticism": 1,
    "nationalism": 0,
    "humor": 0,
    "irony": 0,
@@ -15428,10 +15428,10 @@
    "buddhism": "No real link to Buddhism.",
    "vedanta": "No real link to Vedanta.",
    "islamic_philosophy": "No real link to Islamic philosophy (falsafa).",
-   "islam": "No real link to Islam.",
-   "judaism": "No real link to Judaism.",
-   "romanticism": "No real link to Romanticism.",
-   "nationalism": "No real link to Nationalism.",
+   "islam": "No documented relation.",
+   "judaism": "No documented relation.",
+   "romanticism": "Mild: historians tie the theory's appeal to interwar romantics seeking native spirituality; Murray framed it as anthropology.",
+   "nationalism": "No documented relation.",
    "humor": "Scholarly in register.",
    "irony": "Meant literally.",
    "abstraction": "Argues from trial records and folklore, not theory.",
@@ -20684,10 +20684,10 @@
    "buddhism": "No real link.",
    "vedanta": "No real link.",
    "islamic_philosophy": "No real link.",
-   "islam": "No real link to Islam.",
-   "judaism": "No real link to Judaism.",
-   "romanticism": "Comes before Romanticism existed, so it cannot descend from it.",
-   "nationalism": "Comes before Nationalism existed, so it cannot descend from it.",
+   "islam": "No documented relation.",
+   "judaism": "No documented relation.",
+   "romanticism": "No documented relation (predates Romanticism).",
+   "nationalism": "No documented relation (predates Nationalism).",
    "humor": "Not expressed through jokes or play.",
    "irony": "Not an ironic tradition.",
    "abstraction": "Argues from civic models rather than pure theory.",
@@ -20807,10 +20807,10 @@
    "buddhism": "No real link.",
    "vedanta": "No real link.",
    "islamic_philosophy": "No real link.",
-   "islam": "No real link to Islam.",
-   "judaism": "No real link to Judaism.",
-   "romanticism": "Comes before Romanticism existed, so it cannot descend from it.",
-   "nationalism": "Comes before Nationalism existed, so it cannot descend from it.",
+   "islam": "No documented relation.",
+   "judaism": "No documented relation.",
+   "romanticism": "No documented relation (predates Romanticism).",
+   "nationalism": "No documented relation (predates Nationalism).",
    "humor": "Not expressed through jokes or play.",
    "irony": "Not ironic.",
    "abstraction": "Grounds a state in universal, self-evident rights.",
@@ -20905,7 +20905,7 @@
    "islam": 0,
    "judaism": 0,
    "romanticism": 0,
-   "nationalism": 0,
+   "nationalism": 1,
    "humor": 0,
    "irony": 0,
    "abstraction": 4,
@@ -20928,10 +20928,10 @@
    "buddhism": "No real link.",
    "vedanta": "No real link.",
    "islamic_philosophy": "No real link.",
-   "islam": "No real link to Islam.",
-   "judaism": "No real link to Judaism.",
-   "romanticism": "Comes before Romanticism existed, so it cannot descend from it.",
-   "nationalism": "Helped give rise to Nationalism rather than descending from it.",
+   "islam": "No documented relation.",
+   "judaism": "No documented relation.",
+   "romanticism": "No documented relation (predates Romanticism).",
+   "nationalism": "Its popular sovereignty and natural rights shaped 19th-century liberal nationalism across Europe.",
    "humor": "Not expressed through jokes or play.",
    "irony": "Not ironic.",
    "abstraction": "Burke's chief complaint: rights stated as universal axioms.",
@@ -21016,7 +21016,7 @@
    "islam": 0,
    "judaism": 0,
    "romanticism": 0,
-   "nationalism": 0,
+   "nationalism": 2,
    "humor": 0,
    "irony": 0,
    "abstraction": 4,
@@ -21039,10 +21039,10 @@
    "buddhism": "No real link.",
    "vedanta": "No real link.",
    "islamic_philosophy": "No real link.",
-   "islam": "No real link to Islam.",
-   "judaism": "No real link to Judaism.",
-   "romanticism": "Comes before Romanticism existed, so it cannot descend from it.",
-   "nationalism": "Feeds into Nationalism as one of its parents rather than descending from it.",
+   "islam": "No documented relation.",
+   "judaism": "No documented relation.",
+   "romanticism": "No documented relation (predates Romanticism).",
+   "nationalism": "Placed sovereignty in the nation as a collective and fostered patriotic participation; its legacy cultivated later nationalism.",
    "humor": "Not expressed through jokes or play.",
    "irony": "Not ironic.",
    "abstraction": "Rules in the name of an abstract virtue and general will.",
@@ -21103,7 +21103,11 @@
    "humor": 0,
    "irony": 0,
    "abstraction": -4,
-   "hierarchy": 3
+   "hierarchy": 3,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 0
   },
   "rationale": {
    "platonism": "No real link to Platonism.",
@@ -21125,7 +21129,11 @@
    "humor": "Not expressed through jokes or play.",
    "irony": "Not carried in an ironic tone.",
    "abstraction": "A practical code of conduct in battle and service, not a theory.",
-   "hierarchy": "Built on lord-vassal duty, though loyalty was often conditional (Grokipedia, Bushido)."
+   "hierarchy": "Built on lord-vassal duty, though loyalty was often conditional (Grokipedia, Bushido).",
+   "islam": "No documented relation.",
+   "judaism": "No documented relation.",
+   "romanticism": "No documented relation (predates Romanticism).",
+   "nationalism": "No documented relation (predates Nationalism)."
   },
   "stories": [],
   "sources": [
@@ -21218,7 +21226,11 @@
    "humor": 0,
    "irony": 0,
    "abstraction": -2,
-   "hierarchy": 4
+   "hierarchy": 4,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 0
   },
   "rationale": {
    "platonism": "No real link to Platonism.",
@@ -21240,7 +21252,11 @@
    "humor": "Not expressed through jokes or play.",
    "irony": "Not carried in an ironic tone.",
    "abstraction": "Written ethics for conduct, more systematic than the medieval ethos.",
-   "hierarchy": "Stresses 'unyielding lord-vassal bonds' (Grokipedia, Bushido)."
+   "hierarchy": "Stresses 'unyielding lord-vassal bonds' (Grokipedia, Bushido).",
+   "islam": "No documented relation.",
+   "judaism": "No documented relation.",
+   "romanticism": "No documented relation (predates Romanticism).",
+   "nationalism": "No documented relation (predates Nationalism)."
   },
   "stories": [],
   "sources": [
@@ -21348,7 +21364,11 @@
    "humor": 0,
    "irony": 0,
    "abstraction": 0,
-   "hierarchy": 4
+   "hierarchy": 4,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 3
   },
   "rationale": {
    "platonism": "No real link to Platonism.",
@@ -21370,7 +21390,11 @@
    "humor": "Not expressed through jokes or play.",
    "irony": "Not carried in an ironic tone.",
    "abstraction": "An idealized national ethic, more abstract than lived Edo practice.",
-   "hierarchy": "Redirected loyalty to the emperor as the head of the nation (Grokipedia, Bushido)."
+   "hierarchy": "Redirected loyalty to the emperor as the head of the nation (Grokipedia, Bushido).",
+   "islam": "No documented relation.",
+   "judaism": "No documented relation.",
+   "romanticism": "No documented relation.",
+   "nationalism": "Nitobe's Bushido aligned samurai virtues 'with Meiji nationalism' for an international audience."
   },
   "stories": [],
   "sources": [
@@ -21462,7 +21486,11 @@
    "humor": 0,
    "irony": 0,
    "abstraction": 1,
-   "hierarchy": 4
+   "hierarchy": 4,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 2
   },
   "rationale": {
    "platonism": "No real link to Platonism.",
@@ -21484,7 +21512,11 @@
    "humor": "Not expressed through jokes or play.",
    "irony": "Not carried in an ironic tone.",
    "abstraction": "Built a theory of an eternal national essence, kokutai (Grokipedia, Kokutai).",
-   "hierarchy": "Required 'loyalty to the throne' as divinely ordained (Grokipedia, Kokutai)."
+   "hierarchy": "Required 'loyalty to the throne' as divinely ordained (Grokipedia, Kokutai).",
+   "islam": "No documented relation.",
+   "judaism": "No documented relation.",
+   "romanticism": "No documented relation.",
+   "nationalism": "Its sonno joi slogan is read by some historians as 'defensive nationalism', though the page stresses Confucian roots."
   },
   "stories": [],
   "sources": [
@@ -21581,7 +21613,11 @@
    "humor": 0,
    "irony": 0,
    "abstraction": -1,
-   "hierarchy": 5
+   "hierarchy": 5,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 4
   },
   "rationale": {
    "platonism": "No real link to Platonism.",
@@ -21603,7 +21639,11 @@
    "humor": "Not expressed through jokes or play.",
    "irony": "Not carried in an ironic tone.",
    "abstraction": "Ritual and institutional; avoided 'doctrinal innovation' (Grokipedia, State Shinto).",
-   "hierarchy": "A ranked shrine system centered on the emperor's divine descent (Grokipedia, State Shinto)."
+   "hierarchy": "A ranked shrine system centered on the emperor's divine descent (Grokipedia, State Shinto).",
+   "islam": "No documented relation.",
+   "judaism": "No documented relation.",
+   "romanticism": "No documented relation.",
+   "nationalism": "A tool for ethnic nationalism and imperial legitimacy, embedding loyalty and nationalism in daily life via shrine rites."
   },
   "stories": [],
   "sources": [
@@ -21700,7 +21740,11 @@
    "humor": 0,
    "irony": 0,
    "abstraction": 2,
-   "hierarchy": 5
+   "hierarchy": 5,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 4
   },
   "rationale": {
    "platonism": "No real link to Platonism.",
@@ -21722,7 +21766,11 @@
    "humor": "Not expressed through jokes or play.",
    "irony": "Not carried in an ironic tone.",
    "abstraction": "An eternal national essence set apart from any form of government (Grokipedia, Kokutai).",
-   "hierarchy": "The emperor as sacred, inviolable head of the national family (Grokipedia, Japanese nationalism)."
+   "hierarchy": "The emperor as sacred, inviolable head of the national family (Grokipedia, Japanese nationalism).",
+   "islam": "No documented relation.",
+   "judaism": "No documented relation.",
+   "romanticism": "No documented relation.",
+   "nationalism": "Core of Japanese nationalism from 1868, framing Japan as a divine realm under an unbroken imperial line."
   },
   "stories": [],
   "sources": [
@@ -21813,7 +21861,11 @@
    "humor": 0,
    "irony": 0,
    "abstraction": -4,
-   "hierarchy": 3
+   "hierarchy": 3,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 2
   },
   "rationale": {
    "platonism": "No real link to Platonism.",
@@ -21835,7 +21887,11 @@
    "humor": "Not expressed through jokes or play.",
    "irony": "Not carried in an ironic tone.",
    "abstraction": "A practical policy slogan for industry and armies.",
-   "hierarchy": "State-directed, oligarch-led reform under imperial authority (Grokipedia, Fukoku kyōhei)."
+   "hierarchy": "State-directed, oligarch-led reform under imperial authority (Grokipedia, Fukoku kyōhei).",
+   "islam": "No documented relation.",
+   "judaism": "No documented relation.",
+   "romanticism": "No documented relation.",
+   "nationalism": "National strengthening program; its emphasis on 'national homogeneity' and centralization; emperor-centric nationalism persisted."
   },
   "stories": [],
   "sources": [
@@ -21913,7 +21969,11 @@
    "humor": 0,
    "irony": 0,
    "abstraction": -1,
-   "hierarchy": -2
+   "hierarchy": -2,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 0
   },
   "rationale": {
    "platonism": "No real link to Platonism.",
@@ -21935,7 +21995,11 @@
    "humor": "Not expressed through jokes or play.",
    "irony": "Not carried in an ironic tone.",
    "abstraction": "Concrete constitutional and electoral reform.",
-   "hierarchy": "Challenged 'oligarchic dominance' but kept the emperor (Grokipedia, Taishō Democracy)."
+   "hierarchy": "Challenged 'oligarchic dominance' but kept the emperor (Grokipedia, Taishō Democracy).",
+   "islam": "No documented relation.",
+   "judaism": "No documented relation.",
+   "romanticism": "No documented relation.",
+   "nationalism": "No documented relation."
   },
   "stories": [],
   "sources": [
@@ -22014,7 +22078,11 @@
    "humor": 0,
    "irony": 0,
    "abstraction": 1,
-   "hierarchy": 1
+   "hierarchy": 1,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 2
   },
   "rationale": {
    "platonism": "No real link to Platonism.",
@@ -22036,7 +22104,11 @@
    "humor": "Not expressed through jokes or play.",
    "irony": "Not carried in an ironic tone.",
    "abstraction": "Asia as 'a cohesive spiritual entity', an abstract civilizational idea (Grokipedia, Pan-Asianism).",
-   "hierarchy": "Early equality talk gave way to Japanese leadership (Grokipedia, Pan-Asianism)."
+   "hierarchy": "Early equality talk gave way to Japanese leadership (Grokipedia, Pan-Asianism).",
+   "islam": "Only tactical contact with pan-Islamists (Okawa, c.1918-1923), an elite discourse rather than a mass movement; no real link to Islam.",
+   "judaism": "No documented relation.",
+   "romanticism": "No documented relation.",
+   "nationalism": "Regional solidarity rather than 'modern nationalism alone', but later infused 'with nationalist urgency'."
   },
   "stories": [],
   "sources": [
@@ -22131,7 +22203,11 @@
    "humor": 0,
    "irony": 0,
    "abstraction": 1,
-   "hierarchy": 5
+   "hierarchy": 5,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 4
   },
   "rationale": {
    "platonism": "No real link to Platonism.",
@@ -22153,7 +22229,11 @@
    "humor": "Not expressed through jokes or play.",
    "irony": "Not carried in an ironic tone.",
    "abstraction": "Mythic kokutai doctrine plus practical total mobilization.",
-   "hierarchy": "'Absolute authority of the state under the Emperor' (Grokipedia, Statism in Shōwa Japan)."
+   "hierarchy": "'Absolute authority of the state under the Emperor' (Grokipedia, Statism in Shōwa Japan).",
+   "islam": "No documented relation.",
+   "judaism": "No documented relation.",
+   "romanticism": "No documented relation.",
+   "nationalism": "Kita Ikki and Okawa's Yuzonsha was a 'radical nationalist organization'; Kita blended socialism with anti-liberal nationalism."
   },
   "stories": [],
   "sources": [
@@ -22271,7 +22351,11 @@
    "humor": 0,
    "irony": 0,
    "abstraction": 5,
-   "hierarchy": 0
+   "hierarchy": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 1
   },
   "rationale": {
    "platonism": "No real link to Platonism.",
@@ -22293,7 +22377,11 @@
    "humor": "Not expressed through jokes or play.",
    "irony": "Not carried in an ironic tone.",
    "abstraction": "A metaphysics of 'absolute nothingness', among the most abstract on the map.",
-   "hierarchy": "Philosophical, not political; wartime nationalism charges are contested (SEP)."
+   "hierarchy": "Philosophical, not political; wartime nationalism charges are contested (SEP).",
+   "islam": "No documented relation.",
+   "judaism": "No documented relation.",
+   "romanticism": "No documented relation.",
+   "nationalism": "Mixed: its wartime writings were co-opted by extreme nationalism they tried to reorient; scholars still dispute complicity."
   },
   "stories": [],
   "sources": [
