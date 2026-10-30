@@ -4483,6 +4483,12 @@
      "note": "Named in the Grokipedia article “Christian fundamentalism”."
     }
    ]
+  },
+  "party_alignment": {
+   "party": "R",
+   "strength": "strong",
+   "src": "https://grokipedia.com/page/Christian_right",
+   "note": "Through the religious right; fundamentalists who backed Carter in 1976 moved Republican (Grokipedia, Moral Majority)."
   }
  },
  {
@@ -6478,6 +6484,12 @@
      "note": "Named in the Grokipedia article “Libertarianism”."
     }
    ]
+  },
+  "party_alignment": {
+   "party": "mixed",
+   "strength": "lean R",
+   "src": "https://grokipedia.com/page/Libertarian_Party_(United_States)",
+   "note": "Own party since 1971, the third-largest by registration; inside the GOP via fusionism's coalition of 'economic libertarians'."
   }
  },
  {
@@ -7049,6 +7061,12 @@
      "note": "Named in the Grokipedia article “Populism”."
     }
    ]
+  },
+  "party_alignment": {
+   "party": "mixed",
+   "strength": "split",
+   "src": "https://grokipedia.com/page/Progressivism_in_the_United_States",
+   "note": "Right populism under MAGA, left populism under Sanders, who revived 'economic populism' (Grokipedia, Progressivism in the US)."
   }
  },
  {
@@ -8644,6 +8662,12 @@
      "note": "Named in the Grokipedia article “New Deal”."
     }
    ]
+  },
+  "party_alignment": {
+   "party": "D",
+   "strength": "strong",
+   "src": "https://grokipedia.com/page/Reagan_Democrat",
+   "note": "The Democratic coalition since 1933; Reagan Democrats show its working-class fracture toward Republicans after 1980."
   }
  },
  {
@@ -8820,6 +8844,12 @@
      "note": "Named in the Grokipedia article “Fusionism”."
     }
    ]
+  },
+  "party_alignment": {
+   "party": "R",
+   "strength": "strong",
+   "src": "https://grokipedia.com/page/Fusionism",
+   "note": "Built Goldwater's 1964 and Reagan's coalitions; weakened since Trump's 2016 campaign 'rejected fusionist free-trade shibboleths'."
   }
  },
  {
@@ -9014,6 +9044,12 @@
      "note": "Named in the Grokipedia article “Neoconservatism”."
     }
    ]
+  },
+  "party_alignment": {
+   "party": "mixed",
+   "strength": "split",
+   "src": "https://grokipedia.com/page/Neoconservatism",
+   "note": "Began among Democrats such as Eugene Rostow, 'a \"Scoop Jackson Democrat\"', and Commentary writers under Podhoretz; moved Republican under Reagan; some joined Never Trump efforts, including the 2020 endorsement of Biden by former Republican security officials."
   }
  },
  {
@@ -9100,6 +9136,12 @@
      "note": "Named in the Grokipedia article “Paleoconservatism”."
     }
    ]
+  },
+  "party_alignment": {
+   "party": "R",
+   "strength": "moderate",
+   "src": "https://grokipedia.com/page/Paleoconservatism",
+   "note": "Marginal in the GOP in the late 20th century; 'renewed traction in recent populist movements'. Buchanan ran in Republican primaries."
   }
  },
  {
@@ -13125,6 +13167,12 @@
      "note": "Named in the Grokipedia article “Make America Great Again”."
     }
    ]
+  },
+  "party_alignment": {
+   "party": "R",
+   "strength": "strong",
+   "src": "https://grokipedia.com/page/Make_America_Great_Again",
+   "note": "The 2024 RNC platform was titled 'Make America Great Again'; the movement 'reshaped the Republican Party toward populism'."
   }
  },
  {
@@ -13221,6 +13269,12 @@
      "note": "Named in the Grokipedia article “Postliberalism”."
     }
    ]
+  },
+  "party_alignment": {
+   "party": "R",
+   "strength": "moderate",
+   "src": "https://grokipedia.com/page/Postliberalism",
+   "note": "An intellectual current; Vice President Vance 'has explicitly aligned with postliberalism'."
   }
  },
  {
@@ -13320,6 +13374,12 @@
      "note": "Named in the Grokipedia article “National conservatism”."
     }
    ]
+  },
+  "party_alignment": {
+   "party": "R",
+   "strength": "strong",
+   "src": "https://grokipedia.com/page/National_conservatism",
+   "note": "Grokipedia ties it to 'U.S. Republican emphases on America First economics post-2016'."
   }
  },
  {
@@ -15133,6 +15193,462 @@
     "src": "https://grokipedia.com/page/Jean_Bodin",
     "note": "Bodin drew on Aristotle's classifications of states and Roman law while building a new concept of sovereignty."
    }
+  }
+ },
+ {
+  "id": "religious_right",
+  "name": "Religious right",
+  "root": false,
+  "root_axis": null,
+  "year": 1979,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Moral_Majority",
+  "origin_note": "Moral Majority founded June 1979 by Jerry Falwell, pastor of Thomas Road Baptist Church in Lynchburg, Virginia, with Paul Weyrich; the term 'religious right' first gained widespread usage in the late 1970s (Grokipedia, Christian right)",
+  "place": "Lynchburg, Virginia",
+  "lat": 37.41,
+  "lon": -79.14,
+  "thinkers": [
+   "Jerry Falwell",
+   "Paul Weyrich",
+   "Pat Robertson",
+   "Tim LaHaye",
+   "Ralph Reed"
+  ],
+  "parents": [
+   "christian_fundamentalism"
+  ],
+  "plain": "Conservative evangelicals and allied Catholics organizing to vote on abortion, school prayer, marriage and religious liberty.",
+  "summary": "From the 1979 Moral Majority on, conservative evangelicals became a core Republican voting bloc focused on abortion, family and religious liberty.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 5,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 0,
+   "marxism": -3,
+   "darwinism": -2,
+   "nietzsche": 0,
+   "critical_theory": -3,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "humor": 0,
+   "irony": -1,
+   "abstraction": -1,
+   "hierarchy": 3
+  },
+  "rationale": {
+   "platonism": "No real link to Platonism.",
+   "aristotelianism": "No real link to Aristotelianism.",
+   "stoicism": "No real link to Stoicism.",
+   "christianity": "A coalition of conservative Protestant evangelicals, fundamentalists and some Catholics (Grokipedia, Christian right).",
+   "gnosticism": "No real link to Gnosticism.",
+   "hermeticism": "No real link to Hermeticism.",
+   "enlightenment_liberalism": "Works through votes and courts and invokes religious liberty, while fighting secular liberal rulings; mixed.",
+   "marxism": "Anti-communist, Cold War in origin.",
+   "darwinism": "Backs creationism in schools; judgment from fundamentalist inheritance.",
+   "nietzsche": "No real link to Nietzsche.",
+   "critical_theory": "Opposes secular humanism and progressive cultural agendas (Grokipedia, Moral Majority).",
+   "confucianism": "No real link to Confucianism.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "No real link to Buddhism.",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "No real link to Islamic philosophy (falsafa).",
+   "humor": "Earnest register.",
+   "irony": "Sincere moral politics.",
+   "abstraction": "Argues from scripture and moral concerns, not theory.",
+   "hierarchy": "Defends traditional family order and moral authority; judgment."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Christian_right",
+   "https://grokipedia.com/page/Moral_Majority"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "aliases": [
+   "Christian right",
+   "Moral Majority",
+   "evangelical right"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Southern United States",
+     "src": "https://grokipedia.com/page/Moral_Majority",
+     "note": "Moral Majority drives targeted Southern Baptists and fundamentalists, many former Carter voters.",
+     "period": "1979–present"
+    },
+    {
+     "place": "United States",
+     "src": "https://grokipedia.com/page/Christian_right",
+     "note": "White evangelicals gave Trump 81% of their vote in 2016 (Grokipedia, Christian right).",
+     "period": "1979–present"
+    }
+   ]
+  },
+  "edge_notes": {
+   "christian_fundamentalism": {
+    "status": "direct",
+    "type": "descent",
+    "src": "https://grokipedia.com/page/Christian_right",
+    "note": "The term described 'a coalition of conservative Protestant evangelicals, fundamentalists, and some Catholics'; Falwell was a Baptist fundamentalist pastor."
+   }
+  },
+  "party_alignment": {
+   "party": "R",
+   "strength": "strong",
+   "src": "https://grokipedia.com/page/Christian_right",
+   "note": "Grokipedia: Moral Majority turned evangelicals into 'a reliable Republican base'; white evangelicals gave 78% to Romney (2012) and 81% to Trump (2016)."
+  }
+ },
+ {
+  "id": "new_democrats",
+  "name": "New Democrats",
+  "root": false,
+  "root_axis": null,
+  "year": 1985,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Democratic_Leadership_Council",
+  "origin_note": "Democratic Leadership Council founded March 1985 after the 1984 defeat by Al From and Will Marshall; Bill Clinton chaired it from 1990; New Democrat Coalition formed in the House in 1997",
+  "place": "Washington, D.C.",
+  "lat": 38.9,
+  "lon": -77.04,
+  "thinkers": [
+   "Al From",
+   "Will Marshall",
+   "Bill Clinton",
+   "Al Gore"
+  ],
+  "parents": [
+   "new_deal_liberalism"
+  ],
+  "plain": "Centrist Democrats who pair market growth with targeted social programs, welfare reform and a strong defense.",
+  "summary": "The DLC moved Democrats to the center after 1984; its Third Way carried Clinton in 1992 and lives on in the House New Democrat Coalition.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 4,
+   "marxism": -2,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 0,
+   "hierarchy": 0
+  },
+  "rationale": {
+   "platonism": "No real link to Platonism.",
+   "aristotelianism": "No real link to Aristotelianism.",
+   "stoicism": "No real link to Stoicism.",
+   "christianity": "Secular program; some appeal to community and responsibility.",
+   "gnosticism": "No real link to Gnosticism.",
+   "hermeticism": "No real link to Hermeticism.",
+   "enlightenment_liberalism": "Liberal on markets and rights; 'opportunity, personal responsibility, and community' (Grokipedia, DLC).",
+   "marxism": "Rejects class politics and expansive government programs (Grokipedia, DLC).",
+   "darwinism": "No real link to Darwinism.",
+   "nietzsche": "No real link to Nietzsche.",
+   "critical_theory": "Accused by the left of ignoring identity politics; no link.",
+   "confucianism": "No real link to Confucianism.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "No real link to Buddhism.",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "No real link to Islamic philosophy (falsafa).",
+   "humor": "Earnest register.",
+   "irony": "Sincere.",
+   "abstraction": "Policy-wonk pragmatism through the Progressive Policy Institute.",
+   "hierarchy": "Neither egalitarian nor hierarchical in program; judgment."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Democratic_Leadership_Council",
+   "https://grokipedia.com/page/Third_Way"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "aliases": [
+   "Third Way Democrats",
+   "centrist Democrats",
+   "establishment Democrats",
+   "Clintonism"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "United States",
+     "src": "https://grokipedia.com/page/Democratic_Leadership_Council",
+     "note": "Shaped Clinton's 1992 win and 1990s Democratic platforms; the New Democrat Coalition carries it in the House.",
+     "period": "1985–present"
+    },
+    {
+     "place": "United Kingdom",
+     "src": "https://grokipedia.com/page/Democratic_Leadership_Council",
+     "note": "The DLC's influence extended to Tony Blair's policies (Grokipedia, DLC).",
+     "period": "1990s–2000s"
+    }
+   ]
+  },
+  "edge_notes": {
+   "new_deal_liberalism": {
+    "status": "direct",
+    "type": "reform",
+    "src": "https://grokipedia.com/page/Democratic_Leadership_Council",
+    "note": "Founded by Democrats to steer the party 'toward moderate policies and away from its leftward ideological shift since the late 1960s'."
+   }
+  },
+  "party_alignment": {
+   "party": "D",
+   "strength": "strong",
+   "src": "https://grokipedia.com/page/Democratic_Leadership_Council",
+   "note": "Intra-Democratic faction; the DLC closed in 2011 but the New Democrat Coalition, formed by DLC members in 1997, remains in the House."
+  }
+ },
+ {
+  "id": "democratic_socialism_us",
+  "name": "Democratic socialism in America",
+  "root": false,
+  "root_axis": null,
+  "year": 1982,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Democratic_Socialists_of_America",
+  "origin_note": "DSA founded March 1982 at a Detroit convention merging Michael Harrington's Democratic Socialist Organizing Committee and the New American Movement",
+  "place": "Detroit",
+  "lat": 42.33,
+  "lon": -83.05,
+  "thinkers": [
+   "Michael Harrington",
+   "Bernie Sanders",
+   "Alexandria Ocasio-Cortez"
+  ],
+  "parents": [
+   "new_left",
+   "social_democracy"
+  ],
+  "plain": "American socialists who seek public ownership, labor power and universal social programs through elections, mostly inside Democratic primaries.",
+  "summary": "Founded in 1982, DSA stayed small until Sanders's 2016 run; it now backs members of Congress in Democratic primaries.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 1,
+   "marxism": 3,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 2,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 2,
+   "hierarchy": -4
+  },
+  "rationale": {
+   "platonism": "No real link to Platonism.",
+   "aristotelianism": "No real link to Aristotelianism.",
+   "stoicism": "No real link to Stoicism.",
+   "christianity": "Secular organization.",
+   "gnosticism": "No real link to Gnosticism.",
+   "hermeticism": "No real link to Hermeticism.",
+   "enlightenment_liberalism": "Works through elections: DSA 'emphasized reforming the Democratic Party from within over third-party runs' (Grokipedia, DSA).",
+   "marxism": "Rejects Marxism-Leninism (Grokipedia, DSA), yet 'democratic socialism explicitly seeks to supplant capitalism' (Grokipedia, Democratic socialism).",
+   "darwinism": "No real link to Darwinism.",
+   "nietzsche": "No real link to Nietzsche.",
+   "critical_theory": "NAM came from New Left remnants and socialist-feminist groups (Grokipedia, DSA).",
+   "confucianism": "No real link to Confucianism.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "No real link to Buddhism.",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "No real link to Islamic philosophy (falsafa).",
+   "humor": "Earnest register.",
+   "irony": "Sincere.",
+   "abstraction": "Ideological program with internal factional debate; judgment.",
+   "hierarchy": "Seeks economic equality and worker power (Grokipedia, DSA)."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Democratic_Socialists_of_America",
+   "https://grokipedia.com/page/Congressional_Progressive_Caucus",
+   "https://grokipedia.com/page/Democratic_socialism"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "aliases": [
+   "DSA",
+   "democratic socialists"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "United States",
+     "src": "https://grokipedia.com/page/Democratic_Socialists_of_America",
+     "note": "Chapters in all 50 states; membership fell to about 51,000 by October 2024 (Grokipedia, DSA).",
+     "period": "1982–present"
+    },
+    {
+     "place": "New York City",
+     "src": "https://grokipedia.com/page/Democratic_Socialists_of_America",
+     "note": "Home base of Ocasio-Cortez, a DSA-backed member of Congress (Grokipedia, DSA).",
+     "period": "2018–present"
+    }
+   ]
+  },
+  "edge_notes": {
+   "new_left": {
+    "status": "direct",
+    "type": "merger",
+    "src": "https://grokipedia.com/page/Democratic_Socialists_of_America",
+    "note": "NAM, 'emerging from remnants of Students for a Democratic Society', merged into DSA."
+   },
+   "social_democracy": {
+    "status": "direct",
+    "type": "merger",
+    "src": "https://grokipedia.com/page/Democratic_Socialists_of_America",
+    "note": "DSOC under Harrington brought social democrats focused on unions and the Democratic left."
+   }
+  },
+  "party_alignment": {
+   "party": "D",
+   "strength": "moderate",
+   "src": "https://grokipedia.com/page/Democratic_Socialists_of_America",
+   "note": "Not a party; DSA 'emphasized reforming the Democratic Party from within over third-party runs' (Grokipedia, DSA). Contested inside DSA. The Squad, an informal subgroup of the Congressional Progressive Caucus, overlaps with DSA but is not the same group (Grokipedia, Congressional Progressive Caucus)."
+  }
+ },
+ {
+  "id": "progressive_left",
+  "name": "Progressive left",
+  "root": false,
+  "root_axis": null,
+  "year": 1991,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Congressional_Progressive_Caucus",
+  "origin_note": "Congressional Progressive Caucus founded July 26, 1991 by Sanders, Dellums, Evans, Andrews, DeFazio and Waters; revived after 2008 by Sanders and Ocasio-Cortez",
+  "place": "Washington, D.C.",
+  "lat": 38.9,
+  "lon": -77.04,
+  "thinkers": [
+   "Bernie Sanders",
+   "Maxine Waters",
+   "Alexandria Ocasio-Cortez"
+  ],
+  "parents": [
+   "new_deal_liberalism",
+   "democratic_socialism_us"
+  ],
+  "plain": "The Democratic left: bigger government roles in health care, labor, climate and inequality.",
+  "summary": "The modern progressive wing organized in the 1991 caucus and grew after 2016 with Sanders, Medicare for All and the Green New Deal.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 3,
+   "marxism": 1,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 3,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 1,
+   "hierarchy": -3
+  },
+  "rationale": {
+   "platonism": "No real link to Platonism.",
+   "aristotelianism": "No real link to Aristotelianism.",
+   "stoicism": "No real link to Stoicism.",
+   "christianity": "Secular in program.",
+   "gnosticism": "No real link to Gnosticism.",
+   "hermeticism": "No real link to Hermeticism.",
+   "enlightenment_liberalism": "Rights-based liberal politics, 'seeking to pull the Democratic Party toward more interventionist government roles in the economy and society' (Grokipedia, CPC).",
+   "marxism": "Early ties to DSA (Grokipedia, CPC); not Marxist in program.",
+   "darwinism": "No real link to Darwinism.",
+   "nietzsche": "No real link to Nietzsche.",
+   "critical_theory": "Carries social justice and identity concerns into policy; judgment.",
+   "confucianism": "No real link to Confucianism.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "No real link to Buddhism.",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "No real link to Islamic philosophy (falsafa).",
+   "humor": "Earnest register.",
+   "irony": "Sincere.",
+   "abstraction": "Policy programs framed by inequality analysis; judgment.",
+   "hierarchy": "Targets economic inequality and corporate power (Grokipedia, Progressivism in the United States)."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Congressional_Progressive_Caucus",
+   "https://grokipedia.com/page/Progressivism_in_the_United_States"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "aliases": [
+   "progressives",
+   "progressive left",
+   "Congressional Progressive Caucus"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "United States",
+     "src": "https://grokipedia.com/page/Congressional_Progressive_Caucus",
+     "note": "The largest ideological caucus among congressional Democrats, nearly 100 members (Grokipedia, CPC).",
+     "period": "1991–present"
+    }
+   ]
+  },
+  "edge_notes": {
+   "new_deal_liberalism": {
+    "status": "direct",
+    "type": "descent",
+    "src": "https://grokipedia.com/page/Progressivism_in_the_United_States",
+    "note": "Progressives continued New Deal interventionism, 'advocating expansive interventions including the Green New Deal resolution' (Grokipedia, Progressivism in the United States)."
+   },
+   "democratic_socialism_us": {
+    "status": "influence",
+    "type": "alliance",
+    "src": "https://grokipedia.com/page/Congressional_Progressive_Caucus",
+    "note": "The caucus formed 'with early ties to Democratic Socialists of America'."
+   }
+  },
+  "party_alignment": {
+   "party": "D",
+   "strength": "strong",
+   "src": "https://grokipedia.com/page/Congressional_Progressive_Caucus",
+   "note": "A Democratic caucus formed 'to pull the Democratic Party toward more interventionist government'. Sanders, a founder, is an independent."
   }
  }
 ]

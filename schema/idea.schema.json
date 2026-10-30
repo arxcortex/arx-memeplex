@@ -226,6 +226,38 @@
           }
         },
         "additionalProperties": true
+      },
+      "party_alignment": {
+        "type": "object",
+        "required": [
+          "party",
+          "strength",
+          "src",
+          "note"
+        ],
+        "properties": {
+          "party": {
+            "enum": [
+              "R",
+              "D",
+              "mixed"
+            ]
+          },
+          "strength": {
+            "type": "string"
+          },
+          "lean": {
+            "type": "string"
+          },
+          "src": {
+            "type": "string",
+            "pattern": "^https://"
+          },
+          "note": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
       }
     }
   }
