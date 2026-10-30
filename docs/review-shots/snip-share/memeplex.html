@@ -117,7 +117,7 @@ select option:checked,select option:hover,select option:focus{background:#f0b35a
 body.phone #phonenote{display:block;position:fixed;z-index:30;left:50%;top:76px;transform:translateX(-50%);width:min(360px,92vw);padding:12px 14px;border-radius:12px;text-align:center;font-family:var(--serif);font-size:16px;color:var(--ink)}
 body.phone #phonenote a{display:inline-block;margin-top:6px;font-family:var(--mono);font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--amber-bright)}
 body.phone #stage canvas{pointer-events:none}
-body.phone #tb button:not([data-k=search]):not([data-k=dice]):not([data-k=games]):not([data-k=tours]):not([data-k=snip]):not([data-k=politics]):not([data-k=hidepol]):not([data-k=lines]),body.phone #tb .sep,body.phone #legend{display:none!important}
+body.phone #tb button:not([data-k=search]):not([data-k=dice]):not([data-k=games]):not([data-k=tours]):not([data-k=snip]):not([data-k=politics]):not([data-k=hidepol]):not([data-k=lines]):not([data-k=theme]),body.phone #tb .sep,body.phone #legend{display:none!important}
 body.phone #panel{top:0;height:100%;height:100dvh;z-index:40}
 body.phone #tourbar{bottom:auto;top:50%;transform:translate(-50%,-50%);width:min(380px,92vw)}
 body.phone #tourbar .tc{font-size:18px}
@@ -286,6 +286,17 @@ body.panel-open #tbp{display:none}
 /* UI-CHROME-CSS end */
 #games .gm-reset{display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:center;margin-top:10px;padding-top:10px;border-top:1px solid var(--rule)}#games .gm-reset button{all:unset;cursor:pointer;font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-dim);border:1px solid var(--rule);border-radius:6px;padding:7px 10px}#games .gm-reset button:hover{color:var(--ink);border-color:var(--amber)}#games .gm-reset [data-r^=yes]{color:var(--bg);background:var(--amber);border-color:var(--amber)}
 #games .gm-again{all:unset;cursor:pointer;display:block;margin:10px auto 0;padding:9px 16px;border-radius:6px;background:var(--amber);color:var(--bg);font-family:var(--mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase}
+/* LIGHT THEME (T): parchment page; vars cover most of the UI, a runtime pass recolours hard-coded dark panels */
+body.light{--bg:#f3ecdc;--bg-2:#e9e0cb;--ink:#1f1a12;--ink-dim:#5a5040;--ink-faint:#9a8e78;--amber:#9a5a1f;--amber-bright:#8a4a12;--rule:#c9a27a;--glass:rgba(250,245,233,.85);--glass-b:rgba(154,90,31,.35);--glass-hi:rgba(154,90,31,.12)}
+body.light::before{background-image:radial-gradient(ellipse at 20% 10%,rgba(184,115,51,.10),transparent 50%),radial-gradient(ellipse at 80% 90%,rgba(184,115,51,.08),transparent 50%)}
+body.light #panel{background:linear-gradient(180deg,#faf5e9,#f3ecdc)!important}
+body.light .gl{box-shadow:0 10px 30px rgba(80,50,20,.18),inset 0 1px 0 rgba(255,255,255,.5)}
+body.light .lbl,body.light .axl{background:rgba(250,245,233,.9)!important;box-shadow:0 0 8px 3px rgba(250,245,233,.75)}
+body.light .lbl.sel{background:#f0b35a!important;color:#140c04!important;box-shadow:0 0 0 2px #1f1a12,0 0 14px 4px rgba(214,140,40,.7)!important}
+body.light #selring{border-color:#c77d14;box-shadow:0 0 0 2px rgba(31,26,18,.7),0 0 12px 3px rgba(214,140,40,.7)}
+body.light select{color-scheme:light;background-color:#faf5e9;color:#1f1a12}
+body.light select option,body.light select optgroup{background-color:#faf5e9;color:#1f1a12}
+body.light select option:checked,body.light select option:hover{background:#f0b35a linear-gradient(#f0b35a,#f0b35a);color:#140c04}
 </style>
 </head>
 <body>
@@ -1396,6 +1407,26 @@ window.__memeplex = { cardIdea, cardCompare, shareIdea, shareCompare, focusIdea,
     tb.insertBefore(hb, tb.querySelector('.sep')); hb.onclick = () => { filt.hidePol = !filt.hidePol; applyFilter(); };
     addEventListener('keydown', e => { const t = document.activeElement; if ((e.key === 'h' || e.key === 'H') && !e.metaKey && !e.ctrlKey && !e.altKey && !(t && (/^(INPUT|TEXTAREA|SELECT)$/.test(t.tagName) || t.isContentEditable))) hb.click(); });
     addEventListener('keydown', e => { const t = document.activeElement; if ((e.key === 'p' || e.key === 'P') && !e.metaKey && !e.ctrlKey && !e.altKey && !(t && /^(INPUT|TEXTAREA|SELECT)$/.test(t.tagName))) pbtn.click(); }); }
+  { /* Light/dark theme (T). Default dark; the choice is kept in localStorage. Snip cards keep the dark Arx strip; the map part follows the theme */
+    const LIGHT = { fog: 0xf3ecdc, base: 0x9a5a1f, up: 0x7a3a0a, dn: 0x2a2218 }, DARK = { fog: 0x0a0a0c, base: 0xb87333, up: 0xe89968, dn: 0xe8e2d4 };
+    const lum = c => { const m = /rgba?\(([\d.]+), ([\d.]+), ([\d.]+)(?:, ([\d.]+))?/.exec(c); return m ? { l: (0.2126 * m[1] + 0.7152 * m[2] + 0.0722 * m[3]) / 255, a: m[4] === undefined ? 1 : +m[4] } : null; };
+    const swept = new Set();
+    const sweep = () => { if (!document.body.classList.contains('light')) return; // recolour hard-coded dark panels and pale text
+      document.querySelectorAll('body *:not(canvas):not(svg *):not(.lbl):not(.axl):not(#selring):not(option)').forEach(el => { if (el.closest('.lbl.sel')) return; const cs = getComputedStyle(el), b = lum(cs.backgroundColor);
+        const gi = /gradient/.test(cs.backgroundImage) && lum(cs.backgroundImage); if (gi && gi.l < 0.2 && !el.dataset.thBi) { el.dataset.thBi = el.style.backgroundImage || '-'; el.style.backgroundImage = 'none'; el.style.backgroundColor = '#f6f0e2'; swept.add(el); }
+        if (b && b.a > 0.25 && b.l < 0.2 && !el.dataset.thBg) { el.dataset.thBg = el.style.backgroundColor || '-'; el.style.backgroundColor = `rgba(250,245,233,${Math.max(.85, b.a)})`; swept.add(el); }
+        const t = lum(cs.color); if (t && t.l > 0.72 && !el.dataset.thC) { el.dataset.thC = el.style.color || '-'; el.style.color = '#1f1a12'; swept.add(el); } }); };
+    const unsweep = () => { swept.forEach(el => { if (el.dataset.thBg) { el.style.backgroundColor = el.dataset.thBg === '-' ? '' : el.dataset.thBg; delete el.dataset.thBg; } if (el.dataset.thBi) { el.style.backgroundImage = el.dataset.thBi === '-' ? '' : el.dataset.thBi; delete el.dataset.thBi; } if (el.dataset.thC) { el.style.color = el.dataset.thC === '-' ? '' : el.dataset.thC; delete el.dataset.thC; } }); swept.clear(); };
+    const mats = () => { const on = document.body.classList.contains('light'); scene.traverse(o => { [].concat(o.material || []).forEach(m => { if (m.userData.thB === undefined) m.userData.thB = m.blending; const nb = on ? (m.userData.thB === THREE.AdditiveBlending ? THREE.NormalBlending : m.userData.thB) : m.userData.thB; if (m.blending !== nb) { m.blending = nb; m.needsUpdate = true; } }); }); };
+    const apply = on => { document.body.classList.toggle('light', on); const P = on ? LIGHT : DARK; scene.fog.color.set(P.fog); LINE_BASE.set(P.base); LINE_UP.set(P.up); LINE_DN.set(P.dn);
+      if (lineMat) lineMat.color.set(P.base); lines.forEach(l => l.material.color.set(P.base)); mats(); on ? sweep() : unsweep(); try { highlight(current || null); } catch (e) {}
+      const tbn = document.getElementById('themebtn'); if (tbn) { tbn.setAttribute('aria-pressed', String(on)); tbn.querySelector('.t').textContent = on ? 'Dark' : 'Light'; } window.__theme = on ? 'light' : 'dark'; };
+    const tbn = document.createElement('button'); tbn.type = 'button'; tbn.dataset.k = 'theme'; tbn.id = 'themebtn'; tbn.title = 'Light or dark theme (T)'; tbn.setAttribute('aria-label', tbn.title);
+    tbn.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 1 0 9 9 7 7 0 0 1-9-9z"/></svg><span class="t">Light</span>';
+    tb.insertBefore(tbn, tb.querySelector('.sep')); tbn.onclick = () => { const on = !document.body.classList.contains('light'); try { localStorage.setItem('memeplex-theme', on ? 'light' : 'dark'); } catch (e) {} apply(on); };
+    addEventListener('keydown', e => { const t = document.activeElement; if ((e.key === 't' || e.key === 'T') && !e.metaKey && !e.ctrlKey && !e.altKey && !(t && (/^(INPUT|TEXTAREA|SELECT)$/.test(t.tagName) || t.isContentEditable))) tbn.click(); });
+    setInterval(() => { if (document.body.classList.contains('light')) { sweep(); mats(); } }, 1000); // panels and view materials made later
+    let saved = null; try { saved = localStorage.getItem('memeplex-theme'); } catch (e) {} apply(saved === 'light'); }
   { const lb = document.createElement('button'); lb.type = 'button'; lb.dataset.k = 'lines'; lb.id = 'linesbtn'; lb.title = 'Lines: show or hide lineage lines; when hidden, the hovered or selected idea still shows its lines (L)'; lb.setAttribute('aria-label', lb.title);
       lb.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19L12 5l7 14M5 19h14"/></svg><span class="t">Lines</span>';
       tb.insertBefore(lb, tb.querySelector('.sep')); lb.onclick = () => { filt.noLines = !filt.noLines; applyLines(); };
