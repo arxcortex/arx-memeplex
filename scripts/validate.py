@@ -87,5 +87,10 @@ for c in cur:
 for d in ideas:
   for r in d.get("related_currents",[]):
     if r not in cids: E.append(f"{d['id']}: related_current {r} missing")
+# schema: top-level idea keys must be allowed by schema/idea.schema.json
+_S=json.load(open(B+"schema/idea.schema.json"))["items"]; _P=set(_S["properties"]); _R=set(_S.get("required",[]))
+for d in ideas:
+  for k in set(d)-_P: E.append(f"{d['id']}: field {k} not allowed by schema")
+  for k in _R-set(d): E.append(f"{d['id']}: required field {k} missing")
 print("\n".join("WARN "+w for w in W)) if W else None
 print("\n".join(E) or f"OK: {len(ideas)} ideas, {len(cur)} currents, {len(AX)} axes, {len(roots)} roots, all axes scored"); sys.exit(bool(E))
