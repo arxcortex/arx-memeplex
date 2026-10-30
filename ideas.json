@@ -20662,22 +20662,20 @@
   "id": "classical_republicanism",
   "name": "Classical republicanism",
   "aliases": [
-   "civic humanism",
    "commonwealth republicanism",
-   "Commonwealthmen"
+   "Harringtonian republicanism",
+   "English republicanism"
   ],
   "year": 1656,
   "place": "London",
   "origin_src": "https://grokipedia.com/page/Classical_republicanism",
   "origin_note": "Harrington's The Commonwealth of Oceana, 1656; cited by the Grokipedia page. The 1656 date marks the English Commonwealth formulation that fed the colonies; the Italian strand (Machiavelli) is earlier",
   "thinkers": [
-   "Niccolò Machiavelli",
    "James Harrington",
-   "John Trenchard",
-   "Thomas Gordon"
+   "Algernon Sidney"
   ],
   "parents": [
-   "renaissance_humanism"
+   "machiavellian_republicanism"
   ],
   "plain": "Classical republicans held that a free state survives only if its citizens are virtuous and power is balanced so no one person or faction can dominate.",
   "summary": "Republicans from Machiavelli to the Commonwealthmen tie liberty to civic virtue, balanced government and vigilance against corruption.",
@@ -20687,10 +20685,18 @@
     "type": "revival",
     "src": "https://grokipedia.com/page/Classical_republicanism",
     "note": "Machiavelli's civic humanism revived Roman republican models, which Harrington then institutionalized in Oceana."
+   },
+   "machiavellian_republicanism": {
+    "status": "direct",
+    "type": "documented reading",
+    "src": "https://grokipedia.com/page/James_Harrington_(author)",
+    "note": "Harrington took the Discourses on Livy as 'a modern lens' and drew Oceana (1656) explicitly from its account of Rome's mixed government and agrarian laws."
    }
   },
   "sources": [
-   "https://grokipedia.com/page/Classical_republicanism"
+   "https://grokipedia.com/page/Classical_republicanism",
+   "https://grokipedia.com/page/James_Harrington_(author)",
+   "https://grokipedia.com/page/Algernon_Sidney"
   ],
   "ratings": {
    "platonism": 0,
@@ -20748,19 +20754,14 @@
    "historical": true,
    "places": [
     {
-     "place": "Florence",
+     "place": "England",
      "src": "https://grokipedia.com/page/Classical_republicanism",
-     "note": "Named in the Grokipedia article “Classical republicanism”."
+     "note": "Named in the Grokipedia article “Classical republicanism”; Harrington's Oceana (1656)."
     },
     {
      "place": "Venice",
      "src": "https://grokipedia.com/page/Classical_republicanism",
-     "note": "Named in the Grokipedia article “Classical republicanism”."
-    },
-    {
-     "place": "England",
-     "src": "https://grokipedia.com/page/Classical_republicanism",
-     "note": "Named in the Grokipedia article “Classical republicanism”."
+     "note": "Influence only: named with Florence as a Renaissance republican city-state of the classical revival."
     }
    ]
   }
@@ -20793,7 +20794,8 @@
   ],
   "parents": [
    "classical_republicanism",
-   "enlightenment_liberalism"
+   "enlightenment_liberalism",
+   "country_ideology"
   ],
   "plain": "American revolutionaries argued that people are born with rights to life and liberty, that kings have no natural right to rule, and that a free republic needs virtuous citizens.",
   "summary": "The American founders fused Lockean natural rights with classical civic virtue to justify independence and a republic without a king.",
@@ -20809,11 +20811,20 @@
     "type": "text",
     "src": "https://grokipedia.com/page/Republicanism_in_the_United_States",
     "note": "Jefferson adapted Locke's 'life, liberty, and property' (Two Treatises, 1689) as 'life, liberty, and the pursuit of happiness' in the Declaration of Independence."
+   },
+   "country_ideology": {
+    "status": "contested",
+    "type": "influence",
+    "src": "https://grokipedia.com/page/Country_Party_(Britain)",
+    "note": "Country ideology shaped the Jeffersonian 'country' wing, and Cato's Letters circulated widely. Appleby challenged Pocock's republican synthesis, arguing liberal ideas complemented republican thought (Grokipedia, Joyce Appleby)."
    }
   },
   "sources": [
    "https://grokipedia.com/page/Republicanism_in_the_United_States",
-   "https://grokipedia.com/page/Classical_republicanism"
+   "https://grokipedia.com/page/Classical_republicanism",
+   "https://grokipedia.com/page/Country_Party_(Britain)",
+   "https://grokipedia.com/page/Cato's_Letters",
+   "https://grokipedia.com/page/Joyce_Appleby"
   ],
   "ratings": {
    "platonism": 0,
@@ -22110,5 +22121,353 @@
    }
   },
   "parent_note": "Key ancestors Restorationism (Christian primitivism) and the Second Great Awakening have no nodes on main; proposed, not built. No Hermetic or ceremonial_magic edge: folk-magic and Masonic links are documented only as contested context."
+ },
+ {
+  "id": "florentine_civic_humanism",
+  "name": "Florentine civic humanism",
+  "root": false,
+  "root_axis": null,
+  "year": 1403,
+  "year_approx": true,
+  "origin_src": "https://grokipedia.com/page/Leonardo_Bruni",
+  "origin_note": "Bruni's Laudatio Florentinae Urbis, delivered c. 1403–1404, praised Florence's mixed constitution; Salutati, chancellor 1375–1406, had argued for the active civic life. Hans Baron later named the thesis",
+  "place": "Florence",
+  "lat": 43.77,
+  "lon": 11.26,
+  "thinkers": [
+   "Coluccio Salutati",
+   "Leonardo Bruni",
+   "Poggio Bracciolini"
+  ],
+  "parents": [
+   "renaissance_humanism",
+   "aristotelian_teleology"
+  ],
+  "plain": "The Florentine humanists' belief that studying the classics should train citizens to take an active part in running a free republic.",
+  "summary": "Humanism turned to republican service in Florence, c. 1403: Salutati and Bruni praised the active civic life, mixed government and liberty against Milanese princely rule.",
+  "ratings": {
+   "platonism": 1,
+   "aristotelianism": 3,
+   "stoicism": 1,
+   "christianity": 2,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 2,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -1,
+   "hierarchy": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 0
+  },
+  "rationale": {
+   "platonism": "Bruni translated Plato's dialogues, but Florentine civic humanism prized Aristotle's and Cicero's civic ethics over Platonic contemplation.",
+   "aristotelianism": "Bruni translated Aristotle's Politics and Ethics and used the mixed constitution to praise Florence (Grokipedia, Leonardo Bruni).",
+   "stoicism": "Revived Cicero's ethic of public duty, which borrows Stoic themes; Stoicism is not its source.",
+   "christianity": "Salutati held that true virtue and service to God required civic participation (Grokipedia, Coluccio Salutati).",
+   "gnosticism": "No real link to Gnosticism.",
+   "hermeticism": "No real link to Hermeticism.",
+   "enlightenment_liberalism": "Prized liberty and rule of law against despots, three centuries before Enlightenment liberalism, which it anticipates loosely.",
+   "marxism": "No real link to Marxism.",
+   "darwinism": "No real link to Darwinism.",
+   "nietzsche": "No real link to Nietzsche.",
+   "critical_theory": "No real link to critical theory.",
+   "confucianism": "No real link to Confucianism.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "No real link to Buddhism.",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "No real link to Islamic philosophy.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Not carried in an ironic tone.",
+   "abstraction": "Rated the active civic life above monastic contemplation, though argued through rhetoric and classical learning.",
+   "hierarchy": "Praised a mixed constitution, but its humanists were a small educated elite (Grokipedia, Renaissance humanism criticisms).",
+   "islam": "No documented relation.",
+   "judaism": "No documented relation.",
+   "romanticism": "No documented relation (predates Romanticism).",
+   "nationalism": "No documented relation (predates Nationalism)."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Leonardo_Bruni",
+   "https://grokipedia.com/page/Coluccio_Salutati",
+   "https://grokipedia.com/page/Renaissance_humanism",
+   "https://grokipedia.com/page/Republic_of_Florence"
+  ],
+  "domain": [
+   "politics",
+   "philosophy"
+  ],
+  "aliases": [
+   "civic humanism",
+   "Florentine republicanism",
+   "vivere civile"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Florence",
+     "src": "https://grokipedia.com/page/Leonardo_Bruni",
+     "note": "Salutati (chancellor 1375–1406) and Bruni (chancellor 1427–1444) carried it in the Florentine chancery.",
+     "period": "1375–1444"
+    }
+   ]
+  },
+  "edge_notes": {
+   "renaissance_humanism": {
+    "status": "direct",
+    "type": "descent",
+    "src": "https://grokipedia.com/page/Coluccio_Salutati",
+    "note": "Salutati bridged 'Petrarchan humanism with the civic traditions of the Florentine Republic' and mentored Bruni and Poggio Bracciolini."
+   },
+   "aristotelian_teleology": {
+    "status": "documented",
+    "type": "documented reading",
+    "src": "https://grokipedia.com/page/Leonardo_Bruni",
+    "note": "Bruni translated Aristotle's Nicomachean Ethics and Politics into Latin and drew on Polybius, Cicero and Aristotle for Florence's mixed constitution."
+   }
+  },
+  "parent_note": "Hans Baron coined the 'civic humanism' thesis in the 20th century; he is its historian, not a parent. The term is a scholars' label, and Grokipedia's Bruni page notes debate over Baron's interpretation."
+ },
+ {
+  "id": "machiavellian_republicanism",
+  "name": "Machiavellian republicanism",
+  "root": false,
+  "root_axis": null,
+  "year": 1513,
+  "year_approx": true,
+  "origin_src": "https://grokipedia.com/page/Discourses_on_Livy",
+  "origin_note": "Machiavelli composed the Discourses on Livy between 1513 and 1519, in exile after the Florentine Republic fell in 1512",
+  "place": "Florence",
+  "lat": 43.77,
+  "lon": 11.26,
+  "thinkers": [
+   "Niccolò Machiavelli",
+   "Francesco Guicciardini"
+  ],
+  "parents": [
+   "florentine_civic_humanism"
+  ],
+  "plain": "Machiavelli's case for republics: armed citizens, balanced institutions and open conflict between nobles and people keep a free state alive and guard it against corruption.",
+  "summary": "Republic theory of Machiavelli's Discourses (1513–1519): Roman models, mixed government, citizen militia, and civic virtù against fortune and corruption.",
+  "ratings": {
+   "platonism": -2,
+   "aristotelianism": 2,
+   "stoicism": 0,
+   "christianity": -2,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 2,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 1,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -3,
+   "hierarchy": -1,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 1
+  },
+  "rationale": {
+   "platonism": "Grokipedia records a rejection of idealism; Machiavelli judged states by 'effectual truth', not ideal forms.",
+   "aristotelianism": "Adapts Aristotelian and Polybian mixed constitutions, in Pocock's reading (Grokipedia, Discourses on Livy).",
+   "stoicism": "No real link to Stoicism.",
+   "christianity": "Replaced divine providence with human contrivance; the Church banned the Discourses (Grokipedia, Discourses on Livy).",
+   "gnosticism": "No real link to Gnosticism.",
+   "hermeticism": "No real link to Hermeticism.",
+   "enlightenment_liberalism": "Backed popular participation and institutional checks, which later fed Atlantic republicanism, not Lockean rights.",
+   "marxism": "No real link to Marxism.",
+   "darwinism": "No real link to Darwinism.",
+   "nietzsche": "Recasts virtù as adaptive efficacy against fortune, not moral excellence; a loose echo, not a documented tie to Nietzsche.",
+   "critical_theory": "No real link to critical theory.",
+   "confucianism": "No real link to Confucianism.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "No real link to Buddhism.",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "No real link to Islamic philosophy.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Not carried in an ironic tone.",
+   "abstraction": "Reasoned from Roman history and Florentine experience toward 'effectual truth' (Grokipedia, Niccolò Machiavelli).",
+   "hierarchy": "Favored popular participation and the people's guard of liberty against the nobles, within a mixed constitution.",
+   "islam": "No documented relation.",
+   "judaism": "No documented relation.",
+   "romanticism": "No documented relation (predates Romanticism).",
+   "nationalism": "Precursor only: The Prince's call to free Italy from 'the barbarians' is read as proto-nationalist; Risorgimento leaders invoked him."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Discourses_on_Livy",
+   "https://grokipedia.com/page/Niccolò_Machiavelli",
+   "https://grokipedia.com/page/Francesco_Guicciardini",
+   "https://grokipedia.com/page/Mixed_government"
+  ],
+  "domain": [
+   "politics",
+   "philosophy"
+  ],
+  "aliases": [
+   "Discourses on Livy"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Florence",
+     "src": "https://grokipedia.com/page/Niccolò_Machiavelli",
+     "note": "Machiavelli founded a citizen militia in 1506 and wrote the Discourses in exile after 1512.",
+     "period": "1498–1527"
+    },
+    {
+     "place": "England",
+     "src": "https://grokipedia.com/page/Discourses_on_Livy",
+     "note": "Harrington's Oceana (1656) drew explicitly on the Discourses during the Commonwealth.",
+     "period": "1649–1660"
+    }
+   ]
+  },
+  "edge_notes": {
+   "florentine_civic_humanism": {
+    "status": "contested",
+    "type": "descent",
+    "src": "https://grokipedia.com/page/Niccolò_Machiavelli",
+    "note": "Machiavelli had a humanist education and served the chancery from 1498 to 1512. Grokipedia says he broke from humanism and contrasts him with Bruni; Pocock sees continuity."
+   }
+  },
+  "parent_note": "Guicciardini is listed as a Florentine contemporary in the same debate; Pocock is its historian, not a parent."
+ },
+ {
+  "id": "country_ideology",
+  "name": "Country ideology",
+  "root": false,
+  "root_axis": null,
+  "year": 1675,
+  "year_approx": true,
+  "origin_src": "https://grokipedia.com/page/Country_Party_(Britain)",
+  "origin_note": "The Country Party arose in the 1670s in the Cavalier Parliament; Cato's Letters (1720–1723) and Bolingbroke's Craftsman (from 1726) gave it its 18th-century voice against Walpole. The 1675 date is approximate; the tradition peaked around 1720 with Cato's Letters",
+  "place": "London",
+  "lat": 51.51,
+  "lon": -0.13,
+  "thinkers": [
+   "John Trenchard",
+   "Thomas Gordon",
+   "Henry St John, 1st Viscount Bolingbroke"
+  ],
+  "parents": [
+   "classical_republicanism"
+  ],
+  "plain": "An 18th-century British opposition creed: power corrupts through court patronage, debt and standing armies, so independent landowners and civic virtue must check it.",
+  "summary": "British 'country' opposition, from the 1670s to its peak against Walpole: anti-corruption, anti-standing-army, anti-debt; carried by Cato's Letters and Bolingbroke.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 1,
+   "stoicism": 0,
+   "christianity": -1,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 3,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -2,
+   "hierarchy": -1,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 0
+  },
+  "rationale": {
+   "platonism": "No real link to Platonism.",
+   "aristotelianism": "Held civic virtue to be the guard of liberty, an indirect echo of Aristotle's civic ethics.",
+   "stoicism": "No real link to Stoicism.",
+   "christianity": "Trenchard and Gordon's Independent Whig critiqued clerical power; Bolingbroke attacked clerical authority (Grokipedia, Cato's Letters; Bolingbroke).",
+   "gnosticism": "No real link to Gnosticism.",
+   "hermeticism": "No real link to Hermeticism.",
+   "enlightenment_liberalism": "Cato's Letters rested on natural rights 'akin to John Locke's' (Grokipedia, Cato's Letters), close to Enlightenment liberalism.",
+   "marxism": "No real link to Marxism.",
+   "darwinism": "No real link to Darwinism.",
+   "nietzsche": "No real link to Nietzsche.",
+   "critical_theory": "No real link to critical theory.",
+   "confucianism": "No real link to Confucianism.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "No real link to Buddhism.",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "No real link to Islamic philosophy.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Not carried in an ironic tone.",
+   "abstraction": "Worked through weekly polemic and parliamentary campaigns on armies, debt and patronage, not systematic philosophy.",
+   "hierarchy": "Attacked court patronage and executive power, but spoke for independent landed gentry; Bolingbroke wanted a Patriot King.",
+   "islam": "No documented relation.",
+   "judaism": "No documented relation.",
+   "romanticism": "No documented relation (predates Romanticism).",
+   "nationalism": "No documented relation (predates Nationalism)."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Country_Party_(Britain)",
+   "https://grokipedia.com/page/Cato's_Letters",
+   "https://grokipedia.com/page/Henry_St_John,_1st_Viscount_Bolingbroke"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "aliases": [
+   "Country party ideology",
+   "Commonwealthmen",
+   "Real Whigs",
+   "Country Whigs"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Great Britain",
+     "src": "https://grokipedia.com/page/Country_Party_(Britain)",
+     "note": "Peaked in opposition to Walpole in the 1720s–1730s; declined by the 1750s under the Pelhams.",
+     "period": "1670s–1750s"
+    },
+    {
+     "place": "British America",
+     "src": "https://grokipedia.com/page/Cato's_Letters",
+     "note": "Cato's Letters 'circulated widely and profoundly shaped revolutionary ideology' in the colonies.",
+     "period": "1720s–1776"
+    }
+   ]
+  },
+  "edge_notes": {
+   "classical_republicanism": {
+    "status": "influence",
+    "type": "tradition",
+    "src": "https://grokipedia.com/page/Country_Party_(Britain)",
+    "note": "The Country Party drew 'on classical republican and real Whig traditions' in opposing standing armies, national debt and court patronage."
+   }
+  },
+  "parent_note": "Merges the Whig Commonwealthmen (Trenchard, Gordon) with Bolingbroke's Tory-led country opposition, as the Country Party page does."
  }
 ]
