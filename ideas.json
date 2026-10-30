@@ -4867,7 +4867,8 @@
    "src": "https://grokipedia.com/page/Christian_right",
    "note": "Through the religious right; fundamentalists who backed Carter in 1976 moved Republican (Grokipedia, Moral Majority)."
   },
-  "modern_politics": true
+  "modern_politics": true,
+  "historically_established": true
  },
  {
   "id": "young_earth_creationism",
@@ -6970,7 +6971,8 @@
    "src": "https://grokipedia.com/page/Labour_Party_(UK)",
    "note": "Labour; Starmer's centrist pivot yielded a 2024 landslide (Grokipedia, Labour Party)."
   },
-  "modern_politics": true
+  "modern_politics": true,
+  "historically_established": true
  },
  {
   "id": "libertarianism",
@@ -7079,7 +7081,8 @@
    "src": "https://grokipedia.com/page/Libertarian_Party_(United_States)",
    "note": "Own party since 1971, the third-largest by registration; inside the GOP via fusionism's coalition of 'economic libertarians'."
   },
-  "modern_politics": true
+  "modern_politics": true,
+  "historically_established": true
  },
  {
   "id": "nationalism",
@@ -7214,7 +7217,8 @@
     "src": "https://grokipedia.com/page/Nationalism",
     "note": "Grokipedia ties modern nationalism to popular sovereignty, Rousseau's general will and the 1793 'la patrie en danger' mobilization, but names no Jacobin text or author as the handoff."
    }
-  }
+  },
+  "historically_established": true
  },
  {
   "id": "fascism",
@@ -7758,7 +7762,8 @@
    "src": "https://grokipedia.com/page/Reform_UK",
    "note": "Carried by Reform UK."
   },
-  "modern_politics": true
+  "modern_politics": true,
+  "historically_established": true
  },
  {
   "id": "divine_right_of_kings",
@@ -9496,7 +9501,8 @@
    "src": "https://grokipedia.com/page/Reagan_Democrat",
    "note": "The Democratic coalition since 1933; Reagan Democrats show its working-class fracture toward Republicans after 1980."
   },
-  "modern_politics": true
+  "modern_politics": true,
+  "historically_established": true
  },
  {
   "id": "old_right",
@@ -9695,7 +9701,8 @@
    "src": "https://grokipedia.com/page/Fusionism",
    "note": "Built Goldwater's 1964 and Reagan's coalitions; weakened since Trump's 2016 campaign 'rejected fusionist free-trade shibboleths'."
   },
-  "modern_politics": true
+  "modern_politics": true,
+  "historically_established": true
  },
  {
   "id": "new_left",
@@ -9912,7 +9919,8 @@
    "src": "https://grokipedia.com/page/Neoconservatism",
    "note": "Began among Democrats such as Eugene Rostow, 'a \"Scoop Jackson Democrat\"', and Commentary writers under Podhoretz; moved Republican under Reagan; some joined Never Trump efforts, including the 2020 endorsement of Biden by former Republican security officials."
   },
-  "modern_politics": true
+  "modern_politics": true,
+  "historically_established": true
  },
  {
   "id": "paleoconservatism",
@@ -10013,7 +10021,8 @@
    "src": "https://grokipedia.com/page/Paleoconservatism",
    "note": "Marginal in the GOP in the late 20th century; 'renewed traction in recent populist movements'. Buchanan ran in Republican primaries."
   },
-  "modern_politics": true
+  "modern_politics": true,
+  "historically_established": true
  },
  {
   "id": "cypherpunks",
@@ -13086,7 +13095,8 @@
    "src": "https://grokipedia.com/page/Xi_Jinping_Thought",
    "note": "Bloc: Marxism-Leninism is the party's charter doctrine."
   },
-  "modern_politics": true
+  "modern_politics": true,
+  "historically_established": true
  },
  {
   "id": "comintern",
@@ -14427,7 +14437,8 @@
    "src": "https://grokipedia.com/page/Make_America_Great_Again",
    "note": "The 2024 RNC platform was titled 'Make America Great Again'; the movement 'reshaped the Republican Party toward populism'."
   },
-  "modern_politics": true
+  "modern_politics": true,
+  "historically_established": false
  },
  {
   "id": "postliberalism",
@@ -14538,7 +14549,8 @@
    "src": "https://grokipedia.com/page/Postliberalism",
    "note": "An intellectual current; Vice President Vance 'has explicitly aligned with postliberalism'."
   },
-  "modern_politics": true
+  "modern_politics": true,
+  "historically_established": false
  },
  {
   "id": "national_conservatism",
@@ -14652,7 +14664,8 @@
    "src": "https://grokipedia.com/page/National_conservatism",
    "note": "Grokipedia ties it to 'U.S. Republican emphases on America First economics post-2016'."
   },
-  "modern_politics": true
+  "modern_politics": true,
+  "historically_established": false
  },
  {
   "id": "holiness_movement",
@@ -16733,7 +16746,8 @@
    "src": "https://grokipedia.com/page/Christian_right",
    "note": "Grokipedia: Moral Majority turned evangelicals into 'a reliable Republican base'; white evangelicals gave 78% to Romney (2012) and 81% to Trump (2016)."
   },
-  "modern_politics": true
+  "modern_politics": true,
+  "historically_established": true
  },
  {
   "id": "new_democrats",
@@ -16855,7 +16869,8 @@
    "src": "https://grokipedia.com/page/Democratic_Leadership_Council",
    "note": "Intra-Democratic faction; the DLC closed in 2011 but the New Democrat Coalition, formed by DLC members in 1997, remains in the House."
   },
-  "modern_politics": true
+  "modern_politics": true,
+  "historically_established": true
  },
  {
   "id": "democratic_socialism_us",
@@ -16982,7 +16997,8 @@
    "src": "https://grokipedia.com/page/Democratic_Socialists_of_America",
    "note": "Not a party; DSA 'emphasized reforming the Democratic Party from within over third-party runs' (Grokipedia, DSA). Contested inside DSA. The Squad, an informal subgroup of the Congressional Progressive Caucus, overlaps with DSA but is not the same group (Grokipedia, Congressional Progressive Caucus)."
   },
-  "modern_politics": true
+  "modern_politics": true,
+  "historically_established": true
  },
  {
   "id": "progressive_left",
@@ -17103,7 +17119,8 @@
    "src": "https://grokipedia.com/page/Congressional_Progressive_Caucus",
    "note": "A Democratic caucus formed 'to pull the Democratic Party toward more interventionist government'. Sanders, a founder, is an independent."
   },
-  "modern_politics": true
+  "modern_politics": true,
+  "historically_established": true
  },
  {
   "id": "neo_thomism",
@@ -17832,7 +17849,8 @@
    "src": "https://grokipedia.com/page/One-nation_conservatism",
    "note": "The One Nation Group was 'founded in 1950 by nine newly elected Conservative MPs'."
   },
-  "modern_politics": true
+  "modern_politics": true,
+  "historically_established": true
  },
  {
   "id": "thatcherism",
@@ -17957,7 +17975,8 @@
    ],
    "lean": "CON"
   },
-  "modern_politics": true
+  "modern_politics": true,
+  "historically_established": true
  },
  {
   "id": "new_labour",
@@ -18086,7 +18105,8 @@
    "src": "https://grokipedia.com/page/New_Labour",
    "note": "Labour's governing faction 1994–2010; 'Blairite' still names its right wing."
   },
-  "modern_politics": true
+  "modern_politics": true,
+  "historically_established": true
  },
  {
   "id": "labour_left",
@@ -18208,7 +18228,8 @@
    "src": "https://grokipedia.com/page/Socialist_Campaign_Group",
    "note": "A faction within the Labour Party since 1982."
   },
-  "modern_politics": true
+  "modern_politics": true,
+  "historically_established": true
  },
  {
   "id": "reform_uk_populism",
@@ -18328,7 +18349,8 @@
    "src": "https://grokipedia.com/page/Reform_UK",
    "note": "Party led by Farage since June 2024; draws Conservative voters."
   },
-  "modern_politics": true
+  "modern_politics": true,
+  "historically_established": false
  },
  {
   "id": "gaullism",
@@ -18445,7 +18467,8 @@
    ],
    "lean": "LR"
   },
-  "modern_politics": true
+  "modern_politics": true,
+  "historically_established": true
  },
  {
   "id": "macronism",
@@ -18559,7 +18582,8 @@
    "src": "https://grokipedia.com/page/Renaissance_(French_political_party)",
    "note": "Party founded as En Marche! (2016), renamed Renaissance."
   },
-  "modern_politics": true
+  "modern_politics": true,
+  "historically_established": false
  },
  {
   "id": "rassemblement_national",
@@ -18680,7 +18704,8 @@
    "src": "https://grokipedia.com/page/National_Rally",
    "note": "Party since 1972; led by Bardella since November 2022."
   },
-  "modern_politics": true
+  "modern_politics": true,
+  "historically_established": true
  },
  {
   "id": "la_france_insoumise",
@@ -18804,7 +18829,8 @@
    "src": "https://grokipedia.com/page/La_France_Insoumise",
    "note": "Party-movement founded 2016."
   },
-  "modern_politics": true
+  "modern_politics": true,
+  "historically_established": false
  },
  {
   "id": "christian_democracy",
@@ -18925,7 +18951,8 @@
    "src": "https://grokipedia.com/page/Christian_Democratic_Union_of_Germany",
    "note": "CDU with its Bavarian sister CSU; founded 1945."
   },
-  "modern_politics": true
+  "modern_politics": true,
+  "historically_established": true
  },
  {
   "id": "alternative_for_germany",
@@ -19050,7 +19077,8 @@
    "src": "https://grokipedia.com/page/Alternative_for_Germany",
    "note": "Party; the Federal Office for the Protection of the Constitution classified it as right-wing extremist in May 2025."
   },
-  "modern_politics": true
+  "modern_politics": true,
+  "historically_established": false
  },
  {
   "id": "german_left_conservatism",
@@ -19163,7 +19191,8 @@
    "src": "https://grokipedia.com/page/Bündnis_Sahra_Wagenknecht",
    "note": "Party since January 2024; below the 5% threshold in February 2025."
   },
-  "modern_politics": true
+  "modern_politics": true,
+  "historically_established": false
  },
  {
   "id": "green_politics",
@@ -19285,7 +19314,8 @@
    "src": "https://grokipedia.com/page/Alliance_90%2FThe_Greens",
    "note": "Alliance 90/The Greens since the May 1993 merger."
   },
-  "modern_politics": true
+  "modern_politics": true,
+  "historically_established": true
  },
  {
   "id": "eurasianism",
@@ -19399,7 +19429,8 @@
    "src": "https://grokipedia.com/page/Aleksandr_Dugin",
    "note": "Bloc, not party: Dugin's movements aligned 'with shifts toward state conservatism under Putin without formal integration into ruling structures'."
   },
-  "modern_politics": true
+  "modern_politics": true,
+  "historically_established": true
  },
  {
   "id": "putinism",
@@ -19527,7 +19558,8 @@
    "src": "https://grokipedia.com/page/United_Russia",
    "note": "The ruling bloc; United Russia functions as a 'party of power'."
   },
-  "modern_politics": true
+  "modern_politics": true,
+  "historically_established": false
  },
  {
   "id": "russian_liberal_opposition",
@@ -19649,7 +19681,8 @@
    "src": "https://grokipedia.com/page/Yabloko",
    "note": "Bloc: the non-systemic opposition, outside the Kremlin-licensed parties."
   },
-  "modern_politics": true
+  "modern_politics": true,
+  "historically_established": false
  },
  {
   "id": "socialism_chinese_characteristics",
@@ -19769,7 +19802,8 @@
    "src": "https://grokipedia.com/page/Deng_Xiaoping_Theory",
    "note": "Bloc: the reform-and-opening line inside the CCP."
   },
-  "modern_politics": true
+  "modern_politics": true,
+  "historically_established": true
  },
  {
   "id": "xi_jinping_thought",
@@ -19879,7 +19913,8 @@
    "src": "https://grokipedia.com/page/Xi_Jinping_Thought",
    "note": "Bloc: the party center around Xi."
   },
-  "modern_politics": true
+  "modern_politics": true,
+  "historically_established": false
  },
  {
   "id": "chinese_new_left",
@@ -19998,7 +20033,8 @@
    "src": "https://grokipedia.com/page/Chinese_New_Left",
    "note": "Bloc: the left critics of reform, partly inside the party (Bo Xilai)."
   },
-  "modern_politics": true
+  "modern_politics": true,
+  "historically_established": true
  },
  {
   "id": "chinese_liberalism",
@@ -20117,7 +20153,8 @@
    "src": "https://grokipedia.com/page/Liberalism_in_China",
    "note": "Bloc: liberals and dissidents outside the party line."
   },
-  "modern_politics": true
+  "modern_politics": true,
+  "historically_established": true
  },
  {
   "id": "abe_line_conservatism",
@@ -20239,7 +20276,8 @@
    "src": "https://grokipedia.com/page/Liberal_Democratic_Party_(Japan)",
    "note": "The LDP's conservative wing; Takaichi's 2025 win marked 'a shift toward hawkish nationalism'."
   },
-  "modern_politics": true
+  "modern_politics": true,
+  "historically_established": false
  },
  {
   "id": "constitutional_pacifism",
@@ -20351,7 +20389,8 @@
    "src": "https://grokipedia.com/page/Constitutional_Democratic_Party_of_Japan",
    "note": "Party founded 2017."
   },
-  "modern_politics": true
+  "modern_politics": true,
+  "historically_established": false
  },
  {
   "id": "ishin_reformism",
@@ -20477,7 +20516,8 @@
    ],
    "lean": "ISHIN"
   },
-  "modern_politics": true
+  "modern_politics": true,
+  "historically_established": false
  },
  {
   "id": "sanseito_populism",
@@ -20596,7 +20636,8 @@
    "src": "https://grokipedia.com/page/Sanseitō",
    "note": "Party since 2020."
   },
-  "modern_politics": true
+  "modern_politics": true,
+  "historically_established": false
  },
  {
   "root": false,
