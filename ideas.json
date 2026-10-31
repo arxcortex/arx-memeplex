@@ -14,7 +14,9 @@
   "thinkers": [
    "Plato"
   ],
-  "parents": [],
+  "parents": [
+   "pythagoreanism"
+  ],
   "plain": "Plato taught that everything we see is a flawed copy of a perfect, unchanging pattern (a 'Form'), and that only careful thinking, not the senses, reaches the truth.",
   "summary": "Plato holds that changing things copy perfect, unchanging patterns (Forms) that only reason can grasp.",
   "ratings": {
@@ -93,6 +95,15 @@
      "note": "Named in the Grokipedia article “Platonic Academy”."
     }
    ]
+  },
+  "edge_notes": {
+   "pythagoreanism": {
+    "status": "documented",
+    "type": "influence",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Plato",
+    "note": "Pythagoreans shaped Plato's reverence for mathematics and the soul's immortality; Aristotle reports his first principles built on Pythagorean numerology."
+   }
   }
  },
  {
@@ -209,7 +220,8 @@
    "Marcus Aurelius"
   ],
   "parents": [
-   "platonic_forms"
+   "platonic_forms",
+   "cynicism"
   ],
   "plain": "The Stoics believed a rational order (the 'logos') runs the universe, and that a good life means living calmly in step with it.",
   "summary": "The Stoics teach that a reasoning force (logos) orders the universe and that a good life follows it.",
@@ -288,6 +300,15 @@
      "note": "Named in the Grokipedia article “Stoicism”."
     }
    ]
+  },
+  "edge_notes": {
+   "cynicism": {
+    "status": "direct",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Zeno_of_Citium",
+    "note": "Zeno first studied under the Cynic Crates of Thebes, then joined Cynic moral intensity to a more systematic framework."
+   }
   }
  },
  {
@@ -306,7 +327,9 @@
    "Epicurus",
    "Lucretius"
   ],
-  "parents": [],
+  "parents": [
+   "atomism"
+  ],
   "plain": "Epicurus taught that everything is made of tiny atoms, the gods do not meddle, and the best life is a calm, simple one free of fear and pain.",
   "summary": "Epicurus teaches that tiny particles (atoms) and empty space make up everything, and that calm pleasure is life's goal.",
   "ratings": {
@@ -390,7 +413,15 @@
     }
    ]
   },
-  "parent_note": "No parent on the map. Epicurus adapted the atomism of Democritus and Leucippus, which is not a node."
+  "edge_notes": {
+   "atomism": {
+    "status": "direct",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Atomism",
+    "note": "Epicurus 'adapted atomism to support his ethical philosophy', adding the swerve to allow free will."
+   }
+  }
  },
  {
   "id": "neoplatonism",
@@ -515,7 +546,8 @@
    "Basilides"
   ],
   "parents": [
-   "platonic_forms"
+   "platonic_forms",
+   "jewish_apocalypticism"
   ],
   "plain": "Gnostic teachers said a lesser god made our flawed physical world, and that secret spiritual knowledge lets the soul escape it.",
   "summary": "Gnostic teachers cast the material world as the work of a lesser god and offer secret knowledge as escape.",
@@ -597,6 +629,15 @@
      "note": "Named in the Grokipedia article “Gnosticism”."
     }
    ]
+  },
+  "edge_notes": {
+   "jewish_apocalypticism": {
+    "status": "documented",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Gnosticism",
+    "note": "Jewish apocalyptic literature, especially Enochic heavenly journeys, profoundly influenced early Gnostic thought."
+   }
   }
  },
  {
@@ -3395,7 +3436,8 @@
   ],
   "parents": [
    "christianity",
-   "neoplatonism"
+   "neoplatonism",
+   "hellenistic_judaism"
   ],
   "plain": "The one church of the early centuries, led by bishops who met in councils to settle shared beliefs like the Nicene Creed. Some eastern churches left after 451; the big split came in 1054.",
   "summary": "The shared church before the 1054 split: bishops in councils set common beliefs. (Some eastern churches left after 451.)",
@@ -3485,6 +3527,15 @@
      "note": "Named in the Grokipedia article “Christianity”."
     }
    ]
+  },
+  "edge_notes": {
+   "hellenistic_judaism": {
+    "status": "documented",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Philo",
+    "note": "Clement of Alexandria and Origen took up Philo's Logos and allegorical reading; Origen cites him over 100 times."
+   }
   }
  },
  {
@@ -8139,7 +8190,8 @@
   "parents": [
    "gnostic_dualism",
    "christianity",
-   "buddhas_dharma"
+   "buddhas_dharma",
+   "zoroastrianism"
   ],
   "plain": "Mani taught that darkness invaded a kingdom of light and trapped bits of light inside matter. His followers kept strict rules to free that light. The faith spread from Rome to China.",
   "summary": "Mani's religion of light and darkness: bits of divine light lie trapped in matter, and strict living helps set them free.",
@@ -8209,6 +8261,13 @@
     "type": "influence",
     "src": "https://grokipedia.com/page/Manichaeism",
     "note": "Manichaeism drew on Buddhism among other traditions and counts the Buddha among its prophets."
+   },
+   "zoroastrianism": {
+    "status": "documented",
+    "type": "influence",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Manichaeism",
+    "note": "Mani adopted and intensified Zoroastrian light-dark dualism, with fire worship and final-judgment motifs."
    }
   },
   "thrives_in": {
@@ -21247,7 +21306,9 @@
    "Hillel the Elder",
    "Shammai"
   ],
-  "parents": [],
+  "parents": [
+   "ancient_israelite_religion"
+  ],
   "plain": "Jewish religion in the centuries of the rebuilt Temple in Jerusalem, with rival groups such as the Pharisees, Sadducees and Essenes.",
   "summary": "Judaism of c.516 BCE–70 CE: one God, Torah observance and Temple sacrifice, split among Pharisees, Sadducees, Essenes and others.",
   "ratings": {
@@ -21334,7 +21395,15 @@
     }
    ]
   },
-  "edge_notes": {}
+  "edge_notes": {
+   "ancient_israelite_religion": {
+    "status": "direct",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Yahwism",
+    "note": "The move to strict monotheism sped up after the Babylonian exile, 'laying the foundation for Second Temple Judaism'."
+   }
+  }
  },
  {
   "id": "rabbinic_judaism",
@@ -21355,7 +21424,8 @@
    "Judah ha-Nasi"
   ],
   "parents": [
-   "second_temple_judaism"
+   "second_temple_judaism",
+   "pharisees"
   ],
   "plain": "The Judaism of the rabbis that took shape after Rome destroyed the Temple in 70 CE. Torah study, prayer and Jewish law replaced Temple sacrifice.",
   "summary": "Judaism rebuilt around the Written and Oral Torah, synagogue prayer, study and halakha under rabbinic authority after the Temple fell.",
@@ -21461,6 +21531,13 @@
     "strength": "strong",
     "src": "https://grokipedia.com/page/Rabbinic_Judaism",
     "note": "Second Temple sects 'contributed to the interpretive and communal frameworks later formalized in Rabbinic Judaism, with the Pharisees emerging as the primary antecedent'."
+   },
+   "pharisees": {
+    "status": "direct",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Pharisees",
+    "note": "Pharisaic scholars such as Yohanan ben Zakkai reestablished teaching at Yavne after 70 CE, codifying oral traditions into the Mishnah."
    }
   },
   "parent_note": "Dating is contested: Neusner (cited on the Rabbinic Judaism page) has it 'crystallized between 200 and 600 CE'. This node dates it to when Yavne sages first held it."
@@ -26452,5 +26529,1207 @@
    }
   },
   "parent_note": "Paul Hacker coined the term to say it was shaped by Western idealism and Protestantism; proponents reject this. No edge to Western traditions (held)."
+ },
+ {
+  "id": "ancient_israelite_religion",
+  "name": "Ancient Israelite religion",
+  "root": false,
+  "root_axis": null,
+  "year": -1200,
+  "year_approx": true,
+  "origin_src": "https://grokipedia.com/page/Yahwism",
+  "origin_note": "Its earliest forms date to the Iron Age, 'ca. 1200–900 BCE'; the name Yahweh appears in Egyptian lists from about 1390–1352 BCE",
+  "place": "Kingdoms of Israel and Judah",
+  "lat": null,
+  "lon": null,
+  "thinkers": [
+   "Hosea",
+   "Isaiah",
+   "Josiah"
+  ],
+  "parents": [],
+  "plain": "The religion of ancient Israel and Judah, centered on the god Yahweh. It slowly moved from worshipping Yahweh above other gods to worshipping him alone.",
+  "summary": "Iron Age worship of Yahweh as the national god of Israel and Judah; at first beside other gods, then exclusive after reforms and the Babylonian exile.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 0,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "islam": 0,
+   "judaism": 4,
+   "romanticism": 0,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 1,
+   "hierarchy": 3
+  },
+  "rationale": {
+   "platonism": "Comes before Platonism existed, so it cannot descend from it.",
+   "aristotelianism": "Comes before Aristotelianism existed, so it cannot descend from it.",
+   "stoicism": "Comes before Stoicism existed, so it cannot descend from it.",
+   "christianity": "Comes before Christianity existed, so it cannot descend from it.",
+   "gnosticism": "Comes before Gnosticism existed, so it cannot descend from it.",
+   "hermeticism": "Comes before Hermeticism existed, so it cannot descend from it.",
+   "enlightenment_liberalism": "Comes before Enlightenment liberalism existed, so it cannot descend from it.",
+   "marxism": "Comes before Marxism existed, so it cannot descend from it.",
+   "darwinism": "Comes before Darwinism existed, so it cannot descend from it.",
+   "nietzsche": "Comes before Nietzsche existed, so it cannot descend from it.",
+   "critical_theory": "Comes before Critical theory existed, so it cannot descend from it.",
+   "confucianism": "Comes before Confucianism existed, so it cannot descend from it.",
+   "daoism": "Comes before Daoism existed, so it cannot descend from it.",
+   "buddhism": "Comes before Buddhism existed, so it cannot descend from it.",
+   "vedanta": "Comes before Vedanta existed, so it cannot descend from it.",
+   "islamic_philosophy": "Comes before Islamic philosophy existed, so it cannot descend from it.",
+   "islam": "Comes before Islam existed, so it cannot descend from it.",
+   "judaism": "The religion Judaism grew from; it became strictly monotheistic only after the Babylonian exile.",
+   "romanticism": "Comes before Romanticism existed, so it cannot descend from it.",
+   "nationalism": "Comes before Nationalism existed, so it cannot descend from it.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "One national god, but worship ran through sacrifice, high places, shrines and figurines; mixed.",
+   "hierarchy": "A national god served by kings and Temple priests; Hezekiah and Josiah centralized worship in Jerusalem."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Yahwism",
+   "https://grokipedia.com/page/Second_Temple_Judaism"
+  ],
+  "domain": [
+   "religion"
+  ],
+  "aliases": [
+   "Yahwism",
+   "Israelite religion"
+  ],
+  "parent_note": "No parent on the map. Grokipedia traces Yahweh to southern nomadic groups and notes Canaanite elements such as El and Asherah; Canaanite religion is not a node.",
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Kingdom of Judah",
+     "period": "c.1000–586 BCE",
+     "src": "https://grokipedia.com/page/Yahwism",
+     "note": "Judah kept Yahweh worship after Israel fell in 722 BCE, centered on the Jerusalem Temple until 586 BCE."
+    },
+    {
+     "place": "Kingdom of Israel",
+     "period": "c.931–722 BCE",
+     "src": "https://grokipedia.com/page/Yahwism",
+     "note": "The northern kingdom ran rival sanctuaries at Bethel and Dan until the Assyrian conquest of 722/721 BCE."
+    }
+   ]
+  },
+  "edge_notes": {}
+ },
+ {
+  "id": "pharisees",
+  "name": "Pharisees",
+  "root": false,
+  "root_axis": null,
+  "year": -150,
+  "year_approx": true,
+  "origin_src": "https://grokipedia.com/page/Pharisees",
+  "origin_note": "Active 'from roughly the mid-second century BCE until the destruction of the Temple in 70 CE'",
+  "place": "Judea",
+  "lat": 31.78,
+  "lon": 35.23,
+  "thinkers": [
+   "Simeon ben Shetach",
+   "Hillel the Elder",
+   "Gamaliel the Elder",
+   "Yohanan ben Zakkai"
+  ],
+  "parents": [
+   "second_temple_judaism"
+  ],
+  "plain": "A Jewish movement that read the Torah together with an oral tradition and taught resurrection of the dead. Its teachers founded rabbinic Judaism.",
+  "summary": "Second Temple school (c.150 BCE–70 CE) that held an Oral Law beside the written Torah, taught resurrection and spread priestly purity to ordinary Jews.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": -1,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 0,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "islam": 0,
+   "judaism": 5,
+   "romanticism": 0,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 2,
+   "hierarchy": 0
+  },
+  "rationale": {
+   "platonism": "No real link to Platonism.",
+   "aristotelianism": "No real link to Aristotelianism.",
+   "stoicism": "No real link to Stoicism.",
+   "christianity": "The Gospels cast Pharisees as opponents of Jesus, which Grokipedia reads as early Christian polemic, not plain history.",
+   "gnosticism": "Comes before Gnosticism existed, so it cannot descend from it.",
+   "hermeticism": "Comes before Hermeticism existed, so it cannot descend from it.",
+   "enlightenment_liberalism": "Comes before Enlightenment liberalism existed, so it cannot descend from it.",
+   "marxism": "Comes before Marxism existed, so it cannot descend from it.",
+   "darwinism": "Comes before Darwinism existed, so it cannot descend from it.",
+   "nietzsche": "Comes before Nietzsche existed, so it cannot descend from it.",
+   "critical_theory": "Comes before Critical theory existed, so it cannot descend from it.",
+   "confucianism": "No real link to Confucianism.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "No real link to Buddhism.",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "Comes before Islamic philosophy existed, so it cannot descend from it.",
+   "islam": "Comes before Islam existed, so it cannot descend from it.",
+   "judaism": "The main forerunner of rabbinic Judaism; Yohanan ben Zakkai's school at Yavne carried it on after 70 CE.",
+   "romanticism": "Comes before Romanticism existed, so it cannot descend from it.",
+   "nationalism": "Comes before Nationalism existed, so it cannot descend from it.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Affirmed resurrection, angels and divine providence alongside free will.",
+   "hierarchy": "Drew support from non-priestly classes; authority came from learning, not priestly birth, but they sat in the Sanhedrin."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Pharisees",
+   "https://grokipedia.com/page/Second_Temple_Judaism",
+   "https://grokipedia.com/page/Rabbinic_Judaism"
+  ],
+  "domain": [
+   "religion"
+  ],
+  "aliases": [
+   "Perushim"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Judea",
+     "period": "c.150 BCE–70 CE",
+     "src": "https://grokipedia.com/page/Pharisees",
+     "note": "Gained wide popular support among non-priestly Judeans, about 6,000 members by Josephus’s count."
+    },
+    {
+     "place": "Yavne",
+     "src": "https://grokipedia.com/page/Pharisees",
+     "note": "After 70 CE Yohanan ben Zakkai reestablished Pharisaic teaching at Yavne, the start of rabbinic Judaism."
+    }
+   ]
+  },
+  "edge_notes": {
+   "second_temple_judaism": {
+    "status": "direct",
+    "type": "split",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Pharisees",
+    "note": "Emerged amid the Hasmonean consolidation after the Maccabean Revolt as one of the Second Temple schools."
+   }
+  }
+ },
+ {
+  "id": "sadducees",
+  "name": "Sadducees",
+  "root": false,
+  "root_axis": null,
+  "year": -150,
+  "year_approx": true,
+  "origin_src": "https://grokipedia.com/page/Sadducees",
+  "origin_note": "Josephus describes the sect 'emerging around 150 BCE during the Hasmonean period'; it faded after 70 CE",
+  "place": "Jerusalem",
+  "lat": 31.78,
+  "lon": 35.23,
+  "thinkers": [
+   "Caiaphas"
+  ],
+  "parents": [
+   "second_temple_judaism"
+  ],
+  "plain": "A Jewish group of priests and aristocrats who ran the Temple, accepted only the written Torah and rejected belief in resurrection, angels and spirits.",
+  "summary": "Temple-centered priestly party (c.150 BCE–70 CE) that kept to the written Torah, denied resurrection and angels, and died out with the Temple.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": -1,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 0,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "islam": 0,
+   "judaism": 5,
+   "romanticism": 0,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -1,
+   "hierarchy": 4
+  },
+  "rationale": {
+   "platonism": "No real link to Platonism.",
+   "aristotelianism": "No real link to Aristotelianism.",
+   "stoicism": "No real link to Stoicism.",
+   "christianity": "In the Gospels and Acts, Sadducees debate Jesus on resurrection and confront the apostles.",
+   "gnosticism": "Comes before Gnosticism existed, so it cannot descend from it.",
+   "hermeticism": "Comes before Hermeticism existed, so it cannot descend from it.",
+   "enlightenment_liberalism": "Comes before Enlightenment liberalism existed, so it cannot descend from it.",
+   "marxism": "Comes before Marxism existed, so it cannot descend from it.",
+   "darwinism": "Comes before Darwinism existed, so it cannot descend from it.",
+   "nietzsche": "Comes before Nietzsche existed, so it cannot descend from it.",
+   "critical_theory": "Comes before Critical theory existed, so it cannot descend from it.",
+   "confucianism": "No real link to Confucianism.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "No real link to Buddhism.",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "Comes before Islamic philosophy existed, so it cannot descend from it.",
+   "islam": "Comes before Islam existed, so it cannot descend from it.",
+   "judaism": "One of the three Jewish schools Josephus describes; it depended on the Temple and declined after 70 CE.",
+   "romanticism": "Comes before Romanticism existed, so it cannot descend from it.",
+   "nationalism": "Comes before Nationalism existed, so it cannot descend from it.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Rejected resurrection, angels, spirits and fate; religion meant the written law and Temple rites.",
+   "hierarchy": "Drawn from hereditary priestly and aristocratic families who held Temple and Sanhedrin power."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Sadducees",
+   "https://grokipedia.com/page/Second_Temple_Judaism"
+  ],
+  "domain": [
+   "religion"
+  ],
+  "aliases": [
+   "Tzedukim"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Jerusalem",
+     "period": "c.150 BCE–70 CE",
+     "src": "https://grokipedia.com/page/Sadducees",
+     "note": "Custodians of Temple worship in Jerusalem until its destruction in 70 CE."
+    }
+   ]
+  },
+  "edge_notes": {
+   "second_temple_judaism": {
+    "status": "direct",
+    "type": "split",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Sadducees",
+    "note": "A Second Temple sect of priestly, aristocratic elites tied to the Zadokite priesthood of the Temple."
+   }
+  }
+ },
+ {
+  "id": "essenes",
+  "name": "Essenes",
+  "root": false,
+  "root_axis": null,
+  "year": -150,
+  "year_approx": true,
+  "origin_src": "https://grokipedia.com/page/Essenes",
+  "origin_note": "Emerged 'during the Hasmonean period around the mid-second century BCE' and persisted until 70 CE",
+  "place": "Qumran",
+  "lat": 31.74,
+  "lon": 35.46,
+  "thinkers": [
+   "Teacher of Righteousness"
+  ],
+  "parents": [
+   "second_temple_judaism",
+   "jewish_apocalypticism"
+  ],
+  "plain": "A strict Jewish group that shared property, kept rigorous purity and stayed away from the Temple. Many scholars link it to the Dead Sea Scrolls.",
+  "summary": "Ascetic Second Temple sect (c.150 BCE–70 CE) of about 4,000 per Philo and Josephus; often tied to Qumran and the Dead Sea Scrolls, a link still debated.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 0,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "islam": 0,
+   "judaism": 5,
+   "romanticism": 0,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 3,
+   "hierarchy": 1
+  },
+  "rationale": {
+   "platonism": "No real link to Platonism.",
+   "aristotelianism": "No real link to Aristotelianism.",
+   "stoicism": "No real link to Stoicism.",
+   "christianity": "Comes before Christianity existed, so it cannot descend from it.",
+   "gnosticism": "Comes before Gnosticism existed, so it cannot descend from it.",
+   "hermeticism": "Comes before Hermeticism existed, so it cannot descend from it.",
+   "enlightenment_liberalism": "Comes before Enlightenment liberalism existed, so it cannot descend from it.",
+   "marxism": "Comes before Marxism existed, so it cannot descend from it.",
+   "darwinism": "Comes before Darwinism existed, so it cannot descend from it.",
+   "nietzsche": "Comes before Nietzsche existed, so it cannot descend from it.",
+   "critical_theory": "Comes before Critical theory existed, so it cannot descend from it.",
+   "confucianism": "No real link to Confucianism.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "No real link to Buddhism.",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "Comes before Islamic philosophy existed, so it cannot descend from it.",
+   "islam": "Comes before Islam existed, so it cannot descend from it.",
+   "judaism": "A Jewish school of the Second Temple era that withdrew from a Temple priesthood it judged impure.",
+   "romanticism": "Comes before Romanticism existed, so it cannot descend from it.",
+   "nationalism": "Comes before Nationalism existed, so it cannot descend from it.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Believed the soul is immortal and faces divine judgment; renounced pleasure and wealth.",
+   "hierarchy": "Shared property and rejected slavery, yet ranked members through years of initiation under priestly oversight."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Essenes",
+   "https://grokipedia.com/page/Dead_Sea_Scrolls",
+   "https://grokipedia.com/page/Qumran"
+  ],
+  "domain": [
+   "religion"
+  ],
+  "aliases": [
+   "Qumran community"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Qumran",
+     "src": "https://grokipedia.com/page/Qumran",
+     "note": "Scholarly consensus links the site by the Dead Sea to the Essenes, though some dispute it."
+    },
+    {
+     "place": "Judea",
+     "period": "c.150 BCE–70 CE",
+     "src": "https://grokipedia.com/page/Essenes",
+     "note": "Philo places over 4,000 Essenes in villages across Palestine and Syria."
+    }
+   ]
+  },
+  "edge_notes": {
+   "second_temple_judaism": {
+    "status": "direct",
+    "type": "split",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Essenes",
+    "note": "Josephus counts them as one of Judaism's three main schools, beside the Pharisees and Sadducees."
+   },
+   "jewish_apocalypticism": {
+    "status": "documented",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Essenes",
+    "note": "The Dead Sea Scrolls linked to them share their communal rules and an apocalyptic view of the end times."
+   }
+  }
+ },
+ {
+  "id": "hellenistic_judaism",
+  "name": "Hellenistic Judaism",
+  "root": false,
+  "root_axis": null,
+  "year": -250,
+  "year_approx": true,
+  "origin_src": "https://grokipedia.com/page/Hellenistic_Judaism",
+  "origin_note": "Spans 323 BCE to the early Roman era; dated here to the Septuagint, begun in Alexandria 'around the mid-3rd century BCE'",
+  "place": "Alexandria",
+  "lat": 31.2,
+  "lon": 29.92,
+  "thinkers": [
+   "Philo of Alexandria",
+   "Aristobulus of Alexandria"
+  ],
+  "parents": [
+   "second_temple_judaism",
+   "platonic_forms",
+   "stoic_logos",
+   "pythagoreanism"
+  ],
+  "plain": "Judaism as lived by Greek-speaking Jews, mainly in Alexandria. Its best-known thinker, Philo, read the Bible as allegory to match it with Greek philosophy.",
+  "summary": "Greek-speaking Judaism of the diaspora from 323 BCE: the Septuagint, and Philo of Alexandria's blend of Torah with Platonic and Stoic thought.",
+  "ratings": {
+   "platonism": 4,
+   "aristotelianism": 1,
+   "stoicism": 3,
+   "christianity": 3,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 0,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "islam": 0,
+   "judaism": 4,
+   "romanticism": 0,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 4,
+   "hierarchy": 2
+  },
+  "rationale": {
+   "platonism": "Philo read the Torah through Platonism, with an incorporeal world of ideas behind the visible one.",
+   "aristotelianism": "Philo's philosophical treatises also draw on Aristotelian logic, but he rejected Aristotle's eternal universe.",
+   "stoicism": "Philo borrowed the Stoic Logos, Stoic ethics and Stoic methods of reading texts.",
+   "christianity": "Clement of Alexandria and Origen drew heavily on Philo's Logos and allegory; Origen cites him over 100 times.",
+   "gnosticism": "Comes before Gnosticism existed, so it cannot descend from it.",
+   "hermeticism": "Comes before Hermeticism existed, so it cannot descend from it.",
+   "enlightenment_liberalism": "Comes before Enlightenment liberalism existed, so it cannot descend from it.",
+   "marxism": "Comes before Marxism existed, so it cannot descend from it.",
+   "darwinism": "Comes before Darwinism existed, so it cannot descend from it.",
+   "nietzsche": "Comes before Nietzsche existed, so it cannot descend from it.",
+   "critical_theory": "Comes before Critical theory existed, so it cannot descend from it.",
+   "confucianism": "No real link to Confucianism.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "No real link to Buddhism.",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "Comes before Islamic philosophy existed, so it cannot descend from it.",
+   "islam": "Comes before Islam existed, so it cannot descend from it.",
+   "judaism": "Jewish in practice and belief, but Philo's Greek allegory found little place in later rabbinic Judaism.",
+   "romanticism": "Comes before Romanticism existed, so it cannot descend from it.",
+   "nationalism": "Comes before Nationalism existed, so it cannot descend from it.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "God is wholly beyond matter and acts through the Logos, a pattern of ideas behind the cosmos.",
+   "hierarchy": "The supreme God, then the Logos, then the world; the Torah is a divine law over human society."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Hellenistic_Judaism",
+   "https://grokipedia.com/page/Philo",
+   "https://grokipedia.com/page/Septuagint"
+  ],
+  "domain": [
+   "religion",
+   "philosophy"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Alexandria",
+     "src": "https://grokipedia.com/page/Hellenistic_Judaism",
+     "note": "Its main center; Jews made up as much as a third of the city by the 1st century BCE, and the Septuagint began there."
+    },
+    {
+     "place": "Greek-speaking diaspora",
+     "src": "https://grokipedia.com/page/Hellenistic_Judaism",
+     "note": "Diaspora Jews grew from about 300,000 in the 4th century BCE to 4–7 million by the 1st century CE."
+    }
+   ]
+  },
+  "edge_notes": {
+   "second_temple_judaism": {
+    "status": "direct",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Hellenistic_Judaism",
+    "note": "Greek-speaking diaspora Jews kept synagogues, the Sabbath and food laws and sent Temple taxes to Jerusalem."
+   },
+   "platonic_forms": {
+    "status": "documented",
+    "type": "synthesis",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Philo",
+    "note": "Philo used allegory to read the Torah through Platonism; his Logos merges Platonic intermediary forms with Stoic ideas."
+   },
+   "stoic_logos": {
+    "status": "documented",
+    "type": "synthesis",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Philo",
+    "note": "Philo took the Logos from Stoicism as a go-between for God and the world, along with Stoic ethics and etymology."
+   },
+   "pythagoreanism": {
+    "status": "documented",
+    "type": "influence",
+    "strength": "weak",
+    "src": "https://grokipedia.com/page/Hellenistic_Judaism",
+    "note": "Aristobulus, about 160 BCE, equated Mosaic law with Pythagorean and Platonic doctrines."
+   }
+  }
+ },
+ {
+  "id": "jewish_apocalypticism",
+  "name": "Jewish apocalypticism",
+  "root": false,
+  "root_axis": null,
+  "year": -250,
+  "year_approx": true,
+  "origin_src": "https://grokipedia.com/page/Apocalypticism",
+  "origin_note": "The Book of Watchers (1 Enoch 1–36) is 'dated to the third century BCE'; Daniel was composed 'circa 165 BCE'",
+  "place": "Judea",
+  "lat": null,
+  "lon": null,
+  "thinkers": [],
+  "parents": [
+   "second_temple_judaism",
+   "zoroastrianism"
+  ],
+  "plain": "Jewish writings, such as Daniel and 1 Enoch, that reveal through visions how God will end the evil age, judge the world and raise the dead.",
+  "summary": "Visions of the end of history from the 3rd century BCE: angels, a final judgment, resurrection and a coming kingdom that ends foreign empires.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 3,
+   "gnosticism": 2,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 0,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "islam": 0,
+   "judaism": 4,
+   "romanticism": 0,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 3,
+   "hierarchy": 2
+  },
+  "rationale": {
+   "platonism": "No real link to Platonism.",
+   "aristotelianism": "No real link to Aristotelianism.",
+   "stoicism": "No real link to Stoicism.",
+   "christianity": "Christianity adapted Jewish apocalypticism; Gospel passages echo the signs in Daniel.",
+   "gnosticism": "Jewish apocalyptic literature, especially the Enoch tradition, profoundly influenced early Gnostic thought.",
+   "hermeticism": "Comes before Hermeticism existed, so it cannot descend from it.",
+   "enlightenment_liberalism": "Comes before Enlightenment liberalism existed, so it cannot descend from it.",
+   "marxism": "Comes before Marxism existed, so it cannot descend from it.",
+   "darwinism": "Comes before Darwinism existed, so it cannot descend from it.",
+   "nietzsche": "Comes before Nietzsche existed, so it cannot descend from it.",
+   "critical_theory": "Comes before Critical theory existed, so it cannot descend from it.",
+   "confucianism": "No real link to Confucianism.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "No real link to Buddhism.",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "Comes before Islamic philosophy existed, so it cannot descend from it.",
+   "islam": "Comes before Islam existed, so it cannot descend from it.",
+   "judaism": "A strand within Second Temple Judaism; Daniel entered the Hebrew Bible, while 1 Enoch did not.",
+   "romanticism": "Comes before Romanticism existed, so it cannot descend from it.",
+   "nationalism": "Comes before Nationalism existed, so it cannot descend from it.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "History is steered from a heavenly realm of God and angels toward a final renewal.",
+   "hierarchy": "Ranks of angels serve God, whose kingdom is foreseen to overthrow earthly empires."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Apocalypticism",
+   "https://grokipedia.com/page/Apocalyptic_literature",
+   "https://grokipedia.com/page/Book_of_Daniel",
+   "https://grokipedia.com/page/Book_of_Enoch"
+  ],
+  "domain": [
+   "religion"
+  ],
+  "aliases": [
+   "Jewish apocalyptic literature"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Judea",
+     "src": "https://grokipedia.com/page/Apocalypticism",
+     "note": "Daniel was written there about 165 BCE, when Antiochus IV desecrated the Temple."
+    },
+    {
+     "place": "Qumran",
+     "src": "https://grokipedia.com/page/Apocalypticism",
+     "note": "The scrolls found there, tied to the Essenes, show intense apocalyptic expectation, such as the War Scroll."
+    }
+   ]
+  },
+  "edge_notes": {
+   "second_temple_judaism": {
+    "status": "direct",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Apocalyptic_literature",
+    "note": "The genre emerged in post-exilic Jewish settings and flourished in the 2nd century BCE."
+   },
+   "zoroastrianism": {
+    "status": "contested",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Apocalypticism",
+    "note": "Scholars link resurrection, angel ranks and final judgment to Persian rule (539–332 BCE); others cite shared Mesopotamian roots."
+   }
+  }
+ },
+ {
+  "id": "zoroastrianism",
+  "name": "Zoroastrianism",
+  "root": false,
+  "root_axis": null,
+  "year": -1200,
+  "year_approx": true,
+  "origin_src": "https://grokipedia.com/page/Zoroastrianism",
+  "origin_note": "Zarathustra composed the Gathas 'likely in the mid- to late second millennium BCE in eastern Iran or Central Asia'; the date is debated",
+  "place": "Eastern Iran or Central Asia",
+  "lat": null,
+  "lon": null,
+  "thinkers": [
+   "Zoroaster",
+   "Kartir"
+  ],
+  "parents": [],
+  "plain": "An ancient Iranian religion founded by the prophet Zarathustra. It teaches a struggle between good and evil, in which people choose sides and good finally wins.",
+  "summary": "Worship of Ahura Mazda, the Wise Lord: free moral choice, a cosmic fight of good against evil, final judgment and renewal; Persian state faith.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 1,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 0,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "islam": -1,
+   "judaism": 2,
+   "romanticism": 0,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 2,
+   "hierarchy": 2
+  },
+  "rationale": {
+   "platonism": "Comes before Platonism existed, so it cannot descend from it.",
+   "aristotelianism": "Comes before Aristotelianism existed, so it cannot descend from it.",
+   "stoicism": "Comes before Stoicism existed, so it cannot descend from it.",
+   "christianity": "Comes before Christianity existed, so it cannot descend from it.",
+   "gnosticism": "Mani built Zoroastrian light-dark dualism into Manichaeism's Gnostic system.",
+   "hermeticism": "Comes before Hermeticism existed, so it cannot descend from it.",
+   "enlightenment_liberalism": "Comes before Enlightenment liberalism existed, so it cannot descend from it.",
+   "marxism": "Comes before Marxism existed, so it cannot descend from it.",
+   "darwinism": "Comes before Darwinism existed, so it cannot descend from it.",
+   "nietzsche": "Comes before Nietzsche existed, so it cannot descend from it.",
+   "critical_theory": "Comes before Critical theory existed, so it cannot descend from it.",
+   "confucianism": "Comes before Confucianism existed, so it cannot descend from it.",
+   "daoism": "Comes before Daoism existed, so it cannot descend from it.",
+   "buddhism": "Comes before Buddhism existed, so it cannot descend from it.",
+   "vedanta": "Comes before Vedanta existed, so it cannot descend from it.",
+   "islamic_philosophy": "Comes before Islamic philosophy existed, so it cannot descend from it.",
+   "islam": "Declined in Iran after the 7th-century Arab Muslim conquest under conversion pressure and the jizya tax.",
+   "judaism": "Often linked to Jewish ideas of resurrection and final judgment formed under Persian rule; direct causation is debated.",
+   "romanticism": "Comes before Romanticism existed, so it cannot descend from it.",
+   "nationalism": "Comes before Nationalism existed, so it cannot descend from it.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Ahura Mazda is an uncreated spiritual creator, yet the material world is good and fire is his symbol.",
+   "hierarchy": "Priests guarded the faith as the state religion of three Persian empires, but every person makes the moral choice."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Zoroastrianism",
+   "https://grokipedia.com/page/Zoroaster",
+   "https://grokipedia.com/page/Apocalypticism"
+  ],
+  "domain": [
+   "religion"
+  ],
+  "aliases": [
+   "Mazdayasna"
+  ],
+  "parent_note": "No parent on the map. Zarathustra reformed earlier Indo-Iranian polytheism, which is not a node.",
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "India",
+     "src": "https://grokipedia.com/page/Zoroastrianism",
+     "note": "The largest community today: Indian Parsis, around 50,000, descended from migrants of the 8th to 10th centuries CE."
+    },
+    {
+     "place": "Iran",
+     "src": "https://grokipedia.com/page/Zoroastrianism",
+     "note": "About 15,000 to 25,000 Iranian Zoroastrians remain; it was the state religion of the Achaemenid, Parthian and Sasanian empires."
+    },
+    {
+     "place": "North America",
+     "src": "https://grokipedia.com/page/Zoroastrianism",
+     "note": "Named among growing diaspora communities."
+    }
+   ]
+  },
+  "edge_notes": {}
+ },
+ {
+  "id": "pythagoreanism",
+  "name": "Pythagoreanism",
+  "root": false,
+  "root_axis": null,
+  "year": -530,
+  "year_approx": true,
+  "origin_src": "https://grokipedia.com/page/Pythagoreanism",
+  "origin_note": "Pythagoras established a communal school in Croton, southern Italy, 'around 530 BCE'",
+  "place": "Croton",
+  "lat": 39.08,
+  "lon": 17.13,
+  "thinkers": [
+   "Pythagoras",
+   "Philolaus",
+   "Archytas"
+  ],
+  "parents": [],
+  "plain": "The school of the Greek thinker Pythagoras. Its members lived by strict rules, believed souls are reborn and saw numbers as the basis of everything.",
+  "summary": "School founded by Pythagoras at Croton c.530 BCE: numbers as the principles of reality, musical harmony, rebirth of souls and a disciplined shared life.",
+  "ratings": {
+   "platonism": 4,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 0,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 4,
+   "hierarchy": 3
+  },
+  "rationale": {
+   "platonism": "Shaped Plato's ideas of numerical first principles, the world soul and the soul's immortality.",
+   "aristotelianism": "Comes before Aristotelianism existed, so it cannot descend from it.",
+   "stoicism": "Comes before Stoicism existed, so it cannot descend from it.",
+   "christianity": "Comes before Christianity existed, so it cannot descend from it.",
+   "gnosticism": "Comes before Gnosticism existed, so it cannot descend from it.",
+   "hermeticism": "Comes before Hermeticism existed, so it cannot descend from it.",
+   "enlightenment_liberalism": "Comes before Enlightenment liberalism existed, so it cannot descend from it.",
+   "marxism": "Comes before Marxism existed, so it cannot descend from it.",
+   "darwinism": "Comes before Darwinism existed, so it cannot descend from it.",
+   "nietzsche": "Comes before Nietzsche existed, so it cannot descend from it.",
+   "critical_theory": "Comes before Critical theory existed, so it cannot descend from it.",
+   "confucianism": "Comes before Confucianism existed, so it cannot descend from it.",
+   "daoism": "Comes before Daoism existed, so it cannot descend from it.",
+   "buddhism": "Comes before Buddhism existed, so it cannot descend from it.",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "Comes before Islamic philosophy existed, so it cannot descend from it.",
+   "islam": "Comes before Islam existed, so it cannot descend from it.",
+   "judaism": "Comes before Judaism existed, so it cannot descend from it.",
+   "romanticism": "Comes before Romanticism existed, so it cannot descend from it.",
+   "nationalism": "Comes before Nationalism existed, so it cannot descend from it.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Treats numbers, not matter, as the principles of all things; the soul outlives the body.",
+   "hierarchy": "A semisecret society with loyalty oaths that held oligarchic sway in the politics of Croton."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Pythagoreanism",
+   "https://grokipedia.com/page/Pythagoras",
+   "https://grokipedia.com/page/Plato"
+  ],
+  "domain": [
+   "philosophy",
+   "religion"
+  ],
+  "aliases": [
+   "Pythagorean school"
+  ],
+  "parent_note": "No parent on the map. Ancient accounts name Ionian thinkers, Pherecydes of Syros and Orphic purification rites, none of which is a node.",
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Croton",
+     "src": "https://grokipedia.com/page/Pythagoreanism",
+     "note": "Pythagoras founded his community there around 530 BCE; its members advised the city on government."
+    },
+    {
+     "place": "Tarentum",
+     "src": "https://grokipedia.com/page/Archytas",
+     "note": "Archytas, a Pythagorean philosopher and statesman, made the city a hub of Pythagorean thought."
+    }
+   ]
+  },
+  "edge_notes": {}
+ },
+ {
+  "id": "cynicism",
+  "name": "Cynicism",
+  "root": false,
+  "root_axis": null,
+  "year": -400,
+  "year_approx": true,
+  "origin_src": "https://grokipedia.com/page/Cynicism_(philosophy)",
+  "origin_note": "Founded 'in the late 5th or early 4th century BC by Antisthenes, a follower of Socrates'",
+  "place": "Athens",
+  "lat": 37.98,
+  "lon": 23.73,
+  "thinkers": [
+   "Antisthenes",
+   "Diogenes of Sinope",
+   "Crates of Thebes",
+   "Hipparchia of Maroneia"
+  ],
+  "parents": [],
+  "plain": "A Greek school that taught that a good life means needing almost nothing. Its followers mocked wealth, power and social rules and lived by nature.",
+  "summary": "Greek school from Antisthenes and Diogenes: virtue through self-sufficiency and simple living, frank speech against power and scorn for convention.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 3,
+   "christianity": 1,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 0,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 0,
+   "humor": 3,
+   "irony": 1,
+   "abstraction": 0,
+   "hierarchy": -4
+  },
+  "rationale": {
+   "platonism": "Came out of the same Socratic circle as Plato's school but turned away from metaphysics.",
+   "aristotelianism": "Comes before Aristotelianism existed, so it cannot descend from it.",
+   "stoicism": "Zeno of Citium, Stoicism's founder, first studied under the Cynic Crates of Thebes.",
+   "christianity": "Grokipedia names Cynicism as an influence on early Christian monasticism.",
+   "gnosticism": "Comes before Gnosticism existed, so it cannot descend from it.",
+   "hermeticism": "Comes before Hermeticism existed, so it cannot descend from it.",
+   "enlightenment_liberalism": "Comes before Enlightenment liberalism existed, so it cannot descend from it.",
+   "marxism": "Comes before Marxism existed, so it cannot descend from it.",
+   "darwinism": "Comes before Darwinism existed, so it cannot descend from it.",
+   "nietzsche": "Comes before Nietzsche existed, so it cannot descend from it.",
+   "critical_theory": "Comes before Critical theory existed, so it cannot descend from it.",
+   "confucianism": "No real link to Confucianism.",
+   "daoism": "Comes before Daoism existed, so it cannot descend from it.",
+   "buddhism": "No real link to Buddhism.",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "Comes before Islamic philosophy existed, so it cannot descend from it.",
+   "islam": "Comes before Islam existed, so it cannot descend from it.",
+   "judaism": "Comes before Judaism existed, so it cannot descend from it.",
+   "romanticism": "Comes before Romanticism existed, so it cannot descend from it.",
+   "nationalism": "Comes before Nationalism existed, so it cannot descend from it.",
+   "humor": "Used shock, mockery and satire; Menippus pioneered Cynic satire mocking philosophers, gods and pretension.",
+   "irony": "Diogenes made his points through staged provocations, such as living in a large jar.",
+   "abstraction": "Scorned metaphysical speculation in favor of how to live; takes no side on what reality is made of.",
+   "hierarchy": "Scorned wealth, rank and citizenship, calling themselves citizens of the world."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Cynicism_(philosophy)",
+   "https://grokipedia.com/page/Diogenes",
+   "https://grokipedia.com/page/Zeno_of_Citium"
+  ],
+  "domain": [
+   "philosophy"
+  ],
+  "aliases": [
+   "Cynic school"
+  ],
+  "parent_note": "No parent on the map. Antisthenes was a follower of Socrates, who is not a node.",
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Athens",
+     "src": "https://grokipedia.com/page/Cynicism_(philosophy)",
+     "note": "Antisthenes lectured at the Cynosarges gymnasium outside Athens, a likely source of the name Cynic."
+    }
+   ]
+  },
+  "edge_notes": {}
+ },
+ {
+  "id": "atomism",
+  "name": "Atomism",
+  "root": false,
+  "root_axis": null,
+  "year": -440,
+  "year_approx": true,
+  "origin_src": "https://grokipedia.com/page/Atomism",
+  "origin_note": "Developed by Leucippus, 'active around 440–430 BCE', and his younger contemporary Democritus",
+  "place": "Abdera",
+  "lat": 40.94,
+  "lon": 24.97,
+  "thinkers": [
+   "Leucippus",
+   "Democritus"
+  ],
+  "parents": [],
+  "plain": "The ancient Greek idea that everything is made of tiny, uncuttable pieces called atoms, moving through empty space.",
+  "summary": "Leucippus and Democritus held that only atoms and void exist; all things arise from atoms colliding by necessity, with no purpose or divine plan.",
+  "ratings": {
+   "platonism": -3,
+   "aristotelianism": -2,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 0,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -5,
+   "hierarchy": 0
+  },
+  "rationale": {
+   "platonism": "A materialist picture of reality that stands opposed to idealist philosophies such as Plato's.",
+   "aristotelianism": "Aristotle rejected atoms as self-standing building blocks and explained things by form and purpose.",
+   "stoicism": "Comes before Stoicism existed, so it cannot descend from it.",
+   "christianity": "Comes before Christianity existed, so it cannot descend from it.",
+   "gnosticism": "Comes before Gnosticism existed, so it cannot descend from it.",
+   "hermeticism": "Comes before Hermeticism existed, so it cannot descend from it.",
+   "enlightenment_liberalism": "Comes before Enlightenment liberalism existed, so it cannot descend from it.",
+   "marxism": "Comes before Marxism existed, so it cannot descend from it.",
+   "darwinism": "Comes before Darwinism existed, so it cannot descend from it.",
+   "nietzsche": "Comes before Nietzsche existed, so it cannot descend from it.",
+   "critical_theory": "Comes before Critical theory existed, so it cannot descend from it.",
+   "confucianism": "No real link to Confucianism.",
+   "daoism": "Comes before Daoism existed, so it cannot descend from it.",
+   "buddhism": "No real link to Buddhism.",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "Comes before Islamic philosophy existed, so it cannot descend from it.",
+   "islam": "Comes before Islam existed, so it cannot descend from it.",
+   "judaism": "Comes before Judaism existed, so it cannot descend from it.",
+   "romanticism": "Comes before Romanticism existed, so it cannot descend from it.",
+   "nationalism": "Comes before Nationalism existed, so it cannot descend from it.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Only atoms and void are real; color and taste are conventions of the senses.",
+   "hierarchy": "A theory of nature, with no teaching about rank in society."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Atomism",
+   "https://grokipedia.com/page/Democritus",
+   "https://grokipedia.com/page/Leucippus"
+  ],
+  "domain": [
+   "philosophy"
+  ],
+  "aliases": [
+   "Ancient atomism"
+  ],
+  "parent_note": "No parent on the map. It answered Parmenides' denial of change; the Presocratics are not nodes.",
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Abdera",
+     "src": "https://grokipedia.com/page/Atomism",
+     "note": "Home of Democritus and possibly of Leucippus."
+    }
+   ]
+  },
+  "edge_notes": {}
+ },
+ {
+  "id": "pyrrhonism",
+  "name": "Pyrrhonism",
+  "root": false,
+  "root_axis": null,
+  "year": -322,
+  "year_approx": true,
+  "origin_src": "https://grokipedia.com/page/Pyrrho",
+  "origin_note": "Pyrrho returned to Elis 'around 322 BCE' after Alexander's campaigns in India, where he met Indian sages",
+  "place": "Elis",
+  "lat": 37.89,
+  "lon": 21.38,
+  "thinkers": [
+   "Pyrrho",
+   "Timon of Phlius",
+   "Aenesidemus",
+   "Sextus Empiricus"
+  ],
+  "parents": [
+   "atomism"
+  ],
+  "plain": "A Greek school of doubt. Its followers held back from judging what is really true and said this brings peace of mind.",
+  "summary": "Skeptical school from Pyrrho of Elis (c.360–270 BCE): suspend judgment on what cannot be seen to reach calm; set out by Sextus Empiricus.",
+  "ratings": {
+   "platonism": -1,
+   "aristotelianism": 0,
+   "stoicism": -2,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 0,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 1,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 1,
+   "abstraction": 0,
+   "hierarchy": 0
+  },
+  "rationale": {
+   "platonism": "Timon mocked Plato too; Pyrrhonists set themselves apart from the skeptics of Plato’s Academy.",
+   "aristotelianism": "No real link to Aristotelianism.",
+   "stoicism": "Timon mocked the Stoics, and later Pyrrhonists argued against Stoic claims to certain knowledge.",
+   "christianity": "Comes before Christianity existed, so it cannot descend from it.",
+   "gnosticism": "Comes before Gnosticism existed, so it cannot descend from it.",
+   "hermeticism": "Comes before Hermeticism existed, so it cannot descend from it.",
+   "enlightenment_liberalism": "Comes before Enlightenment liberalism existed, so it cannot descend from it.",
+   "marxism": "Comes before Marxism existed, so it cannot descend from it.",
+   "darwinism": "Comes before Darwinism existed, so it cannot descend from it.",
+   "nietzsche": "Comes before Nietzsche existed, so it cannot descend from it.",
+   "critical_theory": "Comes before Critical theory existed, so it cannot descend from it.",
+   "confucianism": "No real link to Confucianism.",
+   "daoism": "Comes before Daoism existed, so it cannot descend from it.",
+   "buddhism": "Pyrrho met Indian sages on Alexander's campaigns; Grokipedia notes they may have included Buddhist or Jain thinkers.",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "Comes before Islamic philosophy existed, so it cannot descend from it.",
+   "islam": "Comes before Islam existed, so it cannot descend from it.",
+   "judaism": "Comes before Judaism existed, so it cannot descend from it.",
+   "romanticism": "Comes before Romanticism existed, so it cannot descend from it.",
+   "nationalism": "Comes before Nationalism existed, so it cannot descend from it.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Asserts nothing, not even its own skepticism; \"no more this than that.\"",
+   "abstraction": "Holds back judgment on whether reality is mind or matter.",
+   "hierarchy": "Follows local laws and customs without judging whether they are right."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Pyrrhonism",
+   "https://grokipedia.com/page/Pyrrho",
+   "https://grokipedia.com/page/Sextus_Empiricus"
+  ],
+  "domain": [
+   "philosophy"
+  ],
+  "aliases": [
+   "Pyrrhonian skepticism"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Elis",
+     "src": "https://grokipedia.com/page/Pyrrho",
+     "note": "Pyrrho taught in his home city, which honored him by freeing philosophers there from taxes."
+    },
+    {
+     "place": "Alexandria",
+     "src": "https://grokipedia.com/page/Pyrrhonism",
+     "note": "Aenesidemus revived Pyrrhonism there in the 1st century BCE."
+    }
+   ]
+  },
+  "edge_notes": {
+   "atomism": {
+    "status": "documented",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Pyrrho",
+    "note": "Pyrrho encountered the ideas of Democritus through local atomist influences before joining the philosopher Anaxarchus."
+   }
+  }
  }
 ]
