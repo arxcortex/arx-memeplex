@@ -844,7 +844,7 @@
    "humor": "Not expressed through jokes or play.",
    "irony": "Makes its case directly, without ironic distance.",
    "critical_theory": "Comes before Critical theory existed, so it cannot descend from it.",
-   "hierarchy": "Aquinas orders all beings, laws and offices in a ranked whole under God.",
+   "hierarchy": "Aquinas ranks all beings by degrees of perfection, from inert matter up to God, inside a God-given order.",
    "abstraction": "Aquinas keeps God as pure spirit but grounds knowledge in the senses and real physical things.",
    "confucianism": "No real link to Confucianism.",
    "daoism": "No real link to Daoism.",
@@ -1833,7 +1833,8 @@
   "stories": [],
   "sources": [
    "https://grokipedia.com/page/Will_to_power",
-   "https://grokipedia.com/page/Master–slave_morality"
+   "https://grokipedia.com/page/Master–slave_morality",
+   "https://grokipedia.com/page/Friedrich_Nietzsche"
   ],
   "domain": [
    "philosophy"
@@ -3130,7 +3131,7 @@
    "humor": "Not expressed through jokes or play.",
    "irony": "Makes its case directly, without ironic distance.",
    "critical_theory": "Comes before Critical theory existed, so it cannot descend from it.",
-   "hierarchy": "Guénon and Evola defend caste and spiritual authority ranked above worldly power.",
+   "hierarchy": "Guénon puts spiritual authority above modern equality, and Evola defends caste-based order under sacred kings.",
    "abstraction": "Holds that a timeless spiritual reality stands above and before the material world.",
    "confucianism": "Counts Chinese tradition among the orthodox, hierarchy-affirming civilizations.",
    "daoism": "Counts Daoism among the traditions that keep the perennial wisdom.",
@@ -3936,7 +3937,7 @@
   "lat": 51.87,
   "lon": 12.65,
   "origin_src": "https://grokipedia.com/page/Lutheranism",
-  "origin_note": "Luther posts the Ninety-five Theses in Wittenberg, 31 October 1517.",
+  "origin_note": "Luther posts the Ninety-five Theses in Wittenberg, October 31, 1517.",
   "thinkers": [
    "Martin Luther",
    "Philip Melanchthon"
@@ -4266,7 +4267,7 @@
   "lat": 51.51,
   "lon": -0.13,
   "origin_src": "https://grokipedia.com/page/Methodism",
-  "origin_note": "John Wesley's conversion at Aldersgate Street, London, 24 May 1738.",
+  "origin_note": "John Wesley's conversion at Aldersgate Street, London, May 24, 1738.",
   "thinkers": [
    "John Wesley",
    "Charles Wesley",
@@ -4589,7 +4590,7 @@
   "lat": 41.9,
   "lon": 12.45,
   "origin_src": "https://grokipedia.com/page/Second_Vatican_Council",
-  "origin_note": "The Second Vatican Council opened 11 October 1962 and closed in 1965.",
+  "origin_note": "The Second Vatican Council opened October 11, 1962, and closed in 1965.",
   "thinkers": [
    "John XXIII",
    "Paul VI"
@@ -5322,11 +5323,11 @@
   "root": true,
   "year": -700,
   "year_approx": true,
-  "place": "Northern India",
+  "place": "Kuru-Panchala region, northern India",
   "lat": null,
   "lon": null,
   "origin_src": "https://grokipedia.com/page/Upanishads",
-  "origin_note": "Earliest Upanishads composed c. 700–500 BCE",
+  "origin_note": "Earliest Upanishads composed c. 700–500 BCE in the Kuru-Panchala region",
   "thinkers": [
    "Yajnavalkya"
   ],
@@ -5521,13 +5522,13 @@
   "id": "legalism",
   "name": "Chinese Legalism",
   "root": false,
-  "year": -233,
+  "year": -359,
   "year_approx": true,
   "place": "State of Qin",
   "lat": null,
   "lon": null,
-  "origin_src": "https://grokipedia.com/page/Han_Fei",
-  "origin_note": "Han Fei, its leading theorist, dies in Qin in 233 BCE",
+  "origin_src": "https://grokipedia.com/page/Legalism_(Chinese_philosophy)",
+  "origin_note": "Shang Yang's reforms in the state of Qin begin in 359 BCE; Han Fei (d. 233 BCE) later synthesized the school",
   "thinkers": [
    "Han Fei",
    "Shang Yang"
@@ -5831,11 +5832,11 @@
   "root": false,
   "year": 150,
   "year_approx": true,
-  "place": "Southern India",
+  "place": "Andhra region, southern India",
   "lat": null,
   "lon": null,
   "origin_src": "https://grokipedia.com/page/Nagarjuna",
-  "origin_note": "Nagarjuna active c. 150–250 CE",
+  "origin_note": "Nagarjuna active c. 150–250 CE; later tradition links him to Amaravati and Nagarjunakonda in Andhra",
   "thinkers": [
    "Nagarjuna"
   ],
@@ -6040,13 +6041,13 @@
   "id": "advaita_vedanta",
   "name": "Advaita Vedanta",
   "root": false,
-  "year": 788,
+  "year": 700,
   "year_approx": true,
   "place": "India",
   "lat": null,
   "lon": null,
   "origin_src": "https://grokipedia.com/page/Adi_Shankara",
-  "origin_note": "Adi Shankara, traditionally dated 788–820 CE (8th century)",
+  "origin_note": "Adi Shankara, dated by scholars to the late 7th or early 8th century CE (Nakamura: 700–750); the Sringeri tradition gives 788–820",
   "thinkers": [
    "Adi Shankara"
   ],
@@ -6544,7 +6545,7 @@
   "lat": 51.51,
   "lon": -0.13,
   "origin_src": "https://grokipedia.com/page/Reflections_on_the_Revolution_in_France",
-  "origin_note": "Burke's Reflections on the Revolution in France, published in London on 1 November 1790",
+  "origin_note": "Burke's Reflections on the Revolution in France, published in London on November 1, 1790",
   "thinkers": [
    "Edmund Burke"
   ],
@@ -6876,7 +6877,7 @@
   "lat": 50.95,
   "lon": 10.7,
   "origin_src": "https://grokipedia.com/page/Gotha_Program",
-  "origin_note": "Germany's Social Democratic Party forms at the Gotha Congress, 22 May 1875; Bernstein's revisionism follows in 1899",
+  "origin_note": "Germany's Social Democratic Party forms at the Gotha Congress, May 22, 1875; Bernstein's revisionism follows in 1899",
   "thinkers": [
    "Ferdinand Lassalle",
    "Eduard Bernstein"
@@ -7258,7 +7259,7 @@
   "lat": 45.46,
   "lon": 9.19,
   "origin_src": "https://grokipedia.com/page/Fascism",
-  "origin_note": "Mussolini founds the Fasci Italiani di Combattimento in Milan on 23 March 1919",
+  "origin_note": "Mussolini founds the Fasci Italiani di Combattimento in Milan on March 23, 1919",
   "thinkers": [
    "Benito Mussolini",
    "Giovanni Gentile"
@@ -7364,7 +7365,7 @@
   "lat": 41.9,
   "lon": 12.45,
   "origin_src": "https://grokipedia.com/page/Integralism",
-  "origin_note": "Grokipedia dates integralism to the late 19th and early 20th centuries; Pius IX's Quanta Cura and Syllabus of Errors (8 December 1864) are its doctrinal foundation",
+  "origin_note": "Grokipedia dates integralism to the late 19th and early 20th centuries; Pius IX's Quanta Cura and Syllabus of Errors (December 8, 1864) are its doctrinal foundation",
   "thinkers": [
    "Pius IX",
    "Leo XIII",
@@ -7679,7 +7680,7 @@
   "lat": 41.26,
   "lon": -95.94,
   "origin_src": "https://grokipedia.com/page/Populism",
-  "origin_note": "The term arises with the US People's Party, formally organized at Omaha on 4 July 1892; Russian Narodniks were a parallel 1870s movement",
+  "origin_note": "The term arises with the US People's Party, formally organized at Omaha on July 4, 1892; Russian Narodniks were a parallel 1870s movement",
   "thinkers": [
    "Ignatius Donnelly"
   ],
@@ -7915,7 +7916,7 @@
   "lat": 41.9022,
   "lon": 12.4539,
   "origin_src": "https://grokipedia.com/page/Rerum_novarum",
-  "origin_note": "Leo XIII issues Rerum Novarum on 15 May 1891",
+  "origin_note": "Leo XIII issues Rerum Novarum on May 15, 1891",
   "thinkers": [
    "Leo XIII",
    "Pius XI",
@@ -8453,7 +8454,7 @@
   "lat": 47.37,
   "lon": 8.54,
   "origin_src": "https://grokipedia.com/page/Carl_Jung",
-  "origin_note": "Freud and Jung's 'personal collaboration ended in January 1913'; 'This rupture freed Jung to pursue analytical psychology independently'; he resigned as IPA president on 20 April 1914",
+  "origin_note": "Freud and Jung's 'personal collaboration ended in January 1913'; 'This rupture freed Jung to pursue analytical psychology independently'; he resigned as IPA president on April 20, 1914",
   "thinkers": [
    "Carl Jung",
    "Marie-Louise von Franz"
@@ -12703,7 +12704,7 @@
   "lat": 48.14,
   "lon": 11.58,
   "origin_src": "https://grokipedia.com/page/Nazism",
-  "origin_note": "The German Workers' Party (founded 5 January 1919 in Munich) was renamed the NSDAP on 24 February 1920, when its 25-point program was proclaimed",
+  "origin_note": "The German Workers' Party (founded January 5, 1919, in Munich) was renamed the NSDAP on February 24, 1920, when its 25-point program was proclaimed",
   "thinkers": [
    "Adolf Hitler",
    "Dietrich Eckart",
@@ -13206,7 +13207,7 @@
   "lat": 55.76,
   "lon": 37.62,
   "origin_src": "https://grokipedia.com/page/Communist_International",
-  "origin_note": "Founded in Moscow 2-6 March 1919 by Lenin and the Bolshevik leadership",
+  "origin_note": "Founded in Moscow March 2-6, 1919 by Lenin and the Bolshevik leadership",
   "thinkers": [
    "Vladimir Lenin",
    "Grigory Zinoviev"
@@ -13306,7 +13307,7 @@
   "lat": 39.77,
   "lon": -86.16,
   "origin_src": "https://grokipedia.com/page/Socialist_Party_of_America",
-  "origin_note": "Formed at the Socialist Unity Convention in Indianapolis, 29 July - 1 August 1901; its left wing split off in 1919-21 to form the Communist parties",
+  "origin_note": "Formed at the Socialist Unity Convention in Indianapolis, July 29 - August 1, 1901; its left wing split off in 1919-21 to form the Communist parties",
   "thinkers": [
    "Eugene V. Debs",
    "Victor Berger",
@@ -14231,7 +14232,7 @@
   "lat": 38.74,
   "lon": -90.31,
   "origin_src": "https://grokipedia.com/page/Woke",
-  "origin_note": "'Stay woke' spread nationally through the protests after the 9 August 2014 shooting of Michael Brown in Ferguson; the broad current took shape around 2016-2020",
+  "origin_note": "'Stay woke' spread nationally through the protests after the August 9, 2014, shooting of Michael Brown in Ferguson; the broad current took shape around 2016-2020",
   "thinkers": [],
   "parents": [
    "intersectionality",
@@ -14337,7 +14338,7 @@
   "lat": null,
   "lon": null,
   "origin_src": "https://grokipedia.com/page/America_First_Committee",
-  "origin_note": "The America First Committee was founded on 4 September 1940 by Yale Law students; Pat Buchanan revived the phrase in 1990; Trump made it central from 2016; the Groypers (from 2017) claim it",
+  "origin_note": "The America First Committee was founded on September 4, 1940, by Yale Law students; Pat Buchanan revived the phrase in 1990; Trump made it central from 2016; the Groypers (from 2017) claim it",
   "thinkers": [
    "R. Douglas Stuart Jr.",
    "Charles Lindbergh",
@@ -14444,7 +14445,7 @@
   "lat": 40.76,
   "lon": -73.97,
   "origin_src": "https://grokipedia.com/page/Make_America_Great_Again",
-  "origin_note": "Trump adopted the slogan on 7 November 2012 and launched his campaign with it at Trump Tower on 16 June 2015; Reagan used 'Let's Make America Great Again' in 1980",
+  "origin_note": "Trump adopted the slogan on November 7, 2012, and launched his campaign with it at Trump Tower on June 16, 2015; Reagan used 'Let's Make America Great Again' in 1980",
   "thinkers": [
    "Donald Trump"
   ],
@@ -15586,7 +15587,7 @@
   "year": 1888,
   "place": "London",
   "origin_src": "https://grokipedia.com/page/Hermetic_Order_of_the_Golden_Dawn",
-  "origin_note": "Isis-Urania Temple of the Hermetic Order of the Golden Dawn chartered in London, 1 March 1888; founders Westcott, Woodman and Mathers",
+  "origin_note": "Isis-Urania Temple of the Hermetic Order of the Golden Dawn chartered in London, March 1, 1888; founders Westcott, Woodman and Mathers",
   "thinkers": [
    "William Wynn Westcott",
    "Samuel Liddell MacGregor Mathers",
@@ -15710,7 +15711,7 @@
   "year": 1812,
   "place": "Princeton, New Jersey",
   "origin_src": "https://grokipedia.com/page/Princeton_theology",
-  "origin_note": "Princeton Theological Seminary founded by the Presbyterian General Assembly on 13 June 1812",
+  "origin_note": "Princeton Theological Seminary founded by the Presbyterian General Assembly on June 13, 1812",
   "thinkers": [
    "Archibald Alexander",
    "Charles Hodge",
@@ -15792,7 +15793,7 @@
    "humor": "Scholarly in register.",
    "irony": "Sincere doctrinal defense.",
    "abstraction": "Systematic, doctrinal theology, with a Common Sense trust in plain facts; judgment.",
-   "hierarchy": "Defends confessional and church authority; judgment."
+   "hierarchy": "Held to the authority of Scripture and fixed Reformed confessional standards, and taught Presbyterian church order."
   },
   "thrives_in": {
    "historical": true,
@@ -15904,7 +15905,7 @@
    "humor": "Sincere prophetic reading.",
    "irony": "Literal hermeneutic.",
    "abstraction": "Builds a schema of eras over Scripture; judgment.",
-   "hierarchy": "Ranks God's programs and eras, not social orders; weak, judgment."
+   "hierarchy": "Orders history into God-given eras, each with its own test and judgment; it says little about social rank."
   },
   "thrives_in": {
    "historical": false,
@@ -15942,7 +15943,7 @@
   "year": 1874,
   "place": "Indianapolis",
   "origin_src": "https://grokipedia.com/page/Greenback_Party",
-  "origin_note": "Greenback Party founded at a convention in Indianapolis, 22–26 November 1874",
+  "origin_note": "Greenback Party founded at a convention in Indianapolis, November 22–26, 1874",
   "thinkers": [
    "James B. Weaver",
    "Peter Cooper",
@@ -16797,7 +16798,7 @@
    "humor": "Earnest register.",
    "irony": "Sincere moral politics.",
    "abstraction": "Argues from scripture and moral concerns, not theory.",
-   "hierarchy": "Defends traditional family order and moral authority; judgment."
+   "hierarchy": "Campaigns for marriage as one man and one woman and for a biblical moral order in law."
   },
   "stories": [],
   "sources": [
@@ -16919,7 +16920,7 @@
    "humor": "Earnest register.",
    "irony": "Sincere.",
    "abstraction": "Policy-wonk pragmatism through the Progressive Policy Institute.",
-   "hierarchy": "Neither egalitarian nor hierarchical in program; judgment."
+   "hierarchy": "The Third Way puts equality of opportunity over equality of outcome, neither leveling nor defending rank."
   },
   "stories": [],
   "sources": [
@@ -17105,7 +17106,7 @@
   "year": 1991,
   "year_approx": false,
   "origin_src": "https://grokipedia.com/page/Congressional_Progressive_Caucus",
-  "origin_note": "Congressional Progressive Caucus founded July 26, 1991 by Sanders, Dellums, Evans, Andrews, DeFazio and Waters; revived after 2008 by Sanders and Ocasio-Cortez",
+  "origin_note": "Congressional Progressive Caucus founded July 26, 1991, by Sanders, Dellums, Evans, Andrews, DeFazio and Waters; revived after 2008 by Sanders and Ocasio-Cortez",
   "place": "Washington, D.C.",
   "lat": 38.9,
   "lon": -77.04,
@@ -18021,7 +18022,7 @@
    "humor": "Earnest register.",
    "irony": "Sincere.",
    "abstraction": "Ideas-driven by Hayek and monetarist theory, applied pragmatically; judgment.",
-   "hierarchy": "Defends inequality of outcome and a strong state; judgment."
+   "hierarchy": "Gamble calls it a free economy with a strong state, which centralized power over unions and local government."
   },
   "stories": [],
   "sources": [
@@ -18083,7 +18084,7 @@
   "year": 1994,
   "year_approx": false,
   "origin_src": "https://grokipedia.com/page/New_Labour",
-  "origin_note": "Tony Blair won the Labour leadership on July 21, 1994 and adopted the 'New Labour' name at the October 1994 conference; Clause IV was rewritten in 1995 (Grokipedia, New Labour)",
+  "origin_note": "Tony Blair won the Labour leadership on July 21, 1994, and adopted the 'New Labour' name at the October 1994 conference; Clause IV was rewritten in 1995 (Grokipedia, New Labour)",
   "place": "London",
   "lat": 51.51,
   "lon": -0.13,
@@ -18149,7 +18150,7 @@
    "humor": "Earnest register.",
    "irony": "Sincere.",
    "abstraction": "Pragmatic modernization; judgment.",
-   "hierarchy": "Opportunity over equal outcomes; judgment."
+   "hierarchy": "Put opportunity over equality of outcome, while doubling health spending in real terms."
   },
   "stories": [],
   "sources": [
@@ -18400,7 +18401,7 @@
    "humor": "Farage's pub-politics persona; judgment.",
    "irony": "Sincere.",
    "abstraction": "Plain-speaking populism; judgment.",
-   "hierarchy": "Nation over supranational bodies; judgment."
+   "hierarchy": "Wants net migration cut to zero and Britain out of the European Convention on Human Rights: nation first."
   },
   "stories": [],
   "sources": [
@@ -18521,7 +18522,7 @@
    "humor": "Earnest register.",
    "irony": "Sincere.",
    "abstraction": "A 'nationalist yet pragmatic conservatism' (Grokipedia, Gaullism).",
-   "hierarchy": "Presidential system and national unity over 'parliamentary weakness'; judgment."
+   "hierarchy": "De Gaulle pushed for a strong executive over a parliament-led system, a design built into the 1958 constitution."
   },
   "stories": [],
   "sources": [
@@ -18639,7 +18640,7 @@
    "humor": "Earnest register.",
    "irony": "Sincere.",
    "abstraction": "Technocratic reform program; judgment.",
-   "hierarchy": "Meritocratic; judgment."
+   "hierarchy": "Promotes meritocracy and opportunity while casting itself as a revolt against old party hierarchies: mixed."
   },
   "stories": [],
   "sources": [
@@ -18690,7 +18691,7 @@
   "year": 1972,
   "year_approx": false,
   "origin_src": "https://grokipedia.com/page/National_Rally",
-  "origin_note": "Founded in 1972 as the National Front by Jean-Marie Le Pen; renamed National Rally on June 1, 2018 under Marine Le Pen (Grokipedia, National Rally)",
+  "origin_note": "Founded in 1972 as the National Front by Jean-Marie Le Pen; renamed National Rally on June 1, 2018, under Marine Le Pen (Grokipedia, National Rally)",
   "place": "Paris",
   "lat": 48.86,
   "lon": 2.35,
@@ -18755,7 +18756,7 @@
    "humor": "Earnest register.",
    "irony": "Sincere.",
    "abstraction": "Populist register; judgment.",
-   "hierarchy": "National preference over newcomers; judgment."
+   "hierarchy": "Its national preference policy reserves some benefits and housing help for French citizens first."
   },
   "stories": [],
   "sources": [
@@ -18875,7 +18876,7 @@
    "humor": "Earnest register.",
    "irony": "Sincere.",
    "abstraction": "Programmatic; judgment.",
-   "hierarchy": "Targets elites and inequality; judgment."
+   "hierarchy": "Backs democratic socialism and a Sixth Republic with more direct democracy, and shuns top-down party structures."
   },
   "stories": [],
   "sources": [
@@ -19002,7 +19003,7 @@
    "humor": "Earnest register.",
    "irony": "Sincere.",
    "abstraction": "Pragmatic governing party; judgment.",
-   "hierarchy": "Subsidiarity puts authority 'at the lowest effective level'; moderate order; judgment."
+   "hierarchy": "Subsidiarity keeps authority at the lowest competent level, with higher bodies only assisting: moderate order."
   },
   "stories": [],
   "sources": [
@@ -19059,7 +19060,7 @@
   "year": 2013,
   "year_approx": false,
   "origin_src": "https://grokipedia.com/page/Alternative_for_Germany",
-  "origin_note": "Established on February 6, 2013 by economists including Bernd Lucke to oppose eurozone bailouts; founding congress in Berlin, April 14, 2013 (Grokipedia, AfD)",
+  "origin_note": "Established on February 6, 2013, by economists including Bernd Lucke to oppose eurozone bailouts; founding congress in Berlin, April 14, 2013 (Grokipedia, AfD)",
   "place": "Berlin",
   "lat": 52.52,
   "lon": 13.4,
@@ -19125,7 +19126,7 @@
    "humor": "Earnest register.",
    "irony": "Sincere.",
    "abstraction": "Populist register; judgment.",
-   "hierarchy": "Nation and native population first; judgment."
+   "hierarchy": "Calls for 'remigration' and mass deportations of migrants who fail to assimilate, putting natives first."
   },
   "stories": [],
   "sources": [
@@ -19731,7 +19732,7 @@
    "humor": "Earnest register.",
    "irony": "Sincere.",
    "abstraction": "Mixed; judgment.",
-   "hierarchy": "Against the vertical of power; judgment."
+   "hierarchy": "Yabloko has long opposed authoritarian consolidation under Putin and backs human rights and democratic institutions."
   },
   "stories": [],
   "sources": [
@@ -19981,7 +19982,7 @@
    "humor": "Earnest register.",
    "irony": "Sincere.",
    "abstraction": "Systematized doctrine; judgment.",
-   "hierarchy": "Party leadership and a core leader; judgment."
+   "hierarchy": "Makes Communist Party leadership the defining feature of the system, with Xi named the 'core' of that leadership."
   },
   "stories": [],
   "sources": [
@@ -20579,7 +20580,7 @@
    "humor": "Earnest register.",
    "irony": "Sincere.",
    "abstraction": "Administrative reform; judgment.",
-   "hierarchy": "Anti-establishment reform; judgment."
+   "hierarchy": "Pushes decentralization and cuts to politicians' own seats and pay, aimed at the establishment rather than rank as such."
   },
   "stories": [],
   "sources": [
@@ -20889,7 +20890,7 @@
   "year": 1776,
   "place": "Philadelphia",
   "origin_src": "https://grokipedia.com/page/Republicanism_in_the_United_States",
-  "origin_note": "Paine's Common Sense (10 January 1776) and the Declaration of Independence (1776)",
+  "origin_note": "Paine's Common Sense (January 10, 1776) and the Declaration of Independence (1776)",
   "thinkers": [
    "Thomas Jefferson",
    "Thomas Paine",
@@ -21012,7 +21013,7 @@
   "year": 1789,
   "place": "Versailles",
   "origin_src": "https://grokipedia.com/page/Declaration_of_the_Rights_of_Man_and_of_the_Citizen",
-  "origin_note": "Adopted by the National Constituent Assembly, 26 August 1789",
+  "origin_note": "Adopted by the National Constituent Assembly, August 26, 1789",
   "thinkers": [
    "Marquis de Lafayette",
    "Emmanuel-Joseph Sieyès",
@@ -21155,7 +21156,7 @@
     "status": "documented",
     "type": "text",
     "src": "https://grokipedia.com/page/Jacobins",
-    "note": "The early club backed the adoption of the Declaration of the Rights of Man and of the Citizen on 26 August 1789 (Grokipedia, Jacobins)."
+    "note": "The early club backed the adoption of the Declaration of the Rights of Man and of the Citizen on August 26, 1789 (Grokipedia, Jacobins)."
    }
   },
   "sources": [
@@ -24572,7 +24573,7 @@
   "year": 1895,
   "year_approx": true,
   "origin_src": "https://grokipedia.com/page/Studies_on_Hysteria",
-  "origin_note": "Breuer and Freud's Studies on Hysteria is 'a 1895 clinical monograph co-authored by Viennese physicians'; Freud's April 21, 1896 lecture 'The Aetiology of Hysteria' set out the seduction theory, dropped by 1897",
+  "origin_note": "Breuer and Freud's Studies on Hysteria is 'a 1895 clinical monograph co-authored by Viennese physicians'; Freud's April 21, 1896, lecture 'The Aetiology of Hysteria' set out the seduction theory, dropped by 1897",
   "place": "Vienna",
   "lat": 48.21,
   "lon": 16.37,
@@ -24708,7 +24709,7 @@
   "lat": 37.39,
   "lon": -122.08,
   "origin_src": "https://grokipedia.com/page/Tech_right",
-  "origin_note": "Dated to its earliest program statement, Andreessen's Techno-Optimist Manifesto (October 16, 2023); roots in libertarian Silicon Valley circles of the 2010s; became a visible faction after tech leaders endorsed Trump following the July 13, 2024 assassination attempt",
+  "origin_note": "Dated to its earliest program statement, Andreessen's Techno-Optimist Manifesto (October 16, 2023); roots in libertarian Silicon Valley circles of the 2010s; became a visible faction after tech leaders endorsed Trump following the July 13, 2024, assassination attempt",
   "thinkers": [
    "Peter Thiel",
    "Marc Andreessen",
@@ -24862,7 +24863,7 @@
   "year": 1917,
   "year_approx": true,
   "origin_src": "https://grokipedia.com/page/Wilsonianism",
-  "origin_note": "Dated to Wilson's April 2, 1917 war message, which called the war a crusade 'to make the world safe for democracy'; a doctrine 'originating with President Woodrow Wilson during World War I', later 'rooted in Wilson's Fourteen Points speech of January 1918'",
+  "origin_note": "Dated to Wilson's April 2, 1917, war message, which called the war a crusade 'to make the world safe for democracy'; a doctrine 'originating with President Woodrow Wilson during World War I', later 'rooted in Wilson's Fourteen Points speech of January 1918'",
   "place": "Washington",
   "lat": 38.9,
   "lon": -77.04,
