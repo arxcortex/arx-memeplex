@@ -898,21 +898,32 @@ window.__pick = (x, y, t) => { const d = pick({ clientX: x, clientY: y, pointerT
 window.__proj = id => { const d = byId[id], r = renderer.domElement.getBoundingClientRect(); pv.copy(d.pos).project(camera); return { x: r.left + (pv.x + 1) / 2 * r.width, y: r.top + (1 - pv.y) / 2 * r.height, z: camera.position.distanceTo(d.pos), ok: inFilter(d) && d.star.grp.visible && pv.z < 1 }; };
 window.__pickCam = { get: () => [camera.position.toArray(), controls.target.toArray()], set: (p, t) => { if (panelOpen) closePanel(); camTl && camTl.kill(); gsap.killTweensOf(camera.position); gsap.killTweensOf(controls.target);
   controls.autoRotate = false; camera.position.fromArray(p); controls.target.fromArray(t); controls.update(); } };
-let hovered = null;
-renderer.domElement.addEventListener('pointermove', e => {
-  if (e.pointerType !== 'mouse') return;
-  const d = pick(e);
-  renderer.domElement.style.cursor = d ? 'pointer' : 'grab';
-  if ((d && d.id) !== hovered) { hovered = d && d.id; if (!current) highlight(hovered || null); if (filt.noLines) applyLines(); }
+let hovered = null, held = false; // held: a mouse button is down (left or right), so a drag/pan may be under way
+const setHover = d => { if ((d && d.id) !== hovered) { hovered = d && d.id; if (!current) highlight(hovered || null); if (filt.noLines) applyLines(); } };
+const hoverAt = e => { const d = pick(e);
+  renderer.domElement.style.cursor = d ? 'pointer' : 'grab'; setHover(d);
   if (d) { tip.textContent = `${d.name} · ${fmtYear(d.year, d.year_approx)}`; gsap.set(tip, { autoAlpha: 1, x: e.clientX + 14, y: e.clientY - 10 }); }
-  else gsap.set(tip, { autoAlpha: 0 });
+  else gsap.set(tip, { autoAlpha: 0 }); };
+/* no hover enlarge, dimming or tooltip while a button is held: drop the hover on press, re-check the spot under the cursor on release */
+const release = e => { if (!held) return; held = false;
+  if (e && e.clientX !== undefined && document.elementFromPoint(e.clientX, e.clientY) === renderer.domElement) hoverAt(e); };
+renderer.domElement.addEventListener('pointermove', e => {
+  if (down && Math.hypot(e.clientX - down[0], e.clientY - down[1]) > 6) down.moved = true;
+  if (e.pointerType !== 'mouse') return;
+  if (held && !e.buttons) release(e); // missed the release (e.g. let go outside the window)
+  if (held || e.buttons) return;
+  hoverAt(e);
 });
 let down = null;
-renderer.domElement.addEventListener('pointerdown', e => down = [e.clientX, e.clientY]);
+renderer.domElement.addEventListener('pointerdown', e => { down = [e.clientX, e.clientY];
+  if (e.pointerType === 'mouse') { held = true; setHover(null); gsap.set(tip, { autoAlpha: 0 }); } });
 renderer.domElement.addEventListener('pointerup', e => {
-  if (!down || Math.hypot(e.clientX - down[0], e.clientY - down[1]) > 6) return;
+  const dn = down; down = null;
+  if (!dn || dn.moved || (e.pointerType === 'mouse' && e.button !== 0) || Math.hypot(e.clientX - dn[0], e.clientY - dn[1]) > 6) return;
   const d = pick(e); if (d) focusIdea(d.id); else if (panelOpen) closePanel();
 });
+addEventListener('pointerup', release); addEventListener('pointercancel', () => release()); addEventListener('blur', () => release());
+document.addEventListener('mouseleave', () => release());
 addEventListener('keydown', e => { if (e.key === 'Escape') { if (compareFrom) endCompare(); else closePanel(); } });
 
 /* ---------- Labels for strong stars (always on, light) ---------- */
