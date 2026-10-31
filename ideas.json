@@ -26539,7 +26539,7 @@
   "year_approx": true,
   "origin_src": "https://grokipedia.com/page/Yahwism",
   "origin_note": "Its earliest forms date to the Iron Age, 'ca. 1200–900 BCE'; the name Yahweh appears in Egyptian lists from about 1390–1352 BCE",
-  "place": "Kingdoms of Israel and Judah",
+  "place": "Central highlands of Canaan",
   "lat": null,
   "lon": null,
   "thinkers": [
@@ -26605,7 +26605,8 @@
   "stories": [],
   "sources": [
    "https://grokipedia.com/page/Yahwism",
-   "https://grokipedia.com/page/Second_Temple_Judaism"
+   "https://grokipedia.com/page/Second_Temple_Judaism",
+   "https://grokipedia.com/page/Israelites"
   ],
   "domain": [
    "religion"
@@ -26860,9 +26861,9 @@
   "year_approx": true,
   "origin_src": "https://grokipedia.com/page/Essenes",
   "origin_note": "Emerged 'during the Hasmonean period around the mid-second century BCE' and persisted until 70 CE",
-  "place": "Qumran",
-  "lat": 31.74,
-  "lon": 35.46,
+  "place": "Judea",
+  "lat": 31.78,
+  "lon": 35.23,
   "thinkers": [
    "Teacher of Righteousness"
   ],
@@ -26933,16 +26934,13 @@
   "domain": [
    "religion"
   ],
-  "aliases": [
-   "Qumran community"
-  ],
   "thrives_in": {
    "historical": true,
    "places": [
     {
      "place": "Qumran",
      "src": "https://grokipedia.com/page/Qumran",
-     "note": "Scholarly consensus links the site by the Dead Sea to the Essenes, though some dispute it."
+     "note": "Scholars have tied the site to an Essene-like sect; others read it as a fortress, villa or pottery factory."
     },
     {
      "place": "Judea",
@@ -26974,10 +26972,10 @@
   "name": "Hellenistic Judaism",
   "root": false,
   "root_axis": null,
-  "year": -250,
+  "year": -300,
   "year_approx": true,
   "origin_src": "https://grokipedia.com/page/Hellenistic_Judaism",
-  "origin_note": "Spans 323 BCE to the early Roman era; dated here to the Septuagint, begun in Alexandria 'around the mid-3rd century BCE'",
+  "origin_note": "Spans 'from the death of Alexander the Great in 323 BCE'; Ptolemy I deported Jewish captives to Egypt c. 320–318 BCE. Dated c. 300 BCE, as those diaspora communities formed and the earliest the Stoic parent allows; the Septuagint, begun 'around the mid-3rd century BCE', is its first major text",
   "place": "Alexandria",
   "lat": 31.2,
   "lon": 29.92,
@@ -27254,7 +27252,7 @@
    "vedanta": 0,
    "islamic_philosophy": 0,
    "islam": -1,
-   "judaism": 2,
+   "judaism": 1,
    "romanticism": 0,
    "nationalism": 0,
    "humor": 0,
