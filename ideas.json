@@ -12043,7 +12043,7 @@
    "islam": "No documented relation.",
    "judaism": "No documented relation.",
    "romanticism": "Romantic revival of Norse and Germanic myth and folklore in the 1800s fostered modern Heathenry.",
-   "nationalism": "Emerged from 19th-century romantic nationalism and volkisch currents; many groups now reject ethnic membership.",
+   "nationalism": "Emerged from 19th-century romantic nationalism and völkisch currents; many groups now reject ethnic membership.",
    "humor": "Not expressed through jokes or play.",
    "irony": "Meant literally.",
    "abstraction": "Polytheist and animistic: gods, ancestors and land spirits are real; a landscape that teems with sentient presences.",
@@ -18049,7 +18049,7 @@
     {
      "place": "England",
      "src": "https://grokipedia.com/page/Euroscepticism_in_the_United_Kingdom",
-     "note": "Its Bruges speech of 1988 set the frame for later English Euroscepticism.",
+     "note": "Its Bruges speech of 1988 set the frame for later English Euroskepticism.",
      "period": "1988–present"
     }
    ]
@@ -19194,6 +19194,10 @@
    "Sahra Wagenknecht"
   ],
   "parents": [
+   "marxism",
+   "leninism",
+   "social_democracy",
+   "populism",
    "nationalism"
   ],
   "plain": "Left economics with conservative social views: redistribution and welfare, limits on migration, peace with Russia.",
@@ -19232,7 +19236,7 @@
    "gnosticism": "No real link to Gnosticism.",
    "hermeticism": "No real link to Hermeticism.",
    "enlightenment_liberalism": "Against 'progressive cultural liberalism' (Grokipedia, Left-conservatism).",
-   "marxism": "Wagenknecht came from Die Linke, formed from the PDS and WASG (Grokipedia, BSW).",
+   "marxism": "Wagenknecht came up through the PDS, successor to East Germany's SED, and Die Linke (Grokipedia, Sahra Wagenknecht).",
    "darwinism": "No real link to Darwinism.",
    "nietzsche": "No real link to Nietzsche.",
    "critical_theory": "Rejects progressive identity politics; judgment.",
@@ -19244,7 +19248,7 @@
    "islam": "No real link to Islam.",
    "judaism": "No real link to Judaism.",
    "romanticism": "No real link to Romanticism.",
-   "nationalism": "German left-conservatism descends from Nationalism and calls for limits on migration.",
+   "nationalism": "Prioritizes 'national sovereignty and traditional values' and calls for limits on migration (Grokipedia, Left-conservatism).",
    "humor": "Earnest register.",
    "irony": "Sincere.",
    "abstraction": "Mixed; judgment.",
@@ -19253,7 +19257,8 @@
   "stories": [],
   "sources": [
    "https://grokipedia.com/page/Bündnis_Sahra_Wagenknecht",
-   "https://grokipedia.com/page/Left-conservatism"
+   "https://grokipedia.com/page/Left-conservatism",
+   "https://grokipedia.com/page/Sahra_Wagenknecht"
   ],
   "domain": [
    "politics"
@@ -19276,6 +19281,30 @@
    ]
   },
   "edge_notes": {
+   "marxism": {
+    "status": "direct",
+    "type": "descent",
+    "src": "https://grokipedia.com/page/Sahra_Wagenknecht",
+    "note": "Wagenknecht joined the PDS, 'the reformed successor to the East German Socialist Unity Party (SED)', which later merged into Die Linke, the party BSW split from."
+   },
+   "leninism": {
+    "status": "documented",
+    "type": "influence",
+    "src": "https://grokipedia.com/page/Left-conservatism",
+    "note": "Left-conservatism 'traces its historical roots to Marxist-Leninist movements'; BSW's founders came out of the PDS, successor to East Germany's SED."
+   },
+   "social_democracy": {
+    "status": "documented",
+    "type": "merger",
+    "src": "https://grokipedia.com/page/Sahra_Wagenknecht",
+    "note": "Die Linke formed in 2007 when the PDS merged with the WASG, 'a western splinter from the Social Democratic Party (SPD)'."
+   },
+   "populism": {
+    "status": "influence",
+    "type": "influence",
+    "src": "https://grokipedia.com/page/Left-conservatism",
+    "note": "Left-conservatism has 'associations with antiglobalist and populist tendencies'."
+   },
    "nationalism": {
     "status": "influence",
     "type": "synthesis",
@@ -21439,7 +21468,7 @@
     {
      "place": "United States",
      "src": "https://grokipedia.com/page/Judaism",
-     "note": "Judaism infobox: Regions 'Worldwide (primarily Israel and United States)'."
+     "note": "Judaism is found worldwide, primarily in Israel and the United States."
     },
     {
      "place": "Galilee",
@@ -22094,7 +22123,7 @@
   "lat": 43.01,
   "lon": -77.23,
   "origin_src": "https://grokipedia.com/page/Latter_Day_Saint_movement",
-  "origin_note": "The Church of Christ was 'formally organized on April 6, 1830, in Fayette, New York , at the home of Peter Whitmer Sr., with six initial members'; the Book of Mormon was 'published in March 1830 by E. B. Grandin in Palmyra'. Dated here to 1827, when Smith 'retrieved the plates in 1827' near Manchester, New York (Grokipedia, Golden plates); the reported First Vision (1820) precedes it",
+  "origin_note": "The Church of Christ was 'formally organized on April 6, 1830, in Fayette, New York, at the home of Peter Whitmer Sr., with six initial members'; the Book of Mormon was 'published in March 1830 by E. B. Grandin in Palmyra'. Dated here to 1827, when Smith 'retrieved the plates in 1827' near Manchester, New York (Grokipedia, Golden plates); the reported First Vision (1820) precedes it",
   "thinkers": [
    "Joseph Smith",
    "Brigham Young"
@@ -22155,7 +22184,7 @@
    "humor": "Not expressed through jokes or play.",
    "irony": "Makes its case directly, without ironic distance.",
    "abstraction": "Materialist metaphysics: 'All spirit is matter, but it is more fine or pure' (D&C 131:7); God 'has a body of flesh and bones' (Grokipedia, Joseph Smith).",
-   "hierarchy": "LDS polity is 'Hierarchical with prophetic leadership' (Grokipedia, LDS Church infobox), though callings are lay, 'voluntary and unpaid'."
+   "hierarchy": "LDS polity is 'Hierarchical with prophetic leadership' (Grokipedia, The Church of Jesus Christ of Latter-day Saints); callings are lay, 'voluntary and unpaid'."
   },
   "stories": [],
   "sources": [
@@ -22215,7 +22244,7 @@
     "type": "influence",
     "strength": "strong",
     "src": "https://grokipedia.com/page/Joseph_Smith",
-    "note": "Smith grew up amid revivals where 'Methodists, Baptists , and Presbyterians' competed; his First Vision told him to join none, so the movement defines itself against them."
+    "note": "Smith grew up amid revivals where 'Methodists, Baptists, and Presbyterians' competed; his First Vision told him to join none, so the movement defines itself against them."
    },
    "methodism": {
     "status": "loose",
@@ -22773,7 +22802,7 @@
    "islam": "No documented relation.",
    "judaism": "No documented relation.",
    "romanticism": "Fichte's lectures and Schelling's nature-philosophy fed Romanticism; Schelling 'profoundly influenced Romanticism'.",
-   "nationalism": "Fichte's Addresses to the German Nation urged national identity through language and education, framed cosmopolitanly."
+   "nationalism": "Fichte's Addresses to the German Nation urged national identity through language and education, framed in cosmopolitan terms."
   },
   "stories": [],
   "sources": [
