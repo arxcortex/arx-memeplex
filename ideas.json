@@ -19193,6 +19193,10 @@
    "Sahra Wagenknecht"
   ],
   "parents": [
+   "marxism",
+   "leninism",
+   "social_democracy",
+   "populism",
    "nationalism"
   ],
   "plain": "Left economics with conservative social views: redistribution and welfare, limits on migration, peace with Russia.",
@@ -19231,7 +19235,7 @@
    "gnosticism": "No real link to Gnosticism.",
    "hermeticism": "No real link to Hermeticism.",
    "enlightenment_liberalism": "Against 'progressive cultural liberalism' (Grokipedia, Left-conservatism).",
-   "marxism": "Wagenknecht came from Die Linke, formed from the PDS and WASG (Grokipedia, BSW).",
+   "marxism": "Wagenknecht came up through the PDS, successor to East Germany's SED, and Die Linke (Grokipedia, Sahra Wagenknecht).",
    "darwinism": "No real link to Darwinism.",
    "nietzsche": "No real link to Nietzsche.",
    "critical_theory": "Rejects progressive identity politics; judgment.",
@@ -19243,7 +19247,7 @@
    "islam": "No real link to Islam.",
    "judaism": "No real link to Judaism.",
    "romanticism": "No real link to Romanticism.",
-   "nationalism": "German left-conservatism descends from Nationalism and calls for limits on migration.",
+   "nationalism": "Prioritizes 'national sovereignty and traditional values' and calls for limits on migration (Grokipedia, Left-conservatism).",
    "humor": "Earnest register.",
    "irony": "Sincere.",
    "abstraction": "Mixed; judgment.",
@@ -19252,7 +19256,8 @@
   "stories": [],
   "sources": [
    "https://grokipedia.com/page/Bündnis_Sahra_Wagenknecht",
-   "https://grokipedia.com/page/Left-conservatism"
+   "https://grokipedia.com/page/Left-conservatism",
+   "https://grokipedia.com/page/Sahra_Wagenknecht"
   ],
   "domain": [
    "politics"
@@ -19275,6 +19280,30 @@
    ]
   },
   "edge_notes": {
+   "marxism": {
+    "status": "direct",
+    "type": "descent",
+    "src": "https://grokipedia.com/page/Sahra_Wagenknecht",
+    "note": "Wagenknecht joined the PDS, 'the reformed successor to the East German Socialist Unity Party (SED)', which later merged into Die Linke, the party BSW split from."
+   },
+   "leninism": {
+    "status": "documented",
+    "type": "influence",
+    "src": "https://grokipedia.com/page/Left-conservatism",
+    "note": "Left-conservatism 'traces its historical roots to Marxist-Leninist movements'; BSW's founders came out of the PDS, successor to East Germany's SED."
+   },
+   "social_democracy": {
+    "status": "documented",
+    "type": "merger",
+    "src": "https://grokipedia.com/page/Sahra_Wagenknecht",
+    "note": "Die Linke formed in 2007 when the PDS merged with the WASG, 'a western splinter from the Social Democratic Party (SPD)'."
+   },
+   "populism": {
+    "status": "influence",
+    "type": "influence",
+    "src": "https://grokipedia.com/page/Left-conservatism",
+    "note": "Left-conservatism has 'associations with antiglobalist and populist tendencies'."
+   },
    "nationalism": {
     "status": "influence",
     "type": "synthesis",
