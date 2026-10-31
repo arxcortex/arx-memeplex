@@ -95,6 +95,16 @@ _S=json.load(open(B+"schema/idea.schema.json"))["items"]; _P=set(_S["properties"
 for d in ideas:
   for k in set(d)-_P: E.append(f"{d['id']}: field {k} not allowed by schema")
   for k in _R-set(d): E.append(f"{d['id']}: required field {k} missing")
+# quote: optional verified quotation (text, by, work, src); see schema
+for d in ideas:
+  q=d.get("quote")
+  if q is None: continue
+  if not isinstance(q,dict): E.append(f"{d['id']}: quote must be an object"); continue
+  for k in set(q)-{"text","by","work","src","note"}: E.append(f"{d['id']}: quote field {k} not allowed")
+  for k in ("text","by","work","src"):
+    if not isinstance(q.get(k),str) or not q[k].strip(): E.append(f"{d['id']}: quote needs {k}")
+  if len(q.get("text") or "")>300: E.append(f"{d['id']}: quote text >300")
+  if not str(q.get("src","")).startswith("https://") or "wikipedia.org" in str(q.get("src","")): E.append(f"{d['id']}: quote src must be https and not Wikipedia")
 # national.json: National view Religion/Philosophy lists per country
 if os.path.exists(B+"national.json"):
   nat=json.load(open(B+"national.json")); pcs=[c["id"] for c in json.load(open(B+"politics.json"))["countries"]] if os.path.exists(B+"politics.json") else None
