@@ -29,8 +29,7 @@
     {
      "idea": "latter_day_saint_movement",
      "why": "American-origin movement, organized as a church in New York in 1830.",
-     "src": "https://grokipedia.com/page/Mormonism",
-     "status": "pending:lds-patch"
+     "src": "https://grokipedia.com/page/Mormonism"
     },
     {
      "idea": "rabbinic_judaism",
@@ -105,8 +104,7 @@
     {
      "idea": "sikhism",
      "why": "Established Eastern-religion community alongside Hinduism.",
-     "src": "https://grokipedia.com/page/Religion_in_the_United_Kingdom",
-     "status": "missing"
+     "src": "https://grokipedia.com/page/Religion_in_the_United_Kingdom"
     }
    ],
    "philosophy": [
@@ -451,8 +449,7 @@
      "idea": "kyoto_school",
      "why": "Nishida's Kyoto School, Japan's best-known modern school.",
      "src": "https://grokipedia.com/page/Kyoto_School",
-     "call": "living",
-     "status": "pending:japan-history-patch (PR #21)"
+     "call": "living"
     },
     {
      "idea": "kokugaku",
@@ -476,8 +473,7 @@
      "idea": "mito_school",
      "why": "Mito School, Edo-period nationalist learning (historical).",
      "src": "https://grokipedia.com/page/Japanese_philosophy",
-     "call": "historical",
-     "status": "pending:japan-history-patch (PR #21)"
+     "call": "historical"
     }
    ]
   }
@@ -519,16 +515,6 @@
    "name": "Hinduism",
    "origin": "not dated here; needs node later",
    "src": "https://grokipedia.com/page/Hinduism",
-   "countries": [
-    "gb"
-   ],
-   "axes": "needs node later"
-  },
-  {
-   "id": "sikhism",
-   "name": "Sikhism",
-   "origin": "Guru Nanak (1469-1539), Punjab",
-   "src": "https://grokipedia.com/page/Sikhism",
    "countries": [
     "gb"
    ],
