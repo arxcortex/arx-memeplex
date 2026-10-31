@@ -21083,6 +21083,275 @@
   }
  },
  {
+  "id": "federalists",
+  "name": "Federalists",
+  "root": false,
+  "root_axis": null,
+  "year": 1787,
+  "year_approx": false,
+  "place": "New York City",
+  "lat": 40.71,
+  "lon": -74.01,
+  "origin_src": "https://grokipedia.com/page/The_Federalist_Papers",
+  "origin_note": "Hamilton published Federalist No. 1 as 'Publius' in The Independent Journal on October 27, 1787; the 85 essays ran to May 1788",
+  "thinkers": [
+   "Alexander Hamilton",
+   "James Madison",
+   "John Jay"
+  ],
+  "parents": [
+   "american_republicanism",
+   "enlightenment_liberalism",
+   "classical_republicanism"
+  ],
+  "plain": "Supporters of the 1787 Constitution. They argued that a stronger national government, with power split among branches, would hold the union together and still protect liberty.",
+  "summary": "Hamilton, Madison and Jay's 85 essays as 'Publius' (1787-88) defended ratification: a large republic tames faction, and checks and balances restrain power.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 3,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 0,
+   "hierarchy": 0
+  },
+  "rationale": {
+   "platonism": "No real link to Platonism.",
+   "aristotelianism": "No direct debt to Aristotle shown in its sources.",
+   "stoicism": "No real link to Stoicism.",
+   "gnosticism": "No real link to Gnosticism.",
+   "hermeticism": "No real link to Hermeticism.",
+   "marxism": "Comes before this tradition existed, so it cannot descend from it.",
+   "darwinism": "Comes before this tradition existed, so it cannot descend from it.",
+   "nietzsche": "Comes before this tradition existed, so it cannot descend from it.",
+   "critical_theory": "Comes before this tradition existed, so it cannot descend from it.",
+   "confucianism": "No real link to Confucianism.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "No real link to Buddhism.",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "No real link to Islamic philosophy (falsafa).",
+   "islam": "No real link to Islam.",
+   "judaism": "No real link to Judaism.",
+   "romanticism": "Comes before this tradition existed, so it cannot descend from it.",
+   "nationalism": "Comes before this tradition existed, so it cannot descend from it.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "christianity": "Argues from history and institutional design, not theology.",
+   "enlightenment_liberalism": "Adapts Montesquieu's separation of powers and checks and balances to a republic (Grokipedia, The Federalist Papers).",
+   "abstraction": "Reasons from past confederacies and how institutions work; takes no side on mind versus matter.",
+   "hierarchy": "Rejects monarchy and hereditary rank, yet defends an energetic single executive (No. 70) and federal supremacy over the states."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/The_Federalist_Papers",
+   "https://grokipedia.com/page/Federalist_No._10",
+   "https://grokipedia.com/page/Federalist_No._51",
+   "https://grokipedia.com/page/Republicanism_in_the_United_States",
+   "https://grokipedia.com/page/Montesquieu",
+   "https://grokipedia.com/page/Federalist_Party"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "aliases": [
+   "Publius",
+   "The Federalist"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "New York",
+     "period": "1787-1788",
+     "src": "https://grokipedia.com/page/The_Federalist_Papers",
+     "note": "The essays ran mainly in The Independent Journal and The New-York Packet to sway New York, where ratification was contentious."
+    },
+    {
+     "place": "United States",
+     "period": "1787-1788",
+     "src": "https://grokipedia.com/page/Constitutional_Convention_United_States",
+     "note": "Federalists like Madison argued the Constitution's checks and balances prevented tyranny during the 1787-88 ratification fight."
+    }
+   ]
+  },
+  "edge_notes": {
+   "american_republicanism": {
+    "status": "documented",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Republicanism_in_the_United_States",
+    "note": "Madison articulated republican principles 'in the Federalist Papers, arguing that a large republic could control factionalism better than small democracies' (Grokipedia)."
+   },
+   "enlightenment_liberalism": {
+    "status": "documented",
+    "type": "influence",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/The_Federalist_Papers",
+    "note": "Madison's essays 47-51 defend separation of powers, 'drawing on Montesquieu's theory while adapting it to republican governance' (Grokipedia)."
+   },
+   "classical_republicanism": {
+    "status": "loose",
+    "type": "borrowing",
+    "strength": "weak",
+    "src": "https://grokipedia.com/page/The_Federalist_Papers",
+    "note": "The pen name 'Publius' evokes Publius Valerius Publicola, 'the Roman founder of republican governance after the overthrow of monarchy' (Grokipedia)."
+   }
+  }
+ },
+ {
+  "id": "anti_federalists",
+  "name": "Anti-Federalists",
+  "root": false,
+  "root_axis": null,
+  "year": 1787,
+  "year_approx": false,
+  "place": "New York City",
+  "lat": 40.71,
+  "lon": -74.01,
+  "origin_src": "https://grokipedia.com/page/Anti-Federalist_Papers",
+  "origin_note": "The 'Cato' letters began in the New-York Journal on September 27, 1787, and 'Brutus' on October 18, 1787; the essays ran into mid-1788",
+  "thinkers": [
+   "Robert Yates",
+   "George Clinton",
+   "Patrick Henry",
+   "George Mason"
+  ],
+  "parents": [
+   "american_republicanism",
+   "enlightenment_liberalism",
+   "classical_republicanism"
+  ],
+  "plain": "Opponents of the 1787 Constitution. They feared a distant national government would swallow the states and threaten liberty, and their pressure helped bring the Bill of Rights.",
+  "summary": "Essayists like 'Brutus' and 'Cato' and leaders like Patrick Henry and George Mason warned that a large, consolidated republic would breed aristocracy, and demanded a bill of rights.",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Anti-Federalist_Papers",
+   "https://grokipedia.com/page/Robert_Yates_(politician)",
+   "https://grokipedia.com/page/George_Clinton_(vice_president)",
+   "https://grokipedia.com/page/Patrick_Henry",
+   "https://grokipedia.com/page/George_Mason",
+   "https://grokipedia.com/page/Republicanism_in_the_United_States",
+   "https://grokipedia.com/page/United_States_Bill_of_Rights",
+   "https://grokipedia.com/page/Democratic-Republican_Party"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "aliases": [
+   "Antifederalists",
+   "Anti-Federalist Papers"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "New York",
+     "period": "1787-1788",
+     "src": "https://grokipedia.com/page/Anti-Federalist_Papers",
+     "note": "The 16 'Brutus' essays ran in the New-York Journal from October 18, 1787; 'Cato' ran there from September 27, 1787."
+    },
+    {
+     "place": "Virginia",
+     "period": "1787-1788",
+     "src": "https://grokipedia.com/page/Patrick_Henry",
+     "note": "Henry was the leading Anti-Federalist voice at Virginia's 1788 ratifying convention, giving over 60 speeches."
+    }
+   ]
+  },
+  "edge_notes": {
+   "american_republicanism": {
+    "status": "documented",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Republicanism_in_the_United_States",
+    "note": "Anti-Federalists, including Patrick Henry, held 'that robust state sovereignty was vital to sustain republicanism against distant federal overreach' (Grokipedia)."
+   },
+   "enlightenment_liberalism": {
+    "status": "documented",
+    "type": "influence",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Anti-Federalist_Papers",
+    "note": "'Drawing on Montesquieu's analysis in The Spirit of the Laws (1748)', they argued republics last only in small, homogeneous polities (Grokipedia)."
+   },
+   "classical_republicanism": {
+    "status": "loose",
+    "type": "borrowing",
+    "strength": "weak",
+    "src": "https://grokipedia.com/page/Anti-Federalist_Papers",
+    "note": "Pen names like 'Cato' and 'Brutus' drew 'on classical republican figures to invoke virtues of liberty and vigilance against tyranny' (Grokipedia)."
+   }
+  },
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 3,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 0,
+   "hierarchy": -2
+  },
+  "rationale": {
+   "platonism": "No real link to Platonism.",
+   "aristotelianism": "No direct debt to Aristotle shown in its sources.",
+   "stoicism": "No real link to Stoicism.",
+   "gnosticism": "No real link to Gnosticism.",
+   "hermeticism": "No real link to Hermeticism.",
+   "marxism": "Comes before this tradition existed, so it cannot descend from it.",
+   "darwinism": "Comes before this tradition existed, so it cannot descend from it.",
+   "nietzsche": "Comes before this tradition existed, so it cannot descend from it.",
+   "critical_theory": "Comes before this tradition existed, so it cannot descend from it.",
+   "confucianism": "No real link to Confucianism.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "No real link to Buddhism.",
+   "vedanta": "No real link to Vedanta.",
+   "islamic_philosophy": "No real link to Islamic philosophy (falsafa).",
+   "islam": "No real link to Islam.",
+   "judaism": "No real link to Judaism.",
+   "romanticism": "Comes before this tradition existed, so it cannot descend from it.",
+   "nationalism": "Comes before this tradition existed, so it cannot descend from it.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "christianity": "Argues from liberty and state sovereignty, not theology.",
+   "enlightenment_liberalism": "Uses Montesquieu's small-republic thesis and demands enumerated rights, later met by the 1791 Bill of Rights (Grokipedia).",
+   "abstraction": "Reasons from history and human nature's pull toward power; takes no side on mind versus matter.",
+   "hierarchy": "Warned the plan would 'foster aristocratic elites detached from popular control' (Grokipedia, on the Cato letters) and kept power near the people."
+  }
+ },
+ {
   "root": false,
   "root_axis": null,
   "year_approx": false,
@@ -25367,7 +25636,8 @@
    "Martin Van Buren"
   ],
   "parents": [
-   "american_republicanism"
+   "american_republicanism",
+   "anti_federalists"
   ],
   "plain": "A movement around Andrew Jackson that widened voting for white men, attacked the national bank and rewarded loyal supporters with office. It founded the Democratic Party.",
   "summary": "Jackson-era politics of popular sovereignty and the 'common man': white male suffrage, anti-elitism, spoils system, the Bank War, Indian Removal and the founding of the Democratic Party.",
@@ -25461,6 +25731,13 @@
     "strength": "strong",
     "src": "https://grokipedia.com/page/Jacksonian_democracy",
     "note": "Jacksonians drew on 'Jeffersonian ideals of limited government and popular virtue' and the Democratic-Republicans' defense of the 'common man' (Grokipedia)."
+   },
+   "anti_federalists": {
+    "status": "loose",
+    "type": "influence",
+    "strength": "weak",
+    "src": "https://grokipedia.com/page/Anti-Federalist_Papers",
+    "note": "Indirect, through the Jeffersonian Republicans (no node yet): the Papers 'exerted a formative influence on the Jeffersonian Republicans', whose remnants became the Democrats by 1828."
    }
   }
  },
