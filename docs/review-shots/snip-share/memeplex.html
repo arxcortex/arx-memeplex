@@ -1012,7 +1012,7 @@ const zUp = e => { zTouch.delete(e.pointerId); zPinch = zTouch.size === 2 ? zSpa
 /* placeLabels skip: only re-place when the camera, hover/focus or view changed, with a 200 ms safety refresh. */
 let lblKey = '', lblAt = 0, lblRuns = 0;
 function labelsMaybe(now) { const m = camera.matrixWorld.elements, q = camera.projectionMatrix.elements;
-  const k = m.map(v => Math.round(v * 1e4)).join(',') + '|' + q[0] + ',' + q[5] + '|' + current + '|' + hovered + '|' + (window.__views && window.__views.cur) + '|' + innerWidth + 'x' + innerHeight;
+  const k = m.map(v => Math.round(v * 1e4)).join(',') + '|' + q[0] + ',' + q[5] + '|' + current + '|' + hovered + '|' + (window.__views && window.__views.cur) + (window.__axesView ? __axesView.x + __axesView.y : '') + '|' + innerWidth + 'x' + innerHeight;
   if (k === lblKey && now - lblAt < 200) return; lblKey = k; lblAt = now; lblRuns++; placeLabels(); }
 window.__zoom = { ZOOM, dist: camDist, get target() { return zT; }, get labelRuns() { return lblRuns; }, busy: camBusy,
   under(x, y) { const r = renderer.domElement.getBoundingClientRect(), n = new THREE.Vector2((x - r.left) / r.width * 2 - 1, -((y - r.top) / r.height) * 2 + 1), rc = new THREE.Raycaster(), dir = new THREE.Vector3(), pl = new THREE.Plane(), o = new THREE.Vector3();
@@ -1321,18 +1321,18 @@ window.__memeplex = { cardIdea, cardCompare, shareIdea, shareCompare, focusIdea,
   const TLW = 96, tlX = y => { let i = 1; while (i < TLK.length - 1 && y > TLK[i][0]) i++; const [a, ua] = TLK[i - 1], [b, ub] = TLK[i];
     return ((ua + (ub - ua) * Math.min(1, Math.max(0, (y - a) / (b - a)))) * 2 - 1) * TLW; };
   L.timeline = d => { const x = tlX(d.year); return [V(x, d.basePos.x * 0.75, d.basePos.z * 0.75), x]; };
-  const NAMES = { default: 'Default map', helix: 'Helix', beatific: 'Beatific vision', tree: 'Tree of life', galaxy: 'Galaxy', sphere: 'Sphere', brain: 'Brain', flat: 'Flat: Abstraction', flatH: 'Flat: Hierarchy', timeline: 'Linear timeline', ...(politicsCfg.countries.length ? { politics: 'National' } : {}) };
+  const NAMES = { default: 'Default map', helix: 'Helix', beatific: 'Beatific vision', tree: 'Tree of life', galaxy: 'Galaxy', sphere: 'Sphere', brain: 'Brain', flat: 'Flat: Abstraction', flatH: 'Flat: Hierarchy', timeline: 'Linear timeline', axes: 'Choose your axes', ...(politicsCfg.countries.length ? { politics: 'National' } : {}) };
   const TIMEAX = { helix: 'height', beatific: 'ring radius', tree: 'height', galaxy: 'arm radius', sphere: 'latitude', brain: 'distance from stem', flat: 'height', flatH: 'height', timeline: 'left to right' };
   const POS = {}, TC = {}; // precomputed once
   Object.keys(L).forEach(k => { POS[k] = {}; TC[k] = {}; ideas.forEach(d => { const [p, c] = L[k](d); POS[k][d.id] = p; TC[k][d.id] = c; }); });
   const check = () => Object.fromEntries(Object.keys(L).map(k => { const bad = [];
     ideas.forEach(d => (d.parents || []).forEach(p => { if (byId[p] && TC[k][p] > TC[k][d.id] + 1e-9) bad.push(`${p} -> ${d.id}`); })); return [k, bad]; }));
   const defPos = d => { const s = window.__stretch ? __stretch.get() : { x: 1, y: 1, z: 1 }; return V(d.basePos.x * s.x, d.basePos.y * s.y, d.basePos.z * s.z); };
-  const target = k => k === 'default' ? Object.fromEntries(ideas.map(d => [d.id, defPos(d)])) : POS[k];
+  const target = k => k === 'default' ? Object.fromEntries(ideas.map(d => [d.id, defPos(d)])) : k === 'axes' ? AXV.pos() : POS[k];
   // camera framing per view
   const CAMDIR = { default: null, helix: V(0.9, 0.55, 0.75), beatific: V(0, 1.1, 0.75), tree: V(0, 0.2, 1), galaxy: V(0, 1.3, 0.6), sphere: V(0, 0.25, 1), brain: V(0.75, 0.3, 0.9), flat: V(0, 0, 1), flatH: V(0, 0, 1), timeline: V(0.12, 0.3, 1) };
   const frame = k => { if (k === 'default') return [homeCam.clone(), V(0, 0, 0)];
-    if (/^flat/.test(k)) { const [x0, x1, y0, y1] = CH.box, c = V((x0 + x1) / 2, (y0 + y1) / 2, 0), fov = THREE.MathUtils.degToRad(camera.fov);
+    if (/^flat|^axes$/.test(k)) { const [x0, x1, y0, y1] = k === 'axes' ? AXV.box : CH.box, c = V((x0 + x1) / 2, (y0 + y1) / 2, 0), fov = THREE.MathUtils.degToRad(camera.fov);
       const dist = Math.max((y1 - y0) / 2 / Math.tan(fov / 2), (x1 - x0) / 2 / (Math.tan(fov / 2) * camera.aspect)) * 1.06; return [c.clone().add(V(0, 0, dist)), c]; }
     const pts = Object.values(POS[k]), c = new T.Box3().setFromPoints(pts).getCenter(V(0, 0, 0)), r = Math.max(...pts.map(p => p.distanceTo(c)));
     const fov = THREE.MathUtils.degToRad(25) * Math.min(1, camera.aspect), dist = (r / Math.sin(fov) * 0.92 + 6) * (k === 'helix' ? 1.12 : 1);
@@ -1400,15 +1400,60 @@ window.__memeplex = { cardIdea, cardCompare, shareIdea, shareCompare, focusIdea,
       add('\u2190 ' + lo, V(X0 + 7, Y0 - 7.5, Z), 'pole', k); add(hi + ' \u2192', V(X1 - 9, Y0 - 7.5, Z), 'pole', k); });
     return { g, mats, L2, box: [X0 - 9, X1 + 4, Y0 - 17, Y1 + 7] }; })();
   window.__chart = CH;
+  /* ---------- CHOOSE-YOUR-AXES view: any two of the 24 axes as X and Y (scores -5..+5), small deterministic jitter so equal scores
+     don't stack. Chart, captions and pole labels follow the chosen axes; presets use only axes that exist in axes.json. ---------- */
+  const AXV = (() => { const AX = Object.fromEntries(axes.map(a => [a.id, a])), has = k => !!AX[k];
+    const PRE = [['christianity', 'marxism', 'Christianity vs Marxism'], ['platonism', 'darwinism', 'Platonism vs Darwinism'], ['christianity', 'irony', 'Christianity vs irony'],
+      ['enlightenment_liberalism', 'hierarchy', 'Liberalism vs hierarchy'], ['confucianism', 'daoism', 'Confucianism vs Daoism'], ['abstraction', 'hierarchy', 'Abstract vs hierarchy']].filter(p => has(p[0]) && has(p[1]));
+    const st = { x: has('christianity') ? 'christianity' : axes[0].id, y: has('marxism') ? 'marxism' : axes[1].id };
+    const poles = id => { const a = AX[id] || {}; if (a.poles) return a.poles; if (id === 'abstraction') return ['More material', 'More abstract / ideal']; if (id === 'hierarchy') return ['Opposes hierarchy', 'Favors hierarchy'];
+      if (a.group === 'register') return ['Little ' + a.label.toLowerCase(), 'Much ' + a.label.toLowerCase()]; return ['Opposes ' + a.label, 'Aligned with ' + a.label]; };
+    const J = STEP * 0.62, jit = (d, k) => (hash(d.id + '|ax' + k) - 0.5) * J;
+    const pos = () => Object.fromEntries(ideas.map(d => [d.id, V(sc(d, st.x) * STEP + jit(d, 'x'), sc(d, st.y) * STEP + jit(d, 'y'), 0)]));
+    const g = new T.Group(), mats = [], E = 5 * STEP + 5, Z = -0.6;
+    const mat = (color, op) => { const m = new T.LineBasicMaterial({ color, transparent: true, opacity: 0, depthWrite: false }); m.userData.op = op; mats.push(m); return m; };
+    const seg = (pts, m) => g.add(new T.LineSegments(new T.BufferGeometry().setFromPoints(pts), m));
+    const bg = new T.MeshBasicMaterial({ color: 0x1c1006, transparent: true, opacity: 0, depthWrite: false }); bg.userData.op = 0.45; mats.push(bg);
+    const plane = new T.Mesh(new T.PlaneGeometry(E * 2, E * 2), bg); plane.position.set(0, 0, Z - 0.2); plane.renderOrder = -2; g.add(plane);
+    const fine = [], grid = [], tk = [], ax = [];
+    for (let v = -E; v <= E + 1e-6; v += STEP / 2) fine.push(V(v, -E, Z), V(v, E, Z), V(-E, v, Z), V(E, v, Z));
+    for (let v = -5; v <= 5; v++) { const q = v * STEP; grid.push(V(q, -E, Z), V(q, E, Z), V(-E, q, Z), V(E, q, Z)); tk.push(V(q, -E, Z), V(q, -E - 1.4, Z), V(-E, q, Z), V(-E - 1.4, q, Z)); }
+    ax.push(V(-E, -E, Z), V(E + 3, -E, Z), V(-E, -E, Z), V(-E, E + 3, Z), V(E + 3, -E, Z), V(E + 1.6, -E + 0.9, Z), V(E + 3, -E, Z), V(E + 1.6, -E - 0.9, Z), V(-E, E + 3, Z), V(-E - 0.9, E + 1.6, Z), V(-E, E + 3, Z), V(-E + 0.9, E + 1.6, Z));
+    seg(fine, mat(0x3a2410, 0.18)); seg(grid, mat(0x6a3e18, 0.38)); seg([V(0, -E, Z), V(0, E, Z), V(-E, 0, Z), V(E, 0, Z)], mat(0xb87333, 0.5)); seg(tk, mat(0xe0a050, 0.9)); seg(ax, mat(0xe8a855, 0.95));
+    g.visible = false; scene.add(g);
+    const L4 = [], add = (txt, p, cls) => { const el = document.createElement('div'); el.className = 'axl chart ' + cls; el.textContent = txt; lblLayer.appendChild(el); const o = { pos: p, el, center: true, off: true, w: el.offsetWidth }; labels.push(o); L4.push(o); return o; };
+    const num = v => (v > 0 ? '+' : v < 0 ? '\u2212' : '') + Math.abs(v);
+    for (let v = -5; v <= 5; v++) { add(num(v), V(v * STEP, -E - 3.4, Z), 'tick' + (v % 5 ? ' minor' : '')); add(num(v), V(-E - 3.6, v * STEP - 0.6, Z), 'tick' + (v % 5 ? ' minor' : '')); }
+    const tX = add('', V(0, -E - 12, Z), 'title'), tY = add('', V(-E, E + 5.5, Z), 'title'),
+      xl = add('', V(-E + 9, -E - 7.5, Z), 'pole'), xh = add('', V(E - 9, -E - 7.5, Z), 'pole'), yl = add('', V(-E + 1, -E + 2.5, Z), 'pole ylo'), yh = add('', V(-E + 1, E - 2.5, Z), 'pole yhi');
+    const text = () => { const [a, b] = poles(st.x), [c, d] = poles(st.y); tX.el.textContent = AX[st.x].label + ' \u2192'; tY.el.textContent = AX[st.y].label + ' \u2191';
+      xl.el.textContent = '\u2190 ' + a; xh.el.textContent = b + ' \u2192'; yl.el.textContent = '\u2193 ' + c; yh.el.textContent = '\u2191 ' + d;
+      [tX, tY, xl, xh, yl, yh].forEach(o => { o.w = o.el.offsetWidth || o.w; }); };
+    // picker bar (only in this view)
+    const bar = document.createElement('div'); bar.id = 'axpick'; bar.className = 'gl'; const opt = sel => axes.map(a => `<option value="${a.id}"${a.id === sel ? ' selected' : ''}>${a.label}</option>`).join('');
+    bar.innerHTML = `<label><span>X</span><select data-a="x" aria-label="X axis">${opt(st.x)}</select></label><button type="button" class="sw" title="Swap X and Y" aria-label="Swap X and Y">\u21c4</button><label><span>Y</span><select data-a="y" aria-label="Y axis">${opt(st.y)}</select></label><select class="psel" aria-label="Preset pairs"><option value="">Presets…</option>${PRE.map(([x, y, n]) => `<option value="${x},${y}">${n}</option>`).join('')}</select><div class="pre">${PRE.map(([x, y, n]) => `<button type="button" data-x="${x}" data-y="${y}">${n}</button>`).join('')}</div>`;
+    document.body.appendChild(bar);
+    const css = document.createElement('style'); css.textContent = `#axpick{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(14px + env(safe-area-inset-bottom));z-index:30;display:none;flex-wrap:wrap;align-items:center;justify-content:center;gap:6px 8px;max-width:min(760px,calc(100vw - 16px));padding:8px 10px;border-radius:12px;border:1px solid var(--glass-b);background:rgba(10,8,6,.86);font-family:var(--mono);font-size:10px;letter-spacing:.08em;color:var(--ink-dim)}body.axesview #axpick{display:flex}#axpick label{display:flex;align-items:center;gap:5px}#axpick label span{color:var(--amber-bright);font-weight:700}#axpick select{background:rgba(0,0,0,.35);color:var(--ink);border:1px solid var(--glass-b);border-radius:6px;padding:4px 6px;font:inherit;max-width:44vw}#axpick .sw,#axpick .pre button{all:unset;cursor:pointer;padding:4px 8px;border-radius:999px;border:1px solid var(--glass-b);color:var(--ink-dim)}#axpick .sw:hover,#axpick .pre button:hover{color:var(--ink)}#axpick .pre{display:flex;flex-wrap:wrap;gap:4px;justify-content:center;width:100%}#axpick .pre button[aria-pressed=true]{color:var(--amber-bright);border-color:var(--amber);background:rgba(184,115,51,.16)}body.light #axpick select{background:#fff;color:#1f1a12}#axpick .psel{display:none}@media (max-width:760px){#axpick{font-size:9px;gap:4px;padding:6px;bottom:calc(10px + env(safe-area-inset-bottom));flex-wrap:wrap;width:calc(100vw - 16px)}#axpick label{flex:1 1 40%;min-width:0}#axpick select{max-width:none;width:100%;padding:3px 4px}#axpick .pre{display:none}#axpick .psel{display:block;flex:1 1 100%}}body.snipping #axpick{display:none!important}`; document.head.appendChild(css);
+    const selX = bar.querySelector('[data-a=x]'), selY = bar.querySelector('[data-a=y]');
+    const ui = () => { selX.value = st.x; selY.value = st.y; bar.querySelectorAll('.pre button').forEach(b => b.setAttribute('aria-pressed', b.dataset.x === st.x && b.dataset.y === st.y)); text(); };
+    const choose = (x, y, go = true) => { if (has(x)) st.x = x; if (has(y)) st.y = y; ui(); if (go && cur === 'axes') set('axes', { noCam: true, dur: 1.2 }); };
+    selX.onchange = () => choose(selX.value, st.y); selY.onchange = () => choose(st.x, selY.value); bar.querySelector('.sw').onclick = () => choose(st.y, st.x);
+    const ps = bar.querySelector('.psel'); ps.onchange = () => { const [x, y] = ps.value.split(','); if (x) choose(x, y); ps.value = ''; };
+    bar.querySelectorAll('.pre button').forEach(b => b.onclick = () => choose(b.dataset.x, b.dataset.y)); ui();
+    const show = (on, dur) => { document.body.classList.toggle('axesview', on); if (on) { g.visible = true; text(); }
+      mats.forEach(m => gsap.to(m, { opacity: on ? m.userData.op : 0, duration: dur, overwrite: 'auto', onComplete: () => { if (cur !== 'axes') g.visible = false; } }));
+      const mob = isMobile(); L4.forEach(o => { o.off = !on || (mob && o.el.classList.contains('minor')); if (!o.off) o.w = o.el.offsetWidth || o.w; }); };
+    return { pos, show, choose, presets: PRE, get x() { return st.x; }, get y() { return st.y; }, poles, get box() { return isMobile() ? [-E - 9, E + 4, -E - 34, E + 12] : [-E - 9, E + 4, -E - 26, E + 14]; }, L4 }; })();
+  window.__axesView = AXV;
   function decor(k, dur) { const on = fx && (k === 'beatific' || k === 'galaxy' || k === 'brain');
     gsap.to(glow.material, { opacity: on ? (k === 'brain' ? 0.25 : 0.7) : 0, duration: dur });
     gsap.to(halo.material, { opacity: fx && k === 'beatific' ? 0.5 : 0, duration: dur });
     gsap.to(bb.userData.m, { opacity: k === 'helix' ? 0.32 : 0, duration: dur });
     gsap.to(pulses.material, { opacity: fx && k === 'brain' ? 0.9 : 0, duration: dur });
     glow.position.set(0, k === 'brain' ? -4 : 0, 0); halo.position.copy(glow.position);
-    controls.autoRotateSpeed = k === 'galaxy' ? 0.9 : k === 'sphere' ? 0.6 : /^flat/.test(k) ? 0 : rot0; controls.enableRotate = !/^flat/.test(k);
+    controls.autoRotateSpeed = k === 'galaxy' ? 0.9 : k === 'sphere' ? 0.6 : /^flat|^axes$/.test(k) ? 0 : rot0; controls.enableRotate = !/^flat|^axes$/.test(k);
     if (spine) spine.visible = k === 'default'; axisLbl.forEach(o => o.off = k !== 'default');
-    TLA.show(k === 'timeline', dur);
+    TLA.show(k === 'timeline', dur); AXV.show(k === 'axes', dur);
     const fl = /^flat/.test(k), mob = isMobile(); if (fl) CH.g.visible = true;
     CH.mats.forEach(m => gsap.to(m, { opacity: fl ? m.userData.op : 0, duration: dur, overwrite: 'auto', onComplete: () => { if (!/^flat/.test(cur)) CH.g.visible = false; } }));
     CH.L2.forEach(o => { o.off = !(o.chart === 'both' ? fl : o.chart === k) || (mob && o.el.classList.contains('minor')); if (!o.off) o.w = o.el.offsetWidth || o.w; }); }
@@ -1984,11 +2029,27 @@ body.pol-on #legend{display:none!important}body.phone.panel-open #polkey{display
       <p class="why">${esc(a.note || '')}</p>${a.src ? `<p class="why"><a href="${esc(a.src)}" target="_blank" rel="noopener">${esc(decodeURIComponent(a.src.replace(/^https?:\/\//, '')))}</a></p>` : ''}</div>`; }).join('') + nationalCfg.countries.flatMap(n => ['religion', 'philosophy'].flatMap(k => (n[k] || []).filter(e => e && e.idea === d.id).map(e => `<div class="polbox" style="border-color:${hex(SUBCOL[k])}"><div class="k" style="margin:0">National ${k} · ${esc(n.name || n.id)}${isHist(e) ? ' · historical' : ''}</div><p class="why">${esc(e.why || '')}</p>${e.src ? `<p class="why"><a href="${esc(e.src)}" target="_blank" rel="noopener">${esc(decodeURIComponent(e.src.replace(/^https?:\/\//, '')))}</a></p>` : ''}</div>`))).join('');
   compute(); window.__pol = P;
 })();
+/* ---------- Hide UI: a clean full-map view. Toolbar button or U collapses every control; a small floating button brings them back.
+   H already hides current politics, so this uses U. Kept in share links as ui=0. ---------- */
+(() => { const css = document.createElement('style');
+  css.textContent = `body.uihidden header,body.uihidden footer,body.uihidden #tb,body.uihidden #tbp,body.uihidden #legend,body.uihidden #axpick,body.uihidden #phonenote,body.uihidden #cmpbar,body.uihidden #panel{display:none!important}#uishow{position:fixed;right:calc(12px + env(safe-area-inset-right));bottom:calc(12px + env(safe-area-inset-bottom));z-index:60;display:none;width:34px;height:34px;border-radius:999px;border:1px solid var(--glass-b);background:rgba(10,8,6,.55);color:var(--ink-dim);cursor:pointer;opacity:.55;padding:0}#uishow:hover,#uishow:focus-visible{opacity:1;color:var(--ink)}#uishow svg{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:1.8}body.uihidden #uishow{display:block}body.snipping #uishow{display:none!important}body.light #uishow{background:rgba(250,245,233,.8)}`;
+  document.head.appendChild(css);
+  const tb = document.getElementById('tb'), hb = document.createElement('button'); hb.type = 'button'; hb.dataset.k = 'hideui'; hb.id = 'hideuibtn'; hb.title = 'Hide the controls for a clean map (U)'; hb.setAttribute('aria-label', hb.title);
+  hb.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12s3.5-6 9-6 9 6 9 6-3.5 6-9 6-9-6-9-6zM4 4l16 16"/></svg><span class="t">Hide UI</span>';
+  if (tb) tb.insertBefore(hb, tb.querySelector('.sep'));
+  const sb = document.createElement('button'); sb.type = 'button'; sb.id = 'uishow'; sb.title = 'Show the controls (U)'; sb.setAttribute('aria-label', sb.title);
+  sb.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg>'; document.body.appendChild(sb);
+  const set = on => { document.body.classList.toggle('uihidden', on); (on ? sb : hb).focus({ preventScroll: true }); };
+  hb.onclick = () => set(true); sb.onclick = () => set(false);
+  addEventListener('keydown', e => { const t = document.activeElement; if ((e.key === 'u' || e.key === 'U') && !e.metaKey && !e.ctrlKey && !e.altKey && !document.body.classList.contains('snipping') && !(t && (/^(INPUT|TEXTAREA|SELECT)$/.test(t.tagName) || t.isContentEditable))) set(!document.body.classList.contains('uihidden')); });
+  if (new URLSearchParams(location.hash.slice(1)).get('ui') === '0') set(true);
+  window.__ui_hide = { set, get on() { return document.body.classList.contains('uihidden'); } };
+})();
 /* ---------- Shareable links: view, filter and open idea live in the URL hash ---------- */
 (() => {
   const state = () => { const p = new URLSearchParams(), v = window.__views ? __views.cur : 'default';
-    if (v && v !== 'default') p.set('v', v); if (v === 'politics' && window.__pol && __pol.country !== __pol.first) p.set('pc', __pol.country); if (v === 'politics' && window.__pol && __pol.sub !== 'politics') p.set('ns', __pol.sub); if (filt.dom) p.set('dom', filt.dom); if (filt.rootsOnly) p.set('roots', '1'); if (filt.hidePol) p.set('nopol', '1'); if (filt.noLines) p.set('nolines', '1'); if (filt.imp > 0) p.set('imp', String(filt.imp));
-    if (filt.sel.size) p.set('sel', [...filt.sel].join(',')); if (current && byId[current]) p.set('i', current); return p.toString(); };
+    if (v && v !== 'default') p.set('v', v); if (v === 'axes' && window.__axesView) { p.set('x', __axesView.x); p.set('y', __axesView.y); } if (v === 'politics' && window.__pol && __pol.country !== __pol.first) p.set('pc', __pol.country); if (v === 'politics' && window.__pol && __pol.sub !== 'politics') p.set('ns', __pol.sub); if (filt.dom) p.set('dom', filt.dom); if (filt.rootsOnly) p.set('roots', '1'); if (filt.hidePol) p.set('nopol', '1'); if (filt.noLines) p.set('nolines', '1'); if (filt.imp > 0) p.set('imp', String(filt.imp));
+    if (filt.sel.size) p.set('sel', [...filt.sel].join(',')); if (current && byId[current]) p.set('i', current); if (document.body.classList.contains('uihidden')) p.set('ui', '0'); return p.toString(); };
   let last = null; const write = () => { const s = state(); if (s === last) return; last = s; history.replaceState(null, '', location.pathname + location.search + (s ? '#' + s : '')); };
   const h = new URLSearchParams(location.hash.slice(1)); window.__linkRestore = Object.fromEntries(h);
   if (h.has('dom') || h.has('roots') || h.has('sel') || h.has('nopol')) { filt.hidePol = h.get('nopol') === '1'; const doms = [...document.querySelectorAll('#filt .dchip')].map(c => c.dataset.dom);
@@ -1999,7 +2060,7 @@ body.pol-on #legend{display:none!important}body.phone.panel-open #polkey{display
   const restoreCam = () => { const c = (h.get('cam') || '').split(',').map(Number); if (c.length !== 6 || c.some(n => !isFinite(n))) return;
     gsap.killTweensOf(camera.position); gsap.killTweensOf(controls.target); controls.autoRotate = false; camera.position.set(c[0], c[1], c[2]); controls.target.set(c[3], c[4], c[5]); controls.update(); window.__camRestored = true; };
   { const ax = h.get('ax'), s = document.getElementById('axis'); if (ax && [...s.options].some(o => o.value === ax)) { s.value = ax; s.dispatchEvent(new Event('change')); } }
-  const later = () => { const v = h.get('v') === 'national' ? 'politics' : h.get('v'); if (h.get('pc') && window.__pol) __pol.setCountry(h.get('pc'), true); if (h.get('ns') && window.__pol) __pol.setSub(h.get('ns')); if (v && window.__views && __views.names[v] && v !== 'default') __views.set(v);
+  const later = () => { const v = h.get('v') === 'national' ? 'politics' : h.get('v'); if (h.get('pc') && window.__pol) __pol.setCountry(h.get('pc'), true); if (h.get('ns') && window.__pol) __pol.setSub(h.get('ns')); if (v === 'axes' && window.__axesView) __axesView.choose(h.get('x'), h.get('y'), false); if (v && window.__views && __views.names[v] && v !== 'default') __views.set(v);
     const i = h.get('i'), dly = v ? 2300 : 0; if (i && byId[i]) setTimeout(() => focusIdea(i), dly); if (h.has('cam')) setTimeout(restoreCam, dly + (i ? 1700 : 50)); last = null; setInterval(write, 400); };
   if (location.hash.length > 1) setTimeout(later, reduce ? 100 : 4300); else setInterval(write, 400);
   const toast = document.createElement('div'); toast.id = 'toast'; toast.className = 'gl'; document.body.appendChild(toast);
