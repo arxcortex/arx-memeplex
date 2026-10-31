@@ -21,3 +21,10 @@ Chart views are flat SVG drawings over the map, computed in the page from the sa
 - **Fingerprint** (`v=fingerprint&f=<id>&g=<id>`): the idea's scores as a radar shape. The center is −5, the bold ring 0, the rim +5. A second idea is drawn dashed on top, with the score gap and the biggest differences below. As on the idea page, tone scores are left out when a root idea is involved. Also on every idea page, and as Fingerprints on a comparison.
 
 Test: `python3 t_views.py` (desktop and phone). Screenshots: `views-*-menu.png`, `views-*-family*.png`, `views-*-fingerprint*.png`.
+
+## Spread over time and Tradition flows
+
+- **Spread over time** (`v=spread&m=desc|score&f=<root>`): one stream per root tradition, stacked around a centre line, on a time axis from 1200 BC to today. **Descent** (default): the width at a year is the number of ideas dated that year or earlier that descend from the tradition's root idea through any chain of lineage lines (the root counts too). **Alignment**: the number of ideas dated that year or earlier that score +3 or more on the tradition's axis. An idea can count in several streams. The time axis gives each span (1200 BC, 500 BC, AD 1, 500, 1000, 1500, 1800, 1900, today) a fixed share of the width, because most ideas are recent. Click a stream or chip to pin it.
+- **Tradition flows** (`v=flows&by=era|country`): a Sankey from root traditions to eras (by founding year) or to countries. Every idea is one unit, split equally among the root traditions it descends from. Ideas with no mapped root go to "No mapped root". By country, each country listing is one unit: the religions and philosophies in national.json plus ideas aligned with that country's parties in politics.json. Click a tradition for its family tree.
+
+Test: `python3 t_views2.py` (desktop and phone; checks every stream's counts and the flow totals against the data). Screenshots: `views-*-spread*.png`, `views-*-flows*.png`.
