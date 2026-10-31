@@ -436,6 +436,9 @@ ideas.forEach(d => d.children = ideas.filter(c => (c.parents || []).includes(d.i
    the number of ideas dated after this one (+10), so old ideas don't win just by having had more time.
    reach = descendants counted 0.7^(generations-1); central = PageRank with credit flowing child -> parent; direct = children.
    Each becomes a percentile rank; score = 0.45 reach + 0.30 central + 0.25 direct, top idea = 100; no descendants = 0. */
+/* IMPACT_OVERRIDES: hand-set caps applied after the formula, score = min(computed, cap); keep identical to scripts/impact.py.
+   effective_accelerationism: founded 2022 with almost no later ideas, so the age correction inflated it to ~90; capped at 35. */
+const IMPACT_OVERRIDES = { effective_accelerationism: 35 };
 (function impactScores() { const N = ideas.length, byI = Object.fromEntries(ideas.map(d => [d.id, d])), par = d => (d.parents || []).filter(k => byI[k]);
   const reach = d => { const seen = new Set([d.id]); let out = 0, fr = [d], g = 1; while (fr.length) { const nx = []; fr.forEach(k => k.children.forEach(c => { if (!seen.has(c)) { seen.add(c); nx.push(byI[c]); out += Math.pow(0.7, g - 1); } })); fr = nx; g++; } return out; };
   let pr = Object.fromEntries(ideas.map(d => [d.id, 1 / N]));
@@ -445,7 +448,7 @@ ideas.forEach(d => d.children = ideas.filter(c => (c.parents || []).includes(d.i
   const m = ideas.map(d => { const L = ideas.filter(j => j.year > d.year).length + 10; return [reach(d) / L, pr[d.id] * N / L, d.children.length / L]; });
   const P = [0, 1, 2].map(k => { const v = m.map(r => r[k]); return v.map(x => (v.filter(y => y < x).length + (v.filter(y => y === x).length - 1) / 2) / (N - 1)); });
   const raw = ideas.map((d, i) => d.children.length ? 0.45 * P[0][i] + 0.30 * P[1][i] + 0.25 * P[2][i] : 0), mx = Math.max(...raw) || 1;
-  ideas.forEach((d, i) => d.imp = Math.round(1000 * raw[i] / mx) / 10); window.__impact = Object.fromEntries(ideas.map(d => [d.id, d.imp])); })();
+  ideas.forEach((d, i) => d.imp = Math.min(Math.round(1000 * raw[i] / mx) / 10, IMPACT_OVERRIDES[d.id] ?? 100)); window.__impact = Object.fromEntries(ideas.map(d => [d.id, d.imp])); })();
 
 /* ---------- Layout: FIXED named directions ----------
    x (left-right) = abstraction stance (+5 abstract/ideal on the right, -5 material on the left)

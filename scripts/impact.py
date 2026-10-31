@@ -12,6 +12,12 @@ rescaled so the top idea is 100. Ideas with no descendants score 0.
 """
 import json, os, sys
 SMOOTH, DECAY, DAMP, W = 10, 0.7, 0.85, (0.45, 0.30, 0.25)
+# Hand-set caps, applied after the formula: score = min(computed, cap). Keep identical to IMPACT_OVERRIDES in memeplex.html.
+# Size tiers (memeplex.html): >=70 large, 35-70 medium, <35 small.
+IMPACT_OVERRIDES = {
+    # Founded 2022 with almost no later ideas, so the age correction inflates one child into ~90; capped at 35.
+    'effective_accelerationism': 35,
+}
 
 def scores(ideas):
     ids = [d['id'] for d in ideas]; by = {d['id']: d for d in ideas}; N = len(ids)
@@ -48,7 +54,7 @@ def scores(ideas):
     P = [pct(k) for k in range(3)]
     raw = {i: 0.0 if not kids[i] else sum(W[k] * P[k][i] for k in range(3)) for i in ids}
     mx = max(raw.values()) or 1
-    return {i: round(100 * raw[i] / mx, 1) for i in ids}
+    return {i: min(round(100 * raw[i] / mx, 1), IMPACT_OVERRIDES.get(i, 100)) for i in ids}
 
 if __name__ == '__main__':
     root = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..')
