@@ -568,6 +568,39 @@
           "type": "string",
           "pattern": "^https://"
         }
+      },
+      "quote": {
+        "type": "object",
+        "description": "Optional. One verified quotation shown with the idea: exact wording of a named translation, with the work, section and a primary-text source.",
+        "required": [
+          "text",
+          "by",
+          "work",
+          "src"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "text": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 300
+          },
+          "by": {
+            "type": "string"
+          },
+          "work": {
+            "type": "string",
+            "maxLength": 200
+          },
+          "src": {
+            "type": "string",
+            "pattern": "^https://"
+          },
+          "note": {
+            "type": "string",
+            "maxLength": 200
+          }
+        }
       }
     }
   }
