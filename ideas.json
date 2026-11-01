@@ -18543,7 +18543,7 @@
     "status": "influence",
     "type": "precedent",
     "src": "https://grokipedia.com/page/Euroscepticism_in_the_United_Kingdom",
-    "note": "Euroscepticism 'intensified during Margaret Thatcher's premiership, exemplified by her 1988 Bruges speech'."
+    "note": "Euroskepticism 'intensified during Margaret Thatcher's premiership, exemplified by her 1988 Bruges speech'."
    }
   },
   "party_alignment_gb": {
@@ -21876,7 +21876,7 @@
     "type": "descent",
     "strength": "strong",
     "src": "https://grokipedia.com/page/Pharisees",
-    "note": "Pharisaic scholars such as Yohanan ben Zakkai reestablished teaching at Yavne after 70 CE, codifying oral traditions into the Mishnah."
+    "note": "Pharisaic scholars such as Yohanan ben Zakkai reestablished teaching at Yavne after 70 CE, laying the groundwork for the Mishnah (c. 200 CE)."
    }
   },
   "parent_note": "Dating is contested: Neusner (cited on the Rabbinic Judaism page) has it 'crystallized between 200 and 600 CE'. This node dates it to when Yavne sages first held it."
@@ -27466,8 +27466,8 @@
   "origin_src": "https://grokipedia.com/page/Apocalypticism",
   "origin_note": "The Book of Watchers (1 Enoch 1–36) is 'dated to the third century BCE'; Daniel was composed 'circa 165 BCE'",
   "place": "Judea",
-  "lat": null,
-  "lon": null,
+  "lat": 31.78,
+  "lon": 35.23,
   "thinkers": [],
   "parents": [
    "second_temple_judaism",
@@ -28629,5 +28629,477 @@
    ]
   },
   "edge_notes": {}
+ },
+ {
+  "id": "leninist_theory_of_imperialism",
+  "name": "Leninist theory of imperialism",
+  "root": false,
+  "root_axis": null,
+  "year": 1916,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Imperialism,_the_Highest_Stage_of_Capitalism",
+  "origin_note": "Lenin wrote Imperialism, the Highest Stage of Capitalism 'from January to June 1916 while exiled in Zurich'; it was first published in mid-1917 in Petrograd.",
+  "place": "Zurich",
+  "lat": 47.37,
+  "lon": 8.54,
+  "thinkers": [
+   "Vladimir Lenin",
+   "Rudolf Hilferding",
+   "John A. Hobson"
+  ],
+  "parents": [
+   "leninism",
+   "marxism"
+  ],
+  "plain": "Lenin's idea that empire is what capitalism turns into when big banks and monopolies run it. He said rich countries fight wars to divide up the world.",
+  "summary": "Lenin (1916): monopoly and finance capital push rich states to export capital and carve up the world, so world war and colonies follow from capitalism itself.",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Imperialism,_the_Highest_Stage_of_Capitalism",
+   "https://grokipedia.com/page/Vladimir_Lenin",
+   "https://grokipedia.com/page/Rudolf_Hilferding",
+   "https://grokipedia.com/page/Leninism"
+  ],
+  "domain": [
+   "politics",
+   "philosophy"
+  ],
+  "aliases": [
+   "Imperialism, the Highest Stage of Capitalism",
+   "Lenin on imperialism"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Soviet Union",
+     "src": "https://grokipedia.com/page/Imperialism,_the_Highest_Stage_of_Capitalism",
+     "note": "Became a foundational text of Soviet ideology after its 1917 publication."
+    },
+    {
+     "place": "China",
+     "src": "https://grokipedia.com/page/Imperialism,_the_Highest_Stage_of_Capitalism",
+     "note": "Shaped revolutionary strategies in Russia, China and beyond, and anti-colonial movements."
+    }
+   ]
+  },
+  "edge_notes": {
+   "leninism": {
+    "status": "direct",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Imperialism,_the_Highest_Stage_of_Capitalism",
+    "note": "Lenin's own pamphlet; it 'became a foundational text in Soviet ideology'."
+   },
+   "marxism": {
+    "status": "direct",
+    "type": "descent",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Imperialism,_the_Highest_Stage_of_Capitalism",
+    "note": "Lenin adapted Hobson's and Hilferding's analyses 'to Marxist frameworks'."
+   }
+  },
+  "parent_note": "Also draws on two thinkers not on the map: Hilferding's Finance Capital (1910) and the liberal Hobson's Imperialism: A Study (1902).",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": -2,
+   "marxism": 4,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": -2,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -3,
+   "hierarchy": -2
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "No clear debt to, or quarrel with, Christianity.",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "Calls liberal capitalism parasitic and doomed, though it borrows from the liberal critic Hobson.",
+   "marxism": "Recasts Marx's account of capitalism for the age of monopolies, banks and colonies.",
+   "darwinism": "No clear debt to, or quarrel with, Darwinism.",
+   "nietzsche": "No clear debt to, or quarrel with, Nietzsche.",
+   "critical_theory": "Comes before Critical theory existed, so it cannot descend from it.",
+   "confucianism": "No clear debt to, or quarrel with, Confucianism.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islamic_philosophy": "No clear debt to, or quarrel with, Islamic philosophy.",
+   "islam": "No clear debt to, or quarrel with, Islam.",
+   "judaism": "No clear debt to, or quarrel with, Judaism.",
+   "romanticism": "No clear debt to, or quarrel with, Romanticism.",
+   "nationalism": "Attacks socialists who backed their own nations in the war as betraying workers' internationalism.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Explains war and empire with economic data on cartels, banks and capital exports.",
+   "hierarchy": "Condemns finance oligarchies and the rule of empires over colonies."
+  }
+ },
+ {
+  "id": "khomeinism",
+  "name": "Khomeinism",
+  "root": false,
+  "root_axis": null,
+  "year": 1970,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Guardianship_of_the_Islamic_Jurist",
+  "origin_note": "Khomeini set out guardianship of the jurist 'in a series of lectures delivered in Najaf, Iraq, from January 21 to February 8, 1970', published that year as Islamic Government.",
+  "place": "Najaf",
+  "lat": 32.03,
+  "lon": 44.33,
+  "thinkers": [
+   "Ruhollah Khomeini",
+   "Morteza Motahhari",
+   "Ali Khamenei"
+  ],
+  "parents": [
+   "islam",
+   "transcendent_theosophy"
+  ],
+  "plain": "Khomeini's teaching that, while the hidden Twelfth Imam is away, a top Islamic legal scholar should rule the state. It became the basis of Iran's government in 1979.",
+  "summary": "Khomeini's doctrine (Najaf, 1970): a senior Shia jurist holds guardianship over the state until the Hidden Imam returns; enshrined in Iran's 1979 constitution.",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Khomeinism",
+   "https://grokipedia.com/page/Guardianship_of_the_Islamic_Jurist",
+   "https://grokipedia.com/page/Ruhollah_Khomeini",
+   "https://grokipedia.com/page/Morteza_Motahhari",
+   "https://grokipedia.com/page/Ali_Khamenei"
+  ],
+  "domain": [
+   "politics",
+   "religion"
+  ],
+  "aliases": [
+   "Guardianship of the Islamic Jurist",
+   "Velayat-e faqih",
+   "Wilayat al-faqih"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Iran",
+     "src": "https://grokipedia.com/page/Guardianship_of_the_Islamic_Jurist",
+     "note": "Enshrined in Iran's 1979 Constitution, which makes the Supreme Leader the guardian jurist."
+    },
+    {
+     "place": "Lebanon",
+     "src": "https://grokipedia.com/page/Khomeinism",
+     "note": "Iran aided the founding of Hezbollah in 1982 with guidance rooted in Khomeinist Shia Islamism."
+    }
+   ]
+  },
+  "edge_notes": {
+   "islam": {
+    "status": "direct",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Guardianship_of_the_Islamic_Jurist",
+    "note": "Described as 'a doctrine within Twelver Shia Islam'; many Shia scholars dispute its scope."
+   },
+   "transcendent_theosophy": {
+    "status": "documented",
+    "type": "influence",
+    "strength": "weak",
+    "src": "https://grokipedia.com/page/Khomeinism",
+    "note": "Khomeini's mentor Shahabadi taught him mysticism and theosophy 'drawing on thinkers like Mulla Sadra and Ibn Arabi'."
+   }
+  },
+  "parent_note": "Khomeini broke with the older Shia quietism that kept jurists out of rule; Twelver Shiism as such is not a separate node on the map.",
+  "ratings": {
+   "platonism": 1,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": -4,
+   "marxism": -2,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 2,
+   "islam": 4,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": -2,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 2,
+   "hierarchy": 5
+  },
+  "rationale": {
+   "platonism": "Khomeini studied Plato's Republic and adapted its idea of ideal rule to an Islamic frame.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "No clear debt to, or quarrel with, Christianity.",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "Rejects secular government and puts divine law above popular will.",
+   "marxism": "'Neither East nor West': rejects Soviet communism as well as capitalism, and targets leftists.",
+   "darwinism": "No clear debt to, or quarrel with, Darwinism.",
+   "nietzsche": "No clear debt to, or quarrel with, Nietzsche.",
+   "critical_theory": "No clear debt to, or quarrel with, Critical theory.",
+   "confucianism": "No clear debt to, or quarrel with, Confucianism.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islamic_philosophy": "Khomeini studied Mulla Sadra's philosophy and mysticism, which shaped his joining of spirit and state.",
+   "islam": "A Twelver Shia doctrine, though many Shia scholars, al-Sistani among them, reject its broad form.",
+   "judaism": "No clear debt to, or quarrel with, Judaism.",
+   "romanticism": "No clear debt to, or quarrel with, Romanticism.",
+   "nationalism": "Rejects secular nationalism as alien to sharia, while guarding Iran's oil and sovereignty.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Grounds rule in divine law and the hidden Imam, while running a modern state.",
+   "hierarchy": "One supreme jurist holds guardianship, with veto power over elected bodies."
+  }
+ },
+ {
+  "id": "iranian_nationalism",
+  "name": "Iranian nationalism",
+  "root": false,
+  "root_axis": null,
+  "year": 1865,
+  "year_approx": true,
+  "origin_src": "https://grokipedia.com/page/Mirza_Fatali_Akhundov",
+  "origin_note": "Grokipedia dates its modern form to the late 19th century with Akhundzade and Kermani; Akhundzade's Letters of Kamal ud-Dowla were 'completed in 1865' in Tiflis.",
+  "place": "Tiflis (Tbilisi)",
+  "lat": 41.72,
+  "lon": 44.79,
+  "thinkers": [
+   "Mirza Fatali Akhundov",
+   "Mirza Aqa Khan Kermani",
+   "Hasan Taqizadeh",
+   "Reza Shah",
+   "Mohammad Mosaddegh"
+  ],
+  "parents": [
+   "nationalism",
+   "enlightenment_liberalism"
+  ],
+  "plain": "The idea that Iranians form one nation joined by the Persian language and a history going back to ancient Persia. Its early thinkers praised Iran before Islam.",
+  "summary": "Iran as one nation rooted in pre-Islamic Persia and the Persian language: from Akhundzade's 1860s writings to Reza Shah's state-building and Mosaddegh's oil nationalization.",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Iranian_nationalism",
+   "https://grokipedia.com/page/Mirza_Fatali_Akhundov",
+   "https://grokipedia.com/page/Reza_Shah",
+   "https://grokipedia.com/page/Mohammad_Mosaddegh"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Iran",
+     "src": "https://grokipedia.com/page/Iranian_nationalism",
+     "note": "Became state policy under Reza Shah (1925-1941), who renamed Persia Iran in 1935."
+    },
+    {
+     "place": "Iranian diaspora",
+     "src": "https://grokipedia.com/page/Iranian_nationalism",
+     "note": "Diaspora branches of the National Front and diaspora thinkers keep a secular nationalism alive."
+    }
+   ]
+  },
+  "edge_notes": {
+   "nationalism": {
+    "status": "documented",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Mirza_Fatali_Akhundov",
+    "note": "Akhundzade held 'a secular, progressive vision of vatan (homeland)', an early form of modern Iranian nationalism."
+   },
+   "enlightenment_liberalism": {
+    "status": "documented",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Mirza_Fatali_Akhundov",
+    "note": "Akhundzade fused reverence for ancient Iran 'with Enlightenment ideas of progress and rationalism'; he read Voltaire and Rousseau."
+   }
+  },
+  "parent_note": "Its founders also drew on European Orientalist scholarship and racial theories (Grokipedia, Iranian nationalism); no edge drawn to scientific racism (held).",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 2,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "islam": -2,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 4,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -1,
+   "hierarchy": 1
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "No clear debt to, or quarrel with, Christianity.",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "Its founder joined pride in ancient Iran with Enlightenment ideas of progress and reason.",
+   "marxism": "No clear debt to, or quarrel with, Marxism.",
+   "darwinism": "No clear debt to, or quarrel with, Darwinism.",
+   "nietzsche": "Comes before Nietzsche existed, so it cannot descend from it.",
+   "critical_theory": "Comes before Critical theory existed, so it cannot descend from it.",
+   "confucianism": "No clear debt to, or quarrel with, Confucianism.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islamic_philosophy": "No clear debt to, or quarrel with, Islamic philosophy.",
+   "islam": "Early thinkers blamed Arab-imposed Islam for Iran's decline; later forms made room for Shia identity.",
+   "judaism": "No clear debt to, or quarrel with, Judaism.",
+   "romanticism": "No clear debt to, or quarrel with, Romanticism.",
+   "nationalism": "A nationalism of language, land and ancient Persian empire.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Centers on language, territory and history; its founder was a materialist.",
+   "hierarchy": "Ranges from Reza Shah's authoritarian state-building to Mosaddegh's democratic nationalism."
+  }
+ },
+ {
+  "id": "keynesian_economics",
+  "name": "Keynesian economics",
+  "root": false,
+  "root_axis": null,
+  "year": 1936,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Keynesian_economics",
+  "origin_note": "Keynes's General Theory appeared in February 1936, after his Cambridge lectures of 1933 and work with the 'Cambridge Circus' of younger economists.",
+  "place": "Cambridge, England",
+  "lat": 52.21,
+  "lon": 0.12,
+  "thinkers": [
+   "John Maynard Keynes",
+   "Richard Kahn",
+   "Joan Robinson",
+   "John Hicks",
+   "Paul Samuelson"
+  ],
+  "parents": [],
+  "plain": "Keynes's idea that slumps happen when people and firms spend too little. He said governments should spend more in bad times to bring back jobs.",
+  "summary": "Keynes (1936): too little total spending can leave an economy stuck with mass unemployment, so governments should boost demand, chiefly through spending.",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Keynesian_economics",
+   "https://grokipedia.com/page/John_Maynard_Keynes",
+   "https://grokipedia.com/page/The_General_Theory_of_Employment,_Interest_and_Money",
+   "https://grokipedia.com/page/Joan_Robinson"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "aliases": [
+   "Keynesianism"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Western economies",
+     "src": "https://grokipedia.com/page/Keynesian_economics",
+     "note": "Underpinned post-World War II demand management until the 1970s stagflation."
+    },
+    {
+     "place": "Cambridge, England",
+     "src": "https://grokipedia.com/page/Keynesian_economics",
+     "note": "Post-Keynesian economics developed there around Joan Robinson, Nicholas Kaldor and Michal Kalecki."
+    }
+   ]
+  },
+  "parent_note": "Keynes learned economics from Alfred Marshall and broke with the classical view that markets clear by themselves; neither Marshall's school nor classical economics is a node yet.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 2,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -3,
+   "hierarchy": 0
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "No clear debt to, or quarrel with, Christianity.",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "Keeps the market economy but drops the laissez-faire belief that markets right themselves; Keynes backed the Liberals' 1929 jobs plan.",
+   "marxism": "No clear debt to, or quarrel with, Marxism.",
+   "darwinism": "No clear debt to, or quarrel with, Darwinism.",
+   "nietzsche": "No clear debt to, or quarrel with, Nietzsche.",
+   "critical_theory": "No clear debt to, or quarrel with, Critical theory.",
+   "confucianism": "No clear debt to, or quarrel with, Confucianism.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islamic_philosophy": "No clear debt to, or quarrel with, Islamic philosophy.",
+   "islam": "No clear debt to, or quarrel with, Islam.",
+   "judaism": "No clear debt to, or quarrel with, Judaism.",
+   "romanticism": "No clear debt to, or quarrel with, Romanticism.",
+   "nationalism": "No clear debt to, or quarrel with, Nationalism.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "A practical theory of spending, jobs, interest and money.",
+   "hierarchy": "Takes no side on social rank; it is about managing total demand."
+  }
  }
 ]
