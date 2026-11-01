@@ -18567,6 +18567,13 @@
    ]
   },
   "edge_notes": {
+   "nationalism": {
+    "status": "documented",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Reform_UK",
+    "note": "Its foundational principles 'emphasize the restoration of British sovereignty, the preservation of national identity and cultural values'."
+   },
    "populism": {
     "status": "direct",
     "type": "descent",
@@ -18578,13 +18585,6 @@
     "type": "precedent",
     "src": "https://grokipedia.com/page/Euroscepticism_in_the_United_Kingdom",
     "note": "Euroscepticism 'intensified during Margaret Thatcher's premiership, exemplified by her 1988 Bruges speech'."
-   },
-   "nationalism": {
-    "status": "documented",
-    "type": "influence",
-    "strength": "moderate",
-    "src": "https://grokipedia.com/page/Reform_UK",
-    "note": "Its foundational principles 'emphasize the restoration of British sovereignty, the preservation of national identity and cultural values'."
    }
   },
   "party_alignment_gb": {
