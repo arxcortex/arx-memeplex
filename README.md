@@ -10,7 +10,7 @@ Anyone with no background in philosophy should be able to read every idea, tradi
 
 | File | What it holds |
 |---|---|
-| `axes.json` | The 20 axes: 16 traditions (Platonism, Christianity, Marxism, critical theory, Confucianism, Daoism, Buddhism, Vedanta, Islamic philosophy...), 2 registers (humor, irony) and 2 stances (hierarchy; abstract vs material). Registers are stored for every idea but not shown for root ideas. The stances show on every idea, roots included. |
+| `axes.json` | The 23 axes: 19 traditions (Platonism, Christianity, Marxism, critical theory, Confucianism, Daoism, Buddhism, Vedanta, Islam, Judaism...), 2 registers (humor, irony) and 2 stances (hierarchy; abstract vs material). Registers are stored for every idea but not shown for root ideas. The stances show on every idea, roots included. |
 | `ideas.json` | The ideas: date, place, thinkers, parent ideas, plain explanation, scores on every axis with reasons, and sources. |
 | `thinkers.json` | Optional. Maps a thinker name, exactly as written in `ideas.json`, to its Grokipedia page, or its English Wikipedia page when Grokipedia has no correct one. Only names with a checked, matching page are listed; the map shows the rest as plain text. |
 | `schema/idea.schema.json` | JSON Schema for one idea record. |
@@ -21,7 +21,7 @@ Anyone with no background in philosophy should be able to read every idea, tradi
 
 ## How an idea is scored
 
-Each score answers: how much does this idea descend from (+) or stand against (-) this tradition? 0 means neutral or unrelated. The hierarchy stance asks a different question: does the idea favor (+) or oppose (-) ranked order? The abstraction stance asks whether reality is ideas or spirit (+) or matter (-). Every idea is scored on all 20 axes. The map places ideas on fixed directions: abstract vs material left-right, hierarchy front-back, time up (see docs/RUBRIC.md). Root ideas (`root: true`) are the starting point of a tradition. Lineage runs forward in time: a parent idea is never later than its child.
+Each score answers: how much does this idea descend from (+) or stand against (-) this tradition? 0 means neutral or unrelated. The hierarchy stance asks a different question: does the idea favor (+) or oppose (-) ranked order? The abstraction stance asks whether reality is ideas or spirit (+) or matter (-). Every idea is scored on all 23 axes. The map places ideas on fixed directions: abstract vs material left-right, hierarchy front-back, time up (see docs/RUBRIC.md). Root ideas (`root: true`) are the starting point of a tradition. Lineage runs forward in time: a parent idea is never later than its child.
 
 Facts (dates, places, thinkers) follow the cited sources. Sources are Grokipedia pages (`https://grokipedia.com/page/<Title>`); SEP or IEP may be added alongside. Wikipedia is not used. Scores are editorial judgments, each with its stated reason. Where an idea has no recorded relation to a tradition, a half-strength stance or affinity reading may be used instead (see docs/METHODOLOGY.md).
 

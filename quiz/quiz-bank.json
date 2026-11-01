@@ -17,7 +17,6 @@
   "daoism",
   "buddhism",
   "vedanta",
-  "islamic_philosophy",
   "islam",
   "judaism",
   "romanticism",
@@ -2154,9 +2153,9 @@
    "statement": "The best ruler would be a philosopher who understands both reason and divine law.",
    "scale": "likert5",
    "weights": {
-    "islamic_philosophy": 3,
     "platonism": 2,
-    "hierarchy": 2
+    "hierarchy": 2,
+    "islam": 3
    },
    "lean": {
     "agree": [],
@@ -2506,8 +2505,7 @@
    "scale": "likert5",
    "weights": {
     "platonism": -2,
-    "islamic_philosophy": -2,
-    "islam": -1,
+    "islam": -2,
     "enlightenment_liberalism": 1
    },
    "lean": {
@@ -2543,7 +2541,7 @@
     "darwinism": 2,
     "platonism": -3,
     "vedanta": -3,
-    "islamic_philosophy": -1
+    "islam": -1
    },
    "source": "https://grokipedia.com/page/Materialism",
    "why": "Materialism opposes idealism and underlies Marx's historical materialism.",
@@ -2638,7 +2636,7 @@
    "weights": {
     "darwinism": 5,
     "christianity": -3,
-    "islamic_philosophy": -2
+    "islam": -2
    },
    "source": "https://grokipedia.com/page/Natural_selection",
    "why": "Natural selection explains design without a designer.",
@@ -2719,10 +2717,10 @@
    "statement": "Reason and religious faith, properly understood, never truly contradict each other.",
    "scale": "likert5",
    "weights": {
-    "islamic_philosophy": 3,
     "aristotelianism": 1,
     "christianity": 2,
-    "nietzsche": -2
+    "nietzsche": -2,
+    "islam": 3
    },
    "source": "https://grokipedia.com/page/Islamic_philosophy",
    "why": "Falsafa sought to reconcile Aristotelian reason with revelation, as in Averroes.",
@@ -2843,7 +2841,7 @@
     "christianity": -3,
     "platonism": -3,
     "stoicism": -2,
-    "islamic_philosophy": -2
+    "islam": -2
    },
    "source": "https://grokipedia.com/page/Existentialism",
    "why": "Existentialism and Nietzsche locate value in human choice, not cosmic order.",
@@ -2988,7 +2986,7 @@
     "hierarchy": 3,
     "platonism": 2,
     "hermeticism": 1,
-    "islamic_philosophy": 2
+    "islam": 2
    },
    "source": "https://grokipedia.com/page/Neoplatonism",
    "why": "Neoplatonic emanation ranks being by levels; it shaped Islamic philosophy.",
@@ -3109,8 +3107,8 @@
    "weights": {
     "vedanta": 3,
     "hermeticism": 1,
-    "islamic_philosophy": 1,
-    "christianity": -1
+    "christianity": -1,
+    "islam": 1
    },
    "source": "https://grokipedia.com/page/Perennial_philosophy",
    "why": "The perennial philosophy finds one truth beneath all religions.",
@@ -3136,10 +3134,10 @@
    "statement": "Careful logical proof can show that God exists.",
    "scale": "likert5",
    "weights": {
-    "islamic_philosophy": 3,
     "aristotelianism": 1,
     "christianity": 1,
-    "nietzsche": -2
+    "nietzsche": -2,
+    "islam": 3
    },
    "source": "https://grokipedia.com/page/Avicenna",
    "why": "Avicenna's proof of the Truthful is a landmark of rational theology.",
@@ -3319,7 +3317,6 @@
    "statement": "It's the Islamic world, around 1100. The Persian scholar al-Ghazali writes that philosophers like Avicenna fall into unbelief on three points: that the world is eternal, that God knows only universals and not particulars, and that bodies are not resurrected. You'd side with al-Ghazali.",
    "scale": "likert5",
    "weights": {
-    "islamic_philosophy": -3,
     "islam": 2,
     "aristotelianism": -1
    },
@@ -3423,7 +3420,7 @@
    "weights": {
     "aristotelianism": -2,
     "christianity": 2,
-    "islamic_philosophy": -2
+    "islam": -2
    },
    "source": "https://grokipedia.com/page/Condemnations_of_1210–1277",
    "why": "Tempier's condemnation targeted Aristotelian and Averroist theses in defense of Catholic doctrine.",
@@ -3465,8 +3462,8 @@
    "statement": "It's Baghdad, early in the 800s. Caliph al-Ma'mun is paying scholars to translate Aristotle, Plato and other Greek thinkers into Arabic. You're an adviser; you'd urge him to spend even more on it.",
    "scale": "likert5",
    "weights": {
-    "islamic_philosophy": 3,
-    "aristotelianism": 1
+    "aristotelianism": 1,
+    "islam": 3
    },
    "source": "https://grokipedia.com/page/House_of_Wisdom",
    "why": "The House of Wisdom's translations laid the base for falsafa.",
@@ -3730,9 +3727,9 @@
    "statement": "Human reason can reach, in plain argument, the same truths that prophets teach through images and stories.",
    "scale": "likert5",
    "weights": {
-    "islamic_philosophy": 4,
     "aristotelianism": 1,
-    "enlightenment_liberalism": 1
+    "enlightenment_liberalism": 1,
+    "islam": 4
    },
    "source": "https://grokipedia.com/page/Averroes",
    "why": "Averroes sought to harmonize Aristotelian philosophy with Quranic revelation.",
@@ -4017,15 +4014,10 @@
     "neg": 1,
     "net": 2
    },
-   "islamic_philosophy": {
-    "pos": 1,
-    "neg": 1,
-    "net": 1
-   },
    "islam": {
-    "pos": 6,
+    "pos": 7,
     "neg": 3,
-    "net": 7
+    "net": 9
    },
    "judaism": {
     "pos": 4,
@@ -4139,15 +4131,10 @@
     "neg": 5,
     "net": 0
    },
-   "islamic_philosophy": {
-    "pos": 6,
-    "neg": 5,
-    "net": 6
-   },
    "islam": {
-    "pos": 3,
-    "neg": 5,
-    "net": 0
+    "pos": 9,
+    "neg": 9,
+    "net": 9
    },
    "judaism": {
     "pos": 4,
@@ -4261,15 +4248,10 @@
     "neg": 4,
     "net": 0
    },
-   "islamic_philosophy": {
+   "islam": {
     "pos": 2,
     "neg": 2,
     "net": 1
-   },
-   "islam": {
-    "pos": 0,
-    "neg": 0,
-    "net": 0
    },
    "judaism": {
     "pos": 0,
@@ -4383,15 +4365,10 @@
     "neg": 6,
     "net": 2
    },
-   "islamic_philosophy": {
-    "pos": 7,
-    "neg": 6,
-    "net": 7
-   },
    "islam": {
-    "pos": 9,
-    "neg": 8,
-    "net": 7
+    "pos": 16,
+    "neg": 12,
+    "net": 18
    },
    "judaism": {
     "pos": 8,

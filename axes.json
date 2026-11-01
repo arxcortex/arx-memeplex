@@ -105,18 +105,11 @@
   "plain": "Indian philosophy built on the Upanishads. Its central idea is that the deepest self (Atman) is linked to, or the same as, ultimate reality (Brahman)."
  },
  {
-  "id": "islamic_philosophy",
-  "label": "Islamic philosophy",
-  "group": "tradition",
-  "description": "Greek philosophy recast in Arabic: reason, God, emanation, the intellect.",
-  "plain": "Philosophy in the medieval Islamic world. Thinkers like al-Kindi and Avicenna took up Aristotle and Plato and joined them with belief in one God."
- },
- {
   "id": "islam",
   "label": "Islam",
   "group": "tradition",
-  "description": "Revelation to Muhammad, the Quran, tawhid, law and the mystical path.",
-  "plain": "The religion founded on the Quran and the teachings of the Prophet Muhammad in 7th-century Arabia."
+  "description": "Revelation to Muhammad, the Quran, tawhid, law, kalam theology, falsafa (Greek philosophy recast in Arabic) and the mystical path.",
+  "plain": "The religion founded on the Quran and the teachings of the Prophet Muhammad in 7th-century Arabia, with its theology (kalam) and philosophy (falsafa), where thinkers like Avicenna joined Aristotle and Plato with belief in one God."
  },
  {
   "id": "judaism",
