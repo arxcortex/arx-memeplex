@@ -192,6 +192,7 @@ footer{position:absolute;right:32px;bottom:20px;z-index:10;font-family:var(--mon
 #help .go{margin-top:18px;background:var(--amber);color:var(--bg);border:0;font-family:var(--mono);font-size:11px;letter-spacing:.2em;text-transform:uppercase;padding:10px 16px;cursor:pointer}
 #help .x{position:absolute;top:12px;right:14px;background:none;border:1px solid var(--rule);color:var(--amber);font-family:var(--mono);width:26px;height:26px;cursor:pointer}
 #panel .plain{font-size:20px;line-height:1.4;margin-top:14px}
+#panel .pq{margin:14px 0 4px;padding:2px 0 2px 12px;border-left:2px solid var(--amber)}#panel .pq blockquote{margin:0;font-style:italic;font-size:17px;line-height:1.4;color:var(--ink)}#panel .pq figcaption{margin-top:5px;font-family:var(--mono);font-size:10px;letter-spacing:.06em;color:var(--ink-dim)}#panel .pq a{color:var(--amber-bright)}
 #panel .detail{font-size:15px;line-height:1.4;color:var(--ink-dim);margin-top:8px}
 #panel .scale{font-size:14px;line-height:1.4;color:var(--ink-dim);margin:0 0 8px}
 #panel .badge{display:inline-block;font-family:var(--mono);font-size:9px;letter-spacing:.2em;text-transform:uppercase;color:var(--bg);background:var(--amber);padding:3px 7px;margin-top:8px}
@@ -389,7 +390,7 @@ body.phone #tb{flex-wrap:wrap!important;overflow:visible!important;justify-conte
   </div></div>
   <footer>Drag to turn · Scroll to zoom · Click an idea · Share card on its page · M for the menu · R to reset · ? for help</footer>
 </div>
-<script src="assets/sharecard.js?v=20261030"></script>
+<script src="assets/sharecard.js?v=20261101"></script>
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
 <script type="importmap">
 { "imports": {
@@ -432,6 +433,7 @@ const politicsCfg = (await load('politics.json').then(okPol).catch(() => null))
   || POLITICS_EMBEDDED;
 const thinkerUrl = t => { const u = thinkerLinks[t]; return (typeof u === 'string' && /^https:\/\/(grokipedia\.com\/page|en\.wikipedia\.org\/wiki)\//.test(u)) ? u : null; };
 const byId = Object.fromEntries(ideas.map(d => [d.id, d]));
+window.__quizHL = new Set(); // quiz matches lit on the map (see QUIZZES below)
 ideas.forEach(d => d.children = ideas.filter(c => (c.parents || []).includes(d.id)).map(c => c.id));
 /* IMPACT (0-100), from the lineage graph only; same formula as scripts/impact.py. Age-corrected: each measure is divided by
    the number of ideas dated after this one (+10), so old ideas don't win just by having had more time.
@@ -641,6 +643,22 @@ const treeOn = () => filt.rootsOnly || filt.sel.size > 0;
 const isPol = d => d.modern_politics === true || Object.keys(d).some(k => /^party_alignment/.test(k));
 const filterOn = () => treeOn() || !!filt.dom || filt.hidePol || filt.imp > 0;
 const inFilter = d => !(filt.hidePol && isPol(d)) && domOK(d) && (!treeOn() || (filt.rootsOnly && d.root) || [...filt.sel].some(r => families[r].has(d.id)));
+/* FILTER CONTEXT: a tradition/branch or domain filter keeps, faded, the line from the filtered ideas up to their nearest
+   root (Catholic line -> Apostolic Christianity -> Christianity), with the lineage lines along it. For each kept idea none of
+   whose parents is kept (where the filtered set enters the map), the shortest parent chain(s) to the nearest root(s) are added.
+   Only existing parent edges are walked; nothing is added to the data. Recomputed in applyFilter. */
+let ctxSet = new Set();
+const inCtx = d => ctxSet.has(d.id), shownF = d => inFilter(d) || inCtx(d);
+function computeCtx() { ctxSet = new Set(); if (!treeOn() && !filt.dom) return;
+  const ok = p => !(filt.hidePol && isPol(p));
+  ideas.forEach(d => { if (!inFilter(d) || d.root || (d.parents || []).some(k => byId[k] && inFilter(byId[k]))) return;
+    const prev = new Map(), depth = new Map(); let frontier = (d.parents || []).filter(k => byId[k] && ok(byId[k])); frontier.forEach(k => { prev.set(k, [d.id]); depth.set(k, 1); });
+    let found = [];
+    while (frontier.length && !found.length) { found = frontier.filter(k => byId[k].root); if (found.length) break;
+      const next = []; frontier.forEach(k => (byId[k].parents || []).forEach(p => { if (!byId[p] || !ok(byId[p])) return;
+        if (!depth.has(p)) { depth.set(p, depth.get(k) + 1); prev.set(p, [k]); next.push(p); } else if (depth.get(p) === depth.get(k) + 1) prev.get(p).push(k); })); frontier = next; }
+    const seen = new Set(), back = k => { if (k === d.id || seen.has(k)) return; seen.add(k); if (!inFilter(byId[k])) ctxSet.add(k); (prev.get(k) || []).forEach(back); };
+    found.forEach(back); }); }
 const famOf = d => [...filt.sel].find(r => families[r].has(d.id)); // first selected family (selection order) for tint
 window.__families = Object.fromEntries(roots.map(r => [r.id, families[r.id].size]));
 /* ---------- BRANCHES start: named family views. Members = seeds + descendants via parent edges
@@ -769,6 +787,7 @@ function renderPanel(d) {
    ${d.root ? `<span class="badge" title="The idea that starts one of the sixteen traditions used for scoring">Root idea of ${esc(axes.find(a => a.id === d.root_axis).label)}</span>` : ''}
    <p class="plain">${esc(d.plain || d.summary)}</p>
    ${d.plain && d.summary ? `<p class="detail">${esc(d.summary)}</p>` : ''}
+   ${d.quote && d.quote.text ? `<figure class="pq"><blockquote>“${esc(d.quote.text)}”</blockquote><figcaption>${esc(d.quote.by)}, ${d.quote.src ? `<a class="tlink" href="${esc(d.quote.src)}" target="_blank" rel="noopener">${esc(d.quote.work)}</a>` : esc(d.quote.work)}</figcaption></figure>` : ''}
    ${window.__pol ? __pol.panelHtml(d) : ''}
    <div class="tools"><button data-act="compare">Compare</button><button data-act="lineage">Trace lineage</button><button data-act="kin" title="Every ancestor and descendant, grouped by steps away">Ancestors &amp; descendants</button><button data-act="ftree" title="Show the full family tree, one band per generation">Family tree</button><button data-act="fprint" title="Show the scores as a radar shape">Fingerprint</button><button data-act="card" title="Make a 9:16 image for social media">Share card</button></div>
    <div class="kt2"><div><div class="k">Key thinkers</div><div class="chips">${d.thinkers.map(t => { const u = thinkerUrl(t); return u ? `<a class="tlink" href="${esc(u)}" target="_blank" rel="noopener" title="${esc(t)} (opens in a new tab)">${esc(t)}</a>` : `<span>${esc(t)}</span>`; }).join('')}</div></div>
@@ -826,23 +845,33 @@ function closePanel() {
   gsap.to(panel, isMobile() ? { yPercent: 100, duration: reduce ? 0 : 0.5, ease: 'power3.in' } : { xPercent: 100, duration: reduce ? 0 : 0.5, ease: 'power3.in', onComplete: () => gsap.set(panel, { autoAlpha: 0 }) });
 }
 const LINE_UP = new THREE.Color(0xe89968), LINE_DN = new THREE.Color(0xe8e2d4), LINE_BASE = new THREE.Color(0xb87333);
+/* quiz matches: a set of ideas lit on the map, no lineage; while the set is non-empty, highlight(null) falls back to it */
+function hlSet(S) { const F = filterOn(), vis = d => shownF(d);
+  lines.forEach(l => { const { a, b } = l.userData, fin = vis(byId[a]) && vis(byId[b]);
+    gsap.to(l.material, { opacity: (F && !fin) ? 0.02 : (S.has(a) && S.has(b)) ? 0.6 : 0.04, duration: 0.5, overwrite: 'auto' });
+    gsap.to(l.material.color, { r: LINE_BASE.r, g: LINE_BASE.g, b: LINE_BASE.b, duration: 0.5, overwrite: 'auto' }); });
+  ideas.forEach(d => { const v = vis(d);
+    gsap.to(d.star.halo.material, { opacity: !v ? 0.04 : S.has(d.id) ? 0.7 : 0.1, duration: 0.5, overwrite: 'auto' });
+    gsap.to(d.star.core.material, { opacity: v ? 1 : 0.13, duration: 0.5, overwrite: 'auto' }); });
+  labels.forEach(o => { if (!o.d) return; const on = S.has(o.d.id); o.el.classList.remove('sel'); o.el.classList.toggle('qz', on); o.off = !on; o.lin = on; o.el.style.opacity = on ? 1 : 0.2; }); }
 function highlight(id) {
+  if (!id && window.__quizHL.size) return hlSet(window.__quizHL);
   if (filt.noLines) setTimeout(applyLines);
   // focus+context: the whole ancestry (copper) and descent (ivory) stay lit, the rest recedes
-  const L = id ? lineage(id) : null, F = filterOn(), vis = d => inFilter(d);
+  const L = id ? lineage(id) : null, F = filterOn(), vis = d => inFilter(d), cx = d => inCtx(d);
   const inUp = k => k === id || L.up.has(k), inDn = k => k === id || L.dn.has(k);
   lines.forEach(l => { const { a, b } = l.userData;
     const up = L && inUp(a) && inUp(b), dn = L && inDn(a) && inDn(b);
     const c = up ? LINE_UP : dn ? LINE_DN : LINE_BASE;
-    const fin = vis(byId[a]) && vis(byId[b]);
-    gsap.to(l.material, { opacity: (F && !fin) ? 0.02 : !L ? (F ? 0.45 : 0.28) : (up || dn) ? 0.85 : 0.04, duration: 0.5, overwrite: 'auto' });
+    const fin = vis(byId[a]) && vis(byId[b]), fcx = !fin && byId[a] && byId[b] && (vis(byId[a]) || cx(byId[a])) && (vis(byId[b]) || cx(byId[b]));
+    gsap.to(l.material, { opacity: (F && fcx) ? (!L ? 0.22 : (up || dn) ? 0.6 : 0.04) : (F && !fin) ? 0.02 : !L ? (F ? 0.45 : 0.28) : (up || dn) ? 0.85 : 0.04, duration: 0.5, overwrite: 'auto' });
     gsap.to(l.material.color, { r: c.r, g: c.g, b: c.b, duration: 0.5, overwrite: 'auto' }); });
   const lit = d => !L || d.id === id || L.up.has(d.id) || L.dn.has(d.id);
-  ideas.forEach(d => { const v = vis(d);
-    gsap.to(d.star.halo.material, { opacity: !v ? 0.04 : lit(d) ? 0.55 : 0.1, duration: 0.5, overwrite: 'auto' });
-    gsap.to(d.star.core.material, { opacity: v ? 1 : 0.13, duration: 0.5, overwrite: 'auto' }); });
-  labels.forEach(o => { if (!o.d) return; const v = vis(o.d);
-    o.el.classList.toggle('sel', o.d.id === id); o.off = (F && !v && o.d.id !== id) || (!!L && !lit(o.d)); /* selection: only the lineage (ancestors + descendants + selected) keeps its names */ o.lin = !!L && lit(o.d); o.el.style.opacity = lit(o.d) ? 1 : 0.2; });
+  ideas.forEach(d => { const v = vis(d), c = cx(d);
+    gsap.to(d.star.halo.material, { opacity: !v ? (c && lit(d) ? 0.22 : 0.04) : lit(d) ? 0.55 : 0.1, duration: 0.5, overwrite: 'auto' });
+    gsap.to(d.star.core.material, { opacity: v ? 1 : c ? 0.5 : 0.13, duration: 0.5, overwrite: 'auto' }); });
+  labels.forEach(o => { if (!o.d) return; const v = vis(o.d), c = cx(o.d);
+    o.el.classList.toggle('sel', o.d.id === id); o.el.classList.toggle('ctx', c && o.d.id !== id); o.off = (F && !v && !c && o.d.id !== id) || (!!L && !lit(o.d)); /* selection: only the lineage (ancestors + descendants + selected) keeps its names */ o.lin = !!L && lit(o.d); o.el.style.opacity = lit(o.d) ? 1 : 0.2; });
 }
 let camTl;
 function focusIdea(id) {
@@ -891,7 +920,7 @@ function pick(e) {
   const base = e.pointerType === 'touch' || e.pointerType === 'pen' ? PICK.touch : PICK.mouse;
   const fpx = r.height / (2 * Math.tan(THREE.MathUtils.degToRad(camera.fov / 2)));
   let best = null, bp = Infinity, bz = Infinity;
-  ideas.forEach(d => { if (!inFilter(d) || !d.star.grp.visible) return;
+  ideas.forEach(d => { if (!shownF(d) || !d.star.grp.visible) return;
     pv.copy(d.pos).project(camera); if (pv.z > 1 || pv.z < -1) return;
     const sx = (pv.x + 1) / 2 * r.width, sy = (1 - pv.y) / 2 * r.height, px = Math.hypot(sx - cx, sy - cy);
     const cd = camera.position.distanceTo(d.pos), rad = Math.max(base, 0.42 * d.star.grp.scale.x * fpx / cd + 4);
@@ -900,7 +929,7 @@ function pick(e) {
   return best;
 }
 window.__pick = (x, y, t) => { const d = pick({ clientX: x, clientY: y, pointerType: t || 'mouse' }); return d ? d.id : null; };
-window.__proj = id => { const d = byId[id], r = renderer.domElement.getBoundingClientRect(); pv.copy(d.pos).project(camera); return { x: r.left + (pv.x + 1) / 2 * r.width, y: r.top + (1 - pv.y) / 2 * r.height, z: camera.position.distanceTo(d.pos), ok: inFilter(d) && d.star.grp.visible && pv.z < 1 }; };
+window.__proj = id => { const d = byId[id], r = renderer.domElement.getBoundingClientRect(); pv.copy(d.pos).project(camera); return { x: r.left + (pv.x + 1) / 2 * r.width, y: r.top + (1 - pv.y) / 2 * r.height, z: camera.position.distanceTo(d.pos), ok: shownF(d) && inFilter(d) && d.star.grp.visible && pv.z < 1 }; };
 window.__pickCam = { get: () => [camera.position.toArray(), controls.target.toArray()], set: (p, t) => { if (panelOpen) closePanel(); camTl && camTl.kill(); gsap.killTweensOf(camera.position); gsap.killTweensOf(controls.target);
   controls.autoRotate = false; camera.position.fromArray(p); controls.target.fromArray(t); controls.update(); } };
 let hovered = null, held = false; // hovered stays null: nothing lights up on hover, only a click selects. held: a mouse button is down (left or right), so a drag/pan may be under way
@@ -959,7 +988,7 @@ function placeLabels() {
     if (center) { o.sx = sx; o.sy = sy; o.dist = dist; const w = o.w || 60; placed.push([sx - w / 2 - LOD.pad, sy - 1, sx + w / 2 + LOD.pad, sy + LOD.h]); show(o); return; }
     let t = d.root ? 4 : d.imp >= 70 ? 3 : d.imp >= 35 ? 2 : 1; // label level of detail by impact
     if (F) t += 1; if (o.lin) t += 2;
-    const must = d.id === current || d.id === hovered || (d.root && window.__views && window.__views.cur === 'tree') || (window.__pol && __pol.on && __pol.fac.has(d.id)); // tree view: every root tradition named at the base
+    const must = d.id === current || d.id === hovered || (d.root && window.__views && window.__views.cur === 'tree') || (window.__pol && __pol.on && __pol.fac.has(d.id)) || window.__quizHL.has(d.id); // quiz matches always named; tree view: every root tradition named at the base
     if (!must && ((t === 2 && dist > LOD.mid) || (t <= 1 && dist > LOD.near))) { el.style.display = 'none'; hidZoom++; return; }
     o.sx = sx; o.sy = sy; o.dist = dist; o.t = must ? 99 : t; cand.push(o); });
   cand.sort((a, b) => b.t - a.t || ((b.d && b.d.imp) || 0) - ((a.d && a.d.imp) || 0) || a.dist - b.dist); // overlaps: higher impact wins
@@ -1065,6 +1094,7 @@ function resetView() {
   if (window.__viz) __viz.close();
   if (window.__views && __views.cur !== 'default') __views.set('default', { noCam: true });
   if (window.__stretch) __stretch.reset(false, true);
+  if (window.__quiz) __quiz.showMap(false);
   clearFilter(); closePanel(); current = null; highlight(null); gsap.set(tip, { autoAlpha: 0 });
   camTl && camTl.kill();
   camTl = gsap.timeline({ defaults: { duration: reduce ? 0 : 1.6, ease: 'power3.inOut' }, onComplete: () => { controls.autoRotate = !reduce; } })
@@ -1089,18 +1119,18 @@ function toggleFilt(open = !filtOpen) { filtOpen = open; filtBtn.setAttribute('a
   else gsap.to(filtBox, isMobile() ? { yPercent: 100, duration: reduce ? 0 : 0.35, ease: 'power3.in', onComplete: () => gsap.set(filtBox, { display: 'none' }) } : { height: 0, autoAlpha: 0, duration: reduce ? 0 : 0.3, onComplete: () => gsap.set(filtBox, { display: 'none' }) }); }
 filtBtn.onclick = () => toggleFilt(); filtBox.querySelector('.done').onclick = () => toggleFilt(false);
 function applyFilter(init) {
-  const n = ideas.filter(inFilter).length;
+  computeCtx(); const n = ideas.filter(inFilter).length;
   filtTg.setAttribute('aria-pressed', filt.rootsOnly); filtHp.setAttribute('aria-pressed', filt.hidePol);
   ideas.forEach(d => { let cur = null, hv = null; try { cur = current; hv = hovered; } catch (e) {} d.__hid = (filt.hidePol && isPol(d) && !d.historically_established) || (filt.imp > 0 && !d.root && d.imp < filt.imp && d.id !== cur && d.id !== hv); d.star.grp.visible = !d.__hid; });
   lines.forEach(l => { const { a, b } = l.userData; l.userData.fv = !(byId[a] && byId[a].__hid) && !(byId[b] && byId[b].__hid); }); applyLines();
   const hb = document.getElementById('hidepolbtn'); if (hb) { hb.classList.toggle('on', filt.hidePol); hb.setAttribute('aria-pressed', filt.hidePol); }
   filtBox.querySelectorAll('.dchip').forEach(c => c.setAttribute('aria-pressed', c.dataset.dom === filt.dom));
   filtBox.querySelectorAll('.chip').forEach(c => c.setAttribute('aria-pressed', filt.sel.has(c.dataset.root)));
-  filtCount.textContent = filterOn() ? `${n} of ${ideas.length} ideas visible` : `All ${ideas.length} ideas visible`;
+  filtCount.textContent = filterOn() ? `${n} of ${ideas.length} ideas visible${ctxSet.size ? ` · ${ctxSet.size} ancestor${ctxSet.size > 1 ? 's' : ''} up to the root shown faded` : ''}` : `All ${ideas.length} ideas visible`;
   filtBtn.querySelector('.n').textContent = filterOn() ? `${n}/${ideas.length}` : '';
-  if (current && !inFilter(byId[current])) closePanel();
+  if (current && !shownF(byId[current])) closePanel();
   if (!init) { highlight(current || null); applyLens(lensAx); }
-  window.__filter = { rootsOnly: filt.rootsOnly, sel: [...filt.sel], dom: filt.dom, visible: n, hidePol: filt.hidePol, edgesHidden: lines.filter(l => !l.visible).length };
+  window.__filter = { rootsOnly: filt.rootsOnly, sel: [...filt.sel], dom: filt.dom, visible: n, context: [...ctxSet], hidePol: filt.hidePol, edgesHidden: lines.filter(l => !l.visible).length };
 }
 function clearFilter() { filt.hidePol = false; filt.rootsOnly = false; filt.sel.clear(); filt.dom = ''; applyFilter(); }
 filtBox.querySelectorAll('.dchip').forEach(c => c.onclick = () => { filt.dom = c.dataset.dom; applyFilter(); });
@@ -2053,7 +2083,7 @@ body.pol-on #legend{display:none!important}body.phone.panel-open #polkey{display
 (() => {
   const state = () => { const p = new URLSearchParams(), v = window.__views ? __views.cur : 'default';
     if (v && v !== 'default') p.set('v', v); if (window.__viz && __viz.cur) { p.set('v', __viz.cur); Object.entries(__viz.params()).forEach(([k, x]) => p.set(k, x)); } if (v === 'axes' && window.__axesView) { p.set('x', __axesView.x); p.set('y', __axesView.y); } if (v === 'politics' && window.__pol && __pol.country !== __pol.first) p.set('pc', __pol.country); if (v === 'politics' && window.__pol && __pol.sub !== 'politics') p.set('ns', __pol.sub); if (filt.dom) p.set('dom', filt.dom); if (filt.rootsOnly) p.set('roots', '1'); if (filt.hidePol) p.set('nopol', '1'); if (filt.noLines) p.set('nolines', '1'); if (filt.imp > 0) p.set('imp', String(filt.imp));
-    if (filt.sel.size) p.set('sel', [...filt.sel].join(',')); if (current && byId[current]) p.set('i', current); if (document.body.classList.contains('uihidden')) p.set('ui', '0'); return p.toString(); };
+    if (filt.sel.size) p.set('sel', [...filt.sel].join(',')); if (current && byId[current]) p.set('i', current); if (window.__quiz) Object.entries(__quiz.params()).forEach(([k, x]) => p.set(k, x)); if (document.body.classList.contains('uihidden')) p.set('ui', '0'); return p.toString(); };
   let last = null; const write = () => { const s = state(); if (s === last) return; last = s; history.replaceState(null, '', location.pathname + location.search + (s ? '#' + s : '')); };
   const h = new URLSearchParams(location.hash.slice(1)); window.__linkRestore = Object.fromEntries(h);
   if (h.has('dom') || h.has('roots') || h.has('sel') || h.has('nopol')) { filt.hidePol = h.get('nopol') === '1'; const doms = [...document.querySelectorAll('#filt .dchip')].map(c => c.dataset.dom);
@@ -2122,10 +2152,23 @@ body.pol-on #legend{display:none!important}body.phone.panel-open #polkey{display
     menu: () => { const o = !menu.classList.contains('open'); menu.classList.toggle('open', o); btn() && btn().setAttribute('aria-expanded', String(o)); } };
 })();
 
-/* no text selection while dragging the map */
+/* NO TEXT SELECTION ON THE MAP. Cause of the stray highlighting: the chart views (Menu > Views) draw their names as SVG
+   <text>, and the header, toolbar and menu were ordinary selectable text; only the 3D canvas and its labels were protected.
+   A double-click or drag on a chart (or near the header) after using the menu selected words and left the selection
+   standing. Now: map, chart and chrome text is not selectable (idea panel, quiz text and inputs still are); a mouse press
+   on the map or a chart does not start a selection; any selection is cleared on that press and when the menu or an overlay closes. */
 (() => { const app = document.getElementById('stage'); const end = () => document.body.classList.remove('dragging');
-  app.addEventListener('pointerdown', () => { document.body.classList.add('dragging'); const sel = getSelection(); sel && sel.removeAllRanges(); });
-  addEventListener('pointerup', end); addEventListener('pointercancel', end); addEventListener('blur', end); })();
+  const st = document.createElement('style'); st.textContent = `header,#tb,#menu,#menubtn,#vz .vh,#vz .vb,#vz .vb svg,#vz .vb svg *,#quizbar,#legend,.arx-game .acts,.arx-game .x,#quiz .qz-ans,#quiz .qz-nav{-webkit-user-select:none;user-select:none}
+    #panel,#quiz .qz-st,#quiz .qz-set,#quiz .qz-top,#quiz details,input,textarea,select,[contenteditable]{-webkit-user-select:text;user-select:text}`; document.head.appendChild(st);
+  const clear = () => { const s = getSelection(); s && s.rangeCount && s.removeAllRanges(); }; window.__clearSel = clear;
+  const editable = t => t && t.closest && t.closest('input,textarea,select,a,[contenteditable],details');
+  const press = e => { if (e.button !== 0 || editable(e.target)) return; e.preventDefault(); clear(); const a = document.activeElement; if (a && a !== document.body && /^(INPUT|TEXTAREA|SELECT)$/.test(a.tagName)) a.blur(); };
+  app.addEventListener('mousedown', press); document.addEventListener('mousedown', e => { if (e.target.closest && e.target.closest('#vz .vb')) press(e); });
+  app.addEventListener('pointerdown', () => { document.body.classList.add('dragging'); clear(); });
+  addEventListener('pointerup', end); addEventListener('pointercancel', end); addEventListener('blur', end);
+  /* menu or any overlay closing: drop a selection made inside it */
+  const watch = el => el && new MutationObserver(() => { if (!el.classList.contains('open')) clear(); }).observe(el, { attributes: true, attributeFilter: ['class'] });
+  setTimeout(() => ['menu', 'games', 'quiz', 'memele'].forEach(id => watch(document.getElementById(id))), 0); })();
 
 
 /* ---------- COMPARE PICKER: search box under the compare bar (same fuzzy matching + aliases as Memele); map clicks still work ---------- */
@@ -2610,6 +2653,217 @@ body.uihidden #vz{--vzt:14px!important}body.uihidden #vz .vc,body.uihidden #vz .
       const foot = (d ? `<b>${esc(d.name)} in Chronosphere:</b> ${ev.map(e => `<a href="${esc(href(e, data))}" target="_blank" rel="noopener">${esc(evName(e))} (${e.event_year})</a> <span>${esc(REL[e.relation] || e.relation || '')}, ${esc(e.lens)} lens${e.note ? ': ' + esc(e.note) : ''}</span>`).join(' · ')}<br>` : '') +
         `<b>How it is built.</b> ${data.bridges.length} bridges from Chronosphere's bridges.json (${data.status || 'draft'}) tie ${ids.length} ideas to events. Diamonds are events: bright = opens the idea, copper = a peak, grey = context. Each event links into Chronosphere at that year and event. The overview's time axis gives AD 1, 1000, 1500, 1800 and 1900 a fixed share of the width.`;
       return { svg: Z.svg(W, y, g, 'Chronosphere link'), foot }; } });
+})();
+/* ---------- QUIZZES: Politics, Philosophy and Combined, from quiz/quiz-bank.json (read from GitHub Pages like the other data).
+   Five answer buttons per statement (strongly agree +2 .. strongly disagree -2). Results: the closest ideas on this map, the
+   position on the abstraction and hierarchy axes, the closest party-aligned idea per country, a share card and a link that
+   reopens the results with the matched ideas lit on the map. Question counts come from the bank file, so a larger bank needs no code change. */
+/* QUIZ SCORE BEGIN: the same steps as quiz/score.py; t_quiz.py checks both give the same results */
+const QuizScore = (() => {
+  const K = 4, MIN_N = 2, GATE = 0.25, WEAK = 0.30, CC = ['us', 'gb', 'fr', 'de', 'ru', 'cn', 'jp'];
+  const pyRound = (x, d) => { const m = 10 ** d, y = x * m, f = Math.floor(y), r = y - f; return (r > 0.5 ? f + 1 : r < 0.5 ? f : (f % 2 === 0 ? f : f + 1)) / m; }; // Python round(): half to even
+  const center = ans => { const v = Object.values(ans).filter(x => x != null), m = v.length ? v.reduce((s, x) => s + x, 0) / v.length : 0;
+    return Object.fromEntries(Object.entries(ans).map(([k, x]) => [k, x == null ? null : x - m])); };
+  function userVector(ans, QS, AX) { ans = center(ans); const num = {}, den = {}, n = {}, W = {}; AX.forEach(a => { num[a] = 0; den[a] = 0; n[a] = 0; W[a] = 0; });
+    for (const [qid, v] of Object.entries(ans)) { if (v == null) continue;
+      for (const [a, w] of Object.entries(QS[qid].weights)) { num[a] += v * w; den[a] += 2 * Math.abs(w); n[a] += 1; W[a] += Math.abs(w); } }
+    const u = {}; AX.forEach(a => { if (n[a] >= MIN_N) u[a] = Math.max(-5, Math.min(5, 5 * num[a] / (den[a] + 2 * K))); }); return { u, n, W }; }
+  const conf = (n, W) => n >= MIN_N ? pyRound(W / (W + 8), 2) : 0;
+  function cos(u, r) { const ks = Object.keys(u); let d = 0, a = 0, b = 0; for (const k of ks) d += u[k] * (r[k] || 0);
+    for (const k of ks) a += u[k] ** 2; for (const k of ks) b += (r[k] || 0) ** 2; const nu = Math.sqrt(a), nr = Math.sqrt(b); return nu && nr ? d / (nu * nr) : 0; }
+  function score(ans, bank, AX, ideas, top = 5) { const QS = Object.fromEntries(bank.questions.map(q => [q.id, q])), { u, n, W } = userVector(ans, QS, AX);
+    const plane = { abstraction: { x: pyRound(u.abstraction || 0, 2), n: n.abstraction || 0, confidence: conf(n.abstraction || 0, W.abstraction || 0) },
+      hierarchy: { y: pyRound(u.hierarchy || 0, 2), n: n.hierarchy || 0, confidence: conf(n.hierarchy || 0, W.hierarchy || 0) } };
+    if (!Object.values(u).some(x => Math.abs(x) > GATE)) return { status: 'not enough signal', plane, top: [], per_country: {}, u, n };
+    const cs = new Map(ideas.map(i => [i.id, cos(u, i.ratings || {})]));
+    const ranked = ideas.slice().sort((p, q) => cs.get(q.id) - cs.get(p.id)), t = ranked.slice(0, top).map(i => [i.id, pyRound(cs.get(i.id), 3)]);
+    const per = {}; CC.forEach(c => { const f = c === 'us' ? 'party_alignment' : 'party_alignment_' + c; let b = null;
+      ideas.forEach(i => { if (i.modern_politics && f in i && (!b || cs.get(i.id) > cs.get(b.id))) b = i; }); if (b) per[c] = [b.id, pyRound(cs.get(b.id), 3)]; });
+    return { status: t[0][1] < WEAK ? 'weak match' : 'ok', plane, top: t, per_country: per, u, n }; }
+  return { score, userVector, cos, pyRound, GATE, WEAK };
+})();
+/* QUIZ SCORE END */
+window.__quizScore = QuizScore;
+window.__quiz = (() => {
+  const NAMES = { politics: 'Politics', philosophy: 'Philosophy', combined: 'Combined' }, SHORT = 50, AXIDS = axes.map(a => a.id);
+  const BLURB = { politics: 'Government, markets, nation, religion in public life.', philosophy: 'Mind, knowledge, God, ethics, the self.', combined: 'A mix of the two.' };
+  let bankP = null, B = null, S = null; // S = { quiz, mode, list[], i, ans{} }
+  const loadBank = () => bankP || (bankP = load('quiz/quiz-bank.json')
+    .catch(() => fetch('./memeplex/quiz/quiz-bank.json', { cache: 'no-cache' }).then(r => r.ok ? r.json() : Promise.reject(r.status)))
+    .catch(() => fetch('./quiz/quiz-bank.json', { cache: 'no-cache' }).then(r => r.ok ? r.json() : Promise.reject(r.status)))
+    .then(b => { if (!b || !Array.isArray(b.questions) || !b.quizzes) throw new Error('bad quiz bank'); B = b; return b; })
+    .catch(e => { bankP = null; throw e; }));
+  const QS = () => Object.fromEntries(B.questions.map(q => [q.id, q]));
+  /* full list for a quiz: the bank's own list; Combined falls back to politics + philosophy if the bank has no combined list */
+  const listFor = k => (B.quizzes[k] && B.quizzes[k].length ? B.quizzes[k] : k === 'combined' ? [...(B.quizzes.politics || []), ...(B.quizzes.philosophy || [])] : []).filter(id => QS()[id]);
+  /* SHORT DRAW: 50 at random, balanced across axes. First every (axis, direction) in the pool is covered, up to 2 questions
+     each (3 for abstraction and hierarchy), taking at each step the question that covers the most still-open needs; then the
+     rest are added one by one, each time the candidate that keeps the summed weight on every axis closest to 0.
+     Combined draws 25 politics + 25 philosophy this way (quota). The result keeps bank order. */
+  function draw(pool, n, rnd = Math.random, quota = null) { if (pool.length <= n) return pool.slice(); const Q = QS(), order = pool.map(id => [rnd(), id]).sort((a, b) => a[0] - b[0]).map(x => x[1]);
+    const pick = new Set(), net = {}, used = {}, sg = (id, a) => Math.sign(Q[id].weights[a] || 0);
+    const ok = id => !pick.has(id) && (!quota || (used[Q[id].quiz] || 0) < (quota[Q[id].quiz] || 0));
+    const add = id => { pick.add(id); used[Q[id].quiz] = (used[Q[id].quiz] || 0) + 1; Object.entries(Q[id].weights).forEach(([a, w]) => net[a] = (net[a] || 0) + w); };
+    const need = {}; AXIDS.forEach(a => [1, -1].forEach(s => { const have = order.filter(id => sg(id, a) === s).length; if (have) need[a + s] = Math.min(have, a === 'abstraction' || a === 'hierarchy' ? 3 : 2); }));
+    const gain = id => Object.entries(Q[id].weights).reduce((g, [a, w]) => g + ((need[a + Math.sign(w)] || 0) > 0 ? 1 : 0), 0);
+    while (pick.size < n) { let best = null, bg = 0; for (const id of order) { if (!ok(id)) continue; const g = gain(id); if (g > bg) { bg = g; best = id; } }
+      if (!best) break; add(best); Object.entries(Q[best].weights).forEach(([a, w]) => { const k = a + Math.sign(w); if (need[k] > 0) need[k]--; }); }
+    const cost = id => { let c = 0; const w = Q[id].weights; new Set([...Object.keys(net), ...Object.keys(w)]).forEach(a => c += Math.abs((net[a] || 0) + (w[a] || 0))); return c; };
+    while (pick.size < n) { const cand = order.filter(ok).slice(0, 12); if (!cand.length) break; add(cand.reduce((b, id) => cost(id) < cost(b) ? id : b)); }
+    return pool.filter(id => pick.has(id)); }
+  function questionsFor(k, mode) {
+    if (k === 'combined') { const p = listFor('politics'), f = listFor('philosophy'), h = Math.floor(SHORT / 2);
+      if (p.length >= h && f.length >= SHORT - h) return draw([...p, ...f], SHORT, Math.random, { politics: h, philosophy: SHORT - h });
+      return listFor('combined'); }
+    const full = listFor(k); return mode === 'short' ? draw(full, SHORT) : full; }
+  /* ---- answers in links: one group per id prefix, e.g. p4310..2-f2, the k-th character is the answer to question k (0 = strongly disagree .. 4 = strongly agree, . = not asked) */
+  function encode(ans) { const g = {}; Object.entries(ans).forEach(([id, v]) => { const m = /^([a-z]+)(\d+)$/.exec(id); if (!m || v == null) return; (g[m[1]] = g[m[1]] || [])[+m[2] - 1] = String(v + 2); });
+    return Object.entries(g).map(([p, a]) => p + Array.from(a, c => c || '.').join('')).join('-'); }
+  function decode(s) { const out = {}; (s || '').split('-').forEach(gr => { const m = /^([a-z]+)([0-4.]*)$/.exec(gr); if (!m) return;
+      [...m[2]].forEach((c, i) => { if (c !== '.') out[m[1] + String(i + 1).padStart(2, '0')] = +c - 2; }); }); return out; }
+  /* answers ordered as the quiz list orders them, so a reopened link scores exactly like the original run */
+  const ordered = (k, ans) => { const L = k === 'combined' ? [...listFor('politics'), ...listFor('philosophy'), ...listFor('combined')] : listFor(k), Q = QS(), o = {}; L.forEach(id => { if (ans[id] != null) o[id] = ans[id]; }); Object.keys(ans).forEach(id => { if (!(id in o) && Q[id] && ans[id] != null) o[id] = ans[id]; }); return o; };
+  const compute = (k, ans) => QuizScore.score(ordered(k, ans), B, AXIDS, ideas);
+  /* ---- overlay ---- */
+  const css = document.createElement('style'); css.textContent = `
+#quiz .box{width:min(620px,100%)}
+#quiz .qz-pick{display:block;width:100%;box-sizing:border-box;text-align:left;margin:10px 0;padding:14px;border:1px solid var(--rule);border-radius:10px;background:rgba(184,115,51,.05)}
+#quiz .qz-pick b{display:block;font-family:var(--serif);font-weight:500;font-size:22px;color:var(--ink)}#quiz .qz-pick span{display:block;font-family:var(--serif);font-size:15px;color:var(--ink-dim);margin:2px 0 8px}
+#quiz .qz-epi{margin:4px 0 10px;padding-left:10px;border-left:2px solid var(--amber)}#quiz .qz-epi blockquote{margin:0;font-family:var(--serif);font-style:italic;font-size:16px;line-height:1.4;color:var(--ink)}#quiz .qz-epi figcaption{margin-top:4px;font-family:var(--mono);font-size:9.5px;letter-spacing:.08em;color:var(--ink-dim)}
+#quiz .qz-pick .acts{justify-content:flex-start;margin-top:4px}
+#quiz button{font:inherit}
+#quiz .acts button[disabled]{opacity:.35;cursor:default}
+#quiz .qz-prog{height:3px;background:var(--arx-game-far);border-radius:2px;margin:6px 0 16px;overflow:hidden}#quiz .qz-prog i{display:block;height:100%;background:var(--amber)}
+#quiz .qz-set{font-family:var(--mono);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--amber-bright);margin:0 0 8px;line-height:1.5}
+#quiz .qz-st{font-family:var(--serif);font-size:25px;line-height:1.3;color:var(--ink);margin:0 0 18px;min-height:3em}
+#quiz .qz-ans{display:grid;grid-template-columns:repeat(5,1fr);gap:8px}
+#quiz .qz-ans button{all:unset;box-sizing:border-box;cursor:pointer;text-align:center;padding:12px 6px;min-height:58px;display:flex;align-items:center;justify-content:center;border:1px solid var(--rule);border-radius:9px;font-family:var(--mono);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;line-height:1.35;color:var(--ink)}
+#quiz .qz-ans button[data-v="2"],#quiz .qz-ans button[data-v="-2"]{border-color:var(--amber)}
+#quiz .qz-ans button[aria-pressed=true]{background:var(--amber);color:#160c04}
+#quiz .qz-ans button:focus-visible,#quiz .qz-pick button:focus-visible,#quiz .qz-top button:focus-visible{outline:2px solid var(--amber-bright);outline-offset:2px}
+#quiz .qz-nav{display:flex;justify-content:space-between;align-items:center;margin-top:14px;font-family:var(--mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-dim)}
+#quiz .qz-nav button{all:unset;cursor:pointer;padding:6px 8px;color:var(--amber-bright)}#quiz .qz-nav button[disabled]{opacity:.3;cursor:default}
+#quiz details{margin-top:12px;font-family:var(--serif);font-size:14px;color:var(--ink-dim)}#quiz summary{cursor:pointer;font-family:var(--mono);font-size:9.5px;letter-spacing:.14em;text-transform:uppercase}
+#quiz a{color:var(--amber-bright)}
+#quiz h3{font-family:var(--mono);font-weight:500;font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--amber);margin:20px 0 8px}
+#quiz .qz-top{list-style:none;margin:0;padding:0}#quiz .qz-top li{margin:6px 0}
+#quiz .qz-top button{all:unset;box-sizing:border-box;cursor:pointer;width:100%;display:grid;grid-template-columns:26px 1fr auto;gap:8px;align-items:baseline;padding:8px 10px;border:1px solid var(--rule);border-radius:8px}
+#quiz .qz-top em{font-style:normal;font-family:var(--mono);font-size:11px;color:var(--amber)}#quiz .qz-top b{font-family:var(--serif);font-weight:500;font-size:19px;color:var(--ink)}#quiz .qz-top i{font-style:normal;font-family:var(--mono);font-size:11px;color:var(--ink-dim)}
+#quiz .qz-top small{grid-column:2/4;font-family:var(--serif);font-size:14px;color:var(--ink-dim)}
+#quiz .qz-plane svg{display:block;width:100%;max-width:420px;margin:0 auto;height:auto}
+#quiz .qz-bars{display:grid;grid-template-columns:minmax(110px,34%) 1fr 42px;gap:6px 8px;align-items:center;font-family:var(--mono);font-size:10.5px;color:var(--ink)}
+#quiz .qz-bars .tr{position:relative;height:12px;background:var(--arx-game-far);border-radius:2px}#quiz .qz-bars .tr::after{content:'';position:absolute;left:50%;top:-3px;bottom:-3px;width:1px;background:var(--ink-faint)}
+#quiz .qz-bars .tr i{position:absolute;top:0;bottom:0;background:var(--amber-bright)}#quiz .qz-bars .tr i.n{background:#6fa3c0}#quiz .qz-bars span:last-child,#quiz .qz-bars .v{text-align:right;color:var(--ink-dim)}
+#quiz .qz-cc{display:grid;grid-template-columns:auto 1fr;gap:4px 12px;font-family:var(--serif);font-size:15px;color:var(--ink)}#quiz .qz-cc span{font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-dim);align-self:center}
+#quiz .qz-cc button{all:unset;cursor:pointer;color:var(--ink);text-decoration:underline;text-decoration-color:var(--rule);text-underline-offset:3px}
+#quiz .qz-note{font-family:var(--serif);font-size:15px;color:var(--ink);border-left:2px solid var(--amber);padding:4px 10px;margin:12px 0}
+#quiz .qz-msg{font-family:var(--mono);font-size:10px;letter-spacing:.1em;color:var(--amber-bright);text-align:center;min-height:14px;margin-top:6px}
+#quizbar{position:fixed;left:50%;bottom:18px;transform:translateX(-50%);z-index:30;display:none;align-items:center;gap:8px;padding:8px 10px 8px 14px;border-radius:999px;font-family:var(--mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink);max-width:calc(100vw - 24px);box-sizing:border-box}
+#quizbar.open{display:flex}#quizbar b{color:var(--amber-bright);font-weight:500;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#quizbar button{all:unset;cursor:pointer;padding:6px 10px;border:1px solid var(--rule);border-radius:999px;color:var(--amber-bright);white-space:nowrap}#quizbar button:focus-visible{outline:2px solid var(--amber)}
+.lbl.ctx{opacity:.6!important;font-style:italic}
+.lbl.qz{color:var(--amber-bright)!important;font-weight:600}
+@media (max-width:760px){#quiz .qz-ans{grid-template-columns:1fr;gap:7px}#quiz .qz-ans button{min-height:46px;font-size:11px}#quiz .qz-st{font-size:21px;min-height:0}#quiz .box{padding:18px 14px 22px}#quizbar{bottom:12px}}`;
+  document.head.appendChild(css);
+  const el = document.createElement('div'); el.className = 'arx-game'; el.id = 'quiz'; el.setAttribute('role', 'dialog'); el.setAttribute('aria-modal', 'true'); el.setAttribute('aria-label', 'Quizzes'); document.body.appendChild(el);
+  const bar = document.createElement('div'); bar.id = 'quizbar'; bar.className = 'gl'; bar.setAttribute('role', 'region'); bar.setAttribute('aria-label', 'Quiz matches on the map'); document.body.appendChild(bar);
+  const isOpen = () => el.classList.contains('open');
+  const show = () => { el.classList.add('open'); el.scrollTop = 0; const f = el.querySelector('[data-focus]') || el.querySelector('button'); f && f.focus({ preventScroll: true }); };
+  const close = () => el.classList.remove('open');
+  let R = null, Rk = null, Rans = null; // last results, their quiz and answers
+  const head = (t, sub) => `<button class="x" type="button" aria-label="Close">×</button><h2>${t}</h2><div class="sub">${sub}</div>`;
+  const wire = () => { const x = el.querySelector('.x'); if (x) x.onclick = close; };
+  function menu(msg) { S = null; el.innerHTML = `<div class="box">${head('Quizzes', 'Find where you sit on the Memeplex')}<p class="how">Mark each statement from strongly agree to strongly disagree. Your answers are matched against the scores of the ideas on this map.</p><div class="qz-body"><p class="how">Loading questions…</p></div></div>`;
+    wire(); el.classList.add('open');
+    loadBank().then(() => { const body = el.querySelector('.qz-body'); if (!body) return;
+      body.innerHTML = ['politics', 'philosophy', 'combined'].filter(k => listFor(k).length).map(k => { const n = listFor(k).length, split = k !== 'combined' && n > SHORT;
+        const cn = k === 'combined' ? SHORT : n, qt = k === 'philosophy' && byId.platonic_forms && byId.platonic_forms.quote;
+        return `<div class="qz-pick"><b>${NAMES[k]}</b><span>${BLURB[k]}</span>${qt ? `<figure class="qz-epi"><blockquote>“${esc(qt.text)}”</blockquote><figcaption>${esc(qt.by)}, ${esc(qt.work)}</figcaption></figure>` : ''}<div class="acts">${split ? `<button type="button" data-q="${k}" data-m="full">Full · ${n} questions</button><button type="button" data-q="${k}" data-m="short">Short · ${SHORT} questions</button>` : `<button type="button" data-q="${k}" data-m="full">Start · ${cn} questions</button>`}</div></div>`; }).join('')
+        + (R ? `<div class="acts"><button type="button" data-a="last">Your last results</button></div>` : '') + (msg ? `<p class="qz-msg">${esc(msg)}</p>` : '')
+        + `<p class="how">Short draws ${SHORT} questions at random, balanced across the axes. Combined draws ${SHORT / 2} from each quiz the same way. No answers leave this page unless you share a link.</p>`;
+      body.querySelectorAll('[data-q]').forEach(b => b.onclick = () => start(b.dataset.q, b.dataset.m)); const l = body.querySelector('[data-a=last]'); if (l) l.onclick = () => results(Rk, Rans);
+      const f = body.querySelector('button'); f && f.focus({ preventScroll: true }); })
+      .catch(() => { const body = el.querySelector('.qz-body'); if (body) body.innerHTML = '<p class="how">The questions could not be loaded. Check the connection and try again.</p>'; }); }
+  function start(k, mode) { S = { quiz: k, mode, list: questionsFor(k, mode), i: 0, ans: {} }; ask(); }
+  const scaleOf = q => { const sc = (q.labels && q.values) ? q : (B.scales && B.scales[q.scale]) || B.scale; return sc.values.map((v, i) => [v, sc.labels[i]]).sort((a, b) => b[0] - a[0]); };
+  function ask() { const Q = QS(), id = S.list[S.i], q = Q[id], n = S.list.length, cur = S.ans[id];
+    const text = q.statement || q.prompt || q.question || '', setting = q.setting || '';
+    el.innerHTML = `<div class="box">${head(NAMES[S.quiz] + ' quiz', `Question ${S.i + 1} of ${n}${S.mode === 'short' ? ' · short' : ''}`)}<div class="qz-prog" aria-hidden="true"><i style="width:${(100 * S.i / n).toFixed(1)}%"></i></div>
+      ${setting || q.type === 'scenario' ? `<p class="qz-set">${setting ? esc(setting) : 'Scenario'}</p>` : ''}<p class="qz-st" id="qzst">${esc(text)}</p>
+      <div class="qz-ans" role="group" aria-labelledby="qzst">${scaleOf(q).map(([v, l], i) => `<button type="button" data-v="${v}" aria-pressed="${cur === v}"${(cur == null ? i === 0 : cur === v) ? ' data-focus' : ''} aria-keyshortcuts="${i + 1}">${esc(l)}</button>`).join('')}</div>
+      <div class="qz-nav"><button type="button" data-a="back"${S.i ? '' : ' disabled'}>‹ Back</button><span>${Object.keys(S.ans).length} answered</span><button type="button" data-a="quit">Quit</button></div>
+      ${q.why || q.source ? `<details><summary>Why this is asked</summary>${esc(q.why || '')}${q.source ? ` <a href="${esc(q.source)}" target="_blank" rel="noopener">Source</a>` : ''}</details>` : ''}</div>`;
+    wire(); el.querySelectorAll('.qz-ans button').forEach(b => b.onclick = () => answer(+b.dataset.v));
+    el.querySelector('[data-a=back]').onclick = () => { if (S.i) { S.i--; ask(); } };
+    el.querySelector('[data-a=quit]').onclick = () => menu();
+    show(); }
+  function answer(v) { if (!S) return; S.ans[S.list[S.i]] = v; if (S.i < S.list.length - 1) { S.i++; ask(); } else { const k = S.quiz, a = S.ans; S = null; results(k, a); } }
+  /* ---- results ---- */
+  const nm = id => byId[id] ? byId[id].name : id;
+  const fmt = v => (v > 0 ? '+' : v < 0 ? '−' : '') + Math.abs(v).toFixed(1);
+  const planeSvg = r => { const S0 = 300, M = 34, U = (S0 - 2 * M) / 10, X = v => M + (v + 5) * U, Y = v => S0 - M - (v + 5) * U, c = 'currentColor';
+    let g = `<rect x="${M}" y="${M}" width="${S0 - 2 * M}" height="${S0 - 2 * M}" fill="none" stroke="var(--rule)"/><line x1="${X(0)}" y1="${M}" x2="${X(0)}" y2="${S0 - M}" stroke="var(--ink-faint)" stroke-dasharray="2 3"/><line x1="${M}" y1="${Y(0)}" x2="${S0 - M}" y2="${Y(0)}" stroke="var(--ink-faint)" stroke-dasharray="2 3"/>`;
+    ideas.forEach(d => { const q = d.ratings || {}; g += `<circle cx="${X(q.abstraction || 0).toFixed(1)}" cy="${Y(q.hierarchy || 0).toFixed(1)}" r="2.2" fill="var(--ink-dim)" opacity=".22"/>`; });
+    r.top.forEach(([id], i) => { const q = (byId[id] || {}).ratings || {}, x = X(q.abstraction || 0), y = Y(q.hierarchy || 0);
+      g += `<circle cx="${x}" cy="${y}" r="7" fill="var(--amber)" stroke="var(--bg)" stroke-width="1.5"/><text x="${x}" y="${y + 3.2}" font-size="9" text-anchor="middle" fill="#160c04" font-family="var(--mono)">${i + 1}</text>`; });
+    const ux = X(r.plane.abstraction.x), uy = Y(r.plane.hierarchy.y);
+    g += `<circle cx="${ux}" cy="${uy}" r="9" fill="none" stroke="var(--amber-bright)" stroke-width="2.5"/><circle cx="${ux}" cy="${uy}" r="2.5" fill="var(--amber-bright)"/><text x="${ux + 12}" y="${uy - 8}" font-size="11" fill="var(--amber-bright)" font-family="var(--mono)">YOU</text>`;
+    const t = (x, y, s, a, rot) => `<text x="${x}" y="${y}" font-size="8.5" letter-spacing="1" fill="var(--ink-dim)" font-family="var(--mono)" text-anchor="${a}"${rot ? ` transform="rotate(-90 ${x} ${y})"` : ''}>${s}</text>`;
+    g += t(M, S0 - M + 16, '← MATERIAL', 'start') + t(S0 - M, S0 - M + 16, 'ABSTRACT →', 'end') + t(M - 10, S0 - M, '← OPPOSES', 'start', 1) + t(M - 10, M, 'FAVORS HIERARCHY →', 'end', 1);
+    return `<svg viewBox="0 0 ${S0} ${S0}" role="img" aria-label="Your position: abstraction ${fmt(r.plane.abstraction.x)}, hierarchy ${fmt(r.plane.hierarchy.y)}, with your top matches numbered">${g}</svg>`; };
+  const barRow = (label, v, note) => `<span>${esc(label)}</span><span class="tr" aria-hidden="true"><i class="${v < 0 ? 'n' : ''}" style="${v < 0 ? `right:50%;width:${Math.abs(v) * 10}%` : `left:50%;width:${v * 10}%`}"></i></span><span class="v" title="${note || ''}">${fmt(v)}</span>`;
+  const leanings = r => Object.entries(r.u).filter(([a]) => a !== 'abstraction' && a !== 'hierarchy').sort((p, q) => Math.abs(q[1]) - Math.abs(p[1]));
+  function results(k, ans, opt = {}) { if (!B) return loadBank().then(() => results(k, ans, opt)); const r = compute(k, ans); R = r; Rk = k; Rans = ordered(k, ans); S = null;
+    const nAns = Object.keys(Rans).length, pa = r.plane.abstraction, ph = r.plane.hierarchy, cn = Object.fromEntries((politicsCfg.countries || []).map(c => [c.id, c.name]));
+    const low = c => c < 0.5 ? ' · low confidence' : '';
+    let body = '';
+    if (r.status === 'not enough signal') body = `<p class="qz-note">Not enough signal to place you. Your answers lean the same way on almost every statement, so once your average answer is taken out, little is left to compare. Try answering with more range.</p>`;
+    else { body = (r.status === 'weak match' ? `<p class="qz-note">Weak match: no idea on the map lines up closely with your answers. The list below is still the nearest.</p>` : '')
+      + `<h3>Closest ideas on the map</h3><ol class="qz-top">${r.top.map(([id, c], i) => `<li><button type="button" data-go="${id}"><em>${i + 1}</em><b>${esc(nm(id))}</b><i>${Math.round(c * 100)}% match</i>${byId[id] && byId[id].plain ? `<small>${esc(String(byId[id].plain).slice(0, 140))}${String(byId[id].plain).length > 140 ? '…' : ''}</small>` : ''}</button></li>`).join('')}</ol>`; }
+    body += `<h3>Your position</h3><div class="qz-plane">${planeSvg(r)}</div><div class="qz-bars">${barRow('Abstraction', pa.x)}${barRow('Hierarchy', ph.y)}</div>
+      <p class="how">Abstraction runs from −5 (material) to +5 (abstract); hierarchy from −5 (opposes) to +5 (favors). Based on ${pa.n} and ${ph.n} of your answers${low(Math.min(pa.confidence, ph.confidence))}. These are the same units the map uses for every idea.</p>`;
+    const L = leanings(r).filter(([, v]) => Math.abs(v) >= 0.05).slice(0, 8);
+    if (L.length) body += `<h3>Your strongest leanings</h3><div class="qz-bars">${L.map(([a, v]) => barRow(axLabel(a), v)).join('')}</div><p class="how">Toward (+) or against (−) each tradition, on the map's −5 to +5 scale.</p>`;
+    const pc = Object.entries(r.per_country); if (pc.length) body += `<h3>Closest party-aligned idea, by country</h3><div class="qz-cc">${pc.map(([c, [id]]) => `<span>${esc(cn[c] || c.toUpperCase())}</span><button type="button" data-go="${id}">${esc(nm(id))}</button>`).join('')}</div>`;
+    body += `<div class="acts" style="margin-top:18px">${r.top.length ? '<button type="button" data-a="map" data-focus>Show on map</button><button type="button" data-a="card">Share card</button>' : ''}<button type="button" data-a="link">Copy link</button><button type="button" data-a="retake">Retake</button><button type="button" data-a="menu">All quizzes</button></div><p class="qz-msg" aria-live="polite"></p>
+      <details><summary>How the matching works</summary><p>Each answer counts from +2 (strongly agree) to −2 (strongly disagree), minus your own average answer, so agreeing with everything adds nothing. Each statement carries sourced weights on the map's axes. Your answers then give a score from −5 to +5 on each axis that at least two of your answers touch, pulled toward 0 when few answers touch it. Ideas are ranked by how closely their own axis scores point the same way as yours (cosine similarity, shown as % match), using only the axes the quiz measured.</p><p>The ideas' scores are the same ones the map shows. Scores from a recorded relation count in full; fallback scores, where an idea has no recorded relation to a tradition, are stored at half strength. See <a href="https://github.com/arxcortex/arx-memeplex/blob/main/docs/METHODOLOGY.md" target="_blank" rel="noopener">how scores are made</a>.</p></details>`;
+    el.innerHTML = `<div class="box">${head('Your results', `${NAMES[k]} quiz · ${nAns} answers`)}${body}</div>`; wire();
+    el.querySelectorAll('[data-go]').forEach(b => b.onclick = () => { showMap(false); close(); focusIdea(b.dataset.go); });
+    const A = a => el.querySelector(`[data-a=${a}]`), msg = t => { const m = el.querySelector('.qz-msg'); if (m) m.textContent = t; };
+    A('map') && (A('map').onclick = () => { close(); showMap(true); });
+    A('card') && (A('card').onclick = () => shareCard().catch(() => msg('The share card could not be made in this browser.')));
+    A('link').onclick = () => { const u = link(); const ok = () => msg('Link copied'); const fb = () => { const t = document.createElement('textarea'); t.value = u; document.body.appendChild(t); t.select(); try { document.execCommand('copy'); } catch (e) {} t.remove(); ok(); };
+      if (navigator.clipboard && window.isSecureContext) navigator.clipboard.writeText(u).then(ok, fb); else fb(); };
+    A('retake').onclick = () => start(k, k !== 'combined' && listFor(k).length > SHORT && nAns <= SHORT ? 'short' : 'full'); A('menu').onclick = () => menu();
+    if (!opt.hidden) show(); showMap(opt.map ?? !!(window.__quizHL && __quizHL.size), true); return r; }
+  /* ---- map: light the matched ideas; a bar offers the results again or clears them ---- */
+  function showMap(on, quiet) { const H = window.__quizHL; H.clear(); document.querySelectorAll('.lbl.qz').forEach(e => e.classList.remove('qz'));
+    if (on && R && R.top.length) { R.top.forEach(([id]) => H.add(id)); if (!quiet) { closePanel(); frameBranch(H); }
+      bar.innerHTML = `<b>${NAMES[Rk]} quiz · closest ${H.size} ideas lit</b><button type="button" data-a="res">Results</button><button type="button" data-a="clr" aria-label="Clear quiz matches">Clear</button>`;
+      bar.querySelector('[data-a=res]').onclick = () => { show(); }; bar.querySelector('[data-a=clr]').onclick = () => { showMap(false); };
+      bar.classList.add('open'); } else bar.classList.remove('open');
+    if (!current) highlight(null); }
+  const params = () => (R && Rk && window.__quizHL.size) || isOpen() && R ? { quiz: Rk, qa: encode(Rans) } : {};
+  const link = () => { const p = new URLSearchParams({ quiz: Rk, qa: encode(Rans) }); return location.origin + location.pathname + location.search + '#' + p.toString(); };
+  async function shareCard() { const r = R, k = Rk; const canon = 'https://arxcortex.io/memeplex.html#' + new URLSearchParams({ quiz: k, qa: encode(Rans) }).toString();
+    const blob = await ArxShareCard.quiz({ quiz: NAMES[k], answers: Object.keys(Rans).length, top: r.top.map(([id, c]) => ({ name: nm(id), pct: Math.round(c * 100) })),
+      stance: [{ label: 'Abstraction', v: +r.plane.abstraction.x.toFixed(1), ends: ['−5 MATERIAL', '+5 ABSTRACT'] }, { label: 'Hierarchy', v: +r.plane.hierarchy.y.toFixed(1), ends: ['−5 OPPOSES', '+5 FAVORS'] }],
+      ratings: leanings(r).filter(([, v]) => Math.abs(v) >= 0.05).map(([a, v]) => ({ label: axLabel(a), v: +v.toFixed(1) })), link: canon });
+    ArxShareCard.open(blob, `memeplex-quiz-${k}.png`); }
+  /* ---- menu entry, keys, restore from link ---- */
+  const mm = document.querySelector('#menu .mmore');
+  if (mm) { const b = document.createElement('button'); b.type = 'button'; b.dataset.k = 'quiz'; b.title = 'Quizzes: politics, philosophy, combined'; b.setAttribute('aria-label', b.title);
+    b.innerHTML = `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 9a3 3 0 1 1 4 2.8c-.7.3-1 .9-1 1.7V15"/><circle cx="12" cy="18.5" r=".6" fill="currentColor"/><rect x="3" y="3" width="18" height="18" rx="3"/></svg><span class="t">Quizzes</span>`;
+    b.onclick = () => menu(); mm.prepend(b); }
+  addEventListener('keydown', e => { if (!isOpen() || e.metaKey || e.ctrlKey || e.altKey) return; const t = document.activeElement;
+    if (e.key === 'Escape') { const sc = document.getElementById('sharecard'); if (sc && sc.style.display !== 'none') return; e.stopImmediatePropagation(); close(); return; }
+    if (t && /^(INPUT|TEXTAREA|SELECT)$/.test(t.tagName)) return;
+    if (S && /^[1-9]$/.test(e.key)) { const b = el.querySelectorAll('.qz-ans button')[+e.key - 1]; if (b) { e.preventDefault(); b.click(); } }
+    if (e.key.length === 1) e.stopImmediatePropagation(); /* map shortcuts (R, M, V, ...) stay off while the quiz is open */ }, true);
+  const h = new URLSearchParams(location.hash.slice(1)), hk = h.get('quiz'), ha = h.get('qa');
+  if (hk && NAMES[hk] && ha) setTimeout(() => loadBank().then(() => { const a = decode(ha), Q = QS(); Object.keys(a).forEach(id => { if (!Q[id]) delete a[id]; });
+    if (Object.keys(a).length) { results(hk, a, { hidden: true, map: false }); showMap(true); show(); } }).catch(() => {}), reduce ? 200 : 4600);
+  return { menu, start, answer, results, close, showMap, params, link, encode, decode, draw, questionsFor, loadBank, axes: AXIDS, get bank() { return B; }, get state() { return S; }, get last() { return R; }, get open() { return isOpen(); } };
 })();
 </script>
 </body>

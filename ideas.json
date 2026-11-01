@@ -98,6 +98,12 @@
     }
    ]
   },
+  "quote": {
+   "text": "The safest general characterization of the European philosophical tradition is that it consists of a series of footnotes to Plato.",
+   "by": "Alfred North Whitehead",
+   "work": "Process and Reality (1929)",
+   "src": "https://grokipedia.com/page/Process_and_Reality"
+  },
   "edge_notes": {
    "pythagoreanism": {
     "status": "documented",

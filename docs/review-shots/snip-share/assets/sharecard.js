@@ -1,5 +1,5 @@
 /* Arx Cortex share card: renders a 1080x1920 (9:16) PNG on a 2D canvas.
-   window.ArxShareCard.single(data) / .compare(data) -> Promise<Blob>; .open(blob, filename) shows preview modal. */
+   window.ArxShareCard.single(data) / .compare(data) / .quiz(data) -> Promise<Blob>; .open(blob, filename) shows preview modal. */
 (function () {
   const W = 1080, H = 1920, PAD = 84;
   // FOOTER ZONE: everything below SAFE belongs to the footer (rule at H-196, wordmark, URL). Content must end above it.
@@ -141,6 +141,25 @@
     return toBlob(cv);
   }
 
+  // QUIZ CARD: {quiz, answers, top:[{name,pct}], stance:[{label,v,ends}], ratings:[{label,v}]}
+  async function quiz(d) { low = 0; await prep(); const cv = canvas(), x = cv.getContext('2d'); frame(x);
+    let y = 236; y = kicker(x, `${d.quiz} quiz · ${d.answers} answers`, y + 10) + 6;
+    x.fillStyle = C.dim; font(x, `italic 400 40px ${SERIF}`); x.textAlign = 'left'; x.fillText('Closest idea on the map', PAD, y + 40); y += 56;
+    const t = d.top || [];
+    if (t.length) { y = para(x, t[0].name, y, 2, [96, 84, 72, 62], C.bright, s => `500 ${s}px ${SERIF}`);
+      x.fillStyle = C.dim; font(x, `400 26px ${MONO}`); spaced(x, `${t[0].pct}% MATCH`, 5, PAD, y + 34); y += 74;
+      if (t.length > 1) { y = kicker(x, 'Also close', y + 30) + 8;
+        t.slice(1, 5).forEach((r, i) => { const cy = y + 46 + i * 58; x.fillStyle = C.amber; font(x, `500 24px ${MONO}`); x.textAlign = 'left'; x.fillText(String(i + 2), PAD, cy);
+          x.fillStyle = C.ink; font(x, `400 40px ${SERIF}`); x.fillText(trunc(x, r.name, W - PAD * 2 - 220), PAD + 50, cy);
+          x.fillStyle = C.dim; font(x, `400 24px ${MONO}`); x.textAlign = 'right'; x.fillText(`${r.pct}%`, W - PAD, cy); x.textAlign = 'left'; });
+        y = mark(y + 46 + (Math.min(4, t.length - 1) - 1) * 58 + 44); } }
+    else y = para(x, 'Not enough signal to place this result', y, 2, [60, 52], C.ink, s => `500 ${s}px ${SERIF}`) + 30;
+    const STH = 10 + 56 + 40 + 14;
+    if ((d.stance || []).length && y + 32 + STH <= SAFE) { y = kicker(x, 'Position', y + 14); d.stance.forEach((r, k) => { if (y + STH > SAFE) return; y = bars(x, [r], y + (k ? 0 : 10), 56, null, null, r.ends) + 14; }); y += 20; }
+    const rowH = 62, n = Math.min(6, Math.floor((SAFE - (y + 32 + 10) - 40) / rowH));
+    if (n >= 1 && (d.ratings || []).length) { y = kicker(x, 'Strongest leanings', y + 14); bars(x, d.ratings.slice(0, n), y + 10, rowH, null, null, ['−5 AGAINST', '+5 TOWARD']); }
+    return toBlob(cv);
+  }
 
   // SNIP CARD: a region of the map + Arx branding strip. d = {image, scale, title, link}; card = the snip's own shape (cap 4096px) + strip below
   async function snip(d) { await prep(); const im0 = d.image; let w, h, fitK;
@@ -189,5 +208,5 @@
     sb.onclick = () => navigator.share({ files: [file], title: 'The Memeplex · Arx Cortex', text: 'See more: arxcortex.io/memeplex' }).catch(() => {});
     modal.style.display = 'grid'; a.focus();
   }
-  window.ArxShareCard = { single, compare, snip, open, W, H, SAFE, get lastBottom() { return low; } };
+  window.ArxShareCard = { single, compare, quiz, snip, open, W, H, SAFE, get lastBottom() { return low; } };
 })();

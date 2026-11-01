@@ -1,4 +1,4 @@
-import json,sys
+import json,sys,re
 import os
 B=sys.argv[1] if len(sys.argv)>1 else os.path.join(os.path.dirname(os.path.abspath(__file__)),"..","")
 B=os.path.join(B,"")
@@ -140,5 +140,34 @@ if os.path.exists(B+"national.json"):
         elif "wikipedia.org" in e["src"]: E.append(f"{ci} {k} {i}: Wikipedia source; use Grokipedia")
         if k=="philosophy" and e.get("call") not in("historical","living"): E.append(f"{ci} philosophy {i}: call must be historical or living")
         if i not in by: W.append(f"{ci} {k}: {i} not on the map yet ({e.get('status','unknown')}); skipped in view")
+# quiz/quiz-bank.json: the Memeplex quizzes (read by memeplex.html; reference scorer quiz/score.py)
+if os.path.exists(B+"quiz/quiz-bank.json"):
+  qb=json.load(open(B+"quiz/quiz-bank.json")); qs=qb.get("questions"); qz=qb.get("quizzes")
+  if not isinstance(qs,list) or not isinstance(qz,dict): E.append("quiz: needs questions (list) and quizzes (object)"); qs=[]; qz={}
+  qids=[q.get("id") for q in qs]; QI={q.get("id"):q for q in qs}
+  for i in sorted({i for i in qids if qids.count(i)>1}, key=str): E.append(f"quiz: duplicate question id {i}")
+  sc=qb.get("scale") or {}
+  if not isinstance(sc.get("values"),list) or not isinstance(sc.get("labels"),list) or len(sc["values"])!=len(sc["labels"]) or len(sc["values"])!=5: E.append("quiz: scale needs 5 values and 5 labels")
+  for q in qs:
+    qi="quiz "+str(q.get("id"))
+    if not isinstance(q.get("id"),str) or not re.fullmatch(r"[a-z]+\d+",q["id"]): E.append(f"{qi}: id must be letters then digits (share links rely on it)")
+    if not isinstance(q.get("statement"),str) or not q["statement"].strip(): E.append(f"{qi}: missing statement")
+    if q.get("quiz") not in ("politics","philosophy"): E.append(f"{qi}: quiz must be politics or philosophy")
+    elif q["id"] not in (qz.get(q["quiz"]) or []): E.append(f"{qi}: not listed in quizzes.{q['quiz']}")
+    w=q.get("weights")
+    if not isinstance(w,dict) or not w: E.append(f"{qi}: needs weights"); continue
+    for a,v in w.items():
+      if a not in AX: E.append(f"{qi}: weight on unknown axis {a}")
+      if isinstance(v,bool) or not isinstance(v,(int,float)) or v==0 or abs(v)>5: E.append(f"{qi}: weight {a}={v} must be a non-zero number from -5 to +5")
+    if q.get("type") not in (None,"scenario"): E.append(f"{qi}: type must be scenario if set")
+    if "setting" in q and (not isinstance(q["setting"],str) or not q["setting"].strip()): E.append(f"{qi}: setting must be non-empty text")
+    if not str(q.get("source","")).startswith("https://"): E.append(f"{qi}: source must be https")
+    for side in (q.get("lean") or {}).values():
+      for i in side:
+        if i not in by: W.append(f"{qi}: lean idea {i} not on the map")
+  for k,L in qz.items():
+    for i in L:
+      if i not in QI: E.append(f"quiz: quizzes.{k} lists unknown question {i}")
+    if len(set(L))!=len(L): E.append(f"quiz: quizzes.{k} has duplicates")
 print("\n".join("WARN "+w for w in W)) if W else None
 print("\n".join(E) or f"OK: {len(ideas)} ideas, {len(cur)} currents, {len(AX)} axes, {len(roots)} roots, all axes scored"); sys.exit(bool(E))

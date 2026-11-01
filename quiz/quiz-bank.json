@@ -1,0 +1,4442 @@
+{
+ "version": "v3",
+ "base": "main d964a43",
+ "axes": [
+  "platonism",
+  "aristotelianism",
+  "stoicism",
+  "christianity",
+  "gnosticism",
+  "hermeticism",
+  "enlightenment_liberalism",
+  "marxism",
+  "darwinism",
+  "nietzsche",
+  "critical_theory",
+  "confucianism",
+  "daoism",
+  "buddhism",
+  "vedanta",
+  "islamic_philosophy",
+  "islam",
+  "judaism",
+  "romanticism",
+  "nationalism",
+  "humor",
+  "irony",
+  "abstraction",
+  "hierarchy"
+ ],
+ "scale": {
+  "type": "likert5",
+  "labels": [
+   "Strongly disagree",
+   "Disagree",
+   "Neutral",
+   "Agree",
+   "Strongly agree"
+  ],
+  "values": [
+   -2,
+   -1,
+   0,
+   1,
+   2
+  ],
+  "skip": null
+ },
+ "quizzes": {
+  "politics": [
+   "p01",
+   "p02",
+   "p03",
+   "p04",
+   "p05",
+   "p06",
+   "p07",
+   "p08",
+   "p09",
+   "p10",
+   "p11",
+   "p12",
+   "p13",
+   "p14",
+   "p15",
+   "p16",
+   "p17",
+   "p18",
+   "p19",
+   "p20",
+   "p21",
+   "p22",
+   "p23",
+   "p24",
+   "p25",
+   "p26",
+   "p27",
+   "p28",
+   "p29",
+   "p30",
+   "p31",
+   "p32",
+   "p33",
+   "p34",
+   "p35",
+   "p36",
+   "p37",
+   "p38",
+   "p39",
+   "p40",
+   "p41",
+   "p42",
+   "p43",
+   "p44",
+   "p45",
+   "p46",
+   "p47",
+   "p48",
+   "p49",
+   "p50",
+   "p51",
+   "p52",
+   "p53",
+   "p54",
+   "p55",
+   "p56",
+   "p57",
+   "p58",
+   "p59",
+   "p60",
+   "p61",
+   "p62",
+   "p63",
+   "p64",
+   "p65",
+   "p66",
+   "p67",
+   "p68",
+   "p69",
+   "p70",
+   "p71",
+   "p72",
+   "p73",
+   "p74",
+   "p75",
+   "p76",
+   "p77",
+   "p78",
+   "p79",
+   "p80",
+   "p81",
+   "p82",
+   "p83",
+   "p84",
+   "p85",
+   "p86",
+   "p87",
+   "p88",
+   "p89",
+   "p90",
+   "p91",
+   "p92",
+   "p93",
+   "p94",
+   "p95",
+   "p96",
+   "p97",
+   "p98",
+   "p99",
+   "p100"
+  ],
+  "philosophy": [
+   "f01",
+   "f02",
+   "f03",
+   "f04",
+   "f05",
+   "f06",
+   "f07",
+   "f08",
+   "f09",
+   "f10",
+   "f11",
+   "f12",
+   "f13",
+   "f14",
+   "f15",
+   "f16",
+   "f17",
+   "f18",
+   "f19",
+   "f20",
+   "f21",
+   "f22",
+   "f23",
+   "f24",
+   "f25",
+   "f26",
+   "f27",
+   "f28",
+   "f29",
+   "f30",
+   "f31",
+   "f32",
+   "f33",
+   "f34",
+   "f35",
+   "f36",
+   "f37",
+   "f38",
+   "f39",
+   "f40",
+   "f41",
+   "f42",
+   "f43",
+   "f44",
+   "f45",
+   "f46",
+   "f47",
+   "f48",
+   "f49",
+   "f50",
+   "f51",
+   "f52",
+   "f53",
+   "f54",
+   "f55",
+   "f56",
+   "f57",
+   "f58",
+   "f59",
+   "f60",
+   "f61",
+   "f62",
+   "f63",
+   "f64",
+   "f65",
+   "f66",
+   "f67",
+   "f68",
+   "f69",
+   "f70",
+   "f71",
+   "f72",
+   "f73",
+   "f74",
+   "f75",
+   "f76",
+   "f77",
+   "f78",
+   "f79",
+   "f80",
+   "f81",
+   "f82",
+   "f83",
+   "f84",
+   "f85",
+   "f86",
+   "f87",
+   "f88",
+   "f89",
+   "f90",
+   "f91",
+   "f92",
+   "f93",
+   "f94",
+   "f95",
+   "f96",
+   "f97",
+   "f98",
+   "f99",
+   "f100"
+  ],
+  "combined": [
+   "f02",
+   "f04",
+   "f05",
+   "f07",
+   "f08",
+   "f09",
+   "f11",
+   "f12",
+   "f14",
+   "f15",
+   "f17",
+   "f20",
+   "f22",
+   "f24",
+   "f25",
+   "f29",
+   "f31",
+   "f34",
+   "f35",
+   "f38",
+   "f39",
+   "f41",
+   "f42",
+   "f46",
+   "f48",
+   "p01",
+   "p02",
+   "p09",
+   "p10",
+   "p12",
+   "p13",
+   "p15",
+   "p17",
+   "p18",
+   "p20",
+   "p21",
+   "p23",
+   "p30",
+   "p31",
+   "p32",
+   "p35",
+   "p36",
+   "p39",
+   "p40",
+   "p45",
+   "p46",
+   "p47",
+   "p48",
+   "p49",
+   "p50"
+  ]
+ },
+ "questions": [
+  {
+   "id": "p01",
+   "quiz": "politics",
+   "statement": "The government should provide health care for everyone, paid for through taxes.",
+   "scale": "likert5",
+   "weights": {
+    "marxism": 1,
+    "enlightenment_liberalism": -1,
+    "hierarchy": -1
+   },
+   "lean": {
+    "agree": [
+     "new_deal_liberalism",
+     "democratic_socialism_us",
+     "progressive_left",
+     "social_democracy",
+     "labour_left",
+     "la_france_insoumise"
+    ],
+    "disagree": [
+     "libertarianism"
+    ]
+   },
+   "source": "https://grokipedia.com/page/Universal_health_care",
+   "why": "Tax-funded universal care is a core plank of social democratic and socialist programs and is opposed by market libertarians.",
+   "extra_sources": []
+  },
+  {
+   "id": "p02",
+   "quiz": "politics",
+   "statement": "Private property and free markets are the best way to make a country prosperous.",
+   "scale": "likert5",
+   "weights": {
+    "enlightenment_liberalism": 3,
+    "marxism": -5
+   },
+   "lean": {
+    "agree": [
+     "libertarianism",
+     "fusionism",
+     "thatcherism",
+     "macronism",
+     "new_democrats"
+    ],
+    "disagree": [
+     "democratic_socialism_us",
+     "la_france_insoumise",
+     "chinese_new_left"
+    ]
+   },
+   "source": "https://grokipedia.com/page/Free_market",
+   "why": "Market order traces to classical liberal economics; Marxism treats private ownership of production as the root of class rule.",
+   "extra_sources": [
+    {
+     "url": "https://grokipedia.com/page/Private_property",
+     "supports": "marxism",
+     "quote": "Karl Marx contended in Das Kapital (1867) that under capitalism, workers produce more value than they receive in wages, with the difference—surplus value—captured by property owners as profit, perpetuating class antagonism between bourgeoisie and proletariat."
+    }
+   ]
+  },
+  {
+   "id": "p03",
+   "quiz": "politics",
+   "statement": "A country should sharply cut immigration to protect its culture.",
+   "scale": "likert5",
+   "weights": {
+    "enlightenment_liberalism": -3,
+    "critical_theory": -2,
+    "hierarchy": 2,
+    "nationalism": 3
+   },
+   "lean": {
+    "agree": [
+     "maga",
+     "national_conservatism",
+     "reform_uk_populism",
+     "rassemblement_national",
+     "alternative_for_germany",
+     "sanseito_populism"
+    ],
+    "disagree": [
+     "progressive_left",
+     "macronism",
+     "green_politics"
+    ]
+   },
+   "source": "https://grokipedia.com/page/Right-wing_populism",
+   "why": "Immigration restriction is a defining issue of the national-populist right.",
+   "extra_sources": []
+  },
+  {
+   "id": "p04",
+   "quiz": "politics",
+   "statement": "Laws should be based on religious moral teaching.",
+   "scale": "likert5",
+   "weights": {
+    "christianity": 4,
+    "enlightenment_liberalism": -2,
+    "nietzsche": -2,
+    "islam": 2,
+    "judaism": 1
+   },
+   "lean": {
+    "agree": [
+     "religious_right",
+     "christian_fundamentalism",
+     "postliberalism"
+    ],
+    "disagree": [
+     "progressive_left",
+     "libertarianism"
+    ]
+   },
+   "source": "https://grokipedia.com/page/Christian_right",
+   "why": "The Christian right seeks laws grounded in Christian morality; Enlightenment liberalism separates church and state.",
+   "extra_sources": []
+  },
+  {
+   "id": "p05",
+   "quiz": "politics",
+   "statement": "Gaps in outcomes between groups mostly come from unfairness built into institutions.",
+   "scale": "likert5",
+   "weights": {
+    "critical_theory": 4,
+    "marxism": 2,
+    "darwinism": -2
+   },
+   "lean": {
+    "agree": [
+     "progressive_left",
+     "democratic_socialism_us"
+    ],
+    "disagree": [
+     "maga",
+     "paleoconservatism"
+    ]
+   },
+   "source": "https://grokipedia.com/page/Critical_race_theory",
+   "why": "The claim that inequality is structural, not individual, is central to critical theory traditions.",
+   "extra_sources": []
+  },
+  {
+   "id": "p06",
+   "quiz": "politics",
+   "statement": "Workers, not owners, should control the companies they work in.",
+   "scale": "likert5",
+   "weights": {
+    "marxism": 5,
+    "enlightenment_liberalism": -2,
+    "hierarchy": -3
+   },
+   "lean": {
+    "agree": [
+     "democratic_socialism_us",
+     "labour_left",
+     "la_france_insoumise"
+    ],
+    "disagree": [
+     "thatcherism",
+     "libertarianism"
+    ]
+   },
+   "source": "https://grokipedia.com/page/Workers'_self-management",
+   "why": "Worker control of production is a socialist and Marxist aim opposed by defenders of private ownership.",
+   "extra_sources": []
+  },
+  {
+   "id": "p07",
+   "quiz": "politics",
+   "statement": "A strong leader who can act without waiting for parliament is good for a country.",
+   "scale": "likert5",
+   "weights": {
+    "hierarchy": 4,
+    "enlightenment_liberalism": -4
+   },
+   "lean": {
+    "agree": [
+     "putinism",
+     "eurasianism",
+     "xi_jinping_thought"
+    ],
+    "disagree": [
+     "russian_liberal_opposition",
+     "chinese_liberalism",
+     "new_democrats"
+    ]
+   },
+   "source": "https://grokipedia.com/page/Authoritarianism",
+   "why": "Strong executive rule over legislatures is the opposite of liberal constitutionalism.",
+   "extra_sources": []
+  },
+  {
+   "id": "p08",
+   "quiz": "politics",
+   "statement": "Free speech should protect even ideas that most people find offensive.",
+   "scale": "likert5",
+   "weights": {
+    "enlightenment_liberalism": 4,
+    "critical_theory": -3
+   },
+   "lean": {
+    "agree": [
+     "libertarianism",
+     "russian_liberal_opposition",
+     "chinese_liberalism"
+    ],
+    "disagree": [
+     "xi_jinping_thought"
+    ]
+   },
+   "source": "https://grokipedia.com/page/Freedom_of_speech",
+   "why": "Broad speech protection is a classical liberal principle; the critical_theory weight rests on Marcuse's 1965 essay \"Repressive Tolerance\" (Grokipedia, Herbert Marcuse).",
+   "extra_sources": [
+    {
+     "url": "https://grokipedia.com/page/Herbert_Marcuse",
+     "supports": "critical_theory",
+     "quote": "Marcuse's essay \"Repressive Tolerance\" (1965), co-authored in A Critique of Pure Tolerance, controversially contended that tolerance in liberal democracies serves to maintain the status quo by equally platforming regressive ideas, advocating instead for \"liberating tolerance\" that withdraws tolerance from right-wing movements while extending it to the left."
+    }
+   ]
+  },
+  {
+   "id": "p09",
+   "quiz": "politics",
+   "statement": "Respect for elders and duty to family should guide public life.",
+   "scale": "likert5",
+   "weights": {
+    "confucianism": 4,
+    "hierarchy": 2,
+    "christianity": 1
+   },
+   "lean": {
+    "agree": [
+     "xi_jinping_thought",
+     "abe_line_conservatism",
+     "christian_democracy"
+    ],
+    "disagree": [
+     "progressive_left"
+    ]
+   },
+   "source": "https://grokipedia.com/page/Filial_piety",
+   "why": "Filial piety is a central Confucian virtue that extends family order to the state.",
+   "extra_sources": []
+  },
+  {
+   "id": "p10",
+   "quiz": "politics",
+   "statement": "Competition between people and between nations drives progress more than cooperation does.",
+   "scale": "likert5",
+   "weights": {
+    "darwinism": 4,
+    "nietzsche": 2,
+    "marxism": -2
+   },
+   "lean": {
+    "agree": [
+     "thatcherism",
+     "libertarianism"
+    ],
+    "disagree": [
+     "democratic_socialism_us",
+     "green_politics"
+    ]
+   },
+   "source": "https://grokipedia.com/page/Social_Darwinism",
+   "why": "Applying natural selection's struggle to society is the core of social Darwinism; socialists stress cooperation.",
+   "extra_sources": []
+  },
+  {
+   "id": "p11",
+   "quiz": "politics",
+   "statement": "People should live more simply and fit into nature rather than try to master it.",
+   "scale": "likert5",
+   "weights": {
+    "daoism": 3,
+    "buddhism": 1,
+    "enlightenment_liberalism": -1
+   },
+   "lean": {
+    "agree": [
+     "green_politics"
+    ],
+    "disagree": [
+     "thatcherism",
+     "ishin_reformism"
+    ]
+   },
+   "source": "https://grokipedia.com/page/Green_politics",
+   "why": "Green politics puts ecological limits ahead of growth, echoing Daoist harmony with nature.",
+   "extra_sources": []
+  },
+  {
+   "id": "p12",
+   "quiz": "politics",
+   "statement": "Government works best when it does as little as possible.",
+   "scale": "likert5",
+   "weights": {
+    "enlightenment_liberalism": 3,
+    "daoism": 1,
+    "marxism": -3,
+    "hierarchy": -1
+   },
+   "lean": {
+    "agree": [
+     "libertarianism",
+     "ishin_reformism"
+    ],
+    "disagree": [
+     "new_deal_liberalism",
+     "chinese_new_left"
+    ]
+   },
+   "source": "https://grokipedia.com/page/Wu_wei",
+   "why": "The Daodejing's ruler governs by non-action, a theme compared to laissez-faire; minimal government is libertarian.",
+   "extra_sources": [
+    {
+     "url": "https://grokipedia.com/page/Laissez-faire",
+     "supports": "enlightenment_liberalism",
+     "quote": "Originating in 18th-century France, the term—translating literally to \"let do\" or \"let pass\"—was associated with the Physiocrats, a group led by François Quesnay who opposed mercantilist controls in favor of natural economic laws centered on agriculture and free internal trade."
+    }
+   ]
+  },
+  {
+   "id": "p13",
+   "quiz": "politics",
+   "statement": "My country should put its own interests first, even ahead of its allies.",
+   "scale": "likert5",
+   "weights": {
+    "enlightenment_liberalism": -2,
+    "stoicism": -2,
+    "hierarchy": 1,
+    "nationalism": 3
+   },
+   "lean": {
+    "agree": [
+     "maga",
+     "national_conservatism",
+     "gaullism",
+     "rassemblement_national",
+     "alternative_for_germany"
+    ],
+    "disagree": [
+     "neoconservatism",
+     "macronism"
+    ]
+   },
+   "source": "https://grokipedia.com/page/National_conservatism",
+   "why": "National sovereignty first defines national conservatism and opposes Stoic-liberal cosmopolitanism.",
+   "extra_sources": []
+  },
+  {
+   "id": "p14",
+   "quiz": "politics",
+   "statement": "Making fun of politicians and sacred causes is a healthy part of politics.",
+   "scale": "likert5",
+   "weights": {
+    "humor": 4,
+    "irony": 3,
+    "christianity": -1
+   },
+   "lean": {
+    "agree": [],
+    "disagree": []
+   },
+   "source": "https://grokipedia.com/page/Political_satire",
+   "why": "Satire uses ridicule as political speech; its targets include religious and civic pieties.",
+   "extra_sources": []
+  },
+  {
+   "id": "p15",
+   "quiz": "politics",
+   "statement": "Serious political causes deserve plain, earnest language, not jokes.",
+   "scale": "likert5",
+   "weights": {
+    "irony": -4,
+    "humor": -3,
+    "christianity": 1
+   },
+   "lean": {
+    "agree": [],
+    "disagree": []
+   },
+   "source": "https://grokipedia.com/page/New_sincerity",
+   "why": "New Sincerity names the turn back from irony toward earnest expression.",
+   "extra_sources": []
+  },
+  {
+   "id": "p16",
+   "quiz": "politics",
+   "statement": "Ordinary people usually know better than experts and elites.",
+   "scale": "likert5",
+   "weights": {
+    "hierarchy": -3,
+    "platonism": -2,
+    "critical_theory": 1
+   },
+   "lean": {
+    "agree": [
+     "populism",
+     "maga",
+     "reform_uk_populism",
+     "rassemblement_national",
+     "sanseito_populism"
+    ],
+    "disagree": [
+     "new_democrats",
+     "macronism"
+    ]
+   },
+   "source": "https://grokipedia.com/page/Populism",
+   "why": "Populism sets the people against elites, the reverse of Plato's rule by the wise.",
+   "extra_sources": []
+  },
+  {
+   "id": "p17",
+   "quiz": "politics",
+   "statement": "Bodies like the European Union or United Nations should have more power over national governments.",
+   "scale": "likert5",
+   "weights": {
+    "stoicism": 2,
+    "enlightenment_liberalism": 2,
+    "hierarchy": -1,
+    "nationalism": -3
+   },
+   "lean": {
+    "agree": [
+     "macronism",
+     "green_politics",
+     "new_democrats"
+    ],
+    "disagree": [
+     "reform_uk_populism",
+     "rassemblement_national",
+     "alternative_for_germany",
+     "gaullism"
+    ]
+   },
+   "source": "https://grokipedia.com/page/Cosmopolitanism",
+   "why": "Stoic world citizenship is the classical root of cosmopolitanism, which favors supranational order.",
+   "extra_sources": []
+  },
+  {
+   "id": "p18",
+   "quiz": "politics",
+   "statement": "Society should value duty and self-discipline more than personal freedom.",
+   "scale": "likert5",
+   "weights": {
+    "stoicism": 2,
+    "confucianism": 2,
+    "enlightenment_liberalism": -3
+   },
+   "lean": {
+    "agree": [
+     "xi_jinping_thought",
+     "abe_line_conservatism",
+     "postliberalism"
+    ],
+    "disagree": [
+     "libertarianism"
+    ]
+   },
+   "source": "https://grokipedia.com/page/Stoicism",
+   "why": "Stoic and Confucian ethics both rank duty above personal choice, against liberal autonomy.",
+   "extra_sources": []
+  },
+  {
+   "id": "p19",
+   "quiz": "politics",
+   "statement": "Differences between how men and women live are mostly shaped by culture, not biology.",
+   "scale": "likert5",
+   "weights": {
+    "critical_theory": 3,
+    "darwinism": -3,
+    "aristotelianism": -2,
+    "christianity": -2
+   },
+   "lean": {
+    "agree": [
+     "progressive_left"
+    ],
+    "disagree": [
+     "religious_right",
+     "christian_fundamentalism"
+    ]
+   },
+   "source": "https://grokipedia.com/page/Gender_role",
+   "why": "Social constructionist accounts of gender oppose biological and natural-law accounts.",
+   "extra_sources": []
+  },
+  {
+   "id": "p20",
+   "quiz": "politics",
+   "statement": "Small groups of insiders secretly steer world events.",
+   "scale": "likert5",
+   "weights": {
+    "hermeticism": 1,
+    "enlightenment_liberalism": -2
+   },
+   "lean": {
+    "agree": [
+     "sanseito_populism"
+    ],
+    "disagree": []
+   },
+   "source": "https://grokipedia.com/page/Conspiracy_theory",
+   "why": "Western esotericism page ties esoteric societies to conspiratorial claims of global cabals; gnosticism weight dropped for lack of a source.",
+   "extra_sources": [
+    {
+     "url": "https://grokipedia.com/page/Western_esotericism",
+     "supports": "hermeticism",
+     "quote": "Freemasonry, a cornerstone of Western esotericism since the 18th century, has faced persistent accusations of undue political influence, often exaggerated into conspiratorial claims of global cabals but rooted in verifiable historical entanglements."
+    }
+   ]
+  },
+  {
+   "id": "p21",
+   "quiz": "politics",
+   "statement": "Over time, history moves toward more freedom and fairness.",
+   "scale": "likert5",
+   "weights": {
+    "enlightenment_liberalism": 3,
+    "marxism": 2,
+    "nietzsche": -2,
+    "buddhism": -1
+   },
+   "lean": {
+    "agree": [
+     "progressive_left",
+     "new_democrats"
+    ],
+    "disagree": [
+     "paleoconservatism"
+    ]
+   },
+   "source": "https://grokipedia.com/page/Whig_history",
+   "why": "Belief in progress unites liberal and Marxist history and is rejected by Nietzsche's critique of progress.",
+   "extra_sources": []
+  },
+  {
+   "id": "p22",
+   "quiz": "politics",
+   "statement": "Government should protect families and the nation's morals, not only individual rights.",
+   "scale": "likert5",
+   "weights": {
+    "aristotelianism": 3,
+    "christianity": 2,
+    "enlightenment_liberalism": -3
+   },
+   "lean": {
+    "agree": [
+     "postliberalism",
+     "christian_democracy",
+     "religious_right"
+    ],
+    "disagree": [
+     "libertarianism",
+     "progressive_left"
+    ]
+   },
+   "source": "https://grokipedia.com/page/Postliberalism",
+   "why": "Postliberals revive an Aristotelian-Christian common good against liberal individualism.",
+   "extra_sources": []
+  },
+  {
+   "id": "p23",
+   "quiz": "politics",
+   "statement": "Money and social class matter more in politics than culture or identity.",
+   "scale": "likert5",
+   "weights": {
+    "marxism": 4,
+    "critical_theory": -2
+   },
+   "lean": {
+    "agree": [
+     "german_left_conservatism",
+     "chinese_new_left",
+     "labour_left"
+    ],
+    "disagree": [
+     "progressive_left"
+    ]
+   },
+   "source": "https://grokipedia.com/page/Class_consciousness",
+   "why": "Class-first politics is Marxist; identity-focused critique is a later critical theory turn.",
+   "extra_sources": []
+  },
+  {
+   "id": "p24",
+   "quiz": "politics",
+   "statement": "Religion should stay out of politics entirely.",
+   "scale": "likert5",
+   "weights": {
+    "enlightenment_liberalism": 4,
+    "christianity": -4,
+    "confucianism": -1,
+    "islam": -2,
+    "judaism": -1
+   },
+   "lean": {
+    "agree": [
+     "progressive_left",
+     "macronism"
+    ],
+    "disagree": [
+     "religious_right",
+     "christian_democracy"
+    ]
+   },
+   "source": "https://grokipedia.com/page/Secularism",
+   "why": "Secularism separates religious institutions from the state, a liberal principle opposed by religious politics.",
+   "extra_sources": []
+  },
+  {
+   "id": "p25",
+   "quiz": "politics",
+   "statement": "A country is better off when everyone earns roughly the same income.",
+   "scale": "likert5",
+   "weights": {
+    "hierarchy": -3,
+    "marxism": 2,
+    "enlightenment_liberalism": -1
+   },
+   "lean": {
+    "agree": [
+     "democratic_socialism_us",
+     "la_france_insoumise",
+     "chinese_new_left"
+    ],
+    "disagree": [
+     "thatcherism",
+     "libertarianism"
+    ]
+   },
+   "source": "https://grokipedia.com/page/Egalitarianism",
+   "why": "Economic egalitarianism opposes ranked outcomes.",
+   "extra_sources": []
+  },
+  {
+   "id": "p26",
+   "quiz": "politics",
+   "statement": "Large differences in wealth are fair if people earned them.",
+   "scale": "likert5",
+   "weights": {
+    "hierarchy": 2,
+    "enlightenment_liberalism": 3,
+    "marxism": -4
+   },
+   "lean": {
+    "agree": [
+     "thatcherism",
+     "libertarianism",
+     "fusionism"
+    ],
+    "disagree": [
+     "democratic_socialism_us",
+     "labour_left"
+    ]
+   },
+   "source": "https://grokipedia.com/page/Meritocracy",
+   "why": "Meritocracy justifies unequal reward by merit; Marx held that owners capture workers' surplus value as profit (Grokipedia, Private property).",
+   "extra_sources": [
+    {
+     "url": "https://grokipedia.com/page/Private_property",
+     "supports": "marxism",
+     "quote": "Karl Marx contended in Das Kapital (1867) that under capitalism, workers produce more value than they receive in wages, with the difference—surplus value—captured by property owners as profit, perpetuating class antagonism between bourgeoisie and proletariat."
+    }
+   ]
+  },
+  {
+   "id": "p27",
+   "quiz": "politics",
+   "statement": "A monarchy or royal family can be good for a nation.",
+   "scale": "likert5",
+   "weights": {
+    "hierarchy": 4,
+    "enlightenment_liberalism": -2
+   },
+   "lean": {
+    "agree": [
+     "one_nation_conservatism"
+    ],
+    "disagree": [
+     "la_france_insoumise"
+    ]
+   },
+   "source": "https://grokipedia.com/page/Monarchism",
+   "why": "Monarchism defends hereditary rank against republican equality.",
+   "extra_sources": []
+  },
+  {
+   "id": "p28",
+   "quiz": "politics",
+   "statement": "Big decisions should be made by citizens voting directly, not by politicians.",
+   "scale": "likert5",
+   "weights": {
+    "hierarchy": -3,
+    "platonism": -2,
+    "enlightenment_liberalism": 1
+   },
+   "lean": {
+    "agree": [
+     "populism",
+     "reform_uk_populism",
+     "la_france_insoumise"
+    ],
+    "disagree": [
+     "macronism"
+    ]
+   },
+   "source": "https://grokipedia.com/page/Direct_democracy",
+   "why": "Direct democracy removes representatives as a ranked layer.",
+   "extra_sources": []
+  },
+  {
+   "id": "p29",
+   "quiz": "politics",
+   "statement": "Highly trained experts should have more say in policy than the general public.",
+   "scale": "likert5",
+   "weights": {
+    "hierarchy": 3,
+    "platonism": 3,
+    "enlightenment_liberalism": 1
+   },
+   "lean": {
+    "agree": [
+     "macronism",
+     "new_democrats",
+     "xi_jinping_thought"
+    ],
+    "disagree": [
+     "populism",
+     "maga",
+     "sanseito_populism"
+    ]
+   },
+   "source": "https://grokipedia.com/page/Technocracy",
+   "why": "Technocracy is rule by the expert few, a modern form of Plato's rule by the wise.",
+   "extra_sources": []
+  },
+  {
+   "id": "p30",
+   "quiz": "politics",
+   "statement": "Police and courts should be tougher on crime, even if some freedoms are lost.",
+   "scale": "likert5",
+   "weights": {
+    "hierarchy": 3,
+    "enlightenment_liberalism": -2
+   },
+   "lean": {
+    "agree": [
+     "maga",
+     "rassemblement_national",
+     "reform_uk_populism"
+    ],
+    "disagree": [
+     "progressive_left"
+    ]
+   },
+   "source": "https://grokipedia.com/page/Law_and_order_(politics)",
+   "why": "Law-and-order politics trades civil liberty for authority.",
+   "extra_sources": []
+  },
+  {
+   "id": "p31",
+   "quiz": "politics",
+   "statement": "A country's military should be strong enough to act anywhere in the world.",
+   "scale": "likert5",
+   "weights": {
+    "hierarchy": 2,
+    "nietzsche": 1,
+    "stoicism": -1
+   },
+   "lean": {
+    "agree": [
+     "neoconservatism"
+    ],
+    "disagree": [
+     "constitutional_pacifism",
+     "paleoconservatism"
+    ]
+   },
+   "source": "https://grokipedia.com/page/Neoconservatism",
+   "why": "Neoconservatism backs projecting military power abroad.",
+   "extra_sources": []
+  },
+  {
+   "id": "p32",
+   "quiz": "politics",
+   "statement": "War is almost never justified, and a country should keep only a defensive military.",
+   "scale": "likert5",
+   "weights": {
+    "hierarchy": -1,
+    "christianity": 1,
+    "nietzsche": -2,
+    "enlightenment_liberalism": 1
+   },
+   "lean": {
+    "agree": [
+     "constitutional_pacifism",
+     "green_politics"
+    ],
+    "disagree": [
+     "neoconservatism",
+     "abe_line_conservatism"
+    ]
+   },
+   "source": "https://grokipedia.com/page/Pacifism",
+   "why": "Pacifism draws on Christian nonviolence and opposes martial values; Nietzsche says slave morality exalts humility and pity (Grokipedia, Master–slave morality).",
+   "extra_sources": [
+    {
+     "url": "https://grokipedia.com/page/Master–slave_morality",
+     "supports": "nietzsche",
+     "quote": "inverting these assessments to condemn the masters' virtues as \"evil\" and to exalt humility, pity, and egalitarian suffering as supreme goods."
+    }
+   ]
+  },
+  {
+   "id": "p33",
+   "quiz": "politics",
+   "statement": "Unions should have more power in the workplace.",
+   "scale": "likert5",
+   "weights": {
+    "marxism": 2,
+    "hierarchy": -2,
+    "enlightenment_liberalism": -1
+   },
+   "lean": {
+    "agree": [
+     "labour_left",
+     "democratic_socialism_us",
+     "social_democracy"
+    ],
+    "disagree": [
+     "thatcherism"
+    ]
+   },
+   "source": "https://grokipedia.com/page/Trade_union",
+   "why": "Unions counter employer authority; strong unions are a labor and socialist aim.",
+   "extra_sources": []
+  },
+  {
+   "id": "p34",
+   "quiz": "politics",
+   "statement": "Very large companies should be broken up.",
+   "scale": "likert5",
+   "weights": {
+    "marxism": 2,
+    "critical_theory": 1,
+    "hierarchy": -2
+   },
+   "lean": {
+    "agree": [
+     "progressive_left"
+    ],
+    "disagree": [
+     "libertarianism"
+    ]
+   },
+   "source": "https://grokipedia.com/page/Competition_law",
+   "why": "Antitrust law limits concentrated economic power.",
+   "extra_sources": []
+  },
+  {
+   "id": "p35",
+   "quiz": "politics",
+   "statement": "Old customs should be kept even when no one can say exactly why they work.",
+   "scale": "likert5",
+   "weights": {
+    "hierarchy": 2,
+    "enlightenment_liberalism": -2,
+    "critical_theory": -2,
+    "confucianism": 1
+   },
+   "lean": {
+    "agree": [
+     "paleoconservatism",
+     "abe_line_conservatism"
+    ],
+    "disagree": [
+     "progressive_left"
+    ]
+   },
+   "source": "https://grokipedia.com/page/Traditionalist_conservatism",
+   "why": "Traditionalist conservatism trusts inherited custom over abstract reason.",
+   "extra_sources": []
+  },
+  {
+   "id": "p36",
+   "quiz": "politics",
+   "statement": "Each generation should rethink society's rules from scratch, using reason.",
+   "scale": "likert5",
+   "weights": {
+    "enlightenment_liberalism": 3,
+    "critical_theory": 1,
+    "confucianism": -4,
+    "hierarchy": -2
+   },
+   "lean": {
+    "agree": [
+     "progressive_left"
+    ],
+    "disagree": [
+     "paleoconservatism",
+     "abe_line_conservatism"
+    ]
+   },
+   "source": "https://grokipedia.com/page/Age_of_Enlightenment",
+   "why": "The Enlightenment put reason above inherited authority.",
+   "extra_sources": []
+  },
+  {
+   "id": "p37",
+   "quiz": "politics",
+   "statement": "A country is best run by one ruling party that speaks for the whole people.",
+   "scale": "likert5",
+   "weights": {
+    "hierarchy": 4,
+    "marxism": 1,
+    "enlightenment_liberalism": -4
+   },
+   "lean": {
+    "agree": [
+     "xi_jinping_thought",
+     "leninism"
+    ],
+    "disagree": [
+     "chinese_liberalism",
+     "russian_liberal_opposition"
+    ]
+   },
+   "source": "https://grokipedia.com/page/Vanguardism",
+   "why": "Leninist vanguardism gives one party the leading role.",
+   "extra_sources": []
+  },
+  {
+   "id": "p38",
+   "quiz": "politics",
+   "statement": "Power should be spread across many independent institutions so no one group dominates.",
+   "scale": "likert5",
+   "weights": {
+    "hierarchy": -3,
+    "enlightenment_liberalism": 4
+   },
+   "lean": {
+    "agree": [
+     "russian_liberal_opposition",
+     "chinese_liberalism",
+     "macronism"
+    ],
+    "disagree": [
+     "putinism",
+     "xi_jinping_thought"
+    ]
+   },
+   "source": "https://grokipedia.com/page/Separation_of_powers",
+   "why": "Separation of powers is the liberal answer to concentrated rule.",
+   "extra_sources": []
+  },
+  {
+   "id": "p39",
+   "quiz": "politics",
+   "statement": "Religion has a valuable place in public ceremonies and national life.",
+   "scale": "likert5",
+   "weights": {
+    "christianity": 2,
+    "confucianism": 1,
+    "enlightenment_liberalism": -2
+   },
+   "lean": {
+    "agree": [
+     "religious_right",
+     "christian_democracy"
+    ],
+    "disagree": [
+     "progressive_left",
+     "macronism"
+    ]
+   },
+   "source": "https://grokipedia.com/page/Civil_religion",
+   "why": "Civil religion gives faith a public role.",
+   "extra_sources": []
+  },
+  {
+   "id": "p40",
+   "quiz": "politics",
+   "statement": "Protecting minorities matters more than following what the majority wants.",
+   "scale": "likert5",
+   "weights": {
+    "critical_theory": 3,
+    "enlightenment_liberalism": 2,
+    "hierarchy": -1,
+    "nietzsche": -1
+   },
+   "lean": {
+    "agree": [
+     "progressive_left"
+    ],
+    "disagree": [
+     "populism",
+     "rassemblement_national"
+    ]
+   },
+   "source": "https://grokipedia.com/page/Tyranny_of_the_majority",
+   "why": "Guarding against majority rule over minorities is a liberal and critical theme.",
+   "extra_sources": []
+  },
+  {
+   "id": "p41",
+   "quiz": "politics",
+   "statement": "Science and technology will eventually solve most human problems.",
+   "scale": "likert5",
+   "weights": {
+    "enlightenment_liberalism": 4,
+    "darwinism": 1,
+    "daoism": -2,
+    "buddhism": -1,
+    "romanticism": -2
+   },
+   "lean": {
+    "agree": [
+     "new_democrats",
+     "ishin_reformism"
+    ],
+    "disagree": [
+     "green_politics"
+    ]
+   },
+   "source": "https://grokipedia.com/page/Technological_utopianism",
+   "why": "Techno-optimism extends Enlightenment faith in progress.",
+   "extra_sources": []
+  },
+  {
+   "id": "p42",
+   "quiz": "politics",
+   "statement": "Economic growth should be slowed if needed to protect nature.",
+   "scale": "likert5",
+   "weights": {
+    "daoism": 2,
+    "enlightenment_liberalism": -2,
+    "marxism": 1
+   },
+   "lean": {
+    "agree": [
+     "green_politics"
+    ],
+    "disagree": [
+     "thatcherism",
+     "ishin_reformism"
+    ]
+   },
+   "source": "https://grokipedia.com/page/Degrowth",
+   "why": "Degrowth rejects growth-first economics for ecological limits.",
+   "extra_sources": []
+  },
+  {
+   "id": "p43",
+   "quiz": "politics",
+   "statement": "Facing hardship calmly builds better citizens than government help does.",
+   "scale": "likert5",
+   "weights": {
+    "stoicism": 3,
+    "marxism": -2,
+    "hierarchy": 1
+   },
+   "lean": {
+    "agree": [
+     "fusionism"
+    ],
+    "disagree": [
+     "new_deal_liberalism"
+    ]
+   },
+   "source": "https://grokipedia.com/page/Stoicism",
+   "why": "Stoic endurance of hardship stands against reliance on state relief.",
+   "extra_sources": []
+  },
+  {
+   "id": "p44",
+   "quiz": "politics",
+   "statement": "Most talk of ideals in politics is a cover for self-interest.",
+   "scale": "likert5",
+   "weights": {
+    "irony": 3,
+    "nietzsche": 2,
+    "critical_theory": 1,
+    "platonism": -2
+   },
+   "lean": {
+    "agree": [],
+    "disagree": []
+   },
+   "source": "https://grokipedia.com/page/Hermeneutics_of_suspicion",
+   "why": "The hermeneutics of suspicion (Marx, Nietzsche, Freud) reads stated ideals as masks.",
+   "extra_sources": []
+  },
+  {
+   "id": "p45",
+   "quiz": "politics",
+   "statement": "Online political jokes and memes can change real elections.",
+   "scale": "likert5",
+   "weights": {
+    "humor": 3,
+    "irony": 2
+   },
+   "lean": {
+    "agree": [],
+    "disagree": []
+   },
+   "source": "https://grokipedia.com/page/Internet_meme",
+   "why": "Memes carry political messages through humor and irony.",
+   "extra_sources": []
+  },
+  {
+   "id": "p46",
+   "quiz": "politics",
+   "statement": "Leaders should never joke about serious politics.",
+   "scale": "likert5",
+   "weights": {
+    "humor": -4,
+    "irony": -2
+   },
+   "lean": {
+    "agree": [],
+    "disagree": []
+   },
+   "source": "https://grokipedia.com/page/Political_satire",
+   "why": "Satire's place in politics is the contrast this item tests.",
+   "extra_sources": []
+  },
+  {
+   "id": "p47",
+   "quiz": "politics",
+   "statement": "A person's inner spiritual life matters more than politics.",
+   "scale": "likert5",
+   "weights": {
+    "buddhism": 3,
+    "daoism": 1,
+    "gnosticism": 2,
+    "marxism": -2
+   },
+   "lean": {
+    "agree": [],
+    "disagree": [
+     "democratic_socialism_us"
+    ]
+   },
+   "source": "https://grokipedia.com/page/Asceticism",
+   "why": "Ascetic and contemplative withdrawal puts inner life above worldly affairs; Gnostic ascetics withdrew from worldly attachments (Grokipedia, Gnosticism).",
+   "extra_sources": [
+    {
+     "url": "https://grokipedia.com/page/Gnosticism",
+     "supports": "gnosticism",
+     "quote": "Gnostic ascetic practices, including withdrawal from worldly attachments and contemplative rituals, parallel Buddhist monasticism and meditation aimed at dispelling illusion."
+    }
+   ]
+  },
+  {
+   "id": "p48",
+   "quiz": "politics",
+   "statement": "History has a hidden spiritual meaning that everyday politics misses.",
+   "scale": "likert5",
+   "weights": {
+    "hermeticism": 1,
+    "abstraction": 3,
+    "vedanta": 1,
+    "darwinism": -2
+   },
+   "lean": {
+    "agree": [
+     "eurasianism"
+    ],
+    "disagree": []
+   },
+   "source": "https://grokipedia.com/page/Eurasianism",
+   "why": "Neo-Eurasianism draws on traditionalist philosophy, which reads history spiritually; the hermeticism +1 is a judgment (the link runs through Guénon, not this page).",
+   "extra_sources": [
+    {
+     "url": "https://grokipedia.com/page/Eurasianism",
+     "supports": "abstraction",
+     "quote": "...emerged as the principal architect of neo-Eurasianism in the 1990s, synthesizing classical Eurasianist thought with geopolitical theory, traditionalist philosophy, and anti-liberal ideology to advocate for Russia's role as the core of a continental superpower."
+    }
+   ]
+  },
+  {
+   "id": "p49",
+   "quiz": "politics",
+   "statement": "Politics should deal only with material needs like jobs, housing and food.",
+   "scale": "likert5",
+   "weights": {
+    "abstraction": -4,
+    "marxism": 1,
+    "platonism": -2,
+    "christianity": -1
+   },
+   "lean": {
+    "agree": [
+     "german_left_conservatism",
+     "chinese_new_left"
+    ],
+    "disagree": [
+     "postliberalism",
+     "religious_right"
+    ]
+   },
+   "source": "https://grokipedia.com/page/Historical_materialism",
+   "why": "Historical materialism puts material needs at the base of social life.",
+   "extra_sources": []
+  },
+  {
+   "id": "p50",
+   "quiz": "politics",
+   "statement": "Laws should reflect timeless moral truths, not just what voters want today.",
+   "scale": "likert5",
+   "weights": {
+    "abstraction": 3,
+    "platonism": 2,
+    "aristotelianism": 2,
+    "enlightenment_liberalism": -2
+   },
+   "lean": {
+    "agree": [
+     "postliberalism",
+     "religious_right",
+     "christian_democracy"
+    ],
+    "disagree": [
+     "progressive_left"
+    ]
+   },
+   "source": "https://grokipedia.com/page/Natural_law",
+   "why": "Natural law grounds law in unchanging moral order.",
+   "extra_sources": []
+  },
+  {
+   "id": "p51",
+   "quiz": "politics",
+   "statement": "It's Paris, January 1793. You're a deputy in the National Convention, which has just found the former king, Louis XVI, guilty of treason. You'd vote for the death sentence.",
+   "scale": "likert5",
+   "weights": {
+    "hierarchy": -3,
+    "enlightenment_liberalism": 1,
+    "christianity": -1
+   },
+   "lean": {
+    "agree": [
+     "la_france_insoumise"
+    ],
+    "disagree": []
+   },
+   "source": "https://grokipedia.com/page/Execution_of_Louis_XVI",
+   "why": "Regicide rejected divine-right monarchy; the Convention split on death versus clemency or exile.",
+   "extra_sources": [],
+   "type": "scenario"
+  },
+  {
+   "id": "p52",
+   "quiz": "politics",
+   "statement": "It's Tokyo, October 1946. You sit in Japan's Diet, voting on a new constitution whose Article 9 says the people 'forever renounce war as a sovereign right of the nation.' You'd vote yes.",
+   "scale": "likert5",
+   "weights": {
+    "nationalism": -2,
+    "hierarchy": -1,
+    "enlightenment_liberalism": 1
+   },
+   "lean": {
+    "agree": [
+     "constitutional_pacifism"
+    ],
+    "disagree": [
+     "abe_line_conservatism"
+    ]
+   },
+   "source": "https://grokipedia.com/page/Constitution_of_Japan",
+   "why": "Article 9's renunciation of war limits national sovereignty in arms; Japanese conservatives later sought to revise it.",
+   "extra_sources": [],
+   "type": "scenario"
+  },
+  {
+   "id": "p53",
+   "quiz": "politics",
+   "statement": "It's Beijing, summer 1898. The Guangxu Emperor is issuing edicts to remake China's schools and government on the model of Japan's Meiji reforms, including exams that put practical and Western knowledge ahead of memorizing the classics. You're an official; you'd back the reforms.",
+   "scale": "likert5",
+   "weights": {
+    "confucianism": -1,
+    "enlightenment_liberalism": 2,
+    "hierarchy": -1
+   },
+   "lean": {
+    "agree": [],
+    "disagree": []
+   },
+   "source": "https://grokipedia.com/page/Hundred_Days'_Reform",
+   "why": "The reforms recast the classical exam system; conservatives defended the established Confucian order, though its chief advocate, Kang Youwei, was himself a Confucian reformer.",
+   "extra_sources": [],
+   "type": "scenario"
+  },
+  {
+   "id": "p54",
+   "quiz": "politics",
+   "statement": "It's Ankara, March 1924. You're a deputy in Turkey's Grand National Assembly, voting on whether to abolish the caliphate held by the Ottoman dynasty. You'd vote to abolish it.",
+   "scale": "likert5",
+   "weights": {
+    "islam": -3,
+    "nationalism": 2,
+    "enlightenment_liberalism": 1
+   },
+   "lean": {
+    "agree": [],
+    "disagree": []
+   },
+   "source": "https://grokipedia.com/page/Abolition_of_the_Caliphate",
+   "why": "Abolition put the Turkish nation-state above the caliphate, a religious office of Islam.",
+   "extra_sources": [],
+   "type": "scenario"
+  },
+  {
+   "id": "p55",
+   "quiz": "politics",
+   "statement": "It's London, 1846. You're a member of Parliament voting on whether to repeal the Corn Laws, the high tariffs that restricted imports of foreign grain and protected British landowners. You'd vote to repeal them.",
+   "scale": "likert5",
+   "weights": {
+    "enlightenment_liberalism": 3,
+    "nationalism": -1,
+    "hierarchy": -1
+   },
+   "lean": {
+    "agree": [
+     "thatcherism",
+     "libertarianism"
+    ],
+    "disagree": []
+   },
+   "source": "https://grokipedia.com/page/Corn_Laws",
+   "why": "Repeal was a landmark of classical-liberal free trade against landed protection.",
+   "extra_sources": [],
+   "type": "scenario"
+  },
+  {
+   "id": "p56",
+   "quiz": "politics",
+   "statement": "It's Paris, March 1871. After France's defeat by Prussia, the city's National Guard has taken over Paris and scheduled elections for a revolutionary city council, the Commune. You live in Paris; you'd vote for the Commune's candidates.",
+   "scale": "likert5",
+   "weights": {
+    "marxism": 3,
+    "hierarchy": -2
+   },
+   "lean": {
+    "agree": [
+     "la_france_insoumise"
+    ],
+    "disagree": []
+   },
+   "source": "https://grokipedia.com/page/Paris_Commune",
+   "why": "Marx hailed the Commune as a model workers' government; it rejected the national government at Versailles.",
+   "extra_sources": [],
+   "type": "scenario"
+  },
+  {
+   "id": "p57",
+   "quiz": "politics",
+   "statement": "It's Petrograd, January 1918. Russia's freely elected Constituent Assembly has met, and the Bolsheviks won about a quarter of its seats. You'd back the Bolshevik government's move to dissolve it.",
+   "scale": "likert5",
+   "weights": {
+    "marxism": 2,
+    "enlightenment_liberalism": -3,
+    "hierarchy": 2
+   },
+   "lean": {
+    "agree": [
+     "leninism"
+    ],
+    "disagree": [
+     "russian_liberal_opposition"
+    ]
+   },
+   "source": "https://grokipedia.com/page/Russian_Constituent_Assembly",
+   "why": "Lenin justified dissolution as incompatible with proletarian dictatorship, against liberal parliamentarism.",
+   "extra_sources": [],
+   "type": "scenario"
+  },
+  {
+   "id": "p58",
+   "quiz": "politics",
+   "statement": "It's Frankfurt, 1848. You're a delegate to the first freely elected assembly for all of Germany, which aims to unite the many German states under one constitution. You'd vote for a single German nation-state.",
+   "scale": "likert5",
+   "weights": {
+    "nationalism": 3,
+    "romanticism": 1,
+    "enlightenment_liberalism": 1
+   },
+   "lean": {
+    "agree": [],
+    "disagree": []
+   },
+   "source": "https://grokipedia.com/page/Frankfurt_Parliament",
+   "why": "The Frankfurt Parliament sought German national unity under a liberal constitution.",
+   "extra_sources": [],
+   "type": "scenario"
+  },
+  {
+   "id": "p59",
+   "quiz": "politics",
+   "statement": "It's Vienna, late 1814. Napoleon has been defeated and exiled, and you're a diplomat redrawing Europe's map. You'd restore the old ruling dynasties rather than draw borders around peoples and languages.",
+   "scale": "likert5",
+   "weights": {
+    "nationalism": -2,
+    "hierarchy": 2,
+    "enlightenment_liberalism": -1
+   },
+   "lean": {
+    "agree": [],
+    "disagree": []
+   },
+   "source": "https://grokipedia.com/page/Congress_of_Vienna",
+   "why": "The Congress restored legitimate dynasties and a balance of power, not national self-rule.",
+   "extra_sources": [],
+   "type": "scenario"
+  },
+  {
+   "id": "p60",
+   "quiz": "politics",
+   "statement": "It's India, March 1930. Gandhi is leading a march to the sea at Dandi to make salt in open defiance of the British salt law. You'd join the march.",
+   "scale": "likert5",
+   "weights": {
+    "nationalism": 2,
+    "hierarchy": -2,
+    "vedanta": 1
+   },
+   "lean": {
+    "agree": [],
+    "disagree": []
+   },
+   "source": "https://grokipedia.com/page/Salt_March",
+   "why": "Satyagraha joined Indian self-rule to nonviolent resistance; the vedanta +1 is a stance reading (Satyagraha draws on Hindu thought).",
+   "extra_sources": [],
+   "type": "scenario"
+  },
+  {
+   "id": "p61",
+   "quiz": "politics",
+   "statement": "It's Iran, March 1979. The monarchy has fallen, and a referendum asks a single question: 'Islamic Republic: yes or no?' You'd vote yes.",
+   "scale": "likert5",
+   "weights": {
+    "islam": 3,
+    "enlightenment_liberalism": -2,
+    "hierarchy": 1
+   },
+   "lean": {
+    "agree": [],
+    "disagree": []
+   },
+   "source": "https://grokipedia.com/page/1979_Iranian_Islamic_Republic_referendum",
+   "why": "The vote set up the Islamic Republic in place of the monarchy; its constitution, ratified in a December 1979 referendum, added clerical guardianship (velayat-e faqih).",
+   "extra_sources": [],
+   "type": "scenario"
+  },
+  {
+   "id": "p62",
+   "quiz": "politics",
+   "statement": "It's northern Italy, January 1077. Pope Gregory VII and Emperor Henry IV are fighting over who has the right to appoint bishops. You'd side with the Pope.",
+   "scale": "likert5",
+   "weights": {
+    "christianity": 2,
+    "hierarchy": 1
+   },
+   "lean": {
+    "agree": [
+     "postliberalism"
+    ],
+    "disagree": []
+   },
+   "source": "https://grokipedia.com/page/Road_to_Canossa",
+   "why": "Siding with the papacy puts Church authority over the secular ruler in the Investiture Controversy.",
+   "extra_sources": [],
+   "type": "scenario"
+  },
+  {
+   "id": "p63",
+   "quiz": "politics",
+   "statement": "It's Judea, 167 BCE. King Antiochus IV has banned circumcision, the Sabbath and Torah study, and put an altar to Zeus in the Temple. The priest Mattathias calls for revolt. You'd join it.",
+   "scale": "likert5",
+   "weights": {
+    "judaism": 3,
+    "nationalism": 1,
+    "hierarchy": -1
+   },
+   "lean": {
+    "agree": [],
+    "disagree": []
+   },
+   "source": "https://grokipedia.com/page/Maccabean_Revolt",
+   "why": "The Maccabean revolt defended Jewish law and worship against a foreign king.",
+   "extra_sources": [],
+   "type": "scenario"
+  },
+  {
+   "id": "p64",
+   "quiz": "politics",
+   "statement": "It's India, around 260 BCE. You are the emperor Ashoka, and your conquest of Kalinga has cost over 100,000 lives. You'd give up further wars of conquest and rule by moral teaching instead.",
+   "scale": "likert5",
+   "weights": {
+    "buddhism": 3,
+    "nietzsche": -1,
+    "hierarchy": -1
+   },
+   "lean": {
+    "agree": [],
+    "disagree": []
+   },
+   "source": "https://grokipedia.com/page/Ashoka",
+   "why": "Ashoka's edicts express remorse for Kalinga and turn to dhamma, nonviolent moral rule tied to Buddhism.",
+   "extra_sources": [],
+   "type": "scenario"
+  },
+  {
+   "id": "p65",
+   "quiz": "politics",
+   "statement": "It's China, 81 BCE. At a court debate, Confucian scholars attack the state's monopolies on salt and iron, while officials defend them as needed to fund the army. You'd side with the officials and keep the monopolies.",
+   "scale": "likert5",
+   "weights": {
+    "confucianism": -2,
+    "hierarchy": 1
+   },
+   "lean": {
+    "agree": [],
+    "disagree": []
+   },
+   "source": "https://grokipedia.com/page/Discourses_on_Salt_and_Iron",
+   "why": "The literati argued from Confucian moral economy against state monopolies run by Legalist-minded officials.",
+   "extra_sources": [],
+   "type": "scenario"
+  },
+  {
+   "id": "p66",
+   "quiz": "politics",
+   "statement": "It's China, 136 BCE. Emperor Wu of Han is asking scholars for advice, and Dong Zhongshu urges him to dismiss officials trained only in non-Confucian teachings. You'd back the proposal.",
+   "scale": "likert5",
+   "weights": {
+    "confucianism": 3,
+    "hierarchy": 1,
+    "daoism": -1
+   },
+   "lean": {
+    "agree": [
+     "xi_jinping_thought"
+    ],
+    "disagree": []
+   },
+   "source": "https://grokipedia.com/page/Emperor_Wu_of_Han",
+   "why": "Emperor Wu made Confucianism the state's ideology, edging out rival schools at court.",
+   "extra_sources": [],
+   "type": "scenario"
+  },
+  {
+   "id": "p67",
+   "quiz": "politics",
+   "statement": "It's Moscow, March 1921. After the civil war has left the economy in collapse, Lenin proposes allowing limited private trade and market incentives again. You're a party delegate; you'd vote for the plan.",
+   "scale": "likert5",
+   "weights": {
+    "marxism": -1,
+    "enlightenment_liberalism": 1
+   },
+   "lean": {
+    "agree": [
+     "socialism_chinese_characteristics"
+    ],
+    "disagree": [
+     "maoism"
+    ]
+   },
+   "source": "https://grokipedia.com/page/New_Economic_Policy",
+   "why": "The NEP was a retreat from War Communism toward limited markets; it is a mild move away from strict Marxist practice.",
+   "extra_sources": [],
+   "type": "scenario"
+  },
+  {
+   "id": "p68",
+   "quiz": "politics",
+   "statement": "It's Nashville, March 1925. You're a Tennessee legislator voting on the Butler Act, which bans public school teachers from teaching that humans descended from lower animals. You'd vote yes.",
+   "scale": "likert5",
+   "weights": {
+    "darwinism": -3,
+    "christianity": 2,
+    "enlightenment_liberalism": -1
+   },
+   "lean": {
+    "agree": [
+     "christian_fundamentalism"
+    ],
+    "disagree": []
+   },
+   "source": "https://grokipedia.com/page/Scopes_trial",
+   "why": "The Butler Act protected the biblical creation account by banning the teaching of human descent from lower animals; it became law on March 21, 1925.",
+   "extra_sources": [],
+   "type": "scenario"
+  },
+  {
+   "id": "p69",
+   "quiz": "politics",
+   "statement": "It's Paris, November 1793. Revolutionaries plan a Festival of Reason that will turn Notre-Dame Cathedral into a 'Temple of Reason.' You'd support the plan.",
+   "scale": "likert5",
+   "weights": {
+    "christianity": -3,
+    "enlightenment_liberalism": 1,
+    "hierarchy": -1
+   },
+   "lean": {
+    "agree": [],
+    "disagree": []
+   },
+   "source": "https://grokipedia.com/page/Cult_of_Reason",
+   "why": "The Cult of Reason was part of the revolutionary campaign to replace Christian worship.",
+   "extra_sources": [],
+   "type": "scenario"
+  },
+  {
+   "id": "p70",
+   "quiz": "politics",
+   "statement": "It's Athens, 424 BCE. You're a judge at a comedy festival, and one play openly mocks Cleon, a powerful politician then at the height of his influence. You'd give that play first prize.",
+   "scale": "likert5",
+   "weights": {
+    "humor": 3,
+    "irony": 1,
+    "hierarchy": -1
+   },
+   "lean": {
+    "agree": [],
+    "disagree": []
+   },
+   "source": "https://grokipedia.com/page/The_Knights",
+   "why": "Aristophanes' The Knights satirized Cleon and won first prize at the Lenaea.",
+   "extra_sources": [],
+   "type": "scenario"
+  },
+  {
+   "id": "p71",
+   "quiz": "politics",
+   "statement": "It's Russia, 1861. You're a noble landowner, and Tsar Alexander II has decreed the end of serfdom, freeing about 23 million peasants bound to the land. You'd support the decree.",
+   "scale": "likert5",
+   "weights": {
+    "hierarchy": -3,
+    "enlightenment_liberalism": 1
+   },
+   "lean": {
+    "agree": [],
+    "disagree": []
+   },
+   "source": "https://grokipedia.com/page/Emancipation_reform_of_1861",
+   "why": "Emancipation dismantled a ranked order of lords and bound peasants.",
+   "extra_sources": [],
+   "type": "scenario"
+  },
+  {
+   "id": "p72",
+   "quiz": "politics",
+   "statement": "Every nation should have its own state and govern itself.",
+   "scale": "likert5",
+   "weights": {
+    "nationalism": 4,
+    "enlightenment_liberalism": 1
+   },
+   "lean": {
+    "agree": [
+     "national_conservatism",
+     "rassemblement_national",
+     "gaullism"
+    ],
+    "disagree": []
+   },
+   "source": "https://grokipedia.com/page/Nationalism",
+   "why": "National self-rule is the core claim of nationalism.",
+   "extra_sources": []
+  },
+  {
+   "id": "p73",
+   "quiz": "politics",
+   "statement": "A nation's folk songs, legends and old dialects are a treasure the state should help preserve.",
+   "scale": "likert5",
+   "weights": {
+    "romanticism": 3,
+    "nationalism": 2
+   },
+   "lean": {
+    "agree": [
+     "alternative_for_germany",
+     "sanseito_populism"
+    ],
+    "disagree": []
+   },
+   "source": "https://grokipedia.com/page/Romantic_nationalism",
+   "why": "Romantic nationalism prized folk culture as the soul of a people.",
+   "extra_sources": []
+  },
+  {
+   "id": "p74",
+   "quiz": "politics",
+   "statement": "Public policy should be decided by careful counting of costs and benefits, not by national feeling or tradition.",
+   "scale": "likert5",
+   "weights": {
+    "romanticism": -3,
+    "enlightenment_liberalism": 2,
+    "nationalism": -1,
+    "abstraction": -1
+   },
+   "lean": {
+    "agree": [
+     "new_democrats",
+     "macronism"
+    ],
+    "disagree": []
+   },
+   "source": "https://grokipedia.com/page/Utilitarianism",
+   "why": "Cost-benefit reasoning descends from Enlightenment utilitarianism, which Romantics opposed as cold calculation.",
+   "extra_sources": []
+  },
+  {
+   "id": "p75",
+   "quiz": "politics",
+   "statement": "In a Muslim-majority country, Islamic law (sharia) should be a main source of the country's laws.",
+   "scale": "likert5",
+   "weights": {
+    "islam": 4,
+    "enlightenment_liberalism": -2
+   },
+   "lean": {
+    "agree": [],
+    "disagree": []
+   },
+   "source": "https://grokipedia.com/page/Sharia",
+   "why": "Sharia as a source of state law is a central demand of Islamic political movements.",
+   "extra_sources": []
+  },
+  {
+   "id": "p76",
+   "quiz": "politics",
+   "statement": "Religious communities should be free to run their own courts for family matters like marriage and divorce among their members.",
+   "scale": "likert5",
+   "weights": {
+    "judaism": 2,
+    "islam": 2,
+    "enlightenment_liberalism": -1
+   },
+   "lean": {
+    "agree": [],
+    "disagree": []
+   },
+   "source": "https://grokipedia.com/page/Beth_din",
+   "why": "Rabbinical courts (beth din) and sharia councils handle family law for members of their faith.",
+   "extra_sources": []
+  },
+  {
+   "id": "p77",
+   "quiz": "politics",
+   "statement": "Shops and businesses should be free to open on any day, with no shared day of rest set by law.",
+   "scale": "likert5",
+   "weights": {
+    "judaism": -2,
+    "christianity": -2,
+    "enlightenment_liberalism": 2
+   },
+   "lean": {
+    "agree": [
+     "libertarianism"
+    ],
+    "disagree": []
+   },
+   "source": "https://grokipedia.com/page/Blue_law",
+   "why": "Sunday-closing laws and the Sabbath rest descend from biblical law; free-market liberals oppose them.",
+   "extra_sources": []
+  },
+  {
+   "id": "p78",
+   "quiz": "politics",
+   "statement": "Building a better world here and now is the highest calling of a good life.",
+   "scale": "likert5",
+   "weights": {
+    "gnosticism": -3,
+    "marxism": 2,
+    "buddhism": -1
+   },
+   "lean": {
+    "agree": [
+     "progressive_left"
+    ],
+    "disagree": []
+   },
+   "source": "https://grokipedia.com/page/Gnosticism",
+   "why": "Gnostics saw the material world as a trap to escape, not a home to improve.",
+   "extra_sources": []
+  },
+  {
+   "id": "p79",
+   "quiz": "politics",
+   "statement": "Governments should never fund or officially promote astrology, magic or other occult practices.",
+   "scale": "likert5",
+   "weights": {
+    "hermeticism": -3,
+    "enlightenment_liberalism": 1
+   },
+   "lean": {
+    "agree": [],
+    "disagree": []
+   },
+   "source": "https://grokipedia.com/page/Occult",
+   "why": "Hermetic astrology and magic are part of the occult tradition modern secular states treat as unscientific.",
+   "extra_sources": []
+  },
+  {
+   "id": "p80",
+   "quiz": "politics",
+   "statement": "Ideas like karma and rebirth have no place in deciding public policy.",
+   "scale": "likert5",
+   "weights": {
+    "vedanta": -2,
+    "buddhism": -2,
+    "enlightenment_liberalism": 1
+   },
+   "lean": {
+    "agree": [],
+    "disagree": []
+   },
+   "source": "https://grokipedia.com/page/Karma",
+   "why": "Karma is a shared doctrine of Hinduism and Buddhism; secular liberalism keeps it out of law.",
+   "extra_sources": []
+  },
+  {
+   "id": "p81",
+   "quiz": "politics",
+   "statement": "Nonviolent resistance based on spiritual truth is the strongest political force there is.",
+   "scale": "likert5",
+   "weights": {
+    "vedanta": 2,
+    "christianity": 1,
+    "hierarchy": -1,
+    "nietzsche": -1
+   },
+   "lean": {
+    "agree": [],
+    "disagree": []
+   },
+   "source": "https://grokipedia.com/page/Satyagraha",
+   "why": "Gandhi's satyagraha ('soul-force') drew on Hindu thought and the Sermon on the Mount.",
+   "extra_sources": []
+  },
+  {
+   "id": "p82",
+   "quiz": "politics",
+   "statement": "The best ruler would be a philosopher who understands both reason and divine law.",
+   "scale": "likert5",
+   "weights": {
+    "islamic_philosophy": 3,
+    "platonism": 2,
+    "hierarchy": 2
+   },
+   "lean": {
+    "agree": [],
+    "disagree": []
+   },
+   "source": "https://grokipedia.com/page/Al-Farabi",
+   "why": "Al-Farabi's virtuous city joins Plato's philosopher-king with the prophet-lawgiver.",
+   "extra_sources": []
+  },
+  {
+   "id": "p83",
+   "quiz": "politics",
+   "statement": "Insulting a country's religion in public should be against the law.",
+   "scale": "likert5",
+   "weights": {
+    "humor": -2,
+    "islam": 1,
+    "christianity": 1,
+    "enlightenment_liberalism": -3
+   },
+   "lean": {
+    "agree": [],
+    "disagree": []
+   },
+   "source": "https://grokipedia.com/page/Blasphemy_law",
+   "why": "Blasphemy laws protect religion from ridicule; liberals defend the right to mock.",
+   "extra_sources": []
+  },
+  {
+   "id": "p84",
+   "quiz": "politics",
+   "statement": "Politicians who talk in a playful, half-joking style shouldn't be taken literally.",
+   "scale": "likert5",
+   "weights": {
+    "irony": 3,
+    "humor": 1
+   },
+   "lean": {
+    "agree": [],
+    "disagree": []
+   },
+   "source": "https://grokipedia.com/page/Irony",
+   "why": "Saying one thing while meaning another is irony; the item asks whether to read politics that way.",
+   "extra_sources": []
+  },
+  {
+   "id": "p85",
+   "quiz": "politics",
+   "statement": "Satirical news shows make people too cynical about politics.",
+   "scale": "likert5",
+   "weights": {
+    "irony": -3,
+    "humor": -1
+   },
+   "lean": {
+    "agree": [],
+    "disagree": []
+   },
+   "source": "https://grokipedia.com/page/Political_satire",
+   "why": "Satire uses irony to expose power and can foster cynicism; agreeing favors sincerity over ironic distance.",
+   "extra_sources": []
+  },
+  {
+   "id": "p86",
+   "quiz": "politics",
+   "statement": "Politics is at bottom a struggle over ideas and values, more than over money and resources.",
+   "scale": "likert5",
+   "weights": {
+    "abstraction": 3,
+    "marxism": -2,
+    "platonism": 1
+   },
+   "lean": {
+    "agree": [
+     "postliberalism"
+    ],
+    "disagree": [
+     "chinese_new_left"
+    ]
+   },
+   "source": "https://grokipedia.com/page/Base_and_superstructure",
+   "why": "Marx's base and superstructure puts economics first; idealists put ideas first.",
+   "extra_sources": []
+  },
+  {
+   "id": "p87",
+   "quiz": "politics",
+   "statement": "Modern industry has cut people off from nature and community, and politics should try to restore those ties.",
+   "scale": "likert5",
+   "weights": {
+    "romanticism": 3,
+    "daoism": 1,
+    "marxism": 1
+   },
+   "lean": {
+    "agree": [
+     "green_politics",
+     "german_left_conservatism"
+    ],
+    "disagree": []
+   },
+   "source": "https://grokipedia.com/page/Romanticism",
+   "why": "Romantics reacted against industrialization and its break with nature.",
+   "extra_sources": []
+  },
+  {
+   "id": "p88",
+   "quiz": "politics",
+   "statement": "Human nature was shaped by evolution, so some inequalities between people cannot be erased by policy.",
+   "scale": "likert5",
+   "weights": {
+    "darwinism": 3,
+    "hierarchy": 2,
+    "critical_theory": -2
+   },
+   "lean": {
+    "agree": [],
+    "disagree": []
+   },
+   "source": "https://grokipedia.com/page/Evolutionary_psychology",
+   "why": "Evolutionary psychology sees evolved traits behind behavior; critical theory reads inequality as social.",
+   "extra_sources": []
+  },
+  {
+   "id": "p89",
+   "quiz": "politics",
+   "statement": "Great leaders should not be held to the same moral rules as ordinary people.",
+   "scale": "likert5",
+   "weights": {
+    "nietzsche": 3,
+    "hierarchy": 3,
+    "christianity": -2
+   },
+   "lean": {
+    "agree": [],
+    "disagree": []
+   },
+   "source": "https://grokipedia.com/page/Übermensch",
+   "why": "Nietzsche's overman creates values beyond conventional, Christian morality.",
+   "extra_sources": []
+  },
+  {
+   "id": "p90",
+   "quiz": "politics",
+   "statement": "Caring for the weakest members of society is the first duty of any government.",
+   "scale": "likert5",
+   "weights": {
+    "christianity": 2,
+    "nietzsche": -3,
+    "hierarchy": -1,
+    "buddhism": 1
+   },
+   "lean": {
+    "agree": [
+     "christian_democracy",
+     "social_democracy"
+    ],
+    "disagree": []
+   },
+   "source": "https://grokipedia.com/page/Compassion",
+   "why": "Christian and Buddhist ethics stress compassion; Nietzsche attacked pity as a slave value.",
+   "extra_sources": []
+  },
+  {
+   "id": "p91",
+   "quiz": "politics",
+   "statement": "A public official should treat the job as a duty to be done calmly, not as a path to fame.",
+   "scale": "likert5",
+   "weights": {
+    "stoicism": 3,
+    "confucianism": 1,
+    "nietzsche": -1
+   },
+   "lean": {
+    "agree": [],
+    "disagree": []
+   },
+   "source": "https://grokipedia.com/page/Stoicism",
+   "why": "The Stoic statesman, as in Marcus Aurelius, does his duty and is indifferent to glory.",
+   "extra_sources": []
+  },
+  {
+   "id": "p92",
+   "quiz": "politics",
+   "statement": "People can only live a full life as members of a political community.",
+   "scale": "likert5",
+   "weights": {
+    "aristotelianism": 4,
+    "enlightenment_liberalism": -1
+   },
+   "lean": {
+    "agree": [
+     "postliberalism"
+    ],
+    "disagree": [
+     "libertarianism"
+    ]
+   },
+   "source": "https://grokipedia.com/page/Politics_(Aristotle)",
+   "why": "Aristotle's Politics calls man a political animal who flourishes only in the polis.",
+   "extra_sources": []
+  },
+  {
+   "id": "p93",
+   "quiz": "politics",
+   "statement": "Society is just a collection of individuals; there is no common good beyond each person's own interests.",
+   "scale": "likert5",
+   "weights": {
+    "aristotelianism": -3,
+    "enlightenment_liberalism": 2,
+    "confucianism": -1
+   },
+   "lean": {
+    "agree": [
+     "libertarianism"
+    ],
+    "disagree": [
+     "postliberalism"
+    ]
+   },
+   "source": "https://grokipedia.com/page/Methodological_individualism",
+   "why": "Individualism treats society as the sum of persons, against Aristotle's common good.",
+   "extra_sources": []
+  },
+  {
+   "id": "p94",
+   "quiz": "politics",
+   "statement": "A good government makes detailed plans for where the economy is going.",
+   "scale": "likert5",
+   "weights": {
+    "daoism": -2,
+    "marxism": 2,
+    "enlightenment_liberalism": -2
+   },
+   "lean": {
+    "agree": [
+     "socialism_chinese_characteristics",
+     "chinese_new_left"
+    ],
+    "disagree": [
+     "libertarianism",
+     "thatcherism"
+    ]
+   },
+   "source": "https://grokipedia.com/page/Economic_planning",
+   "why": "Central planning is a Marxist aim; Daoist rule favors non-interference.",
+   "extra_sources": []
+  },
+  {
+   "id": "p95",
+   "quiz": "politics",
+   "statement": "Helping people get more of what they want is the main goal of a government.",
+   "scale": "likert5",
+   "weights": {
+    "buddhism": -2,
+    "enlightenment_liberalism": 1,
+    "stoicism": -1
+   },
+   "lean": {
+    "agree": [],
+    "disagree": []
+   },
+   "source": "https://grokipedia.com/page/Consumerism",
+   "why": "Buddhism and Stoicism treat craving as the problem, not the goal.",
+   "extra_sources": []
+  },
+  {
+   "id": "p96",
+   "quiz": "politics",
+   "statement": "A ruler's right to govern comes from heaven or God, not from the votes of the people.",
+   "scale": "likert5",
+   "weights": {
+    "hierarchy": 3,
+    "christianity": 1,
+    "confucianism": 1,
+    "enlightenment_liberalism": -3
+   },
+   "lean": {
+    "agree": [],
+    "disagree": []
+   },
+   "source": "https://grokipedia.com/page/Divine_right_of_kings",
+   "why": "Divine right and the Mandate of Heaven ground rule above consent; liberalism grounds it in consent.",
+   "extra_sources": []
+  },
+  {
+   "id": "p97",
+   "quiz": "politics",
+   "statement": "Keeping a people's ancient religious law alive is worth great personal sacrifice.",
+   "scale": "likert5",
+   "weights": {
+    "judaism": 3,
+    "islam": 1,
+    "enlightenment_liberalism": -1
+   },
+   "lean": {
+    "agree": [],
+    "disagree": []
+   },
+   "source": "https://grokipedia.com/page/Halakha",
+   "why": "Observance of halakha across centuries is central to Jewish continuity.",
+   "extra_sources": []
+  },
+  {
+   "id": "p98",
+   "quiz": "politics",
+   "statement": "A nation's poets, artists and musicians matter more to it than its wealth.",
+   "scale": "likert5",
+   "weights": {
+    "romanticism": 3,
+    "marxism": -1
+   },
+   "lean": {
+    "agree": [],
+    "disagree": []
+   },
+   "source": "https://grokipedia.com/page/Romanticism",
+   "why": "Romanticism raised art and imagination above material progress.",
+   "extra_sources": []
+  },
+  {
+   "id": "p99",
+   "quiz": "politics",
+   "statement": "My loyalty belongs to humanity as a whole more than to my own nation.",
+   "scale": "likert5",
+   "weights": {
+    "nationalism": -3,
+    "stoicism": 2,
+    "enlightenment_liberalism": 1
+   },
+   "lean": {
+    "agree": [
+     "progressive_left"
+    ],
+    "disagree": [
+     "national_conservatism"
+    ]
+   },
+   "source": "https://grokipedia.com/page/Cosmopolitanism",
+   "why": "Cosmopolitanism, from the Stoics, puts the human community above the nation.",
+   "extra_sources": []
+  },
+  {
+   "id": "p100",
+   "quiz": "politics",
+   "statement": "Philosophers and religious scholars should stay out of running the government.",
+   "scale": "likert5",
+   "weights": {
+    "platonism": -2,
+    "islamic_philosophy": -2,
+    "islam": -1,
+    "enlightenment_liberalism": 1
+   },
+   "lean": {
+    "agree": [],
+    "disagree": []
+   },
+   "source": "https://grokipedia.com/page/Plato",
+   "why": "Plato wanted philosophers to rule; al-Farabi and Islamic jurists gave scholars a role in rule.",
+   "extra_sources": []
+  },
+  {
+   "id": "f01",
+   "quiz": "philosophy",
+   "statement": "There are perfect, unchanging truths that exist beyond the physical world.",
+   "scale": "likert5",
+   "weights": {
+    "platonism": 5,
+    "abstraction": 4,
+    "darwinism": -2
+   },
+   "source": "https://grokipedia.com/page/Theory_of_forms",
+   "why": "Plato's Forms are eternal patterns beyond the senses.",
+   "extra_sources": []
+  },
+  {
+   "id": "f02",
+   "quiz": "philosophy",
+   "statement": "Everything that exists is ultimately physical matter.",
+   "scale": "likert5",
+   "weights": {
+    "abstraction": -5,
+    "marxism": 1,
+    "darwinism": 2,
+    "platonism": -3,
+    "vedanta": -3,
+    "islamic_philosophy": -1
+   },
+   "source": "https://grokipedia.com/page/Materialism",
+   "why": "Materialism opposes idealism and underlies Marx's historical materialism.",
+   "extra_sources": []
+  },
+  {
+   "id": "f03",
+   "quiz": "philosophy",
+   "statement": "We learn what is true mostly by observing the world, not by pure reasoning.",
+   "scale": "likert5",
+   "weights": {
+    "aristotelianism": 4,
+    "platonism": -3,
+    "enlightenment_liberalism": 1
+   },
+   "source": "https://grokipedia.com/page/Empiricism",
+   "why": "Aristotle grounded knowledge in observation; Plato in reason apart from the senses.",
+   "extra_sources": []
+  },
+  {
+   "id": "f04",
+   "quiz": "philosophy",
+   "statement": "Everything in nature has a purpose it is meant to fulfill.",
+   "scale": "likert5",
+   "weights": {
+    "aristotelianism": 3,
+    "christianity": 2,
+    "darwinism": -4
+   },
+   "source": "https://grokipedia.com/page/Teleology",
+   "why": "Aristotelian final causes conflict with selection without design.",
+   "extra_sources": []
+  },
+  {
+   "id": "f05",
+   "quiz": "philosophy",
+   "statement": "The good life means accepting what you cannot control and mastering your emotions.",
+   "scale": "likert5",
+   "weights": {
+    "stoicism": 5,
+    "buddhism": 1,
+    "nietzsche": -1
+   },
+   "source": "https://grokipedia.com/page/Epictetus",
+   "why": "Epictetus's dichotomy of control is the core Stoic practice.",
+   "extra_sources": []
+  },
+  {
+   "id": "f06",
+   "quiz": "philosophy",
+   "statement": "People need God's grace to be saved from their wrongdoing.",
+   "scale": "likert5",
+   "weights": {
+    "christianity": 5,
+    "nietzsche": -3
+   },
+   "source": "https://grokipedia.com/page/Divine_grace",
+   "why": "Salvation by grace is central Christian doctrine; Nietzsche attacked it.",
+   "extra_sources": []
+  },
+  {
+   "id": "f07",
+   "quiz": "philosophy",
+   "statement": "This physical world is a kind of prison, and secret knowledge can free the soul.",
+   "scale": "likert5",
+   "weights": {
+    "gnosticism": 5,
+    "aristotelianism": -2
+   },
+   "source": "https://grokipedia.com/page/Gnosticism",
+   "why": "Gnostics held matter is a trap and gnosis frees the divine spark.",
+   "extra_sources": []
+  },
+  {
+   "id": "f08",
+   "quiz": "philosophy",
+   "statement": "The heavens and the earth mirror each other, so studying one reveals the other.",
+   "scale": "likert5",
+   "weights": {
+    "hermeticism": 4,
+    "darwinism": -2
+   },
+   "source": "https://grokipedia.com/page/As_above,_so_below",
+   "why": "'As above, so below' is the Hermetic maxim of correspondence.",
+   "extra_sources": []
+  },
+  {
+   "id": "f09",
+   "quiz": "philosophy",
+   "statement": "Living things, including humans, came about through natural selection, without a designer.",
+   "scale": "likert5",
+   "weights": {
+    "darwinism": 5,
+    "christianity": -3,
+    "islamic_philosophy": -2
+   },
+   "source": "https://grokipedia.com/page/Natural_selection",
+   "why": "Natural selection explains design without a designer.",
+   "extra_sources": []
+  },
+  {
+   "id": "f10",
+   "quiz": "philosophy",
+   "statement": "Traditional morality holds back the strongest and most creative people.",
+   "scale": "likert5",
+   "weights": {
+    "nietzsche": 5,
+    "christianity": -4,
+    "hierarchy": 1
+   },
+   "source": "https://grokipedia.com/page/Master–slave_morality",
+   "why": "Nietzsche's master-slave morality casts Christian ethics as resentment of the strong.",
+   "extra_sources": []
+  },
+  {
+   "id": "f11",
+   "quiz": "philosophy",
+   "statement": "Your sense of a fixed, lasting self is an illusion.",
+   "scale": "likert5",
+   "weights": {
+    "buddhism": 5,
+    "vedanta": -2,
+    "christianity": -1
+   },
+   "source": "https://grokipedia.com/page/Anattā",
+   "why": "Anatta, no fixed self, is a mark of existence in Buddhism; Vedanta affirms Atman.",
+   "extra_sources": []
+  },
+  {
+   "id": "f12",
+   "quiz": "philosophy",
+   "statement": "Deep down, your true self and the ultimate reality of the universe are the same thing.",
+   "scale": "likert5",
+   "weights": {
+    "vedanta": 5,
+    "buddhism": -3
+   },
+   "source": "https://grokipedia.com/page/Advaita_Vedanta",
+   "why": "Advaita teaches Atman is Brahman.",
+   "extra_sources": []
+  },
+  {
+   "id": "f13",
+   "quiz": "philosophy",
+   "statement": "The best way to act is often to stop forcing things and let them unfold naturally.",
+   "scale": "likert5",
+   "weights": {
+    "daoism": 4,
+    "stoicism": 1,
+    "nietzsche": -1
+   },
+   "source": "https://grokipedia.com/page/Wu_wei",
+   "why": "Wu wei, effortless action, is the core Daoist ideal.",
+   "extra_sources": []
+  },
+  {
+   "id": "f14",
+   "quiz": "philosophy",
+   "statement": "Following proper rituals and manners is how a person builds good character.",
+   "scale": "likert5",
+   "weights": {
+    "confucianism": 5,
+    "aristotelianism": 1,
+    "daoism": -2
+   },
+   "source": "https://grokipedia.com/page/Li_(Confucianism)",
+   "why": "Confucian li builds virtue through ritual; Daoists criticized ritual as artificial.",
+   "extra_sources": []
+  },
+  {
+   "id": "f15",
+   "quiz": "philosophy",
+   "statement": "Reason and religious faith, properly understood, never truly contradict each other.",
+   "scale": "likert5",
+   "weights": {
+    "islamic_philosophy": 3,
+    "aristotelianism": 1,
+    "christianity": 2,
+    "nietzsche": -2
+   },
+   "source": "https://grokipedia.com/page/Islamic_philosophy",
+   "why": "Falsafa sought to reconcile Aristotelian reason with revelation, as in Averroes.",
+   "extra_sources": []
+  },
+  {
+   "id": "f16",
+   "quiz": "philosophy",
+   "statement": "What people call normal or common sense usually hides someone's power.",
+   "scale": "likert5",
+   "weights": {
+    "critical_theory": 4,
+    "enlightenment_liberalism": -1
+   },
+   "source": "https://grokipedia.com/page/Critical_theory",
+   "why": "Critical theory seeks to expose domination in everyday norms.",
+   "extra_sources": []
+  },
+  {
+   "id": "f17",
+   "quiz": "philosophy",
+   "statement": "Ideas and laws mostly reflect the interests of whoever owns the wealth.",
+   "scale": "likert5",
+   "weights": {
+    "marxism": 4,
+    "platonism": -2
+   },
+   "source": "https://grokipedia.com/page/Base_and_superstructure",
+   "why": "Marx's base and superstructure ties ideas and law to economic relations.",
+   "extra_sources": []
+  },
+  {
+   "id": "f18",
+   "quiz": "philosophy",
+   "statement": "Laughter is one of the best ways to get at the truth.",
+   "scale": "likert5",
+   "weights": {
+    "humor": 5,
+    "irony": 2,
+    "platonism": -1
+   },
+   "source": "https://grokipedia.com/page/Cynicism_(philosophy)",
+   "why": "The Cynics, notably Diogenes, used jokes and provocation as philosophy.",
+   "extra_sources": []
+  },
+  {
+   "id": "f19",
+   "quiz": "philosophy",
+   "statement": "People should say plainly what they mean rather than hint or speak ironically.",
+   "scale": "likert5",
+   "weights": {
+    "irony": -5,
+    "humor": -1
+   },
+   "source": "https://grokipedia.com/page/Irony",
+   "why": "Irony, including Socratic irony, is the classical model of saying less than one means.",
+   "extra_sources": []
+  },
+  {
+   "id": "f20",
+   "quiz": "philosophy",
+   "statement": "Some ways of life are simply higher and nobler than others.",
+   "scale": "likert5",
+   "weights": {
+    "hierarchy": 4,
+    "nietzsche": 2,
+    "platonism": 2,
+    "enlightenment_liberalism": -1
+   },
+   "source": "https://grokipedia.com/page/Great_chain_of_being",
+   "why": "The great chain of being ranks all things from lowest to highest.",
+   "extra_sources": []
+  },
+  {
+   "id": "f21",
+   "quiz": "philosophy",
+   "statement": "All people are equal in worth, whatever their talents or station.",
+   "scale": "likert5",
+   "weights": {
+    "hierarchy": -4,
+    "enlightenment_liberalism": 3,
+    "christianity": 2,
+    "nietzsche": -3
+   },
+   "source": "https://grokipedia.com/page/Egalitarianism",
+   "why": "Egalitarianism affirms equal worth; the nietzsche weight rests on the Master–slave morality page.",
+   "extra_sources": [
+    {
+     "url": "https://grokipedia.com/page/Master–slave_morality",
+     "supports": "nietzsche",
+     "quote": "Nietzsche critiques the dominance of slave morality in modern culture as a pathological triumph of decadence, arguing that its emphasis on universal equality and compassion stifles human excellence and the flourishing of \"higher types\" by imposing herd conformity and denying instinctual vitality."
+    }
+   ]
+  },
+  {
+   "id": "f22",
+   "quiz": "philosophy",
+   "statement": "Mind or consciousness is more basic than matter.",
+   "scale": "likert5",
+   "weights": {
+    "abstraction": 5,
+    "vedanta": 2,
+    "platonism": 2,
+    "darwinism": -2,
+    "marxism": -2
+   },
+   "source": "https://grokipedia.com/page/Idealism",
+   "why": "Idealism holds mind is fundamental.",
+   "extra_sources": []
+  },
+  {
+   "id": "f23",
+   "quiz": "philosophy",
+   "statement": "The universe has no built-in meaning, so we must create our own values.",
+   "scale": "likert5",
+   "weights": {
+    "nietzsche": 4,
+    "christianity": -3,
+    "platonism": -3,
+    "stoicism": -2,
+    "islamic_philosophy": -2
+   },
+   "source": "https://grokipedia.com/page/Existentialism",
+   "why": "Existentialism and Nietzsche locate value in human choice, not cosmic order.",
+   "extra_sources": []
+  },
+  {
+   "id": "f24",
+   "quiz": "philosophy",
+   "statement": "The physical world is good and worth enjoying.",
+   "scale": "likert5",
+   "weights": {
+    "gnosticism": -5,
+    "christianity": 1,
+    "buddhism": -2
+   },
+   "source": "https://grokipedia.com/page/Gnosticism",
+   "why": "Gnostics denied the goodness of matter, which mainstream Christianity affirmed in creation.",
+   "extra_sources": []
+  },
+  {
+   "id": "f25",
+   "quiz": "philosophy",
+   "statement": "Astrology, magic and secret symbols have no real power over events.",
+   "scale": "likert5",
+   "weights": {
+    "hermeticism": -5,
+    "gnosticism": -1,
+    "darwinism": 1,
+    "enlightenment_liberalism": 1
+   },
+   "source": "https://grokipedia.com/page/Western_esotericism",
+   "why": "Western esotericism, including Hermetic astrology and magic, posits hidden correspondences that modern science rejects.",
+   "extra_sources": []
+  },
+  {
+   "id": "f26",
+   "quiz": "philosophy",
+   "statement": "Qualities like 'redness' or 'justice' really exist on their own, even if nothing red or just existed anywhere.",
+   "scale": "likert5",
+   "weights": {
+    "platonism": 5,
+    "abstraction": 4,
+    "aristotelianism": -3
+   },
+   "source": "https://grokipedia.com/page/Problem_of_universals",
+   "why": "Platonic realism holds universals exist apart from particulars; Aristotle rejected separate universals.",
+   "extra_sources": []
+  },
+  {
+   "id": "f27",
+   "quiz": "philosophy",
+   "statement": "Shared natures like 'being human' are real, but they exist only inside actual individual things.",
+   "scale": "likert5",
+   "weights": {
+    "aristotelianism": 5,
+    "christianity": 1,
+    "platonism": -2,
+    "abstraction": 1
+   },
+   "source": "https://grokipedia.com/page/Problem_of_universals",
+   "why": "Moderate realism (Aristotle, Aquinas) puts universals in things, not in a separate realm.",
+   "extra_sources": []
+  },
+  {
+   "id": "f28",
+   "quiz": "philosophy",
+   "statement": "General words like 'tree' are only names or ideas in our minds for groups of similar things; nothing real is shared between them.",
+   "scale": "likert5",
+   "weights": {
+    "platonism": -4,
+    "aristotelianism": -4,
+    "abstraction": -3
+   },
+   "source": "https://grokipedia.com/page/Nominalism",
+   "why": "Nominalism and conceptualism deny universals outside words or minds, against both kinds of realism.",
+   "extra_sources": []
+  },
+  {
+   "id": "f29",
+   "quiz": "philosophy",
+   "statement": "When two explanations fit the facts equally well, the simpler one is NOT more likely to be right.",
+   "scale": "likert5",
+   "weights": {
+    "platonism": 2,
+    "aristotelianism": 1,
+    "enlightenment_liberalism": -1
+   },
+   "source": "https://grokipedia.com/page/Occam's_razor",
+   "why": "Ockham's razor, tied to nominalist economy about entities, prefers fewer assumptions; disagreeing endorses it.",
+   "extra_sources": []
+  },
+  {
+   "id": "f30",
+   "quiz": "philosophy",
+   "statement": "Talk about pure ideas is empty unless it connects to things we can see and measure.",
+   "scale": "likert5",
+   "weights": {
+    "abstraction": -4,
+    "platonism": -2,
+    "darwinism": 1,
+    "enlightenment_liberalism": 1
+   },
+   "source": "https://grokipedia.com/page/Logical_positivism",
+   "why": "Logical positivism held unverifiable claims meaningless.",
+   "extra_sources": []
+  },
+  {
+   "id": "f31",
+   "quiz": "philosophy",
+   "statement": "Thoughts and feelings are nothing more than activity in the brain.",
+   "scale": "likert5",
+   "weights": {
+    "abstraction": -4,
+    "vedanta": -2,
+    "christianity": -2,
+    "darwinism": 2
+   },
+   "source": "https://grokipedia.com/page/Physicalism",
+   "why": "Physicalism reduces mind to physical process.",
+   "extra_sources": []
+  },
+  {
+   "id": "f32",
+   "quiz": "philosophy",
+   "statement": "Numbers and mathematical truths would exist even if no minds existed.",
+   "scale": "likert5",
+   "weights": {
+    "abstraction": 4,
+    "platonism": 3,
+    "aristotelianism": -1
+   },
+   "source": "https://grokipedia.com/page/Problem_of_universals",
+   "why": "Platonic realism about abstract objects, against nominalism.",
+   "extra_sources": []
+  },
+  {
+   "id": "f33",
+   "quiz": "philosophy",
+   "statement": "The universe is arranged in levels, from lower to higher kinds of being.",
+   "scale": "likert5",
+   "weights": {
+    "hierarchy": 3,
+    "platonism": 2,
+    "hermeticism": 1,
+    "islamic_philosophy": 2
+   },
+   "source": "https://grokipedia.com/page/Neoplatonism",
+   "why": "Neoplatonic emanation ranks being by levels; it shaped Islamic philosophy.",
+   "extra_sources": []
+  },
+  {
+   "id": "f34",
+   "quiz": "philosophy",
+   "statement": "In nature, nothing ranks above anything else; a worm is no lower than a human.",
+   "scale": "likert5",
+   "weights": {
+    "hierarchy": -3,
+    "daoism": 3,
+    "darwinism": 1,
+    "christianity": -2
+   },
+   "source": "https://grokipedia.com/page/Zhuang_Zhou",
+   "why": "Zhuangzi's 'Equalizing Things' erases rank among things.",
+   "extra_sources": []
+  },
+  {
+   "id": "f35",
+   "quiz": "philosophy",
+   "statement": "Rank and authority are human inventions, not part of the natural order.",
+   "scale": "likert5",
+   "weights": {
+    "hierarchy": -4,
+    "critical_theory": 2,
+    "aristotelianism": -2,
+    "confucianism": -2
+   },
+   "source": "https://grokipedia.com/page/Anarchism",
+   "why": "Anarchism rejects hierarchy as unnatural and imposed.",
+   "extra_sources": []
+  },
+  {
+   "id": "f36",
+   "quiz": "philosophy",
+   "statement": "Children should obey their parents, and students their teachers, without question.",
+   "scale": "likert5",
+   "weights": {
+    "hierarchy": 3,
+    "confucianism": 3,
+    "enlightenment_liberalism": -2
+   },
+   "source": "https://grokipedia.com/page/Filial_piety",
+   "why": "Confucian filial piety makes obedience to elders a virtue.",
+   "extra_sources": []
+  },
+  {
+   "id": "f37",
+   "quiz": "philosophy",
+   "statement": "Natural abilities differ, so some people are suited to rule and others to follow.",
+   "scale": "likert5",
+   "weights": {
+    "hierarchy": 3,
+    "platonism": 2,
+    "aristotelianism": 1
+   },
+   "source": "https://grokipedia.com/page/Philosopher_king",
+   "why": "Plato's Republic assigns rule by nature and training.",
+   "extra_sources": []
+  },
+  {
+   "id": "f38",
+   "quiz": "philosophy",
+   "statement": "Rituals and formal manners are mostly empty show.",
+   "scale": "likert5",
+   "weights": {
+    "confucianism": -4,
+    "daoism": 2,
+    "irony": 1
+   },
+   "source": "https://grokipedia.com/page/Li_(Confucianism)",
+   "why": "Confucian li is the target of Daoist critique of ritual.",
+   "extra_sources": []
+  },
+  {
+   "id": "f39",
+   "quiz": "philosophy",
+   "statement": "Effort, planning and striving are what make a good life.",
+   "scale": "likert5",
+   "weights": {
+    "daoism": -4,
+    "stoicism": 1,
+    "nietzsche": 2
+   },
+   "source": "https://grokipedia.com/page/Wu_wei",
+   "why": "Striving is the opposite of wu wei.",
+   "extra_sources": []
+  },
+  {
+   "id": "f40",
+   "quiz": "philosophy",
+   "statement": "Science alone can tell us how we ought to live.",
+   "scale": "likert5",
+   "weights": {
+    "critical_theory": -4,
+    "enlightenment_liberalism": 2,
+    "darwinism": 2,
+    "christianity": -2
+   },
+   "source": "https://grokipedia.com/page/Scientism",
+   "why": "Scientism extends science to values; Horkheimer and Adorno held that Enlightenment reason regressed into domination through scientism (Grokipedia, Critical theory).",
+   "extra_sources": [
+    {
+     "url": "https://grokipedia.com/page/Critical_theory",
+     "supports": "critical_theory",
+     "quote": "By the early 1940s, Horkheimer and Theodor Adorno relocated to Pacific Palisades, California, where they drafted Dialectic of Enlightenment (circulated 1944, published 1947), arguing that Enlightenment rationality had regressed into mythic domination through scientism , bureaucracy , and the commodified \" culture industry \" that perpetuated mass deception."
+    }
+   ]
+  },
+  {
+   "id": "f41",
+   "quiz": "philosophy",
+   "statement": "Behind all the gods and forms people worship there is one divine reality.",
+   "scale": "likert5",
+   "weights": {
+    "vedanta": 3,
+    "hermeticism": 1,
+    "islamic_philosophy": 1,
+    "christianity": -1
+   },
+   "source": "https://grokipedia.com/page/Perennial_philosophy",
+   "why": "The perennial philosophy finds one truth beneath all religions.",
+   "extra_sources": []
+  },
+  {
+   "id": "f42",
+   "quiz": "philosophy",
+   "statement": "The world we experience is fully real, not an illusion.",
+   "scale": "likert5",
+   "weights": {
+    "vedanta": -4,
+    "buddhism": -2,
+    "aristotelianism": 1
+   },
+   "source": "https://grokipedia.com/page/Maya_(religion)",
+   "why": "Maya teaches the experienced world is illusory.",
+   "extra_sources": []
+  },
+  {
+   "id": "f43",
+   "quiz": "philosophy",
+   "statement": "Careful logical proof can show that God exists.",
+   "scale": "likert5",
+   "weights": {
+    "islamic_philosophy": 3,
+    "aristotelianism": 1,
+    "christianity": 1,
+    "nietzsche": -2
+   },
+   "source": "https://grokipedia.com/page/Avicenna",
+   "why": "Avicenna's proof of the Truthful is a landmark of rational theology.",
+   "extra_sources": []
+  },
+  {
+   "id": "f44",
+   "quiz": "philosophy",
+   "statement": "Changes in technology and economics, not great ideas, are what really change history.",
+   "scale": "likert5",
+   "weights": {
+    "marxism": 3,
+    "platonism": -2
+   },
+   "source": "https://grokipedia.com/page/Historical_materialism",
+   "why": "Historical materialism puts the economic base first.",
+   "extra_sources": []
+  },
+  {
+   "id": "f45",
+   "quiz": "philosophy",
+   "statement": "Wisdom means reading the hidden, inner meaning of things, not their surface.",
+   "scale": "likert5",
+   "weights": {
+    "gnosticism": 3,
+    "hermeticism": 2,
+    "aristotelianism": -2
+   },
+   "source": "https://grokipedia.com/page/Western_esotericism",
+   "why": "Esoteric currents seek hidden inner knowledge.",
+   "extra_sources": []
+  },
+  {
+   "id": "f46",
+   "quiz": "philosophy",
+   "statement": "A wise person should sometimes give in to strong emotions rather than control them.",
+   "scale": "likert5",
+   "weights": {
+    "stoicism": -4,
+    "nietzsche": 2
+   },
+   "source": "https://grokipedia.com/page/Apatheia",
+   "why": "Stoic apatheia is freedom from passion.",
+   "extra_sources": []
+  },
+  {
+   "id": "f47",
+   "quiz": "philosophy",
+   "statement": "Life involves unavoidable suffering, and ending craving is the way out.",
+   "scale": "likert5",
+   "weights": {
+    "buddhism": 4,
+    "nietzsche": -2
+   },
+   "source": "https://grokipedia.com/page/Four_Noble_Truths",
+   "why": "The Four Noble Truths name suffering and its end.",
+   "extra_sources": []
+  },
+  {
+   "id": "f48",
+   "quiz": "philosophy",
+   "statement": "Deep questions are best approached lightly; too much seriousness misses the point.",
+   "scale": "likert5",
+   "weights": {
+    "humor": 3,
+    "irony": 3,
+    "platonism": -1,
+    "stoicism": -1
+   },
+   "source": "https://grokipedia.com/page/Zhuang_Zhou",
+   "why": "Zhuangzi uses humor and paradox as philosophy.",
+   "extra_sources": []
+  },
+  {
+   "id": "f49",
+   "quiz": "philosophy",
+   "statement": "Joking about the deepest questions disrespects them.",
+   "scale": "likert5",
+   "weights": {
+    "humor": -4,
+    "irony": -2,
+    "christianity": 1
+   },
+   "source": "https://grokipedia.com/page/Humour",
+   "why": "Theories of humor weigh its role in serious matters.",
+   "extra_sources": []
+  },
+  {
+   "id": "f50",
+   "quiz": "philosophy",
+   "statement": "Most of what people say about morality is not meant fully sincerely.",
+   "scale": "likert5",
+   "weights": {
+    "irony": 4,
+    "nietzsche": 1,
+    "critical_theory": 1
+   },
+   "source": "https://grokipedia.com/page/Irony",
+   "why": "Irony as saying other than one means.",
+   "extra_sources": []
+  },
+  {
+   "id": "f51",
+   "quiz": "philosophy",
+   "statement": "It's Athens, 399 BCE. You're one of about 500 jurors at the trial of Socrates, who is charged with impiety and corrupting the young. You'd vote to convict.",
+   "scale": "likert5",
+   "weights": {
+    "platonism": -4,
+    "nietzsche": 1
+   },
+   "source": "https://grokipedia.com/page/Trial_of_Socrates",
+   "why": "Plato made Socrates' trial the founding drama of philosophy; Nietzsche's 'problem of Socrates' is the stance reading.",
+   "extra_sources": [],
+   "type": "scenario"
+  },
+  {
+   "id": "f52",
+   "quiz": "philosophy",
+   "statement": "It's Athens, 399 BCE. You are Socrates, condemned to death, and your friend Crito has arranged to bribe the guards so you can escape. You'd refuse, because you owe obedience to the city's laws.",
+   "scale": "likert5",
+   "weights": {
+    "platonism": 3,
+    "stoicism": 2,
+    "hierarchy": 1
+   },
+   "source": "https://grokipedia.com/page/Crito",
+   "why": "In Plato's Crito, Socrates refuses escape, speaking for the Laws of Athens; Stoics took Socrates as a model.",
+   "extra_sources": [],
+   "type": "scenario"
+  },
+  {
+   "id": "f53",
+   "quiz": "philosophy",
+   "statement": "It's Amsterdam, 1656. You belong to the city's Portuguese-Jewish community, whose leaders are banning the young Baruch Spinoza for what they call 'abominable heresies.' You'd support the ban.",
+   "scale": "likert5",
+   "weights": {
+    "judaism": 2,
+    "enlightenment_liberalism": -3
+   },
+   "source": "https://grokipedia.com/page/Baruch_Spinoza",
+   "why": "Spinoza became a founder of the radical Enlightenment; the ban upheld rabbinic authority.",
+   "extra_sources": [],
+   "type": "scenario"
+  },
+  {
+   "id": "f54",
+   "quiz": "philosophy",
+   "statement": "It's Rome, 1633. You sit on the Inquisition's panel at Galileo's trial for arguing that the Earth moves around the Sun. You'd require him to publicly take back his view.",
+   "scale": "likert5",
+   "weights": {
+    "christianity": 2,
+    "enlightenment_liberalism": -3,
+    "darwinism": -1
+   },
+   "source": "https://grokipedia.com/page/Galileo_affair",
+   "why": "The Galileo affair became the emblem of conflict between Church authority and science.",
+   "extra_sources": [],
+   "type": "scenario"
+  },
+  {
+   "id": "f55",
+   "quiz": "philosophy",
+   "statement": "It's Oxford, June 1860. At a public debate on Darwin's new book, Bishop Samuel Wilberforce attacks the theory and Thomas Henry Huxley defends it. You'd side with Huxley.",
+   "scale": "likert5",
+   "weights": {
+    "darwinism": 3,
+    "christianity": -2
+   },
+   "source": "https://grokipedia.com/page/1860_Oxford_evolution_debate",
+   "why": "The Oxford debate pitted Darwin's defender against a churchman's critique.",
+   "extra_sources": [],
+   "type": "scenario"
+  },
+  {
+   "id": "f56",
+   "quiz": "philosophy",
+   "statement": "It's the Islamic world, around 1100. The Persian scholar al-Ghazali writes that philosophers like Avicenna fall into unbelief on three points: that the world is eternal, that God knows only universals and not particulars, and that bodies are not resurrected. You'd side with al-Ghazali.",
+   "scale": "likert5",
+   "weights": {
+    "islamic_philosophy": -3,
+    "islam": 2,
+    "aristotelianism": -1
+   },
+   "source": "https://grokipedia.com/page/The_Incoherence_of_the_Philosophers",
+   "why": "Al-Ghazali's Incoherence attacked falsafa from Islamic orthodoxy.",
+   "extra_sources": [],
+   "type": "scenario"
+  },
+  {
+   "id": "f57",
+   "quiz": "philosophy",
+   "statement": "It's Rome, around 144 CE. Marcion teaches that the God of the Hebrew Bible, who made the material world, is a lesser god than the Father revealed by Jesus. You're in the Roman church; you'd support expelling him.",
+   "scale": "likert5",
+   "weights": {
+    "gnosticism": -3,
+    "christianity": 2,
+    "judaism": 1
+   },
+   "source": "https://grokipedia.com/page/Marcion_of_Sinope",
+   "why": "Expelling Marcion rejected a dualism of a lower creator god close to Gnostic teaching; the judaism +1 is a stance reading (it keeps the Hebrew Bible's God).",
+   "extra_sources": [],
+   "type": "scenario"
+  },
+  {
+   "id": "f58",
+   "quiz": "philosophy",
+   "statement": "It's Florence, 1463. You're the scholar Marsilio Ficino, partway through translating Plato. Your patron Cosimo de' Medici asks you to stop and first translate newly found writings credited to Hermes Trismegistus. You'd put Plato aside.",
+   "scale": "likert5",
+   "weights": {
+    "hermeticism": 3,
+    "platonism": -1
+   },
+   "source": "https://grokipedia.com/page/Corpus_Hermeticum",
+   "why": "Ficino gave the Hermetic texts priority as older wisdom than Plato.",
+   "extra_sources": [],
+   "type": "scenario"
+  },
+  {
+   "id": "f59",
+   "quiz": "philosophy",
+   "statement": "It's London, 1614. The scholar Isaac Casaubon shows that the writings credited to the ancient Egyptian sage Hermes Trismegistus were really written in the Christian era. You'd accept his finding.",
+   "scale": "likert5",
+   "weights": {
+    "hermeticism": -3,
+    "enlightenment_liberalism": 1
+   },
+   "source": "https://grokipedia.com/page/Isaac_Casaubon",
+   "why": "Casaubon's dating undercut the claimed antiquity of the Hermetic corpus.",
+   "extra_sources": [],
+   "type": "scenario"
+  },
+  {
+   "id": "f60",
+   "quiz": "philosophy",
+   "statement": "It's Dijon, France, 1749. A local academy announces an essay contest on the question: 'Has the restoration of the sciences and arts tended to purify morals?' You'd answer no.",
+   "scale": "likert5",
+   "weights": {
+    "romanticism": 3,
+    "enlightenment_liberalism": -3,
+    "daoism": 1
+   },
+   "source": "https://grokipedia.com/page/Discourse_on_the_Arts_and_Sciences",
+   "why": "Rousseau's prize-winning 'no' challenged Enlightenment faith in progress and foreshadowed Romanticism.",
+   "extra_sources": [],
+   "type": "scenario"
+  },
+  {
+   "id": "f61",
+   "quiz": "philosophy",
+   "statement": "It's ancient China. You are the thinker Zhuangzi, and the king of Chu sends officials to offer you a high ministerial post. You'd accept the post.",
+   "scale": "likert5",
+   "weights": {
+    "daoism": -3,
+    "confucianism": 2,
+    "hierarchy": 1
+   },
+   "source": "https://grokipedia.com/page/Zhuang_Zhou",
+   "why": "Zhuangzi refused the post, preferring to be a free-roaming tortoise; Confucians prized public service.",
+   "extra_sources": [],
+   "type": "scenario"
+  },
+  {
+   "id": "f62",
+   "quiz": "philosophy",
+   "statement": "It's Kapilavastu, ancient India. You are Prince Siddhartha, 29 years old, with a wife and a newborn son. You'd leave the palace and your family to seek an end to suffering.",
+   "scale": "likert5",
+   "weights": {
+    "buddhism": 3,
+    "confucianism": -2
+   },
+   "source": "https://grokipedia.com/page/Great_Renunciation",
+   "why": "The Great Renunciation begins the Buddha's path; Confucian filial duty weighs against leaving family.",
+   "extra_sources": [],
+   "type": "scenario"
+  },
+  {
+   "id": "f63",
+   "quiz": "philosophy",
+   "statement": "It's Paris, 1277. The bishop has condemned 219 teachings drawn from Aristotle and his Arab commentators, including that the world is eternal. You teach at the university; you'd accept the condemnation.",
+   "scale": "likert5",
+   "weights": {
+    "aristotelianism": -2,
+    "christianity": 2,
+    "islamic_philosophy": -2
+   },
+   "source": "https://grokipedia.com/page/Condemnations_of_1210–1277",
+   "why": "Tempier's condemnation targeted Aristotelian and Averroist theses in defense of Catholic doctrine.",
+   "extra_sources": [],
+   "type": "scenario"
+  },
+  {
+   "id": "f64",
+   "quiz": "philosophy",
+   "statement": "It's Languedoc, southern France, around 1200. Cathar teachers say the material world was made by an evil power and the soul must be freed from it. You'd become one of their followers.",
+   "scale": "likert5",
+   "weights": {
+    "gnosticism": 3,
+    "christianity": -2
+   },
+   "source": "https://grokipedia.com/page/Catharism",
+   "why": "Cathar dualism, a matter-is-evil teaching close to Gnosticism, was condemned by the Catholic Church.",
+   "extra_sources": [],
+   "type": "scenario"
+  },
+  {
+   "id": "f65",
+   "quiz": "philosophy",
+   "statement": "It's Athens. Plato has defined a human being as a 'featherless biped,' and Diogenes walks into Plato's school with a plucked chicken, announcing, 'Here is Plato's man.' You'd laugh along with Diogenes.",
+   "scale": "likert5",
+   "weights": {
+    "humor": 3,
+    "platonism": -2,
+    "irony": 1
+   },
+   "source": "https://grokipedia.com/page/Diogenes",
+   "why": "Diogenes the Cynic used jokes and stunts to mock Plato's abstract definitions.",
+   "extra_sources": [],
+   "type": "scenario"
+  },
+  {
+   "id": "f66",
+   "quiz": "philosophy",
+   "statement": "It's Baghdad, early in the 800s. Caliph al-Ma'mun is paying scholars to translate Aristotle, Plato and other Greek thinkers into Arabic. You're an adviser; you'd urge him to spend even more on it.",
+   "scale": "likert5",
+   "weights": {
+    "islamic_philosophy": 3,
+    "aristotelianism": 1
+   },
+   "source": "https://grokipedia.com/page/House_of_Wisdom",
+   "why": "The House of Wisdom's translations laid the base for falsafa.",
+   "extra_sources": [],
+   "type": "scenario"
+  },
+  {
+   "id": "f67",
+   "quiz": "philosophy",
+   "statement": "It's Jerusalem, around 49 CE. Early Christian leaders are deciding whether non-Jewish converts must be circumcised and keep the whole Law of Moses. You'd vote that they need not.",
+   "scale": "likert5",
+   "weights": {
+    "judaism": -2,
+    "christianity": 2
+   },
+   "source": "https://grokipedia.com/page/Council_of_Jerusalem",
+   "why": "The Council of Jerusalem freed Gentile converts from the Mosaic Law, a key step in Christianity's split from Judaism.",
+   "extra_sources": [],
+   "type": "scenario"
+  },
+  {
+   "id": "f68",
+   "quiz": "philosophy",
+   "statement": "It's Prussia, 1784. A Berlin journal asks, 'What is Enlightenment?' You'd answer that it means having the courage to use your own reason without anyone else's guidance.",
+   "scale": "likert5",
+   "weights": {
+    "enlightenment_liberalism": 3,
+    "hierarchy": -1,
+    "confucianism": -1
+   },
+   "source": "https://grokipedia.com/page/What_Is_Enlightenment%3F",
+   "why": "Kant's answer, 'Sapere aude!', is the classic statement of Enlightenment autonomy.",
+   "extra_sources": [],
+   "type": "scenario"
+  },
+  {
+   "id": "f69",
+   "quiz": "philosophy",
+   "statement": "It's Britain, 1763. The late Bishop George Berkeley argued that physical things exist only by being perceived by minds. Samuel Johnson kicks a stone and declares, 'I refute it thus.' You'd agree with Johnson.",
+   "scale": "likert5",
+   "weights": {
+    "abstraction": -3,
+    "platonism": -1
+   },
+   "source": "https://grokipedia.com/page/George_Berkeley",
+   "why": "Johnson's kick asserts plain matter against Berkeley's idealism.",
+   "extra_sources": [],
+   "type": "scenario"
+  },
+  {
+   "id": "f70",
+   "quiz": "philosophy",
+   "statement": "Feelings and intuition can reveal truths that reason alone cannot reach.",
+   "scale": "likert5",
+   "weights": {
+    "romanticism": 4,
+    "enlightenment_liberalism": -2,
+    "abstraction": 1
+   },
+   "source": "https://grokipedia.com/page/Romanticism",
+   "why": "Romanticism prized feeling and intuition over Enlightenment reason.",
+   "extra_sources": []
+  },
+  {
+   "id": "f71",
+   "quiz": "philosophy",
+   "statement": "Modern cities, with their science and industry, are humanity's greatest achievement.",
+   "scale": "likert5",
+   "weights": {
+    "romanticism": -3,
+    "enlightenment_liberalism": 2,
+    "daoism": -1
+   },
+   "source": "https://grokipedia.com/page/Romanticism",
+   "why": "Romanticism revolted against Enlightenment rationalism and the mechanization of the Industrial Revolution.",
+   "extra_sources": []
+  },
+  {
+   "id": "f72",
+   "quiz": "philosophy",
+   "statement": "Untouched wild nature is a source of spiritual renewal.",
+   "scale": "likert5",
+   "weights": {
+    "romanticism": 3,
+    "daoism": 2
+   },
+   "source": "https://grokipedia.com/page/Wilderness",
+   "why": "Romantic poets and Daoists both found the sacred in wild nature.",
+   "extra_sources": []
+  },
+  {
+   "id": "f73",
+   "quiz": "philosophy",
+   "statement": "Belonging to a people with a shared language and history is a central part of who you are.",
+   "scale": "likert5",
+   "weights": {
+    "nationalism": 3,
+    "romanticism": 2,
+    "stoicism": -1
+   },
+   "source": "https://grokipedia.com/page/Johann_Gottfried_Herder",
+   "why": "Herder shaped Romanticism and early nationalism, grounding identity in a people's language and history.",
+   "extra_sources": []
+  },
+  {
+   "id": "f74",
+   "quiz": "philosophy",
+   "statement": "Your nationality is an accident of birth and says little about who you really are.",
+   "scale": "likert5",
+   "weights": {
+    "nationalism": -3,
+    "stoicism": 2,
+    "enlightenment_liberalism": 1
+   },
+   "source": "https://grokipedia.com/page/Cosmopolitanism",
+   "why": "Stoic cosmopolitanism made each person a citizen of the world first.",
+   "extra_sources": []
+  },
+  {
+   "id": "f75",
+   "quiz": "philosophy",
+   "statement": "There is exactly one God, who has no partner, no son and no equal.",
+   "scale": "likert5",
+   "weights": {
+    "islam": 4,
+    "judaism": 2,
+    "christianity": -1
+   },
+   "source": "https://grokipedia.com/page/Tawhid",
+   "why": "Tawhid, God's absolute oneness, is Islam's core doctrine; Islam criticizes the Trinity.",
+   "extra_sources": []
+  },
+  {
+   "id": "f76",
+   "quiz": "philosophy",
+   "statement": "God has made a special covenant with one particular people.",
+   "scale": "likert5",
+   "weights": {
+    "judaism": 4,
+    "christianity": 1
+   },
+   "source": "https://grokipedia.com/page/Covenant_(biblical)",
+   "why": "The covenant with Israel is the center of the Hebrew Bible.",
+   "extra_sources": []
+  },
+  {
+   "id": "f77",
+   "quiz": "philosophy",
+   "statement": "Detailed religious rules about food and rest days matter less than having a good heart.",
+   "scale": "likert5",
+   "weights": {
+    "judaism": -3,
+    "islam": -2
+   },
+   "source": "https://grokipedia.com/page/Halakha",
+   "why": "Halakha and sharia govern food and Sabbath; the item weighs inner intention over law.",
+   "extra_sources": []
+  },
+  {
+   "id": "f78",
+   "quiz": "philosophy",
+   "statement": "The Quran is the direct word of God, revealed to Muhammad.",
+   "scale": "likert5",
+   "weights": {
+    "islam": 4,
+    "christianity": -1,
+    "judaism": -1
+   },
+   "source": "https://grokipedia.com/page/Quran",
+   "why": "Islam holds the Quran to be God's revelation to Muhammad; Christianity and Judaism do not accept it as scripture (stance, half strength).",
+   "extra_sources": []
+  },
+  {
+   "id": "f79",
+   "quiz": "philosophy",
+   "statement": "Prophets were wise human teachers, not messengers sent by God.",
+   "scale": "likert5",
+   "weights": {
+    "islam": -3,
+    "judaism": -2,
+    "christianity": -2,
+    "enlightenment_liberalism": 1
+   },
+   "source": "https://grokipedia.com/page/Deism",
+   "why": "Deists rejected special revelation through prophets.",
+   "extra_sources": []
+  },
+  {
+   "id": "f80",
+   "quiz": "philosophy",
+   "statement": "Struggle and hardship make people great; a comfortable, safe life makes them small.",
+   "scale": "likert5",
+   "weights": {
+    "nietzsche": 4,
+    "buddhism": -2
+   },
+   "source": "https://grokipedia.com/page/Last_man",
+   "why": "Nietzsche's 'last man' is the comfortable, small human he scorned.",
+   "extra_sources": []
+  },
+  {
+   "id": "f81",
+   "quiz": "philosophy",
+   "statement": "The god who made this world is not the highest God.",
+   "scale": "likert5",
+   "weights": {
+    "gnosticism": 5,
+    "christianity": -3,
+    "judaism": -2
+   },
+   "source": "https://grokipedia.com/page/Demiurge",
+   "why": "The Gnostic demiurge is a lower maker god distinct from the true God.",
+   "extra_sources": []
+  },
+  {
+   "id": "f82",
+   "quiz": "philosophy",
+   "statement": "Alchemy's goal of transforming the self, not just metals, holds real wisdom.",
+   "scale": "likert5",
+   "weights": {
+    "hermeticism": 3,
+    "gnosticism": 1,
+    "darwinism": -1
+   },
+   "source": "https://grokipedia.com/page/Alchemy",
+   "why": "Alchemy blended metallurgy with Hermetic philosophy and sought inner as well as material transformation.",
+   "extra_sources": []
+  },
+  {
+   "id": "f83",
+   "quiz": "philosophy",
+   "statement": "There is no eternal soul that survives death.",
+   "scale": "likert5",
+   "weights": {
+    "vedanta": -3,
+    "christianity": -2,
+    "islam": -2,
+    "darwinism": 1
+   },
+   "source": "https://grokipedia.com/page/Soul",
+   "why": "Vedanta's eternal Atman and Abrahamic immortal souls are what this denies.",
+   "extra_sources": []
+  },
+  {
+   "id": "f84",
+   "quiz": "philosophy",
+   "statement": "Freedom comes from knowing your true self, not from rituals or good deeds.",
+   "scale": "likert5",
+   "weights": {
+    "vedanta": 4,
+    "confucianism": -2,
+    "buddhism": 1
+   },
+   "source": "https://grokipedia.com/page/Moksha",
+   "why": "Hindu thought names jnana yoga, the path of knowledge of the self, as a way to moksha.",
+   "extra_sources": []
+  },
+  {
+   "id": "f85",
+   "quiz": "philosophy",
+   "statement": "Human reason can reach, in plain argument, the same truths that prophets teach through images and stories.",
+   "scale": "likert5",
+   "weights": {
+    "islamic_philosophy": 4,
+    "aristotelianism": 1,
+    "enlightenment_liberalism": 1
+   },
+   "source": "https://grokipedia.com/page/Averroes",
+   "why": "Averroes sought to harmonize Aristotelian philosophy with Quranic revelation.",
+   "extra_sources": []
+  },
+  {
+   "id": "f86",
+   "quiz": "philosophy",
+   "statement": "Ideas like high and low, or beautiful and ugly, only make sense in relation to each other.",
+   "scale": "likert5",
+   "weights": {
+    "daoism": 4,
+    "platonism": -2
+   },
+   "source": "https://grokipedia.com/page/Yin_and_yang",
+   "why": "Chinese thought, Daoism above all, treats opposites as complementary and interdependent.",
+   "extra_sources": []
+  },
+  {
+   "id": "f87",
+   "quiz": "philosophy",
+   "statement": "A good society starts with each person correcting their own conduct, then their family's, then the state's.",
+   "scale": "likert5",
+   "weights": {
+    "confucianism": 4,
+    "enlightenment_liberalism": -1
+   },
+   "source": "https://grokipedia.com/page/Great_Learning",
+   "why": "The Great Learning runs from self-cultivation to family order to the state.",
+   "extra_sources": []
+  },
+  {
+   "id": "f88",
+   "quiz": "philosophy",
+   "statement": "The universe runs on reason, and a wise person lives in agreement with it.",
+   "scale": "likert5",
+   "weights": {
+    "stoicism": 4,
+    "darwinism": -2,
+    "nietzsche": -1
+   },
+   "source": "https://grokipedia.com/page/Logos",
+   "why": "The Stoics identified logos as an active divine principle permeating the cosmos.",
+   "extra_sources": []
+  },
+  {
+   "id": "f89",
+   "quiz": "philosophy",
+   "statement": "Pain and loss are truly bad, not just bad because of how we judge them.",
+   "scale": "likert5",
+   "weights": {
+    "stoicism": -3,
+    "aristotelianism": 1
+   },
+   "source": "https://grokipedia.com/page/Apatheia",
+   "why": "Stoics held that only vice is evil and that pain disturbs us through judgment.",
+   "extra_sources": []
+  },
+  {
+   "id": "f90",
+   "quiz": "philosophy",
+   "statement": "Desire and ambition are healthy drives to follow, not to quiet.",
+   "scale": "likert5",
+   "weights": {
+    "buddhism": -3,
+    "nietzsche": 2,
+    "stoicism": -1
+   },
+   "source": "https://grokipedia.com/page/Will_to_power",
+   "why": "Buddhism seeks the end of craving; Nietzsche affirmed the will to power.",
+   "extra_sources": []
+  },
+  {
+   "id": "f91",
+   "quiz": "philosophy",
+   "statement": "Being good is a habit you build by practice, like learning a skill.",
+   "scale": "likert5",
+   "weights": {
+    "aristotelianism": 4,
+    "confucianism": 1
+   },
+   "source": "https://grokipedia.com/page/Virtue_ethics",
+   "why": "Aristotle held that virtues are formed by habituation.",
+   "extra_sources": []
+  },
+  {
+   "id": "f92",
+   "quiz": "philosophy",
+   "statement": "Love of neighbor, even of one's enemies, is the highest moral law.",
+   "scale": "likert5",
+   "weights": {
+    "christianity": 4,
+    "nietzsche": -3
+   },
+   "source": "https://grokipedia.com/page/Sermon_on_the_Mount",
+   "why": "The Sermon on the Mount commands love of enemies; Nietzsche attacked it as slave morality.",
+   "extra_sources": []
+  },
+  {
+   "id": "f93",
+   "quiz": "philosophy",
+   "statement": "People have a natural right to what they make with their own labor, before any government says so.",
+   "scale": "likert5",
+   "weights": {
+    "enlightenment_liberalism": 3,
+    "marxism": -2
+   },
+   "source": "https://grokipedia.com/page/Labor_theory_of_property",
+   "why": "Locke's labor theory of property is a natural-right claim Marx criticized.",
+   "extra_sources": []
+  },
+  {
+   "id": "f94",
+   "quiz": "philosophy",
+   "statement": "Movies, pop music and mass entertainment keep people content and stop them from questioning society.",
+   "scale": "likert5",
+   "weights": {
+    "critical_theory": 4,
+    "marxism": 1
+   },
+   "source": "https://grokipedia.com/page/Culture_industry",
+   "why": "Adorno and Horkheimer's 'culture industry' is a core critical theory idea.",
+   "extra_sources": []
+  },
+  {
+   "id": "f95",
+   "quiz": "philosophy",
+   "statement": "Human beings are different in kind from all other animals, not just in degree.",
+   "scale": "likert5",
+   "weights": {
+    "darwinism": -3,
+    "christianity": 2,
+    "aristotelianism": 1
+   },
+   "source": "https://grokipedia.com/page/Human_nature",
+   "why": "Christian and Aristotelian thought set humans apart by soul or reason; Darwinism stresses continuity with other animals.",
+   "extra_sources": []
+  },
+  {
+   "id": "f96",
+   "quiz": "philosophy",
+   "statement": "Socrates was right to pretend not to know things, so he could expose other people's false confidence.",
+   "scale": "likert5",
+   "weights": {
+    "irony": 3,
+    "platonism": 2
+   },
+   "source": "https://grokipedia.com/page/Irony",
+   "why": "Socratic irony is inquiry through pretended ignorance.",
+   "extra_sources": []
+  },
+  {
+   "id": "f97",
+   "quiz": "philosophy",
+   "statement": "Beauty is real and objective, not just in the eye of the beholder.",
+   "scale": "likert5",
+   "weights": {
+    "platonism": 3,
+    "abstraction": 2
+   },
+   "source": "https://grokipedia.com/page/Beauty",
+   "why": "Plato and Aristotle tied beauty to objective proportion and harmony.",
+   "extra_sources": []
+  },
+  {
+   "id": "f98",
+   "quiz": "philosophy",
+   "statement": "Art should follow clear rules of balance and order, as the ancient classics did.",
+   "scale": "likert5",
+   "weights": {
+    "romanticism": -3,
+    "aristotelianism": 1
+   },
+   "source": "https://grokipedia.com/page/Neoclassicism",
+   "why": "Neoclassical rules of order were what Romanticism rebelled against.",
+   "extra_sources": []
+  },
+  {
+   "id": "f99",
+   "quiz": "philosophy",
+   "statement": "The world was made by a creator who no longer steps in to guide or change it.",
+   "scale": "likert5",
+   "weights": {
+    "christianity": -2,
+    "islam": -2,
+    "enlightenment_liberalism": 2
+   },
+   "source": "https://grokipedia.com/page/Deism",
+   "why": "Deism's absent creator rejects providence and miracles taught by Christianity and Islam.",
+   "extra_sources": []
+  },
+  {
+   "id": "f100",
+   "quiz": "philosophy",
+   "statement": "Most of what happens to us comes down to chance, not fate or a divine plan.",
+   "scale": "likert5",
+   "weights": {
+    "stoicism": -3,
+    "christianity": -1,
+    "islam": -1,
+    "darwinism": 1
+   },
+   "source": "https://grokipedia.com/page/Fatalism",
+   "why": "Stoic fate and providence, and Christian and Islamic belief in divine decree, deny that events are mere chance.",
+   "extra_sources": []
+  }
+ ],
+ "balance": {
+  "politics": {
+   "platonism": {
+    "pos": 4,
+    "neg": 5,
+    "net": -2
+   },
+   "aristotelianism": {
+    "pos": 3,
+    "neg": 2,
+    "net": 4
+   },
+   "stoicism": {
+    "pos": 5,
+    "neg": 3,
+    "net": 8
+   },
+   "christianity": {
+    "pos": 12,
+    "neg": 8,
+    "net": 4
+   },
+   "gnosticism": {
+    "pos": 1,
+    "neg": 1,
+    "net": -1
+   },
+   "hermeticism": {
+    "pos": 2,
+    "neg": 1,
+    "net": -1
+   },
+   "enlightenment_liberalism": {
+    "pos": 32,
+    "neg": 30,
+    "net": 1
+   },
+   "marxism": {
+    "pos": 16,
+    "neg": 9,
+    "net": 11
+   },
+   "darwinism": {
+    "pos": 3,
+    "neg": 4,
+    "net": -2
+   },
+   "nietzsche": {
+    "pos": 4,
+    "neg": 8,
+    "net": -5
+   },
+   "critical_theory": {
+    "pos": 7,
+    "neg": 5,
+    "net": 3
+   },
+   "confucianism": {
+    "pos": 7,
+    "neg": 5,
+    "net": 4
+   },
+   "daoism": {
+    "pos": 5,
+    "neg": 3,
+    "net": 3
+   },
+   "buddhism": {
+    "pos": 4,
+    "neg": 5,
+    "net": 1
+   },
+   "vedanta": {
+    "pos": 3,
+    "neg": 1,
+    "net": 2
+   },
+   "islamic_philosophy": {
+    "pos": 1,
+    "neg": 1,
+    "net": 1
+   },
+   "islam": {
+    "pos": 6,
+    "neg": 3,
+    "net": 7
+   },
+   "judaism": {
+    "pos": 4,
+    "neg": 2,
+    "net": 6
+   },
+   "romanticism": {
+    "pos": 4,
+    "neg": 2,
+    "net": 5
+   },
+   "nationalism": {
+    "pos": 8,
+    "neg": 6,
+    "net": 8
+   },
+   "humor": {
+    "pos": 4,
+    "neg": 4,
+    "net": 1
+   },
+   "irony": {
+    "pos": 5,
+    "neg": 3,
+    "net": 3
+   },
+   "abstraction": {
+    "pos": 3,
+    "neg": 2,
+    "net": 4
+   },
+   "hierarchy": {
+    "pos": 22,
+    "neg": 26,
+    "net": 3
+   }
+  },
+  "philosophy": {
+   "platonism": {
+    "pos": 11,
+    "neg": 15,
+    "net": -2
+   },
+   "aristotelianism": {
+    "pos": 15,
+    "neg": 8,
+    "net": 10
+   },
+   "stoicism": {
+    "pos": 6,
+    "neg": 7,
+    "net": 0
+   },
+   "christianity": {
+    "pos": 15,
+    "neg": 17,
+    "net": -4
+   },
+   "gnosticism": {
+    "pos": 5,
+    "neg": 3,
+    "net": 8
+   },
+   "hermeticism": {
+    "pos": 6,
+    "neg": 2,
+    "net": 6
+   },
+   "enlightenment_liberalism": {
+    "pos": 13,
+    "neg": 9,
+    "net": 5
+   },
+   "marxism": {
+    "pos": 4,
+    "neg": 2,
+    "net": 5
+   },
+   "darwinism": {
+    "pos": 10,
+    "neg": 8,
+    "net": 2
+   },
+   "nietzsche": {
+    "pos": 9,
+    "neg": 9,
+    "net": 5
+   },
+   "critical_theory": {
+    "pos": 4,
+    "neg": 1,
+    "net": 7
+   },
+   "confucianism": {
+    "pos": 5,
+    "neg": 5,
+    "net": 4
+   },
+   "daoism": {
+    "pos": 6,
+    "neg": 4,
+    "net": 6
+   },
+   "buddhism": {
+    "pos": 5,
+    "neg": 5,
+    "net": 2
+   },
+   "vedanta": {
+    "pos": 4,
+    "neg": 5,
+    "net": 0
+   },
+   "islamic_philosophy": {
+    "pos": 6,
+    "neg": 5,
+    "net": 6
+   },
+   "islam": {
+    "pos": 3,
+    "neg": 5,
+    "net": 0
+   },
+   "judaism": {
+    "pos": 4,
+    "neg": 5,
+    "net": -1
+   },
+   "romanticism": {
+    "pos": 4,
+    "neg": 2,
+    "net": 6
+   },
+   "nationalism": {
+    "pos": 1,
+    "neg": 1,
+    "net": 0
+   },
+   "humor": {
+    "pos": 3,
+    "neg": 2,
+    "net": 6
+   },
+   "irony": {
+    "pos": 6,
+    "neg": 2,
+    "net": 7
+   },
+   "abstraction": {
+    "pos": 7,
+    "neg": 5,
+    "net": 2
+   },
+   "hierarchy": {
+    "pos": 7,
+    "neg": 4,
+    "net": 4
+   }
+  },
+  "combined": {
+   "platonism": {
+    "pos": 4,
+    "neg": 4,
+    "net": 0
+   },
+   "aristotelianism": {
+    "pos": 6,
+    "neg": 2,
+    "net": 5
+   },
+   "stoicism": {
+    "pos": 4,
+    "neg": 4,
+    "net": 2
+   },
+   "christianity": {
+    "pos": 7,
+    "neg": 6,
+    "net": 0
+   },
+   "gnosticism": {
+    "pos": 2,
+    "neg": 2,
+    "net": 1
+   },
+   "hermeticism": {
+    "pos": 4,
+    "neg": 1,
+    "net": 2
+   },
+   "enlightenment_liberalism": {
+    "pos": 8,
+    "neg": 10,
+    "net": 0
+   },
+   "marxism": {
+    "pos": 6,
+    "neg": 5,
+    "net": -1
+   },
+   "darwinism": {
+    "pos": 6,
+    "neg": 4,
+    "net": 5
+   },
+   "nietzsche": {
+    "pos": 5,
+    "neg": 5,
+    "net": 1
+   },
+   "critical_theory": {
+    "pos": 3,
+    "neg": 2,
+    "net": 2
+   },
+   "confucianism": {
+    "pos": 5,
+    "neg": 3,
+    "net": 3
+   },
+   "daoism": {
+    "pos": 4,
+    "neg": 2,
+    "net": 1
+   },
+   "buddhism": {
+    "pos": 3,
+    "neg": 4,
+    "net": 1
+   },
+   "vedanta": {
+    "pos": 4,
+    "neg": 4,
+    "net": 0
+   },
+   "islamic_philosophy": {
+    "pos": 2,
+    "neg": 2,
+    "net": 1
+   },
+   "islam": {
+    "pos": 0,
+    "neg": 0,
+    "net": 0
+   },
+   "judaism": {
+    "pos": 0,
+    "neg": 0,
+    "net": 0
+   },
+   "romanticism": {
+    "pos": 0,
+    "neg": 0,
+    "net": 0
+   },
+   "nationalism": {
+    "pos": 1,
+    "neg": 1,
+    "net": 0
+   },
+   "humor": {
+    "pos": 2,
+    "neg": 2,
+    "net": -1
+   },
+   "irony": {
+    "pos": 3,
+    "neg": 2,
+    "net": 0
+   },
+   "abstraction": {
+    "pos": 3,
+    "neg": 3,
+    "net": -2
+   },
+   "hierarchy": {
+    "pos": 6,
+    "neg": 8,
+    "net": 0
+   }
+  },
+  "all": {
+   "platonism": {
+    "pos": 15,
+    "neg": 20,
+    "net": -4
+   },
+   "aristotelianism": {
+    "pos": 18,
+    "neg": 10,
+    "net": 14
+   },
+   "stoicism": {
+    "pos": 11,
+    "neg": 10,
+    "net": 8
+   },
+   "christianity": {
+    "pos": 27,
+    "neg": 25,
+    "net": 0
+   },
+   "gnosticism": {
+    "pos": 6,
+    "neg": 4,
+    "net": 7
+   },
+   "hermeticism": {
+    "pos": 8,
+    "neg": 3,
+    "net": 5
+   },
+   "enlightenment_liberalism": {
+    "pos": 45,
+    "neg": 39,
+    "net": 6
+   },
+   "marxism": {
+    "pos": 20,
+    "neg": 11,
+    "net": 16
+   },
+   "darwinism": {
+    "pos": 13,
+    "neg": 12,
+    "net": 0
+   },
+   "nietzsche": {
+    "pos": 13,
+    "neg": 17,
+    "net": 0
+   },
+   "critical_theory": {
+    "pos": 11,
+    "neg": 6,
+    "net": 10
+   },
+   "confucianism": {
+    "pos": 12,
+    "neg": 10,
+    "net": 8
+   },
+   "daoism": {
+    "pos": 11,
+    "neg": 7,
+    "net": 9
+   },
+   "buddhism": {
+    "pos": 9,
+    "neg": 10,
+    "net": 3
+   },
+   "vedanta": {
+    "pos": 7,
+    "neg": 6,
+    "net": 2
+   },
+   "islamic_philosophy": {
+    "pos": 7,
+    "neg": 6,
+    "net": 7
+   },
+   "islam": {
+    "pos": 9,
+    "neg": 8,
+    "net": 7
+   },
+   "judaism": {
+    "pos": 8,
+    "neg": 7,
+    "net": 5
+   },
+   "romanticism": {
+    "pos": 8,
+    "neg": 4,
+    "net": 11
+   },
+   "nationalism": {
+    "pos": 9,
+    "neg": 7,
+    "net": 8
+   },
+   "humor": {
+    "pos": 7,
+    "neg": 6,
+    "net": 7
+   },
+   "irony": {
+    "pos": 11,
+    "neg": 5,
+    "net": 10
+   },
+   "abstraction": {
+    "pos": 10,
+    "neg": 7,
+    "net": 6
+   },
+   "hierarchy": {
+    "pos": 29,
+    "neg": 30,
+    "net": 7
+   }
+  }
+ },
+ "scoring": {
+  "center": "subtract the respondent's mean answer from each answer",
+  "user_vector": "u[a] = clamp(5 * sum(a_centered*w[a]) / (sum(2*|w[a]|) + 8), -5, 5); axis enters only with >=2 answered questions",
+  "match": "cosine(u, idea.ratings) over axes present in u",
+  "gate": "all |u[a]| <= 0.25 -> 'not enough signal'; top cosine < 0.30 -> 'weak match'",
+  "results": "top 5 ideas; per country the highest-cosine modern_politics idea with that country's party_alignment field",
+  "plane": "x = u.abstraction (-5 material .. +5 abstract), y = u.hierarchy (-5 opposes .. +5 favors), same units and sign as idea ratings used by memeplex.html flat views; confidence = W/(W+8), W = sum of |w| on that axis over answered questions",
+  "reference": "quiz/score.py"
+ }
+}

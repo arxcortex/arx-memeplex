@@ -36,3 +36,11 @@ Test: `python3 t_views2.py` (desktop and phone; checks every stream's counts and
 - **Chronosphere link** (`v=chrono&f=<id>`): ideas tied to Chronosphere events by `lenses/bridges.json` in chronosphere-data, read at runtime from its GitHub Pages copy (or a `bridges.json` beside this page). Top: the chosen idea's timeline with parents, children and its events; below: every bridged idea. Each event links to `deep_links.chronosphere` with `{hash_head}` from `hash_heads[lens]`, `{year}` the event year, `{region}` `globe` and `{event_slug}` the event, resolved against arxcortex.io. Older bridges files without `hash_heads` map `geo` to `history` and keep other lens names. A link never contains an unfilled `{…}`.
 
 Test: `python3 t_views3.py` (desktop and phone; uses its own bridges fixture in the new and old formats). Screenshots: `views-*-similar*.png`, `views-*-thinkers*.png`, `views-*-chrono*.png`.
+
+## Quizzes, map selection and filter context
+
+- **Quizzes.** Menu > Explore & share > Quizzes opens an overlay inside this page, so no extra file is needed. It holds Politics, Philosophy and Combined, with five answer buttons, results, a share card and a share link that relights the matched ideas on the map. The bank and scoring are described in [quiz/README.md](../../../quiz/README.md). The Philosophy card carries Whitehead's line, taken from Platonic Forms' `quote` field. The idea panel now shows any idea's `quote`.
+  Test: `python3 t_quiz.py` (desktop and phone; checks the JS scorer against `quiz/score.py`).
+- **No stray text selection.** Map, chart and toolbar text can't be selected, and a press on the map or a chart clears any selection. The idea panel, quiz text and inputs stay selectable.
+- **Filter context.** A tradition, branch or domain filter keeps the shortest parent chain from the filtered ideas up to their nearest root, drawn faded. For example, the Catholic line keeps Apostolic Christianity and Christianity.
+  Test: `python3 t_mapstate.py`.
