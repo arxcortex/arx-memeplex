@@ -601,6 +601,25 @@
             "maxLength": 200
           }
         }
+      },
+      "basis": {
+        "type": "object",
+        "description": "PROPOSAL (optional). Per-axis scoring basis. Missing axis = lineage (tier 1). 'stance' = tier-2 fallback (stance or affinity), stored at half strength, max ±2. See docs/METHODOLOGY.md.",
+        "additionalProperties": {
+          "enum": [
+            "lineage",
+            "stance"
+          ]
+        }
+      },
+      "stance_raw": {
+        "type": "object",
+        "description": "PROPOSAL (optional). Per-axis full-scale (-5..+5) stance or affinity reading before halving. Stored rating = raw / 2 rounded toward zero. See docs/METHODOLOGY.md.",
+        "additionalProperties": {
+          "type": "integer",
+          "minimum": -5,
+          "maximum": 5
+        }
       }
     }
   }
