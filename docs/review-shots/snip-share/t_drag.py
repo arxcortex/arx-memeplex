@@ -1,5 +1,6 @@
 # Drag-over-labels test (desktop mouse, left and right button, default + National views; phone touch).
-# While a button is held, passing over ideas must not enlarge labels, dim the map or show the tooltip; a drag is never a click.
+# Passing over ideas (button held or not) must not enlarge labels, dim the map or show the tooltip; there is no hover effect,
+# only a pointer cursor. A drag is never a click; a left click that moves less than 6 px selects.
 # Run from this folder: python3 t_drag.py
 import asyncio,subprocess,sys,socket
 from playwright.async_api import async_playwright
@@ -28,9 +29,11 @@ async def run():
         c=await pg.evaluate(FIND)
         if not c: fail.append((tag,'no idea in view')); await ctx.close(); continue
         t=c[0]
-        # sanity: plain hover does light it up (so the checks below can fail)
+        # plain hover: pointer cursor, nothing else
         await pg.mouse.move(t['x'],t['y']); await pg.wait_for_timeout(250); s=await pg.evaluate(ST)
-        if not s['tip']: fail.append((tag,'hover sanity: no tooltip',s))
+        if s['tip'] or s['sel'] or s['open']: fail.append((tag,'plain hover lit the idea',s))
+        cur=await pg.evaluate("document.querySelector('#stage canvas').style.cursor")
+        if cur!='pointer': fail.append((tag,'cursor over an idea',cur))
         e=await empty(pg); await pg.mouse.move(*e); await pg.wait_for_timeout(150)
         await pg.mouse.down(button=btn); over=0; bad=[]
         # sweep across every candidate idea while held
@@ -44,7 +47,7 @@ async def run():
           e=[x,y]
         if not over: fail.append((tag,'drag never passed over an idea'))
         if bad: fail.append((tag,'hover effects during drag',bad[:3]))
-        # release on top of an idea: no click, hover comes back
+        # release on top of an idea: no click, no hover effect, the pointer cursor comes back
         await pg.evaluate("__memeplex.controls.enableDamping=false; __memeplex.controls.enabled=false"); await pg.wait_for_timeout(100)  # freeze the map (button still held) so the release can land on a known idea
         q=await pg.evaluate(FIND)
         if q: await pg.mouse.move(q[0]['x'],q[0]['y'],steps=3)
@@ -53,8 +56,10 @@ async def run():
         mx,my=(q[0]['x'],q[0]['y']) if q else e
         await pg.mouse.up(button=btn); await pg.wait_for_timeout(300); s=await pg.evaluate(ST)
         if s['open']: fail.append((tag,'drag opened an idea'))
-        under=await pg.evaluate(f"__pick({mx},{my})")  # hover is re-checked on release
-        if s['tip']!=bool(under): fail.append((tag,'hover not re-checked after release',under,s))
+        under=await pg.evaluate(f"__pick({mx},{my})")  # the cursor is re-checked on release
+        cur=await pg.evaluate("document.querySelector('#stage canvas').style.cursor")
+        if s['tip'] or s['sel']: fail.append((tag,'hover effect after release',under,s))
+        if (cur=='pointer')!=bool(under): fail.append((tag,'cursor not re-checked after release',under,cur))
         if under: hits+=1
         await pg.evaluate("__memeplex.controls.enabled=true")
         # drag that comes back to where it started is still a drag
@@ -69,7 +74,7 @@ async def run():
           if o!=(btn=='left'): fail.append((tag,'click open =',o))
         print(tag,'passes over ideas',over,'bad',len(bad))
         await ctx.close()
-    if not hits: fail.append(('mouse','no release ever landed on an idea, so hover restore went untested'))
+    if not hits: fail.append(('mouse','no release ever landed on an idea, so the cursor re-check went untested'))
     # touch: a finger drag over ideas never opens one; a tap does
     ctx,pg=await page('',True,'&full=1'); cdp=await ctx.new_cdp_session(pg)  # full=1: the explorable map on a touch phone
     q=await pg.evaluate(FIND)

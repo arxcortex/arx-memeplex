@@ -61,11 +61,14 @@ async def run():
       await pg.wait_for_timeout(500); h=await pg.evaluate("location.hash")
       if 'v=flows' not in h or 'by=country' not in h: fail.append((tag,'flows hash',h))
       await pg.screenshot(path=f"views-{tag}-flows-country.png")
-      # hover a tradition highlights its ribbons; click opens its family tree
+      # hovering a tradition lights nothing (click only); clicking a ribbon shows its share; clicking a tradition opens its family tree
       if not mob:
         await pg.hover('#vz g[data-k="n:platonic_forms"] rect'); await pg.wait_for_timeout(300)
         on=await pg.evaluate("document.querySelectorAll('#vz path.on[data-s=platonic_forms]').length")
-        if not on: fail.append((tag,'flows hover'))
+        if on: fail.append((tag,'flows hover lit ribbons'))
+      await pg.evaluate("document.querySelector('#vz path[data-s=platonic_forms]').dispatchEvent(new MouseEvent('click',{bubbles:true}))"); await pg.wait_for_timeout(300)
+      r=await pg.evaluate("({on:document.querySelectorAll('#vz path.on[data-s=platonic_forms]').length,tip:document.getElementById('vztip').style.display})")
+      if r['on']!=1 or r['tip']!='block': fail.append((tag,'flows ribbon click',r))
       await pg.evaluate("document.querySelector('#vz g[data-k=\"n:platonic_forms\"]').dispatchEvent(new MouseEvent('click',{bubbles:true}))"); await pg.wait_for_timeout(500)
       if await pg.evaluate("__viz.cur+'/'+__viz.P.f")!='family/platonic_forms': fail.append((tag,'flows click'))
       # snip in flows
