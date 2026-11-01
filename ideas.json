@@ -3235,7 +3235,11 @@
    "Jesus",
    "Paul the Apostle"
   ],
-  "parents": [],
+  "parents": [
+   "second_temple_judaism",
+   "hellenistic_judaism",
+   "jewish_apocalypticism"
+  ],
   "plain": "Followers of Jesus of Nazareth believe he is the Son of God, that he died and rose again, and that faith in him saves people from sin.",
   "summary": "Followers of Jesus of Nazareth call him the Messiah (promised savior) and Son of God; it began as a Jewish group in Roman Judaea.",
   "ratings": {
@@ -3293,7 +3297,10 @@
   "stories": [],
   "sources": [
    "https://grokipedia.com/page/Christianity",
-   "https://grokipedia.com/page/Crucifixion_of_Jesus"
+   "https://grokipedia.com/page/Crucifixion_of_Jesus",
+   "https://grokipedia.com/page/Second_Temple_Judaism",
+   "https://grokipedia.com/page/Hellenistic_Judaism",
+   "https://grokipedia.com/page/Apocalypticism"
   ],
   "domain": [
    "religion"
@@ -3322,6 +3329,29 @@
      "note": "Named in the Grokipedia article “Christianity by country”."
     }
    ]
+  },
+  "edge_notes": {
+   "second_temple_judaism": {
+    "status": "direct",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Second_Temple_Judaism",
+    "note": "'Christianity emerged in the early 1st century CE as a sect within Second Temple Judaism'; a sibling of Rabbinic Judaism, not its child."
+   },
+   "hellenistic_judaism": {
+    "status": "documented",
+    "type": "influence",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Hellenistic_Judaism",
+    "note": "Many early converts were Greek-speaking Hellenistic Jews, and the Septuagint became the early Christians' Old Testament, quoted 'over 300 times' in the New Testament."
+   },
+   "jewish_apocalypticism": {
+    "status": "documented",
+    "type": "influence",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Apocalypticism",
+    "note": "'Christianity adapted Jewish apocalypticism, centralizing it in the New Testament'; Mark 13 echoes Daniel's Son of Man coming on clouds."
+   }
   }
  },
  {
