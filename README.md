@@ -16,13 +16,14 @@ Anyone with no background in philosophy should be able to read every idea, tradi
 | `schema/idea.schema.json` | JSON Schema for one idea record. |
 | `scripts/validate.py` | Checks the data (standard-library Python). Runs on every push and pull request. |
 | `docs/RUBRIC.md` | How scores from -5 to +5 are assigned. |
+| `docs/METHODOLOGY.md` | Plain-language scoring method: lineage first, then a half-strength stance or affinity fallback. |
 | `docs/HANDOVER.md` | Full build notes for maintainers. |
 
 ## How an idea is scored
 
 Each score answers: how much does this idea descend from (+) or stand against (-) this tradition? 0 means neutral or unrelated. The hierarchy stance asks a different question: does the idea favor (+) or oppose (-) ranked order? The abstraction stance asks whether reality is ideas or spirit (+) or matter (-). Every idea is scored on all 20 axes. The map places ideas on fixed directions: abstract vs material left-right, hierarchy front-back, time up (see docs/RUBRIC.md). Root ideas (`root: true`) are the starting point of a tradition. Lineage runs forward in time: a parent idea is never later than its child.
 
-Facts (dates, places, thinkers) follow the cited sources. Sources are Grokipedia pages (`https://grokipedia.com/page/<Title>`); SEP or IEP may be added alongside. Wikipedia is not used. Scores are editorial judgments, each with its stated reason.
+Facts (dates, places, thinkers) follow the cited sources. Sources are Grokipedia pages (`https://grokipedia.com/page/<Title>`); SEP or IEP may be added alongside. Wikipedia is not used. Scores are editorial judgments, each with its stated reason. Where an idea has no recorded relation to a tradition, a half-strength stance or affinity reading may be used instead (see docs/METHODOLOGY.md).
 
 ## Check locally
 
