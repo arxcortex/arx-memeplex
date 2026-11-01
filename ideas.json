@@ -10,7 +10,7 @@
   "lat": 37.98,
   "lon": 23.73,
   "origin_src": "https://grokipedia.com/page/Platonic_Academy",
-  "origin_note": "Plato founds the Academy c. 387 BC",
+  "origin_note": "Plato founds the Academy c. 387 BCE",
   "thinkers": [
    "Plato"
   ],
@@ -126,7 +126,7 @@
   "lat": 37.98,
   "lon": 23.73,
   "origin_src": "https://grokipedia.com/page/Lyceum_(classical)",
-  "origin_note": "Aristotle founds the Lyceum school c. 335 BC (some accounts give 334 BC)",
+  "origin_note": "Aristotle founds the Lyceum school c. 335 BCE (some accounts give 334 BCE)",
   "thinkers": [
    "Aristotle"
   ],
@@ -16492,7 +16492,7 @@
   "lat": 34.39,
   "lon": 50.86,
   "origin_src": "https://grokipedia.com/page/Transcendent_theosophy",
-  "origin_note": "Mulla Sadra (c. 1571–1640), born in Shiraz and trained in Isfahan, begins developing his system in seclusion at Kahak near Qom; his Asfar (Four Intellectual Journeys) is completed around 1628; Grokipedia: after his father's death in 1601–1602 he withdrew to 'a period of seclusion near Kahak, Qom, lasting about five years, during which he began developing his comprehensive philosophical system'. Coordinates for Kahak are from GeoNames (https://www.geonames.org/122026/kahak.html)",
+  "origin_note": "Mulla Sadra (c. 1571–1640), born in Shiraz and trained in Isfahan, begins developing his system in seclusion at Kahak near Qom; his Asfar (Four Intellectual Journeys) is completed around 1628; Grokipedia: after his father's death in 1601–1602 he withdrew to 'a period of seclusion near Kahak, Qom, lasting about five years, during which he began developing his comprehensive philosophical system'. Coordinates for Kahak are from GeoNames (id 122026).",
   "thinkers": [
    "Mulla Sadra",
    "Mulla Hadi Sabzavari",
@@ -16560,7 +16560,8 @@
   "stories": [],
   "sources": [
    "https://grokipedia.com/page/Transcendent_theosophy",
-   "https://grokipedia.com/page/Mulla_Sadra"
+   "https://grokipedia.com/page/Mulla_Sadra",
+   "https://www.geonames.org/122026/kahak.html"
   ],
   "domain": [
    "philosophy",
@@ -21226,7 +21227,7 @@
     {
      "place": "United States",
      "period": "1787-1788",
-     "src": "https://grokipedia.com/page/Constitutional_Convention_United_States",
+     "src": "https://grokipedia.com/page/Constitutional_Convention_(United_States)",
      "note": "Federalists like Madison argued the Constitution's checks and balances prevented tyranny during the 1787-88 ratification fight."
     }
    ]
@@ -28135,7 +28136,7 @@
   "year": -3000,
   "year_approx": true,
   "origin_src": "https://grokipedia.com/page/Canaanite_religion",
-  "origin_note": "Practiced in the Levant 'from the Early Bronze Age around 3000 BCE through the Iron Age until roughly the 6th century BCE'; the Ugaritic tablets of c. 1400–1200 BC are its main texts",
+  "origin_note": "Practiced in the Levant 'from the Early Bronze Age around 3000 BCE through the Iron Age until roughly the 6th century BCE'; the Ugaritic tablets of c. 1400–1200 BCE are its main texts",
   "place": "Levant",
   "lat": null,
   "lon": null,
@@ -28211,7 +28212,7 @@
     {
      "place": "Ugarit",
      "src": "https://grokipedia.com/page/Canaanite_religion",
-     "note": "About 1,500 tablets from c. 1400–1200 BC, including the Baal Cycle, are the fullest record of its myths and rites."
+     "note": "About 1,500 tablets from c. 1400–1200 BCE, including the Baal Cycle, are the fullest record of its myths and rites."
     },
     {
      "place": "Phoenicia",
@@ -28541,7 +28542,7 @@
   "year": -430,
   "year_approx": true,
   "origin_src": "https://grokipedia.com/page/Socrates",
-  "origin_note": "Socrates (c. 469–399 BC) questioned Athenians in public; he is documented in the 430s BCE, and Aristophanes' The Clouds (423 BC) is the earliest depiction of him",
+  "origin_note": "Socrates (c. 469–399 BCE) questioned Athenians in public; he is documented in the 430s BCE, and Aristophanes' The Clouds (423 BCE) is the earliest depiction of him",
   "place": "Athens",
   "lat": 37.98,
   "lon": 23.73,
@@ -28624,7 +28625,7 @@
     {
      "place": "Athens",
      "src": "https://grokipedia.com/page/Socrates",
-     "note": "Socrates questioned politicians, poets and craftsmen in public until his execution in 399 BC."
+     "note": "Socrates questioned politicians, poets and craftsmen in public until his execution in 399 BCE."
     }
    ]
   },
