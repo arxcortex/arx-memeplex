@@ -95,6 +95,22 @@ _S=json.load(open(B+"schema/idea.schema.json"))["items"]; _P=set(_S["properties"
 for d in ideas:
   for k in set(d)-_P: E.append(f"{d['id']}: field {k} not allowed by schema")
   for k in _R-set(d): E.append(f"{d['id']}: required field {k} missing")
+# basis / stance_raw: optional tier-2 fallback markers (PROPOSAL; see docs/METHODOLOGY.md)
+for d in ideas:
+  bs=d.get("basis") or {}; sr=d.get("stance_raw") or {}
+  for a,b in bs.items():
+    if a not in AX: E.append(f"{d['id']}: basis axis {a} unknown")
+    elif b not in ("lineage","stance"): E.append(f"{d['id']}: basis {a} must be lineage or stance")
+    elif b=="stance":
+      v=d["ratings"].get(a)
+      if not isinstance(v,int) or not 1<=abs(v)<=2: E.append(f"{d['id']}: stance-basis {a}={v} must be a non-zero integer within +-2")
+      if not (d["rationale"].get(a) or "").startswith(("Stance:","Affinity:")): E.append(f"{d['id']}: stance-basis {a} rationale must start with 'Stance:' or 'Affinity:'")
+  for a,r in sr.items():
+    if a not in AX: E.append(f"{d['id']}: stance_raw axis {a} unknown"); continue
+    if not isinstance(r,int) or not -5<=r<=5: E.append(f"{d['id']}: stance_raw {a}={r} out of range"); continue
+    h=int(r/2)
+    if d["ratings"].get(a)!=h: E.append(f"{d['id']}: stance_raw {a}={r} should store {h}, found {d['ratings'].get(a)}")
+    if h!=0 and bs.get(a)!="stance": E.append(f"{d['id']}: stance_raw {a} needs basis stance")
 # quote: optional verified quotation (text, by, work, src); see schema
 for d in ideas:
   q=d.get("quote")

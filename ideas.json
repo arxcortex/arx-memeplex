@@ -5841,7 +5841,7 @@
    "platonism": 0,
    "aristotelianism": 0,
    "stoicism": 0,
-   "christianity": 0,
+   "christianity": -1,
    "gnosticism": 0,
    "hermeticism": 0,
    "enlightenment_liberalism": 0,
@@ -5852,10 +5852,10 @@
    "confucianism": 0,
    "daoism": 0,
    "buddhism": 5,
-   "vedanta": 0,
+   "vedanta": -1,
    "islamic_philosophy": 0,
-   "islam": 0,
-   "judaism": 0,
+   "islam": -1,
+   "judaism": -1,
    "romanticism": 0,
    "nationalism": 0,
    "humor": 0,
@@ -5867,7 +5867,7 @@
    "platonism": "No real link to Platonism.",
    "aristotelianism": "No real link to Aristotelianism.",
    "stoicism": "No real link to Stoicism.",
-   "christianity": "No real link to Christianity.",
+   "christianity": "Stance: its cosmos has no creator deity (Grokipedia, Theravada), so it would reject Christianity's Creator God.",
    "gnosticism": "No real link to Gnosticism.",
    "hermeticism": "No real link to Hermeticism.",
    "enlightenment_liberalism": "No real link to Enlightenment liberalism.",
@@ -5878,10 +5878,10 @@
    "confucianism": "No real link to Confucianism.",
    "daoism": "No real link to Daoism.",
    "buddhism": "Claims to preserve the Buddha's original teaching.",
-   "vedanta": "No real link to Vedanta.",
+   "vedanta": "Stance: denies any permanent self (attā), the very thing Vedanta's Atman teaching affirms (Grokipedia, Theravada).",
    "islamic_philosophy": "Comes before Islamic philosophy (falsafa) existed, so it cannot descend from it.",
-   "islam": "Comes before Islam existed, so it cannot descend from it.",
-   "judaism": "No real link to Judaism.",
+   "islam": "Stance: its cosmos has no creator deity (Grokipedia, Theravada), so it would reject Islam's Creator God.",
+   "judaism": "Stance: its cosmos has no creator deity (Grokipedia, Theravada), so it would reject Judaism's Creator God.",
    "romanticism": "Comes before Romanticism existed, so it cannot descend from it.",
    "nationalism": "Comes before Nationalism existed, so it cannot descend from it.",
    "humor": "Not expressed through jokes or play.",
@@ -5921,6 +5921,18 @@
      "note": "Named in the Grokipedia article “Theravada”."
     }
    ]
+  },
+  "stance_raw": {
+   "vedanta": -3,
+   "christianity": -2,
+   "islam": -2,
+   "judaism": -2
+  },
+  "basis": {
+   "vedanta": "stance",
+   "christianity": "stance",
+   "islam": "stance",
+   "judaism": "stance"
   }
  },
  {
@@ -9202,7 +9214,7 @@
   "plain": "Phenomenology describes experience exactly as it shows up to us. Husserl asked people to set aside assumptions about the outside world and notice that every thought is about something.",
   "summary": "Husserl's method of describing experience as it appears, setting aside assumptions about the outside world.",
   "ratings": {
-   "platonism": 0,
+   "platonism": 1,
    "aristotelianism": 0,
    "stoicism": 0,
    "christianity": 0,
@@ -9228,7 +9240,7 @@
    "hierarchy": 0
   },
   "rationale": {
-   "platonism": "No real link to Platonism.",
+   "platonism": "Affinity: seeks the unchanging essences of things through 'eidetic intuition', echoing Plato's Forms (Grokipedia, Phenomenology).",
    "aristotelianism": "No real link to Aristotelianism.",
    "stoicism": "No real link to Stoicism.",
    "christianity": "No real link to Christianity.",
@@ -9236,7 +9248,7 @@
    "hermeticism": "No real link to Hermeticism.",
    "enlightenment_liberalism": "No real link to Enlightenment liberalism.",
    "marxism": "No real link to Marxism.",
-   "darwinism": "No real link to Darwinism.",
+   "darwinism": "Stance too weak to score: Husserl attacked naturalism in philosophy but took no stand on evolution (Grokipedia).",
    "nietzsche": "No real link to Nietzsche.",
    "critical_theory": "Comes before Critical theory existed, so it cannot descend from it.",
    "confucianism": "No real link to Confucianism.",
@@ -9267,6 +9279,13 @@
    "historical": false,
    "places": [],
    "uncertain": true
+  },
+  "stance_raw": {
+   "platonism": 2,
+   "darwinism": 1
+  },
+  "basis": {
+   "platonism": "stance"
   }
  },
  {
@@ -10459,11 +10478,11 @@
    "christianity": 0,
    "gnosticism": 0,
    "hermeticism": 0,
-   "enlightenment_liberalism": 0,
+   "enlightenment_liberalism": 1,
    "marxism": 0,
    "darwinism": 0,
    "nietzsche": 0,
-   "critical_theory": 0,
+   "critical_theory": -1,
    "confucianism": 0,
    "daoism": 0,
    "buddhism": 0,
@@ -10485,11 +10504,11 @@
    "christianity": "No real link to Christianity.",
    "gnosticism": "No real link to Gnosticism.",
    "hermeticism": "No real link to Hermeticism.",
-   "enlightenment_liberalism": "No real link to Enlightenment liberalism.",
+   "enlightenment_liberalism": "Stance: 4chan fought the UK Online Safety Act as an attack on free speech (Grokipedia, 4chan).",
    "marxism": "No real link to Marxism.",
    "darwinism": "No real link to Darwinism.",
    "nietzsche": "No real link to Nietzsche.",
-   "critical_theory": "No real link to Critical theory.",
+   "critical_theory": "Stance: /pol/ incubated the alt-right and its attack on political correctness, though users are mixed (Grokipedia, 4chan).",
    "confucianism": "No real link to Confucianism.",
    "daoism": "No real link to Daoism.",
    "buddhism": "No real link to Buddhism.",
@@ -10534,6 +10553,14 @@
      "note": "Named in the Grokipedia article “4chan”."
     }
    ]
+  },
+  "stance_raw": {
+   "enlightenment_liberalism": 2,
+   "critical_theory": -2
+  },
+  "basis": {
+   "enlightenment_liberalism": "stance",
+   "critical_theory": "stance"
   }
  },
  {
@@ -11405,7 +11432,7 @@
    "nietzsche": 0,
    "critical_theory": 0,
    "confucianism": -2,
-   "daoism": 0,
+   "daoism": -2,
    "buddhism": 0,
    "vedanta": 0,
    "islamic_philosophy": 0,
@@ -11431,7 +11458,7 @@
    "nietzsche": "No real link to nietzsche.",
    "critical_theory": "No real link to critical_theory.",
    "confucianism": "Arose as a rival to Confucianism.",
-   "daoism": "No real link to daoism.",
+   "daoism": "Mohists attacked the fatalism they tied to Laozi, and Daoist passivity, as undermining human effort (Grokipedia, Mohism).",
    "buddhism": "No real link to buddhism.",
    "vedanta": "No real link to vedanta.",
    "islamic_philosophy": "No real link to islamic_philosophy.",
@@ -13640,10 +13667,10 @@
    "gnosticism": 0,
    "hermeticism": 0,
    "enlightenment_liberalism": 5,
-   "marxism": 0,
+   "marxism": -1,
    "darwinism": 0,
    "nietzsche": 0,
-   "critical_theory": 0,
+   "critical_theory": -1,
    "confucianism": 0,
    "daoism": 0,
    "buddhism": 0,
@@ -13651,7 +13678,7 @@
    "islamic_philosophy": 0,
    "islam": 0,
    "judaism": 0,
-   "romanticism": 0,
+   "romanticism": -1,
    "nationalism": 0,
    "humor": 0,
    "irony": 0,
@@ -13666,10 +13693,10 @@
    "gnosticism": "No real link to Gnosticism.",
    "hermeticism": "No real link to Hermeticism.",
    "enlightenment_liberalism": "Built directly on Locke-style individual rights and autonomy.",
-   "marxism": "Comes before Marxism existed, so it cannot descend from it.",
+   "marxism": "Stance: separates women's equality from class struggle, unlike socialist feminism (Grokipedia, Liberal feminism).",
    "darwinism": "Comes before Darwinism existed, so it cannot descend from it.",
    "nietzsche": "Comes before Nietzsche existed, so it cannot descend from it.",
-   "critical_theory": "Comes before Critical theory existed, so it cannot descend from it.",
+   "critical_theory": "Stance: seeks reform inside existing law, the approach radical and intersectional critics fault (Grokipedia, Liberal feminism).",
    "confucianism": "No real link to Confucianism.",
    "daoism": "No real link to Daoism.",
    "buddhism": "No real link to Buddhism.",
@@ -13677,7 +13704,7 @@
    "islamic_philosophy": "No real link to Islamic philosophy.",
    "islam": "No real link to Islam.",
    "judaism": "No real link to Judaism.",
-   "romanticism": "Comes before Romanticism existed, so it cannot descend from it.",
+   "romanticism": "Stance: puts reason above feeling; Wollstonecraft attacked Rousseau-style sentimentality (Grokipedia, Liberal feminism).",
    "nationalism": "No real link to Nationalism.",
    "humor": "Not expressed through jokes or play.",
    "irony": "Makes its case directly, without ironic distance.",
@@ -13720,6 +13747,16 @@
     "src": "https://grokipedia.com/page/A_Vindication_of_the_Rights_of_Men",
     "note": "Wollstonecraft's Vindication of the Rights of Men (1790) was one of the first replies to Burke, defending rights grounded in reason; Rights of Woman followed in 1792 (Grokipedia, Mary_Wollstonecraft)."
    }
+  },
+  "stance_raw": {
+   "marxism": -3,
+   "romanticism": -2,
+   "critical_theory": -2
+  },
+  "basis": {
+   "marxism": "stance",
+   "romanticism": "stance",
+   "critical_theory": "stance"
   }
  },
  {
@@ -14901,7 +14938,7 @@
    "hermeticism": 0,
    "enlightenment_liberalism": 0,
    "marxism": 0,
-   "darwinism": 0,
+   "darwinism": -1,
    "nietzsche": 0,
    "critical_theory": 0,
    "confucianism": 0,
@@ -14927,7 +14964,7 @@
    "hermeticism": "No real link to Hermeticism.",
    "enlightenment_liberalism": "A revival of personal piety, not a political theory.",
    "marxism": "Comes before Marxism existed, so it cannot descend from it.",
-   "darwinism": "Comes before Darwinism existed, so it cannot descend from it.",
+   "darwinism": "Stance: in the 1920s Holiness churches joined fundamentalist coalitions against evolution (Grokipedia, Holiness movement).",
    "nietzsche": "Comes before Nietzsche existed, so it cannot descend from it.",
    "critical_theory": "Comes before Critical theory existed, so it cannot descend from it.",
    "confucianism": "No real link to Confucianism.",
@@ -14960,6 +14997,12 @@
      "note": "Named in the Grokipedia article “Holiness movement”."
     }
    ]
+  },
+  "stance_raw": {
+   "darwinism": -3
+  },
+  "basis": {
+   "darwinism": "stance"
   }
  },
  {
@@ -15190,11 +15233,11 @@
    "platonism": 0,
    "aristotelianism": 0,
    "stoicism": 0,
-   "christianity": 0,
-   "gnosticism": 0,
+   "christianity": -1,
+   "gnosticism": -2,
    "hermeticism": 0,
    "enlightenment_liberalism": 0,
-   "marxism": 0,
+   "marxism": -1,
    "darwinism": 0,
    "nietzsche": 0,
    "critical_theory": 0,
@@ -15204,7 +15247,7 @@
    "vedanta": 0,
    "islamic_philosophy": 0,
    "islam": 5,
-   "judaism": 0,
+   "judaism": 1,
    "romanticism": 0,
    "nationalism": 0,
    "humor": 0,
@@ -15216,11 +15259,11 @@
    "platonism": "No real link to Platonism.",
    "aristotelianism": "Borrows some Greek logic in debate, but builds its own theology.",
    "stoicism": "No real link to Stoicism.",
-   "christianity": "No real link to Christianity.",
-   "gnosticism": "No real link to Gnosticism.",
+   "christianity": "Stance: defends God's strict oneness (tawhid); the Quran rejects the Trinity (Quran 4:171).",
+   "gnosticism": "Early kalam was sharpened in refutations of Manichaean dualism (Grokipedia, Kalam).",
    "hermeticism": "No real link to Hermeticism.",
    "enlightenment_liberalism": "No real link to Enlightenment liberalism.",
-   "marxism": "No real link to Marxism.",
+   "marxism": "Stance: built proofs of God against materialist challenges (Grokipedia, Kalam), so it would reject Marxist materialism.",
    "darwinism": "No real link to Darwinism.",
    "nietzsche": "No real link to Nietzsche.",
    "critical_theory": "No real link to Critical theory.",
@@ -15230,7 +15273,7 @@
    "vedanta": "No real link to Vedanta.",
    "islamic_philosophy": "Grew up alongside falsafa and often argued with it.",
    "islam": "Kalam is Islamic theology built to defend the faith's doctrines by argument.",
-   "judaism": "No real link to Judaism.",
+   "judaism": "Affinity: shares Judaism's strict one-God creed; kalam methods later passed into Jewish thought (Grokipedia, Kalam).",
    "romanticism": "Comes before Romanticism existed, so it cannot descend from it.",
    "nationalism": "Comes before Nationalism existed, so it cannot descend from it.",
    "humor": "Not expressed through jokes or play.",
@@ -15264,6 +15307,16 @@
      "note": "Named in the Grokipedia article “Kalam”."
     }
    ]
+  },
+  "stance_raw": {
+   "marxism": -3,
+   "christianity": -2,
+   "judaism": 2
+  },
+  "basis": {
+   "marxism": "stance",
+   "christianity": "stance",
+   "judaism": "stance"
   }
  },
  {
@@ -16096,7 +16149,7 @@
    "gnosticism": "No real link to Gnosticism.",
    "hermeticism": "No real link to Hermeticism.",
    "enlightenment_liberalism": "Accepts electoral democracy but attacks gold-standard finance; no documented textual debt. Judgment.",
-   "marxism": "Contemporary with Marx; sources show no link.",
+   "marxism": "Stance too weak to score: fought monopolies and backed labor laws, but sought to regulate private capital, not abolish it (Grokipedia).",
    "darwinism": "No real link to Darwinism.",
    "nietzsche": "No real link to Nietzsche.",
    "critical_theory": "Comes before this tradition existed, so it cannot descend from it.",
@@ -16143,7 +16196,10 @@
     }
    ]
   },
-  "parent_note": "No existing id has a documented handoff into the Greenback Party. Fetched sources trace it to post–Civil War deflation and the 1873 Coinage Act, and to the Grange (not a node). Leave parents empty; optional future parent: a Jacksonian/anti-bank node if added."
+  "parent_note": "No existing id has a documented handoff into the Greenback Party. Fetched sources trace it to post–Civil War deflation and the 1873 Coinage Act, and to the Grange (not a node). Leave parents empty; optional future parent: a Jacksonian/anti-bank node if added.",
+  "stance_raw": {
+   "marxism": 1
+  }
  },
  {
   "id": "jainism",
@@ -17608,8 +17664,8 @@
   "plain": "The mid-1900s merger of Darwin's natural selection with Mendel's genetics. Evolution became a change in how common genes are in a population, driven by mutation, drift, gene flow and selection.",
   "summary": "Fisher, Haldane, Wright, Dobzhansky, Mayr and Huxley unite Darwin and Mendel: evolution as shifting gene frequencies, the mid-century core of biology.",
   "ratings": {
-   "platonism": 0,
-   "aristotelianism": 0,
+   "platonism": -3,
+   "aristotelianism": -1,
    "stoicism": 0,
    "christianity": 0,
    "gnosticism": 0,
@@ -17634,8 +17690,8 @@
    "hierarchy": 0
   },
   "rationale": {
-   "platonism": "No real link to Platonism.",
-   "aristotelianism": "No real link to Aristotelianism.",
+   "platonism": "Mayr's 'Typological versus Population Thinking' (1959) attacked Platonic essentialism in biology (Grokipedia, Ernst Mayr).",
+   "aristotelianism": "Stance: rejects goals or purposes built into evolution, the final causes of Aristotle (Grokipedia, Ernst Mayr).",
    "stoicism": "No real link to Stoicism.",
    "christianity": "No real link to Christianity.",
    "gnosticism": "No real link to Gnosticism.",
@@ -17695,6 +17751,12 @@
     "src": "https://grokipedia.com/page/Modern_synthesis_(20th_century)",
     "note": "Reconciled Darwin's natural selection with Mendel's laws of inheritance."
    }
+  },
+  "stance_raw": {
+   "aristotelianism": -3
+  },
+  "basis": {
+   "aristotelianism": "stance"
   }
  },
  {
@@ -21154,7 +21216,7 @@
    "gnosticism": 0,
    "hermeticism": 0,
    "enlightenment_liberalism": 3,
-   "marxism": 0,
+   "marxism": -1,
    "darwinism": 0,
    "nietzsche": 0,
    "critical_theory": 0,
@@ -21178,7 +21240,7 @@
    "stoicism": "No real link to Stoicism.",
    "gnosticism": "No real link to Gnosticism.",
    "hermeticism": "No real link to Hermeticism.",
-   "marxism": "Comes before this tradition existed, so it cannot descend from it.",
+   "marxism": "Stance: No. 10 ranks 'an equal division of property' among 'improper or wicked' projects (Grokipedia, Federalist No. 10).",
    "darwinism": "Comes before this tradition existed, so it cannot descend from it.",
    "nietzsche": "Comes before this tradition existed, so it cannot descend from it.",
    "critical_theory": "Comes before this tradition existed, so it cannot descend from it.",
@@ -21253,6 +21315,12 @@
     "src": "https://grokipedia.com/page/The_Federalist_Papers",
     "note": "The pen name 'Publius' evokes Publius Valerius Publicola, 'the Roman founder of republican governance after the overthrow of monarchy' (Grokipedia)."
    }
+  },
+  "stance_raw": {
+   "marxism": -3
+  },
+  "basis": {
+   "marxism": "stance"
   }
  },
  {
@@ -21923,7 +21991,7 @@
    "islam": 0,
    "judaism": 0,
    "romanticism": 0,
-   "nationalism": 0,
+   "nationalism": -1,
    "humor": 0,
    "irony": 0,
    "abstraction": -1,
@@ -21949,7 +22017,7 @@
    "islam": "No documented relation.",
    "judaism": "No documented relation.",
    "romanticism": "No documented relation.",
-   "nationalism": "No documented relation.",
+   "nationalism": "Stance: promotes Stoic cosmopolitanism as a check on tribalism (Grokipedia, Stoicism).",
    "humor": "Not expressed through jokes or play.",
    "irony": "Makes its case directly, without ironic distance.",
    "abstraction": "Mostly sets aside Stoic physics and theology in favor of psychology and evidence.",
@@ -21996,6 +22064,12 @@
     "src": "https://grokipedia.com/page/Stoicism",
     "note": "Adapts the ethics of Epictetus, Seneca and Marcus Aurelius to modern life and psychology."
    }
+  },
+  "stance_raw": {
+   "nationalism": -2
+  },
+  "basis": {
+   "nationalism": "stance"
   }
  },
  {
@@ -27715,7 +27789,7 @@
    "aristotelianism": 0,
    "stoicism": 0,
    "christianity": 0,
-   "gnosticism": 0,
+   "gnosticism": 1,
    "hermeticism": 0,
    "enlightenment_liberalism": 0,
    "marxism": 0,
@@ -27724,8 +27798,8 @@
    "critical_theory": 0,
    "confucianism": 0,
    "daoism": 0,
-   "buddhism": 0,
-   "vedanta": 0,
+   "buddhism": 1,
+   "vedanta": 1,
    "islamic_philosophy": 0,
    "islam": 0,
    "judaism": 0,
@@ -27741,7 +27815,7 @@
    "aristotelianism": "Comes before Aristotelianism existed, so it cannot descend from it.",
    "stoicism": "Comes before Stoicism existed, so it cannot descend from it.",
    "christianity": "Comes before Christianity existed, so it cannot descend from it.",
-   "gnosticism": "Comes before Gnosticism existed, so it cannot descend from it.",
+   "gnosticism": "Affinity: the soul falls from a divine origin into bodies and must be purified to escape, close to Gnostic escape from matter (Grokipedia).",
    "hermeticism": "Comes before Hermeticism existed, so it cannot descend from it.",
    "enlightenment_liberalism": "Comes before Enlightenment liberalism existed, so it cannot descend from it.",
    "marxism": "Comes before Marxism existed, so it cannot descend from it.",
@@ -27750,8 +27824,8 @@
    "critical_theory": "Comes before Critical theory existed, so it cannot descend from it.",
    "confucianism": "Comes before Confucianism existed, so it cannot descend from it.",
    "daoism": "Comes before Daoism existed, so it cannot descend from it.",
-   "buddhism": "Comes before Buddhism existed, so it cannot descend from it.",
-   "vedanta": "No real link to Vedanta.",
+   "buddhism": "Affinity: teaches rebirth into successive bodies and a discipline to escape the cycle, as Buddhism does (Grokipedia, Pythagoreanism).",
+   "vedanta": "Affinity: teaches rebirth into successive bodies and purification to escape it, like the Upanishads' cycle of rebirth (Grokipedia).",
    "islamic_philosophy": "Comes before Islamic philosophy existed, so it cannot descend from it.",
    "islam": "Comes before Islam existed, so it cannot descend from it.",
    "judaism": "No real link to Judaism.",
@@ -27799,6 +27873,16 @@
     "src": "https://grokipedia.com/page/Pythagoreanism",
     "note": "Ancient accounts suggest Pythagoras first learned from local Ionian thinkers; his circle 'integrated Ionian philosophical methods' with purification rites."
    }
+  },
+  "stance_raw": {
+   "gnosticism": 2,
+   "buddhism": 2,
+   "vedanta": 2
+  },
+  "basis": {
+   "gnosticism": "stance",
+   "buddhism": "stance",
+   "vedanta": "stance"
   }
  },
  {

@@ -1,5 +1,7 @@
 # Memeplex rating rubric
 
+The plain-language method, including the half-strength stance and affinity fallback for ideas with no recorded relation to a tradition, is in [METHODOLOGY.md](METHODOLOGY.md).
+
 ## Rating rubric (−5 … +5)
 
 A score answers one question: **"How much does this idea descend from (+) or stand against (−) this tradition or register?"** A score of 0 means neutral or unrelated. Score every axis, zeros included; the panel collapses zeros visually under "Why the zeros".
