@@ -2367,6 +2367,85 @@ body.uihidden #vz{--vzt:14px!important}body.uihidden #vz .vc,body.uihidden #vz .
         foot = `<b>Score gap ${gap}</b> (straight-line distance across all ${A.length} scores; 0 means identical). Biggest differences: ${diff.map(([x, v]) => `${esc(x.label)} ${(ra[x.id] || 0) > 0 ? '+' : ''}${ra[x.id] || 0} vs ${(rb[x.id] || 0) > 0 ? '+' : ''}${rb[x.id] || 0}`).join(' · ') || 'none'}. ` + foot; }
       return { svg: Z.svg(W, S + 10, g + key, `Fingerprint of ${a.name}${b ? ' compared with ' + b.name : ''}`), foot }; } });
 })();
+/* ---------- SPREAD OVER TIME: one stream per root tradition; the stream's width at year Y counts the ideas dated Y or earlier that
+   descend from that root (or, in the score measure, that score +3 or more on its axis). Streams are stacked around a centre line. ---------- */
+(() => { const Z = window.__viz;
+  const K = [[-1200, 0], [-500, 0.14], [0, 0.27], [500, 0.37], [1000, 0.45], [1500, 0.57], [1800, 0.74], [1900, 0.86], [2026, 1]];
+  const u = y => { if (y <= K[0][0]) return 0; for (let i = 1; i < K.length; i++) if (y <= K[i][0]) return K[i - 1][1] + (K[i][1] - K[i - 1][1]) * (y - K[i - 1][0]) / (K[i][0] - K[i - 1][0]); return 1; };
+  const uy = t => { for (let i = 1; i < K.length; i++) if (t <= K[i][1]) return K[i - 1][0] + (K[i][0] - K[i - 1][0]) * (t - K[i - 1][1]) / (K[i][1] - K[i - 1][1]); return K[K.length - 1][0]; };
+  const members = (r, m) => m === 'score' ? ideas.filter(d => sc(d, r.root_axis) >= 3) : [...families[r.id]].map(k => byId[k]);
+  const count = (L, y) => L.reduce((s, d) => s + (d.year <= y ? 1 : 0), 0);
+  Z.add('spread', { label: 'Spread over time', title: 'Spread over time: how each root tradition widens as ideas descend from it', icon: '<path d="M3 17c4 0 5-4 9-4s5 3 9 3M3 13c4 0 5-6 9-6s5 4 9 4M3 20h18"/>',
+    keys: ['m', 'f'], defaults: () => ({ m: 'desc', f: '' }), fix: P => { if (P.m !== 'score') P.m = 'desc'; if (P.f && !(byId[P.f] && byId[P.f].root)) P.f = ''; },
+    subject: P => (P.m === 'score' ? 'aligned ideas' : 'descendants') + (P.f ? ' · ' + byId[P.f].name : ''),
+    note: P => P.m === 'score' ? 'Width at a year = how many ideas dated that year or earlier score <b>+3 or more</b> on the tradition\u2019s axis (strongly aligned), whatever their lineage.' : 'Width at a year = how many ideas dated that year or earlier <b>descend from the tradition\u2019s root idea</b> along the lineage lines (the root counts too).',
+    controls: P => `<button type="button" data-set="m=desc" aria-pressed="${P.m === 'desc'}">Descent</button><button type="button" data-set="m=score" aria-pressed="${P.m === 'score'}">Alignment (+3 or more)</button>${P.f ? '<button type="button" data-set="f=" >Show all</button>' : ''}`,
+    links: k => [`[data-k="${k}"]`],
+    click: (P, k) => { if (!byId[k]) return; P.f = P.f === k ? '' : k; Z.render(); },
+    render(P, W, H) { const c = Z.pal(), mob = W < 560, L0 = mob ? 10 : 46, R0 = mob ? 10 : 150, T0 = 14, ch = Math.max(mob ? 300 : 340, Math.min(H - 150, 620));
+      const RS = roots.map(r => ({ r, L: members(r, P.m) })), N = mob ? 110 : 180, ys = Array.from({ length: N + 1 }, (_, i) => uy(i / N));
+      RS.forEach(s => { s.v = ys.map(y => count(s.L, y)); s.end = s.v[N]; });
+      const tot = ys.map((_, i) => RS.reduce((a, s) => a + s.v[i], 0)), mx = Math.max(...tot) || 1, k = ch / mx, x = i => L0 + (W - L0 - R0) * i / N, mid = T0 + ch / 2;
+      let g = '', base = tot.map(t => mid - t * k / 2);
+      // grid + year ticks
+      [-1000, -500, 0, 500, 1000, 1500, 1800, 1900, 2000].forEach(y => { const xx = L0 + (W - L0 - R0) * u(y); if (mob && (y === -500 || y === 1900)) return;
+        g += `<line x1="${xx}" y1="${T0}" x2="${xx}" y2="${T0 + ch}" stroke="${c.faint}" stroke-width=".6" stroke-dasharray="2 4"/><text x="${xx}" y="${T0 + ch + 14}" font-size="9" text-anchor="middle" class="dim">${Z.yr(y)}</text>`; });
+      RS.forEach(s => { const top = base.slice(), bot = base.map((b, i) => b + s.v[i] * k); base = bot; s.top = top; s.bot = bot;
+        if (!s.end) return; const d = 'M' + top.map((y, i) => `${x(i).toFixed(1)},${y.toFixed(1)}`).join('L') + 'L' + bot.map((y, i) => [x(i).toFixed(1), y.toFixed(1)]).reverse().map(q => q.join(',')).join('L') + 'Z';
+        const at = y => count(s.L, y), dim = P.f && P.f !== s.r.id;
+        g += `<path class="fx${P.f === s.r.id ? ' on' : ''}" data-k="${s.r.id}" d="${d}" fill="${Z.rootHex(s.r.id)}" fill-opacity="${dim ? 0.12 : 0.82}" stroke="${c.bg}" stroke-width=".6" data-tip="${esc(axLabel(s.r.root_axis))}: ${at(0)} by AD 1 · ${at(1500)} by 1500 · ${at(1900)} by 1900 · ${s.end} today"/>`; });
+      // labels at the right end where the stream is thick enough
+      if (!mob) { let last = -1e9; RS.filter(s => s.end).map(s => ({ s, y: (s.top[N] + s.bot[N]) / 2 })).forEach(o => { const y = Math.max(o.y, last + 11.5); last = y;
+        g += `<path d="M${x(N) + 2},${o.y} L${x(N) + 10},${y - 3}" stroke="${Z.rootHex(o.s.r.id)}" stroke-width=".8" fill="none"/><text x="${x(N) + 13}" y="${y}" font-size="9.5" style="pointer-events:none"><tspan fill="${Z.rootHex(o.s.r.id)}">●</tspan> ${esc(Z.short(axLabel(o.s.r.root_axis), 19))} <tspan class="dim">${o.s.end}</tspan></text>`; }); }
+      // legend chips (focusable)
+      let lx = L0, ly = T0 + ch + 34; const lg = RS.filter(s => s.end).sort((a, b) => b.end - a.end).map(s => { const t = `${axLabel(s.r.root_axis)} ${s.end}`, w = t.length * 6.2 + 22; if (lx + w > W - R0) { lx = L0; ly += 22; } const o = `<g class="fx" data-k="${s.r.id}" tabindex="0" role="button" aria-pressed="${P.f === s.r.id}" aria-label="${esc(t)}" data-tip="${esc(axLabel(s.r.root_axis))}: root idea ${esc(s.r.name)} (${esc(fmtYear(s.r.year, s.r.year_approx))}) · click to pin"><rect class="bx" x="${lx}" y="${ly - 11}" width="${w - 4}" height="17" rx="8.5" fill="${c.bg2}" stroke="${P.f === s.r.id ? c.bright : c.faint}"/><circle cx="${lx + 9}" cy="${ly - 2.5}" r="4" fill="${Z.rootHex(s.r.id)}"/><text x="${lx + 17}" y="${ly + 1}" font-size="9.5">${esc(t)}</text></g>`; lx += w; return o; }).join('');
+      const Hh = ly + 16;
+      return { svg: Z.svg(W, Hh, g + lg, `Spread over time, ${P.m === 'score' ? 'ideas aligned with each tradition' : 'ideas descended from each root tradition'}`),
+        foot: `<b>How it is measured.</b> ${P.m === 'score' ? 'Each stream counts ideas scoring +3 or more on that tradition\u2019s axis, cumulatively by founding year.' : 'Each stream counts the root idea and every idea that descends from it through any chain of lineage lines, cumulatively by founding year.'} One idea can count in several streams, so the stack is not a count of distinct ideas. Streams only grow because ideas are dated by when they began. The time axis is stretched where ideas are dense: each of ${K.length - 1} spans (${K.map(q => Z.yr(q[0])).join(', ')}) gets a fixed share of the width. Hover a stream for its counts; click a stream or a chip to pin it.` }; } });
+})();
+
+/* ---------- TRADITION FLOWS: Sankey from root traditions to eras or to countries. Every idea is one unit, split equally among
+   the root traditions it descends from; for countries, each country listing of an idea (national.json lists, party alignments)
+   is one unit. ---------- */
+(() => { const Z = window.__viz;
+  const ERAS = [[-1e9, -1, 'Before AD 1'], [0, 499, 'AD 1\u2013499'], [500, 1499, '500\u20131499'], [1500, 1799, '1500\u20131799'], [1800, 1899, '1800s'], [1900, 1999, '1900s'], [2000, 1e9, '2000 on']];
+  const share = d => { const R = Z.rootOf[d.id] || []; return R.length ? R.map(r => [r, 1 / R.length]) : [['_none', 1]]; };
+  const countryUnits = () => { const out = [], names = {}, seen = new Set(), push = (cid, cname, id) => { if (!byId[id] || seen.has(cid + '|' + id)) return; seen.add(cid + '|' + id); names[cid] = cname; out.push([cid, id]); };
+    nationalCfg.countries.forEach(n => ['religion', 'philosophy'].forEach(k => (n[k] || []).forEach(e => e && push(n.id, n.name || n.id, e.idea))));
+    politicsCfg.countries.forEach(c => ideas.forEach(d => { const a = d[c.field]; if (a && c.parties[a.party]) push(c.id, c.name, d.id); }));
+    return { out, names }; };
+  Z.add('flows', { label: 'Tradition flows', title: 'Tradition flows: how much of each root tradition runs into each era or country', icon: '<path d="M3 6h4c5 0 5 12 10 12h4M3 18h4c5 0 5-12 10-12h4M3 12h18"/>',
+    keys: ['by'], defaults: () => ({ by: 'era' }), fix: P => { if (P.by !== 'country') P.by = 'era'; }, subject: P => P.by === 'country' ? 'by country' : 'by era',
+    note: P => P.by === 'country' ? 'Left: root traditions. Right: countries. Each idea a country lists (its living and historical religions and philosophies in national.json, plus ideas aligned with its parties) is one unit, split equally among the roots the idea descends from.' : 'Left: root traditions. Right: eras, by founding year. Each idea is one unit, split equally among the root traditions it descends from.',
+    controls: P => `<button type="button" data-set="by=era" aria-pressed="${P.by === 'era'}">By era</button><button type="button" data-set="by=country" aria-pressed="${P.by === 'country'}">By country</button>`,
+    links: k => k.startsWith('n:') ? [`[data-s="${k.slice(2)}"]`, `[data-t="${k.slice(2)}"]`] : [],
+    click: (P, k) => { if (k.startsWith('n:') && byId[k.slice(2)]) Z.open('family', { f: k.slice(2) }); },
+    render(P, W, H) { const c = Z.pal(), mob = W < 560, F = {}, add = (r, t, w) => { const q = r + '\u0001' + t; F[q] = (F[q] || 0) + w; };
+      let tg = [], tname = {};
+      if (P.by === 'era') { ERAS.forEach((e, i) => { tg.push('e' + i); tname['e' + i] = e[2]; }); ideas.forEach(d => { const i = ERAS.findIndex(e => d.year >= e[0] && d.year <= e[1]); share(d).forEach(([r, w]) => add(r, 'e' + i, w)); }); }
+      else { const { out, names } = countryUnits(); out.forEach(([cid, id]) => share(byId[id]).forEach(([r, w]) => add(r, 'c:' + cid, w))); Object.keys(names).forEach(k => { tg.push('c:' + k); tname['c:' + k] = names[k]; }); }
+      const fl = Object.entries(F).map(([q, w]) => { const [r, t] = q.split('\u0001'); return { r, t, w }; }), sum = (k, v) => fl.filter(f => f[k] === v).reduce((s, f) => s + f.w, 0);
+      const src = [...roots.map(r => r.id), '_none'].map(id => ({ id, w: sum('r', id) })).filter(s => s.w > 0).sort((a, b) => b.w - a.w), T = tg.map(id => ({ id, w: sum('t', id) })).filter(t => t.w > 0);
+      if (P.by === 'country') T.sort((a, b) => b.w - a.w);
+      const total = src.reduce((s, x) => s + x.w, 0), ch = Math.max(mob ? 520 : 420, Math.min(H - 70, 760)), GAP = 5, kS = (ch - GAP * (src.length - 1)) / total, kT = (ch - GAP * (T.length - 1)) / total, k = Math.min(kS, kT);
+      const LW = mob ? 96 : 170, RW = mob ? 96 : 140, x0 = LW, x1 = W - RW, NW = 10, T0 = 12;
+      const lay = (L, k2) => { const used = L.reduce((s, n) => s + n.w * k, 0) + GAP * (L.length - 1); let y = T0 + (ch - used) / 2; L.forEach(n => { n.y = y; n.h = Math.max(1, n.w * k); n.o = 0; y += n.h + GAP; }); };
+      lay(src); lay(T); const SI = Object.fromEntries(src.map(s => [s.id, s])), TI = Object.fromEntries(T.map(t => [t.id, t]));
+      const nm = id => id === '_none' ? 'No mapped root' : axLabel(byId[id].root_axis), col = id => id === '_none' ? c.dim : Z.rootHex(id);
+      let g = ''; const ord = fl.filter(f => SI[f.r] && TI[f.t]).sort((a, b) => src.indexOf(SI[a.r]) - src.indexOf(SI[b.r]) || T.indexOf(TI[a.t]) - T.indexOf(TI[b.t]));
+      const tOff = {}; T.forEach(t => tOff[t.id] = 0);
+      // target offsets follow source order so ribbons don't cross inside a node
+      const tStart = {}; src.forEach(s => ord.filter(f => f.r === s.id).forEach(f => { tStart[f.r + '|' + f.t] = tOff[f.t]; tOff[f.t] += f.w * k; }));
+      ord.forEach(f => { const s = SI[f.r], t = TI[f.t], h = f.w * k, ya = s.y + s.o, yb = t.y + tStart[f.r + '|' + f.t]; s.o += h; const xa = x0 + NW, xb = x1, m = (xb - xa) / 2;
+        g += `<path class="fx" data-s="${f.r}" data-t="${f.t}" data-k="f:${f.r}|${f.t}" d="M${xa},${ya} C${xa + m},${ya} ${xb - m},${yb} ${xb},${yb} L${xb},${yb + h} C${xb - m},${yb + h} ${xa + m},${ya + h} ${xa},${ya + h}Z" fill="${col(f.r)}" fill-opacity="${c.light ? 0.5 : 0.42}" data-tip="${esc(nm(f.r))} \u2192 ${esc(tname[f.t])}: ${f.w.toFixed(1)} idea${f.w === 1 ? '' : 's'} (${(100 * f.w / s.w).toFixed(0)}% of ${esc(nm(f.r))})"/>`; });
+      src.forEach(s => { g += `<g class="fx" data-k="n:${s.id}" data-s="${s.id}" tabindex="0" role="button" aria-label="${esc(nm(s.id))}: ${s.w.toFixed(1)} ideas" data-tip="${esc(nm(s.id))}: ${s.w.toFixed(1)} ideas in all${s.id === '_none' ? '' : ' · click for its family tree'}"><rect x="${x0}" y="${s.y}" width="${NW}" height="${s.h}" fill="${col(s.id)}"/>
+        ${s.h >= 7 ? `<text x="${x0 - 6}" y="${s.y + s.h / 2 + 3}" font-size="${mob ? 8.5 : 10}" text-anchor="end">${esc(Z.short(nm(s.id), mob ? 13 : 24))} <tspan class="dim">${Math.round(s.w)}</tspan></text>` : ''}</g>`; });
+      T.forEach(t => { g += `<g class="fx" data-k="n:${t.id}" data-t="${t.id}" tabindex="0" role="img" aria-label="${esc(tname[t.id])}: ${t.w.toFixed(1)} units" data-tip="${esc(tname[t.id])}: ${t.w.toFixed(1)} ${P.by === 'era' ? 'ideas founded' : 'country listings'}"><rect x="${x1}" y="${t.y}" width="${NW}" height="${t.h}" fill="${c.ink}" fill-opacity=".75"/>
+        ${t.h >= 7 ? `<text x="${x1 + NW + 6}" y="${t.y + t.h / 2 + 3}" font-size="${mob ? 8.5 : 10}">${esc(Z.short(tname[t.id], mob ? 9 : 22))} <tspan class="dim">${Math.round(t.w)}</tspan></text>` : ''}</g>`; });
+      const none = SI._none ? SI._none.w : 0;
+      return { svg: Z.svg(W, ch + T0 * 2, g, `Tradition flows ${P.by === 'era' ? 'by era' : 'by country'}`),
+        foot: `<b>How it is measured.</b> ${P.by === 'era' ? `Each of the ${ideas.length} ideas is one unit` : `Each country listing is one unit (${Math.round(total)} listings across ${T.length} countries; an idea listed by two countries counts once for each)`}, split equally among the root traditions it descends from through the lineage lines; a root idea counts for its own tradition, plus any older root it descends from. So an idea descended from Platonism and Christianity puts half a unit into each. ${none ? `${Math.round(none)} unit${Math.round(none) === 1 ? '' : 's'} come from ideas with no mapped root ancestor. ` : ''}Ribbon width is proportional to units. Hover a ribbon for its share; click a tradition for its family tree.` }; } });
+})();
 </script>
 </body>
 </html>
