@@ -35,7 +35,7 @@ Islam is NOT a root and no axis was added (proposal below).
 - romanticism → wicca: is Gardner's documented source Romanticism, or Margaret Murray/ceremonial magic (Golden Dawn), which aren't on the map?
 - mohism ← confucian_ethics: is "Mozi first studied Confucian teaching" (Huainanzi) solid enough?
 - shinto ← buddhas_dharma: Shinto isn't descended from Buddhism; is the 712 Kojiki framing (Buddhist/Chinese influence) a real handoff?
-- manichaeism: missing Zoroastrian and Buddhist sources (neither on map as such; Buddhism is)? Add buddhas_dharma → manichaeism?
+- manichaeism: missing Zoroastrian and Buddhist sources (neither on map as such; Buddhism is)? Add buddhas_dharma → manichaeism? **Resolved:** manichaeism now has buddhas_dharma and zoroastrianism parents (ancient Judaism branches PR).
 - scientific_racism ← enlightenment_liberalism: what's the documented handoff (Enlightenment classification, e.g. Linnaeus/Blumenbach)?
 - populism (1892) ← social_contract: People's Party link to social-contract thought is thin; better parent?
 - christian_fundamentalism ← methodism: main sources are Princeton theology and dispensationalism; is Methodism a real parent?
@@ -47,9 +47,9 @@ Islam is NOT a root and no axis was added (proposal below).
 ## Open questions
 1. **Islam's parents.** Islam is a monotheistic Abrahamic religion (Grokipedia), but the map has no Judaism idea and a christianity → islam edge would be a claim about descent that Muslims and many historians would frame differently. Options: add second_temple_judaism / rabbinic Judaism and link both, or leave Islam with no parents.
 2. **Islam as root (proposal only, not done).** Make islam the root of a new "islam" tradition axis (like christianity), so every idea gets an Islam rating; falsafa would stay the islamic_philosophy root. Cost: one rating + rationale per idea (145×), new validator check. Recommend yes if more Islamic ideas (Shia, Salafism, Islamism, orders) are coming.
-3. **second_temple_judaism as Christianity's parent:** needs a new idea (c. 515 BCE, Jerusalem). Christianity is currently a root; a parent would be allowed (roots can have parents) but Judaism would be a natural root too.
+3. **second_temple_judaism as Christianity's parent:** needs a new idea (c. 515 BCE, Jerusalem). Christianity is currently a root; a parent would be allowed (roots can have parents) but Judaism would be a natural root too. **Resolved:** second_temple_judaism, hellenistic_judaism and jewish_apocalypticism are now Christianity's parents.
 4. **Old Norse religion is now an orphan** (pagan, so it can't be a root). Its date (1270) is the manuscript date. Options: redate to the Viking Age and give it a Proto-Germanic/Indo-European parent (none on map), or leave it parentless.
-5. **epicureanism is an orphan** (not a root): add Democritus's atomism (c. 420 BCE) as a new idea, or leave it parentless.
+5. **epicureanism is an orphan** (not a root): add Democritus's atomism (c. 420 BCE) as a new idea, or leave it parentless. **Resolved:** atomism (from the Eleatics) is now epicureanism's parent.
 6. More Sufi orders (Qadiriyya, Naqshbandi, Chishti) — only Mevlevi was added.
 
 ## Renames: parentheticals dropped from names (28; ids unchanged)
