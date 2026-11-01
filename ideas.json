@@ -1238,6 +1238,13 @@
     "type": "influence",
     "src": "https://grokipedia.com/page/Jean_Bodin",
     "note": "Bodin's undivided sovereignty influenced later absolutists such as Hobbes."
+   },
+   "cartesian_dualism": {
+    "status": "documented",
+    "type": "reaction",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Thomas_Hobbes",
+    "note": "Hobbes's formal objections to Descartes' Meditations (1641) rejected Cartesian dualism in favor of strict materialism."
    }
   },
   "thrives_in": {
@@ -6055,7 +6062,9 @@
    "Dōgen"
   ],
   "parents": [
-   "madhyamaka"
+   "madhyamaka",
+   "daoist_way",
+   "yogacara"
   ],
   "plain": "Chan, called Zen in Japan, teaches that awakening comes through direct insight in meditation, not through study of texts.",
   "summary": "Chan (Zen) teaches awakening through meditation and direct insight rather than scripture.",
@@ -6144,6 +6153,22 @@
      "note": "Named in the Grokipedia article “Zen”."
     }
    ]
+  },
+  "edge_notes": {
+   "daoist_way": {
+    "status": "documented",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Zen",
+    "note": "Zen 'was influenced by Taoist philosophy, particularly in its focus on naturalness and non-effort'."
+   },
+   "yogacara": {
+    "status": "documented",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Zen",
+    "note": "Yogacara's doctrines of the storehouse consciousness (alayavijnana) and the transformation of mind influenced Chan's focus on innate enlightenment."
+   }
   }
  },
  {
@@ -15879,7 +15904,8 @@
   ],
   "parents": [
    "protestantism",
-   "scottish_common_sense_realism"
+   "scottish_common_sense_realism",
+   "calvinism"
   ],
   "plain": "Princeton theologians defended Reformed orthodoxy and the verbal inerrancy of the Bible, using Scottish Common Sense philosophy as their method.",
   "summary": "From 1812 to 1929, Princeton Seminary armed conservative Presbyterians with inerrancy and Common Sense apologetics, feeding fundamentalism.",
@@ -15895,6 +15921,13 @@
     "type": "method",
     "src": "https://grokipedia.com/page/Princeton_theology",
     "note": "Its apologetic method, Common Sense Realism, drew from Thomas Reid's Scottish philosophy."
+   },
+   "calvinism": {
+    "status": "direct",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Princeton_theology",
+    "note": "A conservative Reformed and Presbyterian tradition committed to biblical inerrancy and confessional Calvinism."
    }
   },
   "sources": [
@@ -16673,13 +16706,13 @@
   "id": "samkhya",
   "name": "Samkhya",
   "root": false,
-  "year": 350,
+  "year": -400,
   "year_approx": true,
   "place": "India",
   "lat": null,
   "lon": null,
   "origin_src": "https://grokipedia.com/page/Samkhya",
-  "origin_note": "Traced to the legendary sage Kapila and found in the Mahabharata (Epic period, c. 400 BCE onward); systematized in Ishvarakrishna's Samkhya-karika around the 4th century CE, the date used here",
+  "origin_note": "Traced to the legendary sage Kapila; the date used here is its emergence as a named system in the Epic period, in the Mahabharata's Mokshadharma passages (c. 400–200 BCE). Its classical text is Ishvarakrishna's Samkhya-karika (c. 4th century CE)",
   "thinkers": [
    "Kapila",
    "Ishvarakrishna",
@@ -18515,7 +18548,8 @@
   ],
   "parents": [
    "populism",
-   "thatcherism"
+   "thatcherism",
+   "nationalism"
   ],
   "plain": "British national populism: leave EU rules behind, cut immigration, restore national sovereignty.",
   "summary": "Farage's Brexit Party (2019) became Reform UK; it won 14.3% and five seats in July 2024 and pressed the Conservatives from the right.",
@@ -18596,6 +18630,13 @@
    ]
   },
   "edge_notes": {
+   "nationalism": {
+    "status": "documented",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Reform_UK",
+    "note": "Its foundational principles 'emphasize the restoration of British sovereignty, the preservation of national identity and cultural values'."
+   },
    "populism": {
     "status": "direct",
     "type": "descent",
@@ -22478,7 +22519,9 @@
    "Kenneth Waltz",
    "John Mearsheimer"
   ],
-  "parents": [],
+  "parents": [
+   "social_contract"
+  ],
   "plain": "A theory of world politics that says states look out for themselves in a world with no ruler above them. Survival needs power, alliances and a balance of power, more than ideals or international law.",
   "summary": "Carr and Morgenthau against interwar idealism: states seek power and security in anarchy; later Waltz's neorealism and Mearsheimer's offensive realism.",
   "ratings": {
@@ -22571,7 +22614,16 @@
    "Classical realism",
    "Realist school"
   ],
-  "parent_note": "No parent line drawn. Realists trace their roots to Thucydides and Machiavelli, who are not nodes, and to the \"war of all against all\" in Thomas Hobbes."
+  "parent_note": "Realists also trace their roots to Thucydides, who has no node here, and to Machiavelli's The Prince, which the Machiavellian republicanism node does not cover.",
+  "edge_notes": {
+   "social_contract": {
+    "status": "documented",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Realism_(international_relations)",
+    "note": "Hobbes's 'state of nature' in Leviathan (1651) laid 'groundwork for realism's emphasis on systemic insecurity' among states."
+   }
+  }
  },
  {
   "id": "latter_day_saint_movement",
