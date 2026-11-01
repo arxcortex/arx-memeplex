@@ -117,7 +117,7 @@ select option:checked,select option:hover,select option:focus{background:#f0b35a
 body.phone #phonenote{display:block;position:fixed;z-index:30;left:50%;top:76px;transform:translateX(-50%);width:min(360px,92vw);padding:12px 14px;border-radius:12px;text-align:center;font-family:var(--serif);font-size:16px;color:var(--ink)}
 body.phone #phonenote a{display:inline-block;margin-top:6px;font-family:var(--mono);font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--amber-bright)}
 body.phone #stage canvas{pointer-events:none}
-body.phone #tb button:not([data-k=search]):not([data-k=dice]):not([data-k=games]):not([data-k=tours]):not([data-k=snip]):not([data-k=politics]):not([data-k=hidepol]):not([data-k=lines]):not([data-k=theme]):not([data-k=impact]),body.phone #tb .sep,body.phone #legend{display:none!important}
+body.phone #tb button:not([data-k=search]):not([data-k=dice]):not([data-k=games]):not([data-k=tours]):not([data-k=snip]):not([data-k=politics]):not([data-k=hidepol]):not([data-k=lines]):not([data-k=theme]):not([data-k=impact]):not([data-k=menu]),body.phone #tb .sep,body.phone #legend{display:none!important}
 body.phone #panel{top:0;height:100%;height:100dvh;z-index:40}
 body.phone #tourbar{bottom:auto;top:50%;transform:translate(-50%,-50%);width:min(380px,92vw)}
 body.phone #tourbar .tc{font-size:18px}
@@ -381,12 +381,13 @@ body.phone #tb{flex-wrap:wrap!important;overflow:visible!important;justify-conte
       <li><b>Share card</b>: open an idea, or a comparison, and press Share card in its button row. It makes a tall 9:16 image for social media.</li>
       <li><b>Filter</b> isolates traditions: "Roots only" shows just the root ideas, and picking one or more traditions shows that root with every idea descended from it. "Branches" light up a whole family, such as All Christianity or Liberalism, and turn the camera toward it. You can combine branches and traditions.</li>
       <li><b>Stretch</b> pulls the map apart or squeezes it along each direction, so crowded spots open up. Use its sliders, or keys: <b>[</b> and <b>]</b> for abstract to material, <b>Shift + up/down arrows</b> to make time taller or shorter, <b>,</b> and <b>.</b> for front to back, <b>+</b> and <b>−</b> for everything, and <b>0</b> to undo it. Dots and labels keep their size.</li>
+      <li><b>Menu</b> (or the M key) holds everything that is not a map control: other views of the data (Family tree, Fingerprint and more), map shapes such as Helix or Choose your axes, the National view, tours, games, Random, Copy link, the key, and this help.</li>
       <li><b>Reset view</b> (or the R key) clears filters, closes any open idea, and brings you back to the full map.</li>
     </ul>
     <p>Press <b>?</b> or the "How to read this map" button to see this again.</p>
     <button class="go" type="button">Start exploring</button>
   </div></div>
-  <footer>Drag to turn · Scroll to zoom · Click an idea · Share card on its page · Filter by tradition · R to reset · ? for help</footer>
+  <footer>Drag to turn · Scroll to zoom · Click an idea · Share card on its page · M for the menu · R to reset · ? for help</footer>
 </div>
 <script src="assets/sharecard.js?v=20261030"></script>
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
@@ -722,10 +723,11 @@ function renderCompare(a, b) {
    <div class="cmp-key"><i style="background:var(--amber)"></i>${esc(a.name)} &nbsp; <i style="background:#e8e2d4"></i>${esc(b.name)}</div>
    <div class="k">Scores · biggest differences first</div>${ax.map(x => bar(x.label, ra[x.id] || 0, rb[x.id] || 0, x.plain)).join('')}
    <div class="k">Lineage</div><p class="muted">${rel}</p><div class="chips">${shared.map(k => `<button data-go="${k}">${esc(byId[k].name)}</button>`).join('')}</div>
-   <div class="tools"><button data-act="card">Share card</button><button data-go="${a.id}">Back to ${esc(a.name)}</button><button data-go="${b.id}">Open ${esc(b.name)}</button></div>`;
+   <div class="tools"><button data-act="card">Share card</button><button data-act="fprint" title="Overlay the two score shapes">Fingerprints</button><button data-go="${a.id}">Back to ${esc(a.name)}</button><button data-go="${b.id}">Open ${esc(b.name)}</button></div>`;
   panel.querySelector('.close').onclick = closePanel;
   panel.querySelectorAll('[data-go]').forEach(el => el.onclick = () => focusIdea(el.dataset.go));
   panel.querySelector('[data-act=card]').onclick = () => shareCompare(a.id, b.id);
+  panel.querySelector('[data-act=fprint]').onclick = () => { closePanel(); window.__viz.open('fingerprint', { f: a.id, g: b.id }); };
 }
 let compareFrom = null; const cmpbar = document.getElementById('cmpbar');
 function startCompare(id) { compareFrom = id; window.__cmpPick && __cmpPick.open(id); gsap.fromTo(cmpbar, { autoAlpha: 0, y: -8 }, { autoAlpha: 1, y: 0, duration: 0.4, ease: 'power2.out' }); }
@@ -768,7 +770,7 @@ function renderPanel(d) {
    <p class="plain">${esc(d.plain || d.summary)}</p>
    ${d.plain && d.summary ? `<p class="detail">${esc(d.summary)}</p>` : ''}
    ${window.__pol ? __pol.panelHtml(d) : ''}
-   <div class="tools"><button data-act="compare">Compare</button><button data-act="lineage">Trace lineage</button><button data-act="kin" title="Every ancestor and descendant, grouped by steps away">Ancestors &amp; descendants</button><button data-act="card" title="Make a 9:16 image for social media">Share card</button></div>
+   <div class="tools"><button data-act="compare">Compare</button><button data-act="lineage">Trace lineage</button><button data-act="kin" title="Every ancestor and descendant, grouped by steps away">Ancestors &amp; descendants</button><button data-act="ftree" title="Show the full family tree, one band per generation">Family tree</button><button data-act="fprint" title="Show the scores as a radar shape">Fingerprint</button><button data-act="card" title="Make a 9:16 image for social media">Share card</button></div>
    <div class="kt2"><div><div class="k">Key thinkers</div><div class="chips">${d.thinkers.map(t => { const u = thinkerUrl(t); return u ? `<a class="tlink" href="${esc(u)}" target="_blank" rel="noopener" title="${esc(t)} (opens in a new tab)">${esc(t)}</a>` : `<span>${esc(t)}</span>`; }).join('')}</div></div>
    <div><div class="k" title="${d.thrives_in && d.thrives_in.historical ? 'Where it flourished at its height' : 'Where it is strongest today'}">${d.thrives_in && d.thrives_in.historical ? 'Thrived in' : 'Thrives in'}</div><div class="chips">${thrivesList(d).map(x => `<a class="tlink" href="${esc(x.src)}" target="_blank" rel="noopener" title="${esc(x.note || '')}">${esc(x.place)}${x.period ? ` <span class="muted">(${esc(x.period)})</span>` : ''}</a>`).join('') || '<span class="muted">Not yet sourced</span>'}</div></div></div>
    <div class="k">Came from (parents)</div><div class="chips">${d.parents.map(chip).join('') || '<span class="muted">No earlier idea mapped</span>'}</div>
@@ -788,6 +790,8 @@ function renderPanel(d) {
   panel.querySelector('[data-act=compare]').onclick = () => startCompare(d.id);
   panel.querySelector('[data-act=lineage]').onclick = () => traceLineage(d.id);
   panel.querySelector('[data-act=kin]').onclick = () => renderKin(d);
+  panel.querySelector('[data-act=ftree]').onclick = () => { closePanel(); window.__viz.open('family', { f: d.id }); };
+  panel.querySelector('[data-act=fprint]').onclick = () => { closePanel(); window.__viz.open('fingerprint', { f: d.id }); };
   panel.querySelector('[data-act=card]').onclick = () => shareIdea(d.id);
   panel.querySelectorAll('[data-go]').forEach(b => b.onclick = () => focusIdea(b.dataset.go));
   panel.querySelectorAll('a.tlink').forEach(l => ['click', 'pointerdown', 'pointerup'].forEach(ev => l.addEventListener(ev, e => e.stopPropagation())));
@@ -846,6 +850,7 @@ function focusIdea(id) {
   if (compareFrom && compareFrom !== id) { const a = byId[compareFrom]; endCompare(); current = a.id; highlight(a.id);
     renderCompare(a, d); gsap.fromTo(panel.children, { autoAlpha: 0, y: 8 }, { autoAlpha: 1, y: 0, duration: reduce ? 0 : 0.4, stagger: 0.015 });
     gsap.to(panel.querySelectorAll('.fill'), { width: (i, el) => el.dataset.w + '%', duration: reduce ? 0 : 0.6, stagger: 0.02, delay: 0.2 }); return; }
+  if (window.__viz && __viz.onIdea(id)) return; // a chart view that follows one idea retargets instead of flying the map
   current = id;
   controls.autoRotate = false;
   const dir = camera.position.clone().sub(controls.target).normalize();
@@ -1060,6 +1065,7 @@ if (!seen) intro.call(openHelp, null, 2.2);
 const homeTarget = new THREE.Vector3(0, 0, 0);
 function resetView() {
   if (compareFrom) endCompare();
+  if (window.__viz) __viz.close();
   if (window.__views && __views.cur !== 'default') __views.set('default', { noCam: true });
   if (window.__stretch) __stretch.reset(false, true);
   clearFilter(); closePanel(); current = null; highlight(null); gsap.set(tip, { autoAlpha: 0 });
@@ -1461,7 +1467,8 @@ window.__memeplex = { cardIdea, cardCompare, shareIdea, shareCompare, focusIdea,
     const lay = k === 'politics' ? 'default' : k; // MODERN-POLITICS: a colour view on the default layout
     const from = Object.fromEntries(ideas.map(d => [d.id, d.pos.clone()])), to = target(lay), lift0 = lift, lift1 = lay === 'default' ? 1 : 0;
     const [c1, t1] = frame(lay), c0 = camera.position.clone(), t0 = controls.target.clone();
-    tl && tl.kill(); camTl && camTl.kill(); cur = k; decor(lay, instant ? 0 : dur * 0.6); sync(); window.__pol && __pol.toggle(k === 'politics');
+    if (window.__viz && __viz.cur && !__viz.skip) __viz.close(); // picking a map shape leaves any chart view
+  tl && tl.kill(); camTl && camTl.kill(); cur = k; decor(lay, instant ? 0 : dur * 0.6); sync(); window.__pol && __pol.toggle(k === 'politics'); window.__viz && __viz.syncMenu();
     gsap.to(lblLayer, { opacity: 0, duration: instant ? 0 : 0.25, overwrite: 'auto' });
     const p = { t: 0 }, step = () => { const e = p.t; ideas.forEach(d => d.pos.lerpVectors(from[d.id], to[d.id], e)); lift = lift0 + (lift1 - lift0) * e;
       if (!o.noCam) { controls.target.lerpVectors(t0, t1, e); camera.position.lerpVectors(c0, c1, e); } draw(); };
@@ -1906,11 +1913,11 @@ body.snipping #panel,body.snipping #tourbar{visibility:hidden!important}
     x.globalAlpha = 1; return out; }
   let shot = null, link = '', blob = null, url = null;
   async function build() {
-    const title = $m('.tt').checked ? (current && byId[current] ? byId[current].name : 'Memeplex') : '';
+    const title = $m('.tt').checked ? (window.__viz && __viz.cur ? __viz.title() : current && byId[current] ? byId[current].name : 'Memeplex') : '';
     if (typeof ArxShareCard.snip !== 'function') { msg('The share-card script is out of date in this browser. Reload with Ctrl+F5 (Cmd+Shift+R on Mac).'); throw new Error('sharecard.js lacks snip(): stale cached copy'); }
     blob = await ArxShareCard.snip({ image: shot, scale: 2 / (renderer.domElement.width / renderer.domElement.getBoundingClientRect().width), title, link });
     if (url) URL.revokeObjectURL(url); url = URL.createObjectURL(blob); $m('img').src = url; $m('.dl').href = url; }
-  async function capture(r) { await new Promise(r2 => requestAnimationFrame(() => r2())); shot = grab(r); link = CANON + '#' + linkState(); msg(''); md.style.display = 'grid'; await build(); $m('.dl').focus();
+  async function capture(r) { await new Promise(r2 => requestAnimationFrame(() => r2())); const cv = renderer.domElement; shot = window.__viz && __viz.cur ? await __viz.grab(r, cv.width / cv.getBoundingClientRect().width) : grab(r); link = CANON + '#' + linkState(); msg(''); md.style.display = 'grid'; await build(); $m('.dl').focus();
     window.__snipLast = { link, rect: r, meta: ArxShareCard.snip.last }; }
   $m('.tt').onchange = build;
   $m('.x').onclick = () => { md.style.display = 'none'; }; md.addEventListener('click', e => { if (e.target === md) md.style.display = 'none'; });
@@ -2048,7 +2055,7 @@ body.pol-on #legend{display:none!important}body.phone.panel-open #polkey{display
 /* ---------- Shareable links: view, filter and open idea live in the URL hash ---------- */
 (() => {
   const state = () => { const p = new URLSearchParams(), v = window.__views ? __views.cur : 'default';
-    if (v && v !== 'default') p.set('v', v); if (v === 'axes' && window.__axesView) { p.set('x', __axesView.x); p.set('y', __axesView.y); } if (v === 'politics' && window.__pol && __pol.country !== __pol.first) p.set('pc', __pol.country); if (v === 'politics' && window.__pol && __pol.sub !== 'politics') p.set('ns', __pol.sub); if (filt.dom) p.set('dom', filt.dom); if (filt.rootsOnly) p.set('roots', '1'); if (filt.hidePol) p.set('nopol', '1'); if (filt.noLines) p.set('nolines', '1'); if (filt.imp > 0) p.set('imp', String(filt.imp));
+    if (v && v !== 'default') p.set('v', v); if (window.__viz && __viz.cur) { p.set('v', __viz.cur); Object.entries(__viz.params()).forEach(([k, x]) => p.set(k, x)); } if (v === 'axes' && window.__axesView) { p.set('x', __axesView.x); p.set('y', __axesView.y); } if (v === 'politics' && window.__pol && __pol.country !== __pol.first) p.set('pc', __pol.country); if (v === 'politics' && window.__pol && __pol.sub !== 'politics') p.set('ns', __pol.sub); if (filt.dom) p.set('dom', filt.dom); if (filt.rootsOnly) p.set('roots', '1'); if (filt.hidePol) p.set('nopol', '1'); if (filt.noLines) p.set('nolines', '1'); if (filt.imp > 0) p.set('imp', String(filt.imp));
     if (filt.sel.size) p.set('sel', [...filt.sel].join(',')); if (current && byId[current]) p.set('i', current); if (document.body.classList.contains('uihidden')) p.set('ui', '0'); return p.toString(); };
   let last = null; const write = () => { const s = state(); if (s === last) return; last = s; history.replaceState(null, '', location.pathname + location.search + (s ? '#' + s : '')); };
   const h = new URLSearchParams(location.hash.slice(1)); window.__linkRestore = Object.fromEntries(h);
@@ -2060,7 +2067,7 @@ body.pol-on #legend{display:none!important}body.phone.panel-open #polkey{display
   const restoreCam = () => { const c = (h.get('cam') || '').split(',').map(Number); if (c.length !== 6 || c.some(n => !isFinite(n))) return;
     gsap.killTweensOf(camera.position); gsap.killTweensOf(controls.target); controls.autoRotate = false; camera.position.set(c[0], c[1], c[2]); controls.target.set(c[3], c[4], c[5]); controls.update(); window.__camRestored = true; };
   { const ax = h.get('ax'), s = document.getElementById('axis'); if (ax && [...s.options].some(o => o.value === ax)) { s.value = ax; s.dispatchEvent(new Event('change')); } }
-  const later = () => { const v = h.get('v') === 'national' ? 'politics' : h.get('v'); if (h.get('pc') && window.__pol) __pol.setCountry(h.get('pc'), true); if (h.get('ns') && window.__pol) __pol.setSub(h.get('ns')); if (v === 'axes' && window.__axesView) __axesView.choose(h.get('x'), h.get('y'), false); if (v && window.__views && __views.names[v] && v !== 'default') __views.set(v);
+  const later = () => { const v = h.get('v') === 'national' ? 'politics' : h.get('v'); if (h.get('pc') && window.__pol) __pol.setCountry(h.get('pc'), true); if (h.get('ns') && window.__pol) __pol.setSub(h.get('ns')); if (v === 'axes' && window.__axesView) __axesView.choose(h.get('x'), h.get('y'), false); if (v && window.__views && __views.names[v] && v !== 'default') __views.set(v); if (v && window.__viz && __viz.has(v)) __viz.open(v, Object.fromEntries(h));
     const i = h.get('i'), dly = v ? 2300 : 0; if (i && byId[i]) setTimeout(() => focusIdea(i), dly); if (h.has('cam')) setTimeout(restoreCam, dly + (i ? 1700 : 50)); last = null; setInterval(write, 400); };
   if (location.hash.length > 1) setTimeout(later, reduce ? 100 : 4300); else setInterval(write, 400);
   const toast = document.createElement('div'); toast.id = 'toast'; toast.className = 'gl'; document.body.appendChild(toast);
@@ -2145,6 +2152,220 @@ window.__cmpPick = (() => {
   const open = id => { from = id; inp.value = ''; sel = 0; render(); box.classList.add('open'); if (!matchMedia('(pointer:coarse)').matches) setTimeout(() => inp.focus(), 50); };
   const close = () => { box.classList.remove('open'); inp.blur(); };
   return { open, close, render, el: box };
+})();
+/* ---------- MENU + ANALYSIS VIEWS: a Menu button holds everything that is not a map control (view switching, tours, games,
+   link, key, help). Analysis views are flat SVG charts drawn over the map from the same data (ideas.json, axes.json ...).
+   Each view: share-link state (v=<view>&f=..&g=..), light/dark via the page's CSS colours, Snip & share renders its SVG. ---------- */
+window.__viz = (() => {
+  const $ = id => document.getElementById(id), tb = $('tb');
+  const css = document.createElement('style'); css.textContent = `
+#menu{position:fixed;z-index:62;right:24px;top:var(--mt,92px);width:356px;max-height:calc(100vh - var(--mt,92px) - 14px);overflow:auto;display:none;padding:12px 14px 14px!important;max-width:none!important;font-family:var(--mono)}
+#menu.open{display:block}
+#menu .mh{display:flex;align-items:center;justify-content:space-between;font-size:9px;letter-spacing:.2em;text-transform:uppercase;color:var(--amber)}
+#menu .mh button{all:unset;cursor:pointer;font-size:16px;line-height:1;padding:2px 6px;color:var(--ink-dim);border-radius:6px}#menu .mh button:focus-visible{outline:1px solid var(--amber)}
+#menu .mk{font-size:8.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-dim);margin:12px 0 6px;border-top:1px solid var(--glass-b);padding-top:9px}
+#menu .mg{display:grid;grid-template-columns:1fr 1fr;gap:4px}
+#menu .mg button,#menu #pViews .vbtn{all:unset;box-sizing:border-box;display:flex!important;align-items:center;gap:6px;min-height:30px;padding:6px 8px!important;border-radius:6px;border:1px solid var(--glass-b)!important;background:none!important;width:auto!important;font-family:var(--mono);font-size:9.5px;letter-spacing:.11em;text-transform:uppercase;color:var(--ink-dim);cursor:pointer;text-align:left;line-height:1.25}
+#menu .mg button svg{width:14px;height:14px;stroke:currentColor;fill:none;stroke-width:1.6;flex:none}
+#menu .mg button .t{display:inline!important}#menu .mg button .n{display:none}
+#menu button:hover,#menu .mg button:focus-visible,#menu #pViews .vbtn:focus-visible{color:var(--ink);outline:1px solid var(--amber)}
+#menu .mg button[aria-pressed=true],#menu #pViews .vbtn[aria-pressed=true]{color:var(--amber-bright);border-color:var(--amber)!important;background:rgba(184,115,51,.16)!important}
+#menu #pViews{display:block!important;position:static!important;padding:0!important;margin:0;background:none!important;border:0!important;box-shadow:none!important;backdrop-filter:none!important;-webkit-backdrop-filter:none!important;width:auto!important;max-width:none!important}
+#menu #pViews .ph{display:none}#menu #pViews .vbtn[data-v=default]{display:none!important}
+#menu .mg .wide{grid-column:1/-1}
+@media (max-width:760px){#menu{left:8px!important;right:8px;width:auto;top:auto;bottom:calc(8px + env(safe-area-inset-bottom))!important;max-height:74vh}}
+body.uihidden #menu,body.snipping #menu{display:none!important}
+#vz{position:absolute;inset:0;z-index:8;display:none;flex-direction:column;background:var(--bg);padding:var(--vzt,96px) 24px 12px;color:var(--ink);font-family:var(--mono)}
+body.vzon #vz{display:flex}
+body.vzon footer,body.vzon #axpick,body.vzon #polkey,body.vzon #legend,body.vzon #phonenote,body.vzon #tourbar{display:none!important}
+#vz .vh{display:flex;flex-wrap:wrap;align-items:flex-end;gap:8px 16px;margin-bottom:6px}
+#vz h2{font-family:var(--serif);font-weight:500;font-size:25px;line-height:1.05}
+#vz .vn{font-size:10.5px;color:var(--ink-dim);max-width:640px;line-height:1.5;margin-top:3px}
+#vz .vc{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-left:auto}
+#vz .vc label{display:flex;align-items:center;gap:5px;font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-dim)}
+#vz select{background:var(--bg-2);color:var(--ink);border:1px solid var(--glass-b);border-radius:6px;padding:4px 6px;font:inherit;font-size:11px;letter-spacing:0;text-transform:none;max-width:220px}
+#vz .vc button,#vz .vf button{all:unset;cursor:pointer;padding:5px 9px;border-radius:999px;border:1px solid var(--glass-b);font-size:9px;letter-spacing:.13em;text-transform:uppercase;color:var(--ink-dim)}
+#vz .vc button:hover,#vz .vc button:focus-visible,#vz .vf button:focus-visible{color:var(--ink);outline:1px solid var(--amber)}#vz .vc button[aria-pressed=true]{color:var(--amber-bright);border-color:var(--amber);background:rgba(184,115,51,.16)}
+#vz .vb{flex:1;overflow:auto;min-height:0;position:relative;overscroll-behavior:contain}
+#vz .vb svg{display:block;margin:0 auto;font-family:var(--mono)}
+#vz .vb [data-id],#vz .vb [data-k]{cursor:pointer}#vz .vb [tabindex]:focus{outline:none}#vz .vb [tabindex]:focus-visible .bx,#vz .vb [tabindex]:focus-visible circle{stroke:var(--amber-bright);stroke-width:2}
+#vz .vf{font-size:10.5px;color:var(--ink-dim);line-height:1.55;margin-top:6px;max-width:860px}#vz .vf b{color:var(--ink);font-weight:500}
+#vz .vf a{color:var(--amber-bright)}
+#vztip{position:fixed;z-index:63;pointer-events:none;display:none;padding:6px 9px;border-radius:7px;background:var(--bg-2);border:1px solid var(--glass-b);font-family:var(--mono);font-size:10.5px;color:var(--ink);max-width:280px;line-height:1.4;box-shadow:0 6px 20px rgba(0,0,0,.35)}
+@media (max-width:760px){#vz{padding:var(--vzt,120px) 8px 8px}#vz h2{font-size:20px}#vz .vn{font-size:10px}#vz .vc{margin-left:0}#vz select{max-width:46vw}}
+body.uihidden #vz{--vzt:14px!important}body.uihidden #vz .vc,body.uihidden #vz .vf{display:none}`;
+  document.head.appendChild(css);
+  /* ---- menu: move every non-map control out of the toolbar ---- */
+  const ico = p => `<svg viewBox="0 0 24 24" aria-hidden="true">${p}</svg>`;
+  const mb = document.createElement('button'); mb.type = 'button'; mb.id = 'menubtn'; mb.dataset.k = 'menu'; mb.title = 'Menu: views, charts, tours, games and help (M)'; mb.setAttribute('aria-label', mb.title);
+  mb.setAttribute('aria-haspopup', 'dialog'); mb.setAttribute('aria-expanded', 'false'); mb.setAttribute('aria-controls', 'menu');
+  mb.innerHTML = ico('<path d="M4 6h16M4 12h16M4 18h16"/>') + '<span class="t">Menu</span>'; tb.prepend(mb);
+  const menu = document.createElement('div'); menu.id = 'menu'; menu.className = 'gl'; menu.setAttribute('role', 'dialog'); menu.setAttribute('aria-label', 'Menu');
+  menu.innerHTML = `<div class="mh"><span>Menu</span><button type="button" class="mx" aria-label="Close menu">×</button></div>
+    <div class="mk">Views</div><div class="mg mvz"><button type="button" class="wide" data-vz="" aria-pressed="true">${ico('<circle cx="12" cy="12" r="2"/><circle cx="5" cy="7" r="1.4"/><circle cx="18" cy="6" r="1.4"/><circle cx="17" cy="18" r="1.4"/><path d="M6 8l5 3M13 11l4-4M13 13l3 4"/>')}<span class="t">Memeplex map</span></button></div>
+    <div class="mk">Map shapes</div><div class="mshape"></div>
+    <div class="mk">Explore &amp; share</div><div class="mg mmore"></div>
+    <div class="mk">Help</div><div class="mg mhelp"></div>`;
+  document.body.appendChild(menu);
+  const pv = $('pViews'); if (pv) menu.querySelector('.mshape').appendChild(pv); // alt shapes, Choose your axes, National (their own buttons and state)
+  const mv = (k, sel) => { const b = tb.querySelector(`button[data-k=${k}]`); if (b) menu.querySelector(sel).appendChild(b); return b; };
+  ['dice', 'tours', 'games', 'link', 'legend'].forEach(k => mv(k, '.mmore')); ['help', 'sym'].forEach(k => mv(k, '.mhelp'));
+  ['views', 'politics'].forEach(k => { const b = tb.querySelector(`button[data-k=${k}]`); b && b.remove(); }); // same entries are in Map shapes; their keys (V, P) still work
+  const mvz = menu.querySelector('.mvz');
+  const place = () => { const r = tb.getBoundingClientRect(); menu.style.setProperty('--mt', Math.round(r.bottom + 6) + 'px'); };
+  const items = () => [...menu.querySelectorAll('button')].filter(b => b.offsetParent !== null && !b.disabled);
+  let back = null;
+  const setMenu = open => { if (open === menu.classList.contains('open')) return; place(); menu.classList.toggle('open', open); mb.setAttribute('aria-expanded', String(open));
+    if (open) { back = document.activeElement; const f = menu.querySelector('.mvz [aria-pressed=true]') || items()[1]; setTimeout(() => f && f.focus({ preventScroll: true }), 20); }
+    else if (back && menu.contains(document.activeElement)) mb.focus({ preventScroll: true }); };
+  mb.onclick = () => setMenu(!menu.classList.contains('open')); menu.querySelector('.mx').onclick = () => setMenu(false);
+  menu.addEventListener('click', e => { const b = e.target.closest('button'); if (b && !b.classList.contains('mx') && !e.target.closest('summary')) setMenu(false); });
+  menu.addEventListener('keydown', e => { const L = items(), i = L.indexOf(document.activeElement);
+    if (e.key === 'Escape') { e.stopPropagation(); setMenu(false); mb.focus(); }
+    else if (e.key === 'ArrowDown' || e.key === 'ArrowRight') { e.preventDefault(); L[(i + 1) % L.length].focus(); }
+    else if (e.key === 'ArrowUp' || e.key === 'ArrowLeft') { e.preventDefault(); L[(i - 1 + L.length) % L.length].focus(); }
+    else if (e.key === 'Tab' && L.length) { if (e.shiftKey && i <= 0) { e.preventDefault(); L[L.length - 1].focus(); } else if (!e.shiftKey && i === L.length - 1) { e.preventDefault(); L[0].focus(); } } });
+  addEventListener('pointerdown', e => { if (menu.classList.contains('open') && !menu.contains(e.target) && !mb.contains(e.target)) setMenu(false); });
+  const typing = () => { const t = document.activeElement; return t && (/^(INPUT|TEXTAREA|SELECT)$/.test(t.tagName) || t.isContentEditable); };
+  addEventListener('keydown', e => { if (e.metaKey || e.ctrlKey || e.altKey || typing()) return;
+    if (e.key === 'm' || e.key === 'M') setMenu(!menu.classList.contains('open'));
+    else if (e.key === 'v' || e.key === 'V') { const p = $('pViews'); p && p.classList.remove('open'); setMenu(true); } });
+  addEventListener('resize', () => { if (menu.classList.contains('open')) place(); });
+
+  /* ---- analysis views ---- */
+  const vz = document.createElement('section'); vz.id = 'vz'; vz.setAttribute('aria-label', 'Chart view');
+  vz.innerHTML = '<div class="vh"><div><h2></h2><p class="vn"></p></div><div class="vc"></div></div><div class="vb" tabindex="-1"></div><div class="vf"></div>';
+  $('app').appendChild(vz);
+  const tip = document.createElement('div'); tip.id = 'vztip'; tip.setAttribute('role', 'tooltip'); document.body.appendChild(tip);
+  const V = {}, ORDER = []; let cur = null, P = {}, skip = false;
+  const cv = k => getComputedStyle(document.body).getPropertyValue(k).trim();
+  const pal = () => ({ bg: cv('--bg') || '#0a0a0c', bg2: cv('--bg-2') || '#111114', ink: cv('--ink') || '#e8e2d4', dim: cv('--ink-dim') || '#8a8478', faint: cv('--ink-faint') || '#4a463e',
+    amber: cv('--amber') || '#b87333', bright: cv('--amber-bright') || '#e89968', rule: cv('--rule') || '#4a2810', light: document.body.classList.contains('light') });
+  const rootOf = {}; roots.forEach(r => families[r.id].forEach(k => (rootOf[k] = rootOf[k] || []).push(r.id)));
+  const rootHex = id => '#' + byId[id].rootColor.getHexString();
+  const famCol = d => { const f = d._fam && byId[d._fam] && byId[d._fam].rootColor ? d._fam : (rootOf[d.id] || [])[0]; return f ? rootHex(f) : pal().dim; };
+  const yr = y => y < 0 ? -y + ' BC' : y === 0 ? 'AD 1' : String(y);
+  const short = (s, n) => s.length > n ? s.slice(0, n - 1) + '…' : s;
+  const ideaOpts = (sel, list = ideas, none) => (none ? `<option value="">${none}</option>` : '') + [...list].sort((a, b) => a.name.localeCompare(b.name)).map(d => `<option value="${d.id}"${d.id === sel ? ' selected' : ''}>${esc(d.name)}</option>`).join('');
+  const svg = (w, h, body, label) => { const c = pal();
+    return `<svg xmlns="http://www.w3.org/2000/svg" width="${Math.round(w)}" height="${Math.round(h)}" viewBox="0 0 ${Math.round(w)} ${Math.round(h)}" role="img" aria-label="${esc(label)}"><style>text{font-family:'JetBrains Mono',ui-monospace,Menlo,Consolas,monospace;fill:${c.ink}}.dim{fill:${c.dim}}.amb{fill:${c.bright}}.e{fill:none;transition:opacity .15s}svg.hov .e{opacity:.1}svg.hov .e.on{opacity:1}svg.hov .nd{opacity:.35}svg.hov .nd.on{opacity:1}.fx{transition:opacity .15s}svg.hov .fx{opacity:.16}svg.hov .fx.on{opacity:1}</style><rect width="100%" height="100%" fill="${c.bg}"/>${body}</svg>`; };
+  const add = (k, def) => { V[k] = def; ORDER.push(k); const b = document.createElement('button'); b.type = 'button'; b.dataset.vz = k; b.setAttribute('aria-pressed', 'false');
+    b.innerHTML = ico(def.icon) + `<span class="t">${def.label}</span>`; b.title = def.title || def.label; mvz.appendChild(b); };
+  mvz.addEventListener('click', e => { const b = e.target.closest('[data-vz]'); if (!b) return; if (b.dataset.vz) open(b.dataset.vz); else { close(); window.__views && __views.cur !== 'default' && __views.set('default'); } });
+  const syncMenu = () => mvz.querySelectorAll('[data-vz]').forEach(b => b.setAttribute('aria-pressed', String((b.dataset.vz || null) === cur && (cur || !window.__views || __views.cur === 'default'))));
+  const top = () => { if (document.body.classList.contains('uihidden')) return; const h = document.querySelector('header .brand'), r = tb.getBoundingClientRect(), b = h ? h.getBoundingClientRect().bottom : 0;
+    vz.style.setProperty('--vzt', Math.round(Math.max(r.bottom, b) + (isMobile() ? 6 : 10)) + 'px'); };
+  function open(k, params = {}) { if (!V[k]) return; tipHide();
+    if (window.__views && __views.cur !== 'default') { skip = true; __views.set('default', { instant: true }); skip = false; }
+    const D = V[k]; cur = k; P = { ...(D.defaults ? D.defaults() : {}) }; (D.keys || []).forEach(q => { if (params[q] != null && params[q] !== '') P[q] = String(params[q]); }); D.fix && D.fix(P);
+    document.body.classList.add('vzon'); vz.dataset.v = k; syncMenu(); top(); render(); vz.querySelector('.vb').scrollTop = 0; }
+  function close() { if (!cur) return; cur = null; tipHide(); document.body.classList.remove('vzon'); vz.querySelector('.vb').innerHTML = ''; syncMenu(); }
+  let rT = 0;
+  function render() { if (!cur) return; const D = V[cur], vb = vz.querySelector('.vb'), st = vb.scrollTop;
+    vz.querySelector('h2').textContent = D.label; vz.querySelector('.vn').innerHTML = D.note ? D.note(P) : '';
+    vz.querySelector('.vc').innerHTML = (D.controls ? D.controls(P) : '') + '<button type="button" data-act="map" title="Back to the Memeplex map">× Map</button>';
+    const W = Math.max(280, vb.clientWidth - 2), H = Math.max(240, vb.clientHeight - 4), out = D.render(P, W, H);
+    vb.innerHTML = out.svg; vz.querySelector('.vf').innerHTML = out.foot || ''; vb.scrollTop = st; out.after && out.after(vb);
+    vz.querySelectorAll('.vc select[data-p]').forEach(s => s.onchange = () => { P[s.dataset.p] = s.value; D.fix && D.fix(P); render(); });
+    vz.querySelectorAll('[data-set]').forEach(b => b.onclick = () => { const [q, v] = b.dataset.set.split('='); P[q] = v; D.fix && D.fix(P); render(); });
+    vz.querySelectorAll('[data-open]').forEach(b => b.onclick = () => page(b.dataset.open));
+    vz.querySelector('[data-act=map]').onclick = () => close();
+    wire(vb, D); }
+  // pointer + keyboard on chart items: [data-id] ideas, [data-k] other items; data-tip = tooltip text
+  function wire(vb, D) { const s = vb.querySelector('svg'); if (!s) return;
+    const hl = el => { s.classList.toggle('hov', !!el); s.querySelectorAll('.on').forEach(x => x.classList.remove('on')); if (!el) return; el.classList.add('on');
+      const key = el.dataset.id || el.dataset.k; (D.links ? D.links(key) : []).forEach(q => s.querySelectorAll(q).forEach(x => x.classList.add('on'))); };
+    s.addEventListener('pointerover', e => { const el = e.target.closest('[data-tip]'); if (!el) return; hl(el.closest('[data-id],[data-k]')); tipShow(el.dataset.tip, e); });
+    s.addEventListener('pointermove', e => { if (tip.style.display === 'block') tipMove(e); });
+    s.addEventListener('pointerout', e => { if (!e.relatedTarget || !s.contains(e.relatedTarget) || !e.relatedTarget.closest('[data-tip]')) { hl(null); tipHide(); } });
+    s.addEventListener('focusin', e => { const el = e.target.closest('[data-id],[data-k]'); if (!el) return; hl(el); const b = el.getBoundingClientRect(), t = el.dataset.tip || (el.querySelector('[data-tip]') || {}).dataset?.tip; if (t) tipShow(t, { clientX: b.left + b.width / 2, clientY: b.bottom + 4 }); });
+    s.addEventListener('focusout', () => { hl(null); tipHide(); });
+    s.addEventListener('click', e => { const el = e.target.closest('[data-id],[data-k]'); if (el && D.click) { tipHide(); D.click(P, el.dataset.id || el.dataset.k, el); } });
+    s.addEventListener('keydown', e => { if (e.key !== 'Enter' && e.key !== ' ') return; const el = e.target.closest('[data-id],[data-k]'); if (el && D.click) { e.preventDefault(); D.click(P, el.dataset.id || el.dataset.k, el); } }); }
+  function tipShow(t, e) { tip.textContent = t; tip.style.display = 'block'; tipMove(e); }
+  function tipMove(e) { const w = tip.offsetWidth, h = tip.offsetHeight; tip.style.left = Math.min(innerWidth - w - 6, Math.max(6, e.clientX + 12)) + 'px'; tip.style.top = Math.min(innerHeight - h - 6, e.clientY + 14) + 'px'; }
+  function tipHide() { tip.style.display = 'none'; }
+  const rerender = () => { clearTimeout(rT); rT = setTimeout(() => { if (cur) { top(); render(); } }, 120); };
+  addEventListener('resize', rerender);
+  let wasLight = document.body.classList.contains('light'), wasHid = false;
+  new MutationObserver(() => { const l = document.body.classList.contains('light'), h = document.body.classList.contains('uihidden'); if (l !== wasLight || h !== wasHid) { wasLight = l; wasHid = h; if (cur) { top(); render(); } } }).observe(document.body, { attributes: true, attributeFilter: ['class'] });
+  // an idea picked from search (or the map's panels) retargets views that follow one idea; Open page shows the usual idea panel
+  const onIdea = id => { if (skip || !cur || !V[cur].idea || !byId[id]) return false; V[cur].idea(P, id); render(); return true; };
+  const page = id => { if (!byId[id]) return; skip = true; try { focusIdea(id); } finally { skip = false; } };
+  // Snip & share: draw the visible chart (SVG rasterised) for the snipped rectangle, at the renderer's pixel ratio
+  async function grab(r, k) { const out = document.createElement('canvas'); out.width = Math.max(1, Math.round(r.w * k)); out.height = Math.max(1, Math.round(r.h * k));
+    const x = out.getContext('2d'), c = pal(); x.fillStyle = c.bg; x.fillRect(0, 0, out.width, out.height); const vb = vz.querySelector('.vb'), s = vb.querySelector('svg'); if (!s) return out;
+    const b = s.getBoundingClientRect(), clip = vb.getBoundingClientRect(), img = new Image(); img.src = 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(new XMLSerializer().serializeToString(s));
+    try { await img.decode(); } catch (e) { return out; }
+    x.save(); x.scale(k, k); x.translate(-r.x, -r.y); x.beginPath(); x.rect(clip.left, clip.top, clip.width, clip.height); x.clip(); x.drawImage(img, b.left, b.top, b.width, b.height); x.restore(); return out; }
+  const title = () => cur ? V[cur].label + (V[cur].subject ? ': ' + V[cur].subject(P) : '') : '';
+  const params = () => { if (!cur) return {}; const D = V[cur], d0 = D.defaults ? D.defaults() : {}, o = {}; (D.keys || []).forEach(q => { if (P[q] != null && P[q] !== '' && (P[q] !== d0[q] || D.keep && D.keep.includes(q))) o[q] = P[q]; }); return o; };
+  return { add, open, close, render, grab, title, params, onIdea, page, pal, svg, wire, rootOf, rootHex, famCol, yr, short, ideaOpts, ico, has: k => !!V[k], get cur() { return cur; }, get P() { return P; }, get skip() { return skip; }, list: () => ORDER.slice(), menu: setMenu, syncMenu };
+})();
+
+/* ---------- FAMILY TREE: one idea with every mapped ancestor above it and every descendant below, one band per generation
+   (steps away along the lineage lines, shortest path). Inside a band ideas sit near the ideas they connect to. ---------- */
+(() => { const Z = window.__viz;
+  const side = (d, key) => kinLevels(d, key);
+  Z.add('family', { label: 'Family tree', title: 'Family tree: one idea with all its ancestors above and descendants below', icon: '<path d="M12 3v5M12 8l-6 5M12 8l6 5M6 13v4M18 13v4M12 8v9"/><circle cx="12" cy="3" r="1.5"/><circle cx="6" cy="18" r="1.5"/><circle cx="12" cy="18" r="1.5"/><circle cx="18" cy="18" r="1.5"/>',
+    keys: ['f'], keep: ['f'], defaults: () => ({ f: current && byId[current] ? current : 'platonic_forms' }), fix: P => { if (!byId[P.f]) P.f = 'platonic_forms'; },
+    idea: (P, id) => { P.f = id; }, subject: P => byId[P.f].name,
+    note: P => { const d = byId[P.f]; return `${esc(d.name)} (${esc(fmtYear(d.year, d.year_approx))}). Ancestors sit above in copper, one band per generation; descendants sit below. Click an idea to center the tree on it.`; },
+    controls: P => `<label>Idea <select data-p="f" aria-label="Idea at the center of the tree">${Z.ideaOpts(P.f)}</select></label><button type="button" data-open="${P.f}">Open idea page</button>`,
+    links: k => [`.e[data-a="${k}"]`, `.e[data-b="${k}"]`],
+    click: (P, id) => { if (!byId[id] || id === P.f) return; P.f = id; Z.render(); const n = document.querySelector('#vz .nd.focus'); n && n.scrollIntoView({ block: 'center', inline: 'center' }); },
+    render(P, W) { const d = byId[P.f], c = Z.pal(), mob = W < 560, A = side(d, 'parents'), D = side(d, 'children');
+      const bands = [...A.map((l, i) => ({ l, g: -(i + 1) })).reverse(), { l: [d], g: 0 }, ...D.map((l, i) => ({ l, g: i + 1 }))];
+      const NW = mob ? 112 : 148, NH = 24, GX = 8, per = Math.max(1, Math.floor((W - 28) / (NW + GX))), X = {}; X[d.id] = 0.5;
+      // order each band by the mean position of its already-placed neighbours (parents for descendants, children for ancestors)
+      const orderBand = (b, key) => { b.l = [...b.l].map(x => { const n = (x[key] || []).filter(k => X[k] != null); return [x, n.length ? n.reduce((s, k) => s + X[k], 0) / n.length : 0.5]; })
+        .sort((p, q) => p[1] - q[1] || p[0].year - q[0].year || p[0].name.localeCompare(q[0].name)).map(p => p[0]); b.l.forEach((x, i) => X[x.id] = (i + 0.5) / b.l.length); };
+      const iz = bands.findIndex(b => b.g === 0); for (let i = iz + 1; i < bands.length; i++) orderBand(bands[i], 'parents'); for (let i = iz - 1; i >= 0; i--) orderBand(bands[i], 'children');
+      const pos = {}, set = new Set([d.id, ...A.flat().map(x => x.id), ...D.flat().map(x => x.id)]), up = new Set(A.flat().map(x => x.id)); let y = 18, out = '';
+      bands.forEach(b => { const lab = b.g === 0 ? 'This idea' : `${Math.abs(b.g)} generation${Math.abs(b.g) > 1 ? 's' : ''} ${b.g < 0 ? 'up' : 'down'} · ${b.l.length}`;
+        out += `<text x="14" y="${y + 9}" font-size="9" letter-spacing="1.4" class="${b.g ? 'dim' : 'amb'}">${esc(lab.toUpperCase())}</text>`; y += 18;
+        for (let i = 0; i < b.l.length; i += per) { const row = b.l.slice(i, i + per), w = row.length * NW + (row.length - 1) * GX, x0 = (W - w) / 2;
+          row.forEach((x, j) => pos[x.id] = [x0 + j * (NW + GX), y]); y += NH + 16; } y += 14; });
+      const H = y + 6; let edges = '';
+      ideas.forEach(ch => (ch.parents || []).forEach(pk => { if (!set.has(ch.id) || !set.has(pk)) return; const anc = up.has(pk) && (up.has(ch.id) || ch.id === d.id), dec = !up.has(pk) && !up.has(ch.id) && ch.id !== d.id;
+        if (!anc && !dec) return; const [x1, y1] = pos[pk], [x2, y2] = pos[ch.id], ax = x1 + NW / 2, ay = y1 + NH, bx = x2 + NW / 2, by = y2, m = Math.max(18, Math.abs(by - ay) / 2);
+        edges += `<path class="e" data-a="${pk}" data-b="${ch.id}" d="M${ax},${ay} C${ax},${ay + m} ${bx},${by - m} ${bx},${by}" stroke="${anc ? c.bright : c.ink}" stroke-opacity="${anc ? 0.55 : 0.38}" stroke-width="1.2"/>`; }));
+      let nodes = ''; Object.entries(pos).forEach(([k, [x, y0]]) => { const n = byId[k], f = k === d.id, a = up.has(k), ch = Math.floor((NW - 14) / 6.1);
+        nodes += `<g class="nd${f ? ' focus' : ''}" data-id="${k}" tabindex="0" role="button" aria-label="${esc(n.name)}, ${esc(fmtYear(n.year, n.year_approx))}" data-tip="${esc(n.name)} · ${esc(fmtYear(n.year, n.year_approx))}${f ? '' : ' · click to center'}">
+          <rect class="bx" x="${x}" y="${y0}" width="${NW}" height="${NH}" rx="${NH / 2}" fill="${f ? c.bright : c.bg2}" stroke="${f ? c.bright : a ? c.amber : c.faint}" stroke-width="1"/>
+          <circle cx="${x + 10}" cy="${y0 + NH / 2}" r="3.2" fill="${Z.famCol(n)}"/>
+          <text x="${x + 18}" y="${y0 + NH / 2 + 3.5}" font-size="10" ${f ? `style="fill:${c.bg}" font-weight="700"` : ''}>${esc(Z.short(n.name, ch - 1))}</text></g>`; });
+      return { svg: Z.svg(W, H, edges + nodes, `Family tree of ${d.name}`),
+        foot: `<b>${A.flat().length}</b> ancestors in ${A.length} generation${A.length === 1 ? '' : 's'} · <b>${D.flat().length}</b> descendants in ${D.length} generation${D.length === 1 ? '' : 's'}. A generation is the fewest lineage steps between two ideas, so an idea reached by a short and a long path sits in the nearer band. The dot is the color of the idea's root tradition.` }; } });
+})();
+
+/* ---------- FINGERPRINT: an idea's scores on every axis as a radar shape; pick a second idea to overlay ---------- */
+(() => { const Z = window.__viz;
+  Z.add('fingerprint', { label: 'Fingerprint', title: 'Fingerprint: an idea\'s axis scores as a radar shape, with an optional second idea', icon: '<path d="M12 3l8 6-3 10H7L4 9z"/><path d="M12 8l4 3-1.5 5h-5L8 11z"/>',
+    keys: ['f', 'g'], keep: ['f'], defaults: () => ({ f: current && byId[current] ? current : 'stoic_logos', g: '' }), fix: P => { if (!byId[P.f]) P.f = 'stoic_logos'; if (P.g && (!byId[P.g] || P.g === P.f)) P.g = ''; },
+    idea: (P, id) => { if (P.g === undefined || !P.g || id === P.f) P.f = id; else P.g = id; }, subject: P => byId[P.f].name + (P.g ? ' vs ' + byId[P.g].name : ''),
+    note: () => 'Each spoke is one axis. The center is −5 (opposes), the bold ring is 0 (no link), the rim is +5 (it is that tradition, or strongly aligned). Stances run −5 to +5 the same way.',
+    controls: P => `<label>Idea <select data-p="f" aria-label="Idea">${Z.ideaOpts(P.f)}</select></label><label>Compare <select data-p="g" aria-label="Second idea to overlay">${Z.ideaOpts(P.g, ideas, '— none —')}</select></label>${P.g ? '<button type="button" data-set="g=" title="Remove the second idea">Clear</button>' : ''}<button type="button" data-open="${P.f}">Open idea page</button>`,
+    links: k => [`[data-ax="${k}"]`],
+    render(P, W, H) { const c = Z.pal(), a = byId[P.f], b = P.g ? byId[P.g] : null, AX = b ? shownAxes(a, b) : shownAxes(a), n = AX.length, mob = W < 560;
+      const S = Math.max(300, Math.min(W, Math.max(H, 420), 760)), R = S / 2 - (mob ? 80 : 92), cx = W / 2, cy = S / 2 + 4, ang = i => -Math.PI / 2 + i * 2 * Math.PI / n, rad = v => R * (v + 5) / 10;
+      const pt = (i, v) => [cx + Math.cos(ang(i)) * rad(v), cy + Math.sin(ang(i)) * rad(v)], ra = a.ratings || {}, rb = b ? b.ratings || {} : {};
+      let g = '';
+      [-5, -2.5, 0, 2.5, 5].forEach(v => { if (v === -5) return; g += `<polygon points="${AX.map((_, i) => pt(i, v).join(',')).join(' ')}" fill="none" stroke="${v === 0 ? c.amber : c.faint}" stroke-width="${v === 0 ? 1.4 : 0.7}" stroke-opacity="${v === 0 ? 0.9 : 0.6}"/>`; });
+      AX.forEach((x, i) => { const [ex, ey] = pt(i, 5); g += `<line x1="${cx}" y1="${cy}" x2="${ex}" y2="${ey}" stroke="${c.faint}" stroke-width=".6"/>`; });
+      [[-5, '−5'], [0, '0'], [5, '+5']].forEach(([v, t]) => { const [x, y] = pt(0, v); g += `<text x="${x + 5}" y="${y - 3}" font-size="8.5" class="dim">${t}</text>`; });
+      const poly = (r, col, op, dash) => `<polygon points="${AX.map((x, i) => pt(i, r[x.id] || 0).join(',')).join(' ')}" fill="${col}" fill-opacity="${op}" stroke="${col}" stroke-width="2"${dash ? ' stroke-dasharray="5 3"' : ''} stroke-linejoin="round"/>`;
+      if (b) g += poly(rb, c.ink, 0.1, true); g += poly(ra, c.bright, 0.22);
+      AX.forEach((x, i) => { const va = ra[x.id] || 0, vb = rb[x.id] || 0, [px, py] = pt(i, va), [lx, ly] = pt(i, 5 + (mob ? 1.6 : 1.2)), co = Math.cos(ang(i)), anc = Math.abs(co) < 0.2 ? 'middle' : co > 0 ? 'start' : 'end';
+        const t = `${x.label}: ${a.name} ${va > 0 ? '+' + va : va}${b ? ` · ${b.name} ${vb > 0 ? '+' + vb : vb}` : ''}`;
+        if (b) { const [qx, qy] = pt(i, vb); g += `<circle cx="${qx}" cy="${qy}" r="3" fill="${c.ink}"/>`; }
+        g += `<g data-k="${x.id}" data-ax="${x.id}" tabindex="0" role="img" aria-label="${esc(t)}" data-tip="${esc(t)}"><circle cx="${px}" cy="${py}" r="3.6" fill="${c.bright}"/><circle cx="${px}" cy="${py}" r="11" fill="transparent"/>
+          <text x="${lx}" y="${ly + 3}" font-size="${mob ? 8 : 9.5}" text-anchor="${anc}" ${x.group === 'tradition' ? '' : 'font-style="italic" class="dim"'}>${esc(Z.short(x.label, mob ? 11 : 24))}</text></g>`; });
+      const key = `<g font-size="10"><rect x="14" y="12" width="14" height="4" fill="${c.bright}"/><text x="34" y="17">${esc(Z.short(a.name, 40))}</text>${b ? `<rect x="14" y="28" width="14" height="4" fill="${c.ink}"/><text x="34" y="33">${esc(Z.short(b.name, 40))}</text>` : ''}</g>`;
+      let foot = `Spokes: ${AX.filter(x => x.group === 'tradition').length} traditions, then stances and tone in italics${AX.length < axes.length ? '. Tone scores are not shown when a root idea is involved, as on the idea page' : ''}.`;
+      if (b) { const gap = Math.hypot(...A.map(k => (ra[k] || 0) - (rb[k] || 0))).toFixed(1), diff = AX.map(x => [x, (ra[x.id] || 0) - (rb[x.id] || 0)]).filter(q => q[1]).sort((p, q) => Math.abs(q[1]) - Math.abs(p[1])).slice(0, 4);
+        foot = `<b>Score gap ${gap}</b> (straight-line distance across all ${A.length} scores; 0 means identical). Biggest differences: ${diff.map(([x, v]) => `${esc(x.label)} ${(ra[x.id] || 0) > 0 ? '+' : ''}${ra[x.id] || 0} vs ${(rb[x.id] || 0) > 0 ? '+' : ''}${rb[x.id] || 0}`).join(' · ') || 'none'}. ` + foot; }
+      return { svg: Z.svg(W, S + 10, g + key, `Fingerprint of ${a.name}${b ? ' compared with ' + b.name : ''}`), foot }; } });
 })();
 </script>
 </body>

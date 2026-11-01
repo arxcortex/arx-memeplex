@@ -10,3 +10,14 @@ The toolbar has a **Snip** button (shortcut **S**). Press it and the cursor turn
 
 Test: `python3 t_snip.py` (desktop and phone). Screenshots: `snip-*-overlay.png`, `snip-*-card.png`, `snip-phone-restored.png`.
 `assets/brand/` is included only so the review page renders the marks; the live site already has it.
+
+# Menu and chart views
+
+The toolbar keeps only the controls that change the default map: **Menu**, Search, Color, Filter, Stretch, Snip, Hide politics, Light/Dark, the Impact slider, Lines, Hide UI and Reset. Everything else is in the **Menu** button (shortcut **M**; **V** opens it too): the chart views below, the map shapes (Helix, Tree of life, Choose your axes, National and the rest), Random, Tours, Games, Copy link, the map key, Help and About the symbols. The menu works with the keyboard (arrow keys, Tab, Esc returns focus to the button) and becomes a bottom sheet on phones. The page still opens on the default map.
+
+Chart views are flat SVG drawings over the map, computed in the page from the same data. Each one keeps its state in the link (`#v=<view>&f=…&g=…`), follows light and dark mode, and works with Snip & share (the visible part of the chart is rasterised into the card). Searching for an idea while a view that follows one idea is open retargets that view; **Open idea page** shows the usual panel. Older links (`v=axes&x=…&y=…`, `v=national&ns=…`, `ui=0`, `i=…`) work as before.
+
+- **Family tree** (`v=family&f=<id>`): the idea, every mapped ancestor above it and every descendant below, one band per generation. A generation is the fewest lineage steps between two ideas. Inside a band, ideas sit near the ideas they connect to. Click an idea to center the tree on it. Also on every idea page.
+- **Fingerprint** (`v=fingerprint&f=<id>&g=<id>`): the idea's scores as a radar shape. The center is −5, the bold ring 0, the rim +5. A second idea is drawn dashed on top, with the score gap and the biggest differences below. As on the idea page, tone scores are left out when a root idea is involved. Also on every idea page, and as Fingerprints on a comparison.
+
+Test: `python3 t_views.py` (desktop and phone). Screenshots: `views-*-menu.png`, `views-*-family*.png`, `views-*-fingerprint*.png`.
