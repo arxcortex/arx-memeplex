@@ -1539,7 +1539,7 @@
   {
    "id": "p51",
    "quiz": "politics",
-   "statement": "It's Paris, January 1793. You're a deputy in the National Convention, which has just found the former king, Louis XVI, guilty of treason. You'd vote for the death sentence.",
+   "statement": "It's Paris, January 1793. France has abolished its monarchy, and the National Convention has found the former king, Louis XVI, guilty of treason. The radical Montagnards want him put to death as proof that no one, not even a king, stands above the people. Many Girondins would rather imprison or banish him, or let the voters decide, because they fear an execution will bring civil war and foreign invasion. You're a deputy; you'd vote for the death sentence, which rules out any return of the monarchy.",
    "scale": "likert5",
    "weights": {
     "hierarchy": -3,
@@ -1560,7 +1560,7 @@
   {
    "id": "p52",
    "quiz": "politics",
-   "statement": "It's Tokyo, October 1946. You sit in Japan's Diet, voting on a new constitution whose Article 9 says the people 'forever renounce war as a sovereign right of the nation.' You'd vote yes.",
+   "statement": "It's Tokyo, October 1946. Japan has lost the Second World War and is under American-led occupation, and staff working for General Douglas MacArthur wrote most of the new constitution now before the Diet. Its Article 9 says the people 'forever renounce war as a sovereign right of the nation' and that Japan will never keep land, sea and air forces. Supporters see a guarantee against another militarist government; critics see a limit on the nation's right to arm itself, written by its occupiers. You sit in the Diet; you'd vote yes.",
    "scale": "likert5",
    "weights": {
     "nationalism": -2,
@@ -1583,7 +1583,7 @@
   {
    "id": "p53",
    "quiz": "politics",
-   "statement": "It's Beijing, summer 1898. The Guangxu Emperor is issuing edicts to remake China's schools and government on the model of Japan's Meiji reforms, including exams that put practical and Western knowledge ahead of memorizing the classics. You're an official; you'd back the reforms.",
+   "statement": "It's Beijing, summer 1898. After China's defeat by Japan, the young Guangxu Emperor, advised by the scholar Kang Youwei, is issuing edicts to remake China's schools, government and military on the model of Japan's Meiji reforms, including exams that put practical and Western knowledge ahead of memorizing the classics. Conservative officials around the Empress Dowager Cixi see the reforms as a threat to the established order and to their own posts. You're an official; you'd back the reforms, even though your career is at risk if the conservatives win.",
    "scale": "likert5",
    "weights": {
     "confucianism": -1,
@@ -1602,7 +1602,7 @@
   {
    "id": "p54",
    "quiz": "politics",
-   "statement": "It's Ankara, March 1924. You're a deputy in Turkey's Grand National Assembly, voting on whether to abolish the caliphate held by the Ottoman dynasty. You'd vote to abolish it.",
+   "statement": "It's Ankara, March 1924. Turkey has become a republic, the Ottoman sultan is gone, but an Ottoman prince, Abdulmejid II, still holds the caliphate, a religious office that claims leadership of Muslims worldwide. Mustafa Kemal and his supporters want a secular nation-state with no rival authority. Religious conservatives at home, and Muslims abroad such as India's Khilafat movement, want the caliphate kept. You're a deputy in Turkey's Grand National Assembly; you'd vote to abolish it and send the Ottoman family into exile.",
    "scale": "likert5",
    "weights": {
     "islam": -3,
@@ -1621,7 +1621,7 @@
   {
    "id": "p55",
    "quiz": "politics",
-   "statement": "It's London, 1846. You're a member of Parliament voting on whether to repeal the Corn Laws, the high tariffs that restricted imports of foreign grain and protected British landowners. You'd vote to repeal them.",
+   "statement": "It's London, 1846. The Corn Laws put high tariffs on imported grain, which kept bread expensive and protected the incomes of British landowners. The Anti-Corn Law League, led by manufacturers and free traders, wants them repealed so that food is cheaper and trade is free; many in Prime Minister Robert Peel's own Conservative Party, the party of the landowners, want them kept. With famine in Ireland, Peel has proposed repeal. You're a member of Parliament; you'd vote to repeal them, even if it splits the Conservatives.",
    "scale": "likert5",
    "weights": {
     "enlightenment_liberalism": 3,
@@ -1643,7 +1643,7 @@
   {
    "id": "p56",
    "quiz": "politics",
-   "statement": "It's Paris, March 1871. After France's defeat by Prussia, the city's National Guard has taken over Paris and scheduled elections for a revolutionary city council, the Commune. You live in Paris; you'd vote for the Commune's candidates.",
+   "statement": "It's Paris, March 1871. France has just lost its war with Prussia, and the new National Assembly, with a largely monarchist majority, has moved the national government to Versailles. When the army tried to take the cannons of the city's citizen militia, the National Guard, Parisians fought back and took over the city. The Guard has called elections for a city council, the Commune, whose radical candidates promise Paris self-rule, separation of church and state, and relief for workers and renters; Versailles calls it a rebellion. You live in Paris; you'd vote for the Commune's candidates, defying the national government, which can send the army back in.",
    "scale": "likert5",
    "weights": {
     "marxism": 3,
@@ -1663,7 +1663,7 @@
   {
    "id": "p57",
    "quiz": "politics",
-   "statement": "It's Petrograd, January 1918. Russia's freely elected Constituent Assembly has met, and the Bolsheviks won about a quarter of its seats. You'd back the Bolshevik government's move to dissolve it.",
+   "statement": "It's Petrograd, January 1918. The Bolsheviks seized power in the October Revolution, and Russia then held its first nationwide free election, for a Constituent Assembly to write a constitution. The Socialist Revolutionaries won the most seats, and the Bolsheviks about a quarter. Lenin argues that the councils of workers and soldiers, the soviets, now speak for the revolution and that this Assembly stands in its way. You'd back the Bolshevik government's move to dissolve it, ending Russia's first freely elected parliament.",
    "scale": "likert5",
    "weights": {
     "marxism": 2,
@@ -1686,7 +1686,7 @@
   {
    "id": "p58",
    "quiz": "politics",
-   "statement": "It's Frankfurt, 1848. You're a delegate to the first freely elected assembly for all of Germany, which aims to unite the many German states under one constitution. You'd vote for a single German nation-state.",
+   "statement": "It's Frankfurt, 1848. Revolutions have broken out across the German states, and voters have sent delegates to the first freely elected assembly for all of Germany. Liberals and nationalists want to unite the many separate kingdoms and principalities under one constitution with guaranteed rights; many of the reigning princes want to keep their own states and powers. You're a delegate; you'd vote for a single German nation-state, even though it asks those princes to give up much of their independence.",
    "scale": "likert5",
    "weights": {
     "nationalism": 3,
@@ -1705,7 +1705,7 @@
   {
    "id": "p59",
    "quiz": "politics",
-   "statement": "It's Vienna, late 1814. Napoleon has been defeated and exiled, and you're a diplomat redrawing Europe's map. You'd restore the old ruling dynasties rather than draw borders around peoples and languages.",
+   "statement": "It's Vienna, late 1814. Napoleon has been defeated and exiled, and diplomats led by Austria's Klemens von Metternich are redrawing Europe's map. One choice is to restore the ruling families that the French Revolution and Napoleon pushed aside and to balance the great powers against each other. The other is to draw borders around peoples who share a language and culture, as a growing number of nationalists want. You're a diplomat; you'd restore the old ruling dynasties, even though that leaves many peoples ruled by dynasties of another nation.",
    "scale": "likert5",
    "weights": {
     "nationalism": -2,
@@ -1724,7 +1724,7 @@
   {
    "id": "p60",
    "quiz": "politics",
-   "statement": "It's India, March 1930. Gandhi is leading a march to the sea at Dandi to make salt in open defiance of the British salt law. You'd join the march.",
+   "statement": "It's India, March 1930. Britain rules India, and British law gives the government a monopoly on salt and taxes it, so Indians may not even make salt from seawater. Gandhi is leading a march to the sea at Dandi to make salt in open, nonviolent defiance of that law, as a step toward Indian independence. You'd join the march, knowing that marchers risk arrest and police violence and are pledged not to strike back.",
    "scale": "likert5",
    "weights": {
     "nationalism": 2,
@@ -1743,7 +1743,7 @@
   {
    "id": "p61",
    "quiz": "politics",
-   "statement": "It's Iran, March 1979. The monarchy has fallen, and a referendum asks a single question: 'Islamic Republic: yes or no?' You'd vote yes.",
+   "statement": "It's Iran, March 1979. The Shah's monarchy has fallen, and the revolution's leader, Ayatollah Ruhollah Khomeini, backs a referendum with a single question: 'Islamic Republic: yes or no?' A yes vote founds the new state on Islam, as Khomeini wants. The liberal National Democratic Front and some leftist groups are boycotting the vote because the ballot offers no other choice, such as a secular republic. You'd vote yes.",
    "scale": "likert5",
    "weights": {
     "islam": 3,
@@ -1762,7 +1762,7 @@
   {
    "id": "p62",
    "quiz": "politics",
-   "statement": "It's northern Italy, January 1077. Pope Gregory VII and Emperor Henry IV are fighting over who has the right to appoint bishops. You'd side with the Pope.",
+   "statement": "It's northern Italy, January 1077. Pope Gregory VII and Emperor Henry IV are fighting over who has the right to appoint bishops. Henry claims the emperors' traditional right to choose the bishops in his lands; Gregory says the Church must be free of lay control, and has excommunicated Henry, while German princes threaten to depose him. Now Henry has crossed the snowbound Alps and stands barefoot outside the castle of Canossa, asking the Pope's forgiveness. You'd side with the Pope, putting the Church's authority above the emperor's.",
    "scale": "likert5",
    "weights": {
     "christianity": 2,
@@ -1782,7 +1782,7 @@
   {
    "id": "p63",
    "quiz": "politics",
-   "statement": "It's Judea, 167 BCE. King Antiochus IV has banned circumcision, the Sabbath and Torah study, and put an altar to Zeus in the Temple. The priest Mattathias calls for revolt. You'd join it.",
+   "statement": "It's Judea, 167 BCE. King Antiochus IV, the Greek-speaking Seleucid ruler, has banned circumcision, the Sabbath and Torah study, and put an altar to Zeus in the Temple. Some Jews favor adopting Greek ways, while traditionalists refuse to give up their law. The priest Mattathias calls for armed revolt against the king. You'd join it, risking your life against a far stronger army.",
    "scale": "likert5",
    "weights": {
     "judaism": 3,
@@ -1801,7 +1801,7 @@
   {
    "id": "p64",
    "quiz": "politics",
-   "statement": "It's India, around 260 BCE. You are the emperor Ashoka, and your conquest of Kalinga has cost over 100,000 lives. You'd give up further wars of conquest and rule by moral teaching instead.",
+   "statement": "It's India, around 260 BCE. You are the emperor Ashoka, ruler of the Maurya Empire, and your conquest of Kalinga has cost over 100,000 lives. War built your empire and could enlarge it further. You'd give up further wars of conquest and rule instead by dhamma, a moral code that teaches nonviolence and tolerance, accepting the limits that puts on your power.",
    "scale": "likert5",
    "weights": {
     "buddhism": 3,
@@ -1820,7 +1820,7 @@
   {
    "id": "p65",
    "quiz": "politics",
-   "statement": "It's China, 81 BCE. At a court debate, Confucian scholars attack the state's monopolies on salt and iron, while officials defend them as needed to fund the army. You'd side with the officials and keep the monopolies.",
+   "statement": "It's China, 81 BCE. Emperor Wu set up state monopolies on salt and iron to pay for defenses against the Xiongnu, nomads who raided China's frontiers. At a court debate, Confucian scholars say the monopolies burden ordinary people and that government should rest on moral example and farming, not state trade; officials led by Sang Hongyang say the revenue keeps the country safe. You'd side with the officials and keep the monopolies.",
    "scale": "likert5",
    "weights": {
     "confucianism": -2,
@@ -1838,7 +1838,7 @@
   {
    "id": "p66",
    "quiz": "politics",
-   "statement": "It's China, 136 BCE. Emperor Wu of Han is asking scholars for advice, and Dong Zhongshu urges him to dismiss officials trained only in non-Confucian teachings. You'd back the proposal.",
+   "statement": "It's China, 136 BCE. Emperor Wu of Han is asking scholars for advice. The court still employs men trained in rival schools of thought, including Legalism and Daoism, and the scholar Dong Zhongshu urges the emperor to dismiss officials trained only in non-Confucian teachings, making Confucianism the single standard for government. You'd back the proposal, even though it shuts the other schools out of public office.",
    "scale": "likert5",
    "weights": {
     "confucianism": 3,
@@ -1859,7 +1859,7 @@
   {
    "id": "p67",
    "quiz": "politics",
-   "statement": "It's Moscow, March 1921. After the civil war has left the economy in collapse, Lenin proposes allowing limited private trade and market incentives again. You're a party delegate; you'd vote for the plan.",
+   "statement": "It's Moscow, March 1921. Under War Communism the state seized grain from peasants and ran industry, and after years of civil war the economy has collapsed; even the sailors at Kronstadt, once Bolshevik supporters, have rebelled. Lenin proposes a New Economic Policy: a fixed tax in kind instead of grain seizures, with peasants free to sell their surplus and some private business allowed again. He calls it a temporary retreat from socialism. You're a party delegate; you'd vote for the plan.",
    "scale": "likert5",
    "weights": {
     "marxism": -1,
@@ -1881,7 +1881,7 @@
   {
    "id": "p68",
    "quiz": "politics",
-   "statement": "It's Nashville, March 1925. You're a Tennessee legislator voting on the Butler Act, which bans public school teachers from teaching that humans descended from lower animals. You'd vote yes.",
+   "statement": "It's Nashville, March 1925. Many Protestant fundamentalists believe that teaching evolution contradicts the Bible's account of creation and harms morals; critics say schools should teach the science and leave faith to churches and families. The Butler Act would make it a crime, punishable by a fine, for public school teachers to teach that humans descended from lower animals. You're a Tennessee legislator; you'd vote yes.",
    "scale": "likert5",
    "weights": {
     "darwinism": -3,
@@ -1902,7 +1902,7 @@
   {
    "id": "p69",
    "quiz": "politics",
-   "statement": "It's Paris, November 1793. Revolutionaries plan a Festival of Reason that will turn Notre-Dame Cathedral into a 'Temple of Reason.' You'd support the plan.",
+   "statement": "It's Paris, November 1793. Radical revolutionaries around Jacques Hébert are closing churches and want to replace Christianity with a civic worship of Reason, and they plan a Festival of Reason that will turn Notre-Dame Cathedral into a 'Temple of Reason.' Catholics see this as desecration, and some revolutionaries, such as Robespierre, think attacking religion goes too far. You'd support the plan.",
    "scale": "likert5",
    "weights": {
     "christianity": -3,
@@ -1921,7 +1921,7 @@
   {
    "id": "p70",
    "quiz": "politics",
-   "statement": "It's Athens, 424 BCE. You're a judge at a comedy festival, and one play openly mocks Cleon, a powerful politician then at the height of his influence. You'd give that play first prize.",
+   "statement": "It's Athens, 424 BCE. Cleon, the most powerful politician in the city, is a forceful war leader popular with ordinary voters, and two years ago he prosecuted the playwright Aristophanes over an earlier play. Now Aristophanes has written a comedy that openly mocks Cleon as a slave who flatters and lies to his master, the Athenian people, to control him. You're a judge at the city's comedy festival; you'd give that play first prize.",
    "scale": "likert5",
    "weights": {
     "humor": 3,
@@ -1940,7 +1940,7 @@
   {
    "id": "p71",
    "quiz": "politics",
-   "statement": "It's Russia, 1861. You're a noble landowner, and Tsar Alexander II has decreed the end of serfdom, freeing about 23 million peasants bound to the land. You'd support the decree.",
+   "statement": "It's Russia, 1861. Tsar Alexander II has decreed the end of serfdom, freeing about 23 million peasants who were bound to the land and owed unpaid work to its owners. Freed peasants get plots of land that they must pay for over many years, while landowners lose their unpaid labor and part of their land in return for government bonds, and many nobles have resisted the reform. You're a noble landowner; you'd support the decree.",
    "scale": "likert5",
    "weights": {
     "hierarchy": -3,
@@ -3242,7 +3242,7 @@
   {
    "id": "f51",
    "quiz": "philosophy",
-   "statement": "It's Athens, 399 BCE. You're one of about 500 jurors at the trial of Socrates, who is charged with impiety and corrupting the young. You'd vote to convict.",
+   "statement": "It's Athens, 399 BCE. The city has lost its long war with Sparta and lived through the brutal rule of the Thirty Tyrants, whose leader, Critias, was once a student of Socrates. Now three citizens accuse Socrates of impiety and corrupting the young; they see his constant public questioning of accepted beliefs as a danger, while he says it serves the city's moral health. You're one of about 500 jurors; you'd vote to convict, knowing the penalty may be death.",
    "scale": "likert5",
    "weights": {
     "platonism": -4,
@@ -3256,7 +3256,7 @@
   {
    "id": "f52",
    "quiz": "philosophy",
-   "statement": "It's Athens, 399 BCE. You are Socrates, condemned to death, and your friend Crito has arranged to bribe the guards so you can escape. You'd refuse, because you owe obedience to the city's laws.",
+   "statement": "It's Athens, 399 BCE. You are Socrates, condemned to death by a jury on charges you believe are unjust. Your friend Crito has arranged to bribe the guards and get you safely to Thessaly, where you could live in exile, and he says you owe it to your sons. You'd refuse and accept execution, because you owe obedience to the city's laws even when their verdict is wrong.",
    "scale": "likert5",
    "weights": {
     "platonism": 3,
@@ -3271,7 +3271,7 @@
   {
    "id": "f53",
    "quiz": "philosophy",
-   "statement": "It's Amsterdam, 1656. You belong to the city's Portuguese-Jewish community, whose leaders are banning the young Baruch Spinoza for what they call 'abominable heresies.' You'd support the ban.",
+   "statement": "It's Amsterdam, 1656. You belong to the city's Portuguese-Jewish community, whose families fled religious persecution in Portugal. The young Baruch Spinoza has been questioning core Jewish teachings, such as whether God is like a person, whether the soul is immortal, and whether the Law of Moses still binds. The community's leaders want to ban him for what they call 'abominable heresies,' cutting him off from the synagogue and the community for good. You'd support the ban.",
    "scale": "likert5",
    "weights": {
     "judaism": 2,
@@ -3285,7 +3285,7 @@
   {
    "id": "f54",
    "quiz": "philosophy",
-   "statement": "It's Rome, 1633. You sit on the Inquisition's panel at Galileo's trial for arguing that the Earth moves around the Sun. You'd require him to publicly take back his view.",
+   "statement": "It's Rome, 1633. In 1616 the Inquisition declared that the idea of the Earth moving around the Sun contradicts Scripture, and Galileo was warned not to teach it as fact. His new book, the Dialogue Concerning the Two Chief World Systems, appears to argue for it anyway. You sit on the Inquisition's panel at his trial; you'd require him to publicly take back his view, upholding the Church's authority over such questions.",
    "scale": "likert5",
    "weights": {
     "christianity": 2,
@@ -3300,7 +3300,7 @@
   {
    "id": "f55",
    "quiz": "philosophy",
-   "statement": "It's Oxford, June 1860. At a public debate on Darwin's new book, Bishop Samuel Wilberforce attacks the theory and Thomas Henry Huxley defends it. You'd side with Huxley.",
+   "statement": "It's Oxford, June 1860. Charles Darwin's new book argues that species change over long ages by natural selection rather than being created separately by God. At a public debate, Bishop Samuel Wilberforce attacks the theory and jokes about whether its defender, Thomas Henry Huxley, descends from an ape; Huxley replies that evidence matters more than eloquence. You'd side with Huxley.",
    "scale": "likert5",
    "weights": {
     "darwinism": 3,
@@ -3314,7 +3314,7 @@
   {
    "id": "f56",
    "quiz": "philosophy",
-   "statement": "It's the Islamic world, around 1100. The Persian scholar al-Ghazali writes that philosophers like Avicenna fall into unbelief on three points: that the world is eternal, that God knows only universals and not particulars, and that bodies are not resurrected. You'd side with al-Ghazali.",
+   "statement": "It's the Islamic world, around 1100. Muslim philosophers like Avicenna have built on Aristotle's reasoning, and some of their conclusions clash with Islamic teaching. The Persian scholar al-Ghazali writes that they fall into unbelief on three points: that the world is eternal, that God knows only universals and not particulars, and that bodies are not resurrected. Siding with him means that where philosophy's arguments conflict with revelation, revelation wins. You'd side with al-Ghazali.",
    "scale": "likert5",
    "weights": {
     "islam": 2,
@@ -3328,7 +3328,7 @@
   {
    "id": "f57",
    "quiz": "philosophy",
-   "statement": "It's Rome, around 144 CE. Marcion teaches that the God of the Hebrew Bible, who made the material world, is a lesser god than the Father revealed by Jesus. You're in the Roman church; you'd support expelling him.",
+   "statement": "It's Rome, around 144 CE. Marcion teaches that the God of the Hebrew Bible, who made the material world and gave the Law, is a lesser god than the merciful Father revealed by Jesus. He wants Christians to drop the Hebrew Bible and use only his edited Gospel, close to Luke, and ten letters of Paul; others in the church hold that the God of Israel and the Father of Jesus are one God. You're in the Roman church; you'd support expelling him.",
    "scale": "likert5",
    "weights": {
     "gnosticism": -3,
@@ -3343,7 +3343,7 @@
   {
    "id": "f58",
    "quiz": "philosophy",
-   "statement": "It's Florence, 1463. You're the scholar Marsilio Ficino, partway through translating Plato. Your patron Cosimo de' Medici asks you to stop and first translate newly found writings credited to Hermes Trismegistus. You'd put Plato aside.",
+   "statement": "It's Florence, 1463. You're the scholar Marsilio Ficino, partway through translating Plato. Your patron Cosimo de' Medici asks you to stop and first translate newly found writings credited to Hermes Trismegistus, an Egyptian sage then believed to have lived in the time of Moses, long before Plato. You'd put Plato aside for Hermes.",
    "scale": "likert5",
    "weights": {
     "hermeticism": 3,
@@ -3357,7 +3357,7 @@
   {
    "id": "f59",
    "quiz": "philosophy",
-   "statement": "It's London, 1614. The scholar Isaac Casaubon shows that the writings credited to the ancient Egyptian sage Hermes Trismegistus were really written in the Christian era. You'd accept his finding.",
+   "statement": "It's London, 1614. For over a century, scholars have prized the writings credited to the Egyptian sage Hermes Trismegistus as wisdom older than Plato and Moses. The scholar Isaac Casaubon now shows, from their language and ideas, that they were really written in the Christian era. Accepting his finding means those writings lose their claim to ancient authority. You'd accept it.",
    "scale": "likert5",
    "weights": {
     "hermeticism": -3,
@@ -3371,7 +3371,7 @@
   {
    "id": "f60",
    "quiz": "philosophy",
-   "statement": "It's Dijon, France, 1749. A local academy announces an essay contest on the question: 'Has the restoration of the sciences and arts tended to purify morals?' You'd answer no.",
+   "statement": "It's Dijon, France, 1749. A local academy announces an essay contest on the question: 'Has the restoration of the sciences and arts tended to purify morals?' The confident view of the age is that learning and refinement make people better. Answering no means arguing that progress in the arts and sciences has instead bred luxury, inequality and vanity, and weakened virtue. You'd answer no.",
    "scale": "likert5",
    "weights": {
     "romanticism": 3,
@@ -3386,7 +3386,7 @@
   {
    "id": "f61",
    "quiz": "philosophy",
-   "statement": "It's ancient China. You are the thinker Zhuangzi, and the king of Chu sends officials to offer you a high ministerial post. You'd accept the post.",
+   "statement": "It's ancient China. You are the thinker Zhuangzi, and the king of Chu sends officials to offer you a high ministerial post. Taking it brings rank, wealth and a hand in governing a state; turning it down keeps your freedom to live as you please, outside the duties and dangers of court. You'd accept the post.",
    "scale": "likert5",
    "weights": {
     "daoism": -3,
@@ -3401,7 +3401,7 @@
   {
    "id": "f62",
    "quiz": "philosophy",
-   "statement": "It's Kapilavastu, ancient India. You are Prince Siddhartha, 29 years old, with a wife and a newborn son. You'd leave the palace and your family to seek an end to suffering.",
+   "statement": "It's Kapilavastu, ancient India. You are Prince Siddhartha, 29 years old, raised in luxury, with a wife, Yashodhara, and a newborn son, Rahula. Outside the palace you have seen old age, sickness and death, and a wandering ascetic seeking release from them. You'd leave the palace and your family to become a wandering ascetic and seek an end to suffering.",
    "scale": "likert5",
    "weights": {
     "buddhism": 3,
@@ -3415,7 +3415,7 @@
   {
    "id": "f63",
    "quiz": "philosophy",
-   "statement": "It's Paris, 1277. The bishop has condemned 219 teachings drawn from Aristotle and his Arab commentators, including that the world is eternal. You teach at the university; you'd accept the condemnation.",
+   "statement": "It's Paris, 1277. The bishop has condemned 219 teachings drawn from Aristotle and his Arab commentators, including that the world is eternal, because they seem to contradict Christian faith. Anyone who teaches or defends them is automatically excommunicated. You teach at the university; you'd accept the condemnation and stop teaching those ideas.",
    "scale": "likert5",
    "weights": {
     "aristotelianism": -2,
@@ -3430,7 +3430,7 @@
   {
    "id": "f64",
    "quiz": "philosophy",
-   "statement": "It's Languedoc, southern France, around 1200. Cathar teachers say the material world was made by an evil power and the soul must be freed from it. You'd become one of their followers.",
+   "statement": "It's Languedoc, southern France, around 1200. Cathar teachers say the material world was made by an evil power and the soul must be freed from it; their most devoted members vow celibacy and give up meat, and they reject the Catholic Church's sacraments and clergy. The Church condemns them as heretics. You'd become one of their followers, breaking with the Church.",
    "scale": "likert5",
    "weights": {
     "gnosticism": 3,
@@ -3444,7 +3444,7 @@
   {
    "id": "f65",
    "quiz": "philosophy",
-   "statement": "It's Athens. Plato has defined a human being as a 'featherless biped,' and Diogenes walks into Plato's school with a plucked chicken, announcing, 'Here is Plato's man.' You'd laugh along with Diogenes.",
+   "statement": "It's Athens. Plato has defined a human being as a 'featherless biped,' and Diogenes the Cynic, who mocks lofty theories and polite manners alike, walks into Plato's school with a plucked chicken, announcing, 'Here is Plato's man.' Laughing means siding with the prankster against the philosopher's abstract definition. You'd laugh along with Diogenes.",
    "scale": "likert5",
    "weights": {
     "humor": 3,
@@ -3459,7 +3459,7 @@
   {
    "id": "f66",
    "quiz": "philosophy",
-   "statement": "It's Baghdad, early in the 800s. Caliph al-Ma'mun is paying scholars to translate Aristotle, Plato and other Greek thinkers into Arabic. You're an adviser; you'd urge him to spend even more on it.",
+   "statement": "It's Baghdad, early in the 800s. Caliph al-Ma'mun is paying scholars to translate Aristotle, Plato and other Greek thinkers, along with Greek works on medicine, astronomy and mathematics, into Arabic. Spending more would put still more of the treasury into learning from non-Muslim foreigners, in the hope that Greek reasoning will strengthen science and Muslim thought. You're an adviser; you'd urge him to spend even more on it.",
    "scale": "likert5",
    "weights": {
     "aristotelianism": 1,
@@ -3473,7 +3473,7 @@
   {
    "id": "f67",
    "quiz": "philosophy",
-   "statement": "It's Jerusalem, around 49 CE. Early Christian leaders are deciding whether non-Jewish converts must be circumcised and keep the whole Law of Moses. You'd vote that they need not.",
+   "statement": "It's Jerusalem, around 49 CE. The first Christians were Jews, but many non-Jews are now joining. Some believers from the Pharisees say these converts must be circumcised and keep the whole Law of Moses; Paul and Barnabas, who preach to non-Jews, say they need not. Early Christian leaders are meeting to decide. You'd vote that they need not, opening the faith wider to non-Jews while loosening its tie to Jewish law.",
    "scale": "likert5",
    "weights": {
     "judaism": -2,
@@ -3487,7 +3487,7 @@
   {
    "id": "f68",
    "quiz": "philosophy",
-   "statement": "It's Prussia, 1784. A Berlin journal asks, 'What is Enlightenment?' You'd answer that it means having the courage to use your own reason without anyone else's guidance.",
+   "statement": "It's Prussia, 1784. The king allows open debate but expects obedience, and many hold that ordinary people should be guided by clergy, rulers and tradition. A Berlin journal asks, 'What is Enlightenment?' You'd answer that it means having the courage to use your own reason without anyone else's guidance.",
    "scale": "likert5",
    "weights": {
     "enlightenment_liberalism": 3,
@@ -3502,7 +3502,7 @@
   {
    "id": "f69",
    "quiz": "philosophy",
-   "statement": "It's Britain, 1763. The late Bishop George Berkeley argued that physical things exist only by being perceived by minds. Samuel Johnson kicks a stone and declares, 'I refute it thus.' You'd agree with Johnson.",
+   "statement": "It's Britain, 1763. The late Bishop George Berkeley argued that physical things exist only by being perceived, by people or by God, so there is no matter apart from minds. Samuel Johnson kicks a stone and declares, 'I refute it thus.' Agreeing with Johnson means trusting common sense that the world is there whether or not anyone perceives it. You'd agree with Johnson.",
    "scale": "likert5",
    "weights": {
     "abstraction": -3,
@@ -3544,14 +3544,14 @@
   {
    "id": "f72",
    "quiz": "philosophy",
-   "statement": "Untouched wild nature is a source of spiritual renewal.",
+   "statement": "Evolution is real, and it is compatible with belief in God.",
    "scale": "likert5",
    "weights": {
-    "romanticism": 3,
-    "daoism": 2
+    "darwinism": 2,
+    "christianity": 2
    },
-   "source": "https://grokipedia.com/page/Wilderness",
-   "why": "Romantic poets and Daoists both found the sacred in wild nature.",
+   "source": "https://grokipedia.com/page/Theistic_evolution",
+   "why": "Theistic evolution holds that God created life, humans included, through evolution; it accepts common descent while keeping faith in a creator.",
    "extra_sources": []
   },
   {
@@ -3738,15 +3738,18 @@
   {
    "id": "f86",
    "quiz": "philosophy",
-   "statement": "Ideas like high and low, or beautiful and ugly, only make sense in relation to each other.",
+   "statement": "The complexity of living things is evidence that they were designed by an intelligence.",
    "scale": "likert5",
    "weights": {
-    "daoism": 4,
-    "platonism": -2
+    "darwinism": -3,
+    "aristotelianism": 1,
+    "christianity": 1
    },
-   "source": "https://grokipedia.com/page/Yin_and_yang",
-   "why": "Chinese thought, Daoism above all, treats opposites as complementary and interdependent.",
-   "extra_sources": []
+   "source": "https://grokipedia.com/page/Intelligent_design",
+   "why": "Intelligent design and the older argument from design, found in Aristotle and Aquinas's Fifth Way, infer a designer from nature's order; the christianity +1 is a stance reading.",
+   "extra_sources": [
+    "https://grokipedia.com/page/Teleological_argument"
+   ]
   },
   {
    "id": "f87",
@@ -3778,14 +3781,14 @@
   {
    "id": "f89",
    "quiz": "philosophy",
-   "statement": "Pain and loss are truly bad, not just bad because of how we judge them.",
+   "statement": "Evolution happened, but God guided it so that it would produce human beings.",
    "scale": "likert5",
    "weights": {
-    "stoicism": -3,
-    "aristotelianism": 1
+    "christianity": 2,
+    "darwinism": -1
    },
-   "source": "https://grokipedia.com/page/Apatheia",
-   "why": "Stoics held that only vice is evil and that pain disturbs us through judgment.",
+   "source": "https://grokipedia.com/page/Theistic_evolution",
+   "why": "Guided evolution accepts common descent but rejects the Darwinian view that the process is undirected; some theistic evolutionists hold it.",
    "extra_sources": []
   },
   {
@@ -3857,15 +3860,15 @@
   {
    "id": "f95",
    "quiz": "philosophy",
-   "statement": "Human beings are different in kind from all other animals, not just in degree.",
+   "statement": "God created the Earth and every kind of living thing in six days, only thousands of years ago.",
    "scale": "likert5",
    "weights": {
-    "darwinism": -3,
+    "darwinism": -4,
     "christianity": 2,
-    "aristotelianism": 1
+    "enlightenment_liberalism": -1
    },
-   "source": "https://grokipedia.com/page/Human_nature",
-   "why": "Christian and Aristotelian thought set humans apart by soul or reason; Darwinism stresses continuity with other animals.",
+   "source": "https://grokipedia.com/page/Young_Earth_creationism",
+   "why": "Young-earth creationism reads Genesis literally and rejects evolution and an ancient Earth; the liberalism -1 is a stance reading against scientific consensus.",
    "extra_sources": []
   },
   {
@@ -4058,23 +4061,23 @@
   "philosophy": {
    "platonism": {
     "pos": 11,
-    "neg": 15,
-    "net": -2
+    "neg": 14,
+    "net": 0
    },
    "aristotelianism": {
-    "pos": 15,
+    "pos": 14,
     "neg": 8,
-    "net": 10
+    "net": 9
    },
    "stoicism": {
     "pos": 6,
-    "neg": 7,
-    "net": 0
+    "neg": 6,
+    "net": 3
    },
    "christianity": {
-    "pos": 15,
+    "pos": 18,
     "neg": 17,
-    "net": -4
+    "net": 1
    },
    "gnosticism": {
     "pos": 5,
@@ -4088,8 +4091,8 @@
    },
    "enlightenment_liberalism": {
     "pos": 13,
-    "neg": 9,
-    "net": 5
+    "neg": 10,
+    "net": 4
    },
    "marxism": {
     "pos": 4,
@@ -4097,9 +4100,9 @@
     "net": 5
    },
    "darwinism": {
-    "pos": 10,
-    "neg": 8,
-    "net": 2
+    "pos": 11,
+    "neg": 10,
+    "net": -1
    },
    "nietzsche": {
     "pos": 9,
@@ -4117,9 +4120,9 @@
     "net": 4
    },
    "daoism": {
-    "pos": 6,
+    "pos": 4,
     "neg": 4,
-    "net": 6
+    "net": 0
    },
    "buddhism": {
     "pos": 5,
@@ -4142,9 +4145,9 @@
     "net": -1
    },
    "romanticism": {
-    "pos": 4,
+    "pos": 3,
     "neg": 2,
-    "net": 6
+    "net": 3
    },
    "nationalism": {
     "pos": 1,
@@ -4292,23 +4295,23 @@
   "all": {
    "platonism": {
     "pos": 15,
-    "neg": 20,
-    "net": -4
+    "neg": 19,
+    "net": -2
    },
    "aristotelianism": {
-    "pos": 18,
+    "pos": 17,
     "neg": 10,
-    "net": 14
+    "net": 13
    },
    "stoicism": {
     "pos": 11,
-    "neg": 10,
-    "net": 8
+    "neg": 9,
+    "net": 11
    },
    "christianity": {
-    "pos": 27,
+    "pos": 30,
     "neg": 25,
-    "net": 0
+    "net": 5
    },
    "gnosticism": {
     "pos": 6,
@@ -4322,8 +4325,8 @@
    },
    "enlightenment_liberalism": {
     "pos": 45,
-    "neg": 39,
-    "net": 6
+    "neg": 40,
+    "net": 5
    },
    "marxism": {
     "pos": 20,
@@ -4331,9 +4334,9 @@
     "net": 16
    },
    "darwinism": {
-    "pos": 13,
-    "neg": 12,
-    "net": 0
+    "pos": 14,
+    "neg": 14,
+    "net": -3
    },
    "nietzsche": {
     "pos": 13,
@@ -4351,9 +4354,9 @@
     "net": 8
    },
    "daoism": {
-    "pos": 11,
+    "pos": 9,
     "neg": 7,
-    "net": 9
+    "net": 3
    },
    "buddhism": {
     "pos": 9,
@@ -4376,9 +4379,9 @@
     "net": 5
    },
    "romanticism": {
-    "pos": 8,
+    "pos": 7,
     "neg": 4,
-    "net": 11
+    "net": 8
    },
    "nationalism": {
     "pos": 9,
