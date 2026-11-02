@@ -15530,8 +15530,8 @@
    "platonism": "Grokipedia's Ceremonial magic page cites Neoplatonist elements.",
    "aristotelianism": "No real link to Aristotelianism.",
    "stoicism": "No real link to Stoicism.",
-   "christianity": "Uses Christian and Kabbalistic symbols without orthodox belief; judgment.",
-   "gnosticism": "Seeks inner illumination by secret knowledge; loose, judgment.",
+   "christianity": "Draws on Judeo-Christian lore, such as John Dee's Enochian angel system taken from the Book of Enoch (Grokipedia, Ceremonial magic).",
+   "gnosticism": "Seeks 'personal gnosis' and union with the divine; Thelema even has a rite called the Gnostic Mass (Grokipedia, Ceremonial magic).",
    "hermeticism": "The Order named itself Hermetic; Grokipedia's Ceremonial magic page traces the practice through Neoplatonism and Hermeticism.",
    "enlightenment_liberalism": "No real link to Enlightenment liberalism.",
    "marxism": "No real link to Marxism.",
@@ -15548,7 +15548,7 @@
    "nationalism": "No real link to Nationalism.",
    "humor": "Solemn ritual.",
    "irony": "Practiced sincerely.",
-   "abstraction": "Built on symbolic correspondences rather than observation; judgment.",
+   "abstraction": "Works through unseen correspondences, 'as above, so below', between the cosmos and the soul (Grokipedia, Golden Dawn).",
    "hierarchy": "A strict ladder of grades from Neophyte to adept (Grokipedia, Golden Dawn)."
   },
   "thrives_in": {
@@ -15685,8 +15685,8 @@
    "romanticism": "No real link to Romanticism.",
    "nationalism": "No real link to Nationalism.",
    "humor": "Scholarly in register.",
-   "irony": "Sincere doctrinal defense.",
-   "abstraction": "Systematic, doctrinal theology, with a Common Sense trust in plain facts; judgment.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Hodge's Systematic Theology joined careful reading of Scripture with deduction and rejected 'speculative idealism' (Grokipedia).",
    "hierarchy": "Held to the authority of Scripture and fixed Reformed confessional standards, and taught Presbyterian church order."
   },
   "thrives_in": {
@@ -15781,7 +15781,7 @@
    "christianity": "Protestant evangelical theology (Grokipedia).",
    "gnosticism": "No real link to Gnosticism.",
    "hermeticism": "No real link to Hermeticism.",
-   "enlightenment_liberalism": "Grokipedia ties its rise to reaction against higher criticism; judgment.",
+   "enlightenment_liberalism": "Darby built it partly against higher criticism, and its seminaries stood as a 'bulwark against' theological liberalism (Grokipedia).",
    "marxism": "No real link to Marxism.",
    "darwinism": "No real link to Darwinism.",
    "nietzsche": "No real link to Nietzsche.",
@@ -15796,7 +15796,7 @@
    "nationalism": "No real link to Nationalism.",
    "humor": "Sincere prophetic reading.",
    "irony": "Literal hermeneutic.",
-   "abstraction": "Builds a schema of eras over Scripture; judgment.",
+   "abstraction": "Orders all of history in Scripture into set dispensations, each with its own covenant, test and failure (Grokipedia).",
    "hierarchy": "Orders history into God-given eras, each with its own test and judgment; it says little about social rank."
   },
   "thrives_in": {
@@ -15881,7 +15881,7 @@
    "christianity": "Economic program; no religious content in sources.",
    "gnosticism": "No real link to Gnosticism.",
    "hermeticism": "No real link to Hermeticism.",
-   "enlightenment_liberalism": "Accepts electoral democracy but attacks gold-standard finance; no documented textual debt. Judgment.",
+   "enlightenment_liberalism": "Ran candidates in national elections to expand paper money against the gold standard; no recorded debt to liberal theory.",
    "marxism": "Stance too weak to score: fought monopolies and backed labor laws, but sought to regulate private capital, not abolish it (Grokipedia).",
    "darwinism": "No real link to Darwinism.",
    "nietzsche": "No real link to Nietzsche.",
@@ -15895,7 +15895,7 @@
    "romanticism": "No real link to Romanticism.",
    "nationalism": "No real link to Nationalism.",
    "humor": "Not expressed through jokes.",
-   "irony": "Sincere reform politics.",
+   "irony": "Makes its case directly, without ironic distance.",
    "abstraction": "Argued from commodity prices and debt burdens (Grokipedia).",
    "hierarchy": "Champions 'productive classes' against creditors and financiers (Grokipedia)."
   },
@@ -16796,7 +16796,7 @@
    "romanticism": "No real link to Romanticism.",
    "nationalism": "No real link to Nationalism.",
    "humor": "Earnest register.",
-   "irony": "Sincere.",
+   "irony": "Makes its case directly, without ironic distance.",
    "abstraction": "Policy-wonk pragmatism through the Progressive Policy Institute.",
    "hierarchy": "The Third Way puts equality of opportunity over equality of outcome, neither leveling nor defending rank."
   },
@@ -16917,7 +16917,7 @@
    "romanticism": "No real link to Romanticism.",
    "nationalism": "No real link to Nationalism.",
    "humor": "Earnest register.",
-   "irony": "Sincere.",
+   "irony": "Makes its case directly, without ironic distance.",
    "abstraction": "Ideological program with internal factional debate; judgment.",
    "hierarchy": "Seeks economic equality and worker power (Grokipedia, DSA)."
   },
@@ -17043,7 +17043,7 @@
    "romanticism": "No real link to Romanticism.",
    "nationalism": "No real link to Nationalism.",
    "humor": "Earnest register.",
-   "irony": "Sincere.",
+   "irony": "Makes its case directly, without ironic distance.",
    "abstraction": "Policy programs framed by inequality analysis; judgment.",
    "hierarchy": "Targets economic inequality and corporate power (Grokipedia, Progressivism in the United States)."
   },
@@ -17774,7 +17774,7 @@
    "romanticism": "No real link to Romanticism.",
    "nationalism": "No real link to Nationalism.",
    "humor": "Earnest register.",
-   "irony": "Sincere.",
+   "irony": "Makes its case directly, without ironic distance.",
    "abstraction": "Prefers 'organic society and gradual change' to theory (Grokipedia, One-nation conservatism).",
    "hierarchy": "Sees society as 'a hierarchical organism where elites exercise benevolent authority' (Grokipedia)."
   },
@@ -17886,7 +17886,7 @@
    "romanticism": "No real link to Romanticism.",
    "nationalism": "No real link to Nationalism.",
    "humor": "Earnest register.",
-   "irony": "Sincere.",
+   "irony": "Makes its case directly, without ironic distance.",
    "abstraction": "Ideas-driven by Hayek and monetarist theory, applied pragmatically; judgment.",
    "hierarchy": "Gamble calls it a free economy with a strong state, which centralized power over unions and local government."
   },
@@ -18012,7 +18012,7 @@
    "romanticism": "No real link to Romanticism.",
    "nationalism": "No real link to Nationalism.",
    "humor": "Earnest register.",
-   "irony": "Sincere.",
+   "irony": "Makes its case directly, without ironic distance.",
    "abstraction": "Pragmatic modernization; judgment.",
    "hierarchy": "Put opportunity over equality of outcome, while doubling health spending in real terms."
   },
@@ -18139,7 +18139,7 @@
    "romanticism": "No real link to Romanticism.",
    "nationalism": "No real link to Nationalism.",
    "humor": "Earnest register.",
-   "irony": "Sincere.",
+   "irony": "Makes its case directly, without ironic distance.",
    "abstraction": "Programmatic socialism; judgment.",
    "hierarchy": "Pushes 'anti-austerity and pro-nationalization platforms' (Grokipedia, Socialist Campaign Group)."
   },
@@ -18260,7 +18260,7 @@
    "romanticism": "No real link to Romanticism.",
    "nationalism": "Reform UK populism grew from the campaign to leave the EU and restore national control.",
    "humor": "Farage's pub-politics persona; judgment.",
-   "irony": "Sincere.",
+   "irony": "Makes its case directly, without ironic distance.",
    "abstraction": "Plain-speaking populism; judgment.",
    "hierarchy": "Wants net migration cut to zero and Britain out of the European Convention on Human Rights: nation first."
   },
@@ -18369,10 +18369,10 @@
    "platonism": "No real link to Platonism.",
    "aristotelianism": "No real link to Aristotelianism.",
    "stoicism": "No real link to Stoicism.",
-   "christianity": "De Gaulle was Catholic; the doctrine is secular-republican; judgment.",
+   "christianity": "Drew on social Catholicism, as in de Gaulle's 1941 Oxford speech on a just postwar social order (Grokipedia, Gaullism).",
    "gnosticism": "No real link to Gnosticism.",
    "hermeticism": "No real link to Hermeticism.",
-   "enlightenment_liberalism": "Republican and electoral, yet favors a strong executive; judgment.",
+   "enlightenment_liberalism": "Keeps the elected republic but builds a 'robust executive presidency' and a state that steers the economy (Grokipedia).",
    "marxism": "Anti-communist pacts excluded the RPF (Grokipedia, Gaullism).",
    "darwinism": "No real link to Darwinism.",
    "nietzsche": "No real link to Nietzsche.",
@@ -18386,7 +18386,7 @@
    "romanticism": "No real link to Romanticism.",
    "nationalism": "Gaullism descends from Nationalism and stresses French independence and grandeur.",
    "humor": "Earnest register.",
-   "irony": "Sincere.",
+   "irony": "Makes its case directly, without ironic distance.",
    "abstraction": "A 'nationalist yet pragmatic conservatism' (Grokipedia, Gaullism).",
    "hierarchy": "De Gaulle pushed for a strong executive over a parliament-led system, a design built into the 1958 constitution."
   },
@@ -18502,7 +18502,7 @@
    "romanticism": "No real link to Romanticism.",
    "nationalism": "Macronism backs deeper European integration and ran against National Rally nationalism.",
    "humor": "Earnest register.",
-   "irony": "Sincere.",
+   "irony": "Makes its case directly, without ironic distance.",
    "abstraction": "Technocratic reform program; judgment.",
    "hierarchy": "Promotes meritocracy and opportunity while casting itself as a revolt against old party hierarchies: mixed."
   },
@@ -18616,7 +18616,7 @@
    "romanticism": "No real link to Romanticism.",
    "nationalism": "National Rally nationalism descends from Nationalism and calls for national preference.",
    "humor": "Earnest register.",
-   "irony": "Sincere.",
+   "irony": "Makes its case directly, without ironic distance.",
    "abstraction": "Populist register; judgment.",
    "hierarchy": "Its national preference policy reserves some benefits and housing help for French citizens first."
   },
@@ -18734,7 +18734,7 @@
    "romanticism": "No real link to Romanticism.",
    "nationalism": "No real link to Nationalism.",
    "humor": "Earnest register.",
-   "irony": "Sincere.",
+   "irony": "Makes its case directly, without ironic distance.",
    "abstraction": "Programmatic; judgment.",
    "hierarchy": "Backs democratic socialism and a Sixth Republic with more direct democracy, and shuns top-down party structures."
   },
@@ -18859,7 +18859,7 @@
    "romanticism": "No real link to Romanticism.",
    "nationalism": "No real link to Nationalism.",
    "humor": "Earnest register.",
-   "irony": "Sincere.",
+   "irony": "Makes its case directly, without ironic distance.",
    "abstraction": "Pragmatic governing party; judgment.",
    "hierarchy": "Subsidiarity keeps authority at the lowest competent level, with higher bodies only assisting: moderate order."
   },
@@ -18980,7 +18980,7 @@
    "romanticism": "No real link to Romanticism.",
    "nationalism": "Alternative for Germany descends from Nationalism and opposes EU powers over Germany.",
    "humor": "Earnest register.",
-   "irony": "Sincere.",
+   "irony": "Makes its case directly, without ironic distance.",
    "abstraction": "Populist register; judgment.",
    "hierarchy": "Calls for 'remigration' and mass deportations of migrants who fail to assimilate, putting natives first."
   },
@@ -19104,7 +19104,7 @@
    "romanticism": "No real link to Romanticism.",
    "nationalism": "Prioritizes 'national sovereignty and traditional values' and calls for limits on migration (Grokipedia, Left-conservatism).",
    "humor": "Earnest register.",
-   "irony": "Sincere.",
+   "irony": "Makes its case directly, without ironic distance.",
    "abstraction": "Mixed; judgment.",
    "hierarchy": "'Robust economic redistribution' with tradition (Grokipedia, Left-conservatism)."
   },
@@ -19244,7 +19244,7 @@
    "romanticism": "No real link to Romanticism.",
    "nationalism": "No real link to Nationalism.",
    "humor": "Earnest register.",
-   "irony": "Sincere.",
+   "irony": "Makes its case directly, without ironic distance.",
    "abstraction": "Systemic ecological thinking, as in 'Limits to Growth' (Grokipedia, Green politics); judgment.",
    "hierarchy": "Grassroots democracy and equality are pillars (Grokipedia, Green politics)."
   },
@@ -19365,7 +19365,7 @@
    "romanticism": "No real link to Romanticism.",
    "nationalism": "No real link to Nationalism.",
    "humor": "Earnest register.",
-   "irony": "Sincere.",
+   "irony": "Makes its case directly, without ironic distance.",
    "abstraction": "Geopolitical and civilizational theory, 'topogenic' determinism (Grokipedia).",
    "hierarchy": "Peoples 'under Russian cultural hegemony' (Grokipedia, Eurasianism)."
   },
@@ -19479,7 +19479,7 @@
    "romanticism": "No real link to Romanticism.",
    "nationalism": "Putinism descends from Nationalism and stresses Russian sovereignty and great-power status.",
    "humor": "Earnest register.",
-   "irony": "Sincere.",
+   "irony": "Makes its case directly, without ironic distance.",
    "abstraction": "Statist pragmatism; judgment.",
    "hierarchy": "A 'vertical of power' to 'restore state efficacy' (Grokipedia, Putinism)."
   },
@@ -19605,7 +19605,7 @@
    "romanticism": "No real link to Romanticism.",
    "nationalism": "No real link to Nationalism.",
    "humor": "Earnest register.",
-   "irony": "Sincere.",
+   "irony": "Makes its case directly, without ironic distance.",
    "abstraction": "Mixed; judgment.",
    "hierarchy": "Yabloko has long opposed authoritarian consolidation under Putin and backs human rights and democratic institutions."
   },
@@ -19726,7 +19726,7 @@
    "romanticism": "No real link to Romanticism.",
    "nationalism": "No real link to Nationalism.",
    "humor": "Earnest register.",
-   "irony": "Sincere.",
+   "irony": "Makes its case directly, without ironic distance.",
    "abstraction": "'Development is the absolute principle': pragmatic (Grokipedia).",
    "hierarchy": "One-party rule prioritizing 'political stability and centralized planning' (Grokipedia)."
   },
@@ -19851,7 +19851,7 @@
    "romanticism": "No real link to Romanticism.",
    "nationalism": "Xi Jinping Thought sets the goal of the great rejuvenation of the Chinese nation.",
    "humor": "Earnest register.",
-   "irony": "Sincere.",
+   "irony": "Makes its case directly, without ironic distance.",
    "abstraction": "Systematized doctrine; judgment.",
    "hierarchy": "Makes Communist Party leadership the defining feature of the system, with Xi named the 'core' of that leadership."
   },
@@ -19964,7 +19964,7 @@
    "romanticism": "No real link to Romanticism.",
    "nationalism": "No real link to Nationalism.",
    "humor": "Earnest register.",
-   "irony": "Sincere.",
+   "irony": "Makes its case directly, without ironic distance.",
    "abstraction": "Academic debate; judgment.",
    "hierarchy": "Seeks state action 'to mitigate inequality' (Grokipedia)."
   },
@@ -20089,7 +20089,7 @@
    "romanticism": "No real link to Romanticism.",
    "nationalism": "No real link to Nationalism.",
    "humor": "Earnest register.",
-   "irony": "Sincere.",
+   "irony": "Makes its case directly, without ironic distance.",
    "abstraction": "Mixed; judgment.",
    "hierarchy": "Multi-party democracy and separation of powers (Grokipedia)."
   },
@@ -20206,7 +20206,7 @@
    "romanticism": "No real link to Romanticism.",
    "nationalism": "Abe-line conservatism descends from Nationalism and Shinto and seeks a stronger, prouder Japan.",
    "humor": "Earnest register.",
-   "irony": "Sincere.",
+   "irony": "Makes its case directly, without ironic distance.",
    "abstraction": "'Conservative realism' (Grokipedia, Shinzo Abe).",
    "hierarchy": "'Respecting the Imperial Family as the center of national life' (Grokipedia, Nippon Kaigi)."
   },
@@ -20326,7 +20326,7 @@
    "romanticism": "No real link to Romanticism.",
    "nationalism": "Constitutional pacifism defends Article 9 against Abe-line plans for a stronger national military.",
    "humor": "Earnest register.",
-   "irony": "Sincere.",
+   "irony": "Makes its case directly, without ironic distance.",
    "abstraction": "Mixed; judgment.",
    "hierarchy": "Gender equality and anti-discrimination (Grokipedia, CDP)."
   },
@@ -20439,7 +20439,7 @@
    "romanticism": "No real link to Romanticism.",
    "nationalism": "No real link to Nationalism.",
    "humor": "Earnest register.",
-   "irony": "Sincere.",
+   "irony": "Makes its case directly, without ironic distance.",
    "abstraction": "Administrative reform; judgment.",
    "hierarchy": "Pushes decentralization and cuts to politicians' own seats and pay, aimed at the establishment rather than rank as such."
   },
@@ -20563,7 +20563,7 @@
    "romanticism": "No real link to Romanticism.",
    "nationalism": "Sanseitō populism descends from Nationalism and campaigns under a Japanese First banner.",
    "humor": "Earnest register.",
-   "irony": "Sincere.",
+   "irony": "Makes its case directly, without ironic distance.",
    "abstraction": "Populist register; judgment.",
    "hierarchy": "'Cultural and ethnic cohesion' (Grokipedia, Sanseitō)."
   },
@@ -28722,6 +28722,604 @@
    "irony": "Makes its case directly, without ironic distance.",
    "abstraction": "A practical theory of spending, jobs, interest and money.",
    "hierarchy": "Takes no side on social rank; it is about managing total demand."
+  }
+ },
+ {
+  "id": "zionism",
+  "name": "Zionism",
+  "root": false,
+  "root_axis": null,
+  "year": 1897,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/First_Zionist_Congress",
+  "origin_note": "Herzl's Der Judenstaat appeared on February 14, 1896; the First Zionist Congress he convened in Basel, August 29-31, 1897, adopted the Basel Program and founded the World Zionist Organization.",
+  "place": "Basel",
+  "lat": 47.56,
+  "lon": 7.59,
+  "thinkers": [
+   "Theodor Herzl",
+   "Leon Pinsker",
+   "Ahad Ha'am",
+   "Max Nordau",
+   "Moses Hess",
+   "Nathan Birnbaum"
+  ],
+  "parents": [
+   "nationalism",
+   "rabbinic_judaism"
+  ],
+  "plain": "The movement to build a Jewish homeland, and in the end a Jewish state, in the Land of Israel, then part of the Ottoman Empire. It began in 19th-century Europe as an answer to antisemitism.",
+  "summary": "Jewish national movement (Basel, 1897) seeking 'a home for the Jewish people in Palestine secured under public law'; it led to Israel in 1948 and remains contested.",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Zionism",
+   "https://grokipedia.com/page/Der_Judenstaat",
+   "https://grokipedia.com/page/First_Zionist_Congress",
+   "https://grokipedia.com/page/Theodor_Herzl",
+   "https://grokipedia.com/page/Leon_Pinsker",
+   "https://grokipedia.com/page/Ahad_Ha'am"
+  ],
+  "domain": [
+   "politics",
+   "religion"
+  ],
+  "aliases": [
+   "Political Zionism"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Israel",
+     "src": "https://grokipedia.com/page/Zionism",
+     "note": "Its goal of a state was met in 1948; debates inside Israel over Zionism's meaning have continued since."
+    },
+    {
+     "place": "Mandatory Palestine",
+     "src": "https://grokipedia.com/page/Zionism",
+     "note": "Pre-state Yishuv institutions under the British Mandate laid the institutional basis for the 1948 state."
+    }
+   ]
+  },
+  "edge_notes": {
+   "nationalism": {
+    "status": "documented",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Zionism",
+    "note": "The organized movement arose 'as a late-19th-century European nationalist response to antisemitism and the limits of emancipation'."
+   },
+   "rabbinic_judaism": {
+    "status": "documented",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Zionism",
+    "note": "Led mostly by secular Jews, it 'drew symbolic and motivational power from millennia of religious yearning for Zion'; much of Orthodoxy opposed it."
+   }
+  },
+  "parent_note": "Advocates call it the national liberation of a people returning to its ancestral homeland; opponents, notably in postcolonial scholarship, call it settler colonialism (Grokipedia, Zionism).",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 1,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "islam": 0,
+   "judaism": 3,
+   "romanticism": 0,
+   "nationalism": 4,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -2,
+   "hierarchy": 0
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "No clear debt to, or quarrel with, Christianity.",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "Herzl grew up with the Enlightenment-inspired Haskalah, and Liberal Zionism was part of the mainstream.",
+   "marxism": "Split: Hess and Labor Zionism joined socialism to it, while the socialist Bund opposed it.",
+   "darwinism": "No clear debt to, or quarrel with, Darwinism.",
+   "nietzsche": "No clear debt to, or quarrel with, Nietzsche.",
+   "critical_theory": "Comes before Critical theory existed, so it cannot descend from it.",
+   "confucianism": "No clear debt to, or quarrel with, Confucianism.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islamic_philosophy": "No clear debt to, or quarrel with, Islamic philosophy.",
+   "islam": "No clear debt to, or quarrel with, Islam as a faith; the clash with Palestinian Arabs was national.",
+   "judaism": "Draws on the ancient Jewish hope of return to Zion, though its leaders were mostly secular and much of Orthodoxy opposed it.",
+   "romanticism": "No clear debt to, or quarrel with, Romanticism.",
+   "nationalism": "A national movement: one Jewish people, its own land and, in the end, its own state.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Aims at concrete things: settlement, land, Hebrew as a living language and a state.",
+   "hierarchy": "Spans Labor, Liberal, Revisionist and religious wings, with no single view of rank."
+  }
+ },
+ {
+  "id": "kemalism",
+  "name": "Kemalism",
+  "root": false,
+  "root_axis": null,
+  "year": 1931,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Kemalism",
+  "origin_note": "Its six principles, the 'Six Arrows', were 'enshrined in the Republican People's Party (CHP) program in 1931' and later in the 1937 constitution; Atatürk had founded the Republic in 1923.",
+  "place": "Ankara",
+  "lat": 39.93,
+  "lon": 32.86,
+  "thinkers": [
+   "Mustafa Kemal Atatürk",
+   "İsmet İnönü",
+   "Ziya Gökalp"
+  ],
+  "parents": [
+   "nationalism",
+   "enlightenment_liberalism"
+  ],
+  "plain": "Atatürk's plan for the new Turkish Republic: a secular nation-state with religion kept out of government, Latin letters for Turkish, and a state-led economy.",
+  "summary": "Atatürk's Six Arrows (1931): republicanism, nationalism, populism, statism, secularism and revolutionism, used to rebuild the Ottoman remnant as a secular Turkish nation-state.",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Kemalism",
+   "https://grokipedia.com/page/Mustafa_Kemal_Atat%C3%BCrk",
+   "https://grokipedia.com/page/Ziya_G%C3%B6kalp",
+   "https://grokipedia.com/page/%C4%B0smet_%C4%B0n%C3%B6n%C3%BC"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "aliases": [
+   "Atatürkism",
+   "Ataturkism",
+   "Six Arrows"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Turkey",
+     "src": "https://grokipedia.com/page/Kemalism",
+     "note": "Reaffirmed in the 1982 Constitution; the CHP, founded by Atatürk in 1923, 'remains the institutional heir to Kemalism'."
+    }
+   ]
+  },
+  "edge_notes": {
+   "nationalism": {
+    "status": "direct",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Kemalism",
+    "note": "Nationalism is one of the Six Arrows; it 'promoted a unified Turkish identity'."
+   },
+   "enlightenment_liberalism": {
+    "status": "documented",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Kemalism",
+    "note": "Its populism 'drew from Enlightenment notions of popular will'; scholars call it a blend of 'Western Enlightenment ideals with local adaptations'."
+   }
+  },
+  "parent_note": "Its secularism followed the French model of state control over religion, and its schools taught positivism (Grokipedia, Kemalism); neither laïcité nor Comte's positivism is linked here.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 2,
+   "marxism": -2,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "islam": -3,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 4,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -2,
+   "hierarchy": 2
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "No clear debt to, or quarrel with, Christianity.",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "Takes Enlightenment ideas of popular sovereignty and secular law, but ran a single-party state for decades.",
+   "marxism": "Its populism 'explicitly opposed class struggle', treating the Turks as one people without classes.",
+   "darwinism": "No clear debt to, or quarrel with, Darwinism.",
+   "nietzsche": "No clear debt to, or quarrel with, Nietzsche.",
+   "critical_theory": "No clear debt to, or quarrel with, Critical theory.",
+   "confucianism": "No clear debt to, or quarrel with, Confucianism.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islamic_philosophy": "No clear debt to, or quarrel with, Islamic philosophy.",
+   "islam": "Abolished the caliphate, closed religious schools and put Islam under state control.",
+   "judaism": "No clear debt to, or quarrel with, Judaism.",
+   "romanticism": "No clear debt to, or quarrel with, Romanticism.",
+   "nationalism": "Builds one Turkish nation out of the Ottoman remnant, often by Turkifying minorities such as the Kurds.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "A program of practical reforms: Latin alphabet, European law codes, women's vote, state industry.",
+   "hierarchy": "Rejected monarchy and class, yet ruled through one party, a corporatist order and a cult of Atatürk."
+  }
+ },
+ {
+  "id": "imperial_federation",
+  "name": "Imperial Federation",
+  "root": false,
+  "root_axis": null,
+  "year": 1884,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Imperial_Federation",
+  "origin_note": "A London conference of July 29, 1884, 'directly led to the establishment of the Imperial Federation League on November 18, 1884'; the League dissolved in 1893.",
+  "place": "London",
+  "lat": 51.51,
+  "lon": -0.13,
+  "thinkers": [
+   "John Robert Seeley",
+   "William Edward Forster",
+   "Archibald Primrose, 5th Earl of Rosebery",
+   "Joseph Chamberlain",
+   "Lionel Curtis"
+  ],
+  "parents": [],
+  "plain": "A plan to turn the British Empire into one federal union of Britain and its self-governing settler colonies, such as Canada and Australia, with a shared parliament for defense and trade.",
+  "summary": "Movement (London, 1884) to federate Britain and its white settler dominions under an imperial parliament for defense, foreign policy and trade; it gave way to the Commonwealth.",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Imperial_Federation",
+   "https://grokipedia.com/page/John_Robert_Seeley",
+   "https://grokipedia.com/page/Joseph_Chamberlain",
+   "https://grokipedia.com/page/Lionel_Curtis"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "aliases": [
+   "Imperial Federation League",
+   "Greater Britain"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "United Kingdom",
+     "src": "https://grokipedia.com/page/Imperial_Federation",
+     "note": "The Imperial Federation League was founded in London in 1884 and dissolved in 1893."
+    },
+    {
+     "place": "Canada",
+     "src": "https://grokipedia.com/page/Imperial_Federation",
+     "note": "League branches formed in the 1880s; Round Table advocates like Lionel Curtis revived the case in 1916."
+    }
+   ]
+  },
+  "parent_note": "Inspired by Seeley's The Expansion of England (1883) and Dilke's Greater Britain (1868), neither on the map; dominion nationalists and British Liberals opposed it (Grokipedia, Imperial Federation).",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 1,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 1,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -2,
+   "hierarchy": 2
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "No clear debt to, or quarrel with, Christianity.",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "Drew on liberal imperial thought about parliaments and law, but Gladstone's Liberals rejected it.",
+   "marxism": "No clear debt to, or quarrel with, Marxism.",
+   "darwinism": "No clear debt to, or quarrel with, Darwinism.",
+   "nietzsche": "No clear debt to, or quarrel with, Nietzsche.",
+   "critical_theory": "Comes before Critical theory existed, so it cannot descend from it.",
+   "confucianism": "No clear debt to, or quarrel with, Confucianism.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islamic_philosophy": "No clear debt to, or quarrel with, Islamic philosophy.",
+   "islam": "No clear debt to, or quarrel with, Islam.",
+   "judaism": "No clear debt to, or quarrel with, Judaism.",
+   "romanticism": "No clear debt to, or quarrel with, Romanticism.",
+   "nationalism": "A pan-British patriotism of 'shared racial heritage', which dominion nationalists resisted.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Concerned with machinery: an imperial parliament, defense contributions and tariffs.",
+   "hierarchy": "London would hold defense and foreign policy, and India and other non-white lands were left out."
+  }
+ },
+ {
+  "id": "natural_law",
+  "name": "Natural law",
+  "root": false,
+  "root_axis": null,
+  "year": -52,
+  "year_approx": true,
+  "origin_src": "https://grokipedia.com/page/De_Legibus",
+  "origin_note": "Cicero began De Legibus 'around 52' BCE (Grokipedia, De Legibus); there and in De Re Publica he defined true law as 'right reason in agreement with nature' (Grokipedia, Natural law).",
+  "place": "Roman Republic",
+  "lat": null,
+  "lon": null,
+  "thinkers": [
+   "Cicero",
+   "Aristotle",
+   "Thomas Aquinas",
+   "Hugo Grotius",
+   "Samuel von Pufendorf"
+  ],
+  "parents": [
+   "stoic_logos",
+   "aristotelian_teleology"
+  ],
+  "plain": "The belief that there are moral rules built into human nature that anyone can find by reason. A law that breaks them, even one passed by a ruler, is not truly a law.",
+  "summary": "Universal moral law knowable by reason, the measure of every human law: from Cicero's 'right reason in agreement with nature' to Aquinas, Grotius and natural rights.",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Natural_law",
+   "https://grokipedia.com/page/De_Legibus",
+   "https://grokipedia.com/page/Cicero",
+   "https://grokipedia.com/page/Hugo_Grotius",
+   "https://grokipedia.com/page/Samuel_von_Pufendorf"
+  ],
+  "domain": [
+   "philosophy",
+   "politics"
+  ],
+  "aliases": [
+   "Natural law theory",
+   "Law of nature",
+   "Ius naturale"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Catholic Church",
+     "src": "https://grokipedia.com/page/Natural_law",
+     "note": "Aquinas made it 'the rational creature's participation in the eternal law of God'."
+    },
+    {
+     "place": "England and America",
+     "src": "https://grokipedia.com/page/Natural_law",
+     "note": "Locke's Two Treatises (1689) grounded rights to 'life, liberty, and property in the law of nature'."
+    }
+   ]
+  },
+  "edge_notes": {
+   "stoic_logos": {
+    "status": "documented",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Natural_law",
+    "note": "'Roman thinkers adapted Stoic ideas into practical jurisprudence, prominently through Cicero'."
+   },
+   "aristotelian_teleology": {
+    "status": "documented",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Natural_law",
+    "note": "Aristotle's Nicomachean Ethics Book V set 'natural justice', the same everywhere, against merely legal justice."
+   }
+  },
+  "parent_note": "Later carried by Thomism (Aquinas) and by early modern natural rights (Grotius, Locke); those links are not drawn yet.",
+  "basis": {
+   "enlightenment_liberalism": "stance"
+  },
+  "stance_raw": {
+   "enlightenment_liberalism": 2
+  },
+  "ratings": {
+   "platonism": 2,
+   "aristotelianism": 3,
+   "stoicism": 4,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 1,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 3,
+   "hierarchy": -1
+  },
+  "rationale": {
+   "platonism": "Cicero modeled De Legibus and De Re Publica on Plato's Laws and Republic.",
+   "aristotelianism": "Builds on Aristotle's split between natural justice, the same everywhere, and local legal rules.",
+   "stoicism": "Cicero's 'right reason in agreement with nature' is the Stoic idea of a rational order running through all things.",
+   "christianity": "Comes before Christianity existed, so it cannot descend from it.",
+   "gnosticism": "Comes before Gnosticism existed, so it cannot descend from it.",
+   "hermeticism": "Comes before Hermeticism existed, so it cannot descend from it.",
+   "enlightenment_liberalism": "Affinity: a law of reason above rulers, later the ground of Locke's natural rights (Grokipedia, Natural law).",
+   "marxism": "Comes before Marxism existed, so it cannot descend from it.",
+   "darwinism": "Comes before Darwinism existed, so it cannot descend from it.",
+   "nietzsche": "Comes before Nietzsche existed, so it cannot descend from it.",
+   "critical_theory": "Comes before Critical theory existed, so it cannot descend from it.",
+   "confucianism": "No clear debt to, or quarrel with, Confucianism.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islamic_philosophy": "Comes before Islamic philosophy existed, so it cannot descend from it.",
+   "islam": "Comes before Islam existed, so it cannot descend from it.",
+   "judaism": "Comes before Judaism existed, so it cannot descend from it.",
+   "romanticism": "Comes before Romanticism existed, so it cannot descend from it.",
+   "nationalism": "Comes before Nationalism existed, so it cannot descend from it.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Law is an eternal, unchanging order of reason, known by the mind rather than by custom.",
+   "hierarchy": "Holds that no ruler's command is truly law if it breaks right reason, so power answers to a higher rule."
+  }
+ },
+ {
+  "id": "annales_school",
+  "name": "Annales school",
+  "root": false,
+  "root_axis": null,
+  "year": 1929,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Annales_school",
+  "origin_note": "Bloch and Febvre launched the journal Annales d'histoire économique et sociale on January 15, 1929, through a Strasbourg publisher, while both taught at the University of Strasbourg.",
+  "place": "Strasbourg",
+  "lat": 48.58,
+  "lon": 7.75,
+  "thinkers": [
+   "Marc Bloch",
+   "Lucien Febvre",
+   "Fernand Braudel"
+  ],
+  "parents": [
+   "marxism"
+  ],
+  "plain": "A French way of writing history that looks past kings, battles and treaties to the slow changes in land, trade, farming, everyday life and how ordinary people thought.",
+  "summary": "French historians (Strasbourg, 1929) who sought 'total history': long-term economic, social and mental structures over political events; Braudel added the longue durée.",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Annales_school",
+   "https://grokipedia.com/page/Marc_Bloch",
+   "https://grokipedia.com/page/Lucien_Febvre",
+   "https://grokipedia.com/page/Fernand_Braudel"
+  ],
+  "domain": [
+   "philosophy"
+  ],
+  "aliases": [
+   "Annales",
+   "Annalistes",
+   "Longue durée"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "France",
+     "src": "https://grokipedia.com/page/Annales_school",
+     "note": "Dominated French academic history until the late 20th century; Annales-inspired work persists there."
+    },
+    {
+     "place": "Social history worldwide",
+     "src": "https://grokipedia.com/page/Annales_school",
+     "note": "Braudel's longue durée influenced social history worldwide."
+    }
+   ]
+  },
+  "edge_notes": {
+   "marxism": {
+    "status": "documented",
+    "type": "influence",
+    "strength": "weak",
+    "src": "https://grokipedia.com/page/Annales_school",
+    "note": "It 'incorporated elements of Marxist historiography', but Bloch and Febvre 'critiqued its reductionism'."
+   }
+  },
+  "parent_note": "Its other sources, Durkheim's sociology and Vidal de la Blache's geography, are not nodes on the map (Grokipedia, Annales school).",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 1,
+   "marxism": 1,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islamic_philosophy": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -2,
+   "hierarchy": -1
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "No clear debt to, or quarrel with, Christianity.",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "Described as left-liberal: Febvre was a Dreyfusard republican, Bloch had socialist sympathies.",
+   "marxism": "Borrowed Marxism's stress on economic structures, while its founders rejected class determinism.",
+   "darwinism": "No clear debt to, or quarrel with, Darwinism.",
+   "nietzsche": "No clear debt to, or quarrel with, Nietzsche.",
+   "critical_theory": "No clear debt to, or quarrel with, Critical theory.",
+   "confucianism": "No clear debt to, or quarrel with, Confucianism.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islamic_philosophy": "No clear debt to, or quarrel with, Islamic philosophy.",
+   "islam": "No clear debt to, or quarrel with, Islam.",
+   "judaism": "No clear debt to, or quarrel with, Judaism.",
+   "romanticism": "No clear debt to, or quarrel with, Romanticism.",
+   "nationalism": "No clear debt to, or quarrel with, Nationalism.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Grounds history in material life: geography, environment, trade, population and farming.",
+   "hierarchy": "Favored 'history from below' over the deeds of rulers and elites."
   }
  }
 ]
