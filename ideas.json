@@ -840,7 +840,8 @@
    "aristotelian_teleology",
    "augustinian_grace",
    "roman_catholicism",
-   "avicennism"
+   "avicennism",
+   "natural_law"
   ],
   "plain": "Thomas Aquinas, a medieval friar, combined Aristotle's philosophy with Christian teaching and argued that faith and reason never truly conflict.",
   "summary": "Aquinas joins Aristotle's philosophy to Christian doctrine, holding that faith and reason agree.",
@@ -932,6 +933,15 @@
      "note": "Named in the Grokipedia article “Thomism”."
     }
    ]
+  },
+  "edge_notes": {
+   "natural_law": {
+    "status": "documented",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Natural_law",
+    "note": "Aquinas 'integrated this with Christian theology, defining natural law as the rational creature's participation in the eternal law of God' (Grokipedia)."
+   }
   }
  },
  {
@@ -1264,7 +1274,8 @@
    "Immanuel Kant"
   ],
   "parents": [
-   "social_contract"
+   "social_contract",
+   "natural_law"
   ],
   "plain": "Liberals such as John Locke argued that people have natural rights, that rulers need the people's consent, and that reason drives progress.",
   "summary": "Liberals defend natural rights, toleration, limited government and progress by reason.",
@@ -1352,6 +1363,15 @@
    "work": "The Old Regime and the Revolution (1856), author's Preliminary Notice; Henry Reeve translation, 3rd ed. (London: John Murray, 1888)",
    "src": "https://www.gutenberg.org/ebooks/54187",
    "note": "Often quoted as 'A man's admiration for absolute government is proportionate to the contempt he feels for those around him.' The French reads 'son pays' (his country)."
+  },
+  "edge_notes": {
+   "natural_law": {
+    "status": "documented",
+    "type": "influence",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Natural_law",
+    "note": "Locke's Two Treatises (1689) 'grounded natural rights to life, liberty, and property in the law of nature' (Grokipedia)."
+   }
   }
  },
  {
@@ -5339,7 +5359,9 @@
   "thinkers": [
    "Yajnavalkya"
   ],
-  "parents": [],
+  "parents": [
+   "indo_iranian_religion"
+  ],
   "plain": "The Upanishads teach that behind the changing world is one ultimate reality, Brahman, and that your deepest self, Atman, is one with it.",
   "summary": "The Upanishads hold that the deepest self (Atman) is one with ultimate reality (Brahman).",
   "ratings": {
@@ -5414,6 +5436,15 @@
      "note": "Named in the Grokipedia article “Upanishads”."
     }
    ]
+  },
+  "edge_notes": {
+   "indo_iranian_religion": {
+    "status": "documented",
+    "type": "descent",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Historical_Vedic_religion",
+    "note": "Through Vedic religion (no node yet), 'rooted in Indo-Iranian heritage', which in its late phase turned 'toward introspective philosophies in the Upanishads' (Grokipedia)."
+   }
   }
  },
  {
@@ -29141,7 +29172,7 @@
     "note": "Aristotle's Nicomachean Ethics Book V set 'natural justice', the same everywhere, against merely legal justice."
    }
   },
-  "parent_note": "Later carried by Thomism (Aquinas) and by early modern natural rights (Grotius, Locke); those links are not drawn yet.",
+  "parent_note": "Carried into Thomism by Aquinas and into Enlightenment liberalism by Locke's natural rights; Grotius and Pufendorf's natural law of nations has no node yet.",
   "basis": {
    "enlightenment_liberalism": "stance"
   },
