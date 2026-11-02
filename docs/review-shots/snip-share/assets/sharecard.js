@@ -195,7 +195,7 @@
     if (!modal) {
       modal = document.createElement('div'); modal.id = 'sharecard';
       modal.innerHTML = `<div class="sc-card" role="dialog" aria-modal="true" aria-label="Share card preview"><img alt="Share card preview"><div class="sc-row"><button class="sc-share" type="button">Share</button><a class="sc-dl" download>Download PNG</a><button class="sc-x" type="button">Close</button></div></div>`;
-      const st = document.createElement('style'); st.textContent = `#sharecard{position:fixed;inset:0;z-index:60;background:rgba(6,6,8,.88);display:grid;place-items:center;padding:16px}#sharecard .sc-card{display:flex;flex-direction:column;align-items:center;gap:14px;max-height:100%}#sharecard img{max-height:calc(100vh - 110px);max-width:92vw;aspect-ratio:9/16;border:1px solid #4a2810;background:#0a0a0c}#sharecard .sc-row{display:flex;gap:10px}#sharecard button,#sharecard a{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;padding:10px 14px;border:1px solid #b87333;color:#b87333;background:transparent;text-decoration:none;cursor:pointer}#sharecard .sc-dl{background:#b87333;color:#0a0a0c}`;
+      const st = document.createElement('style'); st.textContent = `#sharecard{position:fixed;inset:0;z-index:1000;background:rgba(6,6,8,.88);display:grid;place-items:center;padding:16px}#sharecard .sc-card{display:flex;flex-direction:column;align-items:center;gap:14px;max-height:100%}#sharecard img{max-height:calc(100vh - 110px);max-width:92vw;aspect-ratio:9/16;border:1px solid #4a2810;background:#0a0a0c}#sharecard .sc-row{display:flex;gap:10px}#sharecard button,#sharecard a{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;padding:10px 14px;border:1px solid #b87333;color:#b87333;background:transparent;text-decoration:none;cursor:pointer}#sharecard .sc-dl{background:#b87333;color:#0a0a0c}`;
       document.head.append(st); document.body.append(modal);
       const close = () => { modal.style.display = 'none'; };
       modal.querySelector('.sc-x').onclick = close; modal.addEventListener('click', e => { if (e.target === modal) close(); });
@@ -206,6 +206,8 @@
     const file = new File([blob], filename, { type: 'image/png' }); const sb = modal.querySelector('.sc-share');
     const can = navigator.canShare && navigator.canShare({ files: [file] }); sb.style.display = can ? '' : 'none';
     sb.onclick = () => navigator.share({ files: [file], title: 'The Memeplex · Arx Cortex', text: 'See more: arxcortex.io/memeplex' }).catch(() => {});
+    /* top layer: z-index 1000 is above every page layer (menu 62, toast 70, snip 70/71, quiz and games 80); last child of body so it also wins ties */
+    if (modal.parentNode !== document.body || document.body.lastElementChild !== modal) document.body.append(modal);
     modal.style.display = 'grid'; a.focus();
   }
   window.ArxShareCard = { single, compare, quiz, snip, open, W, H, SAFE, get lastBottom() { return low; } };
