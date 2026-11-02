@@ -4,7 +4,7 @@ This page explains, in plain words, what the numbers on the Memeplex mean and ho
 
 ## What a score is
 
-Every idea gets a score on each of the 24 axes. An axis is one of three kinds:
+Every idea gets a score on each of the 23 axes. An axis is one of three kinds:
 
 - **Traditions** (20): Platonism, Christianity, Marxism, Buddhism, Nationalism and the rest. The score says how the idea stands toward that tradition.
 - **Stances** (2): hierarchy, and abstract versus material. These ask what the idea itself believes. They are already "opinion" scores, so the two tiers below do not apply to them.

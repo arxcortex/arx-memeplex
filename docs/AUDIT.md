@@ -15,7 +15,7 @@ Islam is NOT a root and no axis was added (proposal below).
 ## Edges added (10)
 - islam → sufism — Sufism is the inward path within Islam. https://grokipedia.com/page/Sufism
 - neoplatonism → sufism — **flagged contested** (`edge_notes` field): Grokipedia speaks of shared Neoplatonic heritage, not direct adoption. https://grokipedia.com/page/Sufism
-- islam → falsafa — Islamic philosophers worked inside a Muslim setting (falsafa stays the islamic_philosophy root). https://grokipedia.com/page/Islamic_philosophy
+- islam → falsafa — Islamic philosophers worked inside a Muslim setting (falsafa stays the islamic_philosophy root; superseded 2026-11-01: that axis was merged into islam and falsafa is no longer a root). https://grokipedia.com/page/Islamic_philosophy
 - islam → kalam — Kalam is Islamic theology. https://grokipedia.com/page/Kalam
 - kalam → asharism — Ash'arism is one of Kalam's main schools (fixes an orphan). https://grokipedia.com/page/Kalam
 - sufism → mevlevi_order — a Sufi order founded on Rumi's legacy. https://grokipedia.com/page/Mevlevi_Order
@@ -46,7 +46,7 @@ Islam is NOT a root and no axis was added (proposal below).
 
 ## Open questions
 1. **Islam's parents.** Islam is a monotheistic Abrahamic religion (Grokipedia), but the map has no Judaism idea and a christianity → islam edge would be a claim about descent that Muslims and many historians would frame differently. Options: add second_temple_judaism / rabbinic Judaism and link both, or leave Islam with no parents.
-2. **Islam as root (proposal only, not done).** Make islam the root of a new "islam" tradition axis (like christianity), so every idea gets an Islam rating; falsafa would stay the islamic_philosophy root. Cost: one rating + rationale per idea (145×), new validator check. Recommend yes if more Islamic ideas (Shia, Salafism, Islamism, orders) are coming.
+2. **Islam as root (proposal only, not done).** Make islam the root of a new "islam" tradition axis (like christianity), so every idea gets an Islam rating; falsafa would stay the islamic_philosophy root (superseded 2026-11-01: islamic_philosophy merged into islam). Cost: one rating + rationale per idea (145×), new validator check. Recommend yes if more Islamic ideas (Shia, Salafism, Islamism, orders) are coming.
 3. **second_temple_judaism as Christianity's parent:** needs a new idea (c. 515 BCE, Jerusalem). Christianity is currently a root; a parent would be allowed (roots can have parents) but Judaism would be a natural root too. **Resolved:** second_temple_judaism, hellenistic_judaism and jewish_apocalypticism are now Christianity's parents.
 4. **Old Norse religion is now an orphan** (pagan, so it can't be a root). Its date (1270) is the manuscript date. Options: redate to the Viking Age and give it a Proto-Germanic/Indo-European parent (none on map), or leave it parentless.
 5. **epicureanism is an orphan** (not a root): add Democritus's atomism (c. 420 BCE) as a new idea, or leave it parentless. **Resolved:** atomism (from the Eleatics) is now epicureanism's parent.

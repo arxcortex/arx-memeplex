@@ -66,7 +66,7 @@ Critical theory is a **tradition**, not a register. Its root idea is the Frankfu
 
 ## Non-Western root traditions
 
-Five traditions added 2026-10-25, each with a root idea (`root: true`): Confucianism (Confucian ethics, c. 500 BCE), Daoism (the Tao Te Ching, c. 300 BCE, dated by the Guodian strips), Buddhism (the Buddha's Middle Way, c. 5th century BCE), Vedanta (Brahman and Atman in the Upanishads, c. 700 BCE), Islamic philosophy / falsafa (al-Kindi in Baghdad, c. 814 CE). Score them like any tradition: +5 grows straight from it, 0 no real link, −5 built against it; ideas earlier than a root score 0 ("comes before"). Real cross-links are scored, e.g. Thomism +2 on Islamic philosophy (Avicenna's essence-existence distinction), Perennialist Traditionalism +3 on Vedanta.
+Five traditions added 2026-10-25, each with a root idea (`root: true`): Confucianism (Confucian ethics, c. 500 BCE), Daoism (the Tao Te Ching, c. 300 BCE, dated by the Guodian strips), Buddhism (the Buddha's Middle Way, c. 5th century BCE), Vedanta (Brahman and Atman in the Upanishads, c. 700 BCE), Islamic philosophy / falsafa (al-Kindi in Baghdad, c. 814 CE; merged into the Islam axis on 2026-11-01, so falsafa is no longer a root). Score them like any tradition: +5 grows straight from it, 0 no real link, −5 built against it; ideas earlier than a root score 0 ("comes before"). Real cross-links are scored, e.g. Thomism +2 on Islamic philosophy (Avicenna's essence-existence distinction), Perennialist Traditionalism +3 on Vedanta.
 
 ## Abstraction stance
 
