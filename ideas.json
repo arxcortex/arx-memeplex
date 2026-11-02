@@ -25380,7 +25380,8 @@
   ],
   "parents": [
    "american_republicanism",
-   "anti_federalists"
+   "anti_federalists",
+   "jeffersonian_republicans"
   ],
   "plain": "A movement around Andrew Jackson that widened voting for white men, attacked the national bank and rewarded loyal supporters with office. It founded the Democratic Party.",
   "summary": "Jackson-era politics of popular sovereignty and the 'common man': white male suffrage, anti-elitism, spoils system, the Bank War, Indian Removal and the founding of the Democratic Party.",
@@ -25478,7 +25479,14 @@
     "type": "influence",
     "strength": "weak",
     "src": "https://grokipedia.com/page/Anti-Federalist_Papers",
-    "note": "Indirect, through the Jeffersonian Republicans (no node yet): the Papers 'exerted a formative influence on the Jeffersonian Republicans', whose remnants became the Democrats by 1828."
+    "note": "Indirect, through the Jeffersonian Republicans: the Papers 'exerted a formative influence on the Jeffersonian Republicans', whose remnants became the Democrats by 1828."
+   },
+   "jeffersonian_republicans": {
+    "status": "direct",
+    "type": "split",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Democratic-Republican_Party",
+    "note": "After 1824 the party split 'into the Democratic Party (Jackson's faction) and National Republicans (Adams-Clay group)' (Grokipedia)."
    }
   }
  },
@@ -29341,6 +29349,369 @@
    "irony": "Makes its case directly, without ironic distance.",
    "abstraction": "Grounds history in material life: geography, environment, trade, population and farming.",
    "hierarchy": "Favored 'history from below' over the deeds of rulers and elites."
+  }
+ },
+ {
+  "id": "jeffersonian_republicans",
+  "name": "Jeffersonian Republicans",
+  "root": false,
+  "root_axis": null,
+  "year": 1792,
+  "year_approx": false,
+  "place": "Philadelphia",
+  "lat": 39.95,
+  "lon": -75.17,
+  "origin_src": "https://grokipedia.com/page/Democratic-Republican_Party",
+  "origin_note": "Madison's essay 'A Candid State of Parties', published in Philadelphia's National Gazette on September 22, 1792, 'formalized the name' Republican Party for the opposition to Hamilton (Grokipedia).",
+  "thinkers": [
+   "Thomas Jefferson",
+   "James Madison"
+  ],
+  "parents": [
+   "american_republicanism",
+   "anti_federalists",
+   "enlightenment_liberalism"
+  ],
+  "plain": "The party Jefferson and Madison built in the 1790s to fight Hamilton's Federalists. It wanted a small federal government, strong states and a country of independent farmers.",
+  "summary": "Rival of the Federalists: strict reading of the Constitution, states' rights and a farming republic. It won power in 1800, then split into Jackson's Democrats and the National Republicans.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 3,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 0,
+   "hierarchy": -1
+  },
+  "rationale": {
+   "platonism": "No real link to Platonism.",
+   "aristotelianism": "No real link to Aristotelianism.",
+   "stoicism": "No real link to Stoicism.",
+   "christianity": "Jefferson's 'wall of separation' kept the federal government out of religion; the party had no religious program.",
+   "gnosticism": "No real link to Gnosticism.",
+   "hermeticism": "No real link to Hermeticism.",
+   "enlightenment_liberalism": "Drew on 'Enlightenment thinkers and American revolutionary ideals' to guard liberty against concentrated power (Grokipedia).",
+   "marxism": "Comes before Marxism existed, so it cannot descend from it.",
+   "darwinism": "Comes before Darwinism existed, so it cannot descend from it.",
+   "nietzsche": "Comes before Nietzsche existed, so it cannot descend from it.",
+   "critical_theory": "Comes before Critical theory existed, so it cannot descend from it.",
+   "confucianism": "No real link to Confucianism.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "No real link to Buddhism.",
+   "vedanta": "No real link to Vedanta.",
+   "islam": "No real link to Islam.",
+   "judaism": "No real link to Judaism.",
+   "romanticism": "Comes before Romanticism existed, so it cannot descend from it.",
+   "nationalism": "No real link to Nationalism.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Argues over constitutional powers and farm life; takes no side on mind versus matter.",
+   "hierarchy": "Fought 'aristocratic tendencies' for the 'common man', yet its Southern base lay where 'slaveholding was prevalent' (Grokipedia)."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Democratic-Republican_Party",
+   "https://grokipedia.com/page/Anti-Federalist_Papers",
+   "https://grokipedia.com/page/Thomas_Jefferson",
+   "https://grokipedia.com/page/James_Madison"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "aliases": [
+   "Democratic-Republican Party",
+   "Democratic-Republicans"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "United States",
+     "period": "1801-1825",
+     "src": "https://grokipedia.com/page/Democratic-Republican_Party",
+     "note": "Held the presidency from Jefferson's win in 1800 through Monroe's Era of Good Feelings."
+    },
+    {
+     "place": "American South",
+     "period": "1790s-1820s",
+     "src": "https://grokipedia.com/page/Democratic-Republican_Party",
+     "note": "Dominant in Virginia, the Carolinas, Georgia, Kentucky and Tennessee through 'planter and smallholder interests'."
+    }
+   ]
+  },
+  "edge_notes": {
+   "american_republicanism": {
+    "status": "documented",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Democratic-Republican_Party",
+    "note": "Its ideology 'emphasized civic virtue, popular sovereignty, and the rotation of officeholders drawn from an independent citizenry' (Grokipedia)."
+   },
+   "anti_federalists": {
+    "status": "documented",
+    "type": "influence",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Anti-Federalist_Papers",
+    "note": "The Anti-Federalist Papers 'exerted a formative influence on the Jeffersonian Republicans' (Grokipedia)."
+   },
+   "enlightenment_liberalism": {
+    "status": "documented",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Democratic-Republican_Party",
+    "note": "Republicans 'drew on Enlightenment thinkers and American revolutionary ideals' (Grokipedia)."
+   }
+  }
+ },
+ {
+  "id": "national_republicans",
+  "name": "National Republicans",
+  "root": false,
+  "root_axis": null,
+  "year": 1825,
+  "year_approx": true,
+  "place": "Washington, D.C.",
+  "lat": 38.9,
+  "lon": -77.04,
+  "origin_src": "https://grokipedia.com/page/National_Republican_Party",
+  "origin_note": "Supporters of John Quincy Adams and Henry Clay, after the House chose Adams on February 9, 1825 (Grokipedia, 1824 election); active 'from approximately 1825 to 1834' (Grokipedia).",
+  "thinkers": [
+   "John Quincy Adams",
+   "Henry Clay"
+  ],
+  "parents": [
+   "federalists",
+   "jeffersonian_republicans"
+  ],
+  "plain": "The group around President John Quincy Adams and Henry Clay. It wanted the federal government to build roads and canals, protect new industry with tariffs and keep a national bank.",
+  "summary": "Adams and Clay's anti-Jackson party of 1825-34, built on Clay's 'American System' of protective tariffs, a national bank and internal improvements. It merged into the Whigs.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 2,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 2,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -1,
+   "hierarchy": 0
+  },
+  "rationale": {
+   "platonism": "No real link to Platonism.",
+   "aristotelianism": "No real link to Aristotelianism.",
+   "stoicism": "No real link to Stoicism.",
+   "christianity": "Its program was economic and constitutional, with no religious plank.",
+   "gnosticism": "No real link to Gnosticism.",
+   "hermeticism": "No real link to Hermeticism.",
+   "enlightenment_liberalism": "Kept a 'commitment to constitutional federalism' while 'constraining executive overreach' (Grokipedia).",
+   "marxism": "Comes before Marxism existed, so it cannot descend from it.",
+   "darwinism": "Comes before Darwinism existed, so it cannot descend from it.",
+   "nietzsche": "Comes before Nietzsche existed, so it cannot descend from it.",
+   "critical_theory": "Comes before Critical theory existed, so it cannot descend from it.",
+   "confucianism": "No real link to Confucianism.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "No real link to Buddhism.",
+   "vedanta": "No real link to Vedanta.",
+   "islam": "No real link to Islam.",
+   "judaism": "No real link to Judaism.",
+   "romanticism": "No real link to Romanticism.",
+   "nationalism": "Its program 'espoused economic nationalism' through Clay's American System to 'foster national unity' (Grokipedia).",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "A practical program of tariffs, a bank and roads and canals rather than a systematic theory.",
+   "hierarchy": "Favored national institutions and 'meritocracy' over Jacksonian populism, without any ranking by birth: mixed."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/National_Republican_Party",
+   "https://grokipedia.com/page/1824_United_States_presidential_election",
+   "https://grokipedia.com/page/American_System_(economic_plan)",
+   "https://grokipedia.com/page/John_Quincy_Adams",
+   "https://grokipedia.com/page/Henry_Clay"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "aliases": [
+   "National Republican Party"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "United States",
+     "period": "1825-1834",
+     "src": "https://grokipedia.com/page/National_Republican_Party",
+     "note": "Backed President John Quincy Adams from 1825; Jackson beat Adams in 1828 and Clay in 1832."
+    }
+   ]
+  },
+  "edge_notes": {
+   "federalists": {
+    "status": "documented",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/1824_United_States_presidential_election",
+    "note": "Adams's defenders held 'National Republican sentiments echoing Federalist emphases on national institutions and meritocracy' (Grokipedia)."
+   },
+   "jeffersonian_republicans": {
+    "status": "direct",
+    "type": "split",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/National_Republican_Party",
+    "note": "Emerged 'from the splintering of the dominant Democratic-Republican Party after the disputed 1824 presidential election' (Grokipedia)."
+   }
+  }
+ },
+ {
+  "id": "whig_party",
+  "name": "Whig Party",
+  "root": false,
+  "root_axis": null,
+  "year": 1834,
+  "year_approx": false,
+  "place": "Washington, D.C.",
+  "lat": 38.9,
+  "lon": -77.04,
+  "origin_src": "https://grokipedia.com/page/Whig_Party_(United_States)",
+  "origin_note": "Anti-Jackson forces began meeting informally in Washington, D.C. in 1833 and adopted the name 'Whig' in early 1834, casting Jackson as 'King Andrew' (Grokipedia).",
+  "thinkers": [
+   "Henry Clay",
+   "Daniel Webster"
+  ],
+  "parents": [
+   "federalists",
+   "national_republicans"
+  ],
+  "plain": "The main rival to Andrew Jackson's Democrats from the 1830s to the 1850s. Led by Henry Clay and Daniel Webster, it backed tariffs, a national bank and Congress over a strong president.",
+  "summary": "Anti-Jackson coalition of National Republicans, Anti-Masons and dissident Democrats, for Clay's American System. It broke up over slavery; Northern Whigs went into the new Republican Party.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 1,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 2,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 2,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -1,
+   "hierarchy": 1
+  },
+  "rationale": {
+   "platonism": "No real link to Platonism.",
+   "aristotelianism": "No real link to Aristotelianism.",
+   "stoicism": "No real link to Stoicism.",
+   "christianity": "Drew a base among 'prosperous professionals and clergymen who emphasized social order and moral reform' (Grokipedia).",
+   "gnosticism": "No real link to Gnosticism.",
+   "hermeticism": "No real link to Hermeticism.",
+   "enlightenment_liberalism": "Took its name from British Whigs who 'resisted monarchical overreach' and stood for 'constitutional limits on executive power' (Grokipedia).",
+   "marxism": "Comes before Marxism existed, so it cannot descend from it.",
+   "darwinism": "Comes before Darwinism existed, so it cannot descend from it.",
+   "nietzsche": "Comes before Nietzsche existed, so it cannot descend from it.",
+   "critical_theory": "Comes before Critical theory existed, so it cannot descend from it.",
+   "confucianism": "No real link to Confucianism.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "No real link to Buddhism.",
+   "vedanta": "No real link to Vedanta.",
+   "islam": "No real link to Islam.",
+   "judaism": "No real link to Judaism.",
+   "romanticism": "No real link to Romanticism.",
+   "nationalism": "Carried on 'Whig nationalism' and Clay's American System for 'national economic integration' (Grokipedia).",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "A practical program of tariffs, banking and internal improvements rather than a systematic theory.",
+   "hierarchy": "Stood for 'elite republicanism against Jacksonian populism', while rejecting rule by birth or crown (Grokipedia)."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Whig_Party_(United_States)",
+   "https://grokipedia.com/page/Federalist_Party",
+   "https://grokipedia.com/page/Democratic-Republican_Party",
+   "https://grokipedia.com/page/Henry_Clay",
+   "https://grokipedia.com/page/Daniel_Webster"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "aliases": [
+   "American Whig Party",
+   "Whig Party of the United States"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "United States",
+     "period": "1834-1856",
+     "src": "https://grokipedia.com/page/Whig_Party_(United_States)",
+     "note": "Won the White House with Harrison and with Taylor, then dissolved by 1856 as Northern Whigs joined the Republicans."
+    },
+    {
+     "place": "New York",
+     "period": "1830s-1850s",
+     "src": "https://grokipedia.com/page/Whig_Party_(United_States)",
+     "note": "Anti-Masonic networks under Thurlow Weed joined the party there."
+    }
+   ]
+  },
+  "edge_notes": {
+   "federalists": {
+    "status": "documented",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Federalist_Party",
+    "note": "'Federalist nationalism influenced successor movements, notably the Whig Party's adoption of Hamilton-inspired policies' (Grokipedia)."
+   },
+   "national_republicans": {
+    "status": "direct",
+    "type": "merger",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Whig_Party_(United_States)",
+    "note": "Formed by 'National Republicans, Anti-Masons, and dissenting Democrats' against Jackson (Grokipedia)."
+   }
   }
  }
 ]
