@@ -3097,6 +3097,113 @@
   }
  },
  {
+  "id": "durkheimian_sociology",
+  "name": "Durkheimian sociology",
+  "root": false,
+  "root_axis": null,
+  "year": 1895,
+  "year_approx": true,
+  "place": "Bordeaux",
+  "lat": 44.84,
+  "lon": -0.58,
+  "origin_src": "https://grokipedia.com/page/The_Rules_of_Sociological_Method",
+  "origin_note": "The Rules of Sociological Method was serialized in 1894 and 'first published in 1895', after The Division of Labour (1893); Durkheim taught at Bordeaux from 1887, where he 'delivered the first official courses in sociology in France', 'until 1902'",
+  "thinkers": [
+   "Émile Durkheim",
+   "Marcel Mauss"
+  ],
+  "parents": [
+   "positivism"
+  ],
+  "plain": "Émile Durkheim's science of society: shared rules, beliefs and habits shape people from outside, so they should be studied like things, with facts and statistics.",
+  "summary": "Durkheim's sociology: treat 'social facts' as things and explain them by other social facts; L'Année Sociologique (1898) built a school around it.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 0,
+   "marxism": -1,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "humor": 0,
+   "irony": 0,
+   "critical_theory": 0,
+   "hierarchy": 1,
+   "abstraction": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 0
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "No clear debt to, or quarrel with, Christianity; its theory of religion names no tradition.",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "No clear debt to, or quarrel with, Enlightenment liberalism.",
+   "marxism": "His 1895–1896 lectures found socialist doctrines lacking 'empirical rigor' and preferred gradual reform (Grokipedia, Émile Durkheim).",
+   "darwinism": "No clear debt to, or quarrel with, Darwinism; its evolutionary debt is to Spencer.",
+   "nietzsche": "No real link to Nietzsche.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "critical_theory": "Comes before Critical theory existed, so it cannot descend from it.",
+   "hierarchy": "Calls for 'moral regulation through professional corporations and state intervention' against anomie (Grokipedia, Émile Durkheim); ranks no class.",
+   "abstraction": "Treats social facts as observable 'things', yet many are shared beliefs and categories; neither idealist nor materialist.",
+   "confucianism": "No real link to Confucianism.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "No real link to Buddhism.",
+   "vedanta": "No real link to Vedanta.",
+   "islam": "No clear debt to, or quarrel with, Islam; its theory of religion names no tradition.",
+   "judaism": "No clear debt to, or quarrel with, Judaism; its theory of religion names no tradition.",
+   "romanticism": "No real link to Romanticism.",
+   "nationalism": "No clear debt to, or quarrel with, Nationalism."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Émile_Durkheim",
+   "https://grokipedia.com/page/The_Rules_of_Sociological_Method",
+   "https://grokipedia.com/page/The_Division_of_Labour_in_Society",
+   "https://grokipedia.com/page/Social_fact",
+   "https://grokipedia.com/page/The_Elementary_Forms_of_the_Religious_Life",
+   "https://grokipedia.com/page/Marcel_Mauss"
+  ],
+  "domain": [
+   "philosophy"
+  ],
+  "aliases": [
+   "Durkheimian school"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "France",
+     "src": "https://grokipedia.com/page/Émile_Durkheim",
+     "note": "Durkheim founded L'Année Sociologique in 1898, 'the first journal dedicated to sociological research', around a group of students.",
+     "period": "1898–"
+    }
+   ]
+  },
+  "edge_notes": {
+   "positivism": {
+    "status": "documented",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Émile_Durkheim",
+    "note": "Durkheim 'explicitly positioned his work as advancing Comte's vision of sociology as a distinct positive science'."
+   }
+  }
+ },
+ {
   "id": "traditionalism",
   "name": "Perennialist Traditionalism",
   "root": false,
@@ -29405,6 +29512,7 @@
    "Fernand Braudel"
   ],
   "parents": [
+   "durkheimian_sociology",
    "marxism"
   ],
   "plain": "A French way of writing history that looks past kings, battles and treaties to the slow changes in land, trade, farming, everyday life and how ordinary people thought.",
@@ -29446,9 +29554,16 @@
     "strength": "weak",
     "src": "https://grokipedia.com/page/Annales_school",
     "note": "It 'incorporated elements of Marxist historiography', but Bloch and Febvre 'critiqued its reductionism'."
+   },
+   "durkheimian_sociology": {
+    "status": "documented",
+    "type": "influence",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Annales_school",
+    "note": "Bloch 'incorporated Émile Durkheim's sociological emphasis on social facts' and 'used Durkheimian tools to dissect agrarian structures'."
    }
   },
-  "parent_note": "Its other sources, Durkheim's sociology and Vidal de la Blache's geography, are not nodes on the map (Grokipedia, Annales school).",
+  "parent_note": "Vidal de la Blache's geography, which shaped Febvre, is not a node (Grokipedia, Annales school). The Marxist link is weak: the founders acknowledged it but critiqued its reductionism, and Braudel later drew on Marxist-inspired ideas of economic cycles.",
   "ratings": {
    "platonism": 0,
    "aristotelianism": 0,
@@ -29895,8 +30010,7 @@
   ],
   "aliases": [
    "Myth of racial democracy",
-   "Democracia racial",
-   "Luso-tropicalism"
+   "Democracia racial"
   ],
   "thrives_in": {
    "historical": true,
@@ -29922,7 +30036,7 @@
     "note": "It 'aligned with state efforts to forge national unity' under Vargas by celebrating Brazilianness (brasilidade)."
    }
   },
-  "parent_note": "Freyre studied under Franz Boas at Columbia and rejected scientific racism (Grokipedia, Gilberto Freyre); Boasian anthropology is not a node. Critics: Florestan Fernandes, Abdias do Nascimento.",
+  "parent_note": "Freyre studied under Franz Boas and rejected scientific racism (Grokipedia, Gilberto Freyre); Boasian anthropology is not a node. Critics: Florestan Fernandes, Abdias do Nascimento. His later Lusotropicalism (1951) is a separate idea (Grokipedia, Lusotropicalism).",
   "ratings": {
    "platonism": 0,
    "aristotelianism": 0,
@@ -29995,7 +30109,7 @@
    "absolute_sovereignty",
    "natural_law"
   ],
-  "plain": "The rule that each state runs its own territory and outsiders stay out of its internal affairs, religion included. It is usually dated to the 1648 treaties ending the Thirty Years' War.",
+  "plain": "Each state runs its own territory and outsiders stay out of its internal affairs. It is usually traced to the 1648 treaties ending the Thirty Years' War; historians debate that story.",
   "summary": "Order tied to the 1648 Peace of Westphalia: territorial sovereignty, legal equality of states and non-interference; scholars debate how new it was.",
   "stories": [],
   "sources": [
@@ -30023,8 +30137,8 @@
     },
     {
      "place": "Holy Roman Empire",
-     "src": "https://grokipedia.com/page/Westphalian_system",
-     "note": "The treaties curtailed the Emperor's powers and let rulers choose their realm's religion."
+     "src": "https://grokipedia.com/page/Peace_of_Westphalia",
+     "note": "The treaties curbed the Emperor, confirmed Augsburg's 1555 rule letting rulers set their land's religion, added Calvinism and fixed 1624 as the normal year."
     }
    ]
   },
@@ -30213,13 +30327,13 @@
   "name": "Pan-Arabism",
   "root": false,
   "root_axis": null,
-  "year": 1916,
+  "year": 1915,
   "year_approx": true,
   "origin_src": "https://grokipedia.com/page/Pan-Arabism",
-  "origin_note": "It grew among late-19th-century Arab thinkers under Ottoman rule; the Arab Revolt led by Sharif Hussein of Mecca (1916-1918) was 'an early expression' with 'pan-Arab aspirations' (Grokipedia).",
-  "place": "Mecca",
-  "lat": 21.42,
-  "lon": 39.83,
+  "origin_note": "Precursors: Butrus al-Bustani's Nafir Suriyya (1860), which urged Syrian unity through Arabic, and al-Kawakibi's 'proto-pan-Arab political critique' in Umm al-Qura (1899-1900); al-Fatat (1911) sought decentralization within the Ottoman Empire. Its 1915 Damascus Protocol sought 'British recognition of an independent Arab state', shaping the McMahon-Hussein letters from 14 July 1915. The Arab Revolt (1916-1918) followed (Grokipedia, Al-Fatat).",
+  "place": "Damascus",
+  "lat": 33.51,
+  "lon": 36.29,
   "thinkers": [
    "Sati' al-Husri",
    "Michel Aflaq",
@@ -30240,16 +30354,15 @@
    "https://grokipedia.com/page/Michel_Aflaq",
    "https://grokipedia.com/page/Gamal_Abdel_Nasser",
    "https://grokipedia.com/page/Zaki_al-Arsuzi",
-   "https://grokipedia.com/page/Jurji_Zaydan"
+   "https://grokipedia.com/page/Jurji_Zaydan",
+   "https://grokipedia.com/page/Al-Fatat"
   ],
   "domain": [
    "politics"
   ],
   "aliases": [
    "Arab unity",
-   "Arab nationalism",
-   "Nasserism",
-   "Ba'athism"
+   "Arab nationalism"
   ],
   "thrives_in": {
    "historical": true,
