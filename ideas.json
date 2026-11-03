@@ -18630,14 +18630,14 @@
    "platonism": "No real link to Platonism.",
    "aristotelianism": "No real link to Aristotelianism.",
    "stoicism": "No real link to Stoicism.",
-   "christianity": "Invokes French Catholic heritage; judgment.",
+   "christianity": "Uses Christianity as a cultural symbol, which the page calls 'post-religious', rather than as a faith program.",
    "gnosticism": "No real link to Gnosticism.",
    "hermeticism": "No real link to Hermeticism.",
-   "enlightenment_liberalism": "Electoral, but opposes multicultural liberal consensus; judgment.",
-   "marxism": "Anti-communist origins; now courts workers; judgment.",
+   "enlightenment_liberalism": "Runs in elections and claims to protect individual freedoms, but would reserve benefits for citizens ('national preference').",
+   "marxism": "Calls itself 'neither right nor left'; its 1972 founders included anti-communists, and it now courts workers with welfare.",
    "darwinism": "No real link to Darwinism.",
    "nietzsche": "No real link to Nietzsche.",
-   "critical_theory": "Opposes progressive identity politics; judgment.",
+   "critical_theory": "Rejects multiculturalism and puts national identity first; critics accuse it of xenophobia (Grokipedia, National Rally).",
    "confucianism": "No real link to Confucianism.",
    "daoism": "No real link to Daoism.",
    "buddhism": "No real link to Buddhism.",
@@ -18648,7 +18648,7 @@
    "nationalism": "National Rally nationalism descends from Nationalism and calls for national preference.",
    "humor": "Earnest register.",
    "irony": "Makes its case directly, without ironic distance.",
-   "abstraction": "Populist register; judgment.",
+   "abstraction": "Concrete demands: an immigration moratorium, 'national preference' in jobs and housing, and referendums.",
    "hierarchy": "Its national preference policy reserves some benefits and housing help for French citizens first."
   },
   "stories": [],
@@ -18994,14 +18994,14 @@
    "platonism": "No real link to Platonism.",
    "aristotelianism": "No real link to Aristotelianism.",
    "stoicism": "No real link to Stoicism.",
-   "christianity": "Claims Christian-Western culture; judgment.",
+   "christianity": "Defends a German 'Leitkultur' rooted in 'Christian-Western heritage' and says 'Islam does not belong to Germany' (Grokipedia).",
    "gnosticism": "No real link to Gnosticism.",
    "hermeticism": "No real link to Hermeticism.",
    "enlightenment_liberalism": "Began 'as a liberal-conservative alternative'; later shifted right (Grokipedia, AfD).",
-   "marxism": "Anti-left; judgment.",
+   "marxism": "Began as an economists' party against euro bailouts, citing 'market discipline'; it sits opposite The Left in parliament.",
    "darwinism": "No real link to Darwinism.",
    "nietzsche": "No real link to Nietzsche.",
-   "critical_theory": "Opposes progressive cultural agendas; judgment.",
+   "critical_theory": "Opposes 'gender ideology', gender quotas and state money for gender studies (Grokipedia, Alternative for Germany).",
    "confucianism": "No real link to Confucianism.",
    "daoism": "No real link to Daoism.",
    "buddhism": "No real link to Buddhism.",
@@ -19012,7 +19012,7 @@
    "nationalism": "Alternative for Germany descends from Nationalism and opposes EU powers over Germany.",
    "humor": "Earnest register.",
    "irony": "Makes its case directly, without ironic distance.",
-   "abstraction": "Populist register; judgment.",
+   "abstraction": "Concrete demands: border controls, deporting migrants who do not integrate, nuclear power and a possible 'Dexit' vote.",
    "hierarchy": "Calls for 'remigration' and mass deportations of migrants who fail to assimilate, putting natives first."
   },
   "stories": [],
@@ -25621,7 +25621,8 @@
   ],
   "parents": [
    "free_soil",
-   "american_republicanism"
+   "american_republicanism",
+   "abolitionism"
   ],
   "plain": "Republicans in Congress who wanted slavery ended at once and full civil rights and voting rights for freed Black Americans, enforced by federal power over the defeated South.",
   "summary": "Civil War and Reconstruction GOP faction: immediate emancipation, the 1866 Civil Rights Act, the 14th and 15th Amendments, military Reconstruction, land for freedmen; led by Stevens and Sumner.",
@@ -25720,6 +25721,13 @@
     "strength": "moderate",
     "src": "https://grokipedia.com/page/Radical_Republicans",
     "note": "Radicals saw slavery as 'an indefensible violation of natural rights and republican principles' (Grokipedia, Radical Republicans)."
+   },
+   "abolitionism": {
+    "status": "documented",
+    "type": "influence",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Radical_Republicans",
+    "note": "'Influenced by abolitionist thought', Radicals saw slavery as a sin requiring 'its immediate and total abolition'."
    }
   }
  },
@@ -29712,6 +29720,611 @@
     "src": "https://grokipedia.com/page/Whig_Party_(United_States)",
     "note": "Formed by 'National Republicans, Anti-Masons, and dissenting Democrats' against Jackson (Grokipedia)."
    }
+  }
+ },
+ {
+  "id": "racial_democracy",
+  "name": "Racial democracy",
+  "root": false,
+  "root_axis": null,
+  "year": 1933,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Racial_democracy",
+  "origin_note": "Gilberto Freyre's Casa-Grande & Senzala (1933) laid out the argument; the label 'racial democracy' was 'later popularized' (Grokipedia, Gilberto Freyre).",
+  "place": "Brazil",
+  "lat": null,
+  "lon": null,
+  "thinkers": [
+   "Gilberto Freyre"
+  ],
+  "parents": [
+   "nationalism"
+  ],
+  "plain": "The belief that Brazil had escaped racism because its peoples had mixed for centuries and it never passed segregation laws. Later research showed that deep racial gaps remained.",
+  "summary": "Brazil's self-image, rooted in Freyre's 1933 book, as a land of racial mixing without prejudice; studies from the 1950s found lasting color gaps, and critics called it a myth.",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Racial_democracy",
+   "https://grokipedia.com/page/Gilberto_Freyre",
+   "https://grokipedia.com/page/Florestan_Fernandes"
+  ],
+  "domain": [
+   "politics",
+   "culture"
+  ],
+  "aliases": [
+   "Myth of racial democracy",
+   "Democracia racial",
+   "Luso-tropicalism"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Brazil",
+     "src": "https://grokipedia.com/page/Gilberto_Freyre",
+     "note": "Shaped national self-image under Vargas's Estado Novo (1937-1945), which celebrated 'Brazilianness' as a product of mixing."
+    },
+    {
+     "place": "Brazil after the 1960s",
+     "src": "https://grokipedia.com/page/Racial_democracy",
+     "note": "Lost scholarly support between the 1950s and 1980s; the 2012 university quota law openly recognized racial inequality."
+    }
+   ]
+  },
+  "edge_notes": {
+   "nationalism": {
+    "status": "documented",
+    "type": "descent",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Gilberto_Freyre",
+    "note": "It 'aligned with state efforts to forge national unity' under Vargas by celebrating Brazilianness (brasilidade)."
+   }
+  },
+  "parent_note": "Freyre studied under Franz Boas at Columbia and rejected scientific racism (Grokipedia, Gilberto Freyre); Boasian anthropology is not a node. Critics: Florestan Fernandes, Abdias do Nascimento.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 0,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 3,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -1,
+   "hierarchy": 0
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "No clear debt to Christianity; Freyre stressed Portuguese custom, climate and family life.",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "No clear debt to, or quarrel with, Enlightenment liberalism.",
+   "marxism": "No clear debt to, or quarrel with, Marxism.",
+   "darwinism": "No clear debt to Darwinism; Freyre rejected the scientific racism of his day, and the idea was hailed as 'an antidote to eugenics'.",
+   "nietzsche": "No clear debt to, or quarrel with, Nietzsche.",
+   "critical_theory": "No clear debt to, or quarrel with, Critical theory.",
+   "confucianism": "No clear debt to, or quarrel with, Confucianism.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islam": "No clear debt to, or quarrel with, Islam.",
+   "judaism": "No clear debt to, or quarrel with, Judaism.",
+   "romanticism": "No clear debt to, or quarrel with, Romanticism.",
+   "nationalism": "A national story: Brazil as one mixed people, used by the Vargas state to build national unity.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Built on daily life in the plantation household: food, houses, family ties and mixed marriages.",
+   "hierarchy": "Split: it denies a color line, yet critics say it hid one and romanticized the master's household."
+  }
+ },
+ {
+  "id": "westphalian_sovereignty",
+  "name": "Westphalian sovereignty",
+  "root": false,
+  "root_axis": null,
+  "year": 1648,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Peace_of_Westphalia",
+  "origin_note": "The Treaties of Münster and Osnabrück were both concluded on October 24, 1648, ending the Thirty Years' War (Grokipedia, Peace of Westphalia).",
+  "place": "Münster",
+  "lat": 51.96,
+  "lon": 7.63,
+  "thinkers": [
+   "Jean Bodin",
+   "Hugo Grotius",
+   "Emer de Vattel"
+  ],
+  "parents": [
+   "absolute_sovereignty",
+   "natural_law"
+  ],
+  "plain": "The rule that each state runs its own territory and outsiders stay out of its internal affairs, religion included. It is usually dated to the 1648 treaties ending the Thirty Years' War.",
+  "summary": "Order tied to the 1648 Peace of Westphalia: territorial sovereignty, legal equality of states and non-interference; scholars debate how new it was.",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Westphalian_system",
+   "https://grokipedia.com/page/Peace_of_Westphalia",
+   "https://grokipedia.com/page/Jean_Bodin",
+   "https://grokipedia.com/page/Hugo_Grotius",
+   "https://grokipedia.com/page/Emer_de_Vattel"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "aliases": [
+   "Westphalian system",
+   "Peace of Westphalia",
+   "State sovereignty"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "United Nations",
+     "src": "https://grokipedia.com/page/Westphalian_system",
+     "note": "Its legacy 'endures in the United Nations Charter's affirmations of sovereign equality'."
+    },
+    {
+     "place": "Holy Roman Empire",
+     "src": "https://grokipedia.com/page/Westphalian_system",
+     "note": "The treaties curtailed the Emperor's powers and let rulers choose their realm's religion."
+    }
+   ]
+  },
+  "edge_notes": {
+   "absolute_sovereignty": {
+    "status": "documented",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Westphalian_system",
+    "note": "Bodin 'formalized sovereignty' in 1576; the page sees 'conceptual continuity rather than rupture at Westphalia'."
+   },
+   "natural_law": {
+    "status": "documented",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Westphalian_system",
+    "note": "Grotius (1625) treated 'sovereign states as moral persons under natural law', setting 'baselines for reciprocal recognition'."
+   }
+  },
+  "parent_note": "Some scholars call the 'Westphalian sovereignty' story 'exaggerated or mythical', since territorial autonomy came before 1648 (Grokipedia, Westphalian system).",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 1,
+   "stoicism": 1,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 0,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -1,
+   "hierarchy": 0
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "Comes partly through Bodin, who drew on Aristotle among his classical sources.",
+   "stoicism": "Comes partly through Grotius's natural law, an idea that reached him from the Stoics by way of Cicero.",
+   "christianity": "Ended religious wars by letting rulers set their realm's faith; Pope Innocent X rejected the treaties.",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "Comes before Enlightenment liberalism existed, so it cannot descend from it.",
+   "marxism": "Comes before Marxism existed, so it cannot descend from it.",
+   "darwinism": "Comes before Darwinism existed, so it cannot descend from it.",
+   "nietzsche": "Comes before Nietzsche existed, so it cannot descend from it.",
+   "critical_theory": "Comes before Critical theory existed, so it cannot descend from it.",
+   "confucianism": "No clear debt to, or quarrel with, Confucianism.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islam": "No clear debt to, or quarrel with, Islam.",
+   "judaism": "No clear debt to, or quarrel with, Judaism.",
+   "romanticism": "Comes before Romanticism existed, so it cannot descend from it.",
+   "nationalism": "Comes before Nationalism existed, so it cannot descend from it.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Practical rules: borders, treaty articles, territorial swaps and recognition of states.",
+   "hierarchy": "Split: states are legal equals with no emperor above them, but each ruler holds full power at home."
+  }
+ },
+ {
+  "id": "balance_of_power",
+  "name": "Balance of power",
+  "root": false,
+  "root_axis": null,
+  "year": 1713,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Balance_of_power_(international_relations)",
+  "origin_note": "The Treaty of Utrecht (1713), ending the War of the Spanish Succession, marked 'the first formal invocation of \"balance of power\"' (Grokipedia, Balance of power).",
+  "place": "Utrecht",
+  "lat": 52.09,
+  "lon": 5.12,
+  "thinkers": [
+   "Hans Morgenthau",
+   "Kenneth Waltz"
+  ],
+  "parents": [
+   "westphalian_sovereignty"
+  ],
+  "plain": "The idea that peace is safest when no single country is strong enough to dominate the rest, so states join alliances or build up arms to check any rising power.",
+  "summary": "States check any would-be dominant power with alliances and arms: formally invoked at Utrecht (1713), the logic of the 1815 Vienna settlement, central to realist theory.",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Balance_of_power_(international_relations)",
+   "https://grokipedia.com/page/Westphalian_system",
+   "https://grokipedia.com/page/Concert_of_Europe",
+   "https://grokipedia.com/page/Hans_Morgenthau",
+   "https://grokipedia.com/page/Kenneth_Waltz"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "aliases": [
+   "Balance-of-power theory",
+   "Equilibrium of power"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Europe, 1815-1914",
+     "src": "https://grokipedia.com/page/Balance_of_power_(international_relations)",
+     "note": "The Congress of Vienna and the Concert of Europe kept great-power equilibrium for most of a century."
+    },
+    {
+     "place": "Cold War",
+     "src": "https://grokipedia.com/page/Balance_of_power_(international_relations)",
+     "note": "NATO (1949) and the Warsaw Pact (1955) balanced each other, backed by nuclear deterrence."
+    }
+   ]
+  },
+  "edge_notes": {
+   "westphalian_sovereignty": {
+    "status": "documented",
+    "type": "descent",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Balance_of_power_(international_relations)",
+    "note": "The 1648 settlement created a multipolar system, 'laying groundwork for balance-of-power practices'."
+   }
+  },
+  "parent_note": "Older examples are cited: Kautilya's Arthashastra, Warring States China and Thucydides; modern realism (Morgenthau, Waltz) made it theory (Grokipedia, Balance of power).",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 0,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -3,
+   "hierarchy": -1
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "No clear debt to, or quarrel with, Christianity.",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "No clear debt to liberalism; Wilson's Fourteen Points later offered collective security instead of balance-of-power rivalry.",
+   "marxism": "Comes before Marxism existed, so it cannot descend from it.",
+   "darwinism": "Comes before Darwinism existed, so it cannot descend from it.",
+   "nietzsche": "Comes before Nietzsche existed, so it cannot descend from it.",
+   "critical_theory": "Comes before Critical theory existed, so it cannot descend from it.",
+   "confucianism": "No clear debt to, or quarrel with, Confucianism.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islam": "No clear debt to, or quarrel with, Islam.",
+   "judaism": "No clear debt to, or quarrel with, Judaism.",
+   "romanticism": "Comes before Romanticism existed, so it cannot descend from it.",
+   "nationalism": "Comes before Nationalism existed, so it cannot descend from it.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Treats power as material capability: armies, fleets, money and alliances that can be counted.",
+   "hierarchy": "Opposes any one state ruling the rest, though great powers often settled small states' fates."
+  }
+ },
+ {
+  "id": "pan_arabism",
+  "name": "Pan-Arabism",
+  "root": false,
+  "root_axis": null,
+  "year": 1916,
+  "year_approx": true,
+  "origin_src": "https://grokipedia.com/page/Pan-Arabism",
+  "origin_note": "It grew among late-19th-century Arab thinkers under Ottoman rule; the Arab Revolt led by Sharif Hussein of Mecca (1916-1918) was 'an early expression' with 'pan-Arab aspirations' (Grokipedia).",
+  "place": "Mecca",
+  "lat": 21.42,
+  "lon": 39.83,
+  "thinkers": [
+   "Sati' al-Husri",
+   "Michel Aflaq",
+   "Zaki al-Arsuzi",
+   "Jurji Zaydan",
+   "Gamal Abdel Nasser"
+  ],
+  "parents": [
+   "nationalism"
+  ],
+  "plain": "The idea that all Arabic-speaking peoples form one nation and should unite in one state or federation, free of the borders drawn by European powers after World War I.",
+  "summary": "All Arabic speakers as one nation that should unite politically; peaked under Nasser (Egypt-Syria union 1958-1961) and in Ba'athism, then declined after 1967.",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Pan-Arabism",
+   "https://grokipedia.com/page/Ba%27athism",
+   "https://grokipedia.com/page/Sati%27_al-Husri",
+   "https://grokipedia.com/page/Michel_Aflaq",
+   "https://grokipedia.com/page/Gamal_Abdel_Nasser",
+   "https://grokipedia.com/page/Zaki_al-Arsuzi",
+   "https://grokipedia.com/page/Jurji_Zaydan"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "aliases": [
+   "Arab unity",
+   "Arab nationalism",
+   "Nasserism",
+   "Ba'athism"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Egypt",
+     "src": "https://grokipedia.com/page/Pan-Arabism",
+     "note": "Nasser made it Egyptian policy; the United Arab Republic with Syria lasted from 1958 to 1961."
+    },
+    {
+     "place": "Syria and Iraq",
+     "src": "https://grokipedia.com/page/Ba%27athism",
+     "note": "The Ba'ath Party, founded in Damascus in 1947, took power in Syria (1963) and Iraq (1968)."
+    }
+   ]
+  },
+  "edge_notes": {
+   "nationalism": {
+    "status": "documented",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Pan-Arabism",
+    "note": "A 'pan-nationalist political ideology': Arabs, bound by language, history and culture, should form one political entity."
+   }
+  },
+  "parent_note": "Al-Kawakibi drew on Ibn Khaldun's asabiyya; Islamist critics opposed its secular, language-first idea of the nation (Grokipedia, Pan-Arabism). Neither is linked here.",
+  "basis": {
+   "marxism": "stance"
+  },
+  "stance_raw": {
+   "marxism": -2
+  },
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 1,
+   "marxism": -1,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 1,
+   "nationalism": 4,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 0,
+   "hierarchy": 1
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "Several founders were Arab Christians, such as Zaydan and Aflaq, but the program itself is secular.",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "Nahda writers translated European works and urged rational inquiry; the Ba'ath slogan was 'Unity, Liberty, Socialism'.",
+   "marxism": "Stance: Aflaq's Ba'athism 'rejected Marxist materialism' and used socialism for national goals, not class struggle.",
+   "darwinism": "No clear debt to, or quarrel with, Darwinism.",
+   "nietzsche": "No clear debt to, or quarrel with, Nietzsche.",
+   "critical_theory": "Comes before Critical theory existed, so it cannot descend from it.",
+   "confucianism": "No clear debt to, or quarrel with, Confucianism.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islam": "Split: al-Husri put language before religion, while Aflaq treated Islam as Arab cultural heritage.",
+   "judaism": "Opposed Zionism as a rival national claim, not Judaism as a faith.",
+   "romanticism": "Aflaq spoke of the 'resurrection' of the Arab spirit and its 'eternal mission', in the manner of Romantic nationalism.",
+   "nationalism": "Nationalism on the largest scale: one Arab nation across many states, defined by language and history.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Split: Arsuzi's mystical theory of the Arabic language, but concrete aims of unions, pacts and planning.",
+   "hierarchy": "Rejected feudal and clerical rank, but its regimes became centralized and authoritarian."
+  }
+ },
+ {
+  "id": "abolitionism",
+  "name": "Abolitionism",
+  "root": false,
+  "root_axis": null,
+  "year": 1787,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Abolitionism",
+  "origin_note": "The Society for Effecting the Abolition of the Slave Trade was founded in London on May 22, 1787, by Thomas Clarkson, Granville Sharp and others (Grokipedia, Abolitionism).",
+  "place": "London",
+  "lat": 51.51,
+  "lon": -0.13,
+  "thinkers": [
+   "Thomas Clarkson",
+   "Granville Sharp",
+   "William Wilberforce",
+   "Olaudah Equiano",
+   "William Lloyd Garrison",
+   "Frederick Douglass"
+  ],
+  "parents": [
+   "enlightenment_liberalism",
+   "protestantism",
+   "methodism"
+  ],
+  "plain": "The movement to end slavery and the slave trade completely, not just to make them milder. It used petitions, boycotts, first-hand accounts by freed slaves, and new laws.",
+  "summary": "Movement to end chattel slavery and the Atlantic slave trade: British acts of 1807 and 1833, US immediatism from 1833, ending with the 13th Amendment (1865).",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Abolitionism",
+   "https://grokipedia.com/page/Abolitionism_in_the_United_States",
+   "https://grokipedia.com/page/Thomas_Clarkson",
+   "https://grokipedia.com/page/William_Wilberforce",
+   "https://grokipedia.com/page/William_Lloyd_Garrison",
+   "https://grokipedia.com/page/Methodism"
+  ],
+  "domain": [
+   "politics",
+   "religion"
+  ],
+  "aliases": [
+   "Abolitionist movement",
+   "Anti-slavery movement",
+   "Immediatism"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Britain",
+     "src": "https://grokipedia.com/page/Abolitionism",
+     "note": "Won the Slave Trade Act of 1807 and the Slavery Abolition Act of 1833."
+    },
+    {
+     "place": "United States",
+     "src": "https://grokipedia.com/page/Abolitionism",
+     "note": "The American Anti-Slavery Society's 1833 Declaration of Sentiments demanded immediate emancipation; the 13th Amendment followed in 1865."
+    }
+   ]
+  },
+  "edge_notes": {
+   "enlightenment_liberalism": {
+    "status": "documented",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Abolitionism",
+    "note": "'Rooted in Enlightenment ideas of natural rights'; abolitionists extended Locke's argument that no one can give up freedom for life."
+   },
+   "protestantism": {
+    "status": "documented",
+    "type": "influence",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Abolitionism",
+    "note": "Its religious roots were 'predominantly rooted in Protestant Christianity, particularly among Quakers and Evangelicals'."
+   },
+   "methodism": {
+    "status": "documented",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Methodism",
+    "note": "Methodist ethics informed 'opposition to slavery (as in Wesley's 1774 Thoughts on Slavery)'; Wesley urged Methodists to oppose it."
+   }
+  },
+  "parent_note": "The 1688 Germantown Quaker petition came first; Quakerism is not a node. Colonization (resettling freed people in Liberia) was a rival approach (Grokipedia, Abolitionism).",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 3,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 4,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 0,
+   "hierarchy": -4
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "No clear debt to Stoicism; Seneca urged kindness to slaves but accepted slavery.",
+   "christianity": "Quakers and Evangelicals like Wilberforce saw slavery as a sin against people made in God's image.",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "Built on natural rights: liberty belongs to every person and cannot be lost by sale or birth.",
+   "marxism": "Comes before Marxism existed, so it cannot descend from it.",
+   "darwinism": "Comes before Darwinism existed, so it cannot descend from it.",
+   "nietzsche": "Comes before Nietzsche existed, so it cannot descend from it.",
+   "critical_theory": "Comes before Critical theory existed, so it cannot descend from it.",
+   "confucianism": "No clear debt to, or quarrel with, Confucianism.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islam": "No clear debt to, or quarrel with, Islam.",
+   "judaism": "No clear debt to, or quarrel with, Judaism.",
+   "romanticism": "Comes before Romanticism existed, so it cannot descend from it.",
+   "nationalism": "Comes before Nationalism existed, so it cannot descend from it.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Split: a universal moral principle, pressed through hard evidence, petitions, boycotts and laws.",
+   "hierarchy": "Rejects the most extreme rank of all, one person owning another, and claims equal human worth."
   }
  }
 ]
