@@ -30580,5 +30580,544 @@
    "abstraction": "Split: a universal moral principle, pressed through hard evidence, petitions, boycotts and laws.",
    "hierarchy": "Rejects the most extreme rank of all, one person owning another, and claims equal human worth."
   }
+ },
+ {
+  "id": "concert_of_europe",
+  "name": "Concert of Europe",
+  "root": false,
+  "root_axis": null,
+  "year": 1815,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Concert_of_Europe",
+  "origin_note": "Set up after the Congress of Vienna (1814-1815) by Austria, Britain, Prussia and Russia, later joined by France (Grokipedia, Concert of Europe).",
+  "place": "Vienna",
+  "lat": 48.21,
+  "lon": 16.37,
+  "thinkers": [
+   "Klemens von Metternich",
+   "Robert Stewart, Viscount Castlereagh"
+  ],
+  "parents": [
+   "balance_of_power"
+  ],
+  "plain": "The idea that Europe's great powers should meet and settle crises together, so no one of them dominates and no revolution spreads. It kept the peace among them from 1815 to the Crimean War.",
+  "summary": "Great-power management of Europe after 1815: congresses, a guarded balance and monarchical legitimacy; no general war until 1853, but it crushed liberal revolts.",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Concert_of_Europe",
+   "https://grokipedia.com/page/Congress_of_Vienna",
+   "https://grokipedia.com/page/Klemens_von_Metternich",
+   "https://grokipedia.com/page/Robert_Stewart,_Viscount_Castlereagh"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "aliases": [
+   "Congress System",
+   "Vienna system",
+   "European Concert"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Europe, 1815-1853",
+     "src": "https://grokipedia.com/page/Concert_of_Europe",
+     "note": "Congresses at Aix-la-Chapelle (1818), Troppau (1820) and Verona (1822) handled crises with no general European war until the Crimean War."
+    }
+   ]
+  },
+  "edge_notes": {
+   "balance_of_power": {
+    "status": "documented",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Concert_of_Europe",
+    "note": "'The balance of power principle constituted the core mechanism of the Concert of Europe', now run by joint consultation."
+   }
+  },
+  "parent_note": "Its conservative side ran through the Holy Alliance of Russia, Austria and Prussia (September 26, 1815), not a node here (Grokipedia, Concert of Europe).",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 1,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": -2,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": -3,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -2,
+   "hierarchy": 3
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "Its Holy Alliance pledged mutual defense of Christian sovereigns and invoked Christian principles against secular liberalism.",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "Backed interventions in Spain and Naples to put down constitutional revolts, which Britain often opposed.",
+   "marxism": "Comes before Marxism existed, so it cannot descend from it.",
+   "darwinism": "Comes before Darwinism existed, so it cannot descend from it.",
+   "nietzsche": "Comes before Nietzsche existed, so it cannot descend from it.",
+   "critical_theory": "Comes before Critical theory existed, so it cannot descend from it.",
+   "confucianism": "No clear debt to, or quarrel with, Confucianism.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islam": "No clear debt to, or quarrel with, Islam.",
+   "judaism": "No clear debt to, or quarrel with, Judaism.",
+   "romanticism": "No clear debt to, or quarrel with, Romanticism.",
+   "nationalism": "Redrew borders for power parity over national claims and suppressed nationalist revolts; mass nationalism helped end it.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Practical diplomacy: congresses, treaties, border swaps and buffer states around France.",
+   "hierarchy": "Defended monarchical legitimacy and let five great powers decide the fate of smaller states."
+  }
+ },
+ {
+  "id": "informal_empire",
+  "name": "Informal empire",
+  "root": false,
+  "root_axis": null,
+  "year": 1953,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Informal_empire",
+  "origin_note": "First theorized systematically in Gallagher and Robinson's 1953 article 'The Imperialism of Free Trade' (Economic History Review); C. R. Fay had used the term in 1940 (Grokipedia).",
+  "place": "Britain",
+  "lat": null,
+  "lon": null,
+  "thinkers": [
+   "John Gallagher",
+   "Ronald Robinson"
+  ],
+  "parents": [],
+  "plain": "The idea that a strong country can run weaker ones without conquering them, through loans, trade deals, gunboats and pressure, while those countries stay independent on paper.",
+  "summary": "Power over formally sovereign states through debt, trade and pressure rather than annexation; framed in 1953 for Britain's free-trade empire, disputed by D.C.M. Platt.",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Informal_empire"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "aliases": [
+   "Imperialism of free trade",
+   "Free trade imperialism",
+   "Informal imperialism"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Latin America, 19th century",
+     "src": "https://grokipedia.com/page/Informal_empire",
+     "note": "Independent republics tied to British loans, railways and export markets."
+    },
+    {
+     "place": "Qing China",
+     "src": "https://grokipedia.com/page/Informal_empire",
+     "note": "The Opium Wars imposed unequal treaties with extraterritoriality and tariff control, without annexation."
+    }
+   ]
+  },
+  "edge_notes": {},
+  "parent_note": "Not linked: Lenin's theory had already called Argentina 'semi-colonial'; Gallagher and Robinson argued against Hobson's dating of imperialism to late finance capital (Grokipedia, Informal empire).",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 0,
+   "marxism": 1,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -2,
+   "hierarchy": 2
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "No clear debt to, or quarrel with, Christianity.",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "No clear debt to liberalism; it argues free trade itself served as a tool of British imperial power.",
+   "marxism": "Lenin had described 'semi-colonial' ties like Argentina's; Marxist critics read informal empire as capitalist exploitation.",
+   "darwinism": "No clear debt to, or quarrel with, Darwinism.",
+   "nietzsche": "No clear debt to, or quarrel with, Nietzsche.",
+   "critical_theory": "No clear debt to, or quarrel with, Critical theory.",
+   "confucianism": "No clear debt to, or quarrel with, Confucianism.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islam": "No clear debt to, or quarrel with, Islam.",
+   "judaism": "No clear debt to, or quarrel with, Judaism.",
+   "romanticism": "No clear debt to, or quarrel with, Romanticism.",
+   "nationalism": "No clear debt to, or quarrel with, Nationalism.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Concrete levers: loans, railway investment, naval power, unequal treaties and tariff control.",
+   "hierarchy": "Describes strong states ranking above weak ones that remain sovereign only on paper."
+  }
+ },
+ {
+  "id": "nullification",
+  "name": "Nullification",
+  "root": false,
+  "root_axis": null,
+  "year": 1798,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Nullification_(U.S._Constitution)",
+  "origin_note": "Began in the Kentucky Resolutions of 1798, drafted by Jefferson against the Alien and Sedition Acts; Calhoun systematized it in 1828 (Grokipedia, Nullification).",
+  "place": "Kentucky",
+  "lat": null,
+  "lon": null,
+  "thinkers": [
+   "Thomas Jefferson",
+   "James Madison",
+   "John C. Calhoun"
+  ],
+  "parents": [
+   "jeffersonian_republicans"
+  ],
+  "plain": "The claim that a US state may declare a federal law unconstitutional and refuse to enforce it inside its borders. South Carolina tried it against the tariffs in 1832.",
+  "summary": "States as judges of federal law: the 1798 Kentucky and Virginia Resolutions, Calhoun's 1828 Exposition and South Carolina's 1832 ordinance, which Jackson rejected.",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Nullification_(U.S._Constitution)",
+   "https://grokipedia.com/page/Kentucky_and_Virginia_Resolutions",
+   "https://grokipedia.com/page/Nullification_crisis",
+   "https://grokipedia.com/page/John_C._Calhoun"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "aliases": [
+   "Nullification doctrine",
+   "Interposition",
+   "Compact theory"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "South Carolina, 1832-1833",
+     "src": "https://grokipedia.com/page/Nullification_crisis",
+     "note": "Declared the 1828 and 1832 tariffs void; Jackson answered with a proclamation and the Force Bill, and the 1833 tariff ended the crisis."
+    },
+    {
+     "place": "Northern free states, 1850s",
+     "src": "https://grokipedia.com/page/Nullification_(U.S._Constitution)",
+     "note": "Personal liberty laws obstructed the Fugitive Slave Act of 1850 in at least nine states by 1855."
+    }
+   ]
+  },
+  "edge_notes": {
+   "jeffersonian_republicans": {
+    "status": "documented",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Kentucky_and_Virginia_Resolutions",
+    "note": "Jefferson and Madison wrote the 1798 resolutions against the Federalist Congress's Alien and Sedition Acts."
+   }
+  },
+  "parent_note": "Madison later separated compact theory from one state acting alone; Jackson and later court rulings rejected nullification under the Supremacy Clause (Grokipedia, Nullification).",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 2,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -1,
+   "hierarchy": -1
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "No clear debt to, or quarrel with, Christianity.",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "Born defending free speech and limited, delegated government against the Sedition Act.",
+   "marxism": "Comes before Marxism existed, so it cannot descend from it.",
+   "darwinism": "Comes before Darwinism existed, so it cannot descend from it.",
+   "nietzsche": "Comes before Nietzsche existed, so it cannot descend from it.",
+   "critical_theory": "Comes before Critical theory existed, so it cannot descend from it.",
+   "confucianism": "No clear debt to, or quarrel with, Confucianism.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islam": "No clear debt to, or quarrel with, Islam.",
+   "judaism": "No clear debt to, or quarrel with, Judaism.",
+   "romanticism": "No clear debt to, or quarrel with, Romanticism.",
+   "nationalism": "No clear debt to nationalism; it puts state sovereignty ahead of a single national will, and Jackson called it a threat to the Union.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "A legal theory of the Constitution, applied to concrete laws such as the 1828 and 1832 tariffs.",
+   "hierarchy": "Resists a central power above the states, though it was used both against and for slavery laws."
+  }
+ },
+ {
+  "id": "value_pluralism",
+  "name": "Value pluralism",
+  "root": false,
+  "root_axis": null,
+  "year": 1958,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Two_Concepts_of_Liberty",
+  "origin_note": "Berlin's Oxford inaugural lecture 'Two Concepts of Liberty' (October 31, 1958) set out his commitment to value pluralism (Grokipedia, Two Concepts of Liberty).",
+  "place": "Oxford",
+  "lat": 51.75,
+  "lon": -1.25,
+  "thinkers": [
+   "Isaiah Berlin",
+   "Johann Gottfried Herder",
+   "Giambattista Vico"
+  ],
+  "parents": [
+   "romanticism"
+  ],
+  "plain": "The view that there are many real goods, like liberty, equality and mercy, that cannot all be ranked on one scale. Choosing one often means losing another, with no formula to settle it.",
+  "summary": "Berlin's thesis that basic values are many, objective and often in conflict, so no single ideal can reconcile them; aimed at the monism behind utopian and totalitarian projects.",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Value_pluralism",
+   "https://grokipedia.com/page/Two_Concepts_of_Liberty",
+   "https://grokipedia.com/page/Isaiah_Berlin",
+   "https://grokipedia.com/page/Giambattista_Vico"
+  ],
+  "domain": [
+   "philosophy",
+   "politics"
+  ],
+  "aliases": [
+   "Moral pluralism",
+   "Ethical pluralism",
+   "Berlinian pluralism"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Liberal political theory",
+     "src": "https://grokipedia.com/page/Two_Concepts_of_Liberty",
+     "note": "The essay shaped liberal thought amid Cold War tensions with collectivist regimes."
+    }
+   ]
+  },
+  "edge_notes": {
+   "romanticism": {
+    "status": "documented",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Value_pluralism",
+    "note": "Draws on Vico and Herder; Herder 'anticipated value pluralism' with each people's incommensurable goods."
+   }
+  },
+  "parent_note": "Vico is not a node. It differs from relativism by holding that the plural values are objective (Grokipedia, Value pluralism).",
+  "ratings": {
+   "platonism": -2,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 2,
+   "marxism": -2,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 2,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 3,
+   "hierarchy": -1
+  },
+  "rationale": {
+   "platonism": "Rejects monism such as the Platonic Form of the Good, in which all goods harmonize under one.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "No clear debt to, or quarrel with, Christianity.",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "Supports liberal politics that protect choice and negative liberty where values clash.",
+   "marxism": "Rejects Marxist historical inevitability as a monistic promise that all conflicts will be resolved.",
+   "darwinism": "No clear debt to, or quarrel with, Darwinism.",
+   "nietzsche": "No clear debt to, or quarrel with, Nietzsche.",
+   "critical_theory": "No clear debt to, or quarrel with, Critical theory.",
+   "confucianism": "No clear debt to, or quarrel with, Confucianism.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islam": "No clear debt to, or quarrel with, Islam.",
+   "judaism": "No clear debt to, or quarrel with, Judaism.",
+   "romanticism": "Builds on Herder's view that each culture has its own goods, a Romantic critique of Enlightenment rationalism.",
+   "nationalism": "No clear debt to, or quarrel with, Nationalism.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "A meta-ethical thesis about the nature of values and their incommensurability.",
+   "hierarchy": "Denies any master value that ranks all others, which it says fuels imposed social harmony."
+  }
+ },
+ {
+  "id": "heartland_theory",
+  "name": "Heartland theory",
+  "root": false,
+  "root_axis": null,
+  "year": 1904,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/The_Geographical_Pivot_of_History",
+  "origin_note": "Mackinder's lecture 'The Geographical Pivot of History' to the Royal Geographical Society, January 25, 1904 (Grokipedia).",
+  "place": "London",
+  "lat": 51.5,
+  "lon": -0.18,
+  "thinkers": [
+   "Halford Mackinder",
+   "Nicholas J. Spykman"
+  ],
+  "parents": [
+   "darwinian_selection"
+  ],
+  "plain": "The idea that whoever controls the huge interior of Eurasia, out of reach of sea power, can dominate the world. It shaped Western strategy in both world wars and the Cold War.",
+  "summary": "Mackinder's 1904 thesis that inner Eurasia is the pivot of world power: 'Who rules the Heartland commands the World-Island'; later refined by Spykman's Rimland.",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/The_Geographical_Pivot_of_History",
+   "https://grokipedia.com/page/Halford_Mackinder",
+   "https://grokipedia.com/page/Nicholas_J._Spykman"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "aliases": [
+   "Heartland Theory",
+   "Geographical Pivot of History",
+   "Pivot area"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Cold War United States",
+     "src": "https://grokipedia.com/page/The_Geographical_Pivot_of_History",
+     "note": "Informed containment doctrine against Soviet expansion."
+    },
+    {
+     "place": "Eastern Europe and Central Asia",
+     "src": "https://grokipedia.com/page/The_Geographical_Pivot_of_History",
+     "note": "Still used to assess Russian influence in the region."
+    }
+   ]
+  },
+  "edge_notes": {
+   "darwinian_selection": {
+    "status": "documented",
+    "type": "influence",
+    "strength": "weak",
+    "src": "https://grokipedia.com/page/The_Geographical_Pivot_of_History",
+    "note": "Trained in evolutionary biology, Mackinder applied 'Darwinian concepts of adaptation and competition' to states."
+   }
+  },
+  "parent_note": "Ratzel's anthropogeography, the state as an organism, also shaped it; it is not a node (Grokipedia, The Geographical Pivot of History).",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 0,
+   "marxism": 0,
+   "darwinism": 1,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 1,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -3,
+   "hierarchy": 1
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "No clear debt to, or quarrel with, Christianity.",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "No clear debt to, or quarrel with, Enlightenment liberalism.",
+   "marxism": "No clear debt to, or quarrel with, Marxism.",
+   "darwinism": "Applies Darwinian adaptation and competition to states, seen as organisms under environmental pressure.",
+   "nietzsche": "No clear debt to, or quarrel with, Nietzsche.",
+   "critical_theory": "Comes before Critical theory existed, so it cannot descend from it.",
+   "confucianism": "No clear debt to, or quarrel with, Confucianism.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islam": "No clear debt to, or quarrel with, Islam.",
+   "judaism": "No clear debt to, or quarrel with, Judaism.",
+   "romanticism": "No clear debt to, or quarrel with, Romanticism.",
+   "nationalism": "Mackinder wrote from imperial patriotism, warning Britain and the West of a rising Eurasian land power.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Grounded in physical geography: steppes, rivers, railroads, manpower and farmland.",
+   "hierarchy": "Treats world politics as a contest for dominance won by whoever commands the Heartland."
+  }
  }
 ]
