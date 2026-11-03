@@ -479,7 +479,8 @@ for (let it = 0; it < 40; it++) for (let i = 0; i < ideas.length; i++) for (let 
     MIN = (Math.abs(sc(ideas[i], 'abstraction')) <= 1 && Math.abs(sc(ideas[j], 'abstraction')) <= 1) ? 4 : 3.2; // DISPLAY-PASS: was 2.6
   if (dd < MIN) { const ux = dd ? dx / dd : Math.cos(i + j), uz = dd ? dz / dd : Math.sin(i + j), push = (MIN - dd) / 2;
     p.x -= ux * push; p.z -= uz * push; q.x += ux * push; q.z += uz * push; } }
-const POLES = [['More abstract / ideal', [5 * STEP + 8, 0, 0]], ['More material', [-5 * STEP - 8, 0, 0]], ['Favors hierarchy', [0, 0, 5 * STEP + 8]], ['Opposes hierarchy', [0, 0, -5 * STEP - 8]]];
+const POLE_R = 5 * STEP + 22; // AXIS-LABELS: pole labels sit this far from the center (was 5 * STEP + 8), outside the idea cluster
+const POLES = [['More abstract / ideal', [POLE_R, 0, 0]], ['More material', [-POLE_R, 0, 0]], ['Favors hierarchy', [0, 0, POLE_R]], ['Opposes hierarchy', [0, 0, -POLE_R]]];
 window.__layout = { fixed: true, poles: POLES.map(p => p[0]) };
 const CENTER = ideas.reduce((a, d) => a.add(d.pos), new THREE.Vector3()).multiplyScalar(1 / ideas.length); CENTER.x = 0; CENTER.z = 0; ideas.forEach(d => d.pos.sub(CENTER));
 
@@ -966,7 +967,7 @@ const labels = ideas.map(d => {
   lblLayer.appendChild(el); const base = d.children.length >= 2; return { d, el, base, off: false, w: el.offsetWidth };
 });
 const mk = (txt, pos, cls) => { const el = document.createElement('div'); el.className = 'axl ' + (cls || ''); el.textContent = txt; lblLayer.appendChild(el); labels.push({ pos, el, center: true }); };
-POLES.forEach(([t, xyz]) => mk(t, new THREE.Vector3(...xyz)));
+POLES.forEach(([t, xyz]) => { mk(t, new THREE.Vector3(...xyz)); labels[labels.length - 1].pole = [Math.sign(xyz[0]), Math.sign(xyz[2])]; });
 [-400, 0, 500, 1250, 1600, 1800, 1850, 1900, 1950, 2000].filter(y => y >= yMin && y <= yMax).forEach(y => mk(y < 0 ? -y + ' BC' : y === 0 ? 'AD 1' : String(y), new THREE.Vector3(SPINE.x, yPos(y) - CENTER.y, SPINE.z), 'era'));
 /* ---------- LABEL-LOD start (display pass): labels by zoom level + no overlaps ----------
    Tier: root 4, 2+ children 3, 1 child 2, leaf 1. In filter mode visible ideas get +1; the focused idea's lineage +2;
@@ -980,7 +981,14 @@ function placeLabels() {
   selShown = false;
   const W = innerWidth, H = innerHeight, F = filterOn(), placed = [], cand = []; let hidZoom = 0, hidOverlap = 0;
   const hit = (x, y, w) => placed.some(r => x < r[2] && x + w > r[0] && y < r[3] && y + LOD.h > r[1]);
-  labels.forEach(o => { const { d, pos, el, center, off } = o;
+  const vd = camera.position.clone().sub(controls.target).setY(0).normalize(), hdr = document.querySelector('header'), top = Math.max(56, hdr ? hdr.getBoundingClientRect().bottom + 10 : 56);
+  labels.forEach(o => { const { d, pos, el, center, off, pole } = o;
+    if (pole) { // AXIS-LABELS: an axis pointing at the viewer would put its label on top of the cluster, so fade it; the others stay on screen
+      const f = Math.min(1, Math.max(0, (0.93 - Math.abs(pole[0] * vd.x + pole[1] * vd.z)) / 0.18)); el.style.opacity = f < 1 ? (0.55 * f).toFixed(2) : '';
+      if (off || !f) { el.style.display = 'none'; return; }
+      tmp.copy(pos).project(camera); if (tmp.z >= 1) { el.style.display = 'none'; return; }
+      const hw = (o.w || 120) / 2 + 6; o.sx = Math.min(W - hw, Math.max(hw, (tmp.x + 1) / 2 * W)); o.sy = Math.min(H - 52, Math.max(top, (1 - tmp.y) / 2 * H - 9));
+      o.dist = camera.position.distanceTo(pos); placed.push([o.sx - hw - LOD.pad, o.sy - 1, o.sx + hw + LOD.pad, o.sy + LOD.h]); show(o); return; }
     if (off || (d && d.__hid)) { el.style.display = 'none'; return; }
     tmp.copy(d ? d.pos : pos).project(camera);
     const vis = tmp.z < 1 && Math.abs(tmp.x) < 1.1 && Math.abs(tmp.y) < 1.1;
