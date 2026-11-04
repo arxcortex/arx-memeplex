@@ -31476,7 +31476,8 @@
   ],
   "parents": [
    "enlightenment_liberalism",
-   "romanticism"
+   "romanticism",
+   "transcendentalism"
   ],
   "plain": "The American ideal of self-reliance: trust yourself, make your own way, and lean little on government or the crowd. Emerson preached it in 1841; Hoover called it 'rugged individualism'.",
   "summary": "Self-reliance as a national ethos, from Emerson's 'Self-Reliance' (1841) and Thoreau's Walden (1854) to Hoover's 1928 'rugged individualism'; Tocqueville warned it isolates.",
@@ -31487,7 +31488,8 @@
    "https://grokipedia.com/page/Individualism",
    "https://grokipedia.com/page/Ralph_Waldo_Emerson",
    "https://grokipedia.com/page/Democracy_in_America",
-   "https://grokipedia.com/page/Herbert_Hoover"
+   "https://grokipedia.com/page/Herbert_Hoover",
+   "https://grokipedia.com/page/Transcendentalism"
   ],
   "domain": [
    "culture",
@@ -31527,6 +31529,13 @@
     "strength": "moderate",
     "src": "https://grokipedia.com/page/Ralph_Waldo_Emerson",
     "note": "Emerson met Coleridge, Wordsworth and Carlyle in 1833; his movement drew on 'European Romanticism'."
+   },
+   "transcendentalism": {
+    "status": "documented",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Transcendentalism",
+    "note": "Emerson's essay Nature (1836), shaped in Transcendental Club talks, 'articulated self-reliance'; 'Self-Reliance' followed in 1841."
    }
   },
   "parent_note": "Tocqueville's Democracy in America (1835-1840) saw it as equality's side effect, offset by voluntary associations (Grokipedia, Democracy in America).",
@@ -31704,6 +31713,601 @@
    "irony": "Makes its case directly, without ironic distance.",
    "abstraction": "A national self-image; it takes no side on whether reality is mind or matter.",
    "hierarchy": "Stresses a republic 'free from feudal hierarchies and aristocratic privileges', with higher social mobility (Grokipedia)."
+  }
+ },
+ {
+  "id": "moscow_third_rome",
+  "name": "Moscow, Third Rome",
+  "root": false,
+  "root_axis": null,
+  "year": 1510,
+  "year_approx": true,
+  "origin_src": "https://grokipedia.com/page/Moscow,_third_Rome",
+  "origin_note": "Philotheus, a monk near Pskov, wrote to Grand Prince Vasily III in epistles of about 1510-1521: 'Two Romes have fallen, the third stands, and there will be no fourth' (Grokipedia).",
+  "place": "Pskov",
+  "lat": 57.82,
+  "lon": 28.33,
+  "thinkers": [
+   "Philotheus of Pskov",
+   "Joseph of Volotsk",
+   "Ivan IV"
+  ],
+  "parents": [
+   "eastern_orthodoxy"
+  ],
+  "plain": "The Russian belief that after Rome and Constantinople fell, Moscow became the last guardian of true Orthodox Christianity, so its ruler had a sacred duty to protect the faith.",
+  "summary": "After Constantinople fell in 1453, a Pskov monk named Moscow the third and final Rome; the idea later backed tsarist autocracy and returns in Russian state rhetoric today.",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Moscow,_third_Rome",
+   "https://grokipedia.com/page/Vasili_III_of_Russia"
+  ],
+  "domain": [
+   "religion",
+   "politics"
+  ],
+  "aliases": [
+   "Third Rome",
+   "Moscow the Third Rome"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Muscovy, 1547",
+     "src": "https://grokipedia.com/page/Moscow,_third_Rome",
+     "note": "Gave theological backing to Ivan IV's adoption of the title tsar in 1547."
+    },
+    {
+     "place": "Russian state rhetoric since 2000",
+     "src": "https://grokipedia.com/page/Moscow,_third_Rome",
+     "note": "Putin has drawn on it to cast Russia as the guardian of Orthodox civilization."
+    }
+   ]
+  },
+  "edge_notes": {
+   "eastern_orthodoxy": {
+    "status": "documented",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Moscow,_third_Rome",
+    "note": "Casts Moscow as 'the final guardian of true Orthodoxy' after the Union of Florence (1439) and the fall of Constantinople (1453)."
+   }
+  },
+  "parent_note": "Ivan III's 1472 marriage to Sophia Palaiologina, niece of the last Byzantine emperor, helped Moscow claim Byzantine succession (Grokipedia, Moscow, third Rome).",
+  "basis": {
+   "islam": "stance"
+  },
+  "stance_raw": {
+   "islam": -2
+  },
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 4,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 0,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islam": -1,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 3,
+   "hierarchy": 4
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "An Orthodox Christian doctrine: Moscow inherits 'uncorrupted Christianity' and must keep the faith pure (Grokipedia, Moscow, third Rome).",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "Comes before Enlightenment liberalism existed, so it cannot descend from it.",
+   "marxism": "Comes before Marxism existed, so it cannot descend from it.",
+   "darwinism": "Comes before Darwinism existed, so it cannot descend from it.",
+   "nietzsche": "Comes before Nietzsche existed, so it cannot descend from it.",
+   "critical_theory": "Comes before Critical theory existed, so it cannot descend from it.",
+   "confucianism": "No clear debt to, or quarrel with, Confucianism.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islam": "Stance: casts Byzantium's fall to the Ottomans in 1453 as divine judgment and Moscow as Orthodoxy's shield after it (Grokipedia, Moscow, third Rome).",
+   "judaism": "No clear debt to, or quarrel with, Judaism.",
+   "romanticism": "Comes before Romanticism existed, so it cannot descend from it.",
+   "nationalism": "Comes before Nationalism existed, so it cannot descend from it.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Mostly spiritual: Philotheus meant 'a sacred duty to preserve unadulterated Orthodox faith', not a claim on territory (Grokipedia).",
+   "hierarchy": "Served 'as an ideological bulwark' for autocracy, backing the tsar's rule over rival princes and the church (Grokipedia, Moscow, third Rome)."
+  }
+ },
+ {
+  "id": "official_nationality",
+  "name": "Official Nationality",
+  "root": false,
+  "root_axis": null,
+  "year": 1833,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Orthodoxy,_Autocracy,_and_Nationality",
+  "origin_note": "Uvarov proposed the triad to Nicholas I in an 1832 memorandum and made it school policy by circular in 1833, the year he became minister of education (Grokipedia).",
+  "place": "Saint Petersburg",
+  "lat": 59.94,
+  "lon": 30.31,
+  "thinkers": [
+   "Sergey Uvarov",
+   "Nicholas I",
+   "Mikhail Pogodin"
+  ],
+  "parents": [
+   "eastern_orthodoxy",
+   "nationalism"
+  ],
+  "plain": "The state creed of Tsar Nicholas I: Russians should be loyal to the Orthodox Church, the all-powerful tsar, and their own national character, and reject Western liberal ideas.",
+  "summary": "Uvarov's 1833 triad, built after the 1825 Decembrist revolt, was taught in schools as a bulwark against constitutionalism; observers see echoes of it in Putin-era Russia.",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Orthodoxy,_Autocracy,_and_Nationality",
+   "https://grokipedia.com/page/Sergey_Uvarov",
+   "https://grokipedia.com/page/Nicholas_I_of_Russia"
+  ],
+  "domain": [
+   "politics",
+   "religion"
+  ],
+  "aliases": [
+   "Orthodoxy, Autocracy, Nationality",
+   "Uvarov triad"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Russian Empire, 1833-1855",
+     "src": "https://grokipedia.com/page/Orthodoxy,_Autocracy,_and_Nationality",
+     "note": "Built into schools, censorship and policy under Nicholas I, who ruled until 1855."
+    }
+   ]
+  },
+  "edge_notes": {
+   "eastern_orthodoxy": {
+    "status": "documented",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Orthodoxy,_Autocracy,_and_Nationality",
+    "note": "Its first pillar, pravoslavie, makes the Russian Orthodox faith 'the spiritual foundation of society'."
+   },
+   "nationalism": {
+    "status": "documented",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Sergey_Uvarov",
+    "note": "Uvarov met Goethe, Humboldt and de Stael abroad, 'whose ideas on science, literature, and nationalism informed' his state ideology."
+   }
+  },
+  "parent_note": "Narodnost' meant loyalty of a multi-ethnic empire to the tsar and the Orthodox core, 'rather than ethnic exclusivity' (Grokipedia). Slavophiles called it artificial.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 4,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": -4,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 3,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 1,
+   "hierarchy": 5
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "Orthodoxy is the first pillar: the Russian Orthodox faith as 'the moral and religious core that unified the populace' (Grokipedia).",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "Proclaimed 'as a bulwark against constitutionalism and secularism' after the 1825 Decembrist revolt (Grokipedia).",
+   "marxism": "Comes before Marxism existed, so it cannot descend from it.",
+   "darwinism": "Comes before Darwinism existed, so it cannot descend from it.",
+   "nietzsche": "Comes before Nietzsche existed, so it cannot descend from it.",
+   "critical_theory": "Comes before Critical theory existed, so it cannot descend from it.",
+   "confucianism": "No clear debt to, or quarrel with, Confucianism.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islam": "No clear debt to, or quarrel with, Islam.",
+   "judaism": "No clear debt to, or quarrel with, Judaism.",
+   "romanticism": "No clear debt to, or quarrel with, Romanticism.",
+   "nationalism": "Its third pillar, narodnost', is 'the unique national character and folk spirit of the Russian people' (Grokipedia).",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "A practical state program for schools and censorship, framed around a spiritual and historical 'national essence'.",
+   "hierarchy": "Autocracy pillar: unlimited monarchy 'unchecked by parliaments, constitutions', demanding 'total obedience' (Grokipedia)."
+  }
+ },
+ {
+  "id": "liberal_international_order",
+  "name": "Liberal international order",
+  "root": false,
+  "root_axis": null,
+  "year": 1944,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Liberal_international_order",
+  "origin_note": "Its base was laid at the Bretton Woods Conference, July 1-22, 1944, which created the IMF and World Bank; the UN Charter followed on June 26, 1945 (Grokipedia).",
+  "place": "Bretton Woods, New Hampshire",
+  "lat": 44.26,
+  "lon": -71.44,
+  "thinkers": [
+   "Woodrow Wilson",
+   "Harry Dexter White",
+   "John Maynard Keynes",
+   "Harry S. Truman"
+  ],
+  "parents": [
+   "wilsonianism"
+  ],
+  "plain": "The set of rules and institutions built mainly by the US after 1945, such as the UN, the IMF, the World Bank and NATO, meant to promote open trade, democracy and peaceful dispute settlement.",
+  "summary": "Postwar rules-based system of open markets, alliances and international law, from Bretton Woods (1944) and the UN (1945); critics see it as a cover for US hegemony.",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Liberal_international_order",
+   "https://grokipedia.com/page/Bretton_Woods_Conference",
+   "https://grokipedia.com/page/Woodrow_Wilson",
+   "https://grokipedia.com/page/Harry_Dexter_White"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "aliases": [
+   "Rules-based international order",
+   "Liberal world order",
+   "LIO"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Western Europe and Japan, 1948-1960s",
+     "src": "https://grokipedia.com/page/Liberal_international_order",
+     "note": "The Marshall Plan gave over $13 billion in 1948-1952 amid fast postwar growth."
+    }
+   ]
+  },
+  "edge_notes": {
+   "wilsonianism": {
+    "status": "documented",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Liberal_international_order",
+    "note": "Wilson's Fourteen Points (1918) 'served as a blueprint for a proto-liberal order' of collective security and open trade."
+   }
+  },
+  "parent_note": "Keynes's bancor plan lost at Bretton Woods to White's dollar-based plan, so Keynesian economics is not drawn as a parent (Grokipedia, Bretton Woods Conference).",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 4,
+   "marxism": -2,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": -1,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -2,
+   "hierarchy": 1
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "No clear debt to, or quarrel with, Christianity.",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "Rests on 'democracy promotion, open markets, human rights universality, and adherence to international rule of law' (Grokipedia).",
+   "marxism": "Built in part to contain the Soviet bloc; it 'contained Soviet advances in Western Europe' after 1945 (Grokipedia).",
+   "darwinism": "No clear debt to, or quarrel with, Darwinism.",
+   "nietzsche": "No clear debt to, or quarrel with, Nietzsche.",
+   "critical_theory": "No clear debt to, or quarrel with, Critical theory.",
+   "confucianism": "No clear debt to, or quarrel with, Confucianism.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islam": "No clear debt to, or quarrel with, Islam.",
+   "judaism": "No clear debt to, or quarrel with, Judaism.",
+   "romanticism": "No clear debt to, or quarrel with, Romanticism.",
+   "nationalism": "A reaction to interwar policies that put 'nationalism over interdependence', though it still keeps national sovereignty (Grokipedia).",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Concrete institutions: the IMF, the World Bank, the UN, NATO, and later the WTO.",
+   "hierarchy": "Formally rule-based, yet with 'embedded hierarchies' such as Security Council vetoes and weighted IMF votes (Grokipedia)."
+  }
+ },
+ {
+  "id": "manifest_destiny",
+  "name": "Manifest destiny",
+  "root": false,
+  "root_axis": null,
+  "year": 1845,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Manifest_destiny",
+  "origin_note": "Coined by John L. O'Sullivan in 'Annexation' (July-August 1845) in the Democratic Review, backing Texas annexation; a December 27, 1845 New York Morning News piece spread it (Grokipedia).",
+  "place": "United States",
+  "lat": null,
+  "lon": null,
+  "thinkers": [
+   "John L. O'Sullivan",
+   "James K. Polk"
+  ],
+  "parents": [
+   "american_exceptionalism",
+   "jacksonian_democracy",
+   "monroe_doctrine"
+  ],
+  "plain": "The 19th-century American belief that God meant the United States to spread across North America. It was used to justify taking Texas, Oregon and land from Mexico and Native nations.",
+  "summary": "'Our manifest destiny to overspread the continent allotted by Providence': O'Sullivan's 1845 phrase drove Texas annexation and the Mexican-American War (1846-1848).",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Manifest_destiny",
+   "https://grokipedia.com/page/John_L._O'Sullivan",
+   "https://grokipedia.com/page/James_K._Polk"
+  ],
+  "domain": [
+   "politics",
+   "culture"
+  ],
+  "aliases": [
+   "Manifest Destiny"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Texas, Oregon and the Mexican Cession, 1845-1848",
+     "src": "https://grokipedia.com/page/Manifest_destiny",
+     "note": "Fueled Texas annexation (1845), the Oregon Treaty (1846) and the Mexican-American War."
+    }
+   ]
+  },
+  "edge_notes": {
+   "american_exceptionalism": {
+    "status": "documented",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Manifest_destiny",
+    "note": "'Rooted in notions of American exceptionalism and Protestant millennialism'; it turned a passive self-image into an active mandate."
+   },
+   "jacksonian_democracy": {
+    "status": "documented",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/John_L._O'Sullivan",
+    "note": "O'Sullivan's Democratic Review promoted Jacksonian democracy, 'including ... aggressive territorial expansion'."
+   },
+   "monroe_doctrine": {
+    "status": "documented",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Manifest_destiny",
+    "note": "The Monroe Doctrine of 1823 'further entrenched expansionist ideology' by closing the hemisphere to new European colonies."
+   }
+  },
+  "parent_note": "Whig critics, among them Lincoln with his 'spot resolutions', questioned the war with Mexico (Grokipedia, Manifest destiny).",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 2,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 2,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 3,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -2,
+   "hierarchy": 3
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "Framed expansion as Protestant providence: the continent 'allotted by Providence', with clergy blessing the war as divine favor (Grokipedia).",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "Claimed to spread 'republican institutions' and liberty westward, 'blending Enlightenment notions of self-evident progress' (Grokipedia).",
+   "marxism": "Comes before Marxism existed, so it cannot descend from it.",
+   "darwinism": "Comes before Darwinism existed, so it cannot descend from it.",
+   "nietzsche": "Comes before Nietzsche existed, so it cannot descend from it.",
+   "critical_theory": "Comes before Critical theory existed, so it cannot descend from it.",
+   "confucianism": "No clear debt to, or quarrel with, Confucianism.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islam": "No clear debt to, or quarrel with, Islam.",
+   "judaism": "No clear debt to, or quarrel with, Judaism.",
+   "romanticism": "No clear debt to, or quarrel with, Romanticism.",
+   "nationalism": "A national mission: the US 'uniquely ordained by Providence' to extend its institutions across the continent (Grokipedia).",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "About land, settlement, railroads and borders; its providential language serves a concrete territorial program.",
+   "hierarchy": "Incorporated 'a hierarchical view of races', ranking white Anglo-Saxon Protestants above Native Americans and Mexicans (Grokipedia)."
+  }
+ },
+ {
+  "id": "transcendentalism",
+  "name": "Transcendentalism",
+  "root": false,
+  "root_axis": null,
+  "year": 1836,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Transcendentalism",
+  "origin_note": "The Transcendental Club first met on September 8, 1836, at Willard's Hotel in Cambridge, Massachusetts; Emerson's essay Nature came out that same September (Grokipedia).",
+  "place": "Cambridge, Massachusetts",
+  "lat": 42.37,
+  "lon": -71.11,
+  "thinkers": [
+   "Ralph Waldo Emerson",
+   "Frederic Henry Hedge",
+   "Margaret Fuller",
+   "Henry David Thoreau",
+   "Amos Bronson Alcott"
+  ],
+  "parents": [
+   "romanticism",
+   "transcendental_idealism",
+   "upanishadic_brahman"
+  ],
+  "plain": "A New England movement of the 1830s and 1840s that taught that truth is found by inner intuition and in nature, not in churches or books, and that every person has a spark of the divine.",
+  "summary": "Emerson, Fuller and Thoreau broke from Unitarian rationalism for intuition, self-reliance and nature as spiritual teacher, drawing on Kant, Coleridge and Hindu scripture.",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Transcendentalism",
+   "https://grokipedia.com/page/Transcendental_Club",
+   "https://grokipedia.com/page/Nature_(essay)",
+   "https://grokipedia.com/page/Ralph_Waldo_Emerson",
+   "https://grokipedia.com/page/Margaret_Fuller"
+  ],
+  "domain": [
+   "philosophy",
+   "religion",
+   "culture"
+  ],
+  "aliases": [
+   "American Transcendentalism",
+   "New England Transcendentalism"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Brook Farm, West Roxbury, 1841-1847",
+     "src": "https://grokipedia.com/page/Transcendentalism",
+     "note": "George Ripley's cooperative farm, a test of the movement's ideals; it dissolved amid practical failures."
+    },
+    {
+     "place": "Walden Pond, 1845-1847",
+     "src": "https://grokipedia.com/page/Transcendentalism",
+     "note": "Thoreau lived there from July 4, 1845, to September 6, 1847, the basis of Walden (1854)."
+    }
+   ]
+  },
+  "edge_notes": {
+   "romanticism": {
+    "status": "documented",
+    "type": "influence",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Transcendentalism",
+    "note": "'European Romanticism provided key intellectual undercurrents', above all Wordsworth and Coleridge, whom Emerson met in 1832-1833."
+   },
+   "transcendental_idealism": {
+    "status": "documented",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Transcendentalism",
+    "note": "'Incorporated elements of German Idealism, particularly Immanuel Kant's transcendental idealism', largely via Coleridge."
+   },
+   "upanishadic_brahman": {
+    "status": "documented",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Transcendentalism",
+    "note": "Emerson read the Upanishads and the Gita; Brahman 'resonated with Emerson's Oversoul'. The borrowing was selective."
+   }
+  },
+  "parent_note": "It began as a revolt within Unitarianism, which is not a node; Emerson had quit his Unitarian pulpit in 1832 (Grokipedia, Transcendentalism).",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 1,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": -1,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 2,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 4,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 4,
+   "hierarchy": -2
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "Grew out of Unitarian Christianity, though it put 'personal conviction and inner light' above church ritual (Grokipedia).",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "Turned against the 'Lockean empiricism' and 'sober rationalism' of Unitarian thought, while keeping its individualism (Grokipedia).",
+   "marxism": "Comes before Marxism existed, so it cannot descend from it.",
+   "darwinism": "Comes before Darwinism existed, so it cannot descend from it.",
+   "nietzsche": "Comes before Nietzsche existed, so it cannot descend from it.",
+   "critical_theory": "Comes before Critical theory existed, so it cannot descend from it.",
+   "confucianism": "No clear debt to, or quarrel with, Confucianism.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "Emerson's Oversoul echoed Brahman, and his poem 'Brahma' (1856) drew on Upanishadic verses (Grokipedia, Transcendentalism).",
+   "islam": "No clear debt to, or quarrel with, Islam.",
+   "judaism": "No clear debt to, or quarrel with, Judaism.",
+   "romanticism": "An American offshoot of Romanticism: intuition, nature as moral teacher, and imagination over rational analysis (Grokipedia).",
+   "nationalism": "No clear debt to, or quarrel with, Nationalism.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Idealist: truth comes from 'innate moral intuition over sensory experience', and nature is a symbol of spirit (Grokipedia).",
+   "hierarchy": "Opposed 'institutional conformity'; Fuller argued for women's intellectual equality and Brook Farm tried shared labor (Grokipedia)."
   }
  }
 ]
