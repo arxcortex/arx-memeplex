@@ -19595,7 +19595,8 @@
    "Aleksandr Dugin"
   ],
   "parents": [
-   "eastern_orthodoxy"
+   "eastern_orthodoxy",
+   "slavophilia"
   ],
   "plain": "Russia as a distinct Eurasian civilization, neither Europe nor Asia, uniting many peoples against the Atlantic West.",
   "summary": "Émigrés launched it in Sofia in 1921; Dugin revived it in the 1990s, and Putin's 2011 Eurasian Union drew on its integration ideas.",
@@ -19678,6 +19679,13 @@
     "type": "descent",
     "src": "https://grokipedia.com/page/Eurasianism",
     "note": "Eurasian unity was 'preserved by autarkic economic policies and Orthodox spirituality'."
+   },
+   "slavophilia": {
+    "status": "documented",
+    "type": "influence",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Eurasianism",
+    "note": "'Eurasianism drew significant intellectual foundations from' the Slavophiles' Orthodox, communal idea of Russian uniqueness (Grokipedia)."
    }
   },
   "party_alignment_ru": {
@@ -25246,7 +25254,8 @@
   ],
   "parents": [
    "enlightenment_liberalism",
-   "calvinism"
+   "calvinism",
+   "open_door_policy"
   ],
   "plain": "Woodrow Wilson's idea that America should spread democracy, back national self-rule and build a league of nations so that collective security replaces the balance of power.",
   "summary": "Wilson's World War I program: democracy promotion, self-determination, open diplomacy and collective security through a League of Nations; revived in later US policy.",
@@ -25304,7 +25313,8 @@
   "sources": [
    "https://grokipedia.com/page/Wilsonianism",
    "https://grokipedia.com/page/Liberal_internationalism",
-   "https://grokipedia.com/page/Woodrow_Wilson"
+   "https://grokipedia.com/page/Woodrow_Wilson",
+   "https://grokipedia.com/page/Open_Door_Policy"
   ],
   "domain": [
    "politics"
@@ -25350,6 +25360,13 @@
     "strength": "weak",
     "src": "https://grokipedia.com/page/Wilsonianism",
     "note": "Wilson grew up in 'a strict Calvinist environment' as a Presbyterian minister's son; the page ties this to his moral view of governance."
+   },
+   "open_door_policy": {
+    "status": "documented",
+    "type": "influence",
+    "strength": "weak",
+    "src": "https://grokipedia.com/page/Open_Door_Policy",
+    "note": "The Open Door's 'commercial multilateralism provided a conceptual precedent' for Wilson's open trade ideals (Grokipedia, Open Door Policy)."
    }
   },
   "parent_note": "Liberal internationalism is merged here as an alias: Grokipedia says it 'crystallized as a coherent doctrine during World War I under U.S. President Woodrow Wilson'. Its 19th-century free-trade forerunners are not split out."
@@ -31851,7 +31868,8 @@
   ],
   "parents": [
    "eastern_orthodoxy",
-   "nationalism"
+   "nationalism",
+   "tsarist_autocracy"
   ],
   "plain": "The state creed of Tsar Nicholas I: Russians should be loyal to the Orthodox Church, the all-powerful tsar, and their own national character, and reject Western liberal ideas.",
   "summary": "Uvarov's 1833 triad, built after the 1825 Decembrist revolt, was taught in schools as a bulwark against constitutionalism; observers see echoes of it in Putin-era Russia.",
@@ -31859,7 +31877,8 @@
   "sources": [
    "https://grokipedia.com/page/Orthodoxy,_Autocracy,_and_Nationality",
    "https://grokipedia.com/page/Sergey_Uvarov",
-   "https://grokipedia.com/page/Nicholas_I_of_Russia"
+   "https://grokipedia.com/page/Nicholas_I_of_Russia",
+   "https://grokipedia.com/page/Tsarist_autocracy"
   ],
   "domain": [
    "politics",
@@ -31893,6 +31912,13 @@
     "strength": "moderate",
     "src": "https://grokipedia.com/page/Sergey_Uvarov",
     "note": "Uvarov met Goethe, Humboldt and de Stael abroad, 'whose ideas on science, literature, and nationalism informed' his state ideology."
+   },
+   "tsarist_autocracy": {
+    "status": "documented",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Tsarist_autocracy",
+    "note": "Its autocracy pillar restates tsarist rule: under Nicholas I 'these coalesced into the doctrine of Official Nationality' (Grokipedia)."
    }
   },
   "parent_note": "Narodnost' meant loyalty of a multi-ethnic empire to the tsar and the Orthodox core, 'rather than ethnic exclusivity' (Grokipedia). Slavophiles called it artificial.",
@@ -32308,6 +32334,573 @@
    "irony": "Makes its case directly, without ironic distance.",
    "abstraction": "Idealist: truth comes from 'innate moral intuition over sensory experience', and nature is a symbol of spirit (Grokipedia).",
    "hierarchy": "Opposed 'institutional conformity'; Fuller argued for women's intellectual equality and Brook Farm tried shared labor (Grokipedia)."
+  }
+ },
+ {
+  "id": "wolfowitz_doctrine",
+  "name": "Wolfowitz Doctrine",
+  "root": false,
+  "root_axis": null,
+  "year": 1992,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Wolfowitz_Doctrine",
+  "origin_note": "The draft Defense Planning Guidance for 1994-1999 was dated February 18, 1992, and leaked to The New York Times in March 1992; a softer final version was issued April 16, 1992 (Grokipedia).",
+  "place": "The Pentagon, Arlington, Virginia",
+  "lat": 38.871,
+  "lon": -77.056,
+  "thinkers": [
+   "Paul Wolfowitz",
+   "Zalmay Khalilzad",
+   "Scooter Libby",
+   "Dick Cheney"
+  ],
+  "parents": [
+   "neoconservatism"
+  ],
+  "plain": "A 1992 Pentagon plan saying that after the Soviet Union fell, the US should stay the only superpower and stop any new rival from rising, acting alone if allies would not join.",
+  "summary": "Drafted under Paul Wolfowitz after the Cold War, it set US primacy and preventing peer rivals as the goal; its preemption logic returned in the 2002 National Security Strategy.",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Wolfowitz_Doctrine",
+   "https://grokipedia.com/page/Paul_Wolfowitz",
+   "https://grokipedia.com/page/Neoconservatism",
+   "https://grokipedia.com/page/Zalmay_Khalilzad"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "aliases": [
+   "1992 Defense Planning Guidance",
+   "Defense Planning Guidance 1992"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "US national security policy, 2002-2003",
+     "src": "https://grokipedia.com/page/Wolfowitz_Doctrine",
+     "note": "Its preemption logic was codified in the 2002 National Security Strategy, with Wolfowitz then Deputy Secretary of Defense."
+    }
+   ]
+  },
+  "edge_notes": {
+   "neoconservatism": {
+    "status": "documented",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Wolfowitz_Doctrine",
+    "note": "Its tenets 'formed a cornerstone of neoconservative foreign policy'; Wolfowitz himself was a leading neoconservative (Grokipedia)."
+   }
+  },
+  "parent_note": "Charles Krauthammer's 1990 'unipolar moment' anticipated it (Grokipedia). Realists criticized it as rejecting balance-of-power restraint, so no realism edge is drawn.",
+  "basis": {
+   "nationalism": "stance"
+  },
+  "stance_raw": {
+   "nationalism": 2
+  },
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 2,
+   "marxism": -2,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 1,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -3,
+   "hierarchy": 3
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "No clear debt to, or quarrel with, Christianity.",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "From the neoconservative line: an order 'aligned with American interests, including the promotion of democracy and open markets' (Grokipedia).",
+   "marxism": "Written for the world after 'the demise of the global threat posed by Soviet Communism'; it aimed to stop any such rival returning (Grokipedia).",
+   "darwinism": "No clear debt to, or quarrel with, Darwinism.",
+   "nietzsche": "No clear debt to, or quarrel with, Nietzsche.",
+   "critical_theory": "No clear debt to, or quarrel with, Critical theory.",
+   "confucianism": "No clear debt to, or quarrel with, Confucianism.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islam": "No clear debt to, or quarrel with, Islam.",
+   "judaism": "No clear debt to, or quarrel with, Judaism.",
+   "romanticism": "No clear debt to, or quarrel with, Romanticism.",
+   "nationalism": "Stance: puts 'U.S. strategic interests over absolute multilateralism' and national primacy above shared institutions such as the UN (Grokipedia).",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "A concrete military planning document about forces, regions and rivals, not a theory of politics.",
+   "hierarchy": "Favors a world with one power on top: keep US 'preeminence' and 'preclude any hostile power from dominating' key regions (Grokipedia)."
+  }
+ },
+ {
+  "id": "open_door_policy",
+  "name": "Open Door Policy",
+  "root": false,
+  "root_axis": null,
+  "year": 1899,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Open_Door_Policy",
+  "origin_note": "Secretary of State John Hay sent the first Open Door Note on September 6, 1899; a second note of July 3, 1900, during the Boxer Rebellion, backed China's territorial integrity (Grokipedia).",
+  "place": "Washington, D.C.",
+  "lat": 38.9,
+  "lon": -77.04,
+  "thinkers": [
+   "John Hay",
+   "William McKinley"
+  ],
+  "parents": [],
+  "plain": "The US asked the powers carving China into zones in 1899 to let every country trade there on equal terms and not split China up. It sought markets rather than colonies.",
+  "summary": "Hay's 1899-1900 notes asked for equal trade access in China and respect for its integrity; hailed as free trade, it is also read as economic imperialism.",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Open_Door_Policy",
+   "https://grokipedia.com/page/John_Hay",
+   "https://grokipedia.com/page/William_McKinley",
+   "https://grokipedia.com/page/Informal_empire"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "aliases": [
+   "Open Door Notes",
+   "Open Door"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Washington Naval Conference, 1922",
+     "src": "https://grokipedia.com/page/Open_Door_Policy",
+     "note": "The Nine-Power Treaty of February 6, 1922, committed signatories to the Open Door's equal trade opportunities in China."
+    }
+   ]
+  },
+  "edge_notes": {},
+  "parent_note": "Grokipedia links it to Mahan's sea-power thinking and the scramble for spheres in China after 1895, neither of which is a node, so it has no parent here.",
+  "basis": {
+   "enlightenment_liberalism": "stance"
+  },
+  "stance_raw": {
+   "enlightenment_liberalism": 3
+  },
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 1,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -3,
+   "hierarchy": 1
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "No clear debt to, or quarrel with, Christianity.",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "Affinity: 'hailed for promoting free trade': equal tariffs, harbor dues and railway charges for all nations (Grokipedia).",
+   "marxism": "No clear debt to, or quarrel with, Marxism.",
+   "darwinism": "No clear debt to, or quarrel with, Darwinism.",
+   "nietzsche": "No clear debt to, or quarrel with, Nietzsche.",
+   "critical_theory": "Comes before Critical theory existed, so it cannot descend from it.",
+   "confucianism": "No clear debt to, or quarrel with, Confucianism.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islam": "No clear debt to, or quarrel with, Islam.",
+   "judaism": "No clear debt to, or quarrel with, Judaism.",
+   "romanticism": "No clear debt to, or quarrel with, Romanticism.",
+   "nationalism": "No clear debt to, or quarrel with, Nationalism.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Practical commercial diplomacy about tariffs, ports, railways and harbor dues in China.",
+   "hierarchy": "Rejected partition, yet 'embodied economic imperialism': outside powers set the terms of trade in China (Grokipedia)."
+  }
+ },
+ {
+  "id": "tsarist_autocracy",
+  "name": "Tsarist autocracy",
+  "root": false,
+  "root_axis": null,
+  "year": 1547,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Tsarist_autocracy",
+  "origin_note": "Ivan IV was crowned the first tsar on January 16, 1547, in a ceremony modeled on Byzantine precedents; Ivan III (r. 1462-1505) had laid the groundwork (Grokipedia).",
+  "place": "Moscow",
+  "lat": 55.75,
+  "lon": 37.62,
+  "thinkers": [
+   "Ivan III",
+   "Ivan IV",
+   "Peter the Great"
+  ],
+  "parents": [
+   "eastern_orthodoxy",
+   "moscow_third_rome"
+  ],
+  "plain": "The Russian system in which the tsar held all power, answerable only to God, with no parliament or constitution to limit him. It lasted from 1547 until the revolution of 1917.",
+  "summary": "Samoderzhavie: from Ivan IV's 1547 coronation to 1917, the tsar ruled as God's anointed over state, army and church; the 1832 Fundamental Laws wrote it into law.",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Tsarist_autocracy",
+   "https://grokipedia.com/page/Ivan_the_Terrible",
+   "https://grokipedia.com/page/Ivan_III_of_Russia",
+   "https://grokipedia.com/page/Peter_the_Great",
+   "https://grokipedia.com/page/Moscow,_third_Rome"
+  ],
+  "domain": [
+   "politics",
+   "religion"
+  ],
+  "aliases": [
+   "Samoderzhavie",
+   "Russian autocracy"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Russian Empire, 1721-1917",
+     "src": "https://grokipedia.com/page/Tsarist_autocracy",
+     "note": "Peter I proclaimed the empire in 1721 and put the church under a Holy Synod; the system ended with Nicholas II's abdication."
+    }
+   ]
+  },
+  "edge_notes": {
+   "eastern_orthodoxy": {
+    "status": "documented",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Tsarist_autocracy",
+    "note": "The Orthodox Church cast the tsar as 'God's anointed vicegerent on earth', so obedience was a religious duty (Grokipedia)."
+   },
+   "moscow_third_rome": {
+    "status": "documented",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Moscow,_third_Rome",
+    "note": "The Third Rome idea gave 'theological justification' for Ivan IV taking the title tsar in 1547 (Grokipedia)."
+   }
+  },
+  "parent_note": "It also drew on Byzantine caesaropapism, the fusion of imperial and church power (Grokipedia); Byzantium is not a separate node.",
+  "basis": {
+   "enlightenment_liberalism": "stance"
+  },
+  "stance_raw": {
+   "enlightenment_liberalism": -4
+  },
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 4,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": -2,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 1,
+   "hierarchy": 5
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "Rested on Eastern Orthodoxy: the tsar was God's anointed, and 'challenges to the Tsar' were 'tantamount to heresy' (Grokipedia).",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "Stance: rejected 'Enlightenment individualism and constitutionalism as corrosive imports'; no parliament until the 1905-1906 Duma (Grokipedia).",
+   "marxism": "Comes before Marxism existed, so it cannot descend from it.",
+   "darwinism": "Comes before Darwinism existed, so it cannot descend from it.",
+   "nietzsche": "Comes before Nietzsche existed, so it cannot descend from it.",
+   "critical_theory": "Comes before Critical theory existed, so it cannot descend from it.",
+   "confucianism": "No clear debt to, or quarrel with, Confucianism.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islam": "No clear debt to, or quarrel with, Islam.",
+   "judaism": "No clear debt to, or quarrel with, Judaism.",
+   "romanticism": "Comes before Romanticism existed, so it cannot descend from it.",
+   "nationalism": "Comes before Nationalism existed, so it cannot descend from it.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "A concrete system of rule, decrees and secret police, though justified by a sacred view of the tsar's office.",
+   "hierarchy": "Undivided power in one ruler: 'Obedience to His authority... is ordained by God Himself' (Fundamental Laws, 1832, Article 4, via Grokipedia)."
+  }
+ },
+ {
+  "id": "slavophilia",
+  "name": "Slavophilia",
+  "root": false,
+  "root_axis": null,
+  "year": 1839,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Ivan_Kireyevsky",
+  "origin_note": "The earliest surviving Slavophile texts are Khomyakov's 'On the Old and the New' and Kireyevsky's reply of 1839; the circle formed in Moscow salons around 1839-1840 (Grokipedia).",
+  "place": "Moscow",
+  "lat": 55.75,
+  "lon": 37.62,
+  "thinkers": [
+   "Aleksey Khomyakov",
+   "Ivan Kireyevsky",
+   "Konstantin Aksakov",
+   "Yuri Samarin"
+  ],
+  "parents": [
+   "eastern_orthodoxy",
+   "romanticism"
+  ],
+  "plain": "A 19th-century Russian movement that said Russia should follow its own Orthodox, communal path instead of copying Western Europe, and that Peter the Great's Westernizing reforms had been a wrong turn.",
+  "summary": "Khomyakov and Kireyevsky answered Chaadayev's 1836 letter with sobornost, the peasant commune and pre-Petrine Russia, against the Westernizers; later Eurasianists drew on it.",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Slavophilia",
+   "https://grokipedia.com/page/Aleksey_Khomyakov",
+   "https://grokipedia.com/page/Ivan_Kireyevsky",
+   "https://grokipedia.com/page/Eurasianism"
+  ],
+  "domain": [
+   "philosophy",
+   "politics",
+   "religion"
+  ],
+  "aliases": [
+   "Slavophiles",
+   "Slavophilism"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Moscow salons, 1840s",
+     "src": "https://grokipedia.com/page/Slavophilia",
+     "note": "Spread through manuscripts and salon debate, since Nicholas I's censors blocked much print."
+    },
+    {
+     "place": "Russia, 1875-1878",
+     "src": "https://grokipedia.com/page/Slavophilia",
+     "note": "Slavophile publicists such as Ivan Aksakov rallied support for Balkan Slavs in the Russo-Turkish War."
+    }
+   ]
+  },
+  "edge_notes": {
+   "eastern_orthodoxy": {
+    "status": "documented",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Slavophilia",
+    "note": "Built on Orthodox faith: Khomyakov's sobornost is 'organic spiritual unity... through Orthodox faith' (Grokipedia)."
+   },
+   "romanticism": {
+    "status": "documented",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Slavophilia",
+    "note": "'Influences from German Romanticism, including Johann Gottfried Herder's emphasis on the organic Volksgeist' (Grokipedia)."
+   }
+  },
+  "parent_note": "It answered Pyotr Chaadayev's Philosophical Letter of 1836, which called Russia historically barren (Grokipedia); Chaadayev is not a node.",
+  "basis": {
+   "enlightenment_liberalism": "stance",
+   "nationalism": "stance"
+  },
+  "stance_raw": {
+   "enlightenment_liberalism": -3,
+   "nationalism": 3
+  },
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 4,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": -1,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 3,
+   "nationalism": 1,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 3,
+   "hierarchy": 1
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "Orthodoxy was its center: Russia's faith seen as 'uniquely oriented toward theosis' and communal worship (Grokipedia).",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "Stance: rejected 'the rationalism, individualism, and secular reforms associated with Western Europe' (Grokipedia).",
+   "marxism": "Comes before Marxism existed, so it cannot descend from it.",
+   "darwinism": "Comes before Darwinism existed, so it cannot descend from it.",
+   "nietzsche": "Comes before Nietzsche existed, so it cannot descend from it.",
+   "critical_theory": "Comes before Critical theory existed, so it cannot descend from it.",
+   "confucianism": "No clear debt to, or quarrel with, Confucianism.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islam": "No clear debt to, or quarrel with, Islam.",
+   "judaism": "No clear debt to, or quarrel with, Judaism.",
+   "romanticism": "Draws on Romantic ideas of an organic folk spirit (Herder's Volksgeist) and on Schelling, whom Kireyevsky first followed (Grokipedia).",
+   "nationalism": "Affinity: prizes samobytnost, the 'inherent originality and self-sufficiency of Slavic civilization', like national-spirit thinking (Grokipedia).",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Spiritual and idealist: favored 'holistic intuition' and faith over Western rationalism and 'materialism' (Grokipedia).",
+   "hierarchy": "Backed a 'paternalistic autocracy' but praised the village commune's consensus and asked the tsar to protect, not dominate (Grokipedia)."
+  }
+ },
+ {
+  "id": "thieves_law",
+  "name": "Thieves' law",
+  "root": false,
+  "root_axis": null,
+  "year": 1930,
+  "year_approx": true,
+  "origin_src": "https://grokipedia.com/page/Thief_in_law",
+  "origin_note": "The vory v zakone formed as a fraternity in the late 1920s and early 1930s in Gulag camps such as the White Sea-Baltic canal and Kolyma; the first 'crownings' came by the mid-1930s (Grokipedia).",
+  "place": "Soviet Gulag camps",
+  "lat": null,
+  "lon": null,
+  "thinkers": [],
+  "parents": [],
+  "plain": "The code of the Soviet and post-Soviet criminal elite, the 'thieves in law'. Members must live only by crime, never hold a legal job or help the police, and settle disputes in their own courts.",
+  "summary": "Born in Stalin's Gulag, the vory's code bans legal jobs, army service, family life and informing; it outlived the camps and spread into post-Soviet organized crime.",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Thief_in_law"
+  ],
+  "domain": [
+   "culture"
+  ],
+  "aliases": [
+   "Vory v zakone",
+   "Vorovskoy zakon",
+   "Thieves in law",
+   "Thief in law"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Gulag camps, 1945-1953",
+     "src": "https://grokipedia.com/page/Thief_in_law",
+     "note": "The 'Bitch Wars' between code-keeping vory and suki who had worked with the state killed thousands."
+    },
+    {
+     "place": "Post-Soviet states, 1990s",
+     "src": "https://grokipedia.com/page/Thief_in_law",
+     "note": "Vory oversaw rackets in the privatizing economy; Russia made the status itself a crime in 2019."
+    }
+   ]
+  },
+  "edge_notes": {},
+  "parent_note": "Grokipedia traces it to tsarist-era bandit and thief subcultures with no written code; none of these is a node, so it has no parent here.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 0,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -4,
+   "hierarchy": 2
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "No clear debt to, or quarrel with, Christianity.",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "No clear debt to, or quarrel with, Enlightenment liberalism.",
+   "marxism": "No clear debt to, or quarrel with, Marxism.",
+   "darwinism": "No clear debt to, or quarrel with, Darwinism.",
+   "nietzsche": "No clear debt to, or quarrel with, Nietzsche.",
+   "critical_theory": "No clear debt to, or quarrel with, Critical theory.",
+   "confucianism": "No clear debt to, or quarrel with, Confucianism.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islam": "No clear debt to, or quarrel with, Islam.",
+   "judaism": "No clear debt to, or quarrel with, Judaism.",
+   "romanticism": "No clear debt to, or quarrel with, Romanticism.",
+   "nationalism": "No clear debt to, or quarrel with, Nationalism.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "A practical code for prison and criminal life: mutual aid, a common fund (obshchak) and the vory's own courts (Grokipedia).",
+   "hierarchy": "Rejects the state's authority, yet keeps 'strict internal hierarchies': crowned elites, ranks shown by tattoos, and unanimous coronation (Grokipedia)."
   }
  }
 ]
