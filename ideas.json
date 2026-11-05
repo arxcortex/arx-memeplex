@@ -18493,6 +18493,14 @@
   ],
   "plain": "British national populism: leave EU rules behind, cut immigration, restore national sovereignty.",
   "summary": "Farage's Brexit Party (2019) became Reform UK; it won 14.3% and five seats in July 2024 and pressed the Conservatives from the right.",
+  "basis": {
+   "marxism": "stance",
+   "critical_theory": "stance"
+  },
+  "stance_raw": {
+   "marxism": -3,
+   "critical_theory": -3
+  },
   "ratings": {
    "platonism": 0,
    "aristotelianism": 0,
@@ -18501,10 +18509,10 @@
    "gnosticism": 0,
    "hermeticism": 0,
    "enlightenment_liberalism": 0,
-   "marxism": -3,
+   "marxism": -1,
    "darwinism": 0,
    "nietzsche": 0,
-   "critical_theory": -3,
+   "critical_theory": -1,
    "confucianism": 0,
    "daoism": 0,
    "buddhism": 0,
@@ -18526,10 +18534,10 @@
    "gnosticism": "No real link to Gnosticism.",
    "hermeticism": "No real link to Hermeticism.",
    "enlightenment_liberalism": "Mixed: pledges 'freedom, democracy' and tax cuts, but would leave the European Convention on Human Rights (Grokipedia, Reform UK).",
-   "marxism": "Right-wing populism for 'low taxes, deregulation' and deep spending cuts (Grokipedia, Reform UK), the reverse of socialist economics.",
+   "marxism": "Stance: right-wing populism for 'low taxes, deregulation' and deep spending cuts (Grokipedia, Reform UK), the reverse of socialist economics.",
    "darwinism": "No real link to Darwinism.",
    "nietzsche": "No real link to Nietzsche.",
-   "critical_theory": "Would ban 'DEI quotas' and puts 'national identity over multiculturalism' (Grokipedia, Reform UK).",
+   "critical_theory": "Stance: would ban 'DEI quotas' and puts 'national identity over multiculturalism' (Grokipedia, Reform UK).",
    "confucianism": "No real link to Confucianism.",
    "daoism": "No real link to Daoism.",
    "buddhism": "No real link to Buddhism.",
@@ -18850,6 +18858,12 @@
   ],
   "plain": "French national populism: cut immigration, defend sovereignty against the EU, protect the welfare state for citizens.",
   "summary": "Le Pen's National Front of 1972 became the National Rally in 2018; Marine Le Pen took 41.5% in the 2022 runoff.",
+  "basis": {
+   "critical_theory": "stance"
+  },
+  "stance_raw": {
+   "critical_theory": -3
+  },
   "ratings": {
    "platonism": 0,
    "aristotelianism": 0,
@@ -18861,7 +18875,7 @@
    "marxism": -2,
    "darwinism": 0,
    "nietzsche": 0,
-   "critical_theory": -3,
+   "critical_theory": -1,
    "confucianism": 0,
    "daoism": 0,
    "buddhism": 0,
@@ -18886,7 +18900,7 @@
    "marxism": "Calls itself 'neither right nor left'; its 1972 founders included anti-communists, and it now courts workers with welfare.",
    "darwinism": "No real link to Darwinism.",
    "nietzsche": "No real link to Nietzsche.",
-   "critical_theory": "Rejects multiculturalism and puts national identity first; critics accuse it of xenophobia (Grokipedia, National Rally).",
+   "critical_theory": "Stance: rejects multiculturalism and puts national identity first; critics accuse it of xenophobia (Grokipedia, National Rally).",
    "confucianism": "No real link to Confucianism.",
    "daoism": "No real link to Daoism.",
    "buddhism": "No real link to Buddhism.",
@@ -19214,6 +19228,14 @@
   ],
   "plain": "German national populism: limit immigration, oppose EU integration and the euro rescue, restore national identity.",
   "summary": "Founded against euro bailouts in 2013, it moved 'from euroscepticism toward nationalism' and won 20.8% in 2025.",
+  "basis": {
+   "marxism": "stance",
+   "critical_theory": "stance"
+  },
+  "stance_raw": {
+   "marxism": -3,
+   "critical_theory": -3
+  },
   "ratings": {
    "platonism": 0,
    "aristotelianism": 0,
@@ -19222,10 +19244,10 @@
    "gnosticism": 0,
    "hermeticism": 0,
    "enlightenment_liberalism": -1,
-   "marxism": -3,
+   "marxism": -1,
    "darwinism": 0,
    "nietzsche": 0,
-   "critical_theory": -3,
+   "critical_theory": -1,
    "confucianism": 0,
    "daoism": 0,
    "buddhism": 0,
@@ -19247,10 +19269,10 @@
    "gnosticism": "No real link to Gnosticism.",
    "hermeticism": "No real link to Hermeticism.",
    "enlightenment_liberalism": "Began 'as a liberal-conservative alternative'; later shifted right (Grokipedia, AfD).",
-   "marxism": "Began as an economists' party against euro bailouts, citing 'market discipline'; it sits opposite The Left in parliament.",
+   "marxism": "Stance: began as an economists' party against euro bailouts, which it said undermine 'market discipline' (Grokipedia, Alternative for Germany).",
    "darwinism": "No real link to Darwinism.",
    "nietzsche": "No real link to Nietzsche.",
-   "critical_theory": "Opposes 'gender ideology', gender quotas and state money for gender studies (Grokipedia, Alternative for Germany).",
+   "critical_theory": "Stance: opposes 'gender ideology', gender quotas and state money for gender studies (Grokipedia, Alternative for Germany).",
    "confucianism": "No real link to Confucianism.",
    "daoism": "No real link to Daoism.",
    "buddhism": "No real link to Buddhism.",
@@ -19717,10 +19739,18 @@
   "parents": [
    "nationalism",
    "eastern_orthodoxy",
-   "eurasianism"
+   "eurasianism",
+   "tsarist_autocracy",
+   "official_nationality"
   ],
   "plain": "Strong-state Russian conservatism: a 'vertical of power', sovereignty against the West, and Orthodox traditional values.",
   "summary": "Built after 1999 around Putin, United Russia and 'sovereign democracy'; it now frames Russia as a Eurasian power with Orthodox values.",
+  "basis": {
+   "critical_theory": "stance"
+  },
+  "stance_raw": {
+   "critical_theory": -3
+  },
   "ratings": {
    "platonism": 0,
    "aristotelianism": 0,
@@ -19732,7 +19762,7 @@
    "marxism": -1,
    "darwinism": 0,
    "nietzsche": 0,
-   "critical_theory": -3,
+   "critical_theory": -1,
    "confucianism": 0,
    "daoism": 0,
    "buddhism": 0,
@@ -19757,7 +19787,7 @@
    "marxism": "Draws on 'Russian imperial and Soviet legacies' but keeps the Communist Party only as tolerated 'systemic opposition' (Grokipedia, Putinism).",
    "darwinism": "No real link to Darwinism.",
    "nietzsche": "No real link to Nietzsche.",
-   "critical_theory": "Against 'Western moral degradation' (Grokipedia, Putinism).",
+   "critical_theory": "Stance: backs the Orthodox Church's stand against 'Western moral degradation' and bans gender changes (Grokipedia, Putinism).",
    "confucianism": "No real link to Confucianism.",
    "daoism": "No real link to Daoism.",
    "buddhism": "No real link to Buddhism.",
@@ -19774,7 +19804,9 @@
   "stories": [],
   "sources": [
    "https://grokipedia.com/page/Putinism",
-   "https://grokipedia.com/page/United_Russia"
+   "https://grokipedia.com/page/United_Russia",
+   "https://grokipedia.com/page/Tsarist_autocracy",
+   "https://grokipedia.com/page/Orthodoxy,_Autocracy,_and_Nationality"
   ],
   "domain": [
    "politics"
@@ -19813,6 +19845,20 @@
     "type": "borrowing",
     "src": "https://grokipedia.com/page/Eurasianism",
     "note": "Putin's 2011 'Eurasian Union' op-ed 'explicitly drew on these integration concepts'."
+   },
+   "tsarist_autocracy": {
+    "status": "documented",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Putinism",
+    "note": "Putinism 'incorporates selective elements from Tsarist autocracy', such as an elite that serves the central power, now the siloviki (Grokipedia)."
+   },
+   "official_nationality": {
+    "status": "documented",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Orthodoxy,_Autocracy,_and_Nationality",
+    "note": "Putin's ideology 'has drawn explicit parallels' to Uvarov's triad, 'repurposing its elements to underpin a neo-traditionalist autocracy' (Grokipedia)."
    }
   },
   "party_alignment_ru": {
@@ -20094,6 +20140,12 @@
   ],
   "plain": "The CCP's current guiding thought: party leadership over everything, national rejuvenation, and Marxism adapted to China.",
   "summary": "Written into the party charter in 2017 and the state constitution in 2018, it is the official doctrine of Xi's era.",
+  "basis": {
+   "enlightenment_liberalism": "stance"
+  },
+  "stance_raw": {
+   "enlightenment_liberalism": -4
+  },
   "ratings": {
    "platonism": 0,
    "aristotelianism": 0,
@@ -20101,7 +20153,7 @@
    "christianity": 0,
    "gnosticism": 0,
    "hermeticism": 0,
-   "enlightenment_liberalism": -4,
+   "enlightenment_liberalism": -2,
    "marxism": 4,
    "darwinism": 0,
    "nietzsche": 0,
@@ -20126,7 +20178,7 @@
    "christianity": "No real link to Christianity.",
    "gnosticism": "No real link to Gnosticism.",
    "hermeticism": "No real link to Hermeticism.",
-   "enlightenment_liberalism": "Upholds 'comprehensive Party leadership' and counters 'Western influences'; Xi holds that 'unchecked liberalization invites decay' (Grokipedia).",
+   "enlightenment_liberalism": "Stance: upholds 'comprehensive Party leadership' and counters 'Western influences'; Xi holds that 'unchecked liberalization invites decay' (Grokipedia).",
    "marxism": "'The latest theoretical advancement in adapting Marxism-Leninism to China's context' (Grokipedia).",
    "darwinism": "No real link to Darwinism.",
    "nietzsche": "No real link to Nietzsche.",
@@ -30750,6 +30802,12 @@
      "place": "Qing China",
      "src": "https://grokipedia.com/page/Informal_empire",
      "note": "The Opium Wars imposed unequal treaties with extraterritoriality and tariff control, without annexation."
+    },
+    {
+     "place": "China under the US Open Door Policy",
+     "period": "from 1899",
+     "src": "https://grokipedia.com/page/Informal_empire",
+     "note": "The US 'pursued informal empire via the Open Door Policy': Hay's 1899 and 1900 notes demanded equal access to Chinese markets (Grokipedia)."
     }
    ]
   },
@@ -32355,7 +32413,9 @@
    "Dick Cheney"
   ],
   "parents": [
-   "neoconservatism"
+   "neoconservatism",
+   "liberal_international_order",
+   "political_realism"
   ],
   "plain": "A 1992 Pentagon plan saying that after the Soviet Union fell, the US should stay the only superpower and stop any new rival from rising, acting alone if allies would not join.",
   "summary": "Drafted under Paul Wolfowitz after the Cold War, it set US primacy and preventing peer rivals as the goal; its preemption logic returned in the 2002 National Security Strategy.",
@@ -32364,7 +32424,9 @@
    "https://grokipedia.com/page/Wolfowitz_Doctrine",
    "https://grokipedia.com/page/Paul_Wolfowitz",
    "https://grokipedia.com/page/Neoconservatism",
-   "https://grokipedia.com/page/Zalmay_Khalilzad"
+   "https://grokipedia.com/page/Zalmay_Khalilzad",
+   "https://grokipedia.com/page/Liberal_international_order",
+   "https://grokipedia.com/page/Realism_(international_relations)"
   ],
   "domain": [
    "politics"
@@ -32390,9 +32452,23 @@
     "strength": "strong",
     "src": "https://grokipedia.com/page/Wolfowitz_Doctrine",
     "note": "Its tenets 'formed a cornerstone of neoconservative foreign policy'; Wolfowitz himself was a leading neoconservative (Grokipedia)."
+   },
+   "liberal_international_order": {
+    "status": "documented",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Wolfowitz_Doctrine",
+    "note": "The 1992 draft would use US power 'to shape a stable international order' that included 'the promotion of democracy and open markets' (Grokipedia)."
+   },
+   "political_realism": {
+    "status": "documented",
+    "type": "influence",
+    "strength": "weak",
+    "src": "https://grokipedia.com/page/Wolfowitz_Doctrine",
+    "note": "Realist theorists defend its aim of stopping a peer rival as 'pragmatic responses to the anarchic structure of global politics' (Grokipedia)."
    }
   },
-  "parent_note": "Charles Krauthammer's 1990 'unipolar moment' anticipated it (Grokipedia). Realists criticized it as rejecting balance-of-power restraint, so no realism edge is drawn.",
+  "parent_note": "Charles Krauthammer's 1990 'unipolar moment' anticipated it (Grokipedia).",
   "basis": {
    "nationalism": "stance"
   },
@@ -32695,7 +32771,8 @@
   ],
   "parents": [
    "eastern_orthodoxy",
-   "romanticism"
+   "romanticism",
+   "official_nationality"
   ],
   "plain": "A 19th-century Russian movement that said Russia should follow its own Orthodox, communal path instead of copying Western Europe, and that Peter the Great's Westernizing reforms had been a wrong turn.",
   "summary": "Khomyakov and Kireyevsky answered Chaadayev's 1836 letter with sobornost, the peasant commune and pre-Petrine Russia, against the Westernizers; later Eurasianists drew on it.",
@@ -32704,7 +32781,8 @@
    "https://grokipedia.com/page/Slavophilia",
    "https://grokipedia.com/page/Aleksey_Khomyakov",
    "https://grokipedia.com/page/Ivan_Kireyevsky",
-   "https://grokipedia.com/page/Eurasianism"
+   "https://grokipedia.com/page/Eurasianism",
+   "https://grokipedia.com/page/Orthodoxy,_Autocracy,_and_Nationality"
   ],
   "domain": [
    "philosophy",
@@ -32744,6 +32822,13 @@
     "strength": "moderate",
     "src": "https://grokipedia.com/page/Slavophilia",
     "note": "'Influences from German Romanticism, including Johann Gottfried Herder's emphasis on the organic Volksgeist' (Grokipedia)."
+   },
+   "official_nationality": {
+    "status": "documented",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Orthodoxy,_Autocracy,_and_Nationality",
+    "note": "The triad 'informed the Slavophile movement'; Khomyakov and Kireevsky were 'initially shaped by' its narodnost', but called the state version artificial."
    }
   },
   "parent_note": "It answered Pyotr Chaadayev's Philosophical Letter of 1836, which called Russia historically barren (Grokipedia); Chaadayev is not a node.",
