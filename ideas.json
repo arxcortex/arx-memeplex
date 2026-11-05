@@ -33133,14 +33133,17 @@
   ],
   "parents": [
    "nationalism",
-   "romanticism"
+   "romanticism",
+   "slavophilia",
+   "official_nationality"
   ],
   "plain": "A 19th-century movement that said all Slavic peoples should stand together by language and kinship, against German and Ottoman rule. Prague's 1848 congress was its first big meeting.",
   "summary": "From Kollár's cultural reciprocity to the 1848 Prague congress and later Russian-led Balkan versions; Romantic nationalism gave it its ethnic 'Volksgeist' frame.",
   "stories": [],
   "sources": [
    "https://grokipedia.com/page/Pan-Slavism",
-   "https://grokipedia.com/page/Slavophilia"
+   "https://grokipedia.com/page/Slavophilia",
+   "https://grokipedia.com/page/Orthodoxy,_Autocracy,_and_Nationality"
   ],
   "domain": [
    "politics"
@@ -33179,9 +33182,23 @@
     "strength": "strong",
     "src": "https://grokipedia.com/page/Pan-Slavism",
     "note": "Influenced by 'Romantic nationalism and Johann Gottfried Herder's ethnolinguistic ideas' (Grokipedia)."
+   },
+   "slavophilia": {
+    "status": "documented",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Slavophilia",
+    "note": "Slavophilism's Slavic spiritual kinship 'fueled Pan-Slavism's non-imperial variants'; Ivan Aksakov mobilized support for Balkan Slavs (Grokipedia)."
+   },
+   "official_nationality": {
+    "status": "documented",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Orthodoxy,_Autocracy,_and_Nationality",
+    "note": "Its later revival 'influenced Pan-Slavist currents' through the Slavic Benevolent Committee and Orthodox Slavic solidarity (Grokipedia)."
    }
   },
-  "parent_note": "Russian Pan-Slavism later borrowed Slavophile Orthodoxy (Danilevsky); that edge is held pending a sourced handoff. Official Nationality is not claimed as a parent.",
+  "parent_note": "Russian Pan-Slavism later drew on Slavophile spiritual kinship and on Official Nationality through the Slavic Benevolent Committee; neither explains the earlier Habsburg movement (Grokipedia).",
   "basis": {
    "christianity": "stance",
    "enlightenment_liberalism": "stance"
