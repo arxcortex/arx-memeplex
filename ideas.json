@@ -3656,6 +3656,127 @@
      "note": "Named in the Grokipedia article “Oriental Orthodox Churches”."
     }
    ]
+  },
+  "edge_notes": {
+   "apostolic_christianity": {
+    "status": "direct",
+    "type": "split",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Council_of_Chalcedon",
+    "note": "Coptic, Syriac, Armenian, Ethiopian and Eritrean churches rejected the Chalcedonian Definition of 451."
+   }
+  }
+ },
+ {
+  "id": "chalcedonian_christianity",
+  "name": "Chalcedonian Christianity",
+  "root": false,
+  "root_axis": null,
+  "year": 451,
+  "year_approx": false,
+  "place": "Chalcedon",
+  "lat": 40.98,
+  "lon": 29.03,
+  "origin_src": "https://grokipedia.com/page/Council_of_Chalcedon",
+  "origin_note": "Emperor Marcian, with Pulcheria, convened the council at Chalcedon; it met from 8 October to 1 November 451 and adopted its Definition of Christ's two natures on 22 October.",
+  "thinkers": [
+   "Pope Leo I",
+   "Marcian",
+   "Pulcheria"
+  ],
+  "parents": [
+   "apostolic_christianity"
+  ],
+  "plain": "The teaching, set at the Council of Chalcedon in 451, that Jesus is one person who is fully God and fully human, with two natures that are neither mixed nor split.",
+  "summary": "The Council of Chalcedon (451), backing Pope Leo I's Tome, defines Christ as one person in two natures, divine and human; the Oriental churches reject it.",
+  "ratings": {
+   "platonism": 1,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 5,
+   "gnosticism": -4,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 0,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islam": 0,
+   "judaism": 1,
+   "romanticism": 0,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 4,
+   "hierarchy": 3
+  },
+  "rationale": {
+   "platonism": "Its physis/hypostasis terms come via the Cappadocians, who drew on Plotinus's use of hypostasis; an indirect echo.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism in the 451 Definition itself.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "Its Definition is the Christology of the Eastern Orthodox, Catholic and Protestant churches.",
+   "gnosticism": "Calls Christ consubstantial with us and like us in all things but sin, against any merely apparent body.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "Comes before Enlightenment liberalism existed, so it cannot descend from it.",
+   "marxism": "Comes before Marxism existed, so it cannot descend from it.",
+   "darwinism": "Comes before Darwinism existed, so it cannot descend from it.",
+   "nietzsche": "Comes before Nietzsche existed, so it cannot descend from it.",
+   "critical_theory": "Comes before Critical theory existed, so it cannot descend from it.",
+   "confucianism": "No real link to Confucianism.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "No real link to Buddhism.",
+   "vedanta": "No real link to Vedanta.",
+   "islam": "Comes before Islam existed, so it cannot descend from it.",
+   "judaism": "The Definition appeals to what 'the Prophets of old time have spoken', reading the Hebrew Bible through Christ.",
+   "romanticism": "Comes before Romanticism existed, so it cannot descend from it.",
+   "nationalism": "Comes before Nationalism existed, so it cannot descend from it.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "God the Word is eternal and unchanging, yet the Definition insists on a full human body and soul.",
+   "hierarchy": "Bishops in an emperor-called council set doctrine and Canon 28 ranks the sees, as in the early church's ordered but shared authority."
+  },
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Council_of_Chalcedon",
+   "https://grokipedia.com/page/Chalcedonian_Christianity",
+   "https://grokipedia.com/page/Pope_Leo_I",
+   "https://grokipedia.com/page/Marcian",
+   "https://grokipedia.com/page/Pulcheria"
+  ],
+  "domain": [
+   "religion"
+  ],
+  "aliases": [
+   "Chalcedonian orthodoxy",
+   "dyophysite Christianity"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Constantinople",
+     "src": "https://grokipedia.com/page/Council_of_Chalcedon",
+     "note": "Canon 28 gave the see of Constantinople, 'New Rome', privileges equal to Rome's."
+    },
+    {
+     "place": "Rome",
+     "src": "https://grokipedia.com/page/Council_of_Chalcedon",
+     "note": "Pope Leo I approved the doctrinal decrees in 453, cementing the council's authority in East and West."
+    }
+   ]
+  },
+  "edge_notes": {
+   "apostolic_christianity": {
+    "status": "direct",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Chalcedonian_Christianity",
+    "note": "The Definition 'synthesizes prior patristic teachings' and builds on Nicaea (325) and Constantinople (381); bishops of the one imperial church adopted it."
+   }
   }
  },
  {
@@ -3780,7 +3901,8 @@
    "Gregory Palamas"
   ],
   "parents": [
-   "apostolic_christianity"
+   "apostolic_christianity",
+   "chalcedonian_christianity"
   ],
   "plain": "The churches of Greece, Russia and Eastern Europe. They hold to the faith of the early councils, worship through icons and liturgy, and are led by bishops with no pope above them.",
   "summary": "Greek, Russian and other eastern churches that split from Rome in 1054; led by bishops in council, with no pope.",
@@ -3868,6 +3990,15 @@
      "note": "Named in the Grokipedia article “Eastern Orthodox Church”."
     }
    ]
+  },
+  "edge_notes": {
+   "chalcedonian_christianity": {
+    "status": "documented",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Chalcedonian_Christianity",
+    "note": "Chalcedonian Christology 'underpins the faith' of the Eastern Orthodox churches."
+   }
   }
  },
  {
@@ -3887,7 +4018,8 @@
    "Thomas Aquinas"
   ],
   "parents": [
-   "apostolic_christianity"
+   "apostolic_christianity",
+   "chalcedonian_christianity"
   ],
   "plain": "The western church led by the Pope, the Bishop of Rome. It teaches through scripture, tradition and the Church's teaching office, and centers worship on the seven sacraments.",
   "summary": "The western church led by the Pope in Rome, teaching through scripture, tradition and the sacraments.",
@@ -3978,6 +4110,15 @@
      "note": "Named in the Grokipedia article “Catholic Church by country”."
     }
    ]
+  },
+  "edge_notes": {
+   "chalcedonian_christianity": {
+    "status": "documented",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Council_of_Chalcedon",
+    "note": "Pope Leo I approved the doctrinal decrees in 453, which 'cemented Chalcedon's authority in both Eastern and Western churches'."
+   }
   }
  },
  {
