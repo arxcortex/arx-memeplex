@@ -303,11 +303,16 @@
    ],
    "philosophy": [
     {
-     "idea": "slavophilism",
+     "idea": "slavophilia",
      "why": "Nineteenth-century Slavophile school, a defining Russian current (historical).",
      "src": "https://grokipedia.com/page/Slavophilia",
-     "call": "historical",
-     "status": "missing"
+     "call": "historical"
+    },
+    {
+     "idea": "westernizers",
+     "why": "Nineteenth-century advocates of Western institutions and rational reform, opposed to the Slavophiles (historical).",
+     "src": "https://grokipedia.com/page/Westernizer",
+     "call": "historical"
     },
     {
      "idea": "sophiology",
@@ -320,8 +325,7 @@
      "idea": "russian_cosmism",
      "why": "Fedorov's cosmism, a distinctively Russian movement.",
      "src": "https://grokipedia.com/page/Russian_cosmism",
-     "call": "living",
-     "status": "missing"
+     "call": "living"
     },
     {
      "idea": "eurasianism",

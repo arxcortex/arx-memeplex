@@ -32987,5 +32987,1215 @@
    "abstraction": "A practical code for prison and criminal life: mutual aid, a common fund (obshchak) and the vory's own courts (Grokipedia).",
    "hierarchy": "Rejects the state's authority, yet keeps 'strict internal hierarchies': crowned elites, ranks shown by tattoos, and unanimous coronation (Grokipedia)."
   }
+ },
+ {
+  "id": "westernizers",
+  "name": "Westernizers",
+  "root": false,
+  "root_axis": null,
+  "year": 1840,
+  "year_approx": true,
+  "origin_src": "https://grokipedia.com/page/Westernizer",
+  "origin_note": "Grokipedia dates the circle to the 1830s–1840s; Belinsky's 1840 break with Aksakov marks the camps as opposed (Grokipedia).",
+  "place": "Moscow",
+  "lat": 55.75,
+  "lon": 37.62,
+  "thinkers": [
+   "Pyotr Chaadayev",
+   "Vissarion Belinsky",
+   "Alexander Herzen",
+   "Timofey Granovsky"
+  ],
+  "parents": [
+   "enlightenment_liberalism"
+  ],
+  "plain": "A mid-19th-century Russian circle that said Russia should copy Western Europe's science, law and liberal institutions instead of clinging to Orthodoxy, the commune and the tsar.",
+  "summary": "Moscow and Petersburg writers who answered Chaadayev by urging European reforms; Belinsky, Herzen and Granovsky opposed the Slavophiles' Orthodox-communal path.",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Westernizer",
+   "https://grokipedia.com/page/Pyotr_Chaadayev",
+   "https://grokipedia.com/page/Vissarion_Belinsky",
+   "https://grokipedia.com/page/Alexander_Herzen"
+  ],
+  "domain": [
+   "philosophy",
+   "politics"
+  ],
+  "aliases": [
+   "Westernism",
+   "Zapadnichestvo",
+   "Russian Westernizers"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Moscow University lectures, 1840s",
+     "src": "https://grokipedia.com/page/Westernizer",
+     "note": "Granovsky's public history lectures pushed rational European models against Slavophile mysticism (Grokipedia)."
+    },
+    {
+     "place": "The Contemporary (Sovremennik), 1840s",
+     "src": "https://grokipedia.com/page/Westernizer",
+     "note": "Belinsky's criticism there made Westernizer social critique a public force (Grokipedia)."
+    }
+   ]
+  },
+  "edge_notes": {
+   "enlightenment_liberalism": {
+    "status": "documented",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Westernizer",
+    "note": "Favored 'constitutional reforms, secular education, and economic liberalization inspired by European models' (Grokipedia)."
+   }
+  },
+  "parent_note": "Chaadayev's 1836 Philosophical Letter set the Westernizer brief; the Slavophile rivalry is opposition, not a parent line (Grokipedia).",
+  "basis": {
+   "romanticism": "stance",
+   "nationalism": "stance",
+   "marxism": "stance"
+  },
+  "stance_raw": {
+   "romanticism": -3,
+   "nationalism": -2,
+   "marxism": 2
+  },
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": -2,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 4,
+   "marxism": 1,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": -1,
+   "nationalism": -1,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 1,
+   "hierarchy": -2
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "Treated Orthodox communal tradition as an obstacle to enlightenment and progress (Grokipedia).",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "Core program: emulate Western 'liberal institutions', constitutional reform and secular education (Grokipedia).",
+   "marxism": "Affinity: later radicals (Chernyshevsky circle) pushed Westernizer critique toward materialist socialism (Grokipedia).",
+   "darwinism": "Comes before Darwinism existed, so it cannot descend from it.",
+   "nietzsche": "Comes before Nietzsche existed, so it cannot descend from it.",
+   "critical_theory": "Comes before Critical theory existed, so it cannot descend from it.",
+   "confucianism": "No clear debt to, or quarrel with, Confucianism.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islam": "No clear debt to, or quarrel with, Islam.",
+   "judaism": "No clear debt to, or quarrel with, Judaism.",
+   "romanticism": "Stance: Belinsky 'lambasted irrational romanticism', favoring realism over folk-spirit mysticism (Grokipedia).",
+   "nationalism": "Stance: rejected samobytnost exceptionalism; progress meant joining Europe, not a unique Slavic path (Grokipedia).",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Institutional and historical: separation of powers, law and education more than pure metaphysics.",
+   "hierarchy": "Opposed tsarist autocracy and serfdom; favored constitutional limits on the ruler (Grokipedia)."
+  }
+ },
+ {
+  "id": "pan_slavism",
+  "name": "Pan-Slavism",
+  "root": false,
+  "root_axis": null,
+  "year": 1848,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Pan-Slavism",
+  "origin_note": "Cultural roots in Kollár's 1824 Slávy dcera; the First Slavic Congress in Prague (2–12 June 1848) made it a political movement (Grokipedia).",
+  "place": "Prague",
+  "lat": 50.08,
+  "lon": 14.44,
+  "thinkers": [
+   "Ján Kollár",
+   "František Palacký",
+   "Mikhail Pogodin",
+   "Nikolai Danilevsky"
+  ],
+  "parents": [
+   "nationalism",
+   "romanticism",
+   "slavophilia",
+   "official_nationality"
+  ],
+  "plain": "A 19th-century movement that said all Slavic peoples should stand together by language and kinship, against German and Ottoman rule. Prague's 1848 congress was its first big meeting.",
+  "summary": "From Kollár's cultural reciprocity to the 1848 Prague congress and later Russian-led Balkan versions; Romantic nationalism gave it its ethnic 'Volksgeist' frame.",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Pan-Slavism",
+   "https://grokipedia.com/page/Slavophilia",
+   "https://grokipedia.com/page/Orthodoxy,_Autocracy,_and_Nationality"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "aliases": [
+   "Panslavism",
+   "Slavic reciprocity",
+   "Pan-Slavic movement"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Prague Slavic Congress, June 1848",
+     "src": "https://grokipedia.com/page/Pan-Slavism",
+     "note": "First political gathering; Austro-Slav and Russian-oriented aims already clashed (Grokipedia)."
+    },
+    {
+     "place": "Moscow Slavic Benevolent Committee, 1858",
+     "src": "https://grokipedia.com/page/Pan-Slavism",
+     "note": "Russian state-linked hub for Balkan Slavic aid and cultural outreach (Grokipedia)."
+    }
+   ]
+  },
+  "edge_notes": {
+   "nationalism": {
+    "status": "documented",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Pan-Slavism",
+    "note": "A form of Romantic nationalism: Slavic unity on shared language, history and ethnic heritage (Grokipedia)."
+   },
+   "romanticism": {
+    "status": "documented",
+    "type": "influence",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Pan-Slavism",
+    "note": "Influenced by 'Romantic nationalism and Johann Gottfried Herder's ethnolinguistic ideas' (Grokipedia)."
+   },
+   "slavophilia": {
+    "status": "documented",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Slavophilia",
+    "note": "Slavophilism's Slavic spiritual kinship 'fueled Pan-Slavism's non-imperial variants'; Ivan Aksakov mobilized support for Balkan Slavs (Grokipedia)."
+   },
+   "official_nationality": {
+    "status": "documented",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Orthodoxy,_Autocracy,_and_Nationality",
+    "note": "Its later revival 'influenced Pan-Slavist currents' through the Slavic Benevolent Committee and Orthodox Slavic solidarity (Grokipedia)."
+   }
+  },
+  "parent_note": "Russian Pan-Slavism later drew on Slavophile spiritual kinship and on Official Nationality through the Slavic Benevolent Committee; neither explains the earlier Habsburg movement (Grokipedia).",
+  "basis": {
+   "christianity": "stance",
+   "enlightenment_liberalism": "stance"
+  },
+  "stance_raw": {
+   "christianity": 2,
+   "enlightenment_liberalism": 2
+  },
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 1,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 1,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 3,
+   "nationalism": 5,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 2,
+   "hierarchy": 1
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "Affinity: Russian variants stressed Orthodox Slavic unity under Moscow (Danilevsky; Grokipedia).",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "Affinity: 1848 Austro-Slav program sought constitutional federal rights inside the empire (Grokipedia).",
+   "marxism": "No clear debt to, or quarrel with, Marxism.",
+   "darwinism": "Comes before Darwinism existed, so it cannot descend from it.",
+   "nietzsche": "Comes before Nietzsche existed, so it cannot descend from it.",
+   "critical_theory": "Comes before Critical theory existed, so it cannot descend from it.",
+   "confucianism": "No clear debt to, or quarrel with, Confucianism.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islam": "No clear debt to, or quarrel with, Islam.",
+   "judaism": "No clear debt to, or quarrel with, Judaism.",
+   "romanticism": "Built on Herder's Volksgeist and Romantic ethnolinguistic culture (Grokipedia).",
+   "nationalism": "Defines itself as Slavic national unity: one people by language and kinship against alien empires (Grokipedia).",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Ethnic and cultural ideal of Slavic reciprocity more than a concrete state blueprint.",
+   "hierarchy": "Russian strains backed Moscow's lead over other Slavs; Austro-Slavs wanted federal equality (Grokipedia)."
+  }
+ },
+ {
+  "id": "bush_doctrine",
+  "name": "Bush Doctrine",
+  "root": false,
+  "root_axis": null,
+  "year": 2002,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Bush_Doctrine",
+  "origin_note": "Set out in Bush's 1 June 2002 West Point speech and the September 2002 National Security Strategy after the 11 September 2001 attacks (Grokipedia).",
+  "place": "Washington, D.C.",
+  "lat": 38.9,
+  "lon": -77.04,
+  "thinkers": [
+   "George W. Bush",
+   "Paul Wolfowitz",
+   "Condoleezza Rice",
+   "Dick Cheney"
+  ],
+  "parents": [
+   "wolfowitz_doctrine",
+   "neoconservatism"
+  ],
+  "plain": "The post-9/11 US policy of striking threats before they fully form, acting with or without big alliances, and pushing democracy to undercut tyranny and terror.",
+  "summary": "Formalized in the 2002 NSS: preemption, coalitions of the willing, and democracy promotion; neoconservatives and the 1992 Wolfowitz draft shaped its logic.",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Bush_Doctrine",
+   "https://grokipedia.com/page/Wolfowitz_Doctrine",
+   "https://grokipedia.com/page/Neoconservatism",
+   "https://grokipedia.com/page/George_W._Bush",
+   "https://grokipedia.com/page/Paul_Wolfowitz"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "aliases": [
+   "2002 National Security Strategy",
+   "Bush preemption doctrine"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Iraq War, 2003",
+     "src": "https://grokipedia.com/page/Bush_Doctrine",
+     "note": "Regime change in Iraq was the doctrine's largest application (Grokipedia)."
+    },
+    {
+     "place": "Afghanistan, 2001-2002",
+     "src": "https://grokipedia.com/page/Bush_Doctrine",
+     "note": "Early war-on-terror campaign framed under the same preemptive logic (Grokipedia)."
+    }
+   ]
+  },
+  "edge_notes": {
+   "wolfowitz_doctrine": {
+    "status": "documented",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Bush_Doctrine",
+    "note": "Wolfowitz helped draft the 2002 NSS; its preemption logic reprises the 1992 Defense Planning Guidance (Grokipedia)."
+   },
+   "neoconservatism": {
+    "status": "documented",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Bush_Doctrine",
+    "note": "Grokipedia lists 'Neoconservative Foundations' and PNAC advocacy as intellectual sources of the doctrine."
+   }
+  },
+  "parent_note": "It openly departed from Cold War containment and deterrence (Grokipedia); that is contrast, not a parent line.",
+  "basis": {
+   "nationalism": "stance"
+  },
+  "stance_raw": {
+   "nationalism": 2
+  },
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 3,
+   "marxism": -2,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 1,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -3,
+   "hierarchy": 3
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "No clear debt to, or quarrel with, Christianity.",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "Promotes 'democratic institutions to counter tyranny and terrorism' as security policy (Grokipedia).",
+   "marxism": "Post-Cold War doctrine aimed at rogue states and terror networks, not a socialist order (Grokipedia).",
+   "darwinism": "No clear debt to, or quarrel with, Darwinism.",
+   "nietzsche": "No clear debt to, or quarrel with, Nietzsche.",
+   "critical_theory": "No clear debt to, or quarrel with, Critical theory.",
+   "confucianism": "No clear debt to, or quarrel with, Confucianism.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islam": "No clear debt to, or quarrel with, Islam.",
+   "judaism": "No clear debt to, or quarrel with, Judaism.",
+   "romanticism": "No clear debt to, or quarrel with, Romanticism.",
+   "nationalism": "Stance: allows unilateral US action when 'international consensus' is absent (Cheney; Grokipedia).",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Concrete security strategy about threats, WMD and regime change, not a political philosophy.",
+   "hierarchy": "Puts US power first: preempt threats and lead 'coalitions of the willing' (Grokipedia)."
+  }
+ },
+ {
+  "id": "containment",
+  "name": "Containment",
+  "root": false,
+  "root_axis": null,
+  "year": 1947,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Containment",
+  "origin_note": "Kennan's February 1946 Long Telegram and July 1947 'X' article framed it; Truman's 12 March 1947 doctrine put it into US policy (Grokipedia).",
+  "place": "Washington, D.C.",
+  "lat": 38.9,
+  "lon": -77.04,
+  "thinkers": [
+   "George F. Kennan",
+   "Harry S. Truman",
+   "Dean Acheson",
+   "Paul Nitze"
+  ],
+  "parents": [
+   "political_realism"
+  ],
+  "plain": "The US Cold War strategy of stopping Soviet power from spreading further, using aid, alliances and limited force rather than trying to roll it back everywhere at once.",
+  "summary": "Kennan's patient counter-pressure became Truman Doctrine aid, the Marshall Plan and NATO; NSC 68 later hardened it toward military buildup.",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Containment",
+   "https://grokipedia.com/page/George_F._Kennan",
+   "https://grokipedia.com/page/Truman_Doctrine",
+   "https://grokipedia.com/page/NSC_68",
+   "https://grokipedia.com/page/Harry_S._Truman"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "aliases": [
+   "Containment policy",
+   "Kennan containment",
+   "X Article strategy"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Greece and Turkey, 1947",
+     "src": "https://grokipedia.com/page/Truman_Doctrine",
+     "note": "First Truman Doctrine aid packages tested containment against communist pressure (Grokipedia)."
+    },
+    {
+     "place": "NATO founding, 1949",
+     "src": "https://grokipedia.com/page/Containment",
+     "note": "Collective defense institutionalized containment in Europe (Grokipedia)."
+    }
+   ]
+  },
+  "edge_notes": {
+   "political_realism": {
+    "status": "documented",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Containment",
+    "note": "Kennan's design 'recognized the USSR's non-negotiable hostility' and applied realist counter-pressure (Grokipedia)."
+   }
+  },
+  "parent_note": "NSC 68 (Nitze, 1950) hardened the military side; Truman Doctrine was the first operational step, not a separate parent node here.",
+  "basis": {
+   "nationalism": "stance"
+  },
+  "stance_raw": {
+   "nationalism": 2
+  },
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 2,
+   "marxism": -4,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 1,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -3,
+   "hierarchy": 2
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "No clear debt to, or quarrel with, Christianity.",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "Defended pluralist 'free peoples' against Soviet subjugation (Truman Doctrine; Grokipedia).",
+   "marxism": "Aimed to halt 'expansion of Soviet communism' and Moscow's ideological reach (Grokipedia).",
+   "darwinism": "No clear debt to, or quarrel with, Darwinism.",
+   "nietzsche": "No clear debt to, or quarrel with, Nietzsche.",
+   "critical_theory": "No clear debt to, or quarrel with, Critical theory.",
+   "confucianism": "No clear debt to, or quarrel with, Confucianism.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islam": "No clear debt to, or quarrel with, Islam.",
+   "judaism": "No clear debt to, or quarrel with, Judaism.",
+   "romanticism": "No clear debt to, or quarrel with, Romanticism.",
+   "nationalism": "Affinity: framed as protecting national independence of threatened states from Soviet empire (Grokipedia).",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Practical statecraft: telegrams, aid bills, alliances and force at points of encroachment.",
+   "hierarchy": "Accepted a bipolar order and US leadership of the non-Soviet bloc rather than world government."
+  }
+ },
+ {
+  "id": "russian_cosmism",
+  "name": "Russian cosmism",
+  "root": false,
+  "root_axis": null,
+  "year": 1880,
+  "year_approx": true,
+  "origin_src": "https://grokipedia.com/page/Russian_cosmism",
+  "origin_note": "Fyodorov's 'common task' writings date to the 1860s–1890s; Philosophy of the Common Task was published posthumously in 1906 and expanded in 1913 (Grokipedia).",
+  "place": "Moscow",
+  "lat": 55.75,
+  "lon": 37.62,
+  "thinkers": [
+   "Nikolai Fyodorov",
+   "Konstantin Tsiolkovsky",
+   "Vladimir Solovyov",
+   "Alexander Chizhevsky"
+  ],
+  "parents": [
+   "eastern_orthodoxy"
+  ],
+  "plain": "A Russian philosophy that says humans must use science to conquer death, resurrect past generations, and guide the cosmos—the 'common task' taught by Nikolai Fyodorov.",
+  "summary": "Fyodorov fused Orthodox theosis with active science: immortality and ancestor resurrection as duty; Tsiolkovsky carried it into rocketry and space thought.",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Russian_cosmism",
+   "https://grokipedia.com/page/Konstantin_Tsiolkovsky",
+   "https://grokipedia.com/page/Vladimir_Solovyov",
+   "https://grokipedia.com/page/Alexander_Chizhevsky"
+  ],
+  "domain": [
+   "philosophy",
+   "religion"
+  ],
+  "aliases": [
+   "Cosmism",
+   "Philosophy of the Common Task",
+   "Fedorovism"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Early Soviet rocketry circles",
+     "src": "https://grokipedia.com/page/Russian_cosmism",
+     "note": "Tsiolkovsky's cosmist space vision fed into Soviet astronautics culture (Grokipedia)."
+    },
+    {
+     "place": "Post-Soviet Russia, 1990s-",
+     "src": "https://grokipedia.com/page/Russian_cosmism",
+     "note": "Revived in philosophy and art; often compared with, yet distinct from, Western transhumanism (Grokipedia)."
+    }
+   ]
+  },
+  "edge_notes": {
+   "eastern_orthodoxy": {
+    "status": "documented",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Russian_cosmism",
+    "note": "Synthesizes 'Eastern Orthodox Christian eschatology, emphasizing deification (theosis),' with materialist science (Grokipedia)."
+   }
+  },
+  "parent_note": "Grokipedia contrasts it with Western transhumanism and notes Darwinian-era science as material, not a Darwinism parent line.",
+  "basis": {
+   "darwinism": "stance",
+   "platonism": "stance",
+   "enlightenment_liberalism": "stance",
+   "nietzsche": "stance"
+  },
+  "stance_raw": {
+   "darwinism": 2,
+   "platonism": 2,
+   "enlightenment_liberalism": 2,
+   "nietzsche": -2
+  },
+  "ratings": {
+   "platonism": 1,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 4,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 1,
+   "marxism": 0,
+   "darwinism": 1,
+   "nietzsche": -1,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 4,
+   "hierarchy": 1
+  },
+  "rationale": {
+   "platonism": "Affinity: ideal of perfecting and regulating the cosmos toward a completed, immortal order.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "Orthodox theosis and resurrection hope drive the 'common task' of conquering death (Grokipedia).",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "Affinity: trusts reason and scientific progress to remake the human condition (Grokipedia).",
+   "marxism": "No clear debt to, or quarrel with, Marxism.",
+   "darwinism": "Affinity: joins materialist evolutionary science to active human transformation of nature (Grokipedia).",
+   "nietzsche": "Stance: duty to resurrect all ancestors rejects the Nietzschean affirmation of life without otherworldly rescue.",
+   "critical_theory": "Comes before Critical theory existed, so it cannot descend from it.",
+   "confucianism": "No clear debt to, or quarrel with, Confucianism.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islam": "No clear debt to, or quarrel with, Islam.",
+   "judaism": "No clear debt to, or quarrel with, Judaism.",
+   "romanticism": "No clear debt to, or quarrel with, Romanticism.",
+   "nationalism": "No clear debt to, or quarrel with, Nationalism.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Cosmic and eschatological: immortality, resurrection and regulation of nature as ultimate ends.",
+   "hierarchy": "Humanity as collective steward over nature, under a God-oriented 'common task' (Grokipedia)."
+  }
+ },
+ {
+  "id": "neorealism",
+  "name": "Neorealism",
+  "root": false,
+  "root_axis": null,
+  "year": 1979,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Neorealism_(international_relations)",
+  "origin_note": "Waltz's Theory of International Politics (1979) founded structural realism; Grokipedia dates the paradigm to that book.",
+  "place": "Berkeley",
+  "lat": 37.87,
+  "lon": -122.27,
+  "thinkers": [
+   "Kenneth Waltz"
+  ],
+  "parents": [
+   "political_realism"
+  ],
+  "plain": "A theory of world politics that says the lack of a world government, not human nature, forces states to seek power and security. Waltz called this structural realism.",
+  "summary": "Waltz's 1979 structural realism: anarchy and the distribution of capabilities, not human nature or regime type, shape great-power behavior and balancing.",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Neorealism_(international_relations)",
+   "https://grokipedia.com/page/Theory_of_International_Politics",
+   "https://grokipedia.com/page/Kenneth_Waltz",
+   "https://grokipedia.com/page/Realism_(international_relations)"
+  ],
+  "domain": [
+   "politics",
+   "philosophy"
+  ],
+  "aliases": [
+   "Structural realism",
+   "Waltzian neorealism"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "United States IR departments, 1980s–",
+     "src": "https://grokipedia.com/page/Neorealism_(international_relations)",
+     "note": "Became a dominant US IR paradigm explaining Cold War bipolarity and balancing (Grokipedia)."
+    },
+    {
+     "place": "Cold War bipolar system debates",
+     "src": "https://grokipedia.com/page/Theory_of_International_Politics",
+     "note": "Waltz argued bipolarity was more stable than multipolarity (Grokipedia)."
+    }
+   ]
+  },
+  "edge_notes": {
+   "political_realism": {
+    "status": "documented",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Neorealism_(international_relations)",
+    "note": "Distinguishes itself from classical realism (Morgenthau) by shifting from human nature to systemic structure (Grokipedia)."
+   }
+  },
+  "parent_note": "Grokipedia treats neorealism as structural refinement of classical realism; Waltz is already listed among political_realism thinkers.",
+  "basis": {
+   "marxism": "stance",
+   "nationalism": "stance"
+  },
+  "stance_raw": {
+   "marxism": -2,
+   "nationalism": 2
+  },
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": -3,
+   "marxism": -1,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 1,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -2,
+   "hierarchy": 1
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "No clear debt to, or quarrel with, Christianity.",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "Rejects liberal hopes that regimes, law or interdependence override anarchic self-help (Grokipedia).",
+   "marxism": "Stance: treats class and ideology as secondary to systemic power distribution among states (Grokipedia).",
+   "darwinism": "No clear debt to, or quarrel with, Darwinism.",
+   "nietzsche": "No clear debt to, or quarrel with, Nietzsche.",
+   "critical_theory": "No clear debt to, or quarrel with, Critical theory.",
+   "confucianism": "No clear debt to, or quarrel with, Confucianism.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islam": "No clear debt to, or quarrel with, Islam.",
+   "judaism": "No clear debt to, or quarrel with, Judaism.",
+   "romanticism": "No clear debt to, or quarrel with, Romanticism.",
+   "nationalism": "Affinity: unitary-state actors seeking survival fit nationalist self-help; not a nationalist doctrine.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Systemic and structural: capabilities and anarchy, not ethics or domestic ideals, drive outcomes.",
+   "hierarchy": "Anarchy lacks a global sovereign; hierarchy appears inside states and in power rankings among them."
+  }
+ },
+ {
+  "id": "neo_medievalism",
+  "name": "Neo-medievalism",
+  "root": false,
+  "root_axis": null,
+  "year": 1977,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Neo-medievalism",
+  "origin_note": "Hedley Bull's The Anarchical Society (1977) sketched a neo-medieval alternative of overlapping authorities versus Westphalian states (Grokipedia).",
+  "place": "Oxford",
+  "lat": 51.75,
+  "lon": -1.25,
+  "thinkers": [
+   "Hedley Bull"
+  ],
+  "parents": [],
+  "plain": "An IR picture of a world where states share power with churches, firms, courts and other loyalties, more like medieval Europe than neat modern borders.",
+  "summary": "Bull's 1977 IR framework: fragmented sovereignty and overlapping authorities, analogous to medieval Europe rather than exclusive Westphalian states.",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Neo-medievalism",
+   "https://grokipedia.com/page/Hedley_Bull"
+  ],
+  "domain": [
+   "politics",
+   "philosophy"
+  ],
+  "aliases": [
+   "Neomedievalism",
+   "New medievalism",
+   "Neo-medieval international system"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "European Union institutional debates",
+     "src": "https://grokipedia.com/page/Neo-medievalism",
+     "note": "Used to describe layered EU and transnational authorities beside states (Grokipedia)."
+    },
+    {
+     "place": "Globalization and private security",
+     "src": "https://grokipedia.com/page/Neo-medievalism",
+     "note": "Applied to non-state violence, firms and overlapping loyalties under globalization (Grokipedia)."
+    }
+   ]
+  },
+  "edge_notes": {},
+  "parent_note": "Bull's English School sketch is not sourced as a child of political_realism; a realism parent is held for review. No English School node yet.",
+  "basis": {
+   "enlightenment_liberalism": "stance",
+   "christianity": "stance",
+   "nationalism": "stance"
+  },
+  "stance_raw": {
+   "enlightenment_liberalism": -2,
+   "christianity": 2,
+   "nationalism": -4
+  },
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 1,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": -1,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": -2,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -1,
+   "hierarchy": -2
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "Affinity: medieval analogy recalls overlapping papal and imperial claims beside kingdoms (Grokipedia).",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "Stance: doubts neat sovereign-state progress toward a liberal Westphalian order (Grokipedia).",
+   "marxism": "No clear debt to, or quarrel with, Marxism.",
+   "darwinism": "No clear debt to, or quarrel with, Darwinism.",
+   "nietzsche": "No clear debt to, or quarrel with, Nietzsche.",
+   "critical_theory": "No clear debt to, or quarrel with, Critical theory.",
+   "confucianism": "No clear debt to, or quarrel with, Confucianism.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islam": "No clear debt to, or quarrel with, Islam.",
+   "judaism": "No clear debt to, or quarrel with, Judaism.",
+   "romanticism": "No clear debt to, or quarrel with, Romanticism.",
+   "nationalism": "Stance: multiple loyalties and eroded exclusive territorial sovereignty undercut the nation-state ideal (Grokipedia).",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Institutional and historical metaphor more than pure metaphysics.",
+   "hierarchy": "Diffuses the state's monopoly of violence across overlapping authorities (Grokipedia)."
+  }
+ },
+ {
+  "id": "discourses_on_salt_and_iron",
+  "name": "Discourses on Salt and Iron",
+  "root": false,
+  "root_axis": null,
+  "year": -81,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Discourses_on_Salt_and_Iron",
+  "origin_note": "Court debate under Emperor Zhao in 81 BCE; Huan Kuan compiled the Yantielun in the early 1st century BCE (Grokipedia).",
+  "place": "Chang'an",
+  "lat": 34.27,
+  "lon": 108.94,
+  "thinkers": [
+   "Huan Kuan",
+   "Sang Hongyang"
+  ],
+  "parents": [
+   "confucian_ethics"
+  ],
+  "plain": "A Han court debate record where Confucian scholars attacked state salt and iron monopolies, while officials defended them as needed for war and revenue.",
+  "summary": "Huan Kuan's Yantielun records the 81 BCE Confucian critique of Legalist-style salt and iron monopolies versus Sang Hongyang's fiscal defense.",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Discourses_on_Salt_and_Iron",
+   "https://grokipedia.com/page/Emperor_Zhao_of_Han"
+  ],
+  "domain": [
+   "politics",
+   "philosophy"
+  ],
+  "aliases": [
+   "Yantielun",
+   "Salt and Iron debate",
+   "Discourses on Salt & Iron"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Western Han salt and iron monopolies",
+     "src": "https://grokipedia.com/page/Discourses_on_Salt_and_Iron",
+     "note": "Emperor Wu's monopolies funded Xiongnu wars; the 81 BCE debate revisited them (Grokipedia)."
+    },
+    {
+     "place": "Later Chinese statecraft debates",
+     "src": "https://grokipedia.com/page/Discourses_on_Salt_and_Iron",
+     "note": "Kept as a classic on Confucian moral governance versus interventionist fiscal policy (Grokipedia)."
+    }
+   ]
+  },
+  "edge_notes": {
+   "confucian_ethics": {
+    "status": "documented",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Discourses_on_Salt_and_Iron",
+    "note": "Literati urged moral governance, agriculture and lighter intervention against Legalist-style monopolies (Grokipedia)."
+   }
+  },
+  "parent_note": "Compiled from a Confucian literati brief; Legalism is the opposed policy style (held as a parent edge, shown via thrives_in monopolies).",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 0,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 4,
+   "daoism": 1,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -2,
+   "hierarchy": 1
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "Comes before Christianity existed, so it cannot descend from it.",
+   "gnosticism": "Comes before Gnosticism existed, so it cannot descend from it.",
+   "hermeticism": "Comes before Hermeticism existed, so it cannot descend from it.",
+   "enlightenment_liberalism": "Comes before Enlightenment liberalism existed, so it cannot descend from it.",
+   "marxism": "Comes before Marxism existed, so it cannot descend from it.",
+   "darwinism": "Comes before Darwinism existed, so it cannot descend from it.",
+   "nietzsche": "Comes before Nietzsche existed, so it cannot descend from it.",
+   "critical_theory": "Comes before Critical theory existed, so it cannot descend from it.",
+   "confucianism": "Literati side: moral rule, farming first, and relief from exploitative state monopolies (Grokipedia).",
+   "daoism": "Affinity: early Han Huang-Lao minimal-governance echoes appear in the anti-monopoly brief (Grokipedia).",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islam": "Comes before Islam existed, so it cannot descend from it.",
+   "judaism": "Comes before Judaism existed, so it cannot descend from it.",
+   "romanticism": "Comes before Romanticism existed, so it cannot descend from it.",
+   "nationalism": "Comes before Nationalism existed, so it cannot descend from it.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Concrete fiscal and industrial policy: salt, iron, labor and border funding.",
+   "hierarchy": "Keeps imperial order but curbs harsh centralized extraction; officials defend strong fiscal hierarchy."
+  }
+ },
+ {
+  "id": "counter_enlightenment",
+  "name": "Counter-Enlightenment",
+  "root": false,
+  "root_axis": null,
+  "year": 1781,
+  "year_approx": true,
+  "origin_src": "https://grokipedia.com/page/Counter-Enlightenment",
+  "origin_note": "Late-18th-c. critiques (Hamann, Herder, Burke, Maistre); Isaiah Berlin popularized the label in his 1973 essay (Grokipedia).",
+  "place": "Königsberg",
+  "lat": 54.71,
+  "lon": 20.51,
+  "thinkers": [
+   "Johann Georg Hamann",
+   "Johann Gottfried Herder",
+   "Edmund Burke",
+   "Joseph de Maistre",
+   "Giambattista Vico",
+   "Isaiah Berlin"
+  ],
+  "parents": [],
+  "plain": "A cluster of thinkers who said tradition, faith, language and local culture matter more than abstract universal reason for holding societies together.",
+  "summary": "Late-18th-century critiques of Enlightenment rationalism—Hamann, Herder, Burke, Maistre—later labeled Counter-Enlightenment by Isaiah Berlin (1973).",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Counter-Enlightenment",
+   "https://grokipedia.com/page/Johann_Georg_Hamann",
+   "https://grokipedia.com/page/Johann_Gottfried_Herder",
+   "https://grokipedia.com/page/Edmund_Burke",
+   "https://grokipedia.com/page/Joseph_de_Maistre",
+   "https://grokipedia.com/page/Isaiah_Berlin"
+  ],
+  "domain": [
+   "philosophy",
+   "politics"
+  ],
+  "aliases": [
+   "Counter Enlightenment",
+   "Anti-Enlightenment"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "German-speaking lands, late 1700s",
+     "src": "https://grokipedia.com/page/Counter-Enlightenment",
+     "note": "Hamann and Herder attacked pure reason from within German letters (Grokipedia)."
+    },
+    {
+     "place": "Revolutionary and post-1789 Europe",
+     "src": "https://grokipedia.com/page/Counter-Enlightenment",
+     "note": "Burke and Maistre answered the French Revolution with tradition and authority (Grokipedia)."
+    }
+   ]
+  },
+  "edge_notes": {},
+  "parent_note": "Critique of Enlightenment liberalism, not a child of it. Edges into romanticism and burkean_conservatism held for review.",
+  "basis": {
+   "marxism": "stance"
+  },
+  "stance_raw": {
+   "marxism": -3
+  },
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 3,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": -4,
+   "marxism": -1,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 2,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -1,
+   "hierarchy": 3
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "Hamann, Burke and Maistre tied order to faith, providence or revelation (Grokipedia).",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "Defines itself against universal reason, abstract rights and rational reconstruction of society (Grokipedia).",
+   "marxism": "Stance: rejects rational redesign of society; opposed to revolutionary materialist programs.",
+   "darwinism": "Comes before Darwinism existed, so it cannot descend from it.",
+   "nietzsche": "Comes before Nietzsche existed, so it cannot descend from it.",
+   "critical_theory": "Comes before Critical theory existed, so it cannot descend from it.",
+   "confucianism": "No clear debt to, or quarrel with, Confucianism.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islam": "No clear debt to, or quarrel with, Islam.",
+   "judaism": "No clear debt to, or quarrel with, Judaism.",
+   "romanticism": "Comes before Romanticism existed, so it cannot descend from it.",
+   "nationalism": "Herder's cultural particularism fed later national and folk traditions (Grokipedia).",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Favors lived custom and historical contingency over geometric political blueprints.",
+   "hierarchy": "Maistre and Burke defended monarchy, prejudice and inherited rank as social glue (Grokipedia)."
+  }
+ },
+ {
+  "id": "whig_history",
+  "name": "Whig history",
+  "root": false,
+  "root_axis": null,
+  "year": 1848,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Whig_history",
+  "origin_note": "Macaulay's History of England (1848–1861) exemplifies the progressive Whig narrative; Butterfield named and critiqued it in 1931 (Grokipedia).",
+  "place": "London",
+  "lat": 51.51,
+  "lon": -0.13,
+  "thinkers": [
+   "Thomas Babington Macaulay",
+   "Herbert Butterfield"
+  ],
+  "parents": [],
+  "plain": "A way of writing history that treats the past as a march toward today's liberty and progress, praising winners and scolding whoever stood in the way.",
+  "summary": "Victorian progressive historiography (Macaulay) reading the past as inevitable advance toward liberal institutions; Butterfield coined and attacked the label in 1931.",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Whig_history",
+   "https://grokipedia.com/page/Thomas_Babington_Macaulay",
+   "https://grokipedia.com/page/Herbert_Butterfield"
+  ],
+  "domain": [
+   "philosophy"
+  ],
+  "aliases": [
+   "Whig interpretation of history",
+   "Whiggish history"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Victorian Britain",
+     "src": "https://grokipedia.com/page/Whig_history",
+     "note": "Dominated 19th-century British historical writing and reform self-image (Grokipedia)."
+    },
+    {
+     "place": "Cambridge historical debates, 1931",
+     "src": "https://grokipedia.com/page/Whig_history",
+     "note": "Butterfield's Peterhouse critique named the pattern and pushed contextual history (Grokipedia)."
+    }
+   ]
+  },
+  "edge_notes": {},
+  "parent_note": "Teleology toward liberal institutions is affinity, not a sourced parent edge to enlightenment_liberalism; held for review. Annales/Cambridge School are later counters.",
+  "basis": {
+   "marxism": "stance",
+   "nationalism": "stance",
+   "critical_theory": "stance"
+  },
+  "stance_raw": {
+   "marxism": -2,
+   "nationalism": 2,
+   "critical_theory": -2
+  },
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 1,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 3,
+   "marxism": -1,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": -1,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 1,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -2,
+   "hierarchy": -1
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "Often cast Protestant reform as a step toward liberty against Catholic 'reaction' (Grokipedia).",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "Narrates history as progress toward parliamentary liberty, rights and constitutional monarchy (Grokipedia).",
+   "marxism": "Stance: rival teleology; Whig liberty story is not class struggle, though both are progressive arcs.",
+   "darwinism": "Comes before Darwinism existed, so it cannot descend from it.",
+   "nietzsche": "Comes before Nietzsche existed, so it cannot descend from it.",
+   "critical_theory": "Stance: later progressive teleologies are compared, but Whig narrative is liberal-constitutional, not Critical Theory.",
+   "confucianism": "No clear debt to, or quarrel with, Confucianism.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islam": "No clear debt to, or quarrel with, Islam.",
+   "judaism": "No clear debt to, or quarrel with, Judaism.",
+   "romanticism": "No clear debt to, or quarrel with, Romanticism.",
+   "nationalism": "Affinity: British exceptionalism and imperial self-congratulation in Victorian Whig writing (Grokipedia).",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Presentist moral plot more than structural or material analysis; Butterfield attacked the shortcuts.",
+   "hierarchy": "Praises limits on monarchy and expansion of liberties over absolute hierarchy (Grokipedia)."
+  }
  }
 ]
