@@ -53,8 +53,7 @@
      "idea": "transcendentalism",
      "why": "Nineteenth-century New England movement treated as a founding American current (historical).",
      "src": "https://grokipedia.com/page/Transcendentalism",
-     "call": "historical",
-     "status": "missing"
+     "call": "historical"
     },
     {
      "idea": "analytic_philosophy",
@@ -495,16 +494,6 @@
    "name": "Evangelicalism",
    "origin": "not dated here; needs node later",
    "src": "https://grokipedia.com/page/Evangelicalism",
-   "countries": [
-    "us"
-   ],
-   "axes": "needs node later"
-  },
-  {
-   "id": "transcendentalism",
-   "name": "American Transcendentalism",
-   "origin": "1830s-1840s, New England",
-   "src": "https://grokipedia.com/page/Transcendentalism",
    "countries": [
     "us"
    ],
