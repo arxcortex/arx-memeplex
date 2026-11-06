@@ -34197,5 +34197,602 @@
    "abstraction": "Presentist moral plot more than structural or material analysis; Butterfield attacked the shortcuts.",
    "hierarchy": "Praises limits on monarchy and expansion of liberties over absolute hierarchy (Grokipedia)."
   }
+ },
+ {
+  "id": "oriental_despotism",
+  "name": "Oriental despotism",
+  "root": false,
+  "root_axis": null,
+  "year": 1957,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Oriental_Despotism",
+  "origin_note": "Wittfogel's Oriental Despotism: A Comparative Study of Total Power (Yale, 1957) restated hydraulic-society despotism; the label is older (Montesquieu), but this node is the 1957 thesis (Grokipedia).",
+  "place": "New Haven",
+  "lat": 41.31,
+  "lon": -72.92,
+  "thinkers": [
+   "Karl August Wittfogel"
+  ],
+  "parents": [],
+  "plain": "Wittfogel's claim that big irrigation works forced strong, bureaucratic states that crushed private power—his picture of 'hydraulic' empires in places like China and Mesopotamia.",
+  "summary": "Wittfogel's 1957 hydraulic-society thesis: large-scale irrigation breeds managerial 'total power' and Asiatic despotism, stifling autonomous property and intermediate elites.",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Oriental_Despotism",
+   "https://grokipedia.com/page/Hydraulic_empire",
+   "https://grokipedia.com/page/Karl_August_Wittfogel"
+  ],
+  "domain": [
+   "politics",
+   "philosophy"
+  ],
+  "aliases": [
+   "Hydraulic despotism",
+   "Hydraulic society thesis",
+   "Wittfogel thesis"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Cold War US and Sinology debates",
+     "src": "https://grokipedia.com/page/Oriental_Despotism",
+     "note": "Read as anti-totalitarian critique of Soviet and Chinese managerial states (Grokipedia)."
+    },
+    {
+     "place": "Comparative study of riverine empires",
+     "src": "https://grokipedia.com/page/Hydraulic_empire",
+     "note": "Applied to Mesopotamia, Egypt, imperial China and other irrigation polities (Grokipedia)."
+    }
+   ]
+  },
+  "edge_notes": {},
+  "parent_note": "Montesquieu and Asiatic-mode-of-production backgrounds are affinity, not sourced parents here. Edges to marxism (critique) or legalism held for review.",
+  "basis": {
+   "enlightenment_liberalism": "stance",
+   "marxism": "stance",
+   "confucianism": "stance"
+  },
+  "stance_raw": {
+   "enlightenment_liberalism": -4,
+   "marxism": -4,
+   "confucianism": 2
+  },
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": -2,
+   "marxism": -2,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 1,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -3,
+   "hierarchy": 5
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "No clear debt to, or quarrel with, Christianity.",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "Stance: treats liberal pluralism and secure private property as Western exceptions hydraulic empires lack (Grokipedia).",
+   "marxism": "Stance: revises Asiatic-mode talk into enduring total power; Wittfogel broke with communism after Stalinism (Grokipedia).",
+   "darwinism": "No clear debt to, or quarrel with, Darwinism.",
+   "nietzsche": "No clear debt to, or quarrel with, Nietzsche.",
+   "critical_theory": "No clear debt to, or quarrel with, Critical theory.",
+   "confucianism": "Affinity: takes imperial Chinese bureaucracy as a prime hydraulic case, not a Confucian ethic (Grokipedia).",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islam": "No clear debt to, or quarrel with, Islam.",
+   "judaism": "No clear debt to, or quarrel with, Judaism.",
+   "romanticism": "No clear debt to, or quarrel with, Romanticism.",
+   "nationalism": "No clear debt to, or quarrel with, Nationalism.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Materialist: irrigation logistics and managerial control, not ideals, drive the political form (Grokipedia).",
+   "hierarchy": "Core claim: monopolistic bureaucracy and unchecked despot over society (Grokipedia)."
+  }
+ },
+ {
+  "id": "three_teachings",
+  "name": "Three teachings",
+  "root": false,
+  "root_axis": null,
+  "year": 960,
+  "year_approx": true,
+  "origin_src": "https://grokipedia.com/page/Three_teachings",
+  "origin_note": "Sanjiao syncretism has Tang precedents; Grokipedia dates prominent Song formalization (960–1279), so year c.960 Kaifeng marks the Song crystallization (approx).",
+  "place": "Kaifeng",
+  "lat": 34.8,
+  "lon": 114.35,
+  "thinkers": [],
+  "parents": [
+   "confucian_ethics",
+   "daoist_way",
+   "buddhas_dharma"
+  ],
+  "plain": "The Chinese habit of treating Confucianism, Daoism and Buddhism as three complementary teachings rather than rival faiths—ethics, natural harmony and salvation together.",
+  "summary": "Sanjiao: Song-era and later Chinese syncretism treating Confucian ethics, Daoist cosmology and Buddhist salvation as complementary, not exclusive, teachings.",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Three_teachings",
+   "https://grokipedia.com/page/Syncretism"
+  ],
+  "domain": [
+   "religion",
+   "philosophy"
+  ],
+  "aliases": [
+   "Sanjiao",
+   "Three Teachings Harmonious as One",
+   "Sānjiào",
+   "Sanjiao heyi"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Song China elite and temple culture",
+     "src": "https://grokipedia.com/page/Three_teachings",
+     "note": "Song formalized sanjiao heyi amid Neo-Confucian, Daoist and Buddhist exchange (Grokipedia)."
+    },
+    {
+     "place": "Ming–Qing folk religion",
+     "src": "https://grokipedia.com/page/Three_teachings",
+     "note": "Shared temples and everyday ritual mixes kept the three teachings ideal alive (Grokipedia)."
+    }
+   ]
+  },
+  "edge_notes": {
+   "confucian_ethics": {
+    "status": "documented",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Three_teachings",
+    "note": "Confucianism supplies the ethical and political core of the complementary triad (Grokipedia)."
+   },
+   "daoist_way": {
+    "status": "documented",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Three_teachings",
+    "note": "Daoism supplies cosmological and mystical dimensions within sanjiao (Grokipedia)."
+   },
+   "buddhas_dharma": {
+    "status": "documented",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Three_teachings",
+    "note": "Buddhism supplies soteriological and meditative elements within the triad (Grokipedia)."
+   }
+  },
+  "parent_note": "Distinct from neo_confucianism (Zhu Xi's Confucian absorption of rivals). A neo_confucianism edge either way is held for review.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 0,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 4,
+   "daoism": 4,
+   "buddhism": 4,
+   "vedanta": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 1,
+   "hierarchy": 1
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "No clear debt to, or quarrel with, Christianity.",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "Comes before Enlightenment liberalism existed, so it cannot descend from it.",
+   "marxism": "Comes before Marxism existed, so it cannot descend from it.",
+   "darwinism": "Comes before Darwinism existed, so it cannot descend from it.",
+   "nietzsche": "Comes before Nietzsche existed, so it cannot descend from it.",
+   "critical_theory": "Comes before Critical theory existed, so it cannot descend from it.",
+   "confucianism": "Confucian ethics and governance are one pole of the complementary triad (Grokipedia).",
+   "daoism": "Daoist natural harmony and cosmology are a second pole of sanjiao (Grokipedia).",
+   "buddhism": "Buddhist salvation and meditation are the third pole of the triad (Grokipedia).",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islam": "No clear debt to, or quarrel with, Islam.",
+   "judaism": "No clear debt to, or quarrel with, Judaism.",
+   "romanticism": "Comes before Romanticism existed, so it cannot descend from it.",
+   "nationalism": "Comes before Nationalism existed, so it cannot descend from it.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Balances earthly ethics, cosmic flux and transcendent salvation without exclusive orthodoxy (Grokipedia).",
+   "hierarchy": "Keeps Confucian ranked social ethics while allowing Daoist and Buddhist paths beside office (Grokipedia)."
+  }
+ },
+ {
+  "id": "asabiyyah",
+  "name": "Asabiyyah",
+  "root": false,
+  "root_axis": null,
+  "year": 1377,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Asabiyyah",
+  "origin_note": "Ibn Khaldun formulated asabiyyah in the Muqaddimah; Grokipedia dates the draft completed 1377 during seclusion at Qal'at Ibn Salama near Oran (Grokipedia).",
+  "place": "Qal'at Ibn Salama (near Oran)",
+  "lat": 35.7,
+  "lon": -0.63,
+  "thinkers": [
+   "Ibn Khaldun"
+  ],
+  "parents": [
+   "islam"
+  ],
+  "plain": "Ibn Khaldun's idea that tight group solidarity—especially among hard-living tribes—builds dynasties, then softens in city luxury until a tougher group takes over.",
+  "summary": "Ibn Khaldun's Muqaddimah concept of group solidarity (asabiyyah) as the causal engine of dynastic rise and four-generation decline under luxury and urbanization.",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Asabiyyah",
+   "https://grokipedia.com/page/Ibn_Khaldun",
+   "https://grokipedia.com/page/Muqaddimah"
+  ],
+  "domain": [
+   "philosophy",
+   "politics"
+  ],
+  "aliases": [
+   "Asabiyya",
+   "Group feeling",
+   "Social cohesion (Ibn Khaldun)",
+   "'Asabiyya"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Maghreb and North African dynasties",
+     "src": "https://grokipedia.com/page/Asabiyyah",
+     "note": "Illustrated with Bedouin and Maghreb state cycles Ibn Khaldun observed (Grokipedia)."
+    },
+    {
+     "place": "Later sociology and decline theories",
+     "src": "https://grokipedia.com/page/Ibn_Khaldun",
+     "note": "Read as an early social-capital and civilizational-cycle analysis (Grokipedia)."
+    }
+   ]
+  },
+  "edge_notes": {
+   "islam": {
+    "status": "documented",
+    "type": "descent",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Muqaddimah",
+    "note": "Written within Islamic historiography and theology; religion can amplify asabiyyah (Grokipedia)."
+   }
+  },
+  "parent_note": "Prophetic hadith condemn tribal asabiyyah as vice; Ibn Khaldun retools the term as causal sociology. Nationalism affinity only—no nationalism parent (root is later).",
+  "basis": {
+   "nationalism": "stance"
+  },
+  "stance_raw": {
+   "nationalism": 2
+  },
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 0,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islam": 3,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 1,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -2,
+   "hierarchy": 2
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "No clear debt to, or quarrel with, Christianity.",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "Comes before Enlightenment liberalism existed, so it cannot descend from it.",
+   "marxism": "Comes before Marxism existed, so it cannot descend from it.",
+   "darwinism": "Comes before Darwinism existed, so it cannot descend from it.",
+   "nietzsche": "Comes before Nietzsche existed, so it cannot descend from it.",
+   "critical_theory": "Comes before Critical theory existed, so it cannot descend from it.",
+   "confucianism": "No clear debt to, or quarrel with, Confucianism.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islam": "Framed inside the Muqaddimah's Islamic historiography; religion can intensify group solidarity (Grokipedia).",
+   "judaism": "No clear debt to, or quarrel with, Judaism.",
+   "romanticism": "Comes before Romanticism existed, so it cannot descend from it.",
+   "nationalism": "Affinity: group loyalty as political engine resembles later nation-feeling, but the model is tribal-dynastic (Grokipedia).",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Empirical social causation—kin, hardship, luxury—over abstract rights or forms (Grokipedia).",
+   "hierarchy": "Strong asabiyyah founds royal authority; decay opens the state to a stronger challenger (Grokipedia)."
+  }
+ },
+ {
+  "id": "hobson_imperialism",
+  "name": "Hobson's theory of imperialism",
+  "root": false,
+  "root_axis": null,
+  "year": 1902,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Imperialism",
+  "origin_note": "J. A. Hobson's Imperialism: A Study (1902) argued underconsumption and finance-driven expansion; Grokipedia's Imperialism and J. A. Hobson pages date the book 1902 (London).",
+  "place": "London",
+  "lat": 51.51,
+  "lon": -0.13,
+  "thinkers": [
+   "J. A. Hobson"
+  ],
+  "parents": [],
+  "plain": "Hobson's 1902 argument that rich countries grab empires because investors need overseas outlets for surplus capital when workers at home are paid too little to buy what is produced.",
+  "summary": "Hobson's 1902 underconsumption thesis: maldistributed surplus capital seeks overseas outlets, driving New Imperialism; a liberal critique Lenin later adapted.",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Imperialism",
+   "https://grokipedia.com/page/J._A._Hobson",
+   "https://grokipedia.com/page/New_Imperialism"
+  ],
+  "domain": [
+   "politics",
+   "philosophy"
+  ],
+  "aliases": [
+   "Hobsonian imperialism",
+   "Imperialism: A Study",
+   "Underconsumption theory of imperialism"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Edwardian Britain anti-imperial debates",
+     "src": "https://grokipedia.com/page/J._A._Hobson",
+     "note": "Grew from Hobson's Boer War journalism and Liberal critique of expansion (Grokipedia)."
+    },
+    {
+     "place": "Early 20th-c. socialist and Liberal circles",
+     "src": "https://grokipedia.com/page/Imperialism",
+     "note": "Influenced later economic readings of empire, including Lenin's 1916 pamphlet (Grokipedia)."
+    }
+   ]
+  },
+  "edge_notes": {},
+  "parent_note": "Distinct from leninist_theory_of_imperialism (1916). A parent edge into that node (Lenin used Hobson) is held for review. Liberal underconsumption, not Marxist monopoly-stage.",
+  "basis": {
+   "marxism": "stance",
+   "nationalism": "stance",
+   "hierarchy": "stance"
+  },
+  "stance_raw": {
+   "marxism": 2,
+   "nationalism": -2,
+   "hierarchy": -2
+  },
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 2,
+   "marxism": 1,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": -1,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -3,
+   "hierarchy": -1
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "No clear debt to, or quarrel with, Christianity.",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "Liberal reform critique: fix domestic distribution and the imperial drive weakens (Grokipedia).",
+   "marxism": "Affinity: economic reading of empire that Lenin adapted; Hobson stayed a New Liberal, not a Marxist (Grokipedia).",
+   "darwinism": "No clear debt to, or quarrel with, Darwinism.",
+   "nietzsche": "No clear debt to, or quarrel with, Nietzsche.",
+   "critical_theory": "Comes before Critical theory existed, so it cannot descend from it.",
+   "confucianism": "No clear debt to, or quarrel with, Confucianism.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islam": "No clear debt to, or quarrel with, Islam.",
+   "judaism": "No clear debt to, or quarrel with, Judaism.",
+   "romanticism": "No clear debt to, or quarrel with, Romanticism.",
+   "nationalism": "Stance: treats jingo nationalism as cover for investor interests abroad (Grokipedia).",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Underconsumption and capital outlets—material economic mechanism (Grokipedia).",
+   "hierarchy": "Stance: attacks financier-driven hierarchy of empire over free domestic development (Grokipedia)."
+  }
+ },
+ {
+  "id": "rule_of_law",
+  "name": "Rule of law",
+  "root": false,
+  "root_axis": null,
+  "year": 1885,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Rule_of_law",
+  "origin_note": "A. V. Dicey's Introduction to the Study of the Law of the Constitution (1885) popularized the modern English formulation; older roots (Aristotle, Magna Carta) are noted as background (Grokipedia).",
+  "place": "London",
+  "lat": 51.51,
+  "lon": -0.13,
+  "thinkers": [
+   "A. V. Dicey"
+  ],
+  "parents": [
+   "enlightenment_liberalism",
+   "natural_law"
+  ],
+  "plain": "The principle that everyone—including rulers—is under clear, equal law applied by ordinary courts, not under arbitrary personal power. Dicey made the modern English case for it.",
+  "summary": "Dicey's 1885 constitutional doctrine: supremacy of regular law, equality before it, and rights via ordinary courts—government under law, not men.",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Rule_of_law",
+   "https://grokipedia.com/page/A._V._Dicey",
+   "https://grokipedia.com/page/Constitutionalism",
+   "https://grokipedia.com/page/Magna_Carta"
+  ],
+  "domain": [
+   "politics",
+   "philosophy"
+  ],
+  "aliases": [
+   "Rechtsstaat",
+   "Government of laws",
+   "Diceyan rule of law"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Victorian and common-law constitutions",
+     "src": "https://grokipedia.com/page/Rule_of_law",
+     "note": "Dicey's three tenets framed British constitutional teaching (Grokipedia)."
+    },
+    {
+     "place": "Post-1945 development and rights indices",
+     "src": "https://grokipedia.com/page/Rule_of_law",
+     "note": "Became a global governance benchmark and measurement industry (Grokipedia)."
+    }
+   ]
+  },
+  "edge_notes": {
+   "enlightenment_liberalism": {
+    "status": "documented",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Rule_of_law",
+    "note": "Limits arbitrary power and secures equal legal liberty central to liberal constitutionalism (Grokipedia)."
+   },
+   "natural_law": {
+    "status": "documented",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Rule_of_law",
+    "note": "Grokipedia links the ideal to natural-rights and limited-government reasoning beside positivist form."
+   }
+  },
+  "parent_note": "Magna Carta and Aristotelian 'laws not men' are deep background. A constitutionalism sibling node and Magna Carta Chronosphere bridge are held as questions, not extra parents.",
+  "basis": {
+   "marxism": "stance",
+   "aristotelianism": "stance",
+   "stoicism": "stance",
+   "christianity": "stance"
+  },
+  "stance_raw": {
+   "marxism": -2,
+   "aristotelianism": 3,
+   "stoicism": 2,
+   "christianity": 2
+  },
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 1,
+   "stoicism": 1,
+   "christianity": 1,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 4,
+   "marxism": -1,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 1,
+   "hierarchy": -2
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "Affinity: 'laws rather than men' traces to Aristotelian political ethics in the page's history (Grokipedia).",
+   "stoicism": "Affinity: older natural-law strands that feed limited government sit near Stoic cosmopolitan law talk.",
+   "christianity": "Affinity: medieval English church-and-crown legal limits (e.g. Magna Carta context) feed the tradition (Grokipedia).",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "Diceyan equality under ordinary law and curbs on prerogative are core liberal constitutionalism (Grokipedia).",
+   "marxism": "Stance: formal legal equality is often criticized as masking class power; not a Marxist doctrine.",
+   "darwinism": "No clear debt to, or quarrel with, Darwinism.",
+   "nietzsche": "No clear debt to, or quarrel with, Nietzsche.",
+   "critical_theory": "Comes before Critical theory existed, so it cannot descend from it.",
+   "confucianism": "No clear debt to, or quarrel with, Confucianism.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islam": "No clear debt to, or quarrel with, Islam.",
+   "judaism": "No clear debt to, or quarrel with, Judaism.",
+   "romanticism": "No clear debt to, or quarrel with, Romanticism.",
+   "nationalism": "No clear debt to, or quarrel with, Nationalism.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Principle and legal form, though Dicey rooted rights in court practice not pure abstraction (Grokipedia).",
+   "hierarchy": "No one—including officials—stands above the law; curbs arbitrary rank (Grokipedia)."
+  }
  }
 ]
