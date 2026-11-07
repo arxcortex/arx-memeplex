@@ -59,8 +59,7 @@
      "idea": "analytic_philosophy",
      "why": "Dominant mode of academic philosophy in the US after the mid-20th century.",
      "src": "https://grokipedia.com/page/American_philosophy",
-     "call": "living",
-     "status": "missing"
+     "call": "living"
     },
     {
      "idea": "scottish_common_sense_realism",
@@ -116,8 +115,7 @@
      "idea": "british_empiricism",
      "why": "Locke, Berkeley and Hume made empiricism the signature British school (historical).",
      "src": "https://grokipedia.com/page/Empiricism",
-     "call": "historical",
-     "status": "missing"
+     "call": "historical"
     },
     {
      "idea": "utilitarianism",
@@ -129,8 +127,7 @@
      "idea": "analytic_philosophy",
      "why": "Founded largely at Cambridge and Oxford; still dominant.",
      "src": "https://grokipedia.com/page/Analytic_philosophy",
-     "call": "living",
-     "status": "missing"
+     "call": "living"
     },
     {
      "idea": "scottish_common_sense_realism",
@@ -200,8 +197,7 @@
      "idea": "structuralism",
      "why": "Lévi-Strauss and others made structuralism a French movement (historical).",
      "src": "https://grokipedia.com/page/Structuralism",
-     "call": "historical",
-     "status": "missing"
+     "call": "historical"
     },
     {
      "idea": "postmodernism",
@@ -504,43 +500,12 @@
    "axes": "needs node later"
   },
   {
-   "id": "analytic_philosophy",
-   "name": "Analytic philosophy",
-   "origin": "late 19th-early 20th century, English-speaking world",
-   "src": "https://grokipedia.com/page/Analytic_philosophy",
-   "countries": [
-    "gb",
-    "us"
-   ],
-   "axes": "needs node later"
-  },
-  {
    "id": "hinduism",
    "name": "Hinduism",
    "origin": "not dated here; needs node later",
    "src": "https://grokipedia.com/page/Hinduism",
    "countries": [
     "gb"
-   ],
-   "axes": "needs node later"
-  },
-  {
-   "id": "british_empiricism",
-   "name": "British empiricism",
-   "origin": "not dated here; needs node later",
-   "src": "https://grokipedia.com/page/Empiricism",
-   "countries": [
-    "gb"
-   ],
-   "axes": "needs node later"
-  },
-  {
-   "id": "structuralism",
-   "name": "Structuralism",
-   "origin": "not dated here; needs node later",
-   "src": "https://grokipedia.com/page/Structuralism",
-   "countries": [
-    "fr"
    ],
    "axes": "needs node later"
   },
@@ -555,30 +520,10 @@
    "axes": "needs node later"
   },
   {
-   "id": "slavophilism",
-   "name": "Slavophilism",
-   "origin": "mid-19th century, Russia",
-   "src": "https://grokipedia.com/page/Slavophilia",
-   "countries": [
-    "ru"
-   ],
-   "axes": "needs node later"
-  },
-  {
    "id": "sophiology",
    "name": "Sophiology",
    "origin": "late 19th century, Russia",
    "src": "https://grokipedia.com/page/Sophiology",
-   "countries": [
-    "ru"
-   ],
-   "axes": "needs node later"
-  },
-  {
-   "id": "russian_cosmism",
-   "name": "Russian cosmism",
-   "origin": "late 19th century, Russia",
-   "src": "https://grokipedia.com/page/Russian_cosmism",
    "countries": [
     "ru"
    ],

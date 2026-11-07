@@ -34794,5 +34794,591 @@
    "abstraction": "Principle and legal form, though Dicey rooted rights in court practice not pure abstraction (Grokipedia).",
    "hierarchy": "No one—including officials—stands above the law; curbs arbitrary rank (Grokipedia)."
   }
+ },
+ {
+  "id": "analytic_philosophy",
+  "name": "Analytic philosophy",
+  "root": false,
+  "root_axis": null,
+  "year": 1903,
+  "year_approx": true,
+  "origin_src": "https://grokipedia.com/page/Analytic_philosophy",
+  "origin_note": "Grokipedia: late 19th/early 20th-c. Anglophone tradition; Moore and Russell's Cambridge revolt against British Idealism, with Frege's logic as groundwork. Year c.1903 marks Moore's Principia Ethica and the Cambridge crest (approx).",
+  "place": "Cambridge",
+  "lat": 52.21,
+  "lon": 0.12,
+  "thinkers": [
+   "Gottlob Frege",
+   "Bertrand Russell",
+   "G. E. Moore",
+   "Ludwig Wittgenstein"
+  ],
+  "parents": [],
+  "plain": "A style of philosophy that favors clear arguments, logical analysis and careful language over grand speculative systems. It grew up in Britain and then dominated English-speaking universities.",
+  "summary": "Anglophone tradition from Frege, Moore and Russell: logical clarity, linguistic analysis and piecemeal problem-solving against British Idealist system-building.",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Analytic_philosophy",
+   "https://grokipedia.com/page/Gottlob_Frege",
+   "https://grokipedia.com/page/Bertrand_Russell",
+   "https://grokipedia.com/page/G._E._Moore",
+   "https://grokipedia.com/page/Ludwig_Wittgenstein"
+  ],
+  "domain": [
+   "philosophy"
+  ],
+  "aliases": [
+   "Analytical philosophy",
+   "Anglo-American philosophy",
+   "Cambridge analysis"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Cambridge and Oxford philosophy",
+     "src": "https://grokipedia.com/page/Analytic_philosophy",
+     "note": "Moore, Russell and ordinary-language Oxford made it the British academic default (Grokipedia)."
+    },
+    {
+     "place": "US and Anglophone departments after 1945",
+     "src": "https://grokipedia.com/page/Analytic_philosophy",
+     "note": "Became the dominant mode in American academic philosophy (Grokipedia)."
+    },
+    {
+     "place": "Vienna Circle / logical positivism",
+     "src": "https://grokipedia.com/page/Analytic_philosophy",
+     "note": "Carnap and allies joined the clarity-and-verification strand (Grokipedia)."
+    }
+   ]
+  },
+  "edge_notes": {},
+  "parent_note": "Revolt against British Idealism; Frege's Jena logic is groundwork, not a mapped parent. german_idealism is contrast, not parent. pragmatism and phenomenology are sibling modern schools.",
+  "basis": {
+   "enlightenment_liberalism": "stance",
+   "platonism": "stance",
+   "romanticism": "stance",
+   "critical_theory": "stance",
+   "aristotelianism": "stance"
+  },
+  "stance_raw": {
+   "enlightenment_liberalism": 3,
+   "platonism": 3,
+   "romanticism": -4,
+   "critical_theory": -2,
+   "aristotelianism": 2
+  },
+  "ratings": {
+   "platonism": 1,
+   "aristotelianism": 1,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 1,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": -1,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": -2,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 4,
+   "hierarchy": -1
+  },
+  "rationale": {
+   "platonism": "Affinity: Frege–Russell logicism and math Platonism debates run through early analytic work (Grokipedia).",
+   "aristotelianism": "Affinity: ordinary-language and virtue-ethics revivals re-engage Aristotelian themes (Grokipedia).",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "No clear debt to, or quarrel with, Christianity.",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "Affinity: analytical liberalism and individual-rights work sit inside the tradition (Grokipedia).",
+   "marxism": "No clear debt to, or quarrel with, Marxism.",
+   "darwinism": "No clear debt to, or quarrel with, Darwinism.",
+   "nietzsche": "No clear debt to, or quarrel with, Nietzsche.",
+   "critical_theory": "Stance: often charged with ahistoricism and detachment from social critique (Grokipedia).",
+   "confucianism": "No clear debt to, or quarrel with, Confucianism.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islam": "No clear debt to, or quarrel with, Islam.",
+   "judaism": "No clear debt to, or quarrel with, Judaism.",
+   "romanticism": "Stance: rejects Idealist and speculative system-building for clarity and analysis (Grokipedia).",
+   "nationalism": "No clear debt to, or quarrel with, Nationalism.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Logical form, conceptual analysis and formal methods over grand narrative (Grokipedia).",
+   "hierarchy": "No essential political hierarchy; method is egalitarian argument, not rank (Grokipedia)."
+  }
+ },
+ {
+  "id": "linguistic_turn",
+  "name": "Linguistic turn",
+  "root": false,
+  "root_axis": null,
+  "year": 1967,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Linguistic_turn",
+  "origin_note": "Grokipedia: term coined by Gustav Bergmann and popularized by Richard Rorty's 1967 anthology The Linguistic Turn, collecting the methodological shift to language in philosophy.",
+  "place": "Princeton",
+  "lat": 40.35,
+  "lon": -74.66,
+  "thinkers": [
+   "Richard Rorty",
+   "Ludwig Wittgenstein"
+  ],
+  "parents": [
+   "analytic_philosophy"
+  ],
+  "plain": "The shift in philosophy toward treating language as the main way to clear up puzzles—asking how words work instead of staring past them at pure Reality.",
+  "summary": "Early/mid-20th-c. reorientation of philosophy around language; Rorty's 1967 anthology named the turn from Frege–Wittgenstein analysis to ordinary language and beyond.",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Linguistic_turn",
+   "https://grokipedia.com/page/Richard_Rorty",
+   "https://grokipedia.com/page/Ludwig_Wittgenstein",
+   "https://grokipedia.com/page/Analytic_philosophy"
+  ],
+  "domain": [
+   "philosophy"
+  ],
+  "aliases": [
+   "The linguistic turn",
+   "Linguistic philosophy turn"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Anglophone analytic departments",
+     "src": "https://grokipedia.com/page/Linguistic_turn",
+     "note": "Logical positivism and ordinary-language Oxford were central stages (Grokipedia)."
+    },
+    {
+     "place": "Continental structuralism debates",
+     "src": "https://grokipedia.com/page/Linguistic_turn",
+     "note": "Saussurean and post-structural strands paralleled the analytic turn (Grokipedia)."
+    }
+   ]
+  },
+  "edge_notes": {
+   "analytic_philosophy": {
+    "status": "documented",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Linguistic_turn",
+    "note": "Grokipedia places the turn inside analytic philosophy from Frege–Russell through Wittgenstein and Rorty."
+   }
+  },
+  "parent_note": "Continental structuralist parallels noted on the page; a structuralism affinity edge is held separately if useful. Bergmann coined the label; Rorty popularized it.",
+  "basis": {
+   "enlightenment_liberalism": "stance",
+   "romanticism": "stance",
+   "critical_theory": "stance"
+  },
+  "stance_raw": {
+   "enlightenment_liberalism": 2,
+   "romanticism": -2,
+   "critical_theory": 2
+  },
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 1,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 1,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": -1,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 3,
+   "hierarchy": 0
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "No clear debt to, or quarrel with, Christianity.",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "Affinity: clarifying public reason through language fits liberal argument culture (Grokipedia).",
+   "marxism": "No clear debt to, or quarrel with, Marxism.",
+   "darwinism": "No clear debt to, or quarrel with, Darwinism.",
+   "nietzsche": "No clear debt to, or quarrel with, Nietzsche.",
+   "critical_theory": "Affinity: later Rortyan and continental uses feed historicizing critique of foundations (Grokipedia).",
+   "confucianism": "No clear debt to, or quarrel with, Confucianism.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islam": "No clear debt to, or quarrel with, Islam.",
+   "judaism": "No clear debt to, or quarrel with, Judaism.",
+   "romanticism": "Stance: distrusts deep Romantic/Idealist access to reality beyond linguistic practice (Grokipedia).",
+   "nationalism": "No clear debt to, or quarrel with, Nationalism.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Philosophy reframed as analysis of linguistic structures and uses (Grokipedia).",
+   "hierarchy": "Methodological claim about language, not a ranking of persons or offices (Grokipedia)."
+  }
+ },
+ {
+  "id": "british_empiricism",
+  "name": "British empiricism",
+  "root": false,
+  "root_axis": null,
+  "year": 1690,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Empiricism",
+  "origin_note": "Grokipedia Empiricism: classical British Empiricism via Locke's An Essay Concerning Human Understanding (1689, dated 1690), then Berkeley and Hume. No separate British_empiricism page (404); Empiricism covers the school.",
+  "place": "London",
+  "lat": 51.51,
+  "lon": -0.13,
+  "thinkers": [
+   "John Locke",
+   "George Berkeley",
+   "David Hume"
+  ],
+  "parents": [],
+  "plain": "The British school that says knowledge comes from experience—senses and reflection—not innate ideas. Locke, Berkeley and Hume made the classic case.",
+  "summary": "17th–18th-c. British epistemology: Locke's tabula rasa Essay (1690), Berkeley's idealism and Hume's skeptical empiricism against innate ideas and rationalist systems.",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Empiricism",
+   "https://grokipedia.com/page/John_Locke",
+   "https://grokipedia.com/page/George_Berkeley",
+   "https://grokipedia.com/page/David_Hume"
+  ],
+  "domain": [
+   "philosophy"
+  ],
+  "aliases": [
+   "English empiricism",
+   "Classical empiricism",
+   "British empirical school"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Early modern England and Scotland",
+     "src": "https://grokipedia.com/page/Empiricism",
+     "note": "Locke in England; Berkeley and Hume carried the line through Irish and Scottish stages (Grokipedia)."
+    },
+    {
+     "place": "Later science and positivism",
+     "src": "https://grokipedia.com/page/Empiricism",
+     "note": "Observation-first method fed scientific and logical-empiricist programs (Grokipedia)."
+    }
+   ]
+  },
+  "edge_notes": {},
+  "parent_note": "Locke's politics feed enlightenment_liberalism, but empiricism as epistemology is not its child—do not invent a Locke→liberalism parent edge here. scottish_common_sense_realism is a later reaction to Hume.",
+  "basis": {
+   "enlightenment_liberalism": "stance",
+   "platonism": "stance",
+   "aristotelianism": "stance"
+  },
+  "stance_raw": {
+   "enlightenment_liberalism": 4,
+   "platonism": -4,
+   "aristotelianism": 2
+  },
+  "ratings": {
+   "platonism": -2,
+   "aristotelianism": 1,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 2,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -2,
+   "hierarchy": 0
+  },
+  "rationale": {
+   "platonism": "Stance: rejects innate ideas and recollection-style a priori knowledge of the world (Grokipedia).",
+   "aristotelianism": "Affinity: experience-first psychology echoes Aristotelian empiric strands versus pure Platonism.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "No clear debt to, or quarrel with, Christianity.",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "Affinity: Locke's Essay sits beside the liberal political writings that shaped the Enlightenment (Grokipedia).",
+   "marxism": "Comes before Marxism existed, so it cannot descend from it.",
+   "darwinism": "Comes before Darwinism existed, so it cannot descend from it.",
+   "nietzsche": "Comes before Nietzsche existed, so it cannot descend from it.",
+   "critical_theory": "Comes before Critical theory existed, so it cannot descend from it.",
+   "confucianism": "No clear debt to, or quarrel with, Confucianism.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islam": "No clear debt to, or quarrel with, Islam.",
+   "judaism": "No clear debt to, or quarrel with, Judaism.",
+   "romanticism": "Comes before Romanticism existed, so it cannot descend from it.",
+   "nationalism": "Comes before Nationalism existed, so it cannot descend from it.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Knowledge from sensory impressions and reflection, not pure a priori systems (Grokipedia).",
+   "hierarchy": "Epistemology of experience; no essential political ranking doctrine (Grokipedia)."
+  }
+ },
+ {
+  "id": "mandate_of_heaven",
+  "name": "Mandate of Heaven",
+  "root": false,
+  "root_axis": null,
+  "year": -1046,
+  "year_approx": true,
+  "origin_src": "https://grokipedia.com/page/Mandate_of_Heaven",
+  "origin_note": "Grokipedia: Zhou conquest of Shang at Muye c.1046 BCE; tianming ideology justified replacing a corrupt Shang king. Year c.-1046 Haojing marks that Zhou formulation (approx).",
+  "place": "Haojing",
+  "lat": 34.27,
+  "lon": 108.9,
+  "thinkers": [
+   "Duke of Zhou",
+   "Mencius"
+  ],
+  "parents": [],
+  "plain": "The Chinese idea that Heaven backs a just ruler and can take the throne away from a bad one—so dynasties rise and fall by virtue, not only by bloodline.",
+  "summary": "Zhou tianming doctrine: Heaven grants conditional rule to the virtuous and withdraws it from tyrants—classical Chinese legitimacy from c.1046 BCE through imperial eras.",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Mandate_of_Heaven",
+   "https://grokipedia.com/page/Duke_of_Zhou",
+   "https://grokipedia.com/page/Mencius",
+   "https://grokipedia.com/page/Zhou_dynasty"
+  ],
+  "domain": [
+   "politics",
+   "philosophy",
+   "religion"
+  ],
+  "aliases": [
+   "Tianming",
+   "Heavenly Mandate",
+   "Tian Ming"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Zhou through Qing imperial politics",
+     "src": "https://grokipedia.com/page/Mandate_of_Heaven",
+     "note": "Standard legitimating frame for dynastic rise and fall until 1911 (Grokipedia)."
+    },
+    {
+     "place": "Mencian political ethics",
+     "src": "https://grokipedia.com/page/Mencius",
+     "note": "Mencius stressed removing tyrants when Heaven's favor is lost (Grokipedia)."
+    }
+   ]
+  },
+  "edge_notes": {},
+  "parent_note": "Predates Confucianism historically; Confucian/Mencian texts elaborate it later. Distinct from confucian_ethics. A mandate→confucian_ethics edge (root gains parent) is held for review.",
+  "basis": {
+   "confucianism": "stance",
+   "nationalism": "stance"
+  },
+  "stance_raw": {
+   "confucianism": 5,
+   "nationalism": 2
+  },
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 0,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 2,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 1,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 1,
+   "hierarchy": 4
+  },
+  "rationale": {
+   "platonism": "Comes before Platonism existed, so it cannot descend from it.",
+   "aristotelianism": "Comes before Aristotelianism existed, so it cannot descend from it.",
+   "stoicism": "Comes before Stoicism existed, so it cannot descend from it.",
+   "christianity": "Comes before Christianity existed, so it cannot descend from it.",
+   "gnosticism": "Comes before Gnosticism existed, so it cannot descend from it.",
+   "hermeticism": "Comes before Hermeticism existed, so it cannot descend from it.",
+   "enlightenment_liberalism": "Comes before Enlightenment liberalism existed, so it cannot descend from it.",
+   "marxism": "Comes before Marxism existed, so it cannot descend from it.",
+   "darwinism": "Comes before Darwinism existed, so it cannot descend from it.",
+   "nietzsche": "Comes before Nietzsche existed, so it cannot descend from it.",
+   "critical_theory": "Comes before Critical theory existed, so it cannot descend from it.",
+   "confucianism": "Affinity: Mencian and Confucian political ethics elaborate Heaven's conditional grant of rule (Grokipedia).",
+   "daoism": "Comes before Daoism existed, so it cannot descend from it.",
+   "buddhism": "Comes before Buddhism existed, so it cannot descend from it.",
+   "vedanta": "Comes before Vedanta existed, so it cannot descend from it.",
+   "islam": "Comes before Islam existed, so it cannot descend from it.",
+   "judaism": "Comes before Judaism existed, so it cannot descend from it.",
+   "romanticism": "Comes before Romanticism existed, so it cannot descend from it.",
+   "nationalism": "Affinity: later dynastic and modern performance-legitimacy talk echoes mandate rhetoric (Grokipedia).",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Moral-cosmic principle of legitimacy, tested by omens and governance outcomes (Grokipedia).",
+   "hierarchy": "Ranks the emperor under Heaven; virtue can overturn hereditary claim (Grokipedia)."
+  }
+ },
+ {
+  "id": "structuralism",
+  "name": "Structuralism",
+  "root": false,
+  "root_axis": null,
+  "year": 1958,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Structuralism",
+  "origin_note": "Grokipedia: mid-20th-c. French institutional crest with Lévi-Strauss's Structural Anthropology (1958), building on Saussurean linguistics (1916) and 1949 kinship work. Year 1958 Paris marks that crest.",
+  "place": "Paris",
+  "lat": 48.86,
+  "lon": 2.35,
+  "thinkers": [
+   "Claude Lévi-Strauss",
+   "Ferdinand de Saussure",
+   "Roland Barthes"
+  ],
+  "parents": [],
+  "plain": "A way of studying culture and language that looks for hidden patterns and opposites—a grammar beneath myths, kinship and stories—rather than one-off meanings.",
+  "summary": "French mid-century method (Lévi-Strauss crest 1958): deep relational structures and binary oppositions underlie myth, kinship and signs, after Saussurean linguistics.",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Structuralism",
+   "https://grokipedia.com/page/Claude_Lévi-Strauss",
+   "https://grokipedia.com/page/Ferdinand_de_Saussure",
+   "https://grokipedia.com/page/Roland_Barthes"
+  ],
+  "domain": [
+   "philosophy",
+   "culture"
+  ],
+  "aliases": [
+   "Structural anthropology",
+   "French structuralism",
+   "Structuralist method"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Postwar Paris intellectual life",
+     "src": "https://grokipedia.com/page/Structuralism",
+     "note": "Lévi-Strauss, Barthes and École Normale networks institutionalized the method (Grokipedia)."
+    },
+    {
+     "place": "Anthropology and semiotics programs",
+     "src": "https://grokipedia.com/page/Structuralism",
+     "note": "Kinship, myth and mass-culture decoding spread the toolkit (Grokipedia)."
+    }
+   ]
+  },
+  "edge_notes": {},
+  "parent_note": "Saussurean linguistics is foundational but not a mapped idea. phenomenology is a sibling/foil, not a sourced parent. Edges into postmodernism / from marxism (Althusser) held for review.",
+  "basis": {
+   "marxism": "stance",
+   "critical_theory": "stance",
+   "romanticism": "stance",
+   "platonism": "stance"
+  },
+  "stance_raw": {
+   "marxism": 2,
+   "critical_theory": 2,
+   "romanticism": -2,
+   "platonism": 2
+  },
+  "ratings": {
+   "platonism": 1,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 0,
+   "marxism": 1,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 1,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": -1,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 4,
+   "hierarchy": 0
+  },
+  "rationale": {
+   "platonism": "Affinity: universal deep structures behind appearances echo form-seeking habits (Grokipedia).",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "No clear debt to, or quarrel with, Christianity.",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "No clear debt to, or quarrel with, Enlightenment liberalism.",
+   "marxism": "Affinity: Althusser and others joined structural method to Marxist analysis (Grokipedia).",
+   "darwinism": "No clear debt to, or quarrel with, Darwinism.",
+   "nietzsche": "No clear debt to, or quarrel with, Nietzsche.",
+   "critical_theory": "Affinity: later semiotic and ideology critique borrowed structural decoding (Grokipedia).",
+   "confucianism": "No clear debt to, or quarrel with, Confucianism.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islam": "No clear debt to, or quarrel with, Islam.",
+   "judaism": "No clear debt to, or quarrel with, Judaism.",
+   "romanticism": "Stance: favors synchronic systems over Romantic genius and historical uniqueness (Grokipedia).",
+   "nationalism": "No clear debt to, or quarrel with, Nationalism.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Hidden relational systems and binary codes over surface events (Grokipedia).",
+   "hierarchy": "Maps cultural systems; not itself a doctrine of political rank (Grokipedia)."
+  }
  }
 ]
