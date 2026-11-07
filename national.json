@@ -314,8 +314,7 @@
      "idea": "sophiology",
      "why": "Solovyov's and his successors' Orthodox religious philosophy (historical).",
      "src": "https://grokipedia.com/page/Sophiology",
-     "call": "historical",
-     "status": "missing"
+     "call": "historical"
     },
     {
      "idea": "russian_cosmism",
@@ -516,16 +515,6 @@
    "src": "https://grokipedia.com/page/Lutheranism",
    "countries": [
     "de"
-   ],
-   "axes": "needs node later"
-  },
-  {
-   "id": "sophiology",
-   "name": "Sophiology",
-   "origin": "late 19th century, Russia",
-   "src": "https://grokipedia.com/page/Sophiology",
-   "countries": [
-    "ru"
    ],
    "axes": "needs node later"
   },
