@@ -28645,7 +28645,8 @@
   ],
   "parents": [
    "leninism",
-   "marxism"
+   "marxism",
+   "hobson_imperialism"
   ],
   "plain": "Lenin's idea that empire is what capitalism turns into when big banks and monopolies run it. He said rich countries fight wars to divide up the world.",
   "summary": "Lenin (1916): monopoly and finance capital push rich states to export capital and carve up the world, so world war and colonies follow from capitalism itself.",
@@ -28693,9 +28694,16 @@
     "strength": "moderate",
     "src": "https://grokipedia.com/page/Imperialism,_the_Highest_Stage_of_Capitalism",
     "note": "Lenin adapted Hobson's and Hilferding's analyses 'to Marxist frameworks'."
+   },
+   "hobson_imperialism": {
+    "status": "documented",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Imperialism,_the_Highest_Stage_of_Capitalism",
+    "note": "Grokipedia: Lenin's book 'synthesized prior analyses by figures such as John A. Hobson and Rudolf Hilferding'."
    }
   },
-  "parent_note": "Also draws on two thinkers not on the map: Hilferding's Finance Capital (1910) and the liberal Hobson's Imperialism: A Study (1902).",
+  "parent_note": "Also draws on Hilferding's Finance Capital (1910), a thinker not on the map.",
   "ratings": {
    "platonism": 0,
    "aristotelianism": 0,
@@ -29507,7 +29515,7 @@
     "note": "Aristotle's Nicomachean Ethics Book V set 'natural justice', the same everywhere, against merely legal justice."
    }
   },
-  "parent_note": "Carried into Thomism by Aquinas and into Enlightenment liberalism by Locke's natural rights; Grotius and Pufendorf's natural law of nations has no node yet.",
+  "parent_note": "Carried into Thomism by Aquinas, into Enlightenment liberalism by Locke's natural rights, and into grotian_international_law by Grotius.",
   "basis": {
    "enlightenment_liberalism": "stance"
   },
@@ -33768,7 +33776,9 @@
   "thinkers": [
    "Hedley Bull"
   ],
-  "parents": [],
+  "parents": [
+   "english_school"
+  ],
   "plain": "An IR picture of a world where states share power with churches, firms, courts and other loyalties, more like medieval Europe than neat modern borders.",
   "summary": "Bull's 1977 IR framework: fragmented sovereignty and overlapping authorities, analogous to medieval Europe rather than exclusive Westphalian states.",
   "stories": [],
@@ -33800,8 +33810,16 @@
     }
    ]
   },
-  "edge_notes": {},
-  "parent_note": "Bull's English School sketch is not sourced as a child of political_realism; a realism parent is held for review. No English School node yet.",
+  "edge_notes": {
+   "english_school": {
+    "status": "documented",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Neo-medievalism",
+    "note": "Grokipedia: Hedley Bull, a foundational English School theorist, introduced the neo-medieval paradigm in The Anarchical Society (1977)."
+   }
+  },
+  "parent_note": "Bull's English School sketch is not sourced as a child of political_realism; a realism parent is held for review.",
   "basis": {
    "enlightenment_liberalism": "stance",
    "christianity": "stance",
@@ -34601,7 +34619,7 @@
    ]
   },
   "edge_notes": {},
-  "parent_note": "Distinct from leninist_theory_of_imperialism (1916). A parent edge into that node (Lenin used Hobson) is held for review. Liberal underconsumption, not Marxist monopoly-stage.",
+  "parent_note": "Distinct from leninist_theory_of_imperialism (1916), which it influenced. Liberal underconsumption, not Marxist monopoly-stage.",
   "basis": {
    "marxism": "stance",
    "nationalism": "stance",
