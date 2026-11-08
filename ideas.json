@@ -35994,5 +35994,607 @@
    "abstraction": "Concrete republican program for China, not a pure metaphysical system (Grokipedia).",
    "hierarchy": "Aims at popular sovereignty and land equity against imperial rank (Grokipedia)."
   }
+ },
+ {
+  "id": "jus_gentium",
+  "name": "Jus gentium (Roman law of nations)",
+  "root": false,
+  "root_axis": null,
+  "year": -242,
+  "year_approx": true,
+  "origin_src": "https://grokipedia.com/page/Jus_gentium",
+  "origin_note": "Grokipedia: jus gentium emerged around 242 BCE, when Rome appointed the praetor peregrinus to judge cases involving foreigners, applying rules held common to all peoples.",
+  "place": "Rome",
+  "lat": 41.89,
+  "lon": 12.49,
+  "thinkers": [
+   "Cicero",
+   "Gaius"
+  ],
+  "parents": [],
+  "plain": "Roman law for dealing with foreigners: rules on contracts, property, treaties and war that Romans thought every civilized people shared, as opposed to law for citizens only.",
+  "summary": "Roman 'law of nations' from c.242 BCE: rules common to all peoples, applied by the praetor peregrinus; later a source for Grotius and international law.",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Jus_gentium",
+   "https://grokipedia.com/page/Cicero",
+   "https://grokipedia.com/page/Gaius_(jurist)",
+   "https://grokipedia.com/page/Natural_law"
+  ],
+  "domain": [
+   "politics",
+   "philosophy"
+  ],
+  "aliases": [
+   "Ius gentium",
+   "Law of nations",
+   "Roman law of nations"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Roman Republic and Empire",
+     "src": "https://grokipedia.com/page/Jus_gentium",
+     "note": "Governed trade and disputes with peregrini as Rome expanded after the Punic Wars (Grokipedia)."
+    },
+    {
+     "place": "Early modern international law",
+     "src": "https://grokipedia.com/page/Jus_gentium",
+     "note": "Grotius and later jurists repurposed it for treaties, diplomacy and war (Grokipedia)."
+    }
+   ]
+  },
+  "edge_notes": {},
+  "parent_note": "Parentless here. Maine read Roman ius naturale as jus gentium recast by Stoic ideas; a stoic_logos edge and a jus_gentium -> natural_law edge are held for review.",
+  "basis": {
+   "stoicism": "stance"
+  },
+  "stance_raw": {
+   "stoicism": 2
+  },
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 1,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 0,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -1,
+   "hierarchy": 1
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "Affinity: Maine saw Roman natural law as jus gentium reread through Stoic nature (Grokipedia).",
+   "christianity": "Comes before Christianity existed, so it cannot descend from it.",
+   "gnosticism": "Comes before Gnosticism existed, so it cannot descend from it.",
+   "hermeticism": "Comes before Hermeticism existed, so it cannot descend from it.",
+   "enlightenment_liberalism": "Comes before Enlightenment liberalism existed, so it cannot descend from it.",
+   "marxism": "Comes before Marxism existed, so it cannot descend from it.",
+   "darwinism": "Comes before Darwinism existed, so it cannot descend from it.",
+   "nietzsche": "Comes before Nietzsche existed, so it cannot descend from it.",
+   "critical_theory": "Comes before Critical theory existed, so it cannot descend from it.",
+   "confucianism": "No clear debt to, or quarrel with, Confucianism.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islam": "Comes before Islam existed, so it cannot descend from it.",
+   "judaism": "Comes before Judaism existed, so it cannot descend from it.",
+   "romanticism": "Comes before Romanticism existed, so it cannot descend from it.",
+   "nationalism": "Comes before Nationalism existed, so it cannot descend from it.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Practical rules drawn from shared trade customs, not a theory (Grokipedia).",
+   "hierarchy": "Kept citizens' law apart from foreigners' law and regulated slavery (Grokipedia)."
+  }
+ },
+ {
+  "id": "just_war_theory",
+  "name": "Just war theory",
+  "root": false,
+  "root_axis": null,
+  "year": 400,
+  "year_approx": true,
+  "origin_src": "https://grokipedia.com/page/Just_war_theory",
+  "origin_note": "Grokipedia: Augustine of Hippo gave the foundational synthesis in Contra Faustum (c.400) and City of God, reshaping Roman just-war practice; Aquinas codified jus ad bellum c.1270.",
+  "place": "Hippo Regius",
+  "lat": 36.88,
+  "lon": 7.75,
+  "thinkers": [
+   "Augustine of Hippo",
+   "Thomas Aquinas",
+   "Cicero"
+  ],
+  "parents": [
+   "christianity",
+   "jus_gentium"
+  ],
+  "plain": "A set of tests for when going to war is morally allowed (right authority, just cause, right intention) and how it may be fought (sparing civilians, proportionate force).",
+  "summary": "Augustine to Aquinas: criteria for when war is just (jus ad bellum) and how it may be waged (jus in bello), built on Roman law and Christian theology.",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Just_war_theory",
+   "https://grokipedia.com/page/Augustine_of_Hippo",
+   "https://grokipedia.com/page/Thomas_Aquinas",
+   "https://grokipedia.com/page/Fetial",
+   "https://grokipedia.com/page/Jus_gentium"
+  ],
+  "domain": [
+   "politics",
+   "religion",
+   "philosophy"
+  ],
+  "aliases": [
+   "Just war tradition",
+   "Bellum iustum",
+   "Jus ad bellum and jus in bello"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Medieval Christian scholasticism",
+     "src": "https://grokipedia.com/page/Just_war_theory",
+     "note": "Aquinas's Summa Theologica set sovereign authority, just cause and right intention (Grokipedia)."
+    },
+    {
+     "place": "Modern debates on war",
+     "src": "https://grokipedia.com/page/Just_war_theory",
+     "note": "Still argued over preemptive strikes, total war and irregular conflict (Grokipedia)."
+    }
+   ]
+  },
+  "edge_notes": {
+   "christianity": {
+    "status": "documented",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Just_war_theory",
+    "note": "Grokipedia: Roman just-war practice 'was reshaped by Christian theology' through Augustine and Aquinas."
+   },
+   "jus_gentium": {
+    "status": "documented",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Jus_gentium",
+    "note": "Grokipedia: Cicero treated jus gentium as a rational standard for just war and treaties."
+   }
+  },
+  "parent_note": "christianity and jus_gentium are sourced. Roman fetial war rites (no node) and a thomism or natural_law edge are held for review.",
+  "basis": {
+   "stoicism": "stance"
+  },
+  "stance_raw": {
+   "stoicism": 2
+  },
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 1,
+   "christianity": 4,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 0,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 1,
+   "hierarchy": 2
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "Affinity: Ambrose and Augustine adapted Ciceronian natural law to Christian charity (Grokipedia).",
+   "christianity": "Augustine and Aquinas made it a Christian account of when force serves peace (Grokipedia).",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "Comes before Enlightenment liberalism existed, so it cannot descend from it.",
+   "marxism": "Comes before Marxism existed, so it cannot descend from it.",
+   "darwinism": "Comes before Darwinism existed, so it cannot descend from it.",
+   "nietzsche": "Comes before Nietzsche existed, so it cannot descend from it.",
+   "critical_theory": "Comes before Critical theory existed, so it cannot descend from it.",
+   "confucianism": "No clear debt to, or quarrel with, Confucianism.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islam": "Comes before Islam existed, so it cannot descend from it.",
+   "judaism": "No clear debt to, or quarrel with, Judaism.",
+   "romanticism": "Comes before Romanticism existed, so it cannot descend from it.",
+   "nationalism": "Comes before Nationalism existed, so it cannot descend from it.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "General moral criteria, applied case by case to actual wars (Grokipedia).",
+   "hierarchy": "Only a legitimate sovereign authority may declare war (Grokipedia)."
+  }
+ },
+ {
+  "id": "grotian_international_law",
+  "name": "Grotian law of nations",
+  "root": false,
+  "root_axis": null,
+  "year": 1625,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/De_jure_belli_ac_pacis",
+  "origin_note": "Grokipedia: Hugo Grotius wrote De jure belli ac pacis (1625) in exile in Paris, codifying international law from natural reason, divine law and custom amid the Thirty Years' War.",
+  "place": "Paris",
+  "lat": 48.86,
+  "lon": 2.35,
+  "thinkers": [
+   "Hugo Grotius"
+  ],
+  "parents": [
+   "natural_law",
+   "just_war_theory",
+   "jus_gentium"
+  ],
+  "plain": "Grotius's idea that rulers are bound by law even with no world government above them: natural law, treaties and custom set rules for starting wars, fighting them and making peace.",
+  "summary": "Grotius 1625: a law of war and peace binding sovereigns without a higher ruler, grounded in natural reason; a founding text of international law.",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/De_jure_belli_ac_pacis",
+   "https://grokipedia.com/page/Hugo_Grotius",
+   "https://grokipedia.com/page/Jus_gentium",
+   "https://grokipedia.com/page/Just_war_theory"
+  ],
+  "domain": [
+   "politics",
+   "philosophy"
+  ],
+  "aliases": [
+   "De jure belli ac pacis",
+   "Grotian tradition",
+   "On the Law of War and Peace"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Early modern treaties and diplomacy",
+     "src": "https://grokipedia.com/page/De_jure_belli_ac_pacis",
+     "note": "Widely reprinted; shaped doctrines of just war, sovereignty and diplomacy (Grokipedia)."
+    },
+    {
+     "place": "English School international theory",
+     "src": "https://grokipedia.com/page/English_school_of_international_relations_theory",
+     "note": "Wight and Bull named rule-governed society among states the Grotian tradition (Grokipedia)."
+    }
+   ]
+  },
+  "edge_notes": {
+   "natural_law": {
+    "status": "documented",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/De_jure_belli_ac_pacis",
+    "note": "Grokipedia: Grotius derived international law from natural reason, secularizing natural law as binding all peoples."
+   },
+   "just_war_theory": {
+    "status": "documented",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/De_jure_belli_ac_pacis",
+    "note": "Grokipedia: he kept strict just causes for war (self-defense, recovery, punishment) against unqualified bans."
+   },
+   "jus_gentium": {
+    "status": "documented",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Jus_gentium",
+    "note": "Grokipedia: thinkers like Grotius repurposed Roman jus gentium for treaties, diplomacy and war."
+   }
+  },
+  "parent_note": "natural_law, just_war_theory and jus_gentium are sourced. A link to westphalian_sovereignty is held for review.",
+  "basis": {
+   "aristotelianism": "stance"
+  },
+  "stance_raw": {
+   "aristotelianism": 2
+  },
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 1,
+   "stoicism": 2,
+   "christianity": 2,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 0,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 2,
+   "hierarchy": 1
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "Affinity: works within the scholastic natural-law frame Aquinas built on Aristotle (Grokipedia).",
+   "stoicism": "Inherits the natural-law idea of a reason binding all peoples (Grokipedia).",
+   "christianity": "Cites divine law and Scripture, yet makes natural law hold apart from theology (Grokipedia).",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "Comes before Enlightenment liberalism existed, so it cannot descend from it.",
+   "marxism": "Comes before Marxism existed, so it cannot descend from it.",
+   "darwinism": "Comes before Darwinism existed, so it cannot descend from it.",
+   "nietzsche": "Comes before Nietzsche existed, so it cannot descend from it.",
+   "critical_theory": "Comes before Critical theory existed, so it cannot descend from it.",
+   "confucianism": "No clear debt to, or quarrel with, Confucianism.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islam": "No clear debt to, or quarrel with, Islam.",
+   "judaism": "No clear debt to, or quarrel with, Judaism.",
+   "romanticism": "Comes before Romanticism existed, so it cannot descend from it.",
+   "nationalism": "Comes before Nationalism existed, so it cannot descend from it.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "A systematic code derived from reason, not a record of state practice (Grokipedia).",
+   "hierarchy": "Grants sovereigns broad rights while binding them to law (Grokipedia)."
+  }
+ },
+ {
+  "id": "english_school",
+  "name": "English School of international relations",
+  "root": false,
+  "root_axis": null,
+  "year": 1959,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/English_school_of_international_relations_theory",
+  "origin_note": "Grokipedia: the British Committee on the Theory of International Politics convened in 1959 (Wight, Bull, Butterfield); Bull's The Anarchical Society (1977) formalized the school.",
+  "place": "London",
+  "lat": 51.51,
+  "lon": -0.13,
+  "thinkers": [
+   "Martin Wight",
+   "Hedley Bull",
+   "Herbert Butterfield",
+   "Adam Watson"
+  ],
+  "parents": [
+   "grotian_international_law"
+  ],
+  "plain": "The view that states, though no one rules over them, form a real society with shared rules, diplomacy, law and the balance of power that keep a rough order.",
+  "summary": "British school (1959 on): states form an 'international society' of shared rules and institutions; a middle way between realism and idealism.",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/English_school_of_international_relations_theory",
+   "https://grokipedia.com/page/Hedley_Bull",
+   "https://grokipedia.com/page/Herbert_Butterfield",
+   "https://grokipedia.com/page/Hugo_Grotius"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "aliases": [
+   "International society tradition",
+   "English School",
+   "Rationalism (Wight)"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "British international relations scholarship",
+     "src": "https://grokipedia.com/page/English_school_of_international_relations_theory",
+     "note": "LSE seminars and the British Committee carried it through the Cold War (Grokipedia)."
+    }
+   ]
+  },
+  "edge_notes": {
+   "grotian_international_law": {
+    "status": "documented",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/English_school_of_international_relations_theory",
+    "note": "Grokipedia: Wight's 'Grotian rationalism' and Bull's 1966 Grotian conception make Grotius its namesake tradition."
+   }
+  },
+  "parent_note": "Sourced parent is the Grotian tradition. Edges with political_realism (Wight's realism strand, Carr's critique) and westphalian_sovereignty are held.",
+  "basis": {
+   "enlightenment_liberalism": "stance"
+  },
+  "stance_raw": {
+   "enlightenment_liberalism": 2
+  },
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 1,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -1,
+   "hierarchy": 1
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "No clear debt to, or quarrel with, Christianity.",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "Affinity: values law and institutions among states, short of Kantian world reform (Grokipedia).",
+   "marxism": "No clear debt to, or quarrel with, Marxism.",
+   "darwinism": "No clear debt to, or quarrel with, Darwinism.",
+   "nietzsche": "No clear debt to, or quarrel with, Nietzsche.",
+   "critical_theory": "No clear debt to, or quarrel with, Critical theory.",
+   "confucianism": "No clear debt to, or quarrel with, Confucianism.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islam": "No clear debt to, or quarrel with, Islam.",
+   "judaism": "No clear debt to, or quarrel with, Judaism.",
+   "romanticism": "No clear debt to, or quarrel with, Romanticism.",
+   "nationalism": "No clear debt to, or quarrel with, Nationalism.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Historical and inductive; prefers centuries of state practice to deductive models (Grokipedia).",
+   "hierarchy": "Counts great power management among the institutions of order (Grokipedia)."
+  }
+ },
+ {
+  "id": "constructivism_ir",
+  "name": "Constructivism (international relations)",
+  "root": false,
+  "root_axis": null,
+  "year": 1989,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Constructivism_(international_relations)",
+  "origin_note": "Grokipedia: Nicholas Onuf introduced the term in World of Our Making (1989); Wendt's 1992 essay 'Anarchy is What States Make of It' made it prominent.",
+  "place": "United States",
+  "lat": null,
+  "lon": null,
+  "thinkers": [
+   "Nicholas Onuf",
+   "Alexander Wendt",
+   "Friedrich Kratochwil"
+  ],
+  "parents": [
+   "neorealism"
+  ],
+  "plain": "The view that world politics runs on shared ideas: anarchy, sovereignty and national interest mean what states come to believe they mean, and those beliefs can change.",
+  "summary": "Onuf 1989, Wendt 1992: anarchy, power and interests are socially made through norms and identities, against realism's fixed material structure.",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Constructivism_(international_relations)",
+   "https://grokipedia.com/page/Alexander_Wendt",
+   "https://grokipedia.com/page/Neorealism_(international_relations)"
+  ],
+  "domain": [
+   "politics",
+   "philosophy"
+  ],
+  "aliases": [
+   "Social constructivism (IR)",
+   "Constructivist IR theory",
+   "Anarchy is what states make of it"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Post-Cold War IR scholarship",
+     "src": "https://grokipedia.com/page/Constructivism_(international_relations)",
+     "note": "Used for identity conflicts, European integration and norm diffusion (Grokipedia)."
+    }
+   ]
+  },
+  "edge_notes": {
+   "neorealism": {
+    "status": "documented",
+    "type": "reaction",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Constructivism_(international_relations)",
+    "note": "Grokipedia: answers Waltz's 1979 claim that material power, not shared meanings, drives the system."
+   }
+  },
+  "parent_note": "Sourced as a reaction to neorealism. Berger and Luckmann's social construction (no node), english_school and linguistic_turn links are held.",
+  "basis": {
+   "critical_theory": "stance"
+  },
+  "stance_raw": {
+   "critical_theory": 2
+  },
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 0,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 1,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 2,
+   "hierarchy": 0
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "No clear debt to, or quarrel with, Christianity.",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "No clear debt to, or quarrel with, Enlightenment liberalism.",
+   "marxism": "No clear debt to, or quarrel with, Marxism.",
+   "darwinism": "No clear debt to, or quarrel with, Darwinism.",
+   "nietzsche": "No clear debt to, or quarrel with, Nietzsche.",
+   "critical_theory": "Affinity: thick variants study discourse and how norms carry power (Grokipedia).",
+   "confucianism": "No clear debt to, or quarrel with, Confucianism.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islam": "No clear debt to, or quarrel with, Islam.",
+   "judaism": "No clear debt to, or quarrel with, Judaism.",
+   "romanticism": "No clear debt to, or quarrel with, Romanticism.",
+   "nationalism": "No clear debt to, or quarrel with, Nationalism.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Puts shared ideas and identities ahead of material capabilities (Grokipedia).",
+   "hierarchy": "Explains how sovereignty and rank are made without endorsing an order (Grokipedia)."
+  }
  }
 ]
