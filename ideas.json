@@ -33889,7 +33889,7 @@
   "year": -81,
   "year_approx": false,
   "origin_src": "https://grokipedia.com/page/Discourses_on_Salt_and_Iron",
-  "origin_note": "Court debate under Emperor Zhao in 81 BCE; Huan Kuan compiled the Yantielun in the early 1st century BCE (Grokipedia).",
+  "origin_note": "The court debate took place in 81 BCE under Emperor Zhao. Huan Kuan compiled the Yantie lun around 60 BCE, under Emperor Xuan, as a retrospective reconstruction of the debate (Grokipedia).",
   "place": "Chang'an",
   "lat": 34.27,
   "lon": 108.94,
@@ -33997,10 +33997,10 @@
   "name": "Counter-Enlightenment",
   "root": false,
   "root_axis": null,
-  "year": 1781,
+  "year": 1759,
   "year_approx": true,
   "origin_src": "https://grokipedia.com/page/Counter-Enlightenment",
-  "origin_note": "Late-18th-c. critiques (Hamann, Herder, Burke, Maistre); Isaiah Berlin popularized the label in his 1973 essay (Grokipedia).",
+  "origin_note": "Hamann's Socratic Memorabilia (1759) provides an early anchor for critiques later grouped under the retrospective label Counter-Enlightenment. The label covers diverse thinkers and contested boundaries rather than a single founding movement (Grokipedia).",
   "place": "Königsberg",
   "lat": 54.71,
   "lon": 20.51,
@@ -34461,15 +34461,13 @@
   "year_approx": false,
   "origin_src": "https://grokipedia.com/page/Asabiyyah",
   "origin_note": "Ibn Khaldun formulated asabiyyah in the Muqaddimah; Grokipedia dates the draft completed 1377 during seclusion at Qal'at Ibn Salama near Oran (Grokipedia).",
-  "place": "Qal'at Ibn Salama (near Oran)",
-  "lat": 35.7,
-  "lon": -0.63,
+  "place": "Qal'at Ibn Salama (near Frenda, Algeria)",
+  "lat": 35.02,
+  "lon": 1.07,
   "thinkers": [
    "Ibn Khaldun"
   ],
-  "parents": [
-   "islam"
-  ],
+  "parents": [],
   "plain": "Ibn Khaldun's idea that tight group solidarity—especially among hard-living tribes—builds dynasties, then softens in city luxury until a tougher group takes over.",
   "summary": "Ibn Khaldun's Muqaddimah concept of group solidarity (asabiyyah) as the causal engine of dynastic rise and four-generation decline under luxury and urbanization.",
   "stories": [],
@@ -34503,16 +34501,8 @@
     }
    ]
   },
-  "edge_notes": {
-   "islam": {
-    "status": "documented",
-    "type": "descent",
-    "strength": "moderate",
-    "src": "https://grokipedia.com/page/Muqaddimah",
-    "note": "Written within Islamic historiography and theology; religion can amplify asabiyyah (Grokipedia)."
-   }
-  },
-  "parent_note": "Prophetic hadith condemn tribal asabiyyah as vice; Ibn Khaldun retools the term as causal sociology. Nationalism affinity only—no nationalism parent (root is later).",
+  "edge_notes": {},
+  "parent_note": "The term predates Islam. Ibn Khaldun developed it into a theory of group solidarity in the Muqaddimah (1377). He treated religion as a reinforcement of existing solidarity; the cited evidence does not establish Islam as the theory's parent (Grokipedia).",
   "basis": {
    "nationalism": "stance"
   },
@@ -35641,10 +35631,10 @@
   "year": 1878,
   "year_approx": true,
   "origin_src": "https://grokipedia.com/page/Sophiology",
-  "origin_note": "Grokipedia: late-19th-c. Russian Orthodox speculative theology of Sophia (divine Wisdom), begun with Vladimir Solovyov and systematized by Sergei Bulgakov. Year c.1878 marks Solovyov's Lectures on Godmanhood crest (approx).",
-  "place": "Moscow",
-  "lat": 55.75,
-  "lon": 37.62,
+  "origin_note": "Grokipedia: late-19th-c. Russian Orthodox speculative theology of Sophia (divine Wisdom), begun with Vladimir Solovyov and systematized by Sergei Bulgakov. Year c.1878 marks Solovyov's Lectures on Godmanhood (St. Petersburg, 1878).",
+  "place": "Saint Petersburg",
+  "lat": 59.94,
+  "lon": 30.31,
   "thinkers": [
    "Vladimir Solovyov",
    "Sergei Bulgakov"
@@ -36731,20 +36721,19 @@
   "name": "Hua–Yi distinction (civilized and barbarian)",
   "root": false,
   "root_axis": null,
-  "year": -481,
+  "year": -1000,
   "year_approx": true,
   "origin_src": "https://grokipedia.com/page/Hua–Yi_distinction",
-  "origin_note": "Grokipedia: rooted in the Spring and Autumn Annals (covering 722-481 BCE, attributed to Confucius) and elaborated by Mencius (c.372-289 BCE) and Xunzi.",
-  "place": "Qufu, Lu",
-  "lat": 35.6,
-  "lon": 116.99,
+  "origin_note": "Grokipedia: originated in the Western Zhou (c.1046–771 BCE), with early Yi/Di contrast in Zhou-era Shijing poems and Shangshu materials. Spring and Autumn Annals, Mencius, and Xunzi are later witnesses and Confucian elaborations, not the held origin. Secondary literature (e.g. Falkenhausen; corroboration only) puts the full cultural accentuation in the Eastern Zhou; Shangshu Old-Text layers are contested (Grokipedia Book of Documents). Year c.−1000 approx marks the Western Zhou political core (same crest family as tianxia), not a precise first holding.",
+  "place": "Haojing",
+  "lat": 34.27,
+  "lon": 108.9,
   "thinkers": [
    "Confucius",
    "Mencius",
    "Xunzi"
   ],
   "parents": [
-   "confucian_ethics",
    "tianxia"
   ],
   "plain": "The Chinese line between the civilized (Hua) and outsiders (Yi). It turned on culture, not blood: outsiders who took up Chinese rites and government could count as civilized.",
@@ -36781,22 +36770,15 @@
    ]
   },
   "edge_notes": {
-   "confucian_ethics": {
-    "status": "documented",
-    "type": "descent",
-    "strength": "strong",
-    "src": "https://grokipedia.com/page/Hua–Yi_distinction",
-    "note": "Grokipedia: a core tenet elaborated by Confucian scholars, turning on adoption of Confucian rites."
-   },
    "tianxia": {
     "status": "documented",
     "type": "influence",
     "strength": "moderate",
     "src": "https://grokipedia.com/page/Sinocentrism",
-    "note": "Grokipedia (Sinocentrism): the emperor's rule extended over tianxia, with outsiders classed as yi."
+    "note": "Grokipedia (Sinocentrism / Hua–Yi): Zhou tianxia order classed outsiders as yi around a Hua-Xia civilized core."
    }
   },
-  "parent_note": "confucian_ethics and tianxia are sourced. A comparison with Greek 'barbarian' ideas is noted only, not drawn as an edge.",
+  "parent_note": "tianxia is the sourced Zhou-era parent (influence). Confucian ethics (−500) elaborates the binary in the Spring and Autumn Annals, Mencius, and Xunzi; held as elaboration in origin_note, not as a descent parent (would postdate a Zhou child).",
   "ratings": {
    "platonism": 0,
    "aristotelianism": 0,
