@@ -2138,7 +2138,8 @@
   "parents": [
    "will_to_power",
    "frankfurt_school",
-   "existentialism"
+   "existentialism",
+   "post_structuralism"
   ],
   "plain": "Postmodern thinkers doubted any single big story explains everything, and studied how language and power shape what counts as true.",
   "summary": "Postmodernists distrust big all-explaining stories of history and trace how language and power shape truth.",
@@ -2219,6 +2220,16 @@
      "note": "Named in the Grokipedia article “Postmodernism”."
     }
    ]
+  },
+  "parent_note": "Existing parents kept. post_structuralism added: Grokipedia says postmodern ideas emerged primarily through post-structuralist critiques of structuralism; SEP treats French poststructuralists as heirs of the structuralist revolution. Not a substitute for Lyotard's 1979 crest.",
+  "edge_notes": {
+   "post_structuralism": {
+    "status": "documented",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Postmodernism",
+    "note": "Grokipedia: postmodern ideas in 1960s France emerged primarily through post-structuralist critiques of structuralism; Derrida and Foucault sit in both conversations."
+   }
   }
  },
  {
@@ -35290,7 +35301,9 @@
    "Ferdinand de Saussure",
    "Roland Barthes"
   ],
-  "parents": [],
+  "parents": [
+   "saussurean_linguistics"
+  ],
   "plain": "A way of studying culture and language that looks for hidden patterns and opposites—a grammar beneath myths, kinship and stories—rather than one-off meanings.",
   "summary": "French mid-century method (Lévi-Strauss crest 1958): deep relational structures and binary oppositions underlie myth, kinship and signs, after Saussurean linguistics.",
   "stories": [],
@@ -35324,8 +35337,16 @@
     }
    ]
   },
-  "edge_notes": {},
-  "parent_note": "Saussurean linguistics is foundational but not a mapped idea. phenomenology is a sibling/foil, not a sourced parent. Edges into postmodernism / from marxism (Althusser) held for review.",
+  "edge_notes": {
+   "saussurean_linguistics": {
+    "status": "documented",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Structuralism",
+    "note": "Grokipedia: structuralism originates in Saussurean linguistics; Lévi-Strauss adapted Saussurean tools in Structural Anthropology (1958). Jakobson at the New York École Libre bridged Prague phonology to Lévi-Strauss."
+   }
+  },
+  "parent_note": "saussurean_linguistics (Geneva lectures c.1907 approx; Course 1916 as witness) is the sourced descent parent. Prague School / Jakobson supplied the wartime New York handoff to Lévi-Strauss (École Libre); held as transmission in edge note, not as a second parent until a prague_school node exists. phenomenology remains a foil. postmodernism / Althusser edges tracked separately.",
   "basis": {
    "marxism": "stance",
    "critical_theory": "stance",
@@ -37170,6 +37191,226 @@
    "irony": "Makes its case directly, without ironic distance.",
    "abstraction": "Acts on observable power and interests, not abstract principles (Grokipedia).",
    "hierarchy": "Treats power gaps among states as the facts politics must follow (Grokipedia)."
+  }
+ },
+ {
+  "id": "saussurean_linguistics",
+  "name": "Saussurean linguistics",
+  "root": false,
+  "root_axis": null,
+  "year": 1907,
+  "year_approx": true,
+  "origin_src": "https://grokipedia.com/page/Course_in_General_Linguistics",
+  "origin_note": "Grokipedia: Saussure delivered lectures on general linguistics at the University of Geneva between 1906 and 1911 (three main courses, including 1906–1907). Year c.1907 approx marks that Geneva teaching crest when the synchronic method was held. Course in General Linguistics (1916, posthumous, compiled from student notes of the 1906–1911 lectures by Bally and Sechehaye) is the publication witness, not the held origin.",
+  "place": "Geneva",
+  "lat": 46.2,
+  "lon": 6.15,
+  "thinkers": [
+   "Ferdinand de Saussure",
+   "Charles Bally",
+   "Albert Sechehaye"
+  ],
+  "parents": [],
+  "parent_note": "No mapped parent yet. Comparative-historical linguistics is the foil Saussure broke from; a later edge can record that reaction if a parent node exists.",
+  "plain": "Saussure taught that a language is a system of differences: a word means what it means by how it relates to other words now, not by its history.",
+  "summary": "Geneva lectures c.1907 (Course 1916 as witness): synchronic linguistics treats langue as a system of signs defined by difference.",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Course_in_General_Linguistics",
+   "https://grokipedia.com/page/Ferdinand_de_Saussure",
+   "https://grokipedia.com/page/Structuralism"
+  ],
+  "domain": [
+   "philosophy",
+   "culture"
+  ],
+  "aliases": [
+   "Structural linguistics",
+   "Saussurean structuralism",
+   "Cours de linguistique générale"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "University of Geneva",
+     "src": "https://grokipedia.com/page/Course_in_General_Linguistics",
+     "note": "Saussure's 1906–1911 lectures founded the synchronic method later published as the Course (Grokipedia)."
+    }
+   ]
+  },
+  "edge_notes": {},
+  "basis": {
+   "platonism": "stance",
+   "romanticism": "stance"
+  },
+  "stance_raw": {
+   "platonism": 2,
+   "romanticism": -2
+  },
+  "ratings": {
+   "platonism": 1,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 0,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": -1,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 4,
+   "hierarchy": 0
+  },
+  "rationale": {
+   "platonism": "Affinity: langue as an abstract system of differences echoes form-seeking habits (Grokipedia).",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "No clear debt to, or quarrel with, Christianity.",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "No clear debt to, or quarrel with, Enlightenment liberalism.",
+   "marxism": "No clear debt to, or quarrel with, Marxism.",
+   "darwinism": "No clear debt to, or quarrel with, Darwinism.",
+   "nietzsche": "No clear debt to, or quarrel with, Nietzsche.",
+   "critical_theory": "Comes before Critical theory existed, so it cannot descend from it.",
+   "confucianism": "No clear debt to, or quarrel with, Confucianism.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islam": "No clear debt to, or quarrel with, Islam.",
+   "judaism": "No clear debt to, or quarrel with, Judaism.",
+   "romanticism": "Stance: favors synchronic system over Romantic historical philology and organic uniqueness (Grokipedia).",
+   "nationalism": "No clear debt to, or quarrel with, Nationalism.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Langue is an abstract relational system of signs defined by difference (Grokipedia).",
+   "hierarchy": "Maps linguistic systems; not itself a doctrine of political rank (Grokipedia)."
+  }
+ },
+ {
+  "id": "post_structuralism",
+  "name": "Post-structuralism",
+  "root": false,
+  "root_axis": null,
+  "year": 1967,
+  "year_approx": true,
+  "origin_src": "https://grokipedia.com/page/Post-structuralism",
+  "origin_note": "Grokipedia: late-1960s French critique of structuralism's stable binaries and underlying orders (Derrida, Foucault, Barthes after structuralism). Year c.1967 approx marks the public crest around Of Grammatology / the post-1966 Johns Hopkins moment; SEP groups these figures as poststructuralists working from the 1950s–60s structuralist revolution.",
+  "place": "Paris",
+  "lat": 48.86,
+  "lon": 2.35,
+  "thinkers": [
+   "Jacques Derrida",
+   "Michel Foucault",
+   "Roland Barthes"
+  ],
+  "parents": [
+   "structuralism"
+  ],
+  "parent_note": "structuralism is the sourced foil and predecessor. Grokipedia: post-structuralism arose in late-1960s France as a critical response to structuralism's stable sign systems.",
+  "plain": "A late-1960s French critique of structuralism: meaning is unstable, binary opposites can be undone, and texts never settle on one fixed reading.",
+  "summary": "Late-1960s French response to structuralism (Derrida, Foucault, Barthes): deconstructs stable signs and binaries; crest around Of Grammatology, c.1967.",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Post-structuralism",
+   "https://grokipedia.com/page/Structuralism",
+   "https://grokipedia.com/page/Postmodernism",
+   "https://plato.stanford.edu/entries/postmodernism/"
+  ],
+  "domain": [
+   "philosophy",
+   "culture"
+  ],
+  "aliases": [
+   "Poststructuralism",
+   "French post-structuralism"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Late-1960s French philosophy and literary theory",
+     "src": "https://grokipedia.com/page/Post-structuralism",
+     "note": "Derrida, Foucault and Barthes after structuralism shaped the critique in Paris networks (Grokipedia)."
+    }
+   ]
+  },
+  "edge_notes": {
+   "structuralism": {
+    "status": "documented",
+    "type": "reaction",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Structuralism",
+    "note": "Grokipedia: post-structuralism arose in late-1960s France as a critical response to structuralism's emphasis on stable sign systems and binary oppositions."
+   }
+  },
+  "basis": {
+   "enlightenment_liberalism": "stance"
+  },
+  "stance_raw": {
+   "enlightenment_liberalism": -3
+  },
+  "ratings": {
+   "platonism": -3,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": -1,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 3,
+   "critical_theory": 2,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 3,
+   "abstraction": 0,
+   "hierarchy": -3
+  },
+  "rationale": {
+   "platonism": "Deconstruction undoes stable meanings and binary hierarchies that echo Platonic essences (Grokipedia).",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "No clear debt to, or quarrel with, Christianity.",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "Stance: Foucault and allies critique stable Enlightenment reason and progress (Grokipedia).",
+   "marxism": "No clear debt to, or quarrel with, Marxism.",
+   "darwinism": "No clear debt to, or quarrel with, Darwinism.",
+   "nietzsche": "Derrida and Foucault build on Nietzsche's genealogy and critique of stable truth (Grokipedia).",
+   "critical_theory": "Foucault's power/knowledge analysis is central to post-structuralist critique (Grokipedia).",
+   "confucianism": "No clear debt to, or quarrel with, Confucianism.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islam": "No clear debt to, or quarrel with, Islam.",
+   "judaism": "No clear debt to, or quarrel with, Judaism.",
+   "romanticism": "No clear debt to, or quarrel with, Romanticism.",
+   "nationalism": "No clear debt to, or quarrel with, Nationalism.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Deconstruction and free play of the signifier are ironic methods (Grokipedia).",
+   "abstraction": "Doubts structuralism's stable codes while remaining a discourse-level method (Grokipedia).",
+   "hierarchy": "Deconstruction targets ranked binary oppositions (Grokipedia)."
   }
  }
 ]
