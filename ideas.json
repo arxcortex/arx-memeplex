@@ -37412,5 +37412,586 @@
    "abstraction": "Doubts structuralism's stable codes while remaining a discourse-level method (Grokipedia).",
    "hierarchy": "Deconstruction targets ranked binary oppositions (Grokipedia)."
   }
+ },
+ {
+  "id": "crusading_ideology",
+  "name": "Crusade (papal holy war)",
+  "root": false,
+  "root_axis": null,
+  "year": 1095,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Crusades",
+  "origin_note": "Grokipedia: Pope Urban II's call at the Council of Clermont in 1095, answering Byzantine appeals against the Seljuks, launched papally sanctioned expeditions that ran to 1291.",
+  "place": "Clermont",
+  "lat": 45.78,
+  "lon": 3.08,
+  "thinkers": [
+   "Pope Urban II"
+  ],
+  "parents": [
+   "roman_catholicism",
+   "just_war_theory"
+  ],
+  "plain": "The medieval Latin Church's idea that fighting to win back Jerusalem and defend Christians was a holy pilgrimage, called by the pope and rewarded with forgiveness of sins.",
+  "summary": "Urban II's 1095 call at Clermont turned armed pilgrimage into papal holy war, with indulgences for those who took the cross; campaigns ran to 1291.",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Crusades",
+   "https://grokipedia.com/page/Pope_Urban_II"
+  ],
+  "domain": [
+   "religion",
+   "politics"
+  ],
+  "aliases": [
+   "Crusades",
+   "Crusading",
+   "Taking the cross",
+   "Via Dei"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Crusader states of the Levant (1098-1291)",
+     "src": "https://grokipedia.com/page/Crusades",
+     "note": "Edessa, Antioch, Jerusalem and Tripoli were founded after the First Crusade (Grokipedia)."
+    }
+   ]
+  },
+  "edge_notes": {
+   "roman_catholicism": {
+    "status": "documented",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Crusades",
+    "note": "Grokipedia: expeditions sanctioned by the Papacy and called by Pope Urban II at Clermont."
+   },
+   "just_war_theory": {
+    "status": "documented",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Crusades",
+    "note": "Grokipedia: Clermont framed the war as defensive, aligned with Augustine's just war principles."
+   }
+  },
+  "parent_note": "Both parents are sourced. A Reconquista node and a contrast with jihad are not drawn; both are held for review.",
+  "basis": {
+   "islam": "stance"
+  },
+  "stance_raw": {
+   "islam": -3
+  },
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 4,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 0,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islam": -1,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -1,
+   "hierarchy": 3
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "A papal call to armed pilgrimage, with remission of sins for crusaders (Grokipedia).",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "Comes before Enlightenment liberalism existed, so it cannot descend from it.",
+   "marxism": "Comes before Marxism existed, so it cannot descend from it.",
+   "darwinism": "Comes before Darwinism existed, so it cannot descend from it.",
+   "nietzsche": "Comes before Nietzsche existed, so it cannot descend from it.",
+   "critical_theory": "Comes before Critical theory existed, so it cannot descend from it.",
+   "confucianism": "No clear debt to, or quarrel with, Confucianism.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islam": "Stance: aimed to take the Holy Land back from Muslim rule (Grokipedia).",
+   "judaism": "No clear debt to, or quarrel with, Judaism.",
+   "romanticism": "Comes before Romanticism existed, so it cannot descend from it.",
+   "nationalism": "Comes before Nationalism existed, so it cannot descend from it.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "A concrete vow, a cross sewn on and a road to Jerusalem (Grokipedia).",
+   "hierarchy": "Rests on papal authority to call the war and grant indulgences (Grokipedia)."
+  }
+ },
+ {
+  "id": "civilizing_mission",
+  "name": "Civilizing mission (mission civilisatrice)",
+  "root": false,
+  "root_axis": null,
+  "year": 1870,
+  "year_approx": true,
+  "origin_src": "https://grokipedia.com/page/Civilizing_mission",
+  "origin_note": "Grokipedia: adopted by France from the mid-19th century and given formal articulation under the Third Republic (from 1870) by figures such as Jules Ferry.",
+  "place": "Paris",
+  "lat": 48.86,
+  "lon": 2.35,
+  "thinkers": [
+   "Jules Ferry",
+   "Rudyard Kipling"
+  ],
+  "parents": [
+   "enlightenment_liberalism"
+  ],
+  "plain": "The colonial claim that Europe had a duty to bring its schools, laws, religion and technology to peoples it called backward, and that this justified ruling them.",
+  "summary": "French Third Republic doctrine that empire was a duty to spread Western law, schooling and hygiene; Britain's version was Kipling's 'white man's burden'.",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Civilizing_mission",
+   "https://grokipedia.com/page/Jules_Ferry",
+   "https://grokipedia.com/page/Rudyard_Kipling"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "aliases": [
+   "Mission civilisatrice",
+   "White man's burden (British variant)"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "French Africa and Indochina",
+     "src": "https://grokipedia.com/page/Civilizing_mission",
+     "note": "Schools, civil-law codes and medical campaigns, alongside forced labor such as the corvée (Grokipedia)."
+    },
+    {
+     "place": "British India and Africa",
+     "src": "https://grokipedia.com/page/Civilizing_mission",
+     "note": "Framed rule as trusteeship until subjects were judged fit for self-rule (Grokipedia)."
+    }
+   ]
+  },
+  "edge_notes": {
+   "enlightenment_liberalism": {
+    "status": "documented",
+    "type": "descent",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Civilizing_mission",
+    "note": "Grokipedia: drew on Enlightenment ideas of linear progress from barbarism to civilized order."
+   }
+  },
+  "parent_note": "Sourced parent is Enlightenment liberalism. Links to manifest_destiny (a US variant per Grokipedia) and to hobson_imperialism are held for review.",
+  "basis": {
+   "christianity": "stance"
+  },
+  "stance_raw": {
+   "christianity": 2
+  },
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 1,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 3,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 1,
+   "hierarchy": 4
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "Affinity: listed Christianity among the norms to spread, from Iberian evangelizing precedents (Grokipedia).",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "Built on Enlightenment ideas of progress and Republican virtue (Grokipedia).",
+   "marxism": "No clear debt to, or quarrel with, Marxism.",
+   "darwinism": "No clear debt to, or quarrel with, Darwinism.",
+   "nietzsche": "Comes before Nietzsche existed, so it cannot descend from it.",
+   "critical_theory": "Comes before Critical theory existed, so it cannot descend from it.",
+   "confucianism": "No clear debt to, or quarrel with, Confucianism.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islam": "No clear debt to, or quarrel with, Islam.",
+   "judaism": "No clear debt to, or quarrel with, Judaism.",
+   "romanticism": "No clear debt to, or quarrel with, Romanticism.",
+   "nationalism": "No clear debt to, or quarrel with, Nationalism.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "A universal story of progress, applied through schools, codes and railways (Grokipedia).",
+   "hierarchy": "Ranks peoples as civilized or primitive and puts the first in charge (Grokipedia)."
+  }
+ },
+ {
+  "id": "domino_theory",
+  "name": "Domino theory",
+  "root": false,
+  "root_axis": null,
+  "year": 1954,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Domino_theory",
+  "origin_note": "Grokipedia: stated publicly by Eisenhower at a press conference on April 7, 1954, as the French faced defeat at Dien Bien Phu, building on Truman-era assessments.",
+  "place": "Washington, D.C.",
+  "lat": 38.9,
+  "lon": -77.04,
+  "thinkers": [
+   "Dwight D. Eisenhower"
+  ],
+  "parents": [
+   "containment"
+  ],
+  "plain": "The Cold War belief that if one country fell to communism its neighbors would follow one by one, like a row of falling dominoes, so the first had to be held.",
+  "summary": "Eisenhower's 1954 'falling domino' principle: lose South Vietnam and Southeast Asia follows; the main case for US escalation under Kennedy and Johnson.",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Domino_theory",
+   "https://grokipedia.com/page/Dwight_D._Eisenhower"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "aliases": [
+   "Falling domino principle",
+   "Domino effect"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "US policy in Vietnam (1954-1975)",
+     "src": "https://grokipedia.com/page/Domino_theory",
+     "note": "Kennedy and Johnson invoked it to justify widening the war (Grokipedia)."
+    }
+   ]
+  },
+  "edge_notes": {
+   "containment": {
+    "status": "documented",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Domino_theory",
+    "note": "Grokipedia: Kennedy and Johnson argued containment required halting insurgencies before a regional chain collapse."
+   }
+  },
+  "parent_note": "Sourced parent is containment. A link to the Truman Doctrine is not drawn, since that is not a node.",
+  "basis": {
+   "marxism": "stance",
+   "enlightenment_liberalism": "stance"
+  },
+  "stance_raw": {
+   "marxism": -4,
+   "enlightenment_liberalism": 2
+  },
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 1,
+   "marxism": -2,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -1,
+   "hierarchy": 0
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "No clear debt to, or quarrel with, Christianity.",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "Affinity: framed as defending the 'free world' (Grokipedia).",
+   "marxism": "Stance: built to stop the spread of communist states (Grokipedia).",
+   "darwinism": "No clear debt to, or quarrel with, Darwinism.",
+   "nietzsche": "No clear debt to, or quarrel with, Nietzsche.",
+   "critical_theory": "No clear debt to, or quarrel with, Critical theory.",
+   "confucianism": "No clear debt to, or quarrel with, Confucianism.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islam": "No clear debt to, or quarrel with, Islam.",
+   "judaism": "No clear debt to, or quarrel with, Judaism.",
+   "romanticism": "No clear debt to, or quarrel with, Romanticism.",
+   "nationalism": "No clear debt to, or quarrel with, Nationalism.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "A geographic rule of thumb drawn from Japan's 1940-42 conquests (Grokipedia).",
+   "hierarchy": "About the spread of rival blocs, not about rank within a society."
+  }
+ },
+ {
+  "id": "self_determination",
+  "name": "National self-determination",
+  "root": false,
+  "root_axis": null,
+  "year": 1918,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Self-determination",
+  "origin_note": "Grokipedia: first set out as a basis for postwar order in Wilson's Fourteen Points address of January 8, 1918; later in the Atlantic Charter (1941) and UN Resolution 1514 (1960).",
+  "place": "Washington, D.C.",
+  "lat": 38.9,
+  "lon": -77.04,
+  "thinkers": [
+   "Woodrow Wilson",
+   "Vladimir Lenin",
+   "Giuseppe Mazzini"
+  ],
+  "parents": [
+   "wilsonianism",
+   "nationalism"
+  ],
+  "plain": "The principle that a people has the right to choose its own government and its own state, free of foreign rule. It redrew Europe after 1918 and drove decolonization.",
+  "summary": "Peoples' right to choose their own government; Wilson made it a peace principle in 1918, and UN Resolution 1514 (1960) turned it against colonial rule.",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Self-determination",
+   "https://grokipedia.com/page/Woodrow_Wilson",
+   "https://grokipedia.com/page/Giuseppe_Mazzini"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "aliases": [
+   "Right of self-determination",
+   "Self-determination of peoples"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Post-1918 Central and Eastern Europe",
+     "src": "https://grokipedia.com/page/Self-determination",
+     "note": "Shaped the redrawing of borders out of Austria-Hungary (Grokipedia)."
+    },
+    {
+     "place": "Decolonizing Africa and Asia (1945-1970s)",
+     "src": "https://grokipedia.com/page/Self-determination",
+     "note": "UN resolutions equated colonial rule with denial of self-determination (Grokipedia)."
+    }
+   ]
+  },
+  "edge_notes": {
+   "wilsonianism": {
+    "status": "documented",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Self-determination",
+    "note": "Grokipedia: first articulated as a basis for postwar order in Wilson's 1918 Fourteen Points."
+   },
+   "nationalism": {
+    "status": "documented",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Self-determination",
+    "note": "Grokipedia: pre-20th-century roots in nationalism; Mazzini argued nations have a right to independent existence."
+   }
+  },
+  "parent_note": "Both parents are sourced. A Leninist line (Soviet anti-colonial self-determination) is held for review.",
+  "basis": {
+   "marxism": "stance"
+  },
+  "stance_raw": {
+   "marxism": 2
+  },
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 3,
+   "marxism": 1,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 4,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 2,
+   "hierarchy": -2
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "No clear debt to, or quarrel with, Christianity.",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "Wilson's liberal peace program and roots in Enlightenment consent (Grokipedia).",
+   "marxism": "Affinity: Lenin and the Soviet Union also championed it for colonized peoples (Grokipedia).",
+   "darwinism": "No clear debt to, or quarrel with, Darwinism.",
+   "nietzsche": "No clear debt to, or quarrel with, Nietzsche.",
+   "critical_theory": "Comes before Critical theory existed, so it cannot descend from it.",
+   "confucianism": "No clear debt to, or quarrel with, Confucianism.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islam": "No clear debt to, or quarrel with, Islam.",
+   "judaism": "No clear debt to, or quarrel with, Judaism.",
+   "romanticism": "No clear debt to, or quarrel with, Romanticism.",
+   "nationalism": "Gives each nation a claim to its own state, as Mazzini argued (Grokipedia).",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "A universal legal principle, hard to apply to real borders (Grokipedia).",
+   "hierarchy": "Rejects rule by foreign powers over a people (Grokipedia)."
+  }
+ },
+ {
+  "id": "postcolonialism",
+  "name": "Postcolonial theory (Said's Orientalism)",
+  "root": false,
+  "root_axis": null,
+  "year": 1978,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Postcolonialism",
+  "origin_note": "Grokipedia: Edward Said's Orientalism (1978) formalized the critique, after Fanon's The Wretched of the Earth (1961); Spivak and Bhabha followed.",
+  "place": "United States",
+  "lat": null,
+  "lon": null,
+  "thinkers": [
+   "Edward Said",
+   "Frantz Fanon",
+   "Gayatri Chakravorty Spivak",
+   "Homi K. Bhabha"
+  ],
+  "parents": [
+   "post_structuralism"
+  ],
+  "plain": "The study of how colonial rule keeps shaping former colonies after independence, especially through the way the West wrote about and pictured other peoples.",
+  "summary": "Said's Orientalism (1978) argued Western scholarship built the 'Orient' as static and inferior to serve empire; Spivak and Bhabha extended the critique.",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Postcolonialism",
+   "https://grokipedia.com/page/Orientalism_(book)",
+   "https://grokipedia.com/page/Edward_Said"
+  ],
+  "domain": [
+   "philosophy",
+   "culture"
+  ],
+  "aliases": [
+   "Postcolonialism",
+   "Postcolonial studies",
+   "Orientalism (Said)"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Western universities (literature, history, anthropology)",
+     "src": "https://grokipedia.com/page/Postcolonialism",
+     "note": "Spread from literary studies into history, anthropology and international relations (Grokipedia)."
+    }
+   ]
+  },
+  "edge_notes": {
+   "post_structuralism": {
+    "status": "documented",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Postcolonialism",
+    "note": "Grokipedia: Said borrowed Foucault's fusion of knowledge and power from post-structuralist theory."
+   }
+  },
+  "parent_note": "Sourced parent is post-structuralism. Fanon's Marxist anticolonialism, oriental_despotism and civilizing_mission as targets are held for review.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 0,
+   "marxism": 1,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 3,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 3,
+   "hierarchy": -3
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "No clear debt to, or quarrel with, Christianity.",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "No clear debt to, or quarrel with, Enlightenment liberalism.",
+   "marxism": "Shifted the anticolonial left's focus from the economic base to culture (Grokipedia).",
+   "darwinism": "No clear debt to, or quarrel with, Darwinism.",
+   "nietzsche": "No clear debt to, or quarrel with, Nietzsche.",
+   "critical_theory": "Critique of how discourse sustains domination, in the Foucault line (Grokipedia).",
+   "confucianism": "No clear debt to, or quarrel with, Confucianism.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islam": "No clear debt to, or quarrel with, Islam.",
+   "judaism": "No clear debt to, or quarrel with, Judaism.",
+   "romanticism": "No clear debt to, or quarrel with, Romanticism.",
+   "nationalism": "No clear debt to, or quarrel with, Nationalism.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Works on discourse, representation and identity rather than events (Grokipedia).",
+   "hierarchy": "Exposes the civilized/primitive binary as a tool of domination (Grokipedia)."
+  }
  }
 ]
