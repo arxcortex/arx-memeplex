@@ -36614,5 +36614,580 @@
    "abstraction": "Puts shared ideas and identities ahead of material capabilities (Grokipedia).",
    "hierarchy": "Explains how sovereignty and rank are made without endorsing an order (Grokipedia)."
   }
+ },
+ {
+  "id": "tianxia",
+  "name": "Tianxia (All under Heaven)",
+  "root": false,
+  "root_axis": null,
+  "year": -1000,
+  "year_approx": true,
+  "origin_src": "https://grokipedia.com/page/Tianxia",
+  "origin_note": "Grokipedia: emerged in the Zhou dynasty (c.1046-256 BCE); earliest attestations in Zhou texts such as the Shijing, where it names the realm the king rules as heaven's deputy.",
+  "place": "Haojing",
+  "lat": 34.27,
+  "lon": 108.9,
+  "thinkers": [
+   "Zhao Tingyang"
+  ],
+  "parents": [
+   "mandate_of_heaven"
+  ],
+  "plain": "The old Chinese idea that the whole world is one realm under heaven, with the Chinese ruler at its center and other peoples ranked by how close they stand to his rites and virtue.",
+  "summary": "Zhou-era Chinese idea of the world as one realm under heaven, ruled from the center by the Son of Heaven; revived by Zhao Tingyang as a world-order theory.",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Tianxia",
+   "https://grokipedia.com/page/Mandate_of_Heaven",
+   "https://grokipedia.com/page/Sinocentrism"
+  ],
+  "domain": [
+   "politics",
+   "philosophy"
+  ],
+  "aliases": [
+   "All under Heaven",
+   "Tianxia system",
+   "天下"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Imperial China and its tributary states",
+     "src": "https://grokipedia.com/page/Tianxia",
+     "note": "Framed imperial relations with Korea, Vietnam and others as graded deference to the center (Grokipedia)."
+    },
+    {
+     "place": "Post-Mao Chinese scholarship",
+     "src": "https://grokipedia.com/page/Tianxia",
+     "note": "Zhao Tingyang recast it as an alternative to liberal internationalism (Grokipedia)."
+    }
+   ]
+  },
+  "edge_notes": {
+   "mandate_of_heaven": {
+    "status": "documented",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Tianxia",
+    "note": "Grokipedia: tianxia framed governance as an extension of heaven's mandate, with the ruler as Son of Heaven."
+   }
+  },
+  "parent_note": "Sourced parent is the Mandate of Heaven. A contrast with westphalian_sovereignty and a link to liberal_international_order debates are held for review.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 0,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 1,
+   "hierarchy": 3
+  },
+  "rationale": {
+   "platonism": "Comes before Platonism existed, so it cannot descend from it.",
+   "aristotelianism": "Comes before Aristotelianism existed, so it cannot descend from it.",
+   "stoicism": "Comes before Stoicism existed, so it cannot descend from it.",
+   "christianity": "Comes before Christianity existed, so it cannot descend from it.",
+   "gnosticism": "Comes before Gnosticism existed, so it cannot descend from it.",
+   "hermeticism": "Comes before Hermeticism existed, so it cannot descend from it.",
+   "enlightenment_liberalism": "Comes before Enlightenment liberalism existed, so it cannot descend from it.",
+   "marxism": "Comes before Marxism existed, so it cannot descend from it.",
+   "darwinism": "Comes before Darwinism existed, so it cannot descend from it.",
+   "nietzsche": "Comes before Nietzsche existed, so it cannot descend from it.",
+   "critical_theory": "Comes before Critical theory existed, so it cannot descend from it.",
+   "confucianism": "Comes before Confucianism existed, so it cannot descend from it.",
+   "daoism": "Comes before Daoism existed, so it cannot descend from it.",
+   "buddhism": "Comes before Buddhism existed, so it cannot descend from it.",
+   "vedanta": "Comes before Vedanta existed, so it cannot descend from it.",
+   "islam": "Comes before Islam existed, so it cannot descend from it.",
+   "judaism": "Comes before Judaism existed, so it cannot descend from it.",
+   "romanticism": "Comes before Romanticism existed, so it cannot descend from it.",
+   "nationalism": "Comes before Nationalism existed, so it cannot descend from it.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "A cosmology joining heaven, earth and rule, though tied to Zhou rites (Grokipedia).",
+   "hierarchy": "Ranks every people by distance from the Son of Heaven at the center (Grokipedia)."
+  }
+ },
+ {
+  "id": "hua_yi_distinction",
+  "name": "Hua–Yi distinction (civilized and barbarian)",
+  "root": false,
+  "root_axis": null,
+  "year": -481,
+  "year_approx": true,
+  "origin_src": "https://grokipedia.com/page/Hua–Yi_distinction",
+  "origin_note": "Grokipedia: rooted in the Spring and Autumn Annals (covering 722-481 BCE, attributed to Confucius) and elaborated by Mencius (c.372-289 BCE) and Xunzi.",
+  "place": "Qufu, Lu",
+  "lat": 35.6,
+  "lon": 116.99,
+  "thinkers": [
+   "Confucius",
+   "Mencius",
+   "Xunzi"
+  ],
+  "parents": [
+   "confucian_ethics",
+   "tianxia"
+  ],
+  "plain": "The Chinese line between the civilized (Hua) and outsiders (Yi). It turned on culture, not blood: outsiders who took up Chinese rites and government could count as civilized.",
+  "summary": "Confucian line between civilized Hua and outsider Yi, set by rites, not ethnicity; the core of Sinocentrism and of the tributary order.",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Hua–Yi_distinction",
+   "https://grokipedia.com/page/Sinocentrism",
+   "https://grokipedia.com/page/Mencius"
+  ],
+  "domain": [
+   "politics",
+   "philosophy"
+  ],
+  "aliases": [
+   "Sino-barbarian dichotomy",
+   "Huayi zhi bian",
+   "Sinocentrism (core tenet)",
+   "華夷之辨"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Non-Han dynasties such as the Northern Wei",
+     "src": "https://grokipedia.com/page/Hua–Yi_distinction",
+     "note": "Steppe-born rulers claimed Hua orthodoxy to legitimize their rule (Grokipedia)."
+    },
+    {
+     "place": "Japan, Korea and Vietnam",
+     "src": "https://grokipedia.com/page/Hua–Yi_distinction",
+     "note": "Neighbors emulated or turned the scheme to claim parity with China (Grokipedia)."
+    }
+   ]
+  },
+  "edge_notes": {
+   "confucian_ethics": {
+    "status": "documented",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Hua–Yi_distinction",
+    "note": "Grokipedia: a core tenet elaborated by Confucian scholars, turning on adoption of Confucian rites."
+   },
+   "tianxia": {
+    "status": "documented",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Sinocentrism",
+    "note": "Grokipedia (Sinocentrism): the emperor's rule extended over tianxia, with outsiders classed as yi."
+   }
+  },
+  "parent_note": "confucian_ethics and tianxia are sourced. A comparison with Greek 'barbarian' ideas is noted only, not drawn as an edge.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 0,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 4,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 0,
+   "hierarchy": 4
+  },
+  "rationale": {
+   "platonism": "Comes before Platonism existed, so it cannot descend from it.",
+   "aristotelianism": "Comes before Aristotelianism existed, so it cannot descend from it.",
+   "stoicism": "Comes before Stoicism existed, so it cannot descend from it.",
+   "christianity": "Comes before Christianity existed, so it cannot descend from it.",
+   "gnosticism": "Comes before Gnosticism existed, so it cannot descend from it.",
+   "hermeticism": "Comes before Hermeticism existed, so it cannot descend from it.",
+   "enlightenment_liberalism": "Comes before Enlightenment liberalism existed, so it cannot descend from it.",
+   "marxism": "Comes before Marxism existed, so it cannot descend from it.",
+   "darwinism": "Comes before Darwinism existed, so it cannot descend from it.",
+   "nietzsche": "Comes before Nietzsche existed, so it cannot descend from it.",
+   "critical_theory": "Comes before Critical theory existed, so it cannot descend from it.",
+   "confucianism": "Elaborated by Confucius's heirs; Hua status depends on Confucian rites (Grokipedia).",
+   "daoism": "Comes before Daoism existed, so it cannot descend from it.",
+   "buddhism": "Comes before Buddhism existed, so it cannot descend from it.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islam": "Comes before Islam existed, so it cannot descend from it.",
+   "judaism": "Comes before Judaism existed, so it cannot descend from it.",
+   "romanticism": "Comes before Romanticism existed, so it cannot descend from it.",
+   "nationalism": "Comes before Nationalism existed, so it cannot descend from it.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Moral categories, applied through concrete rites, dress and government (Grokipedia).",
+   "hierarchy": "Places the civilized center above peripheral peoples, though the line is permeable (Grokipedia)."
+  }
+ },
+ {
+  "id": "tributary_system",
+  "name": "Tributary system of China",
+  "root": false,
+  "root_axis": null,
+  "year": -206,
+  "year_approx": true,
+  "origin_src": "https://grokipedia.com/page/Tributary_system_of_China",
+  "origin_note": "Grokipedia: embryonic in the Han dynasty (206 BCE-220 CE), structured under Tang and Song, most elaborate under Ming and Qing; Fairbank coined the label in the 1940s.",
+  "place": "Han China",
+  "lat": null,
+  "lon": null,
+  "thinkers": [
+   "John King Fairbank"
+  ],
+  "parents": [
+   "hua_yi_distinction",
+   "tianxia"
+  ],
+  "plain": "How imperial China handled its neighbors: foreign rulers sent gifts and bowed to the emperor, and in return got recognition, trade and often richer gifts back.",
+  "summary": "Ritual diplomacy from the Han to the Qing: neighbors sent tribute to the emperor for investiture and trade; a label Fairbank coined that scholars now debate.",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Tributary_system_of_China",
+   "https://grokipedia.com/page/Sinocentrism",
+   "https://grokipedia.com/page/Hua–Yi_distinction",
+   "https://grokipedia.com/page/John_King_Fairbank"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "aliases": [
+   "Chinese tributary system",
+   "Tribute system",
+   "Chinese world order"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Ming and Qing East Asia",
+     "src": "https://grokipedia.com/page/Tributary_system_of_China",
+     "note": "Korea, Vietnam and Ryukyu sent regular missions; Zheng He's fleets solicited more (Grokipedia)."
+    }
+   ]
+  },
+  "edge_notes": {
+   "hua_yi_distinction": {
+    "status": "documented",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Hua–Yi_distinction",
+    "note": "Grokipedia: the Hua–Yi distinction framed the imperial worldview, justifying the tributary system."
+   },
+   "tianxia": {
+    "status": "documented",
+    "type": "influence",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Tianxia",
+    "note": "Grokipedia: tianxia took in diverse polities in a tributary order of rites and tribute."
+   }
+  },
+  "parent_note": "Both parents are sourced. Grokipedia notes scholars dispute the label as an anachronism; a contrast with westphalian_sovereignty is held.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 0,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 3,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -2,
+   "hierarchy": 4
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "Comes before Christianity existed, so it cannot descend from it.",
+   "gnosticism": "Comes before Gnosticism existed, so it cannot descend from it.",
+   "hermeticism": "Comes before Hermeticism existed, so it cannot descend from it.",
+   "enlightenment_liberalism": "Comes before Enlightenment liberalism existed, so it cannot descend from it.",
+   "marxism": "Comes before Marxism existed, so it cannot descend from it.",
+   "darwinism": "Comes before Darwinism existed, so it cannot descend from it.",
+   "nietzsche": "Comes before Nietzsche existed, so it cannot descend from it.",
+   "critical_theory": "Comes before Critical theory existed, so it cannot descend from it.",
+   "confucianism": "Rooted in Confucian cosmology of a civilized center and its peripheries (Grokipedia).",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islam": "Comes before Islam existed, so it cannot descend from it.",
+   "judaism": "Comes before Judaism existed, so it cannot descend from it.",
+   "romanticism": "Comes before Romanticism existed, so it cannot descend from it.",
+   "nationalism": "Comes before Nationalism existed, so it cannot descend from it.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "A set of practices that bent to military and trade realities, never a codified institution (Grokipedia).",
+   "hierarchy": "Kowtow and investiture made the emperor's superiority visible in every exchange (Grokipedia)."
+  }
+ },
+ {
+  "id": "reason_of_state",
+  "name": "Reason of state (Botero)",
+  "root": false,
+  "root_axis": null,
+  "year": 1589,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/The_Reason_of_State",
+  "origin_note": "Grokipedia: Giovanni Botero's Della ragion di Stato, first published in Venice in 1589, defined reason of state and popularized the term.",
+  "place": "Venice",
+  "lat": 45.44,
+  "lon": 12.34,
+  "thinkers": [
+   "Giovanni Botero"
+  ],
+  "parents": [
+   "machiavellian_republicanism",
+   "tridentine_catholicism"
+  ],
+  "plain": "The idea that rulers need a practical craft of keeping and growing a state, with population, money and armies, but bound by Christian morals rather than Machiavelli's anything-goes.",
+  "summary": "Botero (1589): 'the knowledge of the means whereby any dominion is founded, maintained, and enlarged', framed as a Christian answer to Machiavelli.",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/The_Reason_of_State"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "aliases": [
+   "Raison d'état",
+   "Ragion di Stato",
+   "Della ragion di Stato"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Counter-Reformation Catholic courts",
+     "src": "https://grokipedia.com/page/The_Reason_of_State",
+     "note": "Written amid Botero's service at the Savoy court and widely translated (Grokipedia)."
+    }
+   ]
+  },
+  "edge_notes": {
+   "machiavellian_republicanism": {
+    "status": "documented",
+    "type": "reaction",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/The_Reason_of_State",
+    "note": "Grokipedia: dedicated to countering Machiavelli's amoral prescriptions, which Botero blamed for corruption."
+   },
+   "tridentine_catholicism": {
+    "status": "documented",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/The_Reason_of_State",
+    "note": "Grokipedia: composed amid the Counter-Reformation as a Catholic alternative realism."
+   }
+  },
+  "parent_note": "Both parents are sourced. Later lines into westphalian_sovereignty, balance_of_power and political_realism are held for review.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 2,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 0,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -1,
+   "hierarchy": 2
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "Subordinates state expediency to Christian ethics and divine favor (Grokipedia).",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "Comes before Enlightenment liberalism existed, so it cannot descend from it.",
+   "marxism": "Comes before Marxism existed, so it cannot descend from it.",
+   "darwinism": "Comes before Darwinism existed, so it cannot descend from it.",
+   "nietzsche": "Comes before Nietzsche existed, so it cannot descend from it.",
+   "critical_theory": "Comes before Critical theory existed, so it cannot descend from it.",
+   "confucianism": "No clear debt to, or quarrel with, Confucianism.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islam": "No clear debt to, or quarrel with, Islam.",
+   "judaism": "No clear debt to, or quarrel with, Judaism.",
+   "romanticism": "Comes before Romanticism existed, so it cannot descend from it.",
+   "nationalism": "Comes before Nationalism existed, so it cannot descend from it.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Practical counsel drawn from Roman and contemporary history, not first principles (Grokipedia).",
+   "hierarchy": "Advice for princes on keeping and enlarging monarchical rule (Grokipedia)."
+  }
+ },
+ {
+  "id": "realpolitik",
+  "name": "Realpolitik",
+  "root": false,
+  "root_axis": null,
+  "year": 1853,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Realpolitik",
+  "origin_note": "Grokipedia: coined by August Ludwig von Rochau in Grundsätze der Realpolitik (1853); later tied to Bismarck's unification of Germany.",
+  "place": "German Confederation",
+  "lat": null,
+  "lon": null,
+  "thinkers": [
+   "August Ludwig von Rochau",
+   "Otto von Bismarck",
+   "Henry Kissinger"
+  ],
+  "parents": [
+   "balance_of_power"
+  ],
+  "plain": "Politics based on how power actually stands rather than on ideals: make the deals, alliances and wars that serve the state's interests, whatever the principles.",
+  "summary": "Rochau's 1853 term for politics fitted to real power; made famous by Bismarck's unification of Germany and later Kissinger's détente.",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Realpolitik",
+   "https://grokipedia.com/page/Otto_von_Bismarck",
+   "https://grokipedia.com/page/Henry_Kissinger"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "aliases": [
+   "Power politics",
+   "Grundsätze der Realpolitik"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Bismarck's Germany (1860s-1890)",
+     "src": "https://grokipedia.com/page/Realpolitik",
+     "note": "Unified Germany through calculated wars and shifting alliances (Grokipedia)."
+    },
+    {
+     "place": "Nixon-Kissinger US foreign policy",
+     "src": "https://grokipedia.com/page/Realpolitik",
+     "note": "Détente with the Soviet Union and the opening to China (Grokipedia)."
+    }
+   ]
+  },
+  "edge_notes": {
+   "balance_of_power": {
+    "status": "documented",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Realpolitik",
+    "note": "Grokipedia: Bismarck's Realpolitik put balance-of-power equilibria ahead of liberal ideals."
+   }
+  },
+  "parent_note": "Sourced parent is balance_of_power. Realpolitik into political_realism and reason_of_state into Realpolitik are held for review.",
+  "basis": {
+   "enlightenment_liberalism": "stance"
+  },
+  "stance_raw": {
+   "enlightenment_liberalism": -2
+  },
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": -1,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -3,
+   "hierarchy": 1
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "No clear debt to, or quarrel with, Christianity.",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "Stance: puts power before liberal ideals, though Rochau meant it as a tactic for liberals (Grokipedia).",
+   "marxism": "No clear debt to, or quarrel with, Marxism.",
+   "darwinism": "Comes before Darwinism existed, so it cannot descend from it.",
+   "nietzsche": "Comes before Nietzsche existed, so it cannot descend from it.",
+   "critical_theory": "Comes before Critical theory existed, so it cannot descend from it.",
+   "confucianism": "No clear debt to, or quarrel with, Confucianism.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islam": "No clear debt to, or quarrel with, Islam.",
+   "judaism": "No clear debt to, or quarrel with, Judaism.",
+   "romanticism": "No clear debt to, or quarrel with, Romanticism.",
+   "nationalism": "No clear debt to, or quarrel with, Nationalism.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Acts on observable power and interests, not abstract principles (Grokipedia).",
+   "hierarchy": "Treats power gaps among states as the facts politics must follow (Grokipedia)."
+  }
  }
 ]
