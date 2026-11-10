@@ -37993,5 +37993,531 @@
    "abstraction": "Works on discourse, representation and identity rather than events (Grokipedia).",
    "hierarchy": "Exposes the civilized/primitive binary as a tool of domination (Grokipedia)."
   }
+ },
+ {
+  "id": "freedom_of_the_seas",
+  "name": "Freedom of the seas (Mare Liberum)",
+  "root": false,
+  "root_axis": null,
+  "year": 1609,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Mare_Liberum",
+  "origin_note": "Grokipedia: Hugo Grotius's Mare Liberum was printed anonymously by the Elzevier press in Leiden in 1609, a chapter of his De Jure Praedae written to back Dutch claims against Portugal.",
+  "place": "Leiden",
+  "lat": 52.16,
+  "lon": 4.49,
+  "thinkers": [
+   "Hugo Grotius"
+  ],
+  "parents": [
+   "natural_law",
+   "jus_gentium"
+  ],
+  "plain": "The idea that the open ocean belongs to no country. Every nation may sail it and trade across it, so no king or pope can close a sea route to others.",
+  "summary": "Grotius 1609: the sea, like air, cannot be owned, so all nations may sail and trade on it; now codified for the high seas in UNCLOS (1982).",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Mare_Liberum",
+   "https://grokipedia.com/page/Freedom_of_the_seas",
+   "https://grokipedia.com/page/Hugo_Grotius"
+  ],
+  "domain": [
+   "politics",
+   "philosophy"
+  ],
+  "aliases": [
+   "Mare Liberum",
+   "The Free Sea",
+   "Freedom of navigation"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Dutch East India Company trade in Asia",
+     "src": "https://grokipedia.com/page/Mare_Liberum",
+     "note": "Written to defend Dutch trade against Portugal's claimed monopoly on Asian routes (Grokipedia)."
+    },
+    {
+     "place": "Law of the Sea (1958 Geneva, 1982 UNCLOS)",
+     "src": "https://grokipedia.com/page/Freedom_of_the_seas",
+     "note": "UNCLOS Article 87 lists the freedoms of the high seas (Grokipedia)."
+    }
+   ]
+  },
+  "edge_notes": {
+   "natural_law": {
+    "status": "documented",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Mare_Liberum",
+    "note": "Grokipedia: Grotius's core arguments rest on natural law; seas, like air, cannot be subjected to dominion."
+   },
+   "jus_gentium": {
+    "status": "documented",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Mare_Liberum",
+    "note": "Grokipedia: Chapter I, 'By the Law of Nations Navigation Is Free'; a right derived from the law of nations."
+   }
+  },
+  "parent_note": "Both parents are sourced. A line from this idea into grotian_international_law (Grotius's later 1625 work) is held for review.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 1,
+   "christianity": 1,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 0,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 1,
+   "hierarchy": -1
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "Grotius took Stoic natural law and cosmopolitanism from Cicero and Seneca, whom it cites (Grokipedia).",
+   "christianity": "Cites biblical passages, while denying that the 1493 papal bull could grant the seas (Grokipedia).",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "Comes before Enlightenment liberalism existed, so it cannot descend from it.",
+   "marxism": "Comes before Marxism existed, so it cannot descend from it.",
+   "darwinism": "Comes before Darwinism existed, so it cannot descend from it.",
+   "nietzsche": "Comes before Nietzsche existed, so it cannot descend from it.",
+   "critical_theory": "Comes before Critical theory existed, so it cannot descend from it.",
+   "confucianism": "No clear debt to, or quarrel with, Confucianism.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islam": "No clear debt to, or quarrel with, Islam.",
+   "judaism": "No clear debt to, or quarrel with, Judaism.",
+   "romanticism": "Comes before Romanticism existed, so it cannot descend from it.",
+   "nationalism": "Comes before Nationalism existed, so it cannot descend from it.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Argues from natural law and reason, applied to real trade routes and ships (Grokipedia).",
+   "hierarchy": "Denies any one power, pope or crown, the right to own the ocean (Grokipedia)."
+  }
+ },
+ {
+  "id": "mare_clausum",
+  "name": "Closed sea (Mare Clausum)",
+  "root": false,
+  "root_axis": null,
+  "year": 1635,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Mare_clausum",
+  "origin_note": "Grokipedia: John Selden's Mare Clausum, composed around 1618, was published in London in 1635 with Charles I's approval, as the main English answer to Grotius.",
+  "place": "London",
+  "lat": 51.51,
+  "lon": -0.13,
+  "thinkers": [
+   "John Selden"
+  ],
+  "parents": [
+   "freedom_of_the_seas"
+  ],
+  "plain": "The opposite claim: a country can own the sea next to its coasts like land, and keep others from fishing or sailing there without leave.",
+  "summary": "Selden 1635: seas next to a land can be possessed like territory; it backed English claims in the North Sea and survives in today's territorial waters.",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Mare_clausum",
+   "https://grokipedia.com/page/John_Selden",
+   "https://grokipedia.com/page/Mare_Liberum"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "aliases": [
+   "Mare Clausum",
+   "The Closed Sea",
+   "Dominion of the sea"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Anglo-Dutch fishery disputes (17th century)",
+     "src": "https://grokipedia.com/page/Mare_clausum",
+     "note": "Backed English sovereignty claims over the North Sea fisheries (Grokipedia)."
+    },
+    {
+     "place": "Territorial seas in modern law",
+     "src": "https://grokipedia.com/page/Mare_clausum",
+     "note": "Narrow coastal belts are now recognized as territorial seas under UNCLOS (Grokipedia)."
+    }
+   ]
+  },
+  "edge_notes": {
+   "freedom_of_the_seas": {
+    "status": "documented",
+    "type": "reaction",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Mare_clausum",
+    "note": "Grokipedia: Selden's treatise systematically countered Grotius's 1609 Mare Liberum."
+   }
+  },
+  "parent_note": "One sourced reaction edge. Iberian papal-bull claims (Inter caetera, 1493) came earlier but are not a node here.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 1,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 0,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -1,
+   "hierarchy": 2
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "Argues partly from biblical exegesis, alongside Roman law and precedent (Grokipedia).",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "Comes before Enlightenment liberalism existed, so it cannot descend from it.",
+   "marxism": "Comes before Marxism existed, so it cannot descend from it.",
+   "darwinism": "Comes before Darwinism existed, so it cannot descend from it.",
+   "nietzsche": "Comes before Nietzsche existed, so it cannot descend from it.",
+   "critical_theory": "Comes before Critical theory existed, so it cannot descend from it.",
+   "confucianism": "No clear debt to, or quarrel with, Confucianism.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islam": "No clear debt to, or quarrel with, Islam.",
+   "judaism": "No clear debt to, or quarrel with, Judaism.",
+   "romanticism": "Comes before Romanticism existed, so it cannot descend from it.",
+   "nationalism": "Comes before Nationalism existed, so it cannot descend from it.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Rests on possession, use and history: 'the land dominates the sea' (Grokipedia).",
+   "hierarchy": "Puts nearby seas under one sovereign's dominion and the king's claims (Grokipedia)."
+  }
+ },
+ {
+  "id": "thucydides_trap",
+  "name": "Thucydides Trap",
+  "root": false,
+  "root_axis": null,
+  "year": 2015,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Thucydides_Trap",
+  "origin_note": "Grokipedia: Graham Allison coined the term in an article in The Atlantic on September 24, 2015, from his Belfer Center project; it draws on Thucydides' account of Athens and Sparta.",
+  "place": "Cambridge, Massachusetts",
+  "lat": 42.37,
+  "lon": -71.11,
+  "thinkers": [
+   "Graham Allison",
+   "Thucydides"
+  ],
+  "parents": [],
+  "plain": "The warning that when a rising power threatens to replace a ruling one, the newcomer's growth and the old power's fear tend to push them toward war, as with Athens and Sparta.",
+  "summary": "Allison 2015: in 12 of 16 cases since 1500 where a rising power challenged a ruling one, war followed; he applies it to the US and China.",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Thucydides_Trap",
+   "https://grokipedia.com/page/Graham_Allison",
+   "https://grokipedia.com/page/Thucydides"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "aliases": [
+   "Thucydides's Trap",
+   "Thucydidean trap"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "US-China policy debate (2010s-2020s)",
+     "src": "https://grokipedia.com/page/Thucydides_Trap",
+     "note": "Frames the US as the ruling power and China as the rising challenger (Grokipedia)."
+    }
+   ]
+  },
+  "edge_notes": {},
+  "parent_note": "Parentless for now. A line from political_realism (which Grokipedia traces to Thucydides) is held for review; the Trap page itself does not call it realist.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 0,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -2,
+   "hierarchy": 0
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "No clear debt to, or quarrel with, Christianity.",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "No clear debt to, or quarrel with, Enlightenment liberalism.",
+   "marxism": "No clear debt to, or quarrel with, Marxism.",
+   "darwinism": "No clear debt to, or quarrel with, Darwinism.",
+   "nietzsche": "No clear debt to, or quarrel with, Nietzsche.",
+   "critical_theory": "No clear debt to, or quarrel with, Critical theory.",
+   "confucianism": "No clear debt to, or quarrel with, Confucianism.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islam": "No clear debt to, or quarrel with, Islam.",
+   "judaism": "No clear debt to, or quarrel with, Judaism.",
+   "romanticism": "No clear debt to, or quarrel with, Romanticism.",
+   "nationalism": "No clear debt to, or quarrel with, Nationalism.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Measures power in GDP, military spending and battle deaths (Grokipedia).",
+   "hierarchy": "About rank shifting between great powers, not about order inside a society."
+  }
+ },
+ {
+  "id": "sulh_i_kul",
+  "name": "Sulh-i kul (Akbar's universal peace)",
+  "root": false,
+  "root_axis": null,
+  "year": 1579,
+  "year_approx": true,
+  "origin_src": "https://grokipedia.com/page/Akbar",
+  "origin_note": "Grokipedia: Akbar abolished the jizya in 1564, held interfaith debates at the Ibadat Khana in Fatehpur Sikri from 1575 and issued the mahzar in 1579, which formalized the policy.",
+  "place": "Fatehpur Sikri",
+  "lat": 27.09,
+  "lon": 77.66,
+  "thinkers": [
+   "Akbar",
+   "Abul Fazl"
+  ],
+  "parents": [
+   "sufism"
+  ],
+  "plain": "The Mughal emperor Akbar's policy of peace among all the faiths of his empire: no special tax on non-Muslims, open debate between religions, and the emperor standing above their quarrels.",
+  "summary": "Akbar's 'universal peace': no jizya on non-Muslims, debates among faiths, and the emperor as judge above sects; it was the working creed of his Din-i Ilahi court circle.",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Akbar",
+   "https://grokipedia.com/page/Din-i_Ilahi",
+   "https://grokipedia.com/page/Ibadat_Khana",
+   "https://grokipedia.com/page/Abul_Fazl"
+  ],
+  "domain": [
+   "religion",
+   "politics"
+  ],
+  "aliases": [
+   "Sulh-i-kul",
+   "Sulh-e-kul",
+   "Universal peace (Mughal)"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Mughal court under Akbar (1556-1605)",
+     "src": "https://grokipedia.com/page/Akbar",
+     "note": "Hindu nobles such as Raja Man Singh rose to high ranks in the mansabdari system (Grokipedia)."
+    }
+   ]
+  },
+  "edge_notes": {
+   "sufism": {
+    "status": "documented",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Din-i_Ilahi",
+    "note": "Grokipedia: Akbar drew influences from Sufi mystics emphasizing esoteric unity."
+   }
+  },
+  "parent_note": "Sufism is sourced. A direct islam parent and a Din-i Ilahi node are not added; whether the policy grew from or broke with Islam is held for review.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 1,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 0,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islam": 1,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 1,
+   "hierarchy": 3
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "Jesuit missionaries joined Akbar's debates from 1580 (Grokipedia, Din-i Ilahi).",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "Comes before Enlightenment liberalism existed, so it cannot descend from it.",
+   "marxism": "Comes before Marxism existed, so it cannot descend from it.",
+   "darwinism": "Comes before Darwinism existed, so it cannot descend from it.",
+   "nietzsche": "Comes before Nietzsche existed, so it cannot descend from it.",
+   "critical_theory": "Comes before Critical theory existed, so it cannot descend from it.",
+   "confucianism": "No clear debt to, or quarrel with, Confucianism.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islam": "Grew at a Muslim court from Sufi ideas, but curbed the ulema and drew orthodox attack (Grokipedia).",
+   "judaism": "No clear debt to, or quarrel with, Judaism.",
+   "romanticism": "Comes before Romanticism existed, so it cannot descend from it.",
+   "nationalism": "Comes before Nationalism existed, so it cannot descend from it.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "A practical policy of coexistence, framed by a mystic view of divine unity (Grokipedia).",
+   "hierarchy": "Made the emperor the supreme mediator above all sects (Grokipedia, Din-i Ilahi)."
+  }
+ },
+ {
+  "id": "principate",
+  "name": "Principate (rule by the first citizen)",
+  "root": false,
+  "root_axis": null,
+  "year": -27,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Principate",
+  "origin_note": "Grokipedia: Augustus formalized the arrangement in 27 BC, after Actium (31 BC), keeping the Senate and magistrates while holding imperium and, from 23 BC, tribunician power for life.",
+  "place": "Rome",
+  "lat": 41.89,
+  "lon": 12.49,
+  "thinkers": [
+   "Augustus"
+  ],
+  "parents": [],
+  "plain": "Rome's first form of empire. One man, the princeps or first citizen, held the real power, while the Senate and the old republican offices carried on in name.",
+  "summary": "Augustus 27 BC: one ruler holding republican powers without a king's title; it lasted to AD 284, and Tacitus described it as eroding Roman liberty.",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Principate",
+   "https://grokipedia.com/page/Augustus",
+   "https://grokipedia.com/page/Tacitus"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "aliases": [
+   "Princeps",
+   "Augustan settlement"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Roman Empire (27 BC-AD 284)",
+     "src": "https://grokipedia.com/page/Principate",
+     "note": "Ran through the Pax Romana until Diocletian's shift to the Dominate (Grokipedia)."
+    }
+   ]
+  },
+  "edge_notes": {},
+  "parent_note": "Parentless: the Roman Republic it replaced is not a node. Later echoes in classical_republicanism (via Tacitus) are held for review.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 0,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -2,
+   "hierarchy": 4
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "Comes before Christianity existed, so it cannot descend from it.",
+   "gnosticism": "Comes before Gnosticism existed, so it cannot descend from it.",
+   "hermeticism": "Comes before Hermeticism existed, so it cannot descend from it.",
+   "enlightenment_liberalism": "Comes before Enlightenment liberalism existed, so it cannot descend from it.",
+   "marxism": "Comes before Marxism existed, so it cannot descend from it.",
+   "darwinism": "Comes before Darwinism existed, so it cannot descend from it.",
+   "nietzsche": "Comes before Nietzsche existed, so it cannot descend from it.",
+   "critical_theory": "Comes before Critical theory existed, so it cannot descend from it.",
+   "confucianism": "No clear debt to, or quarrel with, Confucianism.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islam": "Comes before Islam existed, so it cannot descend from it.",
+   "judaism": "Comes before Judaism existed, so it cannot descend from it.",
+   "romanticism": "Comes before Romanticism existed, so it cannot descend from it.",
+   "nationalism": "Comes before Nationalism existed, so it cannot descend from it.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "A concrete bundle of legal powers, legions and patronage (Grokipedia).",
+   "hierarchy": "One princeps held supreme authority behind republican forms (Grokipedia)."
+  }
  }
 ]
