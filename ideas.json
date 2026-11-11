@@ -22733,7 +22733,8 @@
   ],
   "parents": [
    "renaissance_humanism",
-   "aristotelian_teleology"
+   "aristotelian_teleology",
+   "mixed_government"
   ],
   "plain": "The Florentine humanists' belief that studying the classics should train citizens to take an active part in running a free republic.",
   "summary": "Humanism turned to republican service in Florence, c. 1403: Salutati and Bruni praised the active civic life, mixed government and liberty against Milanese princely rule.",
@@ -22826,6 +22827,13 @@
     "type": "documented reading",
     "src": "https://grokipedia.com/page/Leonardo_Bruni",
     "note": "Bruni translated Aristotle's Nicomachean Ethics and Politics into Latin and drew on Polybius, Cicero and Aristotle for Florence's mixed constitution."
+   },
+   "mixed_government": {
+    "status": "documented",
+    "type": "documented reading",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Leonardo_Bruni",
+    "note": "In his Laudatio Florentinae urbis (1403–1404), Bruni praised Florence's constitution as a balanced governo misto, drawing on Polybius and Cicero (Grokipedia)."
    }
   },
   "parent_note": "Hans Baron coined the 'civic humanism' thesis in the 20th century; he is its historian, not a parent. The term is a scholars' label, and Grokipedia's Bruni page notes debate over Baron's interpretation."
@@ -38990,7 +38998,7 @@
     "note": "Grokipedia: Aristotle advocated mixed polities before Polybius applied the idea to Rome."
    }
   },
-  "parent_note": "One sourced parent. A line from this idea into machiavellian_republicanism and classical_republicanism (Grokipedia names both) is held for review.",
+  "parent_note": "One sourced parent. Its line into Renaissance Florence runs through florentine_civic_humanism (Bruni's governo misto). Direct lines into machiavellian_republicanism and classical_republicanism are held for review.",
   "ratings": {
    "platonism": -1,
    "aristotelianism": 3,
