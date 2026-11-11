@@ -38519,5 +38519,527 @@
    "abstraction": "A concrete bundle of legal powers, legions and patronage (Grokipedia).",
    "hierarchy": "One princeps held supreme authority behind republican forms (Grokipedia)."
   }
+ },
+ {
+  "id": "stalinism",
+  "name": "Stalinism (socialism in one country)",
+  "root": false,
+  "root_axis": null,
+  "year": 1924,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Socialism_in_one_country",
+  "origin_note": "Grokipedia: Stalin set out socialism in one country in December 1924, in 'The October Revolution and the Tactics of the Russian Communists', the same year as his Foundations of Leninism.",
+  "place": "Soviet Union",
+  "lat": null,
+  "lon": null,
+  "thinkers": [
+   "Joseph Stalin"
+  ],
+  "parents": [
+   "leninism"
+  ],
+  "plain": "Stalin's version of Soviet communism. It held that socialism could be fully built inside the USSR alone, through one-party rule, state-run planning, forced collectivization and terror.",
+  "summary": "Stalin from 1924: socialism in one country, Five-Year Plans from 1928, collective farms, a leader cult and purges, presented as orthodox Marxism-Leninism.",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Stalinism",
+   "https://grokipedia.com/page/Socialism_in_one_country",
+   "https://grokipedia.com/page/Joseph_Stalin"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "aliases": [
+   "Socialism in one country",
+   "Stalinist communism"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Soviet Union (1924-1953)",
+     "src": "https://grokipedia.com/page/Stalinism",
+     "note": "Command economy through Five-Year Plans from 1928, collectivization and the purges (Grokipedia)."
+    }
+   ]
+  },
+  "edge_notes": {
+   "leninism": {
+    "status": "documented",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Stalinism",
+    "note": "Grokipedia: Stalinism presented itself as the orthodox continuation of Marxism-Leninism, as Stalin set it out in 1924."
+   }
+  },
+  "parent_note": "One sourced parent. A reaction line from trotskyism (permanent revolution vs socialism in one country) and links to maoism are held for review.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": -4,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": -4,
+   "marxism": 5,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -1,
+   "hierarchy": 5
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "Promoted militant atheism as part of official doctrine (Grokipedia).",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "One-party dictatorship with mass purges and no free press or opposition (Grokipedia).",
+   "marxism": "Claimed to be orthodox Marxism-Leninism, built on Marx's class struggle and dialectical materialism (Grokipedia).",
+   "darwinism": "No clear debt to, or quarrel with, Darwinism.",
+   "nietzsche": "No clear debt to, or quarrel with, Nietzsche.",
+   "critical_theory": "No clear debt to, or quarrel with, Critical theory.",
+   "confucianism": "No clear debt to, or quarrel with, Confucianism.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islam": "No clear debt to, or quarrel with, Islam.",
+   "judaism": "No clear debt to, or quarrel with, Judaism.",
+   "romanticism": "No clear debt to, or quarrel with, Romanticism.",
+   "nationalism": "No clear debt to, or quarrel with, Nationalism.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Judged by plan targets, steel output and grain quotas more than by theory.",
+   "hierarchy": "Centralized all power in the party and a leader cult around Stalin (Grokipedia)."
+  }
+ },
+ {
+  "id": "neo_republicanism",
+  "name": "Neo-republicanism (freedom as non-domination)",
+  "root": false,
+  "root_axis": null,
+  "year": 1997,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Philip_Pettit",
+  "origin_note": "Grokipedia: Philip Pettit set out freedom as non-domination in Republicanism: A Theory of Freedom and Government (1997), written while he held a chair at the Australian National University (1983-2002).",
+  "place": "Canberra",
+  "lat": -35.28,
+  "lon": 149.13,
+  "thinkers": [
+   "Philip Pettit",
+   "Quentin Skinner"
+  ],
+  "parents": [
+   "classical_republicanism"
+  ],
+  "plain": "A modern revival of the old republican idea of freedom. You are not free if someone can push you around at will, even if they never actually do; good laws must remove that power.",
+  "summary": "Pettit 1997, with Skinner's history of 'neo-Roman' liberty: freedom means not living under anyone's arbitrary power, not just being left alone.",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Philip_Pettit",
+   "https://grokipedia.com/page/Republicanism",
+   "https://grokipedia.com/page/Quentin_Skinner"
+  ],
+  "domain": [
+   "politics",
+   "philosophy"
+  ],
+  "aliases": [
+   "Freedom as non-domination",
+   "Neo-Roman liberty",
+   "Civic republicanism (modern)"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Political theory since the 1990s",
+     "src": "https://grokipedia.com/page/Republicanism",
+     "note": "Pettit and Skinner set non-domination against liberal non-interference (Grokipedia)."
+    }
+   ]
+  },
+  "edge_notes": {
+   "classical_republicanism": {
+    "status": "documented",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Republicanism",
+    "note": "Grokipedia: Skinner traced 'neo-Roman' liberty in early modern republican texts; Pettit built his theory on it."
+   }
+  },
+  "parent_note": "One sourced parent. A line back to Roman libertas and a contrast edge with enlightenment_liberalism (non-interference) are held for review.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": -1,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 1,
+   "hierarchy": -3
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "No clear debt to, or quarrel with, Christianity.",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "Sets non-domination against the liberal idea of freedom as non-interference (Grokipedia).",
+   "marxism": "No clear debt to, or quarrel with, Marxism.",
+   "darwinism": "No clear debt to, or quarrel with, Darwinism.",
+   "nietzsche": "No clear debt to, or quarrel with, Nietzsche.",
+   "critical_theory": "No clear debt to, or quarrel with, Critical theory.",
+   "confucianism": "No clear debt to, or quarrel with, Confucianism.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islam": "No clear debt to, or quarrel with, Islam.",
+   "judaism": "No clear debt to, or quarrel with, Judaism.",
+   "romanticism": "No clear debt to, or quarrel with, Romanticism.",
+   "nationalism": "No clear debt to, or quarrel with, Nationalism.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "A normative theory, applied to institutions like courts and contestation.",
+   "hierarchy": "Calls for checks so no person or group holds arbitrary power over others (Grokipedia)."
+  }
+ },
+ {
+  "id": "incorporation_doctrine",
+  "name": "Incorporation of the Bill of Rights",
+  "root": false,
+  "root_axis": null,
+  "year": 1925,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Incorporation_of_the_Bill_of_Rights",
+  "origin_note": "Grokipedia: Barron v. Baltimore (1833) held the Bill of Rights bound only the federal government; selective incorporation through the 14th Amendment began with free speech in Gitlow v. New York (1925).",
+  "place": "Washington, D.C.",
+  "lat": 38.89,
+  "lon": -77.01,
+  "thinkers": [
+   "Edward Terry Sanford"
+  ],
+  "parents": [],
+  "plain": "The US legal doctrine that most rights in the Bill of Rights, such as free speech, also protect people from their state governments, not just from Washington, through the 14th Amendment.",
+  "summary": "US Supreme Court from 1925: rights deemed fundamental apply to the states through the 14th Amendment's Due Process Clause, case by case.",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Incorporation_of_the_Bill_of_Rights",
+   "https://grokipedia.com/page/Gitlow_v._New_York",
+   "https://grokipedia.com/page/Barron_v._Baltimore"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "aliases": [
+   "Selective incorporation",
+   "Incorporation doctrine"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Warren Court (1953-1969)",
+     "src": "https://grokipedia.com/page/Incorporation_of_the_Bill_of_Rights",
+     "note": "Extended incorporation to searches, self-incrimination and cruel punishment (Grokipedia)."
+    }
+   ]
+  },
+  "edge_notes": {},
+  "parent_note": "Parentless for now. Possible lines from judicial_review and radical_republicans (14th Amendment, 1868) and a contrast with originalism are held for review.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 4,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 0,
+   "hierarchy": -1
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "No clear debt to, or quarrel with, Christianity.",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "Extends written guarantees of individual liberty against state power (Grokipedia).",
+   "marxism": "No clear debt to, or quarrel with, Marxism.",
+   "darwinism": "No clear debt to, or quarrel with, Darwinism.",
+   "nietzsche": "No clear debt to, or quarrel with, Nietzsche.",
+   "critical_theory": "No clear debt to, or quarrel with, Critical theory.",
+   "confucianism": "No clear debt to, or quarrel with, Confucianism.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islam": "No clear debt to, or quarrel with, Islam.",
+   "judaism": "No clear debt to, or quarrel with, Judaism.",
+   "romanticism": "No clear debt to, or quarrel with, Romanticism.",
+   "nationalism": "No clear debt to, or quarrel with, Nationalism.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Works case by case through court rulings on concrete disputes.",
+   "hierarchy": "Constrains state authority over individual liberties, though by federal courts (Grokipedia)."
+  }
+ },
+ {
+  "id": "economic_calculation_problem",
+  "name": "Economic calculation problem",
+  "root": false,
+  "root_axis": null,
+  "year": 1920,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Economic_calculation_problem",
+  "origin_note": "Grokipedia: Ludwig von Mises set it out in his 1920 article 'Die Wirtschaftsrechnung im sozialistischen Gemeinwesen' in the Archiv fur Sozialwissenschaft; he worked at the Vienna Chamber of Commerce.",
+  "place": "Vienna",
+  "lat": 48.21,
+  "lon": 16.37,
+  "thinkers": [
+   "Ludwig von Mises",
+   "Friedrich Hayek"
+  ],
+  "parents": [
+   "marxism"
+  ],
+  "plain": "The argument that a fully planned socialist economy cannot work out what things are worth. Without market prices for factories, land and tools, planners have no way to tell waste from good use.",
+  "summary": "Mises 1920, extended by Hayek: without private property and market prices for capital goods, central planners cannot rationally allocate resources.",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Economic_calculation_problem",
+   "https://grokipedia.com/page/Ludwig_von_Mises",
+   "https://grokipedia.com/page/Friedrich_Hayek"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "aliases": [
+   "Socialist calculation debate",
+   "Calculation problem"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Debates over Soviet Gosplan planning",
+     "src": "https://grokipedia.com/page/Economic_calculation_problem",
+     "note": "Cited to explain chronic shortages under Soviet planning, 1920s-1980s (Grokipedia)."
+    }
+   ]
+  },
+  "edge_notes": {
+   "marxism": {
+    "status": "documented",
+    "type": "reaction",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Economic_calculation_problem",
+    "note": "Grokipedia: Mises wrote against post-1917 enthusiasm for socialism, arguing it cannot price capital goods."
+   }
+  },
+  "parent_note": "One sourced reaction edge. A line into neoliberalism (Hayek) and a contrast with Lange's market socialism are held for review.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 3,
+   "marxism": -4,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 1,
+   "hierarchy": -2
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "No clear debt to, or quarrel with, Christianity.",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "Mises wrote as a classical liberal defending private property and markets (Grokipedia).",
+   "marxism": "Argues that abolishing private ownership of the means of production makes rational planning impossible (Grokipedia).",
+   "darwinism": "No clear debt to, or quarrel with, Darwinism.",
+   "nietzsche": "No clear debt to, or quarrel with, Nietzsche.",
+   "critical_theory": "Comes before Critical theory existed, so it cannot descend from it.",
+   "confucianism": "No clear debt to, or quarrel with, Confucianism.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islam": "No clear debt to, or quarrel with, Islam.",
+   "judaism": "No clear debt to, or quarrel with, Judaism.",
+   "romanticism": "No clear debt to, or quarrel with, Romanticism.",
+   "nationalism": "No clear debt to, or quarrel with, Nationalism.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "A theoretical argument about prices, tested against the record of planned economies.",
+   "hierarchy": "Rejects central planners directing the whole economy from above."
+  }
+ },
+ {
+  "id": "mixed_government",
+  "name": "Mixed government (mixed constitution)",
+  "root": false,
+  "root_axis": null,
+  "year": -150,
+  "year_approx": true,
+  "origin_src": "https://grokipedia.com/page/Mixed_government",
+  "origin_note": "Grokipedia: Polybius, Histories Book VI (c. 150 BCE), credited Rome's endurance to consuls, Senate and assemblies checking one another; Aristotle had earlier favored mixed polities.",
+  "place": "Rome",
+  "lat": 41.89,
+  "lon": 12.49,
+  "thinkers": [
+   "Polybius",
+   "Aristotle",
+   "Cicero"
+  ],
+  "parents": [
+   "aristotelian_teleology"
+  ],
+  "plain": "The idea that the most stable state blends rule by one, by a few and by the many, so each part checks the others and the state avoids sliding into tyranny or mob rule.",
+  "summary": "Polybius c. 150 BCE: Rome mixed monarchy, aristocracy and democracy to break the cycle of decay; later taken up by Cicero, Machiavelli and Montesquieu.",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Mixed_government",
+   "https://grokipedia.com/page/Polybius",
+   "https://grokipedia.com/page/Aristotle"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "aliases": [
+   "Mixed constitution",
+   "Anacyclosis",
+   "Checks and balances (classical)"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Roman Republic",
+     "src": "https://grokipedia.com/page/Mixed_government",
+     "note": "Polybius's model: consuls, Senate and popular assemblies (Grokipedia)."
+    },
+    {
+     "place": "English constitution (King, Lords, Commons)",
+     "src": "https://grokipedia.com/page/Mixed_government",
+     "note": "Later read as a mix of monarchy, nobility and the people (Grokipedia)."
+    }
+   ]
+  },
+  "edge_notes": {
+   "aristotelian_teleology": {
+    "status": "documented",
+    "type": "descent",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Mixed_government",
+    "note": "Grokipedia: Aristotle advocated mixed polities before Polybius applied the idea to Rome."
+   }
+  },
+  "parent_note": "One sourced parent. A line from this idea into machiavellian_republicanism and classical_republicanism (Grokipedia names both) is held for review.",
+  "ratings": {
+   "platonism": -1,
+   "aristotelianism": 3,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 0,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 0,
+   "hierarchy": 1
+  },
+  "rationale": {
+   "platonism": "Set apart from Plato's ideal of unified rule by philosophers in the Republic (Grokipedia).",
+   "aristotelianism": "Aristotle favored mixtures as practical polities for divided cities (Grokipedia).",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "Comes before Christianity existed, so it cannot descend from it.",
+   "gnosticism": "Comes before Gnosticism existed, so it cannot descend from it.",
+   "hermeticism": "Comes before Hermeticism existed, so it cannot descend from it.",
+   "enlightenment_liberalism": "Comes before Enlightenment liberalism existed, so it cannot descend from it.",
+   "marxism": "Comes before Marxism existed, so it cannot descend from it.",
+   "darwinism": "Comes before Darwinism existed, so it cannot descend from it.",
+   "nietzsche": "Comes before Nietzsche existed, so it cannot descend from it.",
+   "critical_theory": "Comes before Critical theory existed, so it cannot descend from it.",
+   "confucianism": "No clear debt to, or quarrel with, Confucianism.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islam": "Comes before Islam existed, so it cannot descend from it.",
+   "judaism": "Comes before Judaism existed, so it cannot descend from it.",
+   "romanticism": "Comes before Romanticism existed, so it cannot descend from it.",
+   "nationalism": "Comes before Nationalism existed, so it cannot descend from it.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "A theory of constitutions drawn from observing Rome and Greek cities.",
+   "hierarchy": "Keeps one, few and many in their places while making them check each other."
+  }
  }
 ]
