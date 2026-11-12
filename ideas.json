@@ -22469,7 +22469,8 @@
    "John Mearsheimer"
   ],
   "parents": [
-   "social_contract"
+   "social_contract",
+   "balance_of_power"
   ],
   "plain": "A theory of world politics that says states look out for themselves in a world with no ruler above them. Survival needs power, alliances and a balance of power, more than ideals or international law.",
   "summary": "Carr and Morgenthau against interwar idealism: states seek power and security in anarchy; later Waltz's neorealism and Mearsheimer's offensive realism.",
@@ -22569,6 +22570,13 @@
     "strength": "moderate",
     "src": "https://grokipedia.com/page/Realism_(international_relations)",
     "note": "Hobbes's 'state of nature' in Leviathan (1651) laid 'groundwork for realism's emphasis on systemic insecurity' among states."
+   },
+   "balance_of_power": {
+    "status": "documented",
+    "type": "influence",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Realism_(international_relations)",
+    "note": "Grokipedia: Morgenthau's states pursue survival 'through balance-of-power strategies'; the doctrine is 'a core application' of realism."
    }
   }
  },
@@ -39048,6 +39056,115 @@
    "irony": "Makes its case directly, without ironic distance.",
    "abstraction": "A theory of constitutions drawn from observing Rome and Greek cities.",
    "hierarchy": "Keeps one, few and many in their places while making them check each other."
+  }
+ },
+ {
+  "id": "nuclear_deterrence",
+  "name": "Nuclear deterrence",
+  "root": false,
+  "root_axis": null,
+  "year": 1946,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Bernard_Brodie_(military_strategist)",
+  "origin_note": "Grokipedia: Bernard Brodie's edited volume The Absolute Weapon (1946), produced at Yale, argued the military's 'chief purpose' must now be to avert wars rather than win them.",
+  "place": "New Haven, Connecticut",
+  "lat": 41.31,
+  "lon": -72.92,
+  "thinkers": [
+   "Bernard Brodie",
+   "Thomas Schelling",
+   "Herman Kahn",
+   "Robert McNamara"
+  ],
+  "parents": [
+   "political_realism"
+  ],
+  "plain": "The idea that nuclear weapons keep the peace by threat: if any attack would bring a devastating counterstrike, no rational government would start a war.",
+  "summary": "Brodie (1946): the bomb's purpose is to avert war. Schelling's game theory and McNamara's 'assured destruction' turned it into Cold War doctrine (MAD).",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Bernard_Brodie_(military_strategist)",
+   "https://grokipedia.com/page/Deterrence_theory",
+   "https://grokipedia.com/page/Mutual_assured_destruction",
+   "https://grokipedia.com/page/Thomas_Schelling"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "aliases": [
+   "Deterrence theory",
+   "Mutual assured destruction",
+   "MAD"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "US-Soviet standoff (1945-1991)",
+     "src": "https://grokipedia.com/page/Mutual_assured_destruction",
+     "note": "Both sides built second-strike forces; McNamara called assured destruction 'the very essence of the whole deterrence concept' (Grokipedia)."
+    }
+   ]
+  },
+  "edge_notes": {
+   "political_realism": {
+    "status": "documented",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Realism_(international_relations)",
+    "note": "Grokipedia: realists read the Cuban Missile Crisis as evidence of deterrence's efficacy, and bipolarity as 'promoting mutual deterrence'."
+   }
+  },
+  "parent_note": "Sourced parent is political_realism. Links to balance_of_power ('balance of terror') and containment are not drawn; Brodie's book predates the containment node's 1947 date.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 0,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -1,
+   "hierarchy": 0
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "No clear debt to, or quarrel with, Christianity.",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "No clear debt to, or quarrel with, Enlightenment liberalism.",
+   "marxism": "No clear debt to, or quarrel with, Marxism.",
+   "darwinism": "No clear debt to, or quarrel with, Darwinism.",
+   "nietzsche": "No clear debt to, or quarrel with, Nietzsche.",
+   "critical_theory": "No clear debt to, or quarrel with, Critical theory.",
+   "confucianism": "No clear debt to, or quarrel with, Confucianism.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islam": "No clear debt to, or quarrel with, Islam.",
+   "judaism": "No clear debt to, or quarrel with, Judaism.",
+   "romanticism": "No clear debt to, or quarrel with, Romanticism.",
+   "nationalism": "No clear debt to, or quarrel with, Nationalism.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Starts from the physical scale of the bomb, though Schelling added abstract game theory (Grokipedia).",
+   "hierarchy": "About mutual vulnerability between rival states, not about rank within a society."
   }
  }
 ]
