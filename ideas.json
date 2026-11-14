@@ -37795,7 +37795,8 @@
   ],
   "parents": [
    "wilsonianism",
-   "nationalism"
+   "nationalism",
+   "leninism"
   ],
   "plain": "The principle that a people has the right to choose its own government and its own state, free of foreign rule. It redrew Europe after 1918 and drove decolonization.",
   "summary": "Peoples' right to choose their own government; Wilson made it a peace principle in 1918, and UN Resolution 1514 (1960) turned it against colonial rule.",
@@ -37803,7 +37804,8 @@
   "sources": [
    "https://grokipedia.com/page/Self-determination",
    "https://grokipedia.com/page/Woodrow_Wilson",
-   "https://grokipedia.com/page/Giuseppe_Mazzini"
+   "https://grokipedia.com/page/Giuseppe_Mazzini",
+   "https://grokipedia.com/page/Leninism"
   ],
   "domain": [
    "politics"
@@ -37841,9 +37843,16 @@
     "strength": "strong",
     "src": "https://grokipedia.com/page/Self-determination",
     "note": "Grokipedia: pre-20th-century roots in nationalism; Mazzini argued nations have a right to independent existence."
+   },
+   "leninism": {
+    "status": "documented",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Leninism",
+    "note": "Grokipedia: Lenin's 1914 pamphlet formalized the right of nations to self-determination; by 1916 he applied it to colonies, and the Bolsheviks adopted it."
    }
   },
-  "parent_note": "Both parents are sourced. A Leninist line (Soviet anti-colonial self-determination) is held for review.",
+  "parent_note": "All three parents are sourced: Wilson's 1918 program, older nationalism, and Lenin's 1914 case for national self-determination, which the Bolsheviks adopted.",
   "basis": {
    "marxism": "stance"
   },
