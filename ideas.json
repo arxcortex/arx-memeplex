@@ -22469,7 +22469,8 @@
    "John Mearsheimer"
   ],
   "parents": [
-   "social_contract"
+   "social_contract",
+   "balance_of_power"
   ],
   "plain": "A theory of world politics that says states look out for themselves in a world with no ruler above them. Survival needs power, alliances and a balance of power, more than ideals or international law.",
   "summary": "Carr and Morgenthau against interwar idealism: states seek power and security in anarchy; later Waltz's neorealism and Mearsheimer's offensive realism.",
@@ -22569,6 +22570,13 @@
     "strength": "moderate",
     "src": "https://grokipedia.com/page/Realism_(international_relations)",
     "note": "Hobbes's 'state of nature' in Leviathan (1651) laid 'groundwork for realism's emphasis on systemic insecurity' among states."
+   },
+   "balance_of_power": {
+    "status": "documented",
+    "type": "influence",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Realism_(international_relations)",
+    "note": "Grokipedia: Morgenthau's states pursue survival 'through balance-of-power strategies'; the doctrine is 'a core application' of realism."
    }
   }
  },
@@ -22733,7 +22741,8 @@
   ],
   "parents": [
    "renaissance_humanism",
-   "aristotelian_teleology"
+   "aristotelian_teleology",
+   "mixed_government"
   ],
   "plain": "The Florentine humanists' belief that studying the classics should train citizens to take an active part in running a free republic.",
   "summary": "Humanism turned to republican service in Florence, c. 1403: Salutati and Bruni praised the active civic life, mixed government and liberty against Milanese princely rule.",
@@ -22826,6 +22835,13 @@
     "type": "documented reading",
     "src": "https://grokipedia.com/page/Leonardo_Bruni",
     "note": "Bruni translated Aristotle's Nicomachean Ethics and Politics into Latin and drew on Polybius, Cicero and Aristotle for Florence's mixed constitution."
+   },
+   "mixed_government": {
+    "status": "documented",
+    "type": "documented reading",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Leonardo_Bruni",
+    "note": "In his Laudatio Florentinae urbis (1403–1404), Bruni praised Florence's constitution as a balanced governo misto, drawing on Polybius and Cicero (Grokipedia)."
    }
   },
   "parent_note": "Hans Baron coined the 'civic humanism' thesis in the 20th century; he is its historian, not a parent. The term is a scholars' label, and Grokipedia's Bruni page notes debate over Baron's interpretation."
@@ -37779,7 +37795,8 @@
   ],
   "parents": [
    "wilsonianism",
-   "nationalism"
+   "nationalism",
+   "leninism"
   ],
   "plain": "The principle that a people has the right to choose its own government and its own state, free of foreign rule. It redrew Europe after 1918 and drove decolonization.",
   "summary": "Peoples' right to choose their own government; Wilson made it a peace principle in 1918, and UN Resolution 1514 (1960) turned it against colonial rule.",
@@ -37787,7 +37804,8 @@
   "sources": [
    "https://grokipedia.com/page/Self-determination",
    "https://grokipedia.com/page/Woodrow_Wilson",
-   "https://grokipedia.com/page/Giuseppe_Mazzini"
+   "https://grokipedia.com/page/Giuseppe_Mazzini",
+   "https://grokipedia.com/page/Leninism"
   ],
   "domain": [
    "politics"
@@ -37825,9 +37843,16 @@
     "strength": "strong",
     "src": "https://grokipedia.com/page/Self-determination",
     "note": "Grokipedia: pre-20th-century roots in nationalism; Mazzini argued nations have a right to independent existence."
+   },
+   "leninism": {
+    "status": "documented",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Leninism",
+    "note": "Grokipedia: Lenin's 1914 pamphlet formalized the right of nations to self-determination; by 1916 he applied it to colonies, and the Bolsheviks adopted it."
    }
   },
-  "parent_note": "Both parents are sourced. A Leninist line (Soviet anti-colonial self-determination) is held for review.",
+  "parent_note": "All three parents are sourced: Wilson's 1918 program, older nationalism, and Lenin's 1914 case for national self-determination, which the Bolsheviks adopted.",
   "basis": {
    "marxism": "stance"
   },
@@ -38990,7 +39015,7 @@
     "note": "Grokipedia: Aristotle advocated mixed polities before Polybius applied the idea to Rome."
    }
   },
-  "parent_note": "One sourced parent. A line from this idea into machiavellian_republicanism and classical_republicanism (Grokipedia names both) is held for review.",
+  "parent_note": "One sourced parent. Its line into Renaissance Florence runs through florentine_civic_humanism (Bruni's governo misto). Direct lines into machiavellian_republicanism and classical_republicanism are held for review.",
   "ratings": {
    "platonism": -1,
    "aristotelianism": 3,
@@ -39040,6 +39065,115 @@
    "irony": "Makes its case directly, without ironic distance.",
    "abstraction": "A theory of constitutions drawn from observing Rome and Greek cities.",
    "hierarchy": "Keeps one, few and many in their places while making them check each other."
+  }
+ },
+ {
+  "id": "nuclear_deterrence",
+  "name": "Nuclear deterrence",
+  "root": false,
+  "root_axis": null,
+  "year": 1946,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Bernard_Brodie_(military_strategist)",
+  "origin_note": "Grokipedia: Bernard Brodie's edited volume The Absolute Weapon (1946), produced at Yale, argued the military's 'chief purpose' must now be to avert wars rather than win them.",
+  "place": "New Haven, Connecticut",
+  "lat": 41.31,
+  "lon": -72.92,
+  "thinkers": [
+   "Bernard Brodie",
+   "Thomas Schelling",
+   "Herman Kahn",
+   "Robert McNamara"
+  ],
+  "parents": [
+   "political_realism"
+  ],
+  "plain": "The idea that nuclear weapons keep the peace by threat: if any attack would bring a devastating counterstrike, no rational government would start a war.",
+  "summary": "Brodie (1946): the bomb's purpose is to avert war. Schelling's game theory and McNamara's 'assured destruction' turned it into Cold War doctrine (MAD).",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Bernard_Brodie_(military_strategist)",
+   "https://grokipedia.com/page/Deterrence_theory",
+   "https://grokipedia.com/page/Mutual_assured_destruction",
+   "https://grokipedia.com/page/Thomas_Schelling"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "aliases": [
+   "Deterrence theory",
+   "Mutual assured destruction",
+   "MAD"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "US-Soviet standoff (1945-1991)",
+     "src": "https://grokipedia.com/page/Mutual_assured_destruction",
+     "note": "Both sides built second-strike forces; McNamara called assured destruction 'the very essence of the whole deterrence concept' (Grokipedia)."
+    }
+   ]
+  },
+  "edge_notes": {
+   "political_realism": {
+    "status": "documented",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Realism_(international_relations)",
+    "note": "Grokipedia: realists read the Cuban Missile Crisis as evidence of deterrence's efficacy, and bipolarity as 'promoting mutual deterrence'."
+   }
+  },
+  "parent_note": "Sourced parent is political_realism. Links to balance_of_power ('balance of terror') and containment are not drawn; Brodie's book predates the containment node's 1947 date.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 0,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -1,
+   "hierarchy": 0
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "No clear debt to, or quarrel with, Christianity.",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "No clear debt to, or quarrel with, Enlightenment liberalism.",
+   "marxism": "No clear debt to, or quarrel with, Marxism.",
+   "darwinism": "No clear debt to, or quarrel with, Darwinism.",
+   "nietzsche": "No clear debt to, or quarrel with, Nietzsche.",
+   "critical_theory": "No clear debt to, or quarrel with, Critical theory.",
+   "confucianism": "No clear debt to, or quarrel with, Confucianism.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islam": "No clear debt to, or quarrel with, Islam.",
+   "judaism": "No clear debt to, or quarrel with, Judaism.",
+   "romanticism": "No clear debt to, or quarrel with, Romanticism.",
+   "nationalism": "No clear debt to, or quarrel with, Nationalism.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Starts from the physical scale of the bomb, though Schelling added abstract game theory (Grokipedia).",
+   "hierarchy": "About mutual vulnerability between rival states, not about rank within a society."
   }
  }
 ]
