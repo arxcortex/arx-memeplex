@@ -2250,7 +2250,8 @@
   ],
   "parents": [
    "enlightenment_liberalism",
-   "darwinian_selection"
+   "darwinian_selection",
+   "economic_calculation_problem"
   ],
   "plain": "Neoliberals like Hayek and Friedman argued that free markets organize an economy better than government planning.",
   "summary": "Neoliberals favor markets, price signals and limits on state economic planning.",
@@ -2331,6 +2332,15 @@
      "note": "Named in the Grokipedia article “Neoliberalism”."
     }
    ]
+  },
+  "edge_notes": {
+   "economic_calculation_problem": {
+    "status": "documented",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Neoliberalism",
+    "note": "Grokipedia: Mises's 1920 argument 'bolstered neoliberal opposition to nationalized industries and central planning'; 'Friedrich Hayek, building on Mises, elaborated the \"knowledge problem.\"'"
+   }
   }
  },
  {
@@ -21215,7 +21225,8 @@
   "parents": [
    "american_republicanism",
    "enlightenment_liberalism",
-   "classical_republicanism"
+   "classical_republicanism",
+   "mixed_government"
   ],
   "plain": "Supporters of the 1787 Constitution. They argued that a stronger national government, with power split among branches, would hold the union together and still protect liberty.",
   "summary": "Hamilton, Madison and Jay's 85 essays as 'Publius' (1787-88) defended ratification: a large republic tames faction, and checks and balances restrain power.",
@@ -21323,6 +21334,13 @@
     "strength": "weak",
     "src": "https://grokipedia.com/page/The_Federalist_Papers",
     "note": "The pen name 'Publius' evokes Publius Valerius Publicola, 'the Roman founder of republican governance after the overthrow of monarchy' (Grokipedia)."
+   },
+   "mixed_government": {
+    "status": "documented",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Mixed_government",
+    "note": "John Adams 'revived these defenses in A Defence of the Constitutions of Government of the United States (1787–1788)'; the framers 'adapted the mixed constitution' (Grokipedia)."
    }
   },
   "stance_raw": {
@@ -23561,7 +23579,8 @@
   ],
   "parents": [
    "leninism",
-   "marxism"
+   "marxism",
+   "stalinism"
   ],
   "plain": "Mao Zedong's version of Marxism-Leninism for a peasant country: rural revolution, the mass line, people's war and continuing class struggle.",
   "summary": "Marxism-Leninism adapted by Mao at Yan'an and codified in 1945; official CCP ideology, revised by the 1981 resolution; exported to insurgencies abroad.",
@@ -23667,6 +23686,13 @@
     "strength": "strong",
     "src": "https://grokipedia.com/page/Maoism",
     "note": "The Seventh Congress defined it as the integration of Marxist-Leninist theory with Chinese practice."
+   },
+   "stalinism": {
+    "status": "documented",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Stalinism",
+    "note": "Grokipedia: 'Mao's First Five-Year Plan (1953–1957) directly adopted Stalinist industrialization strategies'; 'Maoism extended Stalinist repression but shifted focus to rural encirclement.'"
    }
   },
   "modern_politics": true,
@@ -37110,7 +37136,8 @@
    "Henry Kissinger"
   ],
   "parents": [
-   "balance_of_power"
+   "balance_of_power",
+   "reason_of_state"
   ],
   "plain": "Politics based on how power actually stands rather than on ideals: make the deals, alliances and wars that serve the state's interests, whatever the principles.",
   "summary": "Rochau's 1853 term for politics fitted to real power; made famous by Bismarck's unification of Germany and later Kissinger's détente.",
@@ -37149,9 +37176,16 @@
     "strength": "moderate",
     "src": "https://grokipedia.com/page/Realpolitik",
     "note": "Grokipedia: Bismarck's Realpolitik put balance-of-power equilibria ahead of liberal ideals."
+   },
+   "reason_of_state": {
+    "status": "documented",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Realpolitik",
+    "note": "Grokipedia: Cardinal Richelieu 'exemplified these principles through raison d'état (reason of state).' The Reason of State page frames Botero's legacy as 'a bridge between Renaissance humanism and Enlightenment realpolitik.'"
    }
   },
-  "parent_note": "Sourced parent is balance_of_power. Realpolitik into political_realism and reason_of_state into Realpolitik are held for review.",
+  "parent_note": "Sourced parents are balance_of_power and reason_of_state. Realpolitik into political_realism is held for review.",
   "basis": {
    "enlightenment_liberalism": "stance"
   },
