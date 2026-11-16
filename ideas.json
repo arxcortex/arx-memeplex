@@ -38325,7 +38325,7 @@
    ]
   },
   "edge_notes": {},
-  "parent_note": "Parentless for now. A line from political_realism (which Grokipedia traces to Thucydides) is held for review; the Trap page itself does not call it realist.",
+  "parent_note": "Kept parentless. Allison's 2012 and 2015 texts credit Thucydides 1.23, not political_realism or Organski. Grokipedia's later classifications ('key realist insight'; 'building on' Organski) are not documented descent. Shared Thucydides ancestry is not a parent edge. A power_transition_theory node would be the closer resemblance if a parent is later wanted.",
   "ratings": {
    "platonism": 0,
    "aristotelianism": 0,
@@ -39208,6 +39208,127 @@
    "irony": "Makes its case directly, without ironic distance.",
    "abstraction": "Starts from the physical scale of the bomb, though Schelling added abstract game theory (Grokipedia).",
    "hierarchy": "About mutual vulnerability between rival states, not about rank within a society."
+  }
+ },
+ {
+  "id": "end_of_history",
+  "name": "End of history (Fukuyama)",
+  "root": false,
+  "root_axis": null,
+  "year": 1989,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/End_of_history",
+  "origin_note": "Francis Fukuyama's essay 'The End of History?' appeared in the Summer 1989 issue of The National Interest, written during his term as deputy director of the State Department's Policy Planning Staff; the book followed in 1992 (Grokipedia).",
+  "place": "Washington, D.C.",
+  "lat": 38.895,
+  "lon": -77.048,
+  "thinkers": [
+   "Francis Fukuyama",
+   "Alexandre Kojève",
+   "G. W. F. Hegel"
+  ],
+  "parents": [
+   "hegelian_dialectic",
+   "enlightenment_liberalism"
+  ],
+  "plain": "The claim that after communism failed, liberal democracy was left as the last form of government standing, so the big contest of ideas over how to rule had ended.",
+  "summary": "Fukuyama's 1989 thesis, built on Kojève's reading of Hegel: history as a contest of ideologies ends with liberal democracy. Critics point to resurgent nationalism and autocracy.",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/End_of_history",
+   "https://grokipedia.com/page/The_End_of_History_and_the_Last_Man",
+   "https://grokipedia.com/page/Francis_Fukuyama",
+   "https://grokipedia.com/page/Alexandre_Koj%C3%A8ve"
+  ],
+  "domain": [
+   "politics",
+   "philosophy"
+  ],
+  "aliases": [
+   "The End of History and the Last Man",
+   "The End of History?"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "US foreign-policy circles, 1990s",
+     "src": "https://grokipedia.com/page/The_End_of_History_and_the_Last_Man",
+     "note": "Its ideas fed the early Clinton administration's emphasis on democracy promotion and spreading market-oriented liberal systems (Grokipedia)."
+    },
+    {
+     "place": "Post-Cold War democratization debates",
+     "src": "https://grokipedia.com/page/End_of_history",
+     "note": "It shaped 1990s debates on democratization and globalization and still frames arguments over autocracy's return (Grokipedia)."
+    }
+   ]
+  },
+  "edge_notes": {
+   "hegelian_dialectic": {
+    "status": "documented",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/End_of_history",
+    "note": "Fukuyama drew 'from Hegelian dialectics via Alexandre Kojève's interpretation', whose 1933-1939 Paris seminars cast history as ending in a 'universal and homogeneous state' (Grokipedia)."
+   },
+   "enlightenment_liberalism": {
+    "status": "documented",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/End_of_history",
+    "note": "It names 'the global triumph of liberal democracy combined with free-market capitalism' as the final resolution of humanity's ideological struggles (Grokipedia)."
+   }
+  },
+  "parent_note": "Fukuyama's link to neoconservatism and Nietzsche's 'last man' are recorded in the ratings, not as parent edges.",
+  "ratings": {
+   "platonism": 1,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 4,
+   "marxism": -3,
+   "darwinism": 0,
+   "nietzsche": 1,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 4,
+   "hierarchy": -2
+  },
+  "rationale": {
+   "platonism": "The 1992 book revives Plato's thymos, the spirited part of the soul that seeks recognition, as a driver of history (Grokipedia).",
+   "aristotelianism": "No clear debt to, or quarrel with, aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, stoicism.",
+   "christianity": "No clear debt to, or quarrel with, christianity.",
+   "gnosticism": "No clear debt to, or quarrel with, gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, hermeticism.",
+   "enlightenment_liberalism": "Holds that liberal democracy with market economics is the final form of government, with no serious ideological rival left (Grokipedia).",
+   "marxism": "Uses Hegel's method against Marx's ending: the Soviet collapse showed communism's contradictions, so history ends in liberalism, not communism (Grokipedia).",
+   "darwinism": "No clear debt to, or quarrel with, darwinism.",
+   "nietzsche": "Borrows Nietzsche's 'last man' as a warning that a satisfied post-historical society may breed boredom and revolt (Grokipedia).",
+   "critical_theory": "No clear debt to, or quarrel with, critical_theory.",
+   "confucianism": "No clear debt to, or quarrel with, confucianism.",
+   "daoism": "No clear debt to, or quarrel with, daoism.",
+   "buddhism": "No clear debt to, or quarrel with, buddhism.",
+   "vedanta": "No clear debt to, or quarrel with, vedanta.",
+   "islam": "No clear debt to, or quarrel with, islam.",
+   "judaism": "No clear debt to, or quarrel with, judaism.",
+   "romanticism": "No clear debt to, or quarrel with, romanticism.",
+   "nationalism": "No clear debt to, or quarrel with, nationalism.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "A speculative theory of where all of human history is heading, built on Hegel's and Kojève's philosophy of history.",
+   "hierarchy": "Its endpoint is equal recognition for all (isothymia), Kojève's 'universal and homogeneous state' (Grokipedia)."
   }
  }
 ]
