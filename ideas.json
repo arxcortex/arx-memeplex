@@ -4269,7 +4269,8 @@
    "roman_catholicism",
    "augustinian_grace",
    "renaissance_humanism",
-   "nominalism"
+   "nominalism",
+   "conciliarism"
   ],
   "plain": "Martin Luther protested against the sale of indulgences and taught that people are saved by faith alone, through God's grace, with the Bible as the final authority.",
   "summary": "Luther's 1517 protest: salvation by faith alone through God's grace, with the Bible as the final authority. Began as Lutheranism.",
@@ -4330,7 +4331,8 @@
    "https://grokipedia.com/page/Ninety-five_Theses",
    "https://grokipedia.com/page/Martin_Luther",
    "https://grokipedia.com/page/Reformation",
-   "https://grokipedia.com/page/William_of_Ockham"
+   "https://grokipedia.com/page/William_of_Ockham",
+   "https://grokipedia.com/page/Conciliarism"
   ],
   "domain": [
    "religion"
@@ -4351,6 +4353,13 @@
     "strength": "weak",
     "src": "https://grokipedia.com/page/William_of_Ockham",
     "note": "Luther's 'early exposure to Ockhamist via moderna at Erfurt' is said to have shaped his 1517 theses; influence, not descent."
+   },
+   "conciliarism": {
+    "status": "documented",
+    "type": "influence",
+    "strength": "weak",
+    "src": "https://grokipedia.com/page/Conciliarism",
+    "note": "Grokipedia: the Reformation 'initially drew on conciliar arguments', with Luther 'invoking council authority', before turning to sola scriptura."
    }
   },
   "thrives_in": {
@@ -4805,7 +4814,8 @@
   ],
   "parents": [
    "roman_catholicism",
-   "thomism"
+   "thomism",
+   "protestantism"
   ],
   "plain": "The Catholic answer to the Reformation. The Council of Trent restated doctrine against Protestant teaching, reformed clergy training, and tightened church discipline.",
   "summary": "Catholicism after the Council of Trent (1545-63): doctrine restated against Protestants, clergy reformed, discipline tightened. Also called Tridentine Catholicism.",
@@ -4888,6 +4898,15 @@
      "note": "Named in the Grokipedia article “Traditionalist Catholicism”."
     }
    ]
+  },
+  "edge_notes": {
+   "protestantism": {
+    "status": "documented",
+    "type": "reaction",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Counter-Reformation",
+    "note": "Grokipedia: Paul III opened the Council of Trent on 13 December 1545 'in response to Lutheran and other reforms'."
+   }
   }
  },
  {
@@ -4907,7 +4926,8 @@
    "Paul VI"
   ],
   "parents": [
-   "tridentine_catholicism"
+   "tridentine_catholicism",
+   "ultramontanism"
   ],
   "plain": "Catholicism after the Second Vatican Council (1962-65). It allowed Mass in local languages, gave lay people larger roles, stressed bishops sharing authority, and opened dialogue with other faiths.",
   "summary": "Catholicism after Vatican II (1962-65): Mass in local languages, larger roles for lay people, dialogue with other faiths.",
@@ -4966,7 +4986,8 @@
   ],
   "sources": [
    "https://grokipedia.com/page/Second_Vatican_Council",
-   "https://grokipedia.com/page/Catholic_Church"
+   "https://grokipedia.com/page/Catholic_Church",
+   "https://grokipedia.com/page/Lumen_gentium"
   ],
   "related_currents": [
    "magnifica_humanitas_ai"
@@ -4998,6 +5019,15 @@
      "note": "Named in the Grokipedia article “Catholic Church”."
     }
    ]
+  },
+  "edge_notes": {
+   "ultramontanism": {
+    "status": "documented",
+    "type": "descent",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Lumen_gentium",
+    "note": "Grokipedia: Lumen gentium built on 'the unfinished ecclesiology of the First Vatican Council'; its note says papal primacy and infallibility are 'not altered'."
+   }
   }
  },
  {
@@ -39453,6 +39483,398 @@
    "irony": "Makes its case directly, without ironic distance.",
    "abstraction": "Mixes concrete claims about cotton, care and labor with a general theory that every civilization rests on a laboring class.",
    "hierarchy": "Holds that a permanent master-and-slave order is natural and good for society (Grokipedia, George Fitzhugh; Mudsill theory)."
+  }
+ },
+ {
+  "id": "gregorian_reform",
+  "name": "Gregorian reform and papal supremacy",
+  "root": false,
+  "root_axis": null,
+  "year": 1075,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Dictatus_papae",
+  "origin_note": "Grokipedia: the Dictatus papae, 27 statements on papal power, was entered in Pope Gregory VII's register in 1075; it sparked the Investiture Controversy with Emperor Henry IV.",
+  "place": "Rome",
+  "lat": 41.8859,
+  "lon": 12.5057,
+  "thinkers": [
+   "Pope Gregory VII",
+   "Humbert of Silva Candida",
+   "Peter Damian"
+  ],
+  "parents": [
+   "roman_catholicism"
+  ],
+  "plain": "An 11th-century push to free the Church from kings and lords, end the buying of church posts, and make the pope the highest authority over bishops, and even over emperors.",
+  "summary": "Gregory VII's reform (r. 1073-1085): the 1075 Dictatus papae claimed popes could depose bishops and emperors; it set off the Investiture Controversy and Henry IV's penance at Canossa in 1077.",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Gregorian_Reform",
+   "https://grokipedia.com/page/Dictatus_papae",
+   "https://grokipedia.com/page/Investiture_Controversy",
+   "https://grokipedia.com/page/Road_to_Canossa",
+   "https://grokipedia.com/page/Pope_Gregory_VII"
+  ],
+  "domain": [
+   "religion",
+   "politics"
+  ],
+  "aliases": [
+   "Gregorian Reforms",
+   "papal monarchy",
+   "Investiture Controversy",
+   "Dictatus papae",
+   "papal supremacy"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Rome",
+     "period": "1049-1085",
+     "src": "https://grokipedia.com/page/Gregorian_Reform",
+     "note": "Leo IX's 1049 Easter Synod in Rome condemned simony; Gregory VII carried the reform on (Grokipedia)."
+    },
+    {
+     "place": "Canossa",
+     "period": "1077",
+     "src": "https://grokipedia.com/page/Road_to_Canossa",
+     "note": "Henry IV did penance at the castle gates in January 1077 before Gregory lifted his excommunication (Grokipedia)."
+    }
+   ]
+  },
+  "edge_notes": {
+   "roman_catholicism": {
+    "status": "documented",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Gregorian_Reform",
+    "note": "Grokipedia: a series of reforms 'in the 11th-century Catholic Church' that elevated 'papal authority as supreme in spiritual matters'."
+   }
+  },
+  "parent_note": "One sourced parent. Links to the Crusade idea (Urban II) and to Cluniac monastic reform are not drawn; held for review.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 5,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 0,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 2,
+   "hierarchy": 5
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "A reform inside the Latin Church to purify the clergy and free church offices from lay control (Grokipedia).",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "Comes before Enlightenment liberalism existed, so it cannot descend from it.",
+   "marxism": "Comes before Marxism existed, so it cannot descend from it.",
+   "darwinism": "Comes before Darwinism existed, so it cannot descend from it.",
+   "nietzsche": "Comes before Nietzsche existed, so it cannot descend from it.",
+   "critical_theory": "Comes before Critical theory existed, so it cannot descend from it.",
+   "confucianism": "No clear debt to, or quarrel with, Confucianism.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islam": "No clear debt to, or quarrel with, Islam.",
+   "judaism": "No clear debt to, or quarrel with, Judaism.",
+   "romanticism": "Comes before Romanticism existed, so it cannot descend from it.",
+   "nationalism": "Comes before Nationalism existed, so it cannot descend from it.",
+   "humor": "No clear debt to, or quarrel with, Humor.",
+   "irony": "No clear debt to, or quarrel with, Irony.",
+   "abstraction": "Concrete fights over who appoints bishops, but grounded in the claim that spiritual power outranks earthly power.",
+   "hierarchy": "Puts the pope above all bishops and claims power to depose emperors (Grokipedia, Dictatus papae)."
+  }
+ },
+ {
+  "id": "conciliarism",
+  "name": "Conciliarism",
+  "root": false,
+  "root_axis": null,
+  "year": 1415,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Conciliarism",
+  "origin_note": "Grokipedia: the Council of Constance's decree Haec sancta (April 6, 1415) said the council's authority came directly from Christ and bound the pope. The idea grew during the Western Schism (1378-1417).",
+  "place": "Constance",
+  "lat": 47.6603,
+  "lon": 9.1758,
+  "thinkers": [
+   "Jean Gerson",
+   "Pierre d'Ailly",
+   "Marsilius of Padua"
+  ],
+  "parents": [
+   "roman_catholicism",
+   "gregorian_reform"
+  ],
+  "plain": "The late-medieval view that a general council of the Church, not the pope, holds the highest authority. A council could reform the Church and even remove a bad pope.",
+  "summary": "Late-medieval claim that general councils outrank the pope. Constance (1414-1418) ended a three-way papal schism; Haec sancta (1415) said even a pope must obey a council.",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Conciliarism",
+   "https://grokipedia.com/page/Council_of_Constance",
+   "https://grokipedia.com/page/Council_of_Basel",
+   "https://grokipedia.com/page/Jean_Gerson",
+   "https://grokipedia.com/page/Marsilius_of_Padua"
+  ],
+  "domain": [
+   "religion",
+   "politics"
+  ],
+  "aliases": [
+   "conciliar movement",
+   "conciliar theory",
+   "Haec sancta",
+   "conciliar supremacy"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Constance",
+     "period": "1414-1418",
+     "src": "https://grokipedia.com/page/Council_of_Constance",
+     "note": "The council deposed or accepted the resignation of three rival claimants and elected Martin V (Grokipedia)."
+    },
+    {
+     "place": "Basel",
+     "period": "1431-1449",
+     "src": "https://grokipedia.com/page/Council_of_Basel",
+     "note": "Reaffirmed council over pope, then broke up amid papal resistance (Grokipedia, Conciliarism)."
+    },
+    {
+     "place": "Paris",
+     "period": "c.1380-1420",
+     "src": "https://grokipedia.com/page/Jean_Gerson",
+     "note": "University of Paris chancellors Pierre d'Ailly and Jean Gerson led its theory (Grokipedia, Conciliarism)."
+    }
+   ]
+  },
+  "edge_notes": {
+   "roman_catholicism": {
+    "status": "documented",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Conciliarism",
+    "note": "Grokipedia: 'a late medieval theory and reform movement within the Catholic Church'."
+   },
+   "gregorian_reform": {
+    "status": "documented",
+    "type": "reaction",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Conciliarism",
+    "note": "Grokipedia: it 'challenged the emerging doctrine of papal monarchy'; Dictatus papae is called that monarchy's 'foundational manifesto' (Grokipedia, Dictatus papae)."
+   }
+  },
+  "parent_note": "Two sourced parents. Ockham and Marsilius are named as thinkers; a nominalism edge is not drawn. Gallicanism is a held lead.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 1,
+   "stoicism": 0,
+   "christianity": 5,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 0,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 1,
+   "hierarchy": 2
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "Scholastic debates drew 'from Aristotelian notions of organic unity' to treat the Church as one body (Grokipedia).",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "A theory of how the Church itself is governed, argued from Scripture, the Church Fathers and canon law (Grokipedia).",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "Comes before Enlightenment liberalism existed, so it cannot descend from it.",
+   "marxism": "Comes before Marxism existed, so it cannot descend from it.",
+   "darwinism": "Comes before Darwinism existed, so it cannot descend from it.",
+   "nietzsche": "Comes before Nietzsche existed, so it cannot descend from it.",
+   "critical_theory": "Comes before Critical theory existed, so it cannot descend from it.",
+   "confucianism": "No clear debt to, or quarrel with, Confucianism.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islam": "No clear debt to, or quarrel with, Islam.",
+   "judaism": "No clear debt to, or quarrel with, Judaism.",
+   "romanticism": "Comes before Romanticism existed, so it cannot descend from it.",
+   "nationalism": "Comes before Nationalism existed, so it cannot descend from it.",
+   "humor": "No clear debt to, or quarrel with, Humor.",
+   "irony": "No clear debt to, or quarrel with, Irony.",
+   "abstraction": "About concrete procedures: who calls a council, who votes, and when a pope can be removed.",
+   "hierarchy": "Keeps bishops and clergy but moves final authority from one ruler to a representative council that can depose him."
+  }
+ },
+ {
+  "id": "ultramontanism",
+  "name": "Ultramontanism and papal infallibility",
+  "root": false,
+  "root_axis": null,
+  "year": 1870,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Pastor_aeternus",
+  "origin_note": "Grokipedia: on July 18, 1870, the First Vatican Council approved Pastor aeternus, 533 votes to 2, defining papal primacy and infallibility; Joseph de Maistre's Du Pape (1819) had argued the case.",
+  "place": "Rome",
+  "lat": 41.9022,
+  "lon": 12.4539,
+  "thinkers": [
+   "Joseph de Maistre",
+   "Pius IX",
+   "Henry Edward Manning",
+   "Louis Veuillot"
+  ],
+  "parents": [
+   "gregorian_reform",
+   "tridentine_catholicism",
+   "conciliarism"
+  ],
+  "plain": "The 19th-century Catholic movement to strengthen the pope's direct authority over the whole Church. In 1870 it won the teaching that the pope cannot err when he formally defines a doctrine.",
+  "summary": "'Beyond the mountains': Rome-centred Catholicism against national churches and councils. Vatican I's Pastor aeternus (1870) defined the pope's supreme jurisdiction and ex cathedra infallibility.",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Ultramontanism",
+   "https://grokipedia.com/page/Pastor_aeternus",
+   "https://grokipedia.com/page/Papal_infallibility",
+   "https://grokipedia.com/page/First_Vatican_Council",
+   "https://grokipedia.com/page/Joseph_de_Maistre"
+  ],
+  "domain": [
+   "religion",
+   "politics"
+  ],
+  "aliases": [
+   "papal infallibility",
+   "Vatican I",
+   "Pastor aeternus",
+   "ultramontane"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Rome",
+     "period": "1869-1870",
+     "src": "https://grokipedia.com/page/First_Vatican_Council",
+     "note": "The First Vatican Council met in St. Peter's Basilica (Grokipedia, Pastor aeternus)."
+    },
+    {
+     "place": "France",
+     "period": "19th century",
+     "src": "https://grokipedia.com/page/Ultramontanism",
+     "note": "Journalist Louis Veuillot popularized it against Gallicanism (Grokipedia)."
+    },
+    {
+     "place": "Westminster",
+     "period": "1865-1870",
+     "src": "https://grokipedia.com/page/Henry_Edward_Manning",
+     "note": "Archbishop Manning pressed for the definition (Grokipedia, Pastor aeternus)."
+    }
+   ]
+  },
+  "edge_notes": {
+   "gregorian_reform": {
+    "status": "documented",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Ultramontanism",
+    "note": "Grokipedia: the Gregorian Reforms and Dictatus papae are its 'medieval precursors' that 'prefigured ultramontanism'."
+   },
+   "tridentine_catholicism": {
+    "status": "documented",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Ultramontanism",
+    "note": "Grokipedia: the Council of Trent 'centralized doctrinal authority under the papacy... laying foundational support for ultramontane centralization'."
+   },
+   "conciliarism": {
+    "status": "documented",
+    "type": "reaction",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Ultramontanism",
+    "note": "Grokipedia: ultramontanism stands 'against Gallican or conciliarist dilutions of Roman oversight'; Vatican I affirmed papal primacy (Grokipedia, Conciliarism)."
+   }
+  },
+  "parent_note": "Three sourced parents. Catholic integralism (Syllabus of Errors, 1864) is a near relative; no edge drawn. Gallicanism and Febronianism are held leads.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 5,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": -3,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": -2,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 2,
+   "hierarchy": 5
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "A view of Church authority grounded in Christ's promise to Peter and Roman primacy (Grokipedia).",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "De Maistre saw the papacy as 'the ultimate arbiter against liberal fragmentation'; it set out to resist liberal influences (Grokipedia).",
+   "marxism": "Contemporary with early Marxism, with no exchange between them.",
+   "darwinism": "Contemporary with Darwin's theory, with no direct engagement in its claims.",
+   "nietzsche": "Comes before Nietzsche's major works, so it cannot descend from them.",
+   "critical_theory": "Comes before Critical theory existed, so it cannot descend from it.",
+   "confucianism": "No clear debt to, or quarrel with, Confucianism.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islam": "No clear debt to, or quarrel with, Islam.",
+   "judaism": "No clear debt to, or quarrel with, Judaism.",
+   "romanticism": "Rose in the same post-Revolution reaction, but grounded its case in Church tradition, not feeling or folk culture.",
+   "nationalism": "Opposed national church autonomy; Grokipedia says it 'fortified Catholic unity against nationalism'.",
+   "humor": "No clear debt to, or quarrel with, Humor.",
+   "irony": "No clear debt to, or quarrel with, Irony.",
+   "abstraction": "Centres on a doctrinal claim: a protected, error-free teaching office, alongside concrete church law.",
+   "hierarchy": "Places full, supreme and direct jurisdiction over the whole Church in the pope (Grokipedia, Pastor aeternus)."
   }
  }
 ]
