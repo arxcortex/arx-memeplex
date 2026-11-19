@@ -20061,7 +20061,8 @@
   ],
   "parents": [
    "leninism",
-   "maoism"
+   "maoism",
+   "continuing_revolution"
   ],
   "plain": "One-party Leninist rule with a 'socialist market economy': state firms in strategic sectors alongside private business.",
   "summary": "Deng turned from Maoist orthodoxy in 1978; the socialist market economy grew rapidly under one-party rule.",
@@ -20120,7 +20121,8 @@
    "https://grokipedia.com/page/Socialism_with_Chinese_characteristics",
    "https://grokipedia.com/page/Deng_Xiaoping_Theory",
    "https://grokipedia.com/page/Maoism",
-   "https://grokipedia.com/page/Moderately_prosperous_society"
+   "https://grokipedia.com/page/Moderately_prosperous_society",
+   "https://grokipedia.com/page/Boluan_Fanzheng"
   ],
   "domain": [
    "politics"
@@ -20160,6 +20162,13 @@
     "strength": "moderate",
     "src": "https://grokipedia.com/page/Maoism",
     "note": "Reform line: the 1981 resolution upheld Mao Zedong Thought as guiding ideology while shifting from class struggle to modernization."
+   },
+   "continuing_revolution": {
+    "status": "documented",
+    "type": "reaction",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Maoism",
+    "note": "Grokipedia: the December 1978 Third Plenum turned 'from class struggle to modernization'; the 1981 resolution called 'continuing the revolution' a left deviation."
    }
   },
   "party_alignment_cn": {
@@ -39875,6 +39884,125 @@
    "irony": "No clear debt to, or quarrel with, Irony.",
    "abstraction": "Centres on a doctrinal claim: a protected, error-free teaching office, alongside concrete church law.",
    "hierarchy": "Places full, supreme and direct jurisdiction over the whole Church in the pope (Grokipedia, Pastor aeternus)."
+  }
+ },
+ {
+  "id": "continuing_revolution",
+  "name": "Continuing the revolution (Cultural Revolution doctrine)",
+  "root": false,
+  "root_axis": null,
+  "year": 1966,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Cultural_Revolution",
+  "origin_note": "Grokipedia: the May 16 Notification (May 16, 1966), drafted mainly by Mao with revisions led by Chen Boda and Kang Sheng, launched the Cultural Revolution as a 'continuing revolution' against 'capitalist roaders'.",
+  "place": "Beijing",
+  "lat": 39.9042,
+  "lon": 116.4074,
+  "thinkers": [
+   "Mao Zedong",
+   "Chen Boda",
+   "Kang Sheng",
+   "Zhang Chunqiao"
+  ],
+  "parents": [
+   "maoism"
+  ],
+  "plain": "Mao's late teaching that class struggle goes on after a communist revolution, with new 'capitalist roaders' inside the party, so the masses must rise against them again and again.",
+  "summary": "Mao's 'continuing the revolution under the dictatorship of the proletariat', the theory behind the Cultural Revolution (1966-1976); the party's 1981 resolution called it a 'left' error.",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Maoism",
+   "https://grokipedia.com/page/Cultural_Revolution",
+   "https://grokipedia.com/page/Gang_of_Four",
+   "https://grokipedia.com/page/Red_Guards",
+   "https://grokipedia.com/page/Zhang_Chunqiao"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "aliases": [
+   "continuing the revolution under the dictatorship of the proletariat",
+   "continuous revolution",
+   "Cultural Revolution",
+   "Great Proletarian Cultural Revolution",
+   "capitalist roaders"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Beijing",
+     "period": "1966",
+     "src": "https://grokipedia.com/page/Cultural_Revolution",
+     "note": "Red Guard violence peaked in Beijing in 'Red August' 1966, as the Eleventh Plenum met (Grokipedia)."
+    },
+    {
+     "place": "Shanghai",
+     "period": "1967-1976",
+     "src": "https://grokipedia.com/page/Gang_of_Four",
+     "note": "The 1967 'January Storm' set up a Mao loyalist commune; the Gang of Four rose from Shanghai (Grokipedia)."
+    }
+   ]
+  },
+  "edge_notes": {
+   "maoism": {
+    "status": "documented",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Maoism",
+    "note": "Grokipedia: 'a distinctive late development in Maoist theory was the doctrine of continuing the revolution under the dictatorship of the proletariat'."
+   }
+  },
+  "parent_note": "One sourced parent. A reaction edge from Stalinism (Stalin's 1936 claim that exploiting classes were gone) and a link to the Chinese New Left are held for review.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": -4,
+   "marxism": 5,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": -4,
+   "daoism": -2,
+   "buddhism": -2,
+   "vedanta": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -1,
+   "hierarchy": 2
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "No clear debt to, or quarrel with, Christianity.",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "Treated 'bourgeois rights' and dissent as threats to be rooted out by mass struggle (Grokipedia, Gang of Four).",
+   "marxism": "Built on the Marxist ideas of class struggle and the dictatorship of the proletariat, pushed into the socialist era itself (Grokipedia, Maoism).",
+   "darwinism": "No clear debt to, or quarrel with, Darwinism.",
+   "nietzsche": "No clear debt to, or quarrel with, Nietzsche.",
+   "critical_theory": "No clear debt to, or quarrel with, Critical theory.",
+   "confucianism": "Attacked the 'Four Olds' (old ideas, culture, customs, habits) and ran a 'Criticize Lin, Criticize Confucius' campaign (Grokipedia).",
+   "daoism": "Red Guards ransacked temples during the attack on the 'Four Olds' (Grokipedia, Cultural Revolution).",
+   "buddhism": "Red Guards ransacked temples during the attack on the 'Four Olds' (Grokipedia, Cultural Revolution).",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islam": "No clear debt to, or quarrel with, Islam.",
+   "judaism": "No clear debt to, or quarrel with, Judaism.",
+   "romanticism": "No clear debt to, or quarrel with, Romanticism.",
+   "nationalism": "No clear debt to, or quarrel with, Nationalism.",
+   "humor": "No clear debt to, or quarrel with, Humor.",
+   "irony": "No clear debt to, or quarrel with, Irony.",
+   "abstraction": "A theory of class and 'superstructure', but lived out as concrete purges, struggle sessions and power seizures.",
+   "hierarchy": "Set the masses against party officials ('bombard the headquarters'), yet rested on Mao's own authority and personality cult (Grokipedia)."
   }
  }
 ]
