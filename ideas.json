@@ -40127,5 +40127,115 @@
    "abstraction": "Grokipedia: formalization 'hinged on empirical control rather than abstract ideology', i.e. who actually rules a land.",
    "hierarchy": "Places the Muslim polity over protected non-Muslims and treats lands outside it as hostile until they submit or sign a truce."
   }
+ },
+ {
+  "id": "arthashastra_statecraft",
+  "name": "Arthashastra statecraft (Kautilya's circle of kings)",
+  "root": false,
+  "root_axis": null,
+  "year": -300,
+  "year_approx": true,
+  "origin_src": "https://grokipedia.com/page/Arthashastra",
+  "origin_note": "Grokipedia: traditionally dated to the late 4th century BCE and attributed to Kautilya (Chanakya), adviser to Chandragupta Maurya; scholars see a core of c. 350-300 BCE with prose layers added up to the 1st-3rd centuries CE. Year c. 300 BCE approximates the core.",
+  "place": "Pataliputra (Maurya capital, traditional setting)",
+  "lat": 25.5941,
+  "lon": 85.1376,
+  "thinkers": [
+   "Kautilya"
+  ],
+  "parents": [],
+  "plain": "An ancient Indian manual for kings that treats foreign affairs as a contest of power: your neighbor is your natural enemy, and your neighbor's neighbor is your natural friend.",
+  "summary": "The Arthashastra's rajamandala sets the ruler at the center of rings of states, enemy then ally then enemy's ally, and offers six policies from treaty and war to neutrality and alliance.",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Arthashastra",
+   "https://grokipedia.com/page/Rajamandala",
+   "https://grokipedia.com/page/Chanakya",
+   "https://grokipedia.com/page/Mandala_(political_model)"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "aliases": [
+   "Arthashastra",
+   "Kautilya",
+   "Chanakya",
+   "rajamandala",
+   "mandala theory",
+   "circle of kings",
+   "circle of states",
+   "shadgunya",
+   "sixfold policy",
+   "Kautilyan realism"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Maurya Empire",
+     "period": "c. 321-185 BCE",
+     "src": "https://grokipedia.com/page/Rajamandala",
+     "note": "Grokipedia ties it to Chandragupta Maurya's overthrow of the Nandas (c. 321 BCE) and his later treaty with Seleucus I, guided by Kautilya by tradition."
+    },
+    {
+     "place": "Mysore",
+     "period": "1905",
+     "src": "https://grokipedia.com/page/Arthashastra",
+     "note": "Largely lost after the 12th century; R. Shamasastry found a palm-leaf manuscript in Mysore's Oriental Library in 1905 (Grokipedia)."
+    }
+   ]
+  },
+  "edge_notes": {},
+  "parent_note": "Parentless: it grew from India's older policy (niti) literature, which is not a node. Grokipedia calls it a forerunner of balance-of-power thinking and compares it to realism; those links are parallels, not descent, so they are held for review.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": -2,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": -1,
+   "daoism": 0,
+   "buddhism": -1,
+   "vedanta": 1,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -2,
+   "hierarchy": 4
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "Comes before Christianity existed, so it cannot descend from it.",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "Ranks society by varna and centers all power on the king and his spies; no idea of equal rights or limited government.",
+   "marxism": "No clear debt to, or quarrel with, Marxism.",
+   "darwinism": "No clear debt to, or quarrel with, Darwinism.",
+   "nietzsche": "No clear debt to, or quarrel with, Nietzsche.",
+   "critical_theory": "No clear debt to, or quarrel with, Critical theory.",
+   "confucianism": "Grokipedia: its realist framework 'contrasts sharply with Confucian harmony in China'.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "Grokipedia: its realist framework 'contrasts sharply' with Theravada ethics in Southeast Asia.",
+   "vedanta": "A Brahmanical text that keeps the four varnas and the goals dharma, artha, kama, but argues from power, not from Vedanta's teaching on Brahman.",
+   "islam": "Comes before Islam existed, so it cannot descend from it.",
+   "judaism": "No clear debt to, or quarrel with, Judaism.",
+   "romanticism": "No clear debt to, or quarrel with, Romanticism.",
+   "nationalism": "Comes before nationalism; it weighs kings and their power, not nations or peoples.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Not carried in an ironic tone.",
+   "abstraction": "Grokipedia: it weighs army, treasury, land and allies, 'prioritizing causal dynamics of force over abstract ethical bonds'.",
+   "hierarchy": "The king and his ministers stand above four ranked varnas; abroad, strong states dictate unequal treaties to weak ones."
+  }
  }
 ]
