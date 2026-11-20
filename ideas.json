@@ -40004,5 +40004,128 @@
    "abstraction": "A theory of class and 'superstructure', but lived out as concrete purges, struggle sessions and power seizures.",
    "hierarchy": "Set the masses against party officials ('bombard the headquarters'), yet rested on Mao's own authority and personality cult (Grokipedia)."
   }
+ },
+ {
+  "id": "dar_al_islam",
+  "name": "Dar al-Islam and dar al-harb (Islamic law's division of the world)",
+  "root": false,
+  "root_axis": null,
+  "year": 800,
+  "year_approx": true,
+  "origin_src": "https://grokipedia.com/page/Divisions_of_the_world_in_Islam",
+  "origin_note": "Grokipedia: the binary was formalized in classical fiqh in the 8th-13th centuries; al-Shaybani's (d. 805) Kitab al-Siyar al-Kabir is the earliest comprehensive text. Year c. 800 approximates it.",
+  "place": "Baghdad",
+  "lat": 33.3152,
+  "lon": 44.3661,
+  "thinkers": [
+   "Abu Hanifa",
+   "Muhammad al-Shaybani",
+   "al-Shafi'i",
+   "al-Mawardi"
+  ],
+  "parents": [
+   "islam"
+  ],
+  "plain": "Classical Islamic law's map of the world: lands under Muslim rule and Islamic law (the abode of Islam), lands outside it (the abode of war), and lands in between bound by treaty.",
+  "summary": "Jurists of the 8th-13th centuries split the world into dar al-Islam and dar al-harb, with truce zones (dar al-sulh), and set rules for war, treaties and envoys (siyar).",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Divisions_of_the_world_in_Islam",
+   "https://grokipedia.com/page/Muhammad_al-Shaybani",
+   "https://grokipedia.com/page/Abu_Hanifa",
+   "https://grokipedia.com/page/World_Order_(book)"
+  ],
+  "domain": [
+   "religion",
+   "politics"
+  ],
+  "aliases": [
+   "dar al-Islam",
+   "dar al-harb",
+   "dar al-sulh",
+   "dar al-ahd",
+   "abode of Islam",
+   "abode of war",
+   "siyar",
+   "Islamic law of nations",
+   "divisions of the world in Islam"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Baghdad",
+     "period": "c. 800",
+     "src": "https://grokipedia.com/page/Muhammad_al-Shaybani",
+     "note": "Al-Shaybani compiled his seminal texts, including the Siyar on interstate conduct, as a leading Hanafi jurist in Abbasid Baghdad (Grokipedia)."
+    },
+    {
+     "place": "Ottoman Empire",
+     "period": "16th century",
+     "src": "https://grokipedia.com/page/Divisions_of_the_world_in_Islam",
+     "note": "Ebussuud Efendi's fatwas allowed lasting truces with European powers, as in the 1536 capitulations with France (Grokipedia)."
+    }
+   ]
+  },
+  "edge_notes": {
+   "islam": {
+    "status": "documented",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Divisions_of_the_world_in_Islam",
+    "note": "Grokipedia: the divisions were 'elaborated by jurists of the formative period such as those in the Hanafi and Maliki schools' of Islamic law."
+   }
+  },
+  "parent_note": "One sourced parent (Islam). A link to Salafism, which Grokipedia says keeps the classical binary, is held for review.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": -1,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": -2,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islam": 5,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": -1,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -1,
+   "hierarchy": 3
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "Christian realms outside Muslim rule counted as dar al-harb unless bound by treaty; Christians under Muslim rule lived as protected dhimmis.",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "Gives non-Muslims protected but unequal status (dhimma) and sorts the world by religious law, not equal rights or equal states.",
+   "marxism": "No clear debt to, or quarrel with, Marxism.",
+   "darwinism": "No clear debt to, or quarrel with, Darwinism.",
+   "nietzsche": "No clear debt to, or quarrel with, Nietzsche.",
+   "critical_theory": "No clear debt to, or quarrel with, Critical theory.",
+   "confucianism": "No clear debt to, or quarrel with, Confucianism.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islam": "A doctrine of classical Islamic jurisprudence (fiqh): it sorts lands by whether Muslim rulers enforce Islamic law (Grokipedia).",
+   "judaism": "Jews under Muslim rule were protected dhimmis paying jizya, as the Constitution of Medina first set out ties with Jewish tribes (Grokipedia).",
+   "romanticism": "No clear debt to, or quarrel with, Romanticism.",
+   "nationalism": "Sorts the world by faith and law, not by nation; modern thinkers have tried to fit it to a world of nation-states (Grokipedia).",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Not carried in an ironic tone.",
+   "abstraction": "Grokipedia: formalization 'hinged on empirical control rather than abstract ideology', i.e. who actually rules a land.",
+   "hierarchy": "Places the Muslim polity over protected non-Muslims and treats lands outside it as hostile until they submit or sign a truce."
+  }
  }
 ]
