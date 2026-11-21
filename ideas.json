@@ -4269,7 +4269,8 @@
    "roman_catholicism",
    "augustinian_grace",
    "renaissance_humanism",
-   "nominalism"
+   "nominalism",
+   "conciliarism"
   ],
   "plain": "Martin Luther protested against the sale of indulgences and taught that people are saved by faith alone, through God's grace, with the Bible as the final authority.",
   "summary": "Luther's 1517 protest: salvation by faith alone through God's grace, with the Bible as the final authority. Began as Lutheranism.",
@@ -4330,7 +4331,8 @@
    "https://grokipedia.com/page/Ninety-five_Theses",
    "https://grokipedia.com/page/Martin_Luther",
    "https://grokipedia.com/page/Reformation",
-   "https://grokipedia.com/page/William_of_Ockham"
+   "https://grokipedia.com/page/William_of_Ockham",
+   "https://grokipedia.com/page/Conciliarism"
   ],
   "domain": [
    "religion"
@@ -4351,6 +4353,13 @@
     "strength": "weak",
     "src": "https://grokipedia.com/page/William_of_Ockham",
     "note": "Luther's 'early exposure to Ockhamist via moderna at Erfurt' is said to have shaped his 1517 theses; influence, not descent."
+   },
+   "conciliarism": {
+    "status": "documented",
+    "type": "influence",
+    "strength": "weak",
+    "src": "https://grokipedia.com/page/Conciliarism",
+    "note": "Grokipedia: the Reformation 'initially drew on conciliar arguments', with Luther 'invoking council authority', before turning to sola scriptura."
    }
   },
   "thrives_in": {
@@ -4805,7 +4814,8 @@
   ],
   "parents": [
    "roman_catholicism",
-   "thomism"
+   "thomism",
+   "protestantism"
   ],
   "plain": "The Catholic answer to the Reformation. The Council of Trent restated doctrine against Protestant teaching, reformed clergy training, and tightened church discipline.",
   "summary": "Catholicism after the Council of Trent (1545-63): doctrine restated against Protestants, clergy reformed, discipline tightened. Also called Tridentine Catholicism.",
@@ -4888,6 +4898,15 @@
      "note": "Named in the Grokipedia article “Traditionalist Catholicism”."
     }
    ]
+  },
+  "edge_notes": {
+   "protestantism": {
+    "status": "documented",
+    "type": "reaction",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Counter-Reformation",
+    "note": "Grokipedia: Paul III opened the Council of Trent on 13 December 1545 'in response to Lutheran and other reforms'."
+   }
   }
  },
  {
@@ -4907,7 +4926,8 @@
    "Paul VI"
   ],
   "parents": [
-   "tridentine_catholicism"
+   "tridentine_catholicism",
+   "ultramontanism"
   ],
   "plain": "Catholicism after the Second Vatican Council (1962-65). It allowed Mass in local languages, gave lay people larger roles, stressed bishops sharing authority, and opened dialogue with other faiths.",
   "summary": "Catholicism after Vatican II (1962-65): Mass in local languages, larger roles for lay people, dialogue with other faiths.",
@@ -4966,7 +4986,8 @@
   ],
   "sources": [
    "https://grokipedia.com/page/Second_Vatican_Council",
-   "https://grokipedia.com/page/Catholic_Church"
+   "https://grokipedia.com/page/Catholic_Church",
+   "https://grokipedia.com/page/Lumen_gentium"
   ],
   "related_currents": [
    "magnifica_humanitas_ai"
@@ -4998,6 +5019,15 @@
      "note": "Named in the Grokipedia article “Catholic Church”."
     }
    ]
+  },
+  "edge_notes": {
+   "ultramontanism": {
+    "status": "documented",
+    "type": "descent",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Lumen_gentium",
+    "note": "Grokipedia: Lumen gentium built on 'the unfinished ecclesiology of the First Vatican Council'; its note says papal primacy and infallibility are 'not altered'."
+   }
   }
  },
  {
@@ -20031,7 +20061,8 @@
   ],
   "parents": [
    "leninism",
-   "maoism"
+   "maoism",
+   "continuing_revolution"
   ],
   "plain": "One-party Leninist rule with a 'socialist market economy': state firms in strategic sectors alongside private business.",
   "summary": "Deng turned from Maoist orthodoxy in 1978; the socialist market economy grew rapidly under one-party rule.",
@@ -20090,7 +20121,8 @@
    "https://grokipedia.com/page/Socialism_with_Chinese_characteristics",
    "https://grokipedia.com/page/Deng_Xiaoping_Theory",
    "https://grokipedia.com/page/Maoism",
-   "https://grokipedia.com/page/Moderately_prosperous_society"
+   "https://grokipedia.com/page/Moderately_prosperous_society",
+   "https://grokipedia.com/page/Boluan_Fanzheng"
   ],
   "domain": [
    "politics"
@@ -20130,6 +20162,13 @@
     "strength": "moderate",
     "src": "https://grokipedia.com/page/Maoism",
     "note": "Reform line: the 1981 resolution upheld Mao Zedong Thought as guiding ideology while shifting from class struggle to modernization."
+   },
+   "continuing_revolution": {
+    "status": "documented",
+    "type": "reaction",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Maoism",
+    "note": "Grokipedia: the December 1978 Third Plenum turned 'from class struggle to modernization'; the 1981 resolution called 'continuing the revolution' a left deviation."
    }
   },
   "party_alignment_cn": {
@@ -22487,7 +22526,8 @@
    "John Mearsheimer"
   ],
   "parents": [
-   "social_contract"
+   "social_contract",
+   "balance_of_power"
   ],
   "plain": "A theory of world politics that says states look out for themselves in a world with no ruler above them. Survival needs power, alliances and a balance of power, more than ideals or international law.",
   "summary": "Carr and Morgenthau against interwar idealism: states seek power and security in anarchy; later Waltz's neorealism and Mearsheimer's offensive realism.",
@@ -22587,6 +22627,13 @@
     "strength": "moderate",
     "src": "https://grokipedia.com/page/Realism_(international_relations)",
     "note": "Hobbes's 'state of nature' in Leviathan (1651) laid 'groundwork for realism's emphasis on systemic insecurity' among states."
+   },
+   "balance_of_power": {
+    "status": "documented",
+    "type": "influence",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Realism_(international_relations)",
+    "note": "Grokipedia: Morgenthau's states pursue survival 'through balance-of-power strategies'; the doctrine is 'a core application' of realism."
    }
   }
  },
@@ -22751,7 +22798,8 @@
   ],
   "parents": [
    "renaissance_humanism",
-   "aristotelian_teleology"
+   "aristotelian_teleology",
+   "mixed_government"
   ],
   "plain": "The Florentine humanists' belief that studying the classics should train citizens to take an active part in running a free republic.",
   "summary": "Humanism turned to republican service in Florence, c. 1403: Salutati and Bruni praised the active civic life, mixed government and liberty against Milanese princely rule.",
@@ -22844,6 +22892,13 @@
     "type": "documented reading",
     "src": "https://grokipedia.com/page/Leonardo_Bruni",
     "note": "Bruni translated Aristotle's Nicomachean Ethics and Politics into Latin and drew on Polybius, Cicero and Aristotle for Florence's mixed constitution."
+   },
+   "mixed_government": {
+    "status": "documented",
+    "type": "documented reading",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Leonardo_Bruni",
+    "note": "In his Laudatio Florentinae urbis (1403–1404), Bruni praised Florence's constitution as a balanced governo misto, drawing on Polybius and Cicero (Grokipedia)."
    }
   },
   "parent_note": "Hans Baron coined the 'civic humanism' thesis in the 20th century; he is its historian, not a parent. The term is a scholars' label, and Grokipedia's Bruni page notes debate over Baron's interpretation."
@@ -32095,7 +32150,8 @@
    "Harry S. Truman"
   ],
   "parents": [
-   "wilsonianism"
+   "wilsonianism",
+   "collective_security"
   ],
   "plain": "The set of rules and institutions built mainly by the US after 1945, such as the UN, the IMF, the World Bank and NATO, meant to promote open trade, democracy and peaceful dispute settlement.",
   "summary": "Postwar rules-based system of open markets, alliances and international law, from Bretton Woods (1944) and the UN (1945); critics see it as a cover for US hegemony.",
@@ -32104,7 +32160,8 @@
    "https://grokipedia.com/page/Liberal_international_order",
    "https://grokipedia.com/page/Bretton_Woods_Conference",
    "https://grokipedia.com/page/Woodrow_Wilson",
-   "https://grokipedia.com/page/Harry_Dexter_White"
+   "https://grokipedia.com/page/Harry_Dexter_White",
+   "https://grokipedia.com/page/Collective_security"
   ],
   "domain": [
    "politics"
@@ -32131,6 +32188,13 @@
     "strength": "strong",
     "src": "https://grokipedia.com/page/Liberal_international_order",
     "note": "Wilson's Fourteen Points (1918) 'served as a blueprint for a proto-liberal order' of collective security and open trade."
+   },
+   "collective_security": {
+    "status": "documented",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Collective_security",
+    "note": "The UN (1945) 'aimed to institutionalize collective security as a successor to the failed League of Nations', under Chapter VII (Grokipedia, Collective security)."
    }
   },
   "parent_note": "Keynes's bancor plan lost at Bretton Woods to White's dollar-based plan, so Keynesian economics is not drawn as a parent (Grokipedia, Bretton Woods Conference).",
@@ -37813,7 +37877,8 @@
   ],
   "parents": [
    "wilsonianism",
-   "nationalism"
+   "nationalism",
+   "leninism"
   ],
   "plain": "The principle that a people has the right to choose its own government and its own state, free of foreign rule. It redrew Europe after 1918 and drove decolonization.",
   "summary": "Peoples' right to choose their own government; Wilson made it a peace principle in 1918, and UN Resolution 1514 (1960) turned it against colonial rule.",
@@ -37821,7 +37886,8 @@
   "sources": [
    "https://grokipedia.com/page/Self-determination",
    "https://grokipedia.com/page/Woodrow_Wilson",
-   "https://grokipedia.com/page/Giuseppe_Mazzini"
+   "https://grokipedia.com/page/Giuseppe_Mazzini",
+   "https://grokipedia.com/page/Leninism"
   ],
   "domain": [
    "politics"
@@ -37859,9 +37925,16 @@
     "strength": "strong",
     "src": "https://grokipedia.com/page/Self-determination",
     "note": "Grokipedia: pre-20th-century roots in nationalism; Mazzini argued nations have a right to independent existence."
+   },
+   "leninism": {
+    "status": "documented",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Leninism",
+    "note": "Grokipedia: Lenin's 1914 pamphlet formalized the right of nations to self-determination; by 1916 he applied it to colonies, and the Bolsheviks adopted it."
    }
   },
-  "parent_note": "Both parents are sourced. A Leninist line (Soviet anti-colonial self-determination) is held for review.",
+  "parent_note": "All three parents are sourced: Wilson's 1918 program, older nationalism, and Lenin's 1914 case for national self-determination, which the Bolsheviks adopted.",
   "basis": {
    "marxism": "stance"
   },
@@ -38300,7 +38373,7 @@
    ]
   },
   "edge_notes": {},
-  "parent_note": "Parentless for now. A line from political_realism (which Grokipedia traces to Thucydides) is held for review; the Trap page itself does not call it realist.",
+  "parent_note": "Kept parentless. Allison's 2012 and 2015 texts credit Thucydides 1.23, not political_realism or Organski. Grokipedia's later classifications ('key realist insight'; 'building on' Organski) are not documented descent. Shared Thucydides ancestry is not a parent edge. A power_transition_theory node would be the closer resemblance if a parent is later wanted.",
   "ratings": {
    "platonism": 0,
    "aristotelianism": 0,
@@ -39024,7 +39097,7 @@
     "note": "Grokipedia: Aristotle advocated mixed polities before Polybius applied the idea to Rome."
    }
   },
-  "parent_note": "One sourced parent. A line from this idea into machiavellian_republicanism and classical_republicanism (Grokipedia names both) is held for review.",
+  "parent_note": "One sourced parent. Its line into Renaissance Florence runs through florentine_civic_humanism (Bruni's governo misto). Direct lines into machiavellian_republicanism and classical_republicanism are held for review.",
   "ratings": {
    "platonism": -1,
    "aristotelianism": 3,
@@ -39074,6 +39147,1222 @@
    "irony": "Makes its case directly, without ironic distance.",
    "abstraction": "A theory of constitutions drawn from observing Rome and Greek cities.",
    "hierarchy": "Keeps one, few and many in their places while making them check each other."
+  }
+ },
+ {
+  "id": "nuclear_deterrence",
+  "name": "Nuclear deterrence",
+  "root": false,
+  "root_axis": null,
+  "year": 1946,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Bernard_Brodie_(military_strategist)",
+  "origin_note": "Grokipedia: Bernard Brodie's edited volume The Absolute Weapon (1946), produced at Yale, argued the military's 'chief purpose' must now be to avert wars rather than win them.",
+  "place": "New Haven, Connecticut",
+  "lat": 41.31,
+  "lon": -72.92,
+  "thinkers": [
+   "Bernard Brodie",
+   "Thomas Schelling",
+   "Herman Kahn",
+   "Robert McNamara"
+  ],
+  "parents": [
+   "political_realism"
+  ],
+  "plain": "The idea that nuclear weapons keep the peace by threat: if any attack would bring a devastating counterstrike, no rational government would start a war.",
+  "summary": "Brodie (1946): the bomb's purpose is to avert war. Schelling's game theory and McNamara's 'assured destruction' turned it into Cold War doctrine (MAD).",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Bernard_Brodie_(military_strategist)",
+   "https://grokipedia.com/page/Deterrence_theory",
+   "https://grokipedia.com/page/Mutual_assured_destruction",
+   "https://grokipedia.com/page/Thomas_Schelling"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "aliases": [
+   "Deterrence theory",
+   "Mutual assured destruction",
+   "MAD"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "US-Soviet standoff (1945-1991)",
+     "src": "https://grokipedia.com/page/Mutual_assured_destruction",
+     "note": "Both sides built second-strike forces; McNamara called assured destruction 'the very essence of the whole deterrence concept' (Grokipedia)."
+    }
+   ]
+  },
+  "edge_notes": {
+   "political_realism": {
+    "status": "documented",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Realism_(international_relations)",
+    "note": "Grokipedia: realists read the Cuban Missile Crisis as evidence of deterrence's efficacy, and bipolarity as 'promoting mutual deterrence'."
+   }
+  },
+  "parent_note": "Sourced parent is political_realism. Links to balance_of_power ('balance of terror') and containment are not drawn; Brodie's book predates the containment node's 1947 date.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 0,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -1,
+   "hierarchy": 0
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "No clear debt to, or quarrel with, Christianity.",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "No clear debt to, or quarrel with, Enlightenment liberalism.",
+   "marxism": "No clear debt to, or quarrel with, Marxism.",
+   "darwinism": "No clear debt to, or quarrel with, Darwinism.",
+   "nietzsche": "No clear debt to, or quarrel with, Nietzsche.",
+   "critical_theory": "No clear debt to, or quarrel with, Critical theory.",
+   "confucianism": "No clear debt to, or quarrel with, Confucianism.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islam": "No clear debt to, or quarrel with, Islam.",
+   "judaism": "No clear debt to, or quarrel with, Judaism.",
+   "romanticism": "No clear debt to, or quarrel with, Romanticism.",
+   "nationalism": "No clear debt to, or quarrel with, Nationalism.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Starts from the physical scale of the bomb, though Schelling added abstract game theory (Grokipedia).",
+   "hierarchy": "About mutual vulnerability between rival states, not about rank within a society."
+  }
+ },
+ {
+  "id": "end_of_history",
+  "name": "End of history (Fukuyama)",
+  "root": false,
+  "root_axis": null,
+  "year": 1989,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/End_of_history",
+  "origin_note": "Francis Fukuyama's essay 'The End of History?' appeared in the Summer 1989 issue of The National Interest, written during his term as deputy director of the State Department's Policy Planning Staff; the book followed in 1992 (Grokipedia).",
+  "place": "Washington, D.C.",
+  "lat": 38.895,
+  "lon": -77.048,
+  "thinkers": [
+   "Francis Fukuyama",
+   "Alexandre Kojève",
+   "G. W. F. Hegel"
+  ],
+  "parents": [
+   "hegelian_dialectic",
+   "enlightenment_liberalism"
+  ],
+  "plain": "The claim that after communism failed, liberal democracy was left as the last form of government standing, so the big contest of ideas over how to rule had ended.",
+  "summary": "Fukuyama's 1989 thesis, built on Kojève's reading of Hegel: history as a contest of ideologies ends with liberal democracy. Critics point to resurgent nationalism and autocracy.",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/End_of_history",
+   "https://grokipedia.com/page/The_End_of_History_and_the_Last_Man",
+   "https://grokipedia.com/page/Francis_Fukuyama",
+   "https://grokipedia.com/page/Alexandre_Koj%C3%A8ve"
+  ],
+  "domain": [
+   "politics",
+   "philosophy"
+  ],
+  "aliases": [
+   "The End of History and the Last Man",
+   "The End of History?"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "US foreign-policy circles, 1990s",
+     "src": "https://grokipedia.com/page/The_End_of_History_and_the_Last_Man",
+     "note": "Its ideas fed the early Clinton administration's emphasis on democracy promotion and spreading market-oriented liberal systems (Grokipedia)."
+    },
+    {
+     "place": "Post-Cold War democratization debates",
+     "src": "https://grokipedia.com/page/End_of_history",
+     "note": "It shaped 1990s debates on democratization and globalization and still frames arguments over autocracy's return (Grokipedia)."
+    }
+   ]
+  },
+  "edge_notes": {
+   "hegelian_dialectic": {
+    "status": "documented",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/End_of_history",
+    "note": "Fukuyama drew 'from Hegelian dialectics via Alexandre Kojève's interpretation', whose 1933-1939 Paris seminars cast history as ending in a 'universal and homogeneous state' (Grokipedia)."
+   },
+   "enlightenment_liberalism": {
+    "status": "documented",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/End_of_history",
+    "note": "It names 'the global triumph of liberal democracy combined with free-market capitalism' as the final resolution of humanity's ideological struggles (Grokipedia)."
+   }
+  },
+  "parent_note": "Fukuyama's link to neoconservatism and Nietzsche's 'last man' are recorded in the ratings, not as parent edges.",
+  "ratings": {
+   "platonism": 1,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 4,
+   "marxism": -3,
+   "darwinism": 0,
+   "nietzsche": 1,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 4,
+   "hierarchy": -2
+  },
+  "rationale": {
+   "platonism": "The 1992 book revives Plato's thymos, the spirited part of the soul that seeks recognition, as a driver of history (Grokipedia).",
+   "aristotelianism": "No clear debt to, or quarrel with, aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, stoicism.",
+   "christianity": "No clear debt to, or quarrel with, christianity.",
+   "gnosticism": "No clear debt to, or quarrel with, gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, hermeticism.",
+   "enlightenment_liberalism": "Holds that liberal democracy with market economics is the final form of government, with no serious ideological rival left (Grokipedia).",
+   "marxism": "Uses Hegel's method against Marx's ending: the Soviet collapse showed communism's contradictions, so history ends in liberalism, not communism (Grokipedia).",
+   "darwinism": "No clear debt to, or quarrel with, darwinism.",
+   "nietzsche": "Borrows Nietzsche's 'last man' as a warning that a satisfied post-historical society may breed boredom and revolt (Grokipedia).",
+   "critical_theory": "No clear debt to, or quarrel with, critical_theory.",
+   "confucianism": "No clear debt to, or quarrel with, confucianism.",
+   "daoism": "No clear debt to, or quarrel with, daoism.",
+   "buddhism": "No clear debt to, or quarrel with, buddhism.",
+   "vedanta": "No clear debt to, or quarrel with, vedanta.",
+   "islam": "No clear debt to, or quarrel with, islam.",
+   "judaism": "No clear debt to, or quarrel with, judaism.",
+   "romanticism": "No clear debt to, or quarrel with, romanticism.",
+   "nationalism": "No clear debt to, or quarrel with, nationalism.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "A speculative theory of where all of human history is heading, built on Hegel's and Kojève's philosophy of history.",
+   "hierarchy": "Its endpoint is equal recognition for all (isothymia), Kojève's 'universal and homogeneous state' (Grokipedia)."
+  }
+ },
+ {
+  "id": "positive_good_slavery",
+  "name": "Slavery as a 'positive good'",
+  "root": false,
+  "root_axis": null,
+  "year": 1837,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/John_C._Calhoun",
+  "origin_note": "In a February 6, 1837, Senate speech answering abolitionist petitions, John C. Calhoun rejected calling slavery a 'necessary evil' and called it a 'positive good' (Grokipedia).",
+  "place": "Washington, D.C.",
+  "lat": 38.8899,
+  "lon": -77.0091,
+  "thinkers": [
+   "John C. Calhoun",
+   "George Fitzhugh",
+   "James Henry Hammond"
+  ],
+  "parents": [
+   "abolitionism",
+   "enlightenment_liberalism"
+  ],
+  "plain": "The 1830s Southern US argument that slavery was not a regrettable evil but good for owners, enslaved people and society. Defenders claimed slaves were better cared for than free factory workers.",
+  "summary": "Antebellum pro-slavery doctrine: Calhoun's 1837 Senate speech called slavery 'a positive good', not a 'necessary evil'; Fitzhugh and Hammond's 'mudsill' theory ranked it above Northern wage labor.",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/John_C._Calhoun",
+   "https://grokipedia.com/page/George_Fitzhugh",
+   "https://grokipedia.com/page/Mudsill_theory",
+   "https://grokipedia.com/page/Abolitionism",
+   "https://grokipedia.com/page/Natural_slavery"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "aliases": [
+   "positive good",
+   "proslavery argument",
+   "pro-slavery thought"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Washington, D.C.",
+     "period": "1837-1858",
+     "src": "https://grokipedia.com/page/Mudsill_theory",
+     "note": "Argued on the Senate floor, from Calhoun's 1837 speech to Hammond's March 4, 1858, 'mudsill' speech (Grokipedia)."
+    },
+    {
+     "place": "Port Royal, Virginia",
+     "period": "1854-1857",
+     "src": "https://grokipedia.com/page/George_Fitzhugh",
+     "note": "Fitzhugh wrote Sociology for the South (1854) and Cannibals All! (1857) while practicing law there (Grokipedia)."
+    }
+   ]
+  },
+  "edge_notes": {
+   "abolitionism": {
+    "status": "documented",
+    "type": "reaction",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/John_C._Calhoun",
+    "note": "Grokipedia: Calhoun's February 6, 1837, Senate speech responded to abolitionist petitions, calling slavery a 'positive good' instead of a 'necessary evil'."
+   },
+   "enlightenment_liberalism": {
+    "status": "documented",
+    "type": "reaction",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/George_Fitzhugh",
+    "note": "Grokipedia: Fitzhugh rejected Locke's social contract as a 'heresy in moral science'; his framework 'rejected liberal equality'."
+   }
+  },
+  "parent_note": "Two sourced reaction edges. Calhoun's nullification theory, Aristotle's natural slavery and Carlyle are recorded in the text and ratings, not as parent edges.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 2,
+   "stoicism": 0,
+   "christianity": 1,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": -5,
+   "marxism": -1,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 1,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 1,
+   "hierarchy": 5
+  },
+  "rationale": {
+   "platonism": "No real link to Platonism.",
+   "aristotelianism": "Pro-slavery advocates 'selectively appropriated Aristotle's doctrine of natural slavery'; Fitzhugh cited it in 1857 (Grokipedia, Natural slavery).",
+   "stoicism": "No real link to Stoicism.",
+   "christianity": "Calhoun later framed slavery as 'divinely ordained'; other defenders used biblical arguments, but the 1837 case was mainly social (Grokipedia).",
+   "gnosticism": "No real link to Gnosticism.",
+   "hermeticism": "No real link to Hermeticism.",
+   "enlightenment_liberalism": "Rejects natural equality: Fitzhugh called Locke's social contract a 'heresy in moral science' (Grokipedia, George Fitzhugh).",
+   "marxism": "Shares the attack on wage labor but claims slavery removes 'class antagonisms', the opposite of class struggle (Grokipedia, Abolitionism).",
+   "darwinism": "Took shape before Darwin's 1859 theory; it rested on older claims of natural hierarchy.",
+   "nietzsche": "No real link to Nietzsche.",
+   "critical_theory": "No real link to Critical theory.",
+   "confucianism": "No real link to Confucianism.",
+   "daoism": "No real link to Daoism.",
+   "buddhism": "No real link to Buddhism.",
+   "vedanta": "No real link to Vedanta.",
+   "islam": "No real link to Islam.",
+   "judaism": "No real link to Judaism.",
+   "romanticism": "Fitzhugh admired Thomas Carlyle and pictured the South as an 'organic, hierarchical society' against market society (Grokipedia).",
+   "nationalism": "A Southern sectional defense of one institution, not a doctrine of national identity.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Mixes concrete claims about cotton, care and labor with a general theory that every civilization rests on a laboring class.",
+   "hierarchy": "Holds that a permanent master-and-slave order is natural and good for society (Grokipedia, George Fitzhugh; Mudsill theory)."
+  }
+ },
+ {
+  "id": "gregorian_reform",
+  "name": "Gregorian reform and papal supremacy",
+  "root": false,
+  "root_axis": null,
+  "year": 1075,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Dictatus_papae",
+  "origin_note": "Grokipedia: the Dictatus papae, 27 statements on papal power, was entered in Pope Gregory VII's register in 1075; it sparked the Investiture Controversy with Emperor Henry IV.",
+  "place": "Rome",
+  "lat": 41.8859,
+  "lon": 12.5057,
+  "thinkers": [
+   "Pope Gregory VII",
+   "Humbert of Silva Candida",
+   "Peter Damian"
+  ],
+  "parents": [
+   "roman_catholicism"
+  ],
+  "plain": "An 11th-century push to free the Church from kings and lords, end the buying of church posts, and make the pope the highest authority over bishops, and even over emperors.",
+  "summary": "Gregory VII's reform (r. 1073-1085): the 1075 Dictatus papae claimed popes could depose bishops and emperors; it set off the Investiture Controversy and Henry IV's penance at Canossa in 1077.",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Gregorian_Reform",
+   "https://grokipedia.com/page/Dictatus_papae",
+   "https://grokipedia.com/page/Investiture_Controversy",
+   "https://grokipedia.com/page/Road_to_Canossa",
+   "https://grokipedia.com/page/Pope_Gregory_VII"
+  ],
+  "domain": [
+   "religion",
+   "politics"
+  ],
+  "aliases": [
+   "Gregorian Reforms",
+   "papal monarchy",
+   "Investiture Controversy",
+   "Dictatus papae",
+   "papal supremacy"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Rome",
+     "period": "1049-1085",
+     "src": "https://grokipedia.com/page/Gregorian_Reform",
+     "note": "Leo IX's 1049 Easter Synod in Rome condemned simony; Gregory VII carried the reform on (Grokipedia)."
+    },
+    {
+     "place": "Canossa",
+     "period": "1077",
+     "src": "https://grokipedia.com/page/Road_to_Canossa",
+     "note": "Henry IV did penance at the castle gates in January 1077 before Gregory lifted his excommunication (Grokipedia)."
+    }
+   ]
+  },
+  "edge_notes": {
+   "roman_catholicism": {
+    "status": "documented",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Gregorian_Reform",
+    "note": "Grokipedia: a series of reforms 'in the 11th-century Catholic Church' that elevated 'papal authority as supreme in spiritual matters'."
+   }
+  },
+  "parent_note": "One sourced parent. Links to the Crusade idea (Urban II) and to Cluniac monastic reform are not drawn; held for review.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 5,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 0,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 2,
+   "hierarchy": 5
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "A reform inside the Latin Church to purify the clergy and free church offices from lay control (Grokipedia).",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "Comes before Enlightenment liberalism existed, so it cannot descend from it.",
+   "marxism": "Comes before Marxism existed, so it cannot descend from it.",
+   "darwinism": "Comes before Darwinism existed, so it cannot descend from it.",
+   "nietzsche": "Comes before Nietzsche existed, so it cannot descend from it.",
+   "critical_theory": "Comes before Critical theory existed, so it cannot descend from it.",
+   "confucianism": "No clear debt to, or quarrel with, Confucianism.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islam": "No clear debt to, or quarrel with, Islam.",
+   "judaism": "No clear debt to, or quarrel with, Judaism.",
+   "romanticism": "Comes before Romanticism existed, so it cannot descend from it.",
+   "nationalism": "Comes before Nationalism existed, so it cannot descend from it.",
+   "humor": "No clear debt to, or quarrel with, Humor.",
+   "irony": "No clear debt to, or quarrel with, Irony.",
+   "abstraction": "Concrete fights over who appoints bishops, but grounded in the claim that spiritual power outranks earthly power.",
+   "hierarchy": "Puts the pope above all bishops and claims power to depose emperors (Grokipedia, Dictatus papae)."
+  }
+ },
+ {
+  "id": "conciliarism",
+  "name": "Conciliarism",
+  "root": false,
+  "root_axis": null,
+  "year": 1415,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Conciliarism",
+  "origin_note": "Grokipedia: the Council of Constance's decree Haec sancta (April 6, 1415) said the council's authority came directly from Christ and bound the pope. The idea grew during the Western Schism (1378-1417).",
+  "place": "Constance",
+  "lat": 47.6603,
+  "lon": 9.1758,
+  "thinkers": [
+   "Jean Gerson",
+   "Pierre d'Ailly",
+   "Marsilius of Padua"
+  ],
+  "parents": [
+   "roman_catholicism",
+   "gregorian_reform"
+  ],
+  "plain": "The late-medieval view that a general council of the Church, not the pope, holds the highest authority. A council could reform the Church and even remove a bad pope.",
+  "summary": "Late-medieval claim that general councils outrank the pope. Constance (1414-1418) ended a three-way papal schism; Haec sancta (1415) said even a pope must obey a council.",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Conciliarism",
+   "https://grokipedia.com/page/Council_of_Constance",
+   "https://grokipedia.com/page/Council_of_Basel",
+   "https://grokipedia.com/page/Jean_Gerson",
+   "https://grokipedia.com/page/Marsilius_of_Padua"
+  ],
+  "domain": [
+   "religion",
+   "politics"
+  ],
+  "aliases": [
+   "conciliar movement",
+   "conciliar theory",
+   "Haec sancta",
+   "conciliar supremacy"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Constance",
+     "period": "1414-1418",
+     "src": "https://grokipedia.com/page/Council_of_Constance",
+     "note": "The council deposed or accepted the resignation of three rival claimants and elected Martin V (Grokipedia)."
+    },
+    {
+     "place": "Basel",
+     "period": "1431-1449",
+     "src": "https://grokipedia.com/page/Council_of_Basel",
+     "note": "Reaffirmed council over pope, then broke up amid papal resistance (Grokipedia, Conciliarism)."
+    },
+    {
+     "place": "Paris",
+     "period": "c.1380-1420",
+     "src": "https://grokipedia.com/page/Jean_Gerson",
+     "note": "University of Paris chancellors Pierre d'Ailly and Jean Gerson led its theory (Grokipedia, Conciliarism)."
+    }
+   ]
+  },
+  "edge_notes": {
+   "roman_catholicism": {
+    "status": "documented",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Conciliarism",
+    "note": "Grokipedia: 'a late medieval theory and reform movement within the Catholic Church'."
+   },
+   "gregorian_reform": {
+    "status": "documented",
+    "type": "reaction",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Conciliarism",
+    "note": "Grokipedia: it 'challenged the emerging doctrine of papal monarchy'; Dictatus papae is called that monarchy's 'foundational manifesto' (Grokipedia, Dictatus papae)."
+   }
+  },
+  "parent_note": "Two sourced parents. Ockham and Marsilius are named as thinkers; a nominalism edge is not drawn. Gallicanism is a held lead.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 1,
+   "stoicism": 0,
+   "christianity": 5,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 0,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 1,
+   "hierarchy": 2
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "Scholastic debates drew 'from Aristotelian notions of organic unity' to treat the Church as one body (Grokipedia).",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "A theory of how the Church itself is governed, argued from Scripture, the Church Fathers and canon law (Grokipedia).",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "Comes before Enlightenment liberalism existed, so it cannot descend from it.",
+   "marxism": "Comes before Marxism existed, so it cannot descend from it.",
+   "darwinism": "Comes before Darwinism existed, so it cannot descend from it.",
+   "nietzsche": "Comes before Nietzsche existed, so it cannot descend from it.",
+   "critical_theory": "Comes before Critical theory existed, so it cannot descend from it.",
+   "confucianism": "No clear debt to, or quarrel with, Confucianism.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islam": "No clear debt to, or quarrel with, Islam.",
+   "judaism": "No clear debt to, or quarrel with, Judaism.",
+   "romanticism": "Comes before Romanticism existed, so it cannot descend from it.",
+   "nationalism": "Comes before Nationalism existed, so it cannot descend from it.",
+   "humor": "No clear debt to, or quarrel with, Humor.",
+   "irony": "No clear debt to, or quarrel with, Irony.",
+   "abstraction": "About concrete procedures: who calls a council, who votes, and when a pope can be removed.",
+   "hierarchy": "Keeps bishops and clergy but moves final authority from one ruler to a representative council that can depose him."
+  }
+ },
+ {
+  "id": "ultramontanism",
+  "name": "Ultramontanism and papal infallibility",
+  "root": false,
+  "root_axis": null,
+  "year": 1870,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Pastor_aeternus",
+  "origin_note": "Grokipedia: on July 18, 1870, the First Vatican Council approved Pastor aeternus, 533 votes to 2, defining papal primacy and infallibility; Joseph de Maistre's Du Pape (1819) had argued the case.",
+  "place": "Rome",
+  "lat": 41.9022,
+  "lon": 12.4539,
+  "thinkers": [
+   "Joseph de Maistre",
+   "Pius IX",
+   "Henry Edward Manning",
+   "Louis Veuillot"
+  ],
+  "parents": [
+   "gregorian_reform",
+   "tridentine_catholicism",
+   "conciliarism"
+  ],
+  "plain": "The 19th-century Catholic movement to strengthen the pope's direct authority over the whole Church. In 1870 it won the teaching that the pope cannot err when he formally defines a doctrine.",
+  "summary": "'Beyond the mountains': Rome-centred Catholicism against national churches and councils. Vatican I's Pastor aeternus (1870) defined the pope's supreme jurisdiction and ex cathedra infallibility.",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Ultramontanism",
+   "https://grokipedia.com/page/Pastor_aeternus",
+   "https://grokipedia.com/page/Papal_infallibility",
+   "https://grokipedia.com/page/First_Vatican_Council",
+   "https://grokipedia.com/page/Joseph_de_Maistre"
+  ],
+  "domain": [
+   "religion",
+   "politics"
+  ],
+  "aliases": [
+   "papal infallibility",
+   "Vatican I",
+   "Pastor aeternus",
+   "ultramontane"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Rome",
+     "period": "1869-1870",
+     "src": "https://grokipedia.com/page/First_Vatican_Council",
+     "note": "The First Vatican Council met in St. Peter's Basilica (Grokipedia, Pastor aeternus)."
+    },
+    {
+     "place": "France",
+     "period": "19th century",
+     "src": "https://grokipedia.com/page/Ultramontanism",
+     "note": "Journalist Louis Veuillot popularized it against Gallicanism (Grokipedia)."
+    },
+    {
+     "place": "Westminster",
+     "period": "1865-1870",
+     "src": "https://grokipedia.com/page/Henry_Edward_Manning",
+     "note": "Archbishop Manning pressed for the definition (Grokipedia, Pastor aeternus)."
+    }
+   ]
+  },
+  "edge_notes": {
+   "gregorian_reform": {
+    "status": "documented",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Ultramontanism",
+    "note": "Grokipedia: the Gregorian Reforms and Dictatus papae are its 'medieval precursors' that 'prefigured ultramontanism'."
+   },
+   "tridentine_catholicism": {
+    "status": "documented",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Ultramontanism",
+    "note": "Grokipedia: the Council of Trent 'centralized doctrinal authority under the papacy... laying foundational support for ultramontane centralization'."
+   },
+   "conciliarism": {
+    "status": "documented",
+    "type": "reaction",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Ultramontanism",
+    "note": "Grokipedia: ultramontanism stands 'against Gallican or conciliarist dilutions of Roman oversight'; Vatican I affirmed papal primacy (Grokipedia, Conciliarism)."
+   }
+  },
+  "parent_note": "Three sourced parents. Catholic integralism (Syllabus of Errors, 1864) is a near relative; no edge drawn. Gallicanism and Febronianism are held leads.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 5,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": -3,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": -2,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 2,
+   "hierarchy": 5
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "A view of Church authority grounded in Christ's promise to Peter and Roman primacy (Grokipedia).",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "De Maistre saw the papacy as 'the ultimate arbiter against liberal fragmentation'; it set out to resist liberal influences (Grokipedia).",
+   "marxism": "Contemporary with early Marxism, with no exchange between them.",
+   "darwinism": "Contemporary with Darwin's theory, with no direct engagement in its claims.",
+   "nietzsche": "Comes before Nietzsche's major works, so it cannot descend from them.",
+   "critical_theory": "Comes before Critical theory existed, so it cannot descend from it.",
+   "confucianism": "No clear debt to, or quarrel with, Confucianism.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islam": "No clear debt to, or quarrel with, Islam.",
+   "judaism": "No clear debt to, or quarrel with, Judaism.",
+   "romanticism": "Rose in the same post-Revolution reaction, but grounded its case in Church tradition, not feeling or folk culture.",
+   "nationalism": "Opposed national church autonomy; Grokipedia says it 'fortified Catholic unity against nationalism'.",
+   "humor": "No clear debt to, or quarrel with, Humor.",
+   "irony": "No clear debt to, or quarrel with, Irony.",
+   "abstraction": "Centres on a doctrinal claim: a protected, error-free teaching office, alongside concrete church law.",
+   "hierarchy": "Places full, supreme and direct jurisdiction over the whole Church in the pope (Grokipedia, Pastor aeternus)."
+  }
+ },
+ {
+  "id": "continuing_revolution",
+  "name": "Continuing the revolution (Cultural Revolution doctrine)",
+  "root": false,
+  "root_axis": null,
+  "year": 1966,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Cultural_Revolution",
+  "origin_note": "Grokipedia: the May 16 Notification (May 16, 1966), drafted mainly by Mao with revisions led by Chen Boda and Kang Sheng, launched the Cultural Revolution as a 'continuing revolution' against 'capitalist roaders'.",
+  "place": "Beijing",
+  "lat": 39.9042,
+  "lon": 116.4074,
+  "thinkers": [
+   "Mao Zedong",
+   "Chen Boda",
+   "Kang Sheng",
+   "Zhang Chunqiao"
+  ],
+  "parents": [
+   "maoism"
+  ],
+  "plain": "Mao's late teaching that class struggle goes on after a communist revolution, with new 'capitalist roaders' inside the party, so the masses must rise against them again and again.",
+  "summary": "Mao's 'continuing the revolution under the dictatorship of the proletariat', the theory behind the Cultural Revolution (1966-1976); the party's 1981 resolution called it a 'left' error.",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Maoism",
+   "https://grokipedia.com/page/Cultural_Revolution",
+   "https://grokipedia.com/page/Gang_of_Four",
+   "https://grokipedia.com/page/Red_Guards",
+   "https://grokipedia.com/page/Zhang_Chunqiao"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "aliases": [
+   "continuing the revolution under the dictatorship of the proletariat",
+   "continuous revolution",
+   "Cultural Revolution",
+   "Great Proletarian Cultural Revolution",
+   "capitalist roaders"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Beijing",
+     "period": "1966",
+     "src": "https://grokipedia.com/page/Cultural_Revolution",
+     "note": "Red Guard violence peaked in Beijing in 'Red August' 1966, as the Eleventh Plenum met (Grokipedia)."
+    },
+    {
+     "place": "Shanghai",
+     "period": "1967-1976",
+     "src": "https://grokipedia.com/page/Gang_of_Four",
+     "note": "The 1967 'January Storm' set up a Mao loyalist commune; the Gang of Four rose from Shanghai (Grokipedia)."
+    }
+   ]
+  },
+  "edge_notes": {
+   "maoism": {
+    "status": "documented",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Maoism",
+    "note": "Grokipedia: 'a distinctive late development in Maoist theory was the doctrine of continuing the revolution under the dictatorship of the proletariat'."
+   }
+  },
+  "parent_note": "One sourced parent. A reaction edge from Stalinism (Stalin's 1936 claim that exploiting classes were gone) and a link to the Chinese New Left are held for review.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": -4,
+   "marxism": 5,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": -4,
+   "daoism": -2,
+   "buddhism": -2,
+   "vedanta": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -1,
+   "hierarchy": 2
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "No clear debt to, or quarrel with, Christianity.",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "Treated 'bourgeois rights' and dissent as threats to be rooted out by mass struggle (Grokipedia, Gang of Four).",
+   "marxism": "Built on the Marxist ideas of class struggle and the dictatorship of the proletariat, pushed into the socialist era itself (Grokipedia, Maoism).",
+   "darwinism": "No clear debt to, or quarrel with, Darwinism.",
+   "nietzsche": "No clear debt to, or quarrel with, Nietzsche.",
+   "critical_theory": "No clear debt to, or quarrel with, Critical theory.",
+   "confucianism": "Attacked the 'Four Olds' (old ideas, culture, customs, habits) and ran a 'Criticize Lin, Criticize Confucius' campaign (Grokipedia).",
+   "daoism": "Red Guards ransacked temples during the attack on the 'Four Olds' (Grokipedia, Cultural Revolution).",
+   "buddhism": "Red Guards ransacked temples during the attack on the 'Four Olds' (Grokipedia, Cultural Revolution).",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islam": "No clear debt to, or quarrel with, Islam.",
+   "judaism": "No clear debt to, or quarrel with, Judaism.",
+   "romanticism": "No clear debt to, or quarrel with, Romanticism.",
+   "nationalism": "No clear debt to, or quarrel with, Nationalism.",
+   "humor": "No clear debt to, or quarrel with, Humor.",
+   "irony": "No clear debt to, or quarrel with, Irony.",
+   "abstraction": "A theory of class and 'superstructure', but lived out as concrete purges, struggle sessions and power seizures.",
+   "hierarchy": "Set the masses against party officials ('bombard the headquarters'), yet rested on Mao's own authority and personality cult (Grokipedia)."
+  }
+ },
+ {
+  "id": "dar_al_islam",
+  "name": "Dar al-Islam and dar al-harb (Islamic law's division of the world)",
+  "root": false,
+  "root_axis": null,
+  "year": 800,
+  "year_approx": true,
+  "origin_src": "https://grokipedia.com/page/Divisions_of_the_world_in_Islam",
+  "origin_note": "Grokipedia: the binary was formalized in classical fiqh in the 8th-13th centuries; al-Shaybani's (d. 805) Kitab al-Siyar al-Kabir is the earliest comprehensive text. Year c. 800 approximates it.",
+  "place": "Baghdad",
+  "lat": 33.3152,
+  "lon": 44.3661,
+  "thinkers": [
+   "Abu Hanifa",
+   "Muhammad al-Shaybani",
+   "al-Shafi'i",
+   "al-Mawardi"
+  ],
+  "parents": [
+   "islam"
+  ],
+  "plain": "Classical Islamic law's map of the world: lands under Muslim rule and Islamic law (the abode of Islam), lands outside it (the abode of war), and lands in between bound by treaty.",
+  "summary": "Jurists of the 8th-13th centuries split the world into dar al-Islam and dar al-harb, with truce zones (dar al-sulh), and set rules for war, treaties and envoys (siyar).",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Divisions_of_the_world_in_Islam",
+   "https://grokipedia.com/page/Muhammad_al-Shaybani",
+   "https://grokipedia.com/page/Abu_Hanifa",
+   "https://grokipedia.com/page/World_Order_(book)"
+  ],
+  "domain": [
+   "religion",
+   "politics"
+  ],
+  "aliases": [
+   "dar al-Islam",
+   "dar al-harb",
+   "dar al-sulh",
+   "dar al-ahd",
+   "abode of Islam",
+   "abode of war",
+   "siyar",
+   "Islamic law of nations",
+   "divisions of the world in Islam"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Baghdad",
+     "period": "c. 800",
+     "src": "https://grokipedia.com/page/Muhammad_al-Shaybani",
+     "note": "Al-Shaybani compiled his seminal texts, including the Siyar on interstate conduct, as a leading Hanafi jurist in Abbasid Baghdad (Grokipedia)."
+    },
+    {
+     "place": "Ottoman Empire",
+     "period": "16th century",
+     "src": "https://grokipedia.com/page/Divisions_of_the_world_in_Islam",
+     "note": "Ebussuud Efendi's fatwas allowed lasting truces with European powers, as in the 1536 capitulations with France (Grokipedia)."
+    }
+   ]
+  },
+  "edge_notes": {
+   "islam": {
+    "status": "documented",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Divisions_of_the_world_in_Islam",
+    "note": "Grokipedia: the divisions were 'elaborated by jurists of the formative period such as those in the Hanafi and Maliki schools' of Islamic law."
+   }
+  },
+  "parent_note": "One sourced parent (Islam). A link to Salafism, which Grokipedia says keeps the classical binary, is held for review.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": -1,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": -2,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islam": 5,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": -1,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -1,
+   "hierarchy": 3
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "Christian realms outside Muslim rule counted as dar al-harb unless bound by treaty; Christians under Muslim rule lived as protected dhimmis.",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "Gives non-Muslims protected but unequal status (dhimma) and sorts the world by religious law, not equal rights or equal states.",
+   "marxism": "No clear debt to, or quarrel with, Marxism.",
+   "darwinism": "No clear debt to, or quarrel with, Darwinism.",
+   "nietzsche": "No clear debt to, or quarrel with, Nietzsche.",
+   "critical_theory": "No clear debt to, or quarrel with, Critical theory.",
+   "confucianism": "No clear debt to, or quarrel with, Confucianism.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islam": "A doctrine of classical Islamic jurisprudence (fiqh): it sorts lands by whether Muslim rulers enforce Islamic law (Grokipedia).",
+   "judaism": "Jews under Muslim rule were protected dhimmis paying jizya, as the Constitution of Medina first set out ties with Jewish tribes (Grokipedia).",
+   "romanticism": "No clear debt to, or quarrel with, Romanticism.",
+   "nationalism": "Sorts the world by faith and law, not by nation; modern thinkers have tried to fit it to a world of nation-states (Grokipedia).",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Not carried in an ironic tone.",
+   "abstraction": "Grokipedia: formalization 'hinged on empirical control rather than abstract ideology', i.e. who actually rules a land.",
+   "hierarchy": "Places the Muslim polity over protected non-Muslims and treats lands outside it as hostile until they submit or sign a truce."
+  }
+ },
+ {
+  "id": "arthashastra_statecraft",
+  "name": "Arthashastra statecraft (Kautilya's circle of kings)",
+  "root": false,
+  "root_axis": null,
+  "year": -300,
+  "year_approx": true,
+  "origin_src": "https://grokipedia.com/page/Arthashastra",
+  "origin_note": "Grokipedia: traditionally dated to the late 4th century BCE and attributed to Kautilya (Chanakya), adviser to Chandragupta Maurya; scholars see a core of c. 350-300 BCE with prose layers added up to the 1st-3rd centuries CE. Year c. 300 BCE approximates the core.",
+  "place": "Pataliputra (Maurya capital, traditional setting)",
+  "lat": 25.5941,
+  "lon": 85.1376,
+  "thinkers": [
+   "Kautilya"
+  ],
+  "parents": [],
+  "plain": "An ancient Indian manual for kings that treats foreign affairs as a contest of power: your neighbor is your natural enemy, and your neighbor's neighbor is your natural friend.",
+  "summary": "The Arthashastra's rajamandala sets the ruler at the center of rings of states, enemy then ally then enemy's ally, and offers six policies from treaty and war to neutrality and alliance.",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Arthashastra",
+   "https://grokipedia.com/page/Rajamandala",
+   "https://grokipedia.com/page/Chanakya",
+   "https://grokipedia.com/page/Mandala_(political_model)"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "aliases": [
+   "Arthashastra",
+   "Kautilya",
+   "Chanakya",
+   "rajamandala",
+   "mandala theory",
+   "circle of kings",
+   "circle of states",
+   "shadgunya",
+   "sixfold policy",
+   "Kautilyan realism"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Maurya Empire",
+     "period": "c. 321-185 BCE",
+     "src": "https://grokipedia.com/page/Rajamandala",
+     "note": "Grokipedia ties it to Chandragupta Maurya's overthrow of the Nandas (c. 321 BCE) and his later treaty with Seleucus I, guided by Kautilya by tradition."
+    },
+    {
+     "place": "Mysore",
+     "period": "1905",
+     "src": "https://grokipedia.com/page/Arthashastra",
+     "note": "Largely lost after the 12th century; R. Shamasastry found a palm-leaf manuscript in Mysore's Oriental Library in 1905 (Grokipedia)."
+    }
+   ]
+  },
+  "edge_notes": {},
+  "parent_note": "Parentless: it grew from India's older policy (niti) literature, which is not a node. Grokipedia calls it a forerunner of balance-of-power thinking and compares it to realism; those links are parallels, not descent, so they are held for review.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": -2,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": -1,
+   "daoism": 0,
+   "buddhism": -1,
+   "vedanta": 1,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -2,
+   "hierarchy": 4
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "Comes before Christianity existed, so it cannot descend from it.",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "Ranks society by varna and centers all power on the king and his spies; no idea of equal rights or limited government.",
+   "marxism": "No clear debt to, or quarrel with, Marxism.",
+   "darwinism": "No clear debt to, or quarrel with, Darwinism.",
+   "nietzsche": "No clear debt to, or quarrel with, Nietzsche.",
+   "critical_theory": "No clear debt to, or quarrel with, Critical theory.",
+   "confucianism": "Grokipedia: its realist framework 'contrasts sharply with Confucian harmony in China'.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "Grokipedia: its realist framework 'contrasts sharply' with Theravada ethics in Southeast Asia.",
+   "vedanta": "A Brahmanical text that keeps the four varnas and the goals dharma, artha, kama, but argues from power, not from Vedanta's teaching on Brahman.",
+   "islam": "Comes before Islam existed, so it cannot descend from it.",
+   "judaism": "No clear debt to, or quarrel with, Judaism.",
+   "romanticism": "No clear debt to, or quarrel with, Romanticism.",
+   "nationalism": "Comes before nationalism; it weighs kings and their power, not nations or peoples.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Not carried in an ironic tone.",
+   "abstraction": "Grokipedia: it weighs army, treasury, land and allies, 'prioritizing causal dynamics of force over abstract ethical bonds'.",
+   "hierarchy": "The king and his ministers stand above four ranked varnas; abroad, strong states dictate unequal treaties to weak ones."
+  }
+ },
+ {
+  "id": "collective_security",
+  "name": "Collective security",
+  "root": false,
+  "root_axis": null,
+  "year": 1919,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Covenant_of_the_League_of_Nations",
+  "origin_note": "Grokipedia: the Covenant of the League of Nations was adopted on 28 April 1919 at the Paris Peace Conference and signed on 28 June 1919 as Part I of the Treaty of Versailles; its Articles 10 and 16 set out collective security.",
+  "place": "Paris",
+  "lat": 48.8566,
+  "lon": 2.3522,
+  "thinkers": [
+   "Woodrow Wilson",
+   "Jan Smuts"
+  ],
+  "parents": [
+   "wilsonianism"
+  ],
+  "plain": "The promise that if any country attacks another, all the others will treat it as an attack on themselves and act together to stop it.",
+  "summary": "States pledge joint action against any aggressor, named by a common body rather than by fixed alliances; written into the League of Nations Covenant (1919) and the UN Charter's Chapter VII (1945).",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Collective_security",
+   "https://grokipedia.com/page/Covenant_of_the_League_of_Nations",
+   "https://grokipedia.com/page/League_of_Nations",
+   "https://grokipedia.com/page/Liberal_international_order",
+   "https://grokipedia.com/page/Jan_Smuts"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "aliases": [
+   "League of Nations Covenant",
+   "Article 10",
+   "Article 16",
+   "UN Charter Chapter VII",
+   "indivisible peace",
+   "an attack on one is an attack on all"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Geneva",
+     "period": "1920–1946",
+     "src": "https://grokipedia.com/page/League_of_Nations",
+     "note": "The League sat in Geneva until its Assembly dissolved it on 18 April 1946 and passed its assets and functions to the UN (Grokipedia)."
+    },
+    {
+     "place": "New York",
+     "period": "1945–",
+     "src": "https://grokipedia.com/page/Collective_security",
+     "note": "The UN Charter's Chapter VII lets the Security Council name aggressors and authorize force; first major use: Korea, 1950 (Grokipedia)."
+    }
+   ]
+  },
+  "edge_notes": {
+   "wilsonianism": {
+    "status": "documented",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Covenant_of_the_League_of_Nations",
+    "note": "The Covenant was 'influenced by U.S. President Woodrow Wilson's Fourteen Points', whose Point 14 called for a general association of nations (Grokipedia)."
+   }
+  },
+  "parent_note": "Grokipedia lists older precursors: Richelieu's 1629 alliance scheme, the Holy Alliance and the Concert of Europe (1815), and Kant's Perpetual Peace (1795). It sets collective security against the balance of power, so those are precursors or contrasts, not parents here.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 4,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": -1,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 2,
+   "hierarchy": -1
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "Grokipedia names the Holy Alliance's Christian pledge as a forerunner, but the Covenant itself is secular.",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "Grokipedia: liberals see it as a path to perpetual peace, 'rooted in the Kantian ideal of a confederation of free states'.",
+   "marxism": "No clear debt to, or quarrel with, Marxism.",
+   "darwinism": "No clear debt to, or quarrel with, Darwinism.",
+   "nietzsche": "No clear debt to, or quarrel with, Nietzsche.",
+   "critical_theory": "No clear debt to, or quarrel with, Critical theory.",
+   "confucianism": "No clear debt to, or quarrel with, Confucianism.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islam": "No clear debt to, or quarrel with, Islam.",
+   "judaism": "No clear debt to, or quarrel with, Judaism.",
+   "romanticism": "No clear debt to, or quarrel with, Romanticism.",
+   "nationalism": "Asks states to put the common peace above national rivalries, though Article 10 guards each member's borders and independence.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Rests on a general rule, that aggression against one threatens all, judged by a common body rather than by named enemies.",
+   "hierarchy": "Promises the same protection to great and small states, yet League and UN councils gave permanent seats (and UN vetoes) to the great powers."
   }
  }
 ]
