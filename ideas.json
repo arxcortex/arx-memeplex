@@ -32150,7 +32150,8 @@
    "Harry S. Truman"
   ],
   "parents": [
-   "wilsonianism"
+   "wilsonianism",
+   "collective_security"
   ],
   "plain": "The set of rules and institutions built mainly by the US after 1945, such as the UN, the IMF, the World Bank and NATO, meant to promote open trade, democracy and peaceful dispute settlement.",
   "summary": "Postwar rules-based system of open markets, alliances and international law, from Bretton Woods (1944) and the UN (1945); critics see it as a cover for US hegemony.",
@@ -32159,7 +32160,8 @@
    "https://grokipedia.com/page/Liberal_international_order",
    "https://grokipedia.com/page/Bretton_Woods_Conference",
    "https://grokipedia.com/page/Woodrow_Wilson",
-   "https://grokipedia.com/page/Harry_Dexter_White"
+   "https://grokipedia.com/page/Harry_Dexter_White",
+   "https://grokipedia.com/page/Collective_security"
   ],
   "domain": [
    "politics"
@@ -32186,6 +32188,13 @@
     "strength": "strong",
     "src": "https://grokipedia.com/page/Liberal_international_order",
     "note": "Wilson's Fourteen Points (1918) 'served as a blueprint for a proto-liberal order' of collective security and open trade."
+   },
+   "collective_security": {
+    "status": "documented",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Collective_security",
+    "note": "The UN (1945) 'aimed to institutionalize collective security as a successor to the failed League of Nations', under Chapter VII (Grokipedia, Collective security)."
    }
   },
   "parent_note": "Keynes's bancor plan lost at Bretton Woods to White's dollar-based plan, so Keynesian economics is not drawn as a parent (Grokipedia, Bretton Woods Conference).",
@@ -40236,6 +40245,124 @@
    "irony": "Not carried in an ironic tone.",
    "abstraction": "Grokipedia: it weighs army, treasury, land and allies, 'prioritizing causal dynamics of force over abstract ethical bonds'.",
    "hierarchy": "The king and his ministers stand above four ranked varnas; abroad, strong states dictate unequal treaties to weak ones."
+  }
+ },
+ {
+  "id": "collective_security",
+  "name": "Collective security",
+  "root": false,
+  "root_axis": null,
+  "year": 1919,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Covenant_of_the_League_of_Nations",
+  "origin_note": "Grokipedia: the Covenant of the League of Nations was adopted on 28 April 1919 at the Paris Peace Conference and signed on 28 June 1919 as Part I of the Treaty of Versailles; its Articles 10 and 16 set out collective security.",
+  "place": "Paris",
+  "lat": 48.8566,
+  "lon": 2.3522,
+  "thinkers": [
+   "Woodrow Wilson",
+   "Jan Smuts"
+  ],
+  "parents": [
+   "wilsonianism"
+  ],
+  "plain": "The promise that if any country attacks another, all the others will treat it as an attack on themselves and act together to stop it.",
+  "summary": "States pledge joint action against any aggressor, named by a common body rather than by fixed alliances; written into the League of Nations Covenant (1919) and the UN Charter's Chapter VII (1945).",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Collective_security",
+   "https://grokipedia.com/page/Covenant_of_the_League_of_Nations",
+   "https://grokipedia.com/page/League_of_Nations",
+   "https://grokipedia.com/page/Liberal_international_order",
+   "https://grokipedia.com/page/Jan_Smuts"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "aliases": [
+   "League of Nations Covenant",
+   "Article 10",
+   "Article 16",
+   "UN Charter Chapter VII",
+   "indivisible peace",
+   "an attack on one is an attack on all"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "Geneva",
+     "period": "1920–1946",
+     "src": "https://grokipedia.com/page/League_of_Nations",
+     "note": "The League sat in Geneva until its Assembly dissolved it on 18 April 1946 and passed its assets and functions to the UN (Grokipedia)."
+    },
+    {
+     "place": "New York",
+     "period": "1945–",
+     "src": "https://grokipedia.com/page/Collective_security",
+     "note": "The UN Charter's Chapter VII lets the Security Council name aggressors and authorize force; first major use: Korea, 1950 (Grokipedia)."
+    }
+   ]
+  },
+  "edge_notes": {
+   "wilsonianism": {
+    "status": "documented",
+    "type": "descent",
+    "strength": "strong",
+    "src": "https://grokipedia.com/page/Covenant_of_the_League_of_Nations",
+    "note": "The Covenant was 'influenced by U.S. President Woodrow Wilson's Fourteen Points', whose Point 14 called for a general association of nations (Grokipedia)."
+   }
+  },
+  "parent_note": "Grokipedia lists older precursors: Richelieu's 1629 alliance scheme, the Holy Alliance and the Concert of Europe (1815), and Kant's Perpetual Peace (1795). It sets collective security against the balance of power, so those are precursors or contrasts, not parents here.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 4,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": -1,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": 2,
+   "hierarchy": -1
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "Grokipedia names the Holy Alliance's Christian pledge as a forerunner, but the Covenant itself is secular.",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "Grokipedia: liberals see it as a path to perpetual peace, 'rooted in the Kantian ideal of a confederation of free states'.",
+   "marxism": "No clear debt to, or quarrel with, Marxism.",
+   "darwinism": "No clear debt to, or quarrel with, Darwinism.",
+   "nietzsche": "No clear debt to, or quarrel with, Nietzsche.",
+   "critical_theory": "No clear debt to, or quarrel with, Critical theory.",
+   "confucianism": "No clear debt to, or quarrel with, Confucianism.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islam": "No clear debt to, or quarrel with, Islam.",
+   "judaism": "No clear debt to, or quarrel with, Judaism.",
+   "romanticism": "No clear debt to, or quarrel with, Romanticism.",
+   "nationalism": "Asks states to put the common peace above national rivalries, though Article 10 guards each member's borders and independence.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Rests on a general rule, that aggression against one threatens all, judged by a common body rather than by named enemies.",
+   "hierarchy": "Promises the same protection to great and small states, yet League and UN councils gave permanent seats (and UN vetoes) to the great powers."
   }
  }
 ]
