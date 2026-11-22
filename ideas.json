@@ -40364,5 +40364,120 @@
    "abstraction": "Rests on a general rule, that aggression against one threatens all, judged by a common body rather than by named enemies.",
    "hierarchy": "Promises the same protection to great and small states, yet League and UN councils gave permanent seats (and UN vetoes) to the great powers."
   }
+ },
+ {
+  "id": "hegemonic_stability_theory",
+  "name": "Hegemonic stability theory",
+  "root": false,
+  "root_axis": null,
+  "year": 1973,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Charles_P._Kindleberger",
+  "origin_note": "Grokipedia: Kindleberger's The World in Depression, 1929–1939 was published in 1973 and blamed the Depression's depth on no state leading after Britain's decline; he was an economics professor at the Massachusetts Institute of Technology from 1948 to 1976.",
+  "place": "Cambridge, Massachusetts",
+  "lat": 42.3601,
+  "lon": -71.0942,
+  "thinkers": [
+   "Charles P. Kindleberger",
+   "Robert Gilpin",
+   "Stephen D. Krasner"
+  ],
+  "parents": [
+   "political_realism"
+  ],
+  "plain": "The idea that the world economy stays open and calm only when one very strong country leads it and pays to keep trade, money and sea lanes safe.",
+  "summary": "Kindleberger (1973) blamed the Depression on no state leading after Britain's decline; Gilpin (1981) and Krasner made it a theory of hegemons supplying order. Critics dispute the evidence.",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Hegemonic_stability_theory",
+   "https://grokipedia.com/page/Charles_P._Kindleberger",
+   "https://grokipedia.com/page/Robert_Gilpin",
+   "https://grokipedia.com/page/Stephen_D._Krasner"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "aliases": [
+   "HST",
+   "theory of hegemonic stability",
+   "hegemonic leadership"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "International political economy debates, 1970s–",
+     "period": "1973–",
+     "src": "https://grokipedia.com/page/Hegemonic_stability_theory",
+     "note": "Gilpin (1981) and Krasner extended it; Keohane's institutionalists said regimes can outlast the hegemon (Grokipedia)."
+    },
+    {
+     "place": "US–China rivalry debates",
+     "period": "2010s–",
+     "src": "https://grokipedia.com/page/Hegemonic_stability_theory",
+     "note": "Grokipedia covers its use to ask whether US relative decline and China's rise will bring a less stable order."
+    }
+   ]
+  },
+  "edge_notes": {
+   "political_realism": {
+    "status": "documented",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Hegemonic_stability_theory",
+    "note": "Grokipedia calls it 'a realist-oriented framework' whose foundations 'trace to classical realist insights into power dynamics'; Gilpin built it out as a realist."
+   }
+  },
+  "parent_note": "Grokipedia ties it to realism and cites the Pax Britannica (1815–1914) and Pax Americana (1945–) as its model eras. Links to informal_empire, neorealism (balancing against hegemons) and thucydides_trap (power transitions) are held: resemblance, not documented descent.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 1,
+   "marxism": -1,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -1,
+   "hierarchy": 3
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "No clear debt to, or quarrel with, Christianity.",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "Values the liberal goods of open trade and stable money, but says only a dominant power will supply them, not a natural harmony of interests.",
+   "marxism": "Treats the leader's power and costs, not class or capital, as what holds the world economy together.",
+   "darwinism": "No clear debt to, or quarrel with, Darwinism.",
+   "nietzsche": "No clear debt to, or quarrel with, Nietzsche.",
+   "critical_theory": "No clear debt to, or quarrel with, Critical theory.",
+   "confucianism": "No clear debt to, or quarrel with, Confucianism.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islam": "No clear debt to, or quarrel with, Islam.",
+   "judaism": "No clear debt to, or quarrel with, Judaism.",
+   "romanticism": "No clear debt to, or quarrel with, Romanticism.",
+   "nationalism": "No clear debt to, or quarrel with, Nationalism.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Explains order by concrete things: a leader's navy, currency, loans and open markets.",
+   "hierarchy": "Holds that world order works best with one state on top, writing the rules and bearing the costs."
+  }
  }
 ]
