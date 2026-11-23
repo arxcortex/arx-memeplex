@@ -31203,7 +31203,8 @@
    "Nicholas J. Spykman"
   ],
   "parents": [
-   "darwinian_selection"
+   "darwinian_selection",
+   "sea_power"
   ],
   "plain": "The idea that whoever controls the huge interior of Eurasia, out of reach of sea power, can dominate the world. It shaped Western strategy in both world wars and the Cold War.",
   "summary": "Mackinder's 1904 thesis that inner Eurasia is the pivot of world power: 'Who rules the Heartland commands the World-Island'; later refined by Spykman's Rimland.",
@@ -31211,7 +31212,8 @@
   "sources": [
    "https://grokipedia.com/page/The_Geographical_Pivot_of_History",
    "https://grokipedia.com/page/Halford_Mackinder",
-   "https://grokipedia.com/page/Nicholas_J._Spykman"
+   "https://grokipedia.com/page/Nicholas_J._Spykman",
+   "https://grokipedia.com/page/Alfred_Thayer_Mahan"
   ],
   "domain": [
    "politics"
@@ -31243,6 +31245,13 @@
     "strength": "weak",
     "src": "https://grokipedia.com/page/The_Geographical_Pivot_of_History",
     "note": "Trained in evolutionary biology, Mackinder applied 'Darwinian concepts of adaptation and competition' to states."
+   },
+   "sea_power": {
+    "status": "documented",
+    "type": "reaction",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Alfred_Thayer_Mahan",
+    "note": "Grokipedia calls Mackinder's 1904 lecture 'a stark geopolitical rebuttal' of Mahan: railways would let a land power out-gather sea power."
    }
   },
   "parent_note": "Ratzel's anthropogeography, the state as an organism, also shaped it; it is not a node (Grokipedia, The Geographical Pivot of History).",
@@ -32651,7 +32660,9 @@
    "John Hay",
    "William McKinley"
   ],
-  "parents": [],
+  "parents": [
+   "sea_power"
+  ],
   "plain": "The US asked the powers carving China into zones in 1899 to let every country trade there on equal terms and not split China up. It sought markets rather than colonies.",
   "summary": "Hay's 1899-1900 notes asked for equal trade access in China and respect for its integrity; hailed as free trade, it is also read as economic imperialism.",
   "stories": [],
@@ -32678,8 +32689,16 @@
     }
    ]
   },
-  "edge_notes": {},
-  "parent_note": "Grokipedia links it to Mahan's sea-power thinking and the scramble for spheres in China after 1895, neither of which is a node, so it has no parent here.",
+  "edge_notes": {
+   "sea_power": {
+    "status": "documented",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Open_Door_Policy",
+    "note": "Grokipedia: Mahan's 1890 treatise 'profoundly shaped this outlook', backing a navy that could guard distant markets like China without annexation."
+   }
+  },
+  "parent_note": "Grokipedia links it to Mahan's sea-power thinking (now a node and its parent) and the scramble for spheres in China after 1895, which is not a node.",
   "basis": {
    "enlightenment_liberalism": "stance"
   },
@@ -40478,6 +40497,112 @@
    "irony": "Makes its case directly, without ironic distance.",
    "abstraction": "Explains order by concrete things: a leader's navy, currency, loans and open markets.",
    "hierarchy": "Holds that world order works best with one state on top, writing the rules and bearing the costs."
+  }
+ },
+ {
+  "id": "sea_power",
+  "name": "Sea power (Mahan)",
+  "root": false,
+  "root_axis": null,
+  "year": 1890,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/The_Influence_of_Sea_Power_upon_History",
+  "origin_note": "Grokipedia: The Influence of Sea Power upon History, 1660–1783 was published in 1890 in Boston, grown from lectures Mahan gave at the US Naval War College in Newport, Rhode Island, which he led from 1886 to 1889.",
+  "place": "Newport, Rhode Island",
+  "lat": 41.4901,
+  "lon": -71.3128,
+  "thinkers": [
+   "Alfred Thayer Mahan",
+   "Theodore Roosevelt",
+   "Alfred von Tirpitz"
+  ],
+  "parents": [],
+  "plain": "The idea that a nation grows rich and strong by commanding the sea: a big battle fleet, a merchant fleet, and bases abroad to protect its trade routes.",
+  "summary": "Mahan (1890), studying Britain's rise from 1660 to 1783, named six conditions of sea power. It drove US and German navy building before 1914; critics call it geographic determinism.",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/The_Influence_of_Sea_Power_upon_History",
+   "https://grokipedia.com/page/Alfred_Thayer_Mahan",
+   "https://grokipedia.com/page/Theodore_Roosevelt",
+   "https://grokipedia.com/page/Alfred_von_Tirpitz"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "aliases": [
+   "Mahanian sea power",
+   "navalism",
+   "The Influence of Sea Power upon History",
+   "command of the sea"
+  ],
+  "thrives_in": {
+   "historical": false,
+   "places": [
+    {
+     "place": "United States and Germany, 1890s–1914",
+     "period": "1890–1914",
+     "src": "https://grokipedia.com/page/The_Influence_of_Sea_Power_upon_History",
+     "note": "Roosevelt pushed battleships and overseas bases; Tirpitz cited Mahan for Germany's Navy Laws of 1898 and 1900 (Grokipedia)."
+    },
+    {
+     "place": "US–China naval rivalry",
+     "period": "2000s–",
+     "src": "https://grokipedia.com/page/Alfred_Thayer_Mahan",
+     "note": "Grokipedia ties China's blue-water navy and US freedom-of-navigation patrols to Mahanian ideas."
+    }
+   ]
+  },
+  "edge_notes": {},
+  "parent_note": "Grokipedia says Mahan drew on naval history and the strategist Jomini, who is not a node, so it has no parent here. A link from freedom_of_the_seas or mare_clausum would be resemblance only and is held.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 0,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 0,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 2,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -3,
+   "hierarchy": 2
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "No clear debt to, or quarrel with, Christianity.",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "Values commerce, but as a source of national power to be guarded by warships, not as a peaceful harmony of free trade.",
+   "marxism": "No clear debt to, or quarrel with, Marxism.",
+   "darwinism": "No clear debt to, or quarrel with, Darwinism.",
+   "nietzsche": "No clear debt to, or quarrel with, Nietzsche.",
+   "critical_theory": "Comes before Critical theory existed, so it cannot descend from it.",
+   "confucianism": "No clear debt to, or quarrel with, Confucianism.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islam": "No clear debt to, or quarrel with, Islam.",
+   "judaism": "No clear debt to, or quarrel with, Judaism.",
+   "romanticism": "No clear debt to, or quarrel with, Romanticism.",
+   "nationalism": "Ties a nation's greatness to its navy and trade, and urged Americans to build a fleet and bases to match the great powers.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "Built from concrete things: ships, ports, coastlines, coaling stations and trade routes.",
+   "hierarchy": "Sees world politics as a contest in which the power that commands the sea rises over its rivals."
   }
  }
 ]
