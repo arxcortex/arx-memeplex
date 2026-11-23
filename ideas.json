@@ -40604,5 +40604,120 @@
    "abstraction": "Built from concrete things: ships, ports, coastlines, coaling stations and trade routes.",
    "hierarchy": "Sees world politics as a contest in which the power that commands the sea rises over its rivals."
   }
+ },
+ {
+  "id": "haijin",
+  "name": "Haijin (the Ming–Qing sea ban)",
+  "root": false,
+  "root_axis": null,
+  "year": 1371,
+  "year_approx": false,
+  "origin_src": "https://grokipedia.com/page/Haijin",
+  "origin_note": "Grokipedia: the Hongwu Emperor issued the first sea-ban edict in December 1371, reinforced in 1381 and 1394; he ruled from Nanjing, his capital (Grokipedia, Hongwu Emperor).",
+  "place": "Nanjing",
+  "lat": 32.0603,
+  "lon": 118.7969,
+  "thinkers": [
+   "Hongwu Emperor",
+   "Shunzhi Emperor"
+  ],
+  "parents": [
+   "tributary_system"
+  ],
+  "plain": "China's Ming emperors banned private trade and sailing overseas. Foreigners could trade only through official tribute missions. The aim was to keep out pirates and keep the coast under control.",
+  "summary": "From 1371 the Ming banned private sea trade to stop pirates and smugglers; it drove trade into smuggling and wokou raids. Loosened in 1567, revived by the Qing, lifted in 1684.",
+  "stories": [],
+  "sources": [
+   "https://grokipedia.com/page/Haijin",
+   "https://grokipedia.com/page/Hongwu_Emperor",
+   "https://grokipedia.com/page/Shunzhi_Emperor",
+   "https://grokipedia.com/page/Tributary_system_of_China"
+  ],
+  "domain": [
+   "politics"
+  ],
+  "aliases": [
+   "sea ban",
+   "maritime prohibition",
+   "Ming sea ban",
+   "海禁"
+  ],
+  "thrives_in": {
+   "historical": true,
+   "places": [
+    {
+     "place": "Ming China coast",
+     "period": "1371–1567",
+     "src": "https://grokipedia.com/page/Haijin",
+     "note": "Private voyages and ocean-going ships were banned; smuggling and wokou raids grew until the 1567 opening (Grokipedia)."
+    },
+    {
+     "place": "Qing southeast coast",
+     "period": "1661–1684",
+     "src": "https://grokipedia.com/page/Haijin",
+     "note": "The 'Great Clearance' moved coastal people inland to cut off the Ming loyalist Zheng Chenggong (Koxinga) (Grokipedia)."
+    }
+   ]
+  },
+  "edge_notes": {
+   "tributary_system": {
+    "status": "documented",
+    "type": "influence",
+    "strength": "moderate",
+    "src": "https://grokipedia.com/page/Haijin",
+    "note": "Grokipedia: in line with the tributary system, the ban let foreign trade pass only through state-supervised tribute missions (the tally trade)."
+   }
+  },
+  "parent_note": "Grokipedia ties the ban to the tributary system, its parent here. It also says the ban 'aligned with neo-Confucian principles'; that link is a fit of ideas, not a documented debt, and is held.",
+  "ratings": {
+   "platonism": 0,
+   "aristotelianism": 0,
+   "stoicism": 0,
+   "christianity": 0,
+   "gnosticism": 0,
+   "hermeticism": 0,
+   "enlightenment_liberalism": 0,
+   "marxism": 0,
+   "darwinism": 0,
+   "nietzsche": 0,
+   "critical_theory": 0,
+   "confucianism": 2,
+   "daoism": 0,
+   "buddhism": 0,
+   "vedanta": 0,
+   "islam": 0,
+   "judaism": 0,
+   "romanticism": 0,
+   "nationalism": 0,
+   "humor": 0,
+   "irony": 0,
+   "abstraction": -3,
+   "hierarchy": 3
+  },
+  "rationale": {
+   "platonism": "No clear debt to, or quarrel with, Platonism.",
+   "aristotelianism": "No clear debt to, or quarrel with, Aristotelianism.",
+   "stoicism": "No clear debt to, or quarrel with, Stoicism.",
+   "christianity": "No clear debt to, or quarrel with, Christianity.",
+   "gnosticism": "No clear debt to, or quarrel with, Gnosticism.",
+   "hermeticism": "No clear debt to, or quarrel with, Hermeticism.",
+   "enlightenment_liberalism": "No clear debt to, or quarrel with, Enlightenment liberalism.",
+   "marxism": "No clear debt to, or quarrel with, Marxism.",
+   "darwinism": "No clear debt to, or quarrel with, Darwinism.",
+   "nietzsche": "No clear debt to, or quarrel with, Nietzsche.",
+   "critical_theory": "Comes before Critical theory existed, so it cannot descend from it.",
+   "confucianism": "Grokipedia: it fit neo-Confucian ideals of farming and self-sufficiency, which ranked trade low and saw it as a door for foreign influence.",
+   "daoism": "No clear debt to, or quarrel with, Daoism.",
+   "buddhism": "No clear debt to, or quarrel with, Buddhism.",
+   "vedanta": "No clear debt to, or quarrel with, Vedanta.",
+   "islam": "No clear debt to, or quarrel with, Islam.",
+   "judaism": "No clear debt to, or quarrel with, Judaism.",
+   "romanticism": "No clear debt to, or quarrel with, Romanticism.",
+   "nationalism": "Comes before modern nationalism; it guarded a dynasty and its coasts, not a nation-state.",
+   "humor": "Not expressed through jokes or play.",
+   "irony": "Makes its case directly, without ironic distance.",
+   "abstraction": "A set of concrete rules: who may build ships, sail, trade or live on the coast.",
+   "hierarchy": "Kept sea trade in the state's hands and tied it to tribute that put the emperor above foreign rulers."
+  }
  }
 ]
